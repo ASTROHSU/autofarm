@@ -52,12 +52,36 @@
       "Bash(launchctl load /Users/fymn/Library/LaunchAgents/com.autofarm.scheduled.plist)",
       "Bash(launchctl list)",
       "Bash(git init)",
-      "Bash(git add -A)"
+      "Bash(git add -A)",
+      "Bash(gh repo create autofarm --private --source=. --push)",
+      "Bash(gh secret list)",
+      "Bash(gh workflow run autofarm.yml)",
+      "Bash(gh run list --limit 1)",
+      "Bash(gh run watch 23038222154 --exit-status)",
+      "Bash(gh run view 23038222154 --log)",
+      "Bash(gh run watch 23038259022 --exit-status)",
+      "WebFetch(domain:across.to)",
+      "WebFetch(domain:forum.across.to)",
+      "WebFetch(domain:www.theblock.co)",
+      "WebFetch(domain:thedefiant.io)",
+      "WebFetch(domain:www.dlnews.com)",
+      "mcp__claude_ai_Notion__notion-update-page",
+      "WebFetch(domain:daodu.tech)",
+      "WebFetch(domain:frankchiu.io)",
+      "WebFetch(domain:www.facebook.com)",
+      "WebFetch(domain:web.archive.org)",
+      "Read(//Users/fymn/Downloads/Takeout/**)",
+      "WebFetch(domain:bitcoinke.io)",
+      "WebFetch(domain:cointelegraph.com)",
+      "WebFetch(domain:x.com)",
+      "Bash(gh run view 23038259022 --log)",
+      "Bash(gh run view 23038259022)"
     ],
     "additionalDirectories": [
       "/Users/fymn/.claude/projects/-Users-fymn-autofarm",
       "/Users/fymn/autofarm/.claude/skills",
-      "/Users/fymn/Library/LaunchAgents"
+      "/Users/fymn/Library/LaunchAgents",
+      "/Users/fymn/autofarm/.claude/skills/parse"
     ]
   }
 }
