@@ -1,0 +1,11 @@
+.env
+.venv/
+output/
+data/seen.json
+data/pending.json
+data/x_following.json
+data/cron.log
+data/launchd_stdout.log
+data/launchd_stderr.log
+__pycache__/
+*.pyc

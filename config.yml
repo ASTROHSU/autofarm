@@ -1,0 +1,37 @@
+sources:
+  - name: "Galaxy Research"
+    type: webpage
+    url: "https://www.galaxy.com/insights/research"
+    article_selector: 'a[href*="weekly-top-stories"]'
+    multi_story: true
+
+  - name: "EthDaily"
+    type: rss
+    url: "https://api.paragraph.com/blogs/rss/@ethdaily.io"
+    multi_story: true
+
+  - name: "Techmeme Crypto"
+    type: webpage
+    url: "https://www.techmeme.com/search/query?q=crypto&wm=false"
+    article_selector: ".item strong a"
+
+  - name: "Citation Needed"
+    type: rss
+    url: "https://www.citationneeded.news/rss/"
+
+  - name: "Tokenized Podcast"
+    type: youtube
+    channel_id: "UC8SaXHFAqVHUjE2OLUFakjw"
+    url: "https://www.youtube.com/@TokenizedPodcast"
+
+  # Matt Levine: archive.ph 擋爬蟲，暫時無法自動抓取
+  # 手動模式：讀到想摘要的文章時直接丟給 Claude 用 /parse + /draft
+
+x_settings:
+  username: "mnhsuTW"
+  filter_following: false
+
+# 說明：
+# type: rss      → 標準 RSS feed，用 feedparser 抓取
+# type: webpage  → 網頁，用 requests + bs4 抓文章連結清單
+# article_selector → CSS selector 找到文章連結（type: webpage 才需要）
