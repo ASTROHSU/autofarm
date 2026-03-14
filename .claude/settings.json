@@ -75,7 +75,22 @@
       "WebFetch(domain:cointelegraph.com)",
       "WebFetch(domain:x.com)",
       "Bash(gh run view 23038259022 --log)",
-      "Bash(gh run view 23038259022)"
+      "Bash(gh run view 23038259022)",
+      "WebFetch(domain:www.coindesk.com)",
+      "WebFetch(domain:blog.uniswap.org)",
+      "Bash(head -5 /Users/fymn/autofarm/output/2026-03-13/*.md)",
+      "Bash(pip install fastapi uvicorn jinja2)",
+      "Bash(timeout 8 python -m web.app)",
+      "Bash(python -c \"from notion_client import Client; print\\(dir\\(Client\\(auth=''test''\\).databases\\)\\)\")",
+      "Bash(pip show notion-client)",
+      "Bash(lsof -ti:8000)",
+      "Bash(xargs kill)",
+      "Read(//private/tmp/**)",
+      "Bash(pip3 show uvicorn)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/)",
+      "Bash(launchctl unload ~/Library/LaunchAgents/com.autofarm.scheduled.plist)",
+      "Bash(launchctl load ~/Library/LaunchAgents/com.autofarm.scheduled.plist)",
+      "Bash(git add .github/workflows/autofarm.yml web/ draft-lessons.md CLAUDE.md prompts/auto_draft.md .claude/settings.json)"
     ],
     "additionalDirectories": [
       "/Users/fymn/.claude/projects/-Users-fymn-autofarm",
