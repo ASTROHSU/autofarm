@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoFarm Digest</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background: #faf9f6;
+    color: #1a1a1a;
+    line-height: 1.8;
+  }
+
+  header {
+    background: linear-gradient(135deg, #0d1b2a 0%, #1b2838 100%);
+    color: #fff;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  header p {
+    font-size: 14px;
+    color: #b0b8c4;
+    font-weight: 300;
+  }
+
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+
+  .section-title {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #e8a87c;
+    text-transform: uppercase;
+    margin: 40px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e8e4df;
+  }
+
+  .card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 16px 0;
+    border-bottom: 1px solid #f0ece6;
+    transition: background 0.15s;
+  }
+
+  .card:hover {
+    background: #f5f0eb;
+    margin: 0 -12px;
+    padding: 16px 12px;
+    border-radius: 8px;
+  }
+
+  .card-date {
+    font-size: 12px;
+    color: #999;
+    font-weight: 400;
+  }
+
+  .card-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0d1b2a;
+    margin: 4px 0;
+  }
+
+  .card-type {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: 500;
+    margin-right: 8px;
+  }
+
+  .type-digest {
+    background: #e8f4f8;
+    color: #2a6f8a;
+  }
+
+  .type-morning {
+    background: #fef3e2;
+    color: #b8860b;
+  }
+
+  .type-evening {
+    background: #f0e6f6;
+    color: #7b4f9d;
+  }
+
+  .empty {
+    text-align: center;
+    padding: 60px 24px;
+    color: #999;
+    font-size: 14px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 12px;
+    color: #ccc;
+  }
+
+  #loading {
+    text-align: center;
+    padding: 40px;
+    color: #999;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>AutoFarm Digest</h1>
+  <p>每日電子報摘要與深度故事</p>
+</header>
+
+<main id="content">
+  <div id="loading">載入中⋯</div>
+</main>
+
+<footer>
+  AutoFarm — AI 驅動的新聞摘要與分析
+</footer>
+
+<script>
+// manifest.json 由排程任務自動更新
+fetch('manifest.json')
+  .then(r => r.json())
+  .then(data => {
+    const main = document.getElementById('content');
+    main.innerHTML = '';
+
+    if (!data.entries || data.entries.length === 0) {
+      main.innerHTML = '<div class="empty">目前還沒有內容</div>';
+      return;
+    }
+
+    // 按日期分組，最新的在前
+    const byDate = {};
+    data.entries.forEach(e => {
+      const date = e.date || 'unknown';
+      if (!byDate[date]) byDate[date] = [];
+      byDate[date].push(e);
+    });
+
+    const sortedDates = Object.keys(byDate).sort().reverse();
+
+    sortedDates.forEach(date => {
+      const section = document.createElement('div');
+      const title = document.createElement('div');
+      title.className = 'section-title';
+      title.textContent = date;
+      section.appendChild(title);
+
+      // 排序：日報 > 早晨版 > 晚間版
+      const order = { digest: 0, morning: 1, evening: 2 };
+      byDate[date].sort((a, b) => (order[a.type] || 9) - (order[b.type] || 9));
+
+      byDate[date].forEach(entry => {
+        const a = document.createElement('a');
+        a.className = 'card';
+        a.href = entry.path;
+
+        const typeLabels = {
+          digest: ['日報', 'type-digest'],
+          morning: ['早晨版', 'type-morning'],
+          evening: ['晚間版', 'type-evening']
+        };
+        const [label, cls] = typeLabels[entry.type] || ['文章', 'type-digest'];
+
+        a.innerHTML = `
+          <div class="card-date">
+            <span class="card-type ${cls}">${label}</span>
+            ${entry.date}
+          </div>
+          <div class="card-title">${entry.title}</div>
+        `;
+        section.appendChild(a);
+      });
+
+      main.appendChild(section);
+    });
+  })
+  .catch(() => {
+    document.getElementById('content').innerHTML =
+      '<div class="empty">尚未建立內容索引</div>';
+  });
+</script>
+
+</body>
+</html>

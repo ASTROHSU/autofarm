@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "type": "digest",
+      "date": "2026-03-18",
+      "title": "每日摘要 2026-03-18",
+      "path": "digest/2026-03-18.html"
+    },
+    {
+      "type": "evening",
+      "date": "2026-03-18",
+      "title": "華爾街搬上鏈",
+      "path": "stories/story_2026-03-18_晚間版_華爾街搬上鏈.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-17",
+      "title": "每日摘要 2026-03-17",
+      "path": "digest/2026-03-17.html"
+    },
+    {
+      "type": "evening",
+      "date": "2026-03-17",
+      "title": "Meta 放棄 Instagram 加密",
+      "path": "stories/story_2026-03-17_晚間版_Meta放棄Instagram加密.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-16",
+      "title": "每日摘要 2026-03-16",
+      "path": "digest/2026-03-16.html"
+    }
+  ]
+}

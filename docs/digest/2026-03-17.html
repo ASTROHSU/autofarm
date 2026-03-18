@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日電子報摘要｜2026.03.17</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "system-ui", "-apple-system", "Segoe UI", sans-serif;
+      background: #fff;
+      color: #1a1a1a;
+      line-height: 1.75;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    header {
+      border-bottom: 2px solid #1a1a1a;
+      padding-bottom: 16px;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+    header p {
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: 4px;
+    }
+    article {
+      margin-bottom: 48px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    article:last-of-type {
+      border-bottom: none;
+    }
+    article h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 6px;
+    }
+    article h2 a {
+      color: #1a1a1a;
+      text-decoration: none;
+    }
+    article h2 a:hover {
+      text-decoration: underline;
+    }
+    .source {
+      font-size: 0.82rem;
+      color: #888;
+      margin-bottom: 16px;
+    }
+    .summary p {
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+    .chart {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .chart svg {
+      max-width: 100%;
+      height: auto;
+    }
+    .discussions {
+      margin-top: 20px;
+      padding: 16px;
+      background: #fafafa;
+      border-radius: 6px;
+    }
+    .discussions h3 {
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #555;
+    }
+    .discussions ul {
+      list-style: none;
+      padding: 0;
+    }
+    .discussions li {
+      font-size: 0.85rem;
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+    .discussions a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .discussions a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 16px;
+      border-top: 1px solid #e5e5e5;
+      font-size: 0.8rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>每日電子報摘要｜2026.03.17</h1>
+  <p>來源：Stratechery、Big Technology、Opening Bell Daily、DL News、Macro Notes、Bankless、Garbage Day、Citation Needed</p>
+</header>
+
+<!-- 1. Hormuz 能源危機 — 有 SVG，影響全球，數字最大 -->
+<article>
+  <h2><a href="https://macronotes.substack.com/p/the-100-trillion-energy-crisis-nobody">荷莫茲海峽封鎖：不只是石油，是整條能源供應鏈斷裂</a></h2>
+  <p class="source">Macro Notes · 2026.03.16</p>
+
+  <div class="summary">
+    <p>全球 20% 的石油、20% 的液化天然氣、30% 的歐洲柴油，以及印度 90% 的家用瓦斯進口，全部經過荷莫茲海峽這條 21 英里寬的水道。2 月 28 日美國與以色列空襲伊朗後，伊朗革命衛隊宣布封鎖海峽，商業航運從每天 50 艘油輪瞬間歸零。</p>
+    <p>截至 3 月 10 日，984 艘油輪滯留中東海域，佔全球船隊 22%。沙烏地阿拉伯的陸上旁通管線每天可輸送約 500 萬桶原油，勉強維持石油供應。但天然氣、柴油、瓦斯沒有旁通方案——卡達宣布不可抗力、歐洲天然氣單日暴漲 40%，印度坦米爾納德邦一週內有一萬家餐廳歇業。市場都盯著油價，真正沒有解方的危機其實在液化天然氣和精煉產品。</p>
+  </div>
+
+  <div class="chart">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+      <defs>
+        <marker id="hormuz-arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" fill="#e74c3c">
+          <polygon points="0 0, 10 3.5, 0 7" />
+        </marker>
+      </defs>
+      <rect width="600" height="600" fill="#fff"/>
+      <!-- Title -->
+      <text x="300" y="36" text-anchor="middle" font-size="16" font-weight="600" font-family="system-ui, sans-serif" fill="#1a1a1a">荷莫茲海峽封鎖：有旁通 vs 無旁通</text>
+      <!-- Left: Oil has bypass -->
+      <rect x="30" y="70" width="250" height="220" rx="8" fill="#e8f5e9" stroke="#4caf50" stroke-width="1.5"/>
+      <text x="155" y="96" text-anchor="middle" font-size="13" font-weight="600" font-family="system-ui, sans-serif" fill="#2e7d32">石油：有旁通管線</text>
+      <text x="155" y="122" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">沙烏地 Yanbu 管線</text>
+      <text x="155" y="142" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">（1,200 km，700 萬桶/日）</text>
+      <text x="155" y="168" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">阿聯酋管線</text>
+      <text x="155" y="188" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">（150 萬桶/日）</text>
+      <text x="155" y="218" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">IEA 戰略儲備釋出</text>
+      <text x="155" y="238" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">（32 國、4 億桶）</text>
+      <text x="155" y="270" text-anchor="middle" font-size="12" font-weight="600" font-family="system-ui, sans-serif" fill="#2e7d32">合計：~500 萬桶/日（原需 2,000 萬）</text>
+      <!-- Right: No bypass -->
+      <rect x="320" y="70" width="250" height="220" rx="8" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/>
+      <text x="445" y="96" text-anchor="middle" font-size="13" font-weight="600" font-family="system-ui, sans-serif" fill="#c62828">其他能源：無旁通方案</text>
+      <text x="445" y="128" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">液化天然氣（LNG）</text>
+      <text x="445" y="148" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#666">卡達不可抗力，歐洲氣價單日 +40%</text>
+      <text x="445" y="178" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">柴油 / 航空燃油</text>
+      <text x="445" y="198" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#666">歐洲 30% 柴油、50% 航空燃油斷供</text>
+      <text x="445" y="228" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">家用瓦斯（LPG）</text>
+      <text x="445" y="248" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#666">印度 90% 進口中斷</text>
+      <text x="445" y="270" text-anchor="middle" font-size="12" font-weight="600" font-family="system-ui, sans-serif" fill="#c62828">替代方案：零</text>
+      <!-- Bottom: Impact chain -->
+      <rect x="30" y="320" width="540" height="110" rx="8" fill="#fff3e0" stroke="#ff9800" stroke-width="1.5"/>
+      <text x="300" y="348" text-anchor="middle" font-size="13" font-weight="600" font-family="system-ui, sans-serif" fill="#e65100">衝擊鏈</text>
+      <text x="80" y="378" font-size="11" font-family="system-ui, sans-serif" fill="#333">984 艘油輪滯留</text>
+      <line x1="195" y1="374" x2="230" y2="374" stroke="#e74c3c" stroke-width="1.5" marker-end="url(#hormuz-arrow)"/>
+      <text x="240" y="378" font-size="11" font-family="system-ui, sans-serif" fill="#333">油價破 $100</text>
+      <line x1="340" y1="374" x2="375" y2="374" stroke="#e74c3c" stroke-width="1.5" marker-end="url(#hormuz-arrow)"/>
+      <text x="385" y="378" font-size="11" font-family="system-ui, sans-serif" fill="#333">通膨疑慮升溫</text>
+      <text x="80" y="410" font-size="11" font-family="system-ui, sans-serif" fill="#333">印度萬家餐廳歇業</text>
+      <line x1="220" y1="406" x2="255" y2="406" stroke="#e74c3c" stroke-width="1.5" marker-end="url(#hormuz-arrow)"/>
+      <text x="265" y="410" font-size="11" font-family="system-ui, sans-serif" fill="#333">歐洲天然氣儲量僅剩 30%</text>
+      <!-- Bottom: Structural shift -->
+      <rect x="30" y="460" width="540" height="110" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5"/>
+      <text x="300" y="488" text-anchor="middle" font-size="13" font-weight="600" font-family="system-ui, sans-serif" fill="#0d47a1">結構性轉向（不是短期交易）</text>
+      <text x="300" y="516" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">日本 87%、韓國 81% 能源經荷莫茲 → 長約轉向美國/澳洲 LNG</text>
+      <text x="300" y="540" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">各國加速核能、再生能源、戰略儲備擴建</text>
+      <text x="300" y="560" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#666">（與 18 個月前歐洲國防支出的結構性轉向邏輯相同）</text>
+    </svg>
+  </div>
+
+  <div class="discussions">
+    <h3>相關討論</h3>
+    <ul>
+      <li><a href="https://x.com/WSJ/status/2030780560465957194">@WSJ</a>：荷莫茲海峽航運歸零，釋出自 1970 年代以來最嚴重的能源危機，油價上漲近 60%。</li>
+      <li><a href="https://x.com/UN_News_Centre/status/2031687599417684135">@UN_News_Centre</a>：每日船舶通行從 141 艘驟降至 4-5 艘，全球貿易與供應鏈嚴重中斷。</li>
+    </ul>
+  </div>
+</article>
+
+<!-- 2. Stratechery: Agents Over Bubbles — 有 SVG -->
+<article>
+  <h2><a href="https://stratechery.com/2026/agents-over-bubbles/">Ben Thompson：AI Agent 讓泡沫論站不住腳</a></h2>
+  <p class="source">Stratechery · 2026.03.16</p>
+
+  <div class="summary">
+    <p>Stratechery 的 Ben Thompson 過去一直認為 AI 資本支出「就算是泡沫也值得」，在 Nvidia GTC 前夕他改變了看法：這不是泡沫。他提出三個 LLM 典範轉移——2022 年 ChatGPT 讓世界看見能力、2024 年 o1 讓推理大幅提升可靠度、2025 年底 Opus 4.5 加上 Claude Code 的 harness 讓 agent 真正可以獨立完成任務。關鍵在第三個典範：agent 需要的不只是模型，而是模型與 harness 的整合。</p>
+    <p>Microsoft 上週推出 Copilot Cowork（企業版 Claude Cowork），新的 E7 方案每人每月 $99，是 E5 的兩倍。這等於承認：模型不是通用零件，agent 產品需要特定整合。Thompson 認為 Anthropic 和 OpenAI 因此處於價值鏈的整合位置，獲利潛力比多數人預期的更大。一個人可以同時操控多個 agent，少數有「能動性」的人就能吃掉大量算力需求——企業裁員潮恐怕不只是修正疫情期間的過度招募。</p>
+  </div>
+
+  <div class="chart">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+      <defs>
+        <marker id="strat-arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" fill="#5c6bc0">
+          <polygon points="0 0, 10 3.5, 0 7" />
+        </marker>
+      </defs>
+      <rect width="600" height="600" fill="#fff"/>
+      <text x="300" y="36" text-anchor="middle" font-size="16" font-weight="600" font-family="system-ui, sans-serif" fill="#1a1a1a">三個 LLM 典範轉移 → 算力需求指數成長</text>
+      <!-- Paradigm 1 -->
+      <rect x="40" y="60" width="160" height="180" rx="8" fill="#e8eaf6" stroke="#5c6bc0" stroke-width="1.5"/>
+      <text x="120" y="86" text-anchor="middle" font-size="12" font-weight="600" font-family="system-ui, sans-serif" fill="#283593">典範一：ChatGPT</text>
+      <text x="120" y="106" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#333">2022 年 11 月</text>
+      <text x="120" y="132" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#555">模型直接輸出答案</text>
+      <text x="120" y="152" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#555">常出錯、會幻覺</text>
+      <text x="120" y="172" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#555">使用者需要主動管理</text>
+      <text x="120" y="200" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#283593">訓練吃算力</text>
+      <text x="120" y="220" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#283593">推論相對輕量</text>
+      <!-- Arrow 1->2 -->
+      <line x1="205" y1="150" x2="225" y2="150" stroke="#5c6bc0" stroke-width="1.5" marker-end="url(#strat-arrow)"/>
+      <!-- Paradigm 2 -->
+      <rect x="230" y="60" width="160" height="180" rx="8" fill="#e8eaf6" stroke="#5c6bc0" stroke-width="1.5"/>
+      <text x="310" y="86" text-anchor="middle" font-size="12" font-weight="600" font-family="system-ui, sans-serif" fill="#283593">典範二：o1 推理</text>
+      <text x="310" y="106" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#333">2024 年 9 月</text>
+      <text x="310" y="132" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#555">模型自我推理再輸出</text>
+      <text x="310" y="152" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#555">準確度大幅提升</text>
+      <text x="310" y="172" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#555">推理需要大量 token</text>
+      <text x="310" y="200" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#283593">推論算力暴增</text>
+      <text x="310" y="220" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#283593">（推理 token + 更多使用）</text>
+      <!-- Arrow 2->3 -->
+      <line x1="395" y1="150" x2="415" y2="150" stroke="#5c6bc0" stroke-width="1.5" marker-end="url(#strat-arrow)"/>
+      <!-- Paradigm 3 -->
+      <rect x="420" y="60" width="160" height="180" rx="8" fill="#c5cae9" stroke="#283593" stroke-width="2"/>
+      <text x="500" y="86" text-anchor="middle" font-size="12" font-weight="600" font-family="system-ui, sans-serif" fill="#283593">典範三：Agent</text>
+      <text x="500" y="106" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#333">2025 年底～至今</text>
+      <text x="500" y="132" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#555">模型 + harness 整合</text>
+      <text x="500" y="152" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#555">自主完成任務並驗證</text>
+      <text x="500" y="172" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#555">使用者可抽離</text>
+      <text x="500" y="200" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#283593">算力再次指數跳升</text>
+      <text x="500" y="220" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#283593">（多次模型呼叫 + CPU）</text>
+      <!-- Value chain section -->
+      <rect x="40" y="280" width="520" height="130" rx="8" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+      <text x="300" y="308" text-anchor="middle" font-size="13" font-weight="600" font-family="system-ui, sans-serif" fill="#f57f17">價值鏈啟示：整合者獲利</text>
+      <text x="300" y="336" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">Agent = 模型 + Harness 整合 → 不是通用零件</text>
+      <text x="300" y="362" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">Anthropic（Claude Code）、OpenAI（Codex）掌握整合</text>
+      <text x="300" y="388" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#333">Microsoft 承認需要 Anthropic → Copilot Cowork（E7 方案 $99/月）</text>
+      <!-- Bottom: Implications -->
+      <rect x="40" y="440" width="250" height="130" rx="8" fill="#e8f5e9" stroke="#4caf50" stroke-width="1.5"/>
+      <text x="165" y="466" text-anchor="middle" font-size="12" font-weight="600" font-family="system-ui, sans-serif" fill="#2e7d32">非泡沫論據</text>
+      <text x="165" y="492" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#333">每個超大規模雲端商都說</text>
+      <text x="165" y="510" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#333">算力需求超過供給</text>
+      <text x="165" y="534" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#333">少數人操控多個 agent</text>
+      <text x="165" y="552" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#333">= 需求不需要大規模使用者採用</text>
+      <rect x="310" y="440" width="250" height="130" rx="8" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/>
+      <text x="435" y="466" text-anchor="middle" font-size="12" font-weight="600" font-family="system-ui, sans-serif" fill="#c62828">企業衝擊</text>
+      <text x="435" y="492" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#333">企業將裁員至「AI 時代」規模</text>
+      <text x="435" y="510" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#333">不只修正過度招募</text>
+      <text x="435" y="534" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#333">Meta 計畫裁員 20%</text>
+      <text x="435" y="552" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif" fill="#333">（~15,800 人）</text>
+    </svg>
+  </div>
+
+  <div class="discussions">
+    <h3>相關討論</h3>
+    <ul>
+      <li><a href="https://x.com/kimmonismus/status/2033669674622455868">@kimmonismus</a>：Jensen Huang 在 GTC 主題演講中宣布 Blackwell 和 Vera 晶片取得 $1 兆採購訂單。</li>
+      <li><a href="https://x.com/WOLF_Financial/status/2032626560679948628">@WOLF_Financial</a>：Meta 計畫裁員逾 20%（約 15,800 人），為 2022-23 年「效率年」以來最大規模。</li>
+    </ul>
+  </div>
+</article>
+
+<!-- 3. Nvidia GTC + AI 公眾形象 -->
+<article>
+  <h2><a href="https://www.bigtechnology.com/p/at-nvidias-gtc-jensen-huang-will">Nvidia GTC：黃仁勳得先說服大眾 AI 值得蓋資料中心</a></h2>
+  <p class="source">Big Technology · 2026.03.16</p>
+
+  <div class="summary">
+    <p>Nvidia 每年的 GTC 大會通常聚焦產品路線圖，今年的議題卻更偏政治。NBC 最新民調顯示，多數美國人認為 AI 的風險大於好處；YouGov 調查則發現美國人認為 AI 會傷害自己的比例是認為有幫助的三倍。Pew 的報告進一步指出，民眾認為資料中心對環境、電費和生活品質都有害。約有十二個州已提出法案進一步管制或暫停資料中心建設。</p>
+    <p>黃仁勳上週罕見地親自寫了一篇部落格文章，把 AI 包裝成「就業創造者」，強調資料中心建設需要電工、水管工、鋼鐵工人。但現實是：今年預定上線的資料中心有一半可能延遲，原因包括社區反對以及電力和設備限制。同期 Anthropic 正式控告美國政府對其施加的「供應鏈風險」標籤，稱此舉已讓至少 100 家企業客戶提出合約疑慮，可能影響數億至數十億美元營收。</p>
+  </div>
+
+  <div class="discussions">
+    <h3>相關討論</h3>
+    <ul>
+      <li><a href="https://x.com/REXShares/status/2030997269160366129">@REXShares</a>：GTC 2026 在聖荷西舉辦，逾三萬人參加，黃仁勳主題演講聚焦新晶片架構。</li>
+      <li><a href="https://x.com/FT/status/2031046882252726572">@FT</a>：Anthropic 控告五角大廈「供應鏈風險」標籤。</li>
+      <li><a href="https://x.com/rohanpaul_ai/status/2027885150344974390">@rohanpaul_ai</a>：若該禁令落實，Amazon 和 Google 可能被迫將 Anthropic 從系統中移除。</li>
+    </ul>
+  </div>
+</article>
+
+<!-- 4. Meta 裁員 20% -->
+<article>
+  <h2><a href="https://www.bigtechnology.com/p/at-nvidias-gtc-jensen-huang-will">Meta 計畫裁員 20%，為 AI 資料中心騰出預算</a></h2>
+  <p class="source">Big Technology · 2026.03.16</p>
+
+  <div class="summary">
+    <p>Meta 目前約有 79,000 名員工，2022-23 年的「效率年」已經歷過兩輪大規模裁員。這次不同的是，驅動力不是營收下滑，而是公司計畫在 2028 年前投入 $6,000 億建設資料中心——這筆錢需要從某個地方擠出來。</p>
+    <p>消息指出 Meta 正在規劃影響至少 20%（約 15,800 人）的裁員。同一時間，代號「Avocado」的新 AI 模型也因效能問題推遲發布。Ben Thompson 在同一天的 Stratechery 文章中指出，企業正在重新計算「AI 時代」的合理人力規模——裁得多比裁得少更「面向未來」，因為更精簡的 AI 原生競爭者很快就會追上來。</p>
+  </div>
+
+  <div class="discussions">
+    <h3>相關討論</h3>
+    <ul>
+      <li><a href="https://x.com/KobeissiLetter/status/2032926750598987983">@KobeissiLetter</a>：裁員目的是抵銷高昂的 AI 基礎建設投資，資金流向 2028 年前的大規模資料中心建置。</li>
+      <li><a href="https://x.com/TechCrunch/status/2032857104269324671">@TechCrunch</a>：Meta 據報考慮裁員 20%。</li>
+    </ul>
+  </div>
+</article>
+
+<!-- 5. Fed 利率 / Warsh -->
+<article>
+  <h2><a href="https://www.openingbelldailynews.com/p/fed-rate-cuts-economic-outlook-powell-warsh-doj-policy-trump">DOJ 敗訴，Warsh 接任聯準會主席的路打通了</a></h2>
+  <p class="source">Opening Bell Daily · 2026.03.16</p>
+
+  <div class="summary">
+    <p>共和黨參議員 Thom Tillis 一直以司法部對 Powell 的調查為由，拒絕在銀行委員會放行 Kevin Warsh 的聯準會主席提名。Tillis 一人就能製造 12:12 僵局，讓提名卡關。Powell 的任期 5 月 15 日屆滿，如果沒有繼任者通過確認，Powell 留任——這是川普最不想看到的結果。</p>
+    <p>上週五法官 James Boasberg 駁回 DOJ 對 Powell 的調查，認定這是逼迫降息的藉口。Tillis 隨即稱該調查「薄弱且無謂」，暗示將解除封鎖。Warsh 已公開表態對降息持開放態度，Wells Fargo 預測他若上任將在下半年降息兩次。但 CME 資料顯示交易員連一次降息都不太相信。伊朗衝突推升的通膨疑慮，讓最可能受惠於降息的小型股和區域銀行反而遭到拋售。</p>
+  </div>
+
+  <div class="discussions">
+    <h3>相關討論</h3>
+    <ul>
+      <li><a href="https://x.com/SenThomTillis/status/2017221633287590355">@SenThomTillis</a>：Warsh 資歷合格，但 DOJ 對 Powell 的調查讓他無法投票放行。</li>
+      <li><a href="https://x.com/elerianm/status/2017204742728851773">@elerianm</a>：Mohamed El-Erian 恭賀 Warsh 獲提名領導聯準會。</li>
+    </ul>
+  </div>
+</article>
+
+<!-- 6. Illinois 加密 PAC -->
+<article>
+  <h2><a href="https://dlnews-the-guidance.beehiiv.com/p/illinois-battle-royale">伊利諾州參議員初選：加密 PAC 砸 $990 萬對決 Pritzker 的 $500 萬</a></h2>
+  <p class="source">DL News (The Guidance) · 2026.03.16</p>
+
+  <div class="summary">
+    <p>加密產業的政治獻金能力在 2024 年已經得到驗證——當年超級政治行動委員會支持的 42 場初選中，贏了 36 場。2026 年到目前為止，加密遊說總支出已達 $2.71 億。這次最大的考驗是明天（3 月 17 日）的伊利諾州民主黨參議員初選。</p>
+    <p>加密 PAC 花了 $990 萬攻擊現任副州長 Juliana Stratton，支持「強力挺加密」的眾議員 Raja Krishnamoorthi。Stratton 的盟友是伊利諾州億萬富翁州長 JB Pritzker（可能參選 2028 總統），他捐了 $500 萬支持 Stratton。Elizabeth Warren 在芝加哥造勢時直接說這場選舉是「加密產業能不能用錢買下任何想要的候選人」的測試案例。Krishnamoorthi 的總募款額至少 $3,000 萬。</p>
+  </div>
+
+  <div class="discussions">
+    <h3>相關討論</h3>
+    <ul>
+      <li><a href="https://x.com/FrankCalabrese/status/2027149041843282420">@FrankCalabrese</a>：Fairshake 加密 PAC 在伊利諾州投放攻擊 Stratton 的廣告。</li>
+      <li><a href="https://x.com/s_lutz95/status/2019159195619307997">@s_lutz95</a>：Fairshake 宣布期中選舉 $1.93 億戰備基金，參議院民主黨人急於通過加密市場結構法案。</li>
+    </ul>
+  </div>
+</article>
+
+<!-- 7. ETH 漲幅 -->
+<article>
+  <h2><a href="https://bankless.ghost.io/eth-optimistic-pump/">ETH 週漲 18%，加密市場總值回到 $2.54 兆</a></h2>
+  <p class="source">Bankless · 2026.03.16</p>
+
+  <div class="summary">
+    <p>以太幣長期以來是加密市場裡表現最讓持有者焦慮的大型資產，從 2024 年底到 2026 年初的走勢一直落後比特幣。最近市場情緒翻轉，部分原因是伊朗局勢讓油輪一度准許通過荷莫茲海峽，股市鬆了一口氣。加密市場的漲幅則遠超過高成長科技股。</p>
+    <p>ETH 單日漲 9.19%、週漲 16.9%，報 $2,360；BTC 漲至 $74,624（週漲 8.4%）；加密市場總值 $2.54 兆（週漲 9.5%）。同期 OpenSea 基金會再次延後代幣發行，Aave 則針對上週那筆蒸發 $5,000 萬的換幣事件發布事後報告，宣布將推出「Aave Shield」保護機制。阿根廷方面，調查將 $500 萬的付款與總統 Milei 推廣 LIBRA 迷因幣的行為串聯起來。</p>
+  </div>
+</article>
+
+<!-- 8. Oscars / 好萊塢 / 串流 -->
+<article>
+  <h2><a href="https://www.garbageday.email/p/the-death-loop-of-streaming">奧斯卡的慶祝與葬禮：好萊塢正面對串流的「死亡迴圈」</a></h2>
+  <p class="source">Garbage Day · 2026.03.16</p>
+
+  <div class="summary">
+    <p>昨晚的奧斯卡本該是好萊塢「回來了」的宣言——Sinners 和 One Battle After Another 各拿四座獎、恐怖片大放異彩、Ryan Coogler 和 Chloé Zhao 總算從漫威煉獄翻身。但主持人 Conan O'Brien 整晚都在嘲諷 Netflix、Amazon、短影音和生成式 AI，最後一個笑話是 MrBeast 取代他當主持人。2029 年起，奧斯卡將在 YouTube 播出。</p>
+    <p>這個產業真的不太好。編劇工會正在醞釀再次罷工；串流平台持續漲價同時降低服務品質；川普時代的科技媒體壟斷讓平台發現「建造永動的個人化劣質內容機器」比製作經得起時間考驗的電影更賺錢。同期 ByteDance 因好萊塢片廠的法律施壓，暫停了 AI 影片生成器 Seedance 2.0 的全球發布。Meta 則被發現正在各州推動年齡驗證法案，背後動機可能是：用作業系統層級的身份驗證來對抗 AI 產生的垃圾內容。</p>
+  </div>
+</article>
+
+<!-- 9. Citation Needed - Molly White -->
+<article>
+  <h2><a href="https://www.citationneeded.news/">Justin Sun 用錢擺平 SEC 詐欺案，Binance 的伊朗交易引來 DOJ 調查</a></h2>
+  <p class="source">Citation Needed (Molly White) · Issue 102 · 2026.03.16</p>
+
+  <div class="summary">
+    <p>Molly White 的 Citation Needed 是加密產業最尖銳的獨立監督電子報。本期的主題標題「The public will pay」點出一個模式：加密產業的法律問題最終往往由散戶或納稅人買單。Justin Sun 是 Tron 區塊鏈的創辦人，過去因 SEC 指控的詐欺案纏訟多時。</p>
+    <p>Sun 與 SEC 達成和解，等於花錢讓問題消失。同期，Binance 因涉及伊朗相關交易遭 DOJ 調查，而 Binance 反過來控告報導此事的媒體。加密超級政治行動委員會則持續在期中選舉中大量撒錢（本期呼應 DL News 的伊利諾州初選報導）。White 追蹤的 Follow the Crypto 網站顯示，加密遊說 2026 年已支出 $2.71 億。</p>
+  </div>
+</article>
+
+<footer>
+  <p>本摘要由自動工作流產出，內容基於 2026 年 3 月 16-17 日收到的電子報。YouTube 頻道因技術限制未能掃描，本期無影片摘要。</p>
+</footer>
+
+</body>
+</html>
