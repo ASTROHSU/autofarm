@@ -7,9 +7,10 @@
 # source_html_path: 來源 HTML 檔案的完整路徑
 #
 # 此腳本會：
-# 1. 將 HTML 檔案複製到 docs/ 對應資料夾
+# 1. 將 HTML 檔案複製到 autofarm/docs/ 對應資料夾（本地備份）
 # 2. 更新 manifest.json（新增條目、去重）
-# 3. git add + commit + push
+# 3. git add + commit + push autofarm repo
+# 4. 同步 docs/ 內容到 digest repo，push 上線到 share.blocktrend.today/digest/
 
 set -e
 
@@ -17,14 +18,15 @@ TYPE="$1"
 DATE="$2"
 TITLE="$3"
 SOURCE="$4"
-REPO_DIR="/Users/fymn/autofarm"
+AUTOFARM_DIR="/Users/fymn/autofarm"
+DIGEST_DIR="/Users/fymn/digest"
 
 if [ -z "$TYPE" ] || [ -z "$DATE" ] || [ -z "$TITLE" ] || [ -z "$SOURCE" ]; then
   echo "Usage: $0 <type> <date> <title> <source_html_path>"
   exit 1
 fi
 
-cd "$REPO_DIR"
+cd "$AUTOFARM_DIR"
 
 # 決定目標路徑
 case "$TYPE" in
@@ -34,7 +36,6 @@ case "$TYPE" in
     ;;
   morning)
     DEST_DIR="docs/stories"
-    # 從來源檔名擷取，或用日期+類型
     BASENAME=$(basename "$SOURCE")
     FILENAME="$BASENAME"
     ;;
@@ -51,7 +52,7 @@ esac
 
 mkdir -p "$DEST_DIR"
 
-# 複製檔案
+# 複製檔案到 autofarm/docs/
 cp "$SOURCE" "$DEST_DIR/$FILENAME"
 
 # 計算相對路徑（相對於 docs/）
@@ -63,7 +64,6 @@ esac
 # 更新 manifest.json
 MANIFEST="docs/manifest.json"
 
-# 用 python 更新 JSON（去重 + 新增）
 python3 - <<PYEOF
 import json, os
 
@@ -73,7 +73,6 @@ with open(manifest_path, 'r') as f:
 
 entries = data.get('entries', [])
 
-# 去重：移除同 path 的舊條目
 new_entry = {
     "type": "$TYPE",
     "date": "$DATE",
@@ -83,7 +82,6 @@ new_entry = {
 entries = [e for e in entries if e.get('path') != new_entry['path']]
 entries.append(new_entry)
 
-# 按日期降序排列
 entries.sort(key=lambda e: e.get('date', ''), reverse=True)
 
 data['entries'] = entries
@@ -93,9 +91,33 @@ with open(manifest_path, 'w') as f:
 print(f"Manifest updated: {len(entries)} entries")
 PYEOF
 
-# Git commit & push
+# === Step 1: Commit to autofarm ===
 git add docs/
 git commit -m "Deploy ${TYPE}: ${TITLE} (${DATE})" || echo "Nothing to commit"
-git push origin main || echo "Push failed, will retry next time"
+git push origin main || echo "[autofarm] Push failed, will retry next time"
 
-echo "Deployed: $REL_PATH"
+# === Step 2: Sync to digest repo for GitHub Pages ===
+if [ -d "$DIGEST_DIR/.git" ]; then
+  echo "Syncing to digest repo..."
+
+  # 同步所有 docs/ 內容到 digest repo 根目錄
+  # digest repo 的根目錄 = share.blocktrend.today/digest/ 的根
+  rsync -av --delete \
+    --exclude '.git' \
+    "$AUTOFARM_DIR/docs/" "$DIGEST_DIR/"
+
+  cd "$DIGEST_DIR"
+  git add -A
+  git commit -m "Deploy ${TYPE}: ${TITLE} (${DATE})" || echo "Nothing to commit"
+  git push origin main || echo "[digest] Push failed, will retry next time"
+
+  echo "Synced to digest repo: $REL_PATH"
+else
+  echo ""
+  echo "⚠️  digest repo not found at $DIGEST_DIR"
+  echo "   Run: git clone https://github.com/ASTROHSU/digest.git ~/digest"
+  echo "   Then re-run this script to sync."
+  echo ""
+fi
+
+echo "Done: $REL_PATH"
