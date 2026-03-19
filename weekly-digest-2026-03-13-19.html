@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本週精選｜2026.03.13-19</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+        }
+
+        article {
+            border-bottom: 1px solid #e0e0e0;
+            padding: 30px 0;
+        }
+
+        article:last-of-type {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .article-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: start;
+            margin-bottom: 20px;
+        }
+
+        .article-text {
+            font-size: 15px;
+        }
+
+        .article-text p {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .svg-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        svg {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #f0f0f0;
+            border-radius: 4px;
+        }
+
+        .related {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #f0f0f0;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .related-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .related-item {
+            margin: 4px 0;
+            padding-left: 16px;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            font-size: 13px;
+            color: #999;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .article-content {
+                grid-template-columns: 1fr;
+            }
+
+            body {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>本週精選</h1>
+            <div class="subtitle">2026.03.13-19</div>
+        </header>
+
+        <!-- Article 1: 荷莫茲海峽 -->
+        <article>
+            <h2>荷莫茲海峽封鎖與伊朗戰事：全球能源供應鏈的最大中斷</h2>
+            <div class="article-content">
+                <div class="article-text">
+                    <p>美以空襲伊朗後，伊朗革命衛隊在 2 月底封鎖荷莫茲海峽。這條 21 英里寬的水道承載全球 20% 石油、20% 液化天然氣與 30% 歐洲柴油運輸。984 艘油輪滯留，相當於全球船隊的 22%。供應鏈中斷規模被 IEA 評為全球歷史最大石油衝擊。</p>
+                    <p>沙烏地旁通管線每天 500 萬桶勉強維持石油流通，但液化天然氣、柴油與瓦斯完全沒有替代路線。卡達宣布不可抗力、歐洲天然氣單日暴漲 40%、印度坦米爾納德邦萬家餐廳歇業。伊朗擊中阿拉伯聯合大公國 Shah 天然氣田，供應該國 20% 天然氣。柴油價格破 5 美元每加侖。聯準會維持利率 3.5-3.75%，Warsh 預定 5 月接任。</p>
+                </div>
+                <div class="svg-container">
+                    <svg viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg" width="280" height="320">
+                        <!-- Title -->
+                        <text x="150" y="20" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">供應鏈衝擊流向圖</text>
+
+                        <!-- Top: Strait of Hormuz -->
+                        <rect x="80" y="40" width="140" height="40" fill="#ff6b6b" stroke="#333" stroke-width="2"/>
+                        <text x="150" y="68" font-size="12" text-anchor="middle" fill="white" font-weight="bold">荷莫茲海峽封鎖</text>
+
+                        <!-- Arrow down -->
+                        <path d="M 150 80 L 150 110" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+                        <!-- Middle: Split into two columns -->
+                        <!-- Left: 有旁通 -->
+                        <rect x="20" y="110" width="110" height="60" fill="#4ecdc4" stroke="#333" stroke-width="1.5"/>
+                        <text x="75" y="128" font-size="11" text-anchor="middle" fill="white" font-weight="bold">有旁通</text>
+                        <text x="75" y="143" font-size="10" text-anchor="middle" fill="white">石油</text>
+                        <text x="75" y="157" font-size="9" text-anchor="middle" fill="white">500 萬桶/日</text>
+
+                        <!-- Right: 無旁通 -->
+                        <rect x="170" y="110" width="110" height="60" fill="#ff9999" stroke="#333" stroke-width="1.5"/>
+                        <text x="225" y="128" font-size="11" text-anchor="middle" fill="white" font-weight="bold">無旁通</text>
+                        <text x="225" y="143" font-size="10" text-anchor="middle" fill="white">液化天然氣、柴油、瓦斯</text>
+                        <text x="225" y="157" font-size="9" text-anchor="middle" fill="white">完全中斷</text>
+
+                        <!-- Arrows from middle to bottom -->
+                        <path d="M 75 170 L 75 190" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+                        <path d="M 225 170 L 225 190" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+
+                        <!-- Bottom: Impacts -->
+                        <rect x="20" y="190" width="110" height="100" fill="#e8f4f8" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+                        <text x="75" y="208" font-size="10" font-weight="bold" text-anchor="middle" fill="#333">連鎖影響</text>
+                        <text x="75" y="225" font-size="9" text-anchor="middle" fill="#333">油價穩定維持</text>
+                        <text x="75" y="240" font-size="9" text-anchor="middle" fill="#333">供應持續</text>
+
+                        <rect x="170" y="190" width="110" height="100" fill="#fff0f0" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+                        <text x="225" y="208" font-size="10" font-weight="bold" text-anchor="middle" fill="#333">連鎖衝擊</text>
+                        <text x="225" y="223" font-size="9" text-anchor="middle" fill="#333">歐洲天然氣 +40%</text>
+                        <text x="225" y="238" font-size="9" text-anchor="middle" fill="#333">餐廳歇業、</text>
+                        <text x="225" y="253" font-size="9" text-anchor="middle" fill="#333">油價破 $5/加侖</text>
+                        <text x="225" y="268" font-size="9" text-anchor="middle" fill="#333">IEA：歷史最大衝擊</text>
+
+                        <!-- Arrow marker definition -->
+                        <defs>
+                            <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+                                <polygon points="0 0, 10 5, 0 10" fill="#333"/>
+                            </marker>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+            <div class="related">
+                <div class="related-title">相關摘要</div>
+                <div class="related-item">3/14：伊朗擊中聯合大公國天然氣田，全球能源市場驚動</div>
+                <div class="related-item">3/17：IEA 確認荷莫茲海峽中斷為 40 年來最大衝擊</div>
+            </div>
+        </article>
+
+        <!-- Article 2: SEC/CFTC 加密分類 -->
+        <article>
+            <h2>SEC 與 CFTC 十年之爭落幕，加密代幣正式歸類為「數位商品」</h2>
+            <div class="article-content">
+                <div class="article-text">
+                    <p>SEC 與 CFTC 十年來對加密管轄權各執一詞。進入 Gensler 時代後，監管激進化為「先告再說」。本週兩機構終於簽署備忘錄，釐清分工。3 月 18 日發布解釋性指引：比特幣、以太坊、Solana、XRP、狗狗幣、Chainlink 一律歸類為「數位商品」，由 CFTC 監管。質押獎勵與空投不認定為證券。另設數位收藏品、數位工具、支付型穩定幣三類。</p>
+                    <p>只是行政解釋，立法仍待國會。CLARITY 法案懸而未決。但期中選舉風向不利加密陣營：民主黨有 85% 機率奪下眾議院，Waters 與 Warren 可能主掌委員會——兩人反對所有加密法案。伊利諾州初選也反映此勢：反加密的 Stratton 擊敗加密 PAC 支持的 Krishnamoorthi。</p>
+                </div>
+                <div class="svg-container">
+                    <svg viewBox="0 0 300 280" xmlns="http://www.w3.org/2000/svg" width="280" height="280">
+                        <!-- Timeline -->
+                        <!-- 3/11 MOU -->
+                        <rect x="20" y="60" width="60" height="50" fill="#7c3aed" stroke="#333" stroke-width="2"/>
+                        <text x="50" y="78" font-size="10" text-anchor="middle" fill="white" font-weight="bold">3/11</text>
+                        <text x="50" y="95" font-size="9" text-anchor="middle" fill="white">備忘錄</text>
+
+                        <!-- Arrow -->
+                        <path d="M 80 85 L 110 85" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+                        <!-- 3/18 指引 -->
+                        <rect x="110" y="60" width="60" height="50" fill="#0891b2" stroke="#333" stroke-width="2"/>
+                        <text x="140" y="78" font-size="10" text-anchor="middle" fill="white" font-weight="bold">3/18</text>
+                        <text x="140" y="95" font-size="9" text-anchor="middle" fill="white">分類指引</text>
+
+                        <!-- Arrow -->
+                        <path d="M 170 85 L 200 85" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+                        <!-- 待立法 -->
+                        <rect x="200" y="60" width="80" height="50" fill="#f97316" stroke="#333" stroke-width="2"/>
+                        <text x="240" y="78" font-size="10" text-anchor="middle" fill="white" font-weight="bold">待立法</text>
+                        <text x="240" y="95" font-size="8" text-anchor="middle" fill="white">CLARITY Act</text>
+
+                        <!-- Classification boxes -->
+                        <text x="20" y="135" font-size="11" font-weight="bold" fill="#333">分類結果</text>
+
+                        <rect x="20" y="145" width="260" height="85" fill="#f5f5f5" stroke="#999" stroke-width="1"/>
+
+                        <rect x="25" y="150" width="80" height="35" fill="#7c3aed" stroke="#7c3aed" stroke-width="1" opacity="0.2"/>
+                        <text x="65" y="163" font-size="9" text-anchor="middle" font-weight="bold" fill="#333">主流資產</text>
+                        <text x="65" y="177" font-size="8" text-anchor="middle" fill="#666">BTC、ETH、</text>
+                        <text x="65" y="188" font-size="8" text-anchor="middle" fill="#666">SOL、DOGE</text>
+
+                        <rect x="115" y="150" width="80" height="35" fill="#0891b2" stroke="#0891b2" stroke-width="1" opacity="0.2"/>
+                        <text x="155" y="163" font-size="9" text-anchor="middle" font-weight="bold" fill="#333">收藏品</text>
+                        <text x="155" y="177" font-size="8" text-anchor="middle" fill="#666">數位資產</text>
+                        <text x="155" y="188" font-size="8" text-anchor="middle" fill="#666">NFT 等</text>
+
+                        <rect x="205" y="150" width="75" height="35" fill="#f97316" stroke="#f97316" stroke-width="1" opacity="0.2"/>
+                        <text x="242" y="163" font-size="9" text-anchor="middle" font-weight="bold" fill="#333">穩定幣</text>
+                        <text x="242" y="177" font-size="8" text-anchor="middle" fill="#666">支付工具</text>
+                        <text x="242" y="188" font-size="8" text-anchor="middle" fill="#666">中央監管</text>
+
+                        <!-- Risk section -->
+                        <text x="20" y="245" font-size="10" font-weight="bold" fill="#d32f2f">政治風險</text>
+                        <text x="20" y="260" font-size="9" fill="#333">期中選舉：民主黨 85% 機率掌眾議院，反加密議員主掌委員會</text>
+                        <text x="20" y="275" font-size="9" fill="#333">初選信號：反加密陣營勝出</text>
+
+                        <!-- Arrow marker -->
+                        <defs>
+                            <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+                                <polygon points="0 0, 10 5, 0 10" fill="#333"/>
+                            </marker>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+            <div class="related">
+                <div class="related-title">相關摘要</div>
+                <div class="related-item">3/15：SEC 提前公布加密分類指引草案，引發市場反應</div>
+                <div class="related-item">3/18：CLARITY 法案推遲投票，政治風向轉向保守派</div>
+                <div class="related-item">3/19：XRP 跟隨指引發布大幅上漲，市場消化監管清晰度</div>
+            </div>
+        </article>
+
+        <!-- Article 3: AI Agent 爆發 -->
+        <article>
+            <h2>AI Agent 全面爆發：從中國搶裝潮到 AI 支付協議之爭</h2>
+            <div class="article-content">
+                <div class="article-text">
+                    <p>OpenClaw 開源 AI 代理人上線 100 天成為 GitHub 史上星數最多專案。中國五大科技巨頭同時推出免費安裝，深圳街頭 1,000 人排隊，民間上門安裝服務開價 500 元。但國企被禁用——已出現提示注入攻擊案例。戰場迅速從安裝轉向支付。Tempo 與 Stripe 跨組聯手推出 Machine Payments Protocol（MPP），採開分頁機制串流微型支付。Coinbase 同日升級 x402 競技。兩方分歧明顯：MPP 綁定 Stripe 獲法幣支援但許可制，x402 去中心化但無法幣橋接。Ramp 另開刷卡路線推 Agent Cards。</p>
+                    <p>Ben Thompson 提出代理人三個典範：從 ChatGPT 的純對話 → o1 的推理能力 → Agent 的完整整合（模型加運行架構）。他認為 Anthropic 與 OpenAI 因此掌握價值鏈整合權。Microsoft Copilot Cowork（企業方案 $99/月）等於明著說：模型不是通用零件，需要上層 harness 才能工作。李飛飛與 Yann LeCun 各募 10 億美元做世界模型，估值分別 35 億與 50 億美元。a16z 投資的 Decagon 案例顯示：AI 客服讓 Chime 客服成本降 60%、淨推薦值翻倍。</p>
+                </div>
+                <div class="svg-container">
+                    <svg viewBox="0 0 300 340" xmlns="http://www.w3.org/2000/svg" width="280" height="340">
+                        <!-- Title -->
+                        <text x="150" y="20" font-size="13" font-weight="bold" text-anchor="middle" fill="#333">AI Agent 商業化三層架構</text>
+
+                        <!-- Layer 1: AI Agent Ecosystem -->
+                        <rect x="20" y="35" width="260" height="70" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+                        <text x="150" y="55" font-size="11" font-weight="bold" text-anchor="middle" fill="#1976d2">底層：AI Agent 生態</text>
+
+                        <rect x="30" y="65" width="70" height="28" fill="#1976d2" stroke="#333" stroke-width="1"/>
+                        <text x="65" y="84" font-size="9" text-anchor="middle" fill="white">OpenClaw</text>
+
+                        <rect x="110" y="65" width="70" height="28" fill="#1976d2" stroke="#333" stroke-width="1"/>
+                        <text x="145" y="84" font-size="9" text-anchor="middle" fill="white">Claude Code</text>
+
+                        <rect x="190" y="65" width="80" height="28" fill="#1976d2" stroke="#333" stroke-width="1"/>
+                        <text x="230" y="84" font-size="9" text-anchor="middle" fill="white">五大科技巨頭</text>
+
+                        <!-- Arrow down -->
+                        <path d="M 150 105 L 150 130" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+                        <!-- Layer 2: Payment Protocols -->
+                        <rect x="20" y="130" width="260" height="85" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+                        <text x="150" y="150" font-size="11" font-weight="bold" text-anchor="middle" fill="#f57c00">中層：支付協議之爭</text>
+
+                        <rect x="25" y="160" width="75" height="48" fill="#f57c00" stroke="#333" stroke-width="1"/>
+                        <text x="62.5" y="176" font-size="9" text-anchor="middle" fill="white" font-weight="bold">MPP</text>
+                        <text x="62.5" y="190" font-size="8" text-anchor="middle" fill="white">綁 Stripe</text>
+                        <text x="62.5" y="201" font-size="8" text-anchor="middle" fill="white">許可制，有法幣</text>
+
+                        <rect x="112" y="160" width="75" height="48" fill="#f57c00" stroke="#333" stroke-width="1"/>
+                        <text x="149.5" y="176" font-size="9" text-anchor="middle" fill="white" font-weight="bold">x402</text>
+                        <text x="149.5" y="190" font-size="8" text-anchor="middle" fill="white">去中心化</text>
+                        <text x="149.5" y="201" font-size="8" text-anchor="middle" fill="white">無法幣橋接</text>
+
+                        <rect x="199" y="160" width="75" height="48" fill="#f57c00" stroke="#333" stroke-width="1"/>
+                        <text x="236.5" y="176" font-size="9" text-anchor="middle" fill="white" font-weight="bold">Agent Cards</text>
+                        <text x="236.5" y="190" font-size="8" text-anchor="middle" fill="white">Ramp 刷卡</text>
+                        <text x="236.5" y="201" font-size="8" text-anchor="middle" fill="white">法幣友善</text>
+
+                        <!-- Arrow down -->
+                        <path d="M 150 215 L 150 240" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+                        <!-- Layer 3: Commercialization -->
+                        <rect x="20" y="240" width="260" height="85" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2"/>
+                        <text x="150" y="260" font-size="11" font-weight="bold" text-anchor="middle" fill="#7b1fa2">頂層：商業化模式</text>
+
+                        <rect x="30" y="272" width="110" height="40" fill="#7b1fa2" stroke="#333" stroke-width="1"/>
+                        <text x="85" y="289" font-size="9" text-anchor="middle" fill="white" font-weight="bold">Copilot Cowork</text>
+                        <text x="85" y="305" font-size="8" text-anchor="middle" fill="white">$99/月（企業方案）</text>
+
+                        <rect x="160" y="272" width="120" height="40" fill="#7b1fa2" stroke="#333" stroke-width="1"/>
+                        <text x="220" y="289" font-size="9" text-anchor="middle" fill="white" font-weight="bold">客服成本 -60%</text>
+                        <text x="220" y="305" font-size="8" text-anchor="middle" fill="white">NPS 翻倍（Decagon）</text>
+
+                        <!-- Arrow marker definition -->
+                        <defs>
+                            <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+                                <polygon points="0 0, 10 5, 0 10" fill="#333"/>
+                            </marker>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+            <div class="related">
+                <div class="related-title">相關摘要</div>
+                <div class="related-item">3/14：OpenClaw 安裝潮襲中國，深圳民間服務現 500 元價格</div>
+                <div class="related-item">3/16：Tempo 與 Stripe 推 Machine Payments Protocol，Agent 支付戰開始</div>
+                <div class="related-item">3/18：Microsoft Copilot Cowork 正式定價 $99/月，模型 + Harness 整合成新常態</div>
+                <div class="related-item">3/19：李飛飛募資 10 億美元做世界模型，估值 50 億</div>
+            </div>
+        </article>
+
+        <!-- Article 4: 傳統支付巨頭收購穩定幣基礎設施 -->
+        <article>
+            <h2>傳統支付巨頭全面收購穩定幣基礎設施</h2>
+            <div class="article-content">
+                <div class="article-text">
+                    <p>穩定幣市值突破 3,000 億美元，三年前不到 500 億。Franklin Templeton 將其稱為「賭場籌碼」——不問來歷，跨國移動資金。Stripe 去年已踏進這領域收購 Bridge。本週 Mastercard 宣布以最高 18 億美元（含 3 億績效獎金）收購 BVNK。上週 Mastercard 才發布加密合作計畫。五家美國區域銀行同時在 ZKsync 上推出代幣化存款網路 Cari Network——結算時間從數天縮到數秒，FDIC 保障依舊。穩定幣從邊界工具進階為主流支付的基礎層。</p>
+                </div>
+            </div>
+            <div class="related">
+                <div class="related-title">相關摘要</div>
+                <div class="related-item">3/13：Mastercard 加密合作計畫公布，支付生態升級信號</div>
+                <div class="related-item">3/16：Mastercard 收購 BVNK，穩定幣基礎設施成兵家必爭之地</div>
+                <div class="related-item">3/18：ZKsync Cari Network 上線，銀行結算從天到秒的革命</div>
+            </div>
+        </article>
+
+        <!-- Article 5: Meta 裁員 20% 與 AI 資本支出 -->
+        <article>
+            <h2>Meta 裁員 20% 加 AI 資本支出創新高：企業正在重算「AI 時代」的人力規模</h2>
+            <div class="article-content">
+                <div class="article-text">
+                    <p>Meta 擁有 79,000 名員工，已歷 2022-23 年兩輪裁員。Nvidia GTC 大會上黃仁勳宣布：AI 晶片需求到 2027 年達 1 兆美元，比五個月前的預測翻倍。但民調顯示多數美國人認為 AI 風險大於好處，12 個州提案管制資料中心。Meta 計畫裁員 20%（約 15,800 人），為 6,000 億美元資料中心預算騰出空間。代號 Avocado 的 AI 模型因效能問題延遲推出。</p>
+                    <p>Ben Thompson 說企業在重算 AI 時代的人力規模——裁多比裁少更符合「面向未來」的邏輯。Yann LeCun 募 10 億美元做世界模型，估值 35 億美元；李飛飛也募了 10 億（估值 50 億）。a16z 投資的 Decagon 案例顯示：AI 客服讓 Chime 客服成本降 60%、淨推薦值翻倍。人力結構調整與 AI 效率紅利正在同步進行。</p>
+                </div>
+            </div>
+            <div class="related">
+                <div class="related-title">相關摘要</div>
+                <div class="related-item">3/15：Nvidia GTC：黃仁勳預測 AI 晶片需求翻倍到 1 兆美元</div>
+                <div class="related-item">3/17：Meta Avocado 模型延遲，AI 效能瓶頸顯現</div>
+                <div class="related-item">3/18：Meta 宣布裁員 20%，為 AI 資本支出騰空間</div>
+                <div class="related-item">3/19：Decagon AI 客服案例：Chime 成本降 60%、NPS 翻倍</div>
+            </div>
+        </article>
+
+        <footer>
+            本週精選由 AI 輔助產出，內容基於 2026 年 3 月 13-19 日的電子報摘要。
+        </footer>
+    </div>
+</body>
+</html>
