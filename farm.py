@@ -10,13 +10,16 @@ import os
 import re
 import sys
 import urllib.parse
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from pathlib import Path
 
+from email.utils import parsedate_to_datetime
 import feedparser
 import requests
 import yaml
 from openai import OpenAI
+from google import genai
+from google.genai import types as genai_types
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from rich.console import Console
@@ -87,11 +90,32 @@ def save_pending(items: list) -> None:
 # Fetchers
 # ---------------------------------------------------------------------------
 
+MAX_AGE_DAYS = 7
+MAX_WEBPAGE_ITEMS = 3
+MAX_YOUTUBE_ITEMS = 5
+
+
+def is_recent_entry(entry, max_days: int = MAX_AGE_DAYS) -> bool:
+    """檢查 feedparser entry 是否在 max_days 天內。"""
+    parsed = entry.get("published_parsed") or entry.get("updated_parsed")
+    if not parsed:
+        return True  # 無日期資訊，保留
+    try:
+        entry_time = datetime(parsed[0], parsed[1], parsed[2],
+                              parsed[3], parsed[4], parsed[5])
+        cutoff = datetime.now() - timedelta(days=max_days)
+        return entry_time >= cutoff
+    except (ValueError, TypeError):
+        return True
+
+
 def fetch_rss(source: dict) -> list[Item]:
-    """抓取 RSS feed，回傳 Item 清單。"""
+    """抓取 RSS feed，回傳 Item 清單（只保留過去 7 天內的文章）。"""
     feed = feedparser.parse(source["url"])
     items = []
     for entry in feed.entries:
+        if not is_recent_entry(entry):
+            continue
         url = entry.get("link", "")
         if not url:
             continue
@@ -204,6 +228,8 @@ def fetch_webpage(source: dict) -> list[Item]:
         content = fetch_article_content(href) or ""
         items.append(Item(title=title, url=href, content=content,
                           source=source["name"], published=""))
+        if len(items) >= MAX_WEBPAGE_ITEMS:
+            break
     return items
 
 
@@ -242,6 +268,8 @@ def fetch_youtube(source: dict) -> list[Item]:
             source=source["name"],
             published="",
         ))
+        if len(items) >= MAX_YOUTUBE_ITEMS:
+            break
 
     return items
 
@@ -326,29 +354,39 @@ def _build_prompt(item: Item, lessons: str, multi: bool = False) -> str:
     )
 
 
-def call_llm(client: OpenAI, item: Item, lessons: str,
+def call_llm(gemini: genai.Client, item: Item, lessons: str,
              multi: bool = False) -> str:
-    """呼叫 OpenAI API 產生摘要，回傳原始輸出。"""
+    """呼叫 Gemini API 產生摘要，回傳原始輸出。"""
     prompt = _build_prompt(item, lessons, multi=multi)
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        max_tokens=2048 if multi else 1024,
-        messages=[{"role": "user", "content": prompt}],
+    response = gemini.models.generate_content(
+        model="gemini-2.5-pro",
+        contents=prompt,
+        config=genai_types.GenerateContentConfig(
+            max_output_tokens=8192,
+            temperature=0.7,
+            thinking_config=genai_types.ThinkingConfig(thinking_budget=4096),
+        ),
     )
-    return response.choices[0].message.content
+    return response.text or ""
 
 
 def parse_output(output: str) -> dict | None:
-    """從 LLM 輸出解析單則 title 和 summary。"""
+    """從 LLM 輸出解析單則 title、importance 和 summary。"""
     title_match = re.search(r"^TITLE:\s*(.+)$", output, re.MULTILINE)
     summary_match = re.search(r"^SUMMARY:\s*\n([\s\S]+)$", output, re.MULTILINE)
 
     if not title_match or not summary_match:
         return None
 
+    importance_match = re.search(r"^IMPORTANCE:\s*(.+)$", output, re.MULTILINE)
+    importance = importance_match.group(1).strip() if importance_match else "中"
+    if importance not in ("高", "中", "低"):
+        importance = "中"
+
     return {
         "title": title_match.group(1).strip(),
         "summary": summary_match.group(1).strip(),
+        "importance": importance,
     }
 
 
@@ -363,10 +401,10 @@ def parse_multi_output(output: str) -> list[dict]:
     return results
 
 
-def generate_summary(client: OpenAI, item: Item, lessons: str) -> dict | None:
+def generate_summary(gemini: genai.Client, item: Item, lessons: str) -> dict | None:
     """產生單則摘要，回傳 {title, summary} 或 None。"""
     try:
-        output = call_llm(client, item, lessons)
+        output = call_llm(gemini, item, lessons)
         result = parse_output(output)
         if not result:
             console.print(f"[yellow]⚠ 解析失敗，原始輸出：\n{output[:300]}[/yellow]")
@@ -376,11 +414,11 @@ def generate_summary(client: OpenAI, item: Item, lessons: str) -> dict | None:
         return None
 
 
-def generate_multi_summary(client: OpenAI, item: Item,
+def generate_multi_summary(gemini: genai.Client, item: Item,
                            lessons: str) -> list[dict]:
     """產生多則摘要，回傳 [{title, summary}, ...] 或空清單。"""
     try:
-        output = call_llm(client, item, lessons, multi=True)
+        output = call_llm(gemini, item, lessons, multi=True)
         results = parse_multi_output(output)
         if not results:
             console.print(f"[yellow]⚠ 多則解析失敗，原始輸出：\n{output[:300]}[/yellow]")
@@ -400,7 +438,7 @@ def extract_search_keywords(client: OpenAI, title: str,
     context = f"Original English title: {original_title}\n" if original_title else ""
     try:
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-4.1-nano",
             max_tokens=50,
             messages=[{"role": "user", "content": (
                 f"Extract a concise English search phrase (3-6 words) from "
@@ -605,11 +643,11 @@ def search_x_discussions(keywords: str,
     return results
 
 
-def search_discussions(client: OpenAI, title: str,
+def search_discussions(openai_client: OpenAI, title: str,
                        original_title: str = "",
                        x_following: set[str] | None = None) -> str:
     """整合 WebSearch + X API 搜尋結果，回傳格式化文字。"""
-    keywords = extract_search_keywords(client, title,
+    keywords = extract_search_keywords(openai_client, title,
                                        original_title=original_title)
     console.print(f"  [dim]搜尋關鍵字：{keywords}[/dim]")
 
@@ -640,9 +678,9 @@ def search_discussions(client: OpenAI, title: str,
     return "\n\n---\n\n".join(all_results)
 
 
-def generate_discussion(client: OpenAI, title: str, summary: str,
+def generate_discussion(gemini: genai.Client, title: str, summary: str,
                         search_results: str) -> str | None:
-    """用 LLM 從搜尋結果產出討論區塊。"""
+    """用 Gemini 從搜尋結果產出討論區塊。"""
     if not search_results:
         return None
 
@@ -655,12 +693,16 @@ def generate_discussion(client: OpenAI, title: str, summary: str,
     )
 
     try:
-        response = client.chat.completions.create(
-            model="gpt-4o",
-            max_tokens=512,
-            messages=[{"role": "user", "content": prompt}],
+        response = gemini.models.generate_content(
+            model="gemini-2.5-pro",
+            contents=prompt,
+            config=genai_types.GenerateContentConfig(
+                max_output_tokens=8192,
+                temperature=0.7,
+                thinking_config=genai_types.ThinkingConfig(thinking_budget=4096),
+            ),
         )
-        output = response.choices[0].message.content.strip()
+        output = (response.text or "").strip()
         return parse_discussion(output)
     except Exception as e:
         console.print(f"  [dim]討論產生失敗: {e}[/dim]")
@@ -720,12 +762,17 @@ def save_local(item: Item, summary: dict, discussion: str | None = None) -> None
 def run_pipeline(config: dict, dry_run: bool = False, limit: int = 0,
                  source_filter: str = "", auto_push: bool = False) -> None:
     openai_key = os.getenv("OPENAI_API_KEY")
+    gemini_key = os.getenv("GEMINI_API_KEY")
 
     if not openai_key:
-        console.print("[red]缺少 OPENAI_API_KEY[/red]")
+        console.print("[red]缺少 OPENAI_API_KEY（關鍵字提取仍需要）[/red]")
+        sys.exit(1)
+    if not gemini_key:
+        console.print("[red]缺少 GEMINI_API_KEY[/red]")
         sys.exit(1)
 
-    client = OpenAI(api_key=openai_key)
+    openai_client = OpenAI(api_key=openai_key)
+    gemini_client = genai.Client(api_key=gemini_key)
 
     seen = load_seen()
     lessons = load_lessons()
@@ -799,9 +846,9 @@ def run_pipeline(config: dict, dry_run: bool = False, limit: int = 0,
                 progress.add_task("產生摘要中...", total=None)
                 if use_multi:
                     summaries = generate_multi_summary(
-                        client, item, lessons)
+                        gemini_client, item, lessons)
                 else:
-                    result = generate_summary(client, item, lessons)
+                    result = generate_summary(gemini_client, item, lessons)
                     summaries = [result] if result else []
 
             if not summaries:
@@ -819,12 +866,12 @@ def run_pipeline(config: dict, dry_run: bool = False, limit: int = 0,
                               console=console, transient=True) as progress:
                     progress.add_task("搜尋相關討論中...", total=None)
                     search_results = search_discussions(
-                        client, summary["title"],
+                        openai_client, summary["title"],
                         original_title=item.title,
                         x_following=x_following or None)
                     if search_results:
                         discussion = generate_discussion(
-                            client, summary["title"],
+                            gemini_client, summary["title"],
                             summary["summary"], search_results)
 
                 if discussion:
@@ -840,6 +887,7 @@ def run_pipeline(config: dict, dry_run: bool = False, limit: int = 0,
                 pending.append({
                     "title": summary["title"],
                     "summary": summary["summary"],
+                    "importance": summary.get("importance", "中"),
                     "discussion": discussion or "",
                     "source": item.source,
                     "url": item.url,
@@ -880,7 +928,10 @@ def run_pipeline(config: dict, dry_run: bool = False, limit: int = 0,
 
 NOTION_SOURCE_OPTIONS = {
     "Galaxy Research", "EthDaily", "Techmeme Crypto",
-    "Citation Needed", "Tokenized Podcast", "Other",
+    "Citation Needed", "Tokenized Podcast",
+    "Cheeky Pint", "Lex Fridman", "Acquired",
+    "When Shift Happens", "The Rollup", "Empire",
+    "Other",
 }
 
 
@@ -900,10 +951,15 @@ def push_to_notion(pending: list[dict]) -> int:
         if source not in NOTION_SOURCE_OPTIONS:
             source = "Other"
 
+        importance = item.get("importance", "中")
+        if importance not in ("高", "中", "低"):
+            importance = "中"
+
         properties = {
             "標題": {"title": [{"text": {"content": item["title"]}}]},
             "摘要": {"rich_text": [{"text": {"content": item["summary"][:2000]}}]},
             "來源": {"select": {"name": source}},
+            "重要性": {"select": {"name": importance}},
             "原文連結": {"url": item.get("url", "")},
             "狀態": {"select": {"name": "待審閱"}},
             "處理日期": {"date": {"start": item.get("processed", date.today().isoformat())}},
@@ -915,7 +971,13 @@ def push_to_notion(pending: list[dict]) -> int:
             }
 
         if item.get("published"):
-            properties["發布日期"] = {"date": {"start": item["published"]}}
+            pub = item["published"]
+            # 將 RFC 2822 日期（RSS 常見格式）轉為 ISO 8601
+            try:
+                pub = parsedate_to_datetime(pub).strftime("%Y-%m-%d")
+            except (ValueError, TypeError):
+                pass
+            properties["發布日期"] = {"date": {"start": pub}}
 
         try:
             notion.pages.create(parent={"database_id": db_id},

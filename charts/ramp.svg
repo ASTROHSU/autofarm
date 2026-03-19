@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" width="1700" height="500">
+<rect width="680" height="200" fill="white"/>
+<rect x="10" y="55" width="100" height="60" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="60" y="81" text-anchor="middle" font-size="12" font-weight="700" fill="#1e40af" font-family="Droid Sans Fallback">AI 代理人</text>
+<text x="60" y="98" text-anchor="middle" font-size="10" fill="#1e40af" font-family="Droid Sans Fallback">需要付款</text>
+
+<line x1="110" y1="72" x2="155" y2="42" stroke="#10b981" stroke-width="2"/>
+<polygon points="155,38 160,47 150,45" fill="#10b981"/>
+<rect x="160" y="15" width="105" height="50" rx="6" fill="#d1fae5" stroke="#10b981" stroke-width="1.5"/>
+<text x="212" y="37" text-anchor="middle" font-size="11" font-weight="600" fill="#065f46" font-family="Droid Sans Fallback">Agent Card</text>
+<text x="212" y="53" text-anchor="middle" font-size="10" fill="#065f46" font-family="Droid Sans Fallback">Ramp 發行</text>
+
+<line x1="265" y1="40" x2="310" y2="40" stroke="#10b981" stroke-width="1.5"/>
+<polygon points="310,37 318,40 310,43" fill="#10b981"/>
+<rect x="320" y="15" width="105" height="50" rx="6" fill="#d1fae5" stroke="#10b981" stroke-width="1.5"/>
+<text x="372" y="37" text-anchor="middle" font-size="11" font-weight="600" fill="#065f46" font-family="Droid Sans Fallback">Visa /</text>
+<text x="372" y="53" text-anchor="middle" font-size="11" font-weight="600" fill="#065f46" font-family="Droid Sans Fallback">Mastercard</text>
+
+<line x1="425" y1="40" x2="470" y2="40" stroke="#10b981" stroke-width="1.5"/>
+<polygon points="470,37 478,40 470,43" fill="#10b981"/>
+<rect x="480" y="15" width="100" height="50" rx="6" fill="#d1fae5" stroke="#10b981" stroke-width="2"/>
+<text x="530" y="37" text-anchor="middle" font-size="11" font-weight="600" fill="#065f46" font-family="Droid Sans Fallback">全球店家</text>
+<text x="530" y="55" text-anchor="middle" font-size="12" font-weight="700" fill="#065f46" font-family="Droid Sans Fallback">OK</text>
+
+<text x="605" y="28" font-size="10" font-weight="600" fill="#10b981" font-family="Droid Sans Fallback">卡片路線</text>
+<text x="605" y="43" font-size="10" fill="#10b981" font-family="Droid Sans Fallback">（Ramp）</text>
+<text x="605" y="60" font-size="10" fill="#6b7280" font-family="Droid Sans Fallback">今天就能用</text>
+
+<line x1="110" y1="98" x2="155" y2="130" stroke="#f59e0b" stroke-width="2"/>
+<polygon points="155,127 160,136 150,133" fill="#f59e0b"/>
+<rect x="160" y="107" width="105" height="50" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+<text x="212" y="129" text-anchor="middle" font-size="11" font-weight="600" fill="#92400e" font-family="Droid Sans Fallback">加密錢包</text>
+<text x="212" y="145" text-anchor="middle" font-size="10" fill="#92400e" font-family="Droid Sans Fallback">USDC / USDT</text>
+
+<line x1="265" y1="132" x2="310" y2="132" stroke="#d97706" stroke-width="1.5"/>
+<polygon points="310,129 318,132 310,135" fill="#d97706"/>
+<rect x="320" y="107" width="105" height="50" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+<text x="372" y="129" text-anchor="middle" font-size="11" font-weight="600" fill="#92400e" font-family="Droid Sans Fallback">鏈上支付</text>
+<text x="372" y="145" text-anchor="middle" font-size="10" fill="#92400e" font-family="Droid Sans Fallback">x402 / P2P</text>
+
+<line x1="425" y1="132" x2="470" y2="132" stroke="#d97706" stroke-width="1.5"/>
+<polygon points="470,129 478,132 470,135" fill="#d97706"/>
+<rect x="480" y="107" width="100" height="50" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="530" y="127" text-anchor="middle" font-size="10" font-weight="600" fill="#92400e" font-family="Droid Sans Fallback">接受穩定幣</text>
+<text x="530" y="147" text-anchor="middle" font-size="12" font-weight="700" fill="#92400e" font-family="Droid Sans Fallback">極少數</text>
+
+<text x="605" y="120" font-size="10" font-weight="600" fill="#d97706" font-family="Droid Sans Fallback">穩定幣路線</text>
+<text x="605" y="135" font-size="10" fill="#d97706" font-family="Droid Sans Fallback">（Coinbase）</text>
+<text x="605" y="152" font-size="10" fill="#6b7280" font-family="Droid Sans Fallback">需要商家支援</text>
+
+<text x="10" y="190" font-size="10" fill="#6b7280" font-family="Droid Sans Fallback">綠色 = 今天可行的路線    橘色 = 未來路線（受限於商家接受度）</text>
+</svg>

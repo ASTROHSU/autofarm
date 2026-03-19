@@ -8,7 +8,7 @@ from fastapi.templating import Jinja2Templates
 from pathlib import Path
 
 from web.notion_api import list_articles, get_article, update_article, update_status
-from web.feedback import run_feedback
+from web.feedback import run_feedback, polish_text
 
 BASE_DIR = Path(__file__).parent
 LESSONS_FILE = BASE_DIR.parent / "draft-lessons.md"
@@ -32,8 +32,8 @@ async def index(request: Request):
 # ---------------------------------------------------------------------------
 
 @app.get("/api/articles")
-async def api_list_articles(status: str = ""):
-    articles = list_articles(status)
+async def api_list_articles(status: str = "", importance: str = ""):
+    articles = list_articles(status, importance)
     return {"articles": articles}
 
 
@@ -81,6 +81,38 @@ async def api_batch_status(request: Request):
     return {"updated": len(page_ids)}
 
 
+@app.post("/api/articles/{page_id}/polish")
+async def api_polish_article(page_id: str, request: Request):
+    body = await request.json()
+    user_text = body.get("text", "")
+    previous_ai_text = body.get("previous_ai_text", "")
+
+    # 讀取 lessons
+    lessons = ""
+    if LESSONS_FILE.exists():
+        lessons = LESSONS_FILE.read_text(encoding="utf-8")
+
+    # 如果使用者有改動（vs 上一次 AI 版本），先學習
+    feedback_result = None
+    if previous_ai_text and previous_ai_text.strip() != user_text.strip():
+        article = get_article(page_id)
+        feedback_result = run_feedback(
+            title=article["title"],
+            original=previous_ai_text,
+            edited=user_text,
+        )
+        # 重新讀取 lessons（剛更新過）
+        lessons = LESSONS_FILE.read_text(encoding="utf-8")
+
+    # AI 潤稿
+    polished = polish_text(user_text, lessons)
+
+    return {
+        "polished": polished,
+        "feedback": feedback_result,
+    }
+
+
 @app.get("/api/rules")
 async def api_get_rules():
     if LESSONS_FILE.exists():
@@ -92,9 +124,9 @@ async def api_get_rules():
 
 @app.post("/api/publish")
 async def api_publish():
-    articles = list_articles(status="已發布")
+    articles = list_articles(status="待發布")
     if not articles:
-        return {"draft": "沒有已發布的文章。"}
+        return {"draft": "沒有待發布的文章。"}
 
     parts = []
     for a in articles:

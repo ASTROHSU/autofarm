@@ -78,7 +78,22 @@ header h1 { font-size: 20px; font-weight: 600; }
 }
 
 .status-badge.待審閱 { background: #fff3cd; color: #856404; }
-.status-badge.已發布 { background: #d4edda; color: #155724; }
+.status-badge.待發布 { background: #d4edda; color: #155724; }
+
+/* Importance Badge */
+.importance-badge {
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.importance-badge.高 { background: #f8d7da; color: #721c24; }
+.importance-badge.中 { background: #fff3cd; color: #856404; }
+.importance-badge.低 { background: #e2e3e5; color: #383d41; }
+
+/* Importance tab separator */
+.tabs span { height: 20px; }
 .status-badge.略過   { background: #e2e3e5; color: #383d41; }
 
 /* Inline Editor (injected below article item) */
@@ -183,6 +198,13 @@ header h1 { font-size: 20px; font-weight: 600; }
   margin-bottom: 20px;
 }
 
+.actions-right {
+  margin-left: auto;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
 .btn {
   padding: 8px 20px;
   border: none;
@@ -201,6 +223,16 @@ header h1 { font-size: 20px; font-weight: 600; }
 
 .btn-success { background: #28a745; color: white; }
 .btn-success:hover { background: #218838; }
+
+.btn-polish { background: #6c5ce7; color: white; }
+.btn-polish:hover { background: #5a4bd1; }
+.btn-polish:disabled { background: #a29bdb; cursor: not-allowed; }
+
+.polish-round {
+  font-size: 12px;
+  color: #6c5ce7;
+  font-weight: 500;
+}
 
 /* Status select */
 .status-select {
@@ -284,7 +316,48 @@ header h1 { font-size: 20px; font-weight: 600; }
   transition: color 0.15s, border-color 0.15s;
 }
 
+.skip-all-btn {
+  padding: 6px 14px;
+  border: 1px solid #d32f2f;
+  border-radius: 6px;
+  background: white;
+  color: #d32f2f;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.skip-all-btn:hover { background: #fef2f2; }
+.skip-all-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
 .archive-btn:hover {
   color: #d32f2f;
   border-color: #d32f2f;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 0;
+  margin-top: 8px;
+}
+
+.pagination-btn {
+  padding: 6px 14px;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+  color: #555;
+}
+
+.pagination-btn:hover:not(:disabled) { background: #f0f0f0; }
+.pagination-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.pagination-info {
+  font-size: 13px;
+  color: #888;
 }

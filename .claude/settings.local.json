@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/fymn/social-post/**)",
+      "Skill(parse)",
+      "Skill(parse:*)"
+    ],
+    "additionalDirectories": [
+      "/Users/fymn/autofarm/.claude/skills"
+    ]
+  }
+}

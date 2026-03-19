@@ -121,11 +121,11 @@
 兩條路線，共用同一份 `draft-lessons.md` 作為寫作規則來源：
 
 **自動路線**（`farm.py`）
-- 自動抓取新聞來源 → 用 `prompts/auto_draft.md`（含 `{LESSONS}`）產出摘要 → 推送 Notion
+- 自動抓取新聞來源 → 用 `prompts/auto_draft.md`（含 `{LESSONS}`）產出摘要 → 用 zhtw-mcp 檢查用字 → 推送 Notion
 - 摘要狀態為「待審閱」，由你在 Notion 審閱後決定是否發布
 
 **手動路線**（`/digest`）
-- 手動貼入新聞內容或 URL → 背景研究 → 摘要草稿 → 討論搜尋 → 推送 Notion
+- 手動貼入新聞內容或 URL → 背景研究 → 摘要草稿 → 討論搜尋 → 用 zhtw-mcp 檢查用字 → 推送 Notion
 - 開頭會讀取 `draft-lessons.md`，套用已學規則
 
 **改稿回饋**（`/feedback`）
@@ -134,6 +134,17 @@
 
 **發布**（`/publish`）
 - 從 Notion 撈出「已發布」條目 → 排版成 Substack 電子報草稿
+
+### 用字檢查（zhtw-mcp）
+
+所有摘要在推送 Notion 之前，必須經過 [zhtw-mcp](https://github.com/sysprog21/zhtw-mcp) 工具檢查。這個 MCP 工具會自動偵測：
+- 簡體中文或中國大陸用語（如軟件→軟體、用戶→使用者）
+- 半形標點符號應為全形的情況
+- 非教育部標準字體
+- 中英文之間缺少空格
+- 政治敏感用語
+
+檢查流程：產出摘要草稿後，呼叫 zhtw-mcp 的 lint 功能檢查全文，若有問題則自動修正後再推送。這層檢查與上方「語言規範」表格互補——表格是寫作時的主觀提醒，zhtw-mcp 是發布前的客觀把關。
 
 ## 禁止事項
 

@@ -1,6 +1,7 @@
 """Notion API 封裝：讀寫 AutoFarm 新聞摘要資料庫。"""
 
 import os
+import time
 import requests
 from dotenv import load_dotenv
 
@@ -10,7 +11,7 @@ DATABASE_ID = os.getenv("NOTION_DATABASE_ID", "")
 NOTION_API_KEY = os.getenv("NOTION_API_KEY", "")
 NOTION_VERSION = "2022-06-28"
 
-STATUS_OPTIONS = ["待審閱", "已發布", "略過"]
+STATUS_OPTIONS = ["待審閱", "待發布", "略過"]
 
 
 def _headers() -> dict:
@@ -36,31 +37,48 @@ def _page_to_dict(page: dict) -> dict:
         "discussion": _extract_text(props.get("討論", {}).get("rich_text", [])),
         "source": (props.get("來源", {}).get("select") or {}).get("name", ""),
         "status": (props.get("狀態", {}).get("select") or {}).get("name", ""),
+        "importance": (props.get("重要性", {}).get("select") or {}).get("name", ""),
         "url": props.get("原文連結", {}).get("url", ""),
         "processed": (props.get("處理日期", {}).get("date") or {}).get("start", ""),
         "published": (props.get("發布日期", {}).get("date") or {}).get("start", ""),
     }
 
 
-def list_articles(status: str = "") -> list[dict]:
-    """從 Notion 拉文章列表，可按狀態篩選。"""
-    body = {
-        "sorts": [{"property": "處理日期", "direction": "descending"}],
-        "page_size": 50,
-    }
-    if status and status in STATUS_OPTIONS:
-        body["filter"] = {
-            "property": "狀態",
-            "select": {"equals": status},
-        }
+IMPORTANCE_OPTIONS = ["高", "中", "低"]
 
-    resp = requests.post(
-        f"https://api.notion.com/v1/databases/{DATABASE_ID}/query",
-        headers=_headers(),
-        json=body,
-    )
-    resp.raise_for_status()
-    return [_page_to_dict(p) for p in resp.json()["results"]]
+
+def list_articles(status: str = "", importance: str = "") -> list[dict]:
+    """從 Notion 拉文章列表，可按狀態或重要性篩選。自動分頁取回所有結果。"""
+    body: dict = {
+        "sorts": [{"property": "處理日期", "direction": "descending"}],
+        "page_size": 100,
+    }
+    filters = []
+    if status and status in STATUS_OPTIONS:
+        filters.append({"property": "狀態", "select": {"equals": status}})
+    if importance and importance in IMPORTANCE_OPTIONS:
+        filters.append({"property": "重要性", "select": {"equals": importance}})
+    if len(filters) == 1:
+        body["filter"] = filters[0]
+    elif len(filters) > 1:
+        body["filter"] = {"and": filters}
+
+    all_results = []
+    has_more = True
+    while has_more:
+        resp = requests.post(
+            f"https://api.notion.com/v1/databases/{DATABASE_ID}/query",
+            headers=_headers(),
+            json=body,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        all_results.extend(_page_to_dict(p) for p in data["results"])
+        has_more = data.get("has_more", False)
+        if has_more:
+            body["start_cursor"] = data["next_cursor"]
+
+    return all_results
 
 
 def get_article(page_id: str) -> dict:
@@ -74,14 +92,22 @@ def get_article(page_id: str) -> dict:
 
 
 def update_status(page_id: str, status: str) -> None:
-    """只更新文章狀態。"""
+    """只更新文章狀態，含 rate limit 保護。"""
     if status not in STATUS_OPTIONS:
         return
-    requests.patch(
-        f"https://api.notion.com/v1/pages/{page_id}",
-        headers=_headers(),
-        json={"properties": {"狀態": {"select": {"name": status}}}},
-    ).raise_for_status()
+    for attempt in range(3):
+        resp = requests.patch(
+            f"https://api.notion.com/v1/pages/{page_id}",
+            headers=_headers(),
+            json={"properties": {"狀態": {"select": {"name": status}}}},
+        )
+        if resp.status_code == 429:
+            retry_after = float(resp.headers.get("Retry-After", 1))
+            time.sleep(retry_after)
+            continue
+        resp.raise_for_status()
+        return
+    resp.raise_for_status()
 
 
 def update_article(page_id: str, summary: str, status: str = "") -> dict:

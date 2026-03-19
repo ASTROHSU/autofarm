@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="1200" height="1200">
+<rect width="600" height="600" fill="white"/>
+
+<!-- Title -->
+<text x="300" y="36" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a" font-family="system-ui, -apple-system, sans-serif">BIS 166 號報告：自託管錢包的「連坐策略」</text>
+
+<!-- Subtitle -->
+<text x="300" y="58" text-anchor="middle" font-size="11" fill="#6b7280" font-family="system-ui, -apple-system, sans-serif">傳統反洗錢靠中介機構把關，自託管錢包沒有中介——怎麼辦？</text>
+
+<!-- Row 1: 自託管錢包 -->
+<rect x="200" y="80" width="200" height="50" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+<text x="300" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#92400e" font-family="system-ui, -apple-system, sans-serif">自託管錢包</text>
+<text x="300" y="118" text-anchor="middle" font-size="10" fill="#92400e" font-family="system-ui, -apple-system, sans-serif">全球 59% 加密使用者偏好</text>
+
+<!-- Arrow down -->
+<line x1="300" y1="130" x2="300" y2="155" stroke="#d97706" stroke-width="2" marker-end="url(#arr-o)"/>
+<text x="370" y="147" font-size="10" fill="#6b7280" font-family="system-ui, -apple-system, sans-serif">轉帳給</text>
+
+<!-- Row 2: 交易所 -->
+<rect x="200" y="160" width="200" height="50" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="300" y="181" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af" font-family="system-ui, -apple-system, sans-serif">受監管交易所</text>
+<text x="300" y="198" text-anchor="middle" font-size="10" fill="#1e40af" font-family="system-ui, -apple-system, sans-serif">法幣出入金管道</text>
+
+<!-- Arrow down to chokepoint box -->
+<line x1="300" y1="210" x2="300" y2="240" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-r)"/>
+
+<!-- BIS Chokepoint Strategy Box -->
+<rect x="80" y="245" width="440" height="160" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="300" y="270" text-anchor="middle" font-size="14" font-weight="700" fill="#dc2626" font-family="system-ui, -apple-system, sans-serif">BIS「連坐策略」：每個中繼點都有責任</text>
+
+<!-- 3 actions inside -->
+<rect x="105" y="290" width="170" height="44" rx="6" fill="#fee2e2" stroke="#f87171" stroke-width="1"/>
+<text x="190" y="308" text-anchor="middle" font-size="11" font-weight="600" fill="#991b1b" font-family="system-ui, -apple-system, sans-serif">強化查核</text>
+<text x="190" y="324" text-anchor="middle" font-size="10" fill="#991b1b" font-family="system-ui, -apple-system, sans-serif">資金須強化審查</text>
+
+<rect x="315" y="290" width="180" height="44" rx="6" fill="#fee2e2" stroke="#f87171" stroke-width="1"/>
+<text x="405" y="308" text-anchor="middle" font-size="11" font-weight="600" fill="#991b1b" font-family="system-ui, -apple-system, sans-serif">凍結可疑錢包</text>
+<text x="405" y="324" text-anchor="middle" font-size="10" fill="#991b1b" font-family="system-ui, -apple-system, sans-serif">穩定幣發行商可直接凍結</text>
+
+<rect x="150" y="348" width="300" height="44" rx="6" fill="#fee2e2" stroke="#f87171" stroke-width="1"/>
+<text x="300" y="366" text-anchor="middle" font-size="11" font-weight="600" fill="#991b1b" font-family="system-ui, -apple-system, sans-serif">法幣出入金管道是卡關點</text>
+<text x="300" y="382" text-anchor="middle" font-size="10" fill="#991b1b" font-family="system-ui, -apple-system, sans-serif">現金交易超過一萬歐元必須申報</text>
+
+<!-- Arrow down to EU -->
+<line x1="300" y1="405" x2="300" y2="435" stroke="#2563eb" stroke-width="2" marker-end="url(#arr-b)"/>
+
+<!-- Row: EU response -->
+<rect x="140" y="440" width="320" height="50" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="300" y="461" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af" font-family="system-ui, -apple-system, sans-serif">歐盟執委會</text>
+<text x="300" y="478" text-anchor="middle" font-size="10" fill="#1e40af" font-family="system-ui, -apple-system, sans-serif">預計 2026 年 7 月前完成自託管錢包風險評估</text>
+
+<!-- P2P bypass dashed -->
+<rect x="440" y="80" width="120" height="50" rx="8" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="500" y="101" text-anchor="middle" font-size="11" font-weight="600" fill="#6b7280" font-family="system-ui, -apple-system, sans-serif">P2P 交易</text>
+<text x="500" y="118" text-anchor="middle" font-size="10" fill="#9ca3af" font-family="system-ui, -apple-system, sans-serif">繞過中介</text>
+<path d="M 500 130 L 500 240" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-g)"/>
+<text x="530" y="190" font-size="10" fill="#9ca3af" font-family="system-ui, -apple-system, sans-serif">漏洞</text>
+
+<!-- Legend -->
+<text x="300" y="530" text-anchor="middle" font-size="10" fill="#6b7280" font-family="system-ui, -apple-system, sans-serif">紅色 = BIS 建議的監管措施　　藍色 = 現有受監管節點　　虛線 = 尚無法管控的路徑</text>
+
+<!-- Source -->
+<text x="300" y="565" text-anchor="middle" font-size="9" fill="#9ca3af" font-family="system-ui, -apple-system, sans-serif">來源：BIS Working Paper No. 166（2026/03）</text>
+
+<defs>
+  <marker id="arr-o" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#d97706"/></marker>
+  <marker id="arr-r" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#dc2626"/></marker>
+  <marker id="arr-b" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#2563eb"/></marker>
+  <marker id="arr-g" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#9ca3af"/></marker>
+</defs>
+</svg>

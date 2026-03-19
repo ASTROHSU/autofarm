@@ -1,6 +1,6 @@
 ---
 name: publish
-description: 從 Notion 撈出本週「已發布」條目，排版成可直接貼上 Substack 的電子報草稿
+description: 從 Notion 撈出本週「待發布」條目，排版成可直接貼上 Substack 的電子報草稿
 argument-hint: （無需參數，直接執行）
 allowed-tools: mcp__claude_ai_Notion__search, mcp__claude_ai_Notion__fetch, mcp__claude_ai_Notion__query_data_sources
 ---
@@ -13,7 +13,7 @@ allowed-tools: mcp__claude_ai_Notion__search, mcp__claude_ai_Notion__fetch, mcp_
 
 用 `mcp__claude_ai_Notion__fetch` 查詢資料庫：
 - data_source_id: `f3138b3f-bc33-4f71-8ef6-8d78b73a6e96`
-- 過濾條件：狀態 = 「已發布」
+- 過濾條件：狀態 = 「待發布」
 - 排序：發布日期由舊到新（或處理日期由舊到新）
 
 如果有多筆，全部抓出來。

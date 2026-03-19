@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="1200" height="1200">
+<rect width="600" height="600" fill="white"/>
+
+<!-- Title -->
+<text x="300" y="36" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a" font-family="system-ui, -apple-system, sans-serif">Across Protocol 治理轉型：DAO → 公司</text>
+
+<!-- ===== TOP: DAO Structure ===== -->
+<text x="300" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="#8b5cf6" font-family="system-ui, -apple-system, sans-serif">轉型前：DAO 架構</text>
+
+<rect x="200" y="85" width="200" height="42" rx="6" fill="#f3e8ff" stroke="#8b5cf6" stroke-width="1.5"/>
+<text x="300" y="111" text-anchor="middle" font-size="12" font-weight="600" fill="#6d28d9" font-family="system-ui, -apple-system, sans-serif">ACX 代幣持有者</text>
+
+<line x1="300" y1="127" x2="300" y2="143" stroke="#8b5cf6" stroke-width="1.5" marker-end="url(#arr-p)"/>
+
+<rect x="200" y="148" width="200" height="42" rx="6" fill="#f3e8ff" stroke="#8b5cf6" stroke-width="1.5"/>
+<text x="300" y="174" text-anchor="middle" font-size="12" font-weight="600" fill="#6d28d9" font-family="system-ui, -apple-system, sans-serif">DAO 投票治理</text>
+
+<line x1="300" y1="190" x2="300" y2="206" stroke="#8b5cf6" stroke-width="1.5" marker-end="url(#arr-p)"/>
+
+<rect x="200" y="211" width="200" height="42" rx="6" fill="#f3e8ff" stroke="#8b5cf6" stroke-width="1.5"/>
+<text x="300" y="237" text-anchor="middle" font-size="12" font-weight="600" fill="#6d28d9" font-family="system-ui, -apple-system, sans-serif">Across Protocol</text>
+
+<text x="300" y="272" text-anchor="middle" font-size="10" fill="#9ca3af" font-family="system-ui, -apple-system, sans-serif">無法律實體，機構無法簽約</text>
+
+<!-- ===== CENTER: Conversion Arrow ===== -->
+<rect x="130" y="288" width="340" height="60" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="300" y="310" text-anchor="middle" font-size="14" font-weight="700" fill="#dc2626" font-family="system-ui, -apple-system, sans-serif">⬇ 轉型 ⬇</text>
+<text x="300" y="330" text-anchor="middle" font-size="11" fill="#dc2626" font-family="system-ui, -apple-system, sans-serif">ACX 1:1 換股份　或 $0.04375 賣回換 USDC（溢價 25%）</text>
+
+<!-- ===== BOTTOM: Company Structure ===== -->
+<text x="300" y="375" text-anchor="middle" font-size="13" font-weight="700" fill="#2563eb" font-family="system-ui, -apple-system, sans-serif">轉型後：公司架構</text>
+
+<rect x="200" y="390" width="200" height="42" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="300" y="416" text-anchor="middle" font-size="12" font-weight="600" fill="#1e40af" font-family="system-ui, -apple-system, sans-serif">AcrossCo 股東</text>
+
+<line x1="300" y1="432" x2="300" y2="448" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arr-b)"/>
+
+<rect x="200" y="453" width="200" height="42" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="300" y="479" text-anchor="middle" font-size="12" font-weight="600" fill="#1e40af" font-family="system-ui, -apple-system, sans-serif">董事會 + 管理層</text>
+
+<line x1="300" y1="495" x2="300" y2="511" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arr-b)"/>
+
+<rect x="200" y="516" width="200" height="42" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="300" y="542" text-anchor="middle" font-size="12" font-weight="600" fill="#1e40af" font-family="system-ui, -apple-system, sans-serif">Across Protocol</text>
+
+<text x="300" y="577" text-anchor="middle" font-size="10" fill="#9ca3af" font-family="system-ui, -apple-system, sans-serif">美國法人，可與機構簽約　|　ACX 漲幅 85%　|　爭議：$2,300 萬移入私人公司</text>
+
+<defs>
+  <marker id="arr-p" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#8b5cf6"/></marker>
+  <marker id="arr-b" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#2563eb"/></marker>
+</defs>
+</svg>
