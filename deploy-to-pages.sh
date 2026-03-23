@@ -20,7 +20,7 @@ TYPE="$1"
 DATE="$2"
 TITLE="$3"
 SOURCE="$4"
-REPO_DIR="/Users/fymn/autofarm"
+REPO_DIR="${AUTOFARM_DIR:-$HOME/autofarm}"
 
 if [ -z "$TYPE" ] || [ -z "$DATE" ] || [ -z "$TITLE" ] || [ -z "$SOURCE" ]; then
   echo "Usage: $0 <type> <date> <title> <source_html_path>"

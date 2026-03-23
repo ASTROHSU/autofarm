@@ -2,15 +2,21 @@
   "entries": [
     {
       "type": "digest",
-      "date": "2026-03-22",
-      "title": "每日摘要 2026-03-22",
-      "path": "digest/2026-03-22.html"
+      "date": "2026-03-23",
+      "title": "每日摘要 2026-03-23",
+      "path": "digest/2026-03-23.html"
     },
     {
       "type": "morning",
       "date": "2026-03-22",
       "title": "28 年前的未竟之業：AI 代理人搶著付錢，誰來收？",
       "path": "stories/story_2026-03-22_早晨版_AI代理人支付戰爭.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-22",
+      "title": "每日摘要 2026-03-22",
+      "path": "digest/2026-03-22.html"
     },
     {
       "type": "digest",
