@@ -8,6 +8,12 @@
     },
     {
       "type": "morning",
+      "date": "2026-03-23",
+      "title": "市場在等錯誤的機器人",
+      "path": "stories/story_2026-03-23_早晨版_人形機器人工業革命.html"
+    },
+    {
+      "type": "morning",
       "date": "2026-03-22",
       "title": "28 年前的未竟之業：AI 代理人搶著付錢，誰來收？",
       "path": "stories/story_2026-03-22_早晨版_AI代理人支付戰爭.html"
