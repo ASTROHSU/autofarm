@@ -1,16 +1,22 @@
 {
   "entries": [
     {
-      "type": "digest",
-      "date": "2026-03-24",
-      "title": "每日摘要 2026-03-24",
-      "path": "digest/2026-03-24.html"
+      "type": "morning",
+      "date": "2026-03-25",
+      "title": "穩定幣的成年禮，規則還沒寫完",
+      "path": "stories/story_2026-03-25_早晨版_穩定幣成年禮.html"
     },
     {
       "type": "morning",
       "date": "2026-03-24",
       "title": "避險劇本失效：伊朗戰爭第 25 天，黃金輸給比特幣",
       "path": "stories/story_2026-03-24_早晨版_避險劇本失效.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-24",
+      "title": "每日摘要 2026-03-24",
+      "path": "digest/2026-03-24.html"
     },
     {
       "type": "digest",

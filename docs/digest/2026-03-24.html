@@ -20,14 +20,12 @@
       --tag-text: #5a5040;
       --border: #e8e3d8;
       --link: #2d6a4f;
+      --energy-tag: #7b4f1e;
+      --energy-bg: #fdf3e3;
       --crypto-tag: #1a3a6b;
       --crypto-bg: #e8f0fc;
       --ai-tag: #3d1a6b;
       --ai-bg: #f0e8fc;
-      --macro-tag: #3a5a1e;
-      --macro-bg: #f0f4e8;
-      --discuss-bg: #faf8f4;
-      --discuss-border: #e0ddd6;
     }
 
     body {
@@ -99,6 +97,10 @@
       line-height: 1.6;
     }
 
+    .relation-notice strong {
+      font-weight: 600;
+    }
+
     .story {
       background: var(--surface);
       border-radius: 8px;
@@ -125,7 +127,8 @@
 
     .tag-crypto { background: var(--crypto-bg); color: var(--crypto-tag); }
     .tag-ai { background: var(--ai-bg); color: var(--ai-tag); }
-    .tag-macro { background: var(--macro-bg); color: var(--macro-tag); }
+    .tag-energy { background: var(--energy-bg); color: var(--energy-tag); }
+    .tag-macro { background: #f0f4e8; color: #3a5a1e; }
 
     .story-title {
       font-family: 'Noto Serif TC', serif;
@@ -165,48 +168,55 @@
       margin-bottom: 0;
     }
 
-    .story-discuss {
-      margin-top: 18px;
-      padding: 12px 16px;
-      background: var(--discuss-bg);
-      border: 1px solid var(--discuss-border);
-      border-radius: 6px;
-      font-size: 13.5px;
-      line-height: 1.65;
-      color: var(--muted);
+    .story-group {
+      position: relative;
+      margin-bottom: 28px;
     }
 
-    .story-discuss .discuss-title {
-      font-weight: 600;
-      color: #555;
-      margin-bottom: 8px;
-      font-size: 12px;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-    }
-
-    .story-discuss ol {
-      list-style: decimal;
-      padding-left: 1.4em;
-      margin: 0;
-    }
-
-    .story-discuss ol li {
-      margin-bottom: 4px;
-    }
-
-    .story-discuss ol li:last-child {
+    .story-group .story {
       margin-bottom: 0;
     }
 
-    .story-discuss a {
-      color: var(--link);
-      text-decoration: none;
-      border-bottom: 1px dotted var(--discuss-border);
+    .story-group .story:not(:last-child) {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      border-bottom: 1px dashed var(--border);
     }
 
-    .story-discuss a:hover {
-      border-bottom-style: solid;
+    .story-group .story:not(:first-child) {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .story-group-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #d4a853;
+      background: #fff8ee;
+      padding: 5px 14px;
+      text-align: center;
+      border-left: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+    }
+
+    .discussion {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 13.5px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .discussion-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #aaa;
+      margin-bottom: 6px;
     }
 
     .sources-section {
@@ -283,128 +293,126 @@
       <div class="site-title">每日摘要</div>
       <h1 class="digest-headline">2026 年 3 月 24 日，週二</h1>
       <div class="digest-meta">
-        <span>3 則摘要</span>
+        <span>4 則摘要</span>
         <span>來源：Gmail 電子報</span>
       </div>
     </header>
 
-    <!-- 關聯提示 -->
     <div class="relation-notice">
-      今日三則新聞分屬不同領域，但第 1 則（Resolv 駭客事件）和第 2 則（氦氣危機）都指向同一件事：看似穩固的基礎設施，往往只靠單一節點維繫——DeFi 的單一私鑰、半導體業的單一氦氣來源國。
+      <strong>今日關聯：</strong>第 3、4 則是 DeFi 的兩個側面——Resolv 駭客事件揭露策展人制度的誘因缺陷，《CLARITY 法》的穩定幣利息妥協則是立法者試圖補上護欄。市場失敗與監管推進，本週恰好同步發生。
     </div>
 
-    <!-- Story 1: Resolv Hack / Curator Model -->
+    <!-- Story 1: Anthropic vs. Pentagon -->
     <article class="story">
       <div class="story-tags">
-        <span class="tag tag-crypto">DeFi</span>
-      </div>
-      <h2 class="story-title">
-        <a href="https://newsletter2.thedefiant.io/p/defi-s-curator-model-faces-scrutiny" target="_blank" rel="noopener">
-          Resolv 穩定幣遭駭 2,500 萬美元，DeFi「策展人」模式的結構性問題浮上檯面
-        </a>
-      </h2>
-      <div class="story-source">來源：<a href="https://thedefiant.io/news/hacks/defi-has-seen-resolv-s-usd25m-usr-exploit-many-times-before" target="_blank" rel="noopener">The Defiant</a> · <a href="https://www.theblock.co/post/394582/resolvs-usr-stablecoin-depegs-after-attacker-mints-80-million-unbacked-tokens-extracts-roughly-25-million" target="_blank" rel="noopener">The Block</a> · <a href="https://www.dlnews.com/articles/defi/resolve-labs-stablecoin-falls-80-per-cent-as-millions-tokens-minted/" target="_blank" rel="noopener">DL News</a></div>
-      <div class="story-body">
-        <p>DeFi 借貸平台近年流行「策展人」模式：由專業風險管理者建立金庫、挑選抵押品、設定參數，存款人按策展人的績效決定要不要存錢進去。聽起來像是去中心化版的對沖基金。問題是策展人靠管理費賺錢，接受高風險抵押品能吸引更多存款，虧損卻由存款人承擔。過去 14 個月，類似事件至少發生四次——USD0++、xUSD、兩次 Moonwell 預言機錯誤——每次都是同一套劇本。</p>
-        <p>週日 Resolv 的穩定幣 USR 遭到駭客攻擊：一把被盜的私鑰讓攻擊者在 17 分鐘內憑空鑄造 8,000 萬顆無擔保的 USR，提走約 2,500 萬美元的以太幣。USR 價格從 1 美元崩跌至 0.025 美元，Morpho 上至少 15 個金庫因持有 USR 作為抵押品而產生壞帳。Aave 創辦人 Stani Kulechov 表示 Aave 本身沒有 USR 曝險，Resolv 正在進行償還。Aave 的 Marc Zeller 說得更直接：「策展人產業設計得很糟，因為根本沒有真正的策展在發生。」</p>
-      </div>
-      <div class="story-discuss">
-        <div class="discuss-title">相關討論</div>
-        <ol>
-          <li>Aave 治理負責人 Marc Zeller（<a href="https://thedefiant.io/news/hacks/defi-has-seen-resolv-s-usd25m-usr-exploit-many-times-before" target="_blank" rel="noopener">轉引自 The Defiant 報導</a>）：「策展人產業設計得很糟，因為根本沒有真正的策展在發生。」</li>
-          <li><a href="https://thedefiant.io/news/hacks/defi-has-seen-resolv-s-usd25m-usr-exploit-many-times-before" target="_blank" rel="noopener">The Defiant</a> 創辦人 Cami Russo：這是 14 個月內第五次同一套劇本——問題不是程式碼，是策展人的獎勵結構讓風險永遠落在存款人身上</li>
-          <li><a href="https://defiprime.com/resolv-usr-exploit" target="_blank" rel="noopener">DeFi Prime</a> 分析：單一私鑰控制鑄幣權限、無預言機驗證、無最大鑄幣上限——三道該有的安全機制全部缺席</li>
-        </ol>
-      </div>
-    </article>
-
-    <!-- Story 2: Helium Crisis -->
-    <article class="story">
-      <div class="story-tags">
-        <span class="tag tag-macro">總體經濟</span>
-        <span class="tag tag-ai">半導體</span>
-      </div>
-      <h2 class="story-title">
-        <a href="https://www.exponentialview.co/p/data-to-start-your-week-helium" target="_blank" rel="noopener">
-          伊朗戰爭的意外戰線：全球三分之一氦氣供應中斷，晶片製造拉警報
-        </a>
-      </h2>
-      <div class="story-source">來源：<a href="https://www.exponentialview.co/p/data-to-start-your-week-helium" target="_blank" rel="noopener">Exponential View</a> · <a href="https://fortune.com/2026/03/21/iran-war-helium-shortage-qatar-chip-supply-chains-ai-boom/" target="_blank" rel="noopener">Fortune</a> · <a href="https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock" target="_blank" rel="noopener">Tom's Hardware</a> · <a href="https://www.trendforce.com/news/2026/03/23/news-under-qatars-shadow-helium-crunch-hits-south-korea-harder-putting-samsung-sk-hynix-tsmc-in-spotlight/" target="_blank" rel="noopener">TrendForce</a></div>
-      <div class="story-body">
-        <p>氦氣是半導體製造超過 20 道製程不可或缺的冷卻劑，目前沒有替代品。全球 34% 的氦氣來自卡達，而卡達的氦氣是液化天然氣（LNG）加工的副產品。伊朗攻擊卡達的拉斯拉凡（Ras Laffan）設施後，卡達的氦氣出口直接減少 14%，修復需要三到五年。更麻煩的是液態氦的保質期只有 35 到 48 天——超過這個時間，氦氣就會蒸發、逸散到大氣層外，永遠消失。</p>
-        <p>南韓去年有 64% 的氦氣從卡達進口，而南韓的晶圓廠生產了全球約八成的高頻寬記憶體（HBM），這是 AI 晶片的關鍵零組件。SK 海力士聲稱已分散供應來源，「幾乎不可能受影響」；三星則在戰前就導入了氦氣回收系統。Azeem Azhar 的 Exponential View 分析認為，氦氣只佔晶片製造成本的 0.5% 到 1%，價格翻三倍也只增加 1.5% 到 3% 的成本——短期內是物流問題，而非成本問題。</p>
-      </div>
-      <div class="story-discuss">
-        <div class="discuss-title">相關討論</div>
-        <ol>
-          <li><a href="https://www.trendforce.com/news/2026/03/23/news-under-qatars-shadow-helium-crunch-hits-south-korea-harder-putting-samsung-sk-hynix-tsmc-in-spotlight/" target="_blank" rel="noopener">TrendForce</a>：南韓首當其衝，三星與 SK 海力士已進入高度警戒並限制廠內氦氣用量</li>
-          <li>氦氣顧問 Phil Kornbluth 在 <a href="https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock" target="_blank" rel="noopener">Gasworld 網路研討會</a>：停機超過兩週，工業氣體經銷商將被迫重新部署低溫設備，恢復過程可能拖到數月</li>
-          <li><a href="https://www.exponentialview.co/p/data-to-start-your-week-helium" target="_blank" rel="noopener">Exponential View</a> 認為 Tom's Hardware「兩週倒數」的標題過度渲染，氦氣佔晶片成本不到 1%，短期是物流問題而非成本危機</li>
-        </ol>
-      </div>
-    </article>
-
-    <!-- Story 3: Anthropic vs Pentagon -->
-    <article class="story">
-      <div class="story-tags">
-        <span class="tag tag-ai">AI 治理</span>
+        <span class="tag tag-ai">AI 政策</span>
       </div>
       <h2 class="story-title">
         <a href="https://www.bigtechnology.com/p/anthropic-takes-the-pentagon-to-court" target="_blank" rel="noopener">
-          Anthropic 今日出庭對抗五角大廈，Google 首席科學家與 OpenAI 員工聯名力挺
+          Anthropic 拒絕讓 Claude 上戰場，告上五角大廈
         </a>
       </h2>
-      <div class="story-source">來源：<a href="https://www.bigtechnology.com/p/anthropic-takes-the-pentagon-to-court" target="_blank" rel="noopener">Big Technology</a> · <a href="https://fortune.com/2026/03/10/google-openai-employees-back-anthropic-legal-fight-military-use-of-ai/" target="_blank" rel="noopener">Fortune</a> · <a href="https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/" target="_blank" rel="noopener">TechCrunch</a></div>
+      <div class="story-source">來源：Big Technology · CNN · TechCrunch</div>
       <div class="story-body">
-        <p>Anthropic 拒絕讓旗下 AI 模型 Claude 用於大規模監控和自主武器，五角大廈隨後將 Anthropic 列為「供應鏈風險」——這個標籤過去只用在外國企業身上。Anthropic 在三月初向加州北區和華盛頓特區聯邦法院同時提告，主張這是政府對言論自由的報復。近 150 名退休聯邦與州法官提交了支持 Anthropic 的法庭之友意見書，Google 首席科學家 Jeff Dean 與超過 30 名 OpenAI、Google DeepMind 員工也以個人身分聯名提交意見書，警告此舉將傷害整個美國 AI 產業。</p>
-        <p>今天（週二）加州北區的 Rita Lin 法官將聽取 Anthropic 的臨時禁制令申請。Anthropic 主張的核心是：拒絕授權特定用途屬於受第一修正案保護的言論，政府不得因此報復。五角大廈的立場則是：政府有權選擇供應商並設定合約條件。法院文件顯示，五角大廈曾在宣布「關係破裂」的前一週告訴 Anthropic 雙方「幾乎達成共識」。超過 400 萬人在 QuitGPT 網站上表態刪除 ChatGPT，抗議 OpenAI 搶下國防合約取代 Anthropic。</p>
+        <p>今年二月，川普政府要求 Anthropic 在合約中開放 Claude 用於「自主武器系統」和「國內大規模監控」。Anthropic 拒絕，國防部長 Hegseth 隨即以「供應鏈風險」名義撤銷了它與所有聯邦機構的合約——這個標籤通常貼給外國敵對勢力。OpenAI 接手了那份國防合約，但此後逾 400 萬用戶揚言刪除 ChatGPT。</p>
+        <p>3 月 9 日，Anthropic 分別在加州和華盛頓特區提告，主張拒簽合約受第一修正案（言論自由）保護，黑名單行動違反第五修正案正當程序，且 Hegseth 動用的法律條款本是針對外國勢力而設。本週二，加州聯邦法官 Rita Lin 舉行聽證，決定是否凍結政府禁令。近 150 名退休聯邦法官已連署支持 Anthropic；Google 首席科學家 Jeff Dean 與多名 OpenAI 研究人員也聯名提交意見書，稱政府這項指定可能「嚴重衝擊整個產業」。</p>
       </div>
-      <div class="story-discuss">
-        <div class="discuss-title">相關討論</div>
-        <ol>
-          <li>Google 首席科學家 Jeff Dean 等人在<a href="https://fortune.com/2026/03/10/google-openai-employees-back-anthropic-legal-fight-military-use-of-ai/" target="_blank" rel="noopener">法庭之友意見書</a>中寫道：「這種能力僅僅存在於政府手中——即使從未對特定個人啟動——就已經改變了民主社會中公共生活的本質。」</li>
-          <li><a href="https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/" target="_blank" rel="noopener">TechCrunch</a> 揭露：五角大廈副部長 3/4 寫信給 Amodei 說雙方「非常接近」共識——但前一天才正式將 Anthropic 列為供應鏈風險</li>
-          <li><a href="https://societyfortheruleoflaw.org/amicus-brief-anthropic-dow/" target="_blank" rel="noopener">Society for the Rule of Law</a>：近 150 名退休聯邦與州法官提交支持意見書，認為政府此舉構成對言論自由的報復</li>
-        </ol>
+      <div class="discussion">
+        <div class="discussion-label">相關討論</div>
+        TechCrunch 報導：五角大廈在 3 月 20 日的法庭文件中透露，曾在川普宣佈破局後一週告知 Anthropic「雙方幾近達成共識」——此細節讓外界對政府行動的急迫性產生疑問。舊金山週末出現反 AI 抗議，示威者在 Anthropic 總部前高舉「不要建造天網」標語。
       </div>
     </article>
 
+    <!-- Story 2: Iran → Helium → Semiconductors -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-energy">能源</span>
+        <span class="tag tag-ai">AI 晶片</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://fortune.com/2026/03/21/iran-war-helium-shortage-qatar-chip-supply-chains-ai-boom/" target="_blank" rel="noopener">
+          伊朗炸了一個氦氣廠，AI 晶片供應鏈開始倒數計時
+        </a>
+      </h2>
+      <div class="story-source">來源：Exponential View（Azeem Azhar）· Fortune · Tom's Hardware</div>
+      <div class="story-body">
+        <p>氦氣在晶片製造中不可替代：冷卻矽晶圓超過 20 個製程步驟都需要它，目前沒有替代材料。卡達的拉斯拉凡設施是全球最集中的氦氣生產地，供應全球約 34% 的需求；南韓從卡達進口 65% 的氦氣，而南韓工廠負責生產全球約 80% 的高頻寬記憶體（HBM）——所有高階 AI 晶片的必要元件。</p>
+        <p>伊朗上週空襲拉斯拉凡，QatarEnergy 通報「嚴重損壞」，需要 3 至 5 年修復，每年氦氣出口量減少 14%。不過 SK 海力士因已分散供應商，表示「幾乎不受影響」；三星也在戰前建好業界首個氦氣回收系統。即使氦氣價格翻倍，對晶片成本的影響也僅從 0.5% 升至約 1%。眼前的壓力在時間：液態氦容器只能撐 35 到 48 天，採購團隊接下來幾週要加緊補貨。</p>
+      </div>
+      <div class="discussion">
+        <div class="discussion-label">相關討論</div>
+        Tom's Hardware 以「兩週倒數計時」為標題，強調採購窗口正在收窄。Exponential View 的 Azeem Azhar 則指出，高附加值 AI 加速器廠商議價力夠強，即便漲價也能吸收或轉嫁，對 AI 供應鏈的短期威脅低於媒體標題暗示的程度。相關：3 月 23 日摘要曾報導伊朗攻擊卡達 LNG 引發油價飆升。
+      </div>
+    </article>
+
+    <!-- Stories 3+4: DeFi double pressure -->
+    <div class="story-group">
+
+      <!-- Story 3: Resolv hack / DeFi Curator -->
+      <article class="story">
+        <div class="story-tags">
+          <span class="tag tag-crypto">DeFi</span>
+        </div>
+        <h2 class="story-title">
+          <a href="https://thedefiant.io/news/hacks/defi-has-seen-resolv-s-usd25m-usr-exploit-many-times-before" target="_blank" rel="noopener">
+            Resolv 遭竊 2,500 萬美元，15 個 Morpho 保險庫中彈——策展人制度的誘因問題再度爆發
+          </a>
+        </h2>
+        <div class="story-source">來源：The Defiant（Cami）· DL News · The Block</div>
+        <div class="story-body">
+          <p>DeFi 近年流行一種「策展人」架構：由專業風險管理者操作保險庫、設定抵押品規則，協議本身保持中立。問題是策展人靠管理費分潤，收益率越高才能吸引更多存款——有動機接受風險更高的抵押品；一旦抵押品崩潰，損失全由存款人吸收，策展人的自有資金幾乎不受影響。</p>
+          <p>上週日，Resolv 遭攻擊者以被盜私鑰增發 8,000 萬顆無擔保的 USR 穩定幣，17 分鐘內抽走 2,500 萬美元。USR 跌至 2 美分，但 Morpho 的預言機因協議暫停而凍結在 1.13 美元，形成套利缺口——低價買入 USR、以高估值抵押後借走 USDC，15 個保險庫被波及。Fluid 單日遭提款逾 3 億美元，部分策展人的自動化機器人在事發後仍持續往受害保險庫補錢，加深損失。Aave 的 Marc Zeller 在 X 上說：「策展人產業的設計根本有問題，根本沒有在做真正的策展。」這已是 14 個月內同類事故的第四次。</p>
+        </div>
+        <div class="discussion">
+          <div class="discussion-label">相關討論</div>
+          @d2_finance 在 X 上貼出鏈上數據，顯示 Gauntlet 的「USDC Core 核心保險庫」有 495 萬美元暴露在受損市場，與 Gauntlet 原本「僅少量曝險」的說法相矛盾。The Defiant 創辦人 Cami 評論：「DeFi 的一貫回應，是用更精美的包裝把同樣的假設再包一次。」
+        </div>
+      </article>
+
+      <div class="story-group-label">同一週的 DeFi 壓力測試：市場面與監管面</div>
+
+      <!-- Story 4: CLARITY Act stablecoin yield -->
+      <article class="story">
+        <div class="story-tags">
+          <span class="tag tag-crypto">加密監管</span>
+          <span class="tag tag-macro">立法</span>
+        </div>
+        <h2 class="story-title">
+          <a href="https://www.coindesk.com/policy/2026/03/20/crypto-clarity-act-may-be-cleared-to-move-after-senators-agree-on-stablecoin-yield" target="_blank" rel="noopener">
+            穩定幣能不能付利息？美國參議員打破《CLARITY 法》最大障礙
+          </a>
+        </h2>
+        <div class="story-source">來源：Milk Road · CoinDesk · Politico</div>
+        <div class="story-body">
+          <p>《CLARITY 法》是美國最新的加密資產綜合監管框架草案，一個問題卡了好幾個月：穩定幣持有者能不能拿利息？Coinbase 已對 USDC 提供約 4% 年化報酬，而銀行存款利率只有 0.01% 到 0.02%。銀行業者算清楚這個差距，派說客把整個法案卡在銀行委員會。</p>
+          <p>3 月 20 日，共和黨參議員 Tillis 和民主黨參議員 Alsobrooks 宣布達成原則性妥協：純粹持有穩定幣的被動收益禁止；透過消費、轉帳或使用平台產生的活動型報酬仍可保留。Alsobrooks 說：「這讓我們既能保護創新，也能防止大規模存款外流。」不過法案接下來仍需通過銀行委員會審查（預計四月下旬）、全院 60 票門檻、與農業委員會版本整合、再跟眾議院版本合併，才能送至總統簽署。DeFi 條款和政府官員持幣的利益迴避規定仍有爭議。</p>
+        </div>
+        <div class="discussion">
+          <div class="discussion-label">相關討論</div>
+          CoinDesk 報導：3 月 23 日業界和銀行業代表赴國會山莊審閱尚未公開的完整協議文字，細節仍在確認中。Politico 引述 Alsobrooks：「我們在這件事上走了很長一段路。」
+        </div>
+      </article>
+
+    </div>
+
     <!-- Sources -->
-    <section class="sources-section">
+    <div class="sources-section">
       <div class="sources-title">來源</div>
       <ul class="sources-list">
-        <li>
-          <a href="https://newsletter2.thedefiant.io/p/defi-s-curator-model-faces-scrutiny" target="_blank" rel="noopener">The Defiant — DeFi's Curator Model Faces Scrutiny（2026-03-24）</a>
-        </li>
-        <li>
-          <a href="https://thedefiant.io/news/hacks/defi-has-seen-resolv-s-usd25m-usr-exploit-many-times-before" target="_blank" rel="noopener">The Defiant — DeFi Has Seen Resolv's $25M USR Exploit Many Times Before</a>
-        </li>
-        <li>
-          <a href="https://www.theblock.co/post/394582/resolvs-usr-stablecoin-depegs-after-attacker-mints-80-million-unbacked-tokens-extracts-roughly-25-million" target="_blank" rel="noopener">The Block — Resolv's USR stablecoin depegs</a>
-        </li>
-        <li>
-          <a href="https://www.exponentialview.co/p/data-to-start-your-week-helium" target="_blank" rel="noopener">Exponential View — Data to start your week: Helium special（2026-03-23）</a>
-        </li>
-        <li>
-          <a href="https://fortune.com/2026/03/21/iran-war-helium-shortage-qatar-chip-supply-chains-ai-boom/" target="_blank" rel="noopener">Fortune — Iran war cuts off helium from Qatar（2026-03-21）</a>
-        </li>
-        <li>
-          <a href="https://www.trendforce.com/news/2026/03/23/news-under-qatars-shadow-helium-crunch-hits-south-korea-harder-putting-samsung-sk-hynix-tsmc-in-spotlight/" target="_blank" rel="noopener">TrendForce — Helium Crunch Hits South Korea Harder（2026-03-23）</a>
-        </li>
-        <li>
-          <a href="https://www.bigtechnology.com/p/anthropic-takes-the-pentagon-to-court" target="_blank" rel="noopener">Big Technology — Anthropic Takes The Pentagon To Court（2026-03-23）</a>
-        </li>
-        <li>
-          <a href="https://fortune.com/2026/03/10/google-openai-employees-back-anthropic-legal-fight-military-use-of-ai/" target="_blank" rel="noopener">Fortune — Google and OpenAI employees back Anthropic（2026-03-10）</a>
-        </li>
-        <li>
-          <a href="https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/" target="_blank" rel="noopener">TechCrunch — Pentagon told Anthropic the two sides were nearly aligned（2026-03-20）</a>
-        </li>
+        <li><a href="https://www.bigtechnology.com/p/anthropic-takes-the-pentagon-to-court" target="_blank" rel="noopener">Big Technology — Anthropic Takes The Pentagon To Court This Week</a></li>
+        <li><a href="https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/" target="_blank" rel="noopener">TechCrunch — Pentagon Told Anthropic They Were 'Nearly Aligned'</a></li>
+        <li><a href="https://fortune.com/2026/03/21/iran-war-helium-shortage-qatar-chip-supply-chains-ai-boom/" target="_blank" rel="noopener">Fortune — Iran War Cuts Off Helium from Qatar, Threatening Chip Supply Chains</a></li>
+        <li><a href="https://www.exponentialview.co/p/data-to-start-your-week-helium" target="_blank" rel="noopener">Exponential View — Data to Start Your Week: Helium Special（Azeem Azhar）</a></li>
+        <li><a href="https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock" target="_blank" rel="noopener">Tom's Hardware — Qatar Helium Shutdown Puts Chip Supply Chain on a Two-Week Clock</a></li>
+        <li><a href="https://thedefiant.io/news/hacks/defi-has-seen-resolv-s-usd25m-usr-exploit-many-times-before" target="_blank" rel="noopener">The Defiant — DeFi Has Seen Resolv's $25M USR Exploit Many Times Before</a></li>
+        <li><a href="https://www.dlnews.com/articles/defi/resolve-labs-stablecoin-falls-80-per-cent-as-millions-tokens-minted/" target="_blank" rel="noopener">DL News — Resolv Labs Stablecoin Plummets 80% as Exploiter Mints Millions</a></li>
+        <li><a href="https://www.coindesk.com/policy/2026/03/20/crypto-clarity-act-may-be-cleared-to-move-after-senators-agree-on-stablecoin-yield" target="_blank" rel="noopener">CoinDesk — CLARITY Act May Be Cleared to Move After Senators Agree on Stablecoin Yield</a></li>
+        <li><a href="https://mrcrypto.milkroad.com/p/did-iran-just-call-trump-s-bluff" target="_blank" rel="noopener">Milk Road — Did Iran Just Call Trump's Bluff??</a></li>
       </ul>
-    </section>
+    </div>
 
     <footer class="page-footer">
-      每日摘要 · 2026-03-24 · 自動生成，供個人閱讀參考，不構成投資建議
+      每日摘要 · 2026-03-24 · 僅供個人參考，不構成投資建議
     </footer>
 
   </div>
