@@ -2,6 +2,18 @@
   "entries": [
     {
       "type": "digest",
+      "date": "2026-03-24",
+      "title": "每日摘要 2026-03-24",
+      "path": "digest/2026-03-24.html"
+    },
+    {
+      "type": "morning",
+      "date": "2026-03-24",
+      "title": "戰爭打到氦氣：從波斯灣到晶圓廠的 48 小時",
+      "path": "stories/story_2026-03-24_早晨版_氦氣戰爭與資本大脫鉤.html"
+    },
+    {
+      "type": "digest",
       "date": "2026-03-23",
       "title": "每日摘要 2026-03-23",
       "path": "digest/2026-03-23.html"
@@ -11,6 +23,12 @@
       "date": "2026-03-23",
       "title": "市場在等錯誤的機器人",
       "path": "stories/story_2026-03-23_早晨版_人形機器人工業革命.html"
+    },
+    {
+      "type": "evening",
+      "date": "2026-03-23",
+      "title": "你在等的機器人革命，工廠已經開始了",
+      "path": "stories/story_2026-03-23_晚間版_機器人經濟學.html"
     },
     {
       "type": "morning",
