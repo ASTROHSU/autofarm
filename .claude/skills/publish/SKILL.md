@@ -2,7 +2,7 @@
 name: publish
 description: 從 Notion 撈出本週「待發布」條目，排版成可直接貼上 Substack 的電子報草稿
 argument-hint: （無需參數，直接執行）
-allowed-tools: mcp__claude_ai_Notion__search, mcp__claude_ai_Notion__fetch, mcp__claude_ai_Notion__query_data_sources
+allowed-tools: mcp__f8753195-f932-421e-8c57-ed1fcfcc902a__search, mcp__f8753195-f932-421e-8c57-ed1fcfcc902a__fetch
 ---
 
 # /publish 流程
@@ -11,7 +11,7 @@ allowed-tools: mcp__claude_ai_Notion__search, mcp__claude_ai_Notion__fetch, mcp_
 
 ## 步驟 1：查詢 Notion
 
-用 `mcp__claude_ai_Notion__fetch` 查詢資料庫：
+用 `mcp__f8753195-f932-421e-8c57-ed1fcfcc902a__fetch` 查詢資料庫：
 - data_source_id: `f3138b3f-bc33-4f71-8ef6-8d78b73a6e96`
 - 過濾條件：狀態 = 「待發布」
 - 排序：發布日期由舊到新（或處理日期由舊到新）
@@ -29,6 +29,8 @@ allowed-tools: mcp__claude_ai_Notion__search, mcp__claude_ai_Notion__fetch, mcp_
 
 [摘要第二段]
 
+> [討論區塊內容，若有的話]
+
 ---
 
 ## [下一篇標題]
@@ -40,6 +42,7 @@ allowed-tools: mcp__claude_ai_Notion__search, mcp__claude_ai_Notion__fetch, mcp_
 - 純文字，不加粗、不加底線
 - 標題用 `##`，Substack 會渲染成 H2
 - 摘要直接貼，不加任何前言（不寫「本週共 X 則」「以下是本週新聞」等）
+- 討論區塊：如果 Notion 條目有「討論」欄位且不為空，在摘要後附上，用 `>` 引用格式縮排。「相關討論」四個字不加入，只保留內容本身。若討論為空，則整段省略（不留空行）
 - 最後一篇後面不加 `---`
 
 ## 步驟 3：詢問是否要標記為「已整合」

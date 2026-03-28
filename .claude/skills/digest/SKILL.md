@@ -2,7 +2,7 @@
 name: digest
 description: 手動貼入新聞內容 → 背景研究 → 摘要 + 討論 → 推送 Notion
 argument-hint: （直接貼入新聞內容，或貼上新聞 URL）
-allowed-tools: WebSearch, WebFetch, Bash, Read, mcp__claude_ai_Notion__notion-create-pages
+allowed-tools: WebSearch, WebFetch, Bash, Read, mcp__f8753195-f932-421e-8c57-ed1fcfcc902a__notion-create-pages
 ---
 
 先讀取過去的改稿記錄，將已學到的規則套用到這次的摘要：
@@ -42,10 +42,10 @@ allowed-tools: WebSearch, WebFetch, Bash, Read, mcp__claude_ai_Notion__notion-cr
 ```bash
 source .venv/bin/activate && python -c "
 from farm import search_web_discussions, search_x_discussions, fetch_article_content, generate_discussion
-from openai import OpenAI
+from google import genai
 import os
 
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+gemini_client = genai.Client(api_key=os.getenv('GEMINI_API_KEY'))
 keywords = '{KEYWORDS}'  # 替換為英文搜尋關鍵字
 
 all_results = []
@@ -66,7 +66,7 @@ combined = '\n\n---\n\n'.join(all_results)
 
 title = '{TITLE}'  # 替換為中文標題
 summary = '{SUMMARY}'  # 替換為摘要內容
-discussion = generate_discussion(client, title, summary, combined)
+discussion = generate_discussion(gemini_client, title, summary, combined)
 print(discussion)
 "
 ```
@@ -75,7 +75,7 @@ print(discussion)
 
 ## 步驟 4：推送 Notion
 
-用 mcp__claude_ai_Notion__notion-create-pages 推送到 Notion 資料庫：
+用 mcp__f8753195-f932-421e-8c57-ed1fcfcc902a__notion-create-pages 推送到 Notion 資料庫：
 - data_source_id: f3138b3f-bc33-4f71-8ef6-8d78b73a6e96
 - 標題：中文標題
 - 摘要：兩段式摘要

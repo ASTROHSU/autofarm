@@ -2,9 +2,45 @@
   "entries": [
     {
       "type": "morning",
+      "date": "2026-03-28",
+      "title": "比特幣腰斬，華爾街卻在搶位子",
+      "path": "stories/story_2026-03-28_早晨版_散戶恐慌華爾街進場.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-28",
+      "title": "每日摘要 2026-03-28",
+      "path": "digest/2026-03-28.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-27",
+      "title": "每日摘要 2026-03-27",
+      "path": "digest/2026-03-27.html"
+    },
+    {
+      "type": "morning",
+      "date": "2026-03-26",
+      "title": "華盛頓的兩張臉：SEC 替代幣分類，卻堵住穩定幣的獲利之路",
+      "path": "stories/story_2026-03-26_早晨版_華盛頓的兩張臉.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-26",
+      "title": "每日摘要 2026-03-26",
+      "path": "digest/2026-03-26.html"
+    },
+    {
+      "type": "morning",
       "date": "2026-03-25",
       "title": "穩定幣的成年禮，規則還沒寫完",
       "path": "stories/story_2026-03-25_早晨版_穩定幣成年禮.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-25",
+      "title": "每日摘要 2026-03-25",
+      "path": "digest/2026-03-25.html"
     },
     {
       "type": "morning",

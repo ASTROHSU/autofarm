@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日摘要 2026-03-26</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8f6f1;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #1a1a1a;
+      --tag-bg: #f0ede6;
+      --tag-text: #5a5040;
+      --border: #e8e3d8;
+      --link: #2d6a4f;
+      --crypto-tag: #1a3a6b;
+      --crypto-bg: #e8f0fc;
+      --ai-tag: #3d1a6b;
+      --ai-bg: #f0e8fc;
+      --legal-tag: #6b1a1a;
+      --legal-bg: #fce8e8;
+      --market-tag: #1a5a3a;
+      --market-bg: #e8faf0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 17px;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .site-header {
+      margin-bottom: 48px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--text);
+    }
+
+    .site-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 14px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .digest-headline {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+
+    .digest-meta {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      gap: 16px;
+    }
+
+    .story {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 32px;
+      margin-bottom: 28px;
+    }
+
+    .story-tags {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .tag {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .tag-crypto { background: var(--crypto-bg); color: var(--crypto-tag); }
+    .tag-ai { background: var(--ai-bg); color: var(--ai-tag); }
+    .tag-legal { background: var(--legal-bg); color: var(--legal-tag); }
+    .tag-market { background: var(--market-bg); color: var(--market-tag); }
+
+    .story-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .story-title a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .story-title a:hover {
+      border-bottom-color: var(--text);
+    }
+
+    .story-body p {
+      margin-bottom: 12px;
+      text-align: justify;
+    }
+
+    .story-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .related {
+      margin-top: 20px;
+      padding: 16px 20px;
+      background: var(--tag-bg);
+      border-radius: 6px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .related-label {
+      font-weight: 500;
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+      letter-spacing: 1px;
+      color: var(--tag-text);
+    }
+
+    .related a {
+      color: var(--link);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .related a:hover {
+      border-bottom-color: var(--link);
+    }
+
+    .story-source {
+      margin-top: 16px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .story-source a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--muted);
+    }
+
+    .story-source a:hover {
+      color: var(--link);
+      border-bottom-color: var(--link);
+    }
+
+    .page-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .page-wrap { padding: 24px 16px 48px; }
+      .digest-headline { font-size: 22px; }
+      .story { padding: 20px; }
+      .story-title { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <div class="site-title">每日摘要</div>
+      <h1 class="digest-headline">2026 年 3 月 26 日，週四</h1>
+      <div class="digest-meta">
+        <span>今日 3 則</span>
+        <span>加密監管 · 代幣化 · AI</span>
+      </div>
+    </header>
+
+    <!-- Story 1: Prediction Markets Gambling Act -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-crypto">預測市場</span>
+        <span class="tag tag-legal">監管</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.cnbc.com/2026/03/25/prediction-markets-bill-insider-trading-kalshi-polymarket-adam-schiff-john-curtis.html" target="_blank" rel="noopener">
+          美國兩黨法案要把預測市場歸類為賭博，Kalshi 的 86% 營收面臨法律風險
+        </a>
+      </h2>
+      <div class="story-body">
+        <p>Kalshi 和 Polymarket 是美國最大的兩個預測市場平台，讓使用者對現實事件下注。它們繞過各州博弈法規的方式是向商品期貨交易委員會（CFTC）註冊為「衍生品交易所」，把每筆賭注包裝成「事件合約」。Kalshi 上週週交易量首度突破 30 億美元，其中 86% 來自體育賽事，公司估值 220 億美元。年初 Polymarket 使用者在伊朗開戰前大量下注獲利的爭議，加速了國會的關注。</p>
+        <p>民主黨參議員 Schiff 與共和黨參議員 Curtis 本週聯手提出《預測市場即賭博法》，明確禁止 CFTC 監管平台上架體育和賭場類合約。Kalshi 回應稱法案「受博弈業者遊說推動」，禁令只會把交易推到海外。兩家平台同步宣布禁止政治候選人和職業運動員下注——但參議員直言自律措施「不夠」。</p>
+      </div>
+      <div class="related">
+        <span class="related-label">相關討論</span>
+        <a href="https://fortune.com/2026/03/24/kalshi-polymarket-congress-senate-updated-policies-insider-trading-gambling/" target="_blank" rel="noopener">Fortune</a> 指出兩家平台在法案消息傳出後數小時內就更新政策，顯示對國會態度轉變毫無準備。FanDuel 和 DraftKings 的股價過去一年跌逾 50%，博弈業者對預測市場搶走客戶早已不滿。
+      </div>
+      <div class="story-source">來源：<a href="https://www.cnbc.com/2026/03/25/prediction-markets-bill-insider-trading-kalshi-polymarket-adam-schiff-john-curtis.html" target="_blank" rel="noopener">CNBC</a> · <a href="https://www.nbcnews.com/tech/tech-news/sports-betting-gambling-prediction-market-kalshi-polymarket-ban-senate-rcna264734" target="_blank" rel="noopener">NBC News</a> · <a href="https://techcrunch.com/2026/03/23/bipartisan-bill-seeks-to-ban-sports-betting-on-kalshi-and-polymarket/" target="_blank" rel="noopener">TechCrunch</a></div>
+    </article>
+
+    <!-- Story 2: NYSE × Securitize -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-crypto">代幣化</span>
+        <span class="tag tag-market">傳統金融</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.coindesk.com/business/2026/03/24/new-york-stock-exchange-taps-securitize-to-build-its-tokenized-stock-platform" target="_blank" rel="noopener">
+          NYSE 選定 Securitize 為代幣化證券平台首個鑄造商
+        </a>
+      </h2>
+      <div class="story-body">
+        <p>股票代幣化的競賽三月以來不斷加速。ICE（NYSE 母公司）以 2 億美元入股 OKX 切入加密原生流動性，Nasdaq 與 Kraken 合作推出跨鏈股票代幣平台 xStocks。兩大交易所集團都選了加密原生的合作夥伴，但 NYSE 本身要怎麼做代幣化，一直沒有明確答案。</p>
+        <p>NYSE 本週宣布與貝萊德支持的代幣化公司 Securitize 簽署合作備忘錄，指定其為首個有資格在 NYSE 數位交易平台上鑄造區塊鏈原生證券的「數位轉移代理人」。Securitize 是 SEC 註冊的轉移代理人與經紀商，目前已為貝萊德的 BUIDL 基金處理鏈上資產。平台目標 2026 年底上線，仍需 SEC 與 FINRA 核准。</p>
+      </div>
+      <div class="related">
+        <span class="related-label">相關討論</span>
+        <a href="https://beincrypto.com/nyse-securitize-tokenized-securities-transfer-agent/" target="_blank" rel="noopener">BeInCrypto</a> 標題寫「華爾街 233 年老巨人把鑰匙交給了加密」。相關：Nasdaq × Kraken 的 xStocks 走的是跨鏈券商路線（見 3/13 摘要），NYSE × Securitize 走的是交易所原生鑄造路線，兩條路徑正在同步推進。
+      </div>
+      <div class="story-source">來源：<a href="https://www.coindesk.com/business/2026/03/24/new-york-stock-exchange-taps-securitize-to-build-its-tokenized-stock-platform" target="_blank" rel="noopener">CoinDesk</a> · <a href="https://thedefiant.io/news/tradfi-and-fintech/nyse-and-securitize-partner-to-build-tokenized-securities-infrastructure" target="_blank" rel="noopener">The Defiant</a> · <a href="https://ir.theice.com/press/news-details/2026/New-York-Stock-Exchange-and-Securitize-Agree-to-Memorandum-of-Understanding-to-Support-Tokenized-Securities/default.aspx" target="_blank" rel="noopener">ICE 官方新聞稿</a></div>
+    </article>
+
+    <!-- Story 3: Jensen Huang AGI -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-ai">AI</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://lexfridman.com/jensen-huang" target="_blank" rel="noopener">
+          黃仁勳告訴 Lex Fridman：「AGI 已經到了」
+        </a>
+      </h2>
+      <div class="story-body">
+        <p>黃仁勳是 NVIDIA 共同創辦人兼執行長，掌管全球市值最高的公司。NVIDIA 的 GPU 是幾乎所有 AI 模型訓練與推論的基礎，從 OpenAI 到 Google DeepMind 都依賴它的晶片。過去兩年 NVIDIA 股價翻了數倍，但黃仁勳極少在公開場合做出預測性發言。</p>
+        <p>上週黃仁勳在 Lex Fridman Podcast 接受約 2.5 小時訪談，被問到 AGI（通用人工智慧）何時到來時直接說：「我認為已經到了。」他定義的 AGI 是能創辦並經營一家市值逾 10 億美元公司的 AI 系統。這個說法立即引爆爭論——批評者認為定義太窄，支持者認為這是對 AI 進展速度的務實承認。訪談還涵蓋 AI 擴展瓶頸、中國與台積電、太空 AI 資料中心等議題。</p>
+      </div>
+      <div class="related">
+        <span class="related-label">相關討論</span>
+        <a href="https://x.com/lexfridman/status/2036123301140111406" target="_blank" rel="noopener">@lexfridman</a>：「這是一場引人入勝且鼓舞人心的對話，部分內容極度技術性。」多位 AI 研究者在 X 上質疑黃仁勳的 AGI 定義過於商業導向——「能跑十億美元生意」跟「通用智慧」是兩回事。
+      </div>
+      <div class="story-source">來源：<a href="https://lexfridman.com/jensen-huang" target="_blank" rel="noopener">Lex Fridman Podcast #494</a> · <a href="https://finance.yahoo.com/news/nvidia-ceo-jensen-huang-claims-agi-has-been-achieved-can-create-billion-dollar-businesses-172225126.html" target="_blank" rel="noopener">Yahoo Finance</a> · <a href="https://www.thestreet.com/technology/nvidia-ceo-jensen-huang-says-we-have-achieved-agi" target="_blank" rel="noopener">TheStreet</a></div>
+    </article>
+
+    <footer class="page-footer">
+      <p>本日報由自動化流程產出，內容僅供參考，不構成投資建議。</p>
+    </footer>
+
+  </div>
+</body>
+</html>

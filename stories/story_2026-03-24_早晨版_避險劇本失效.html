@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>避險劇本失效：伊朗戰爭第 25 天，黃金輸給比特幣</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;700&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy: #0d1b2a;
+      --dark-blue: #1a2d42;
+      --orange: #e8a87c;
+      --orange-light: #f2c49b;
+      --text: #1c1c1e;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --bg: #fafaf8;
+      --pullquote-bg: #f5f0ea;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Serif TC', serif;
+      font-size: 17px;
+      line-height: 1.85;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--navy);
+      color: #fff;
+      padding: 72px 24px 64px;
+      text-align: center;
+    }
+
+    .hero-tag {
+      display: inline-block;
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--orange);
+      border: 1px solid var(--orange);
+      padding: 4px 12px;
+      border-radius: 2px;
+      margin-bottom: 28px;
+    }
+
+    .hero h1 {
+      font-size: clamp(26px, 5vw, 40px);
+      font-weight: 700;
+      line-height: 1.3;
+      max-width: 680px;
+      margin: 0 auto 20px;
+      letter-spacing: 0.01em;
+    }
+
+    .hero-subtitle {
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      color: rgba(255,255,255,0.65);
+      max-width: 560px;
+      margin: 0 auto 32px;
+      line-height: 1.7;
+    }
+
+    .hero-meta {
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 12px;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 0.05em;
+    }
+
+    /* ── ARTICLE BODY ── */
+    .article-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+    }
+
+    p {
+      margin-bottom: 1.5em;
+    }
+
+    /* ── PULL QUOTE ── */
+    .pullquote {
+      background: var(--pullquote-bg);
+      border-left: 3px solid var(--orange);
+      padding: 24px 28px;
+      margin: 40px 0;
+      font-size: 18px;
+      line-height: 1.7;
+      color: var(--dark-blue);
+      font-style: italic;
+    }
+
+    /* ── CHART SECTION ── */
+    .chart-block {
+      margin: 48px 0;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 32px 24px 24px;
+    }
+
+    .chart-title {
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+
+    .chart-subtitle {
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    .chart-source {
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 12px;
+      text-align: right;
+    }
+
+    svg { display: block; width: 100%; }
+
+    /* ── DIVIDER ── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+
+    /* ── DISCLAIMER ── */
+    .disclaimer {
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+      padding: 24px 0 0;
+      border-top: 1px solid var(--border);
+      line-height: 1.7;
+    }
+
+    /* ── TAGS ── */
+    .tags {
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 11px;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      padding: 4px 10px;
+      border-radius: 2px;
+    }
+
+    /* ── SOURCES ── */
+    .sources {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    .sources-title {
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--navy);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .sources a {
+      display: block;
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+      text-decoration: none;
+      margin-bottom: 6px;
+    }
+
+    .sources a:hover { color: var(--orange); }
+
+    @media (max-width: 640px) {
+      .hero { padding: 48px 20px 40px; }
+      .article-wrap { padding: 40px 20px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── HERO ── -->
+<header class="hero">
+  <div class="hero-tag">早晨版 · 2026 年 3 月 24 日</div>
+  <h1>避險劇本失效：伊朗戰爭第 25 天，黃金輸給比特幣</h1>
+  <p class="hero-subtitle">黃金跌 13%、美債殖利率上揚、比特幣對黃金漲幅達 34%——戰爭打破了所有教科書的避險公式。</p>
+  <div class="hero-meta">宏觀 · 地緣政治 · 比特幣 · 穩定幣監管</div>
+</header>
+
+<!-- ── ARTICLE ── -->
+<main class="article-wrap">
+
+<p>週一早上，紐約開盤前，比特幣在 15 分鐘內從 68,500 美元跳升至 71,500 美元。原因是川普宣布將對伊朗的 48 小時最後通牒延長 5 天，說雙方「對話非常順暢」。風險資產立即鬆了一口氣。</p>
+
+<p>但就在同一個小時，伊朗官媒發布聲明，否認曾與美國有任何直接或間接接觸。伊朗說是他們的威脅——揚言打擊西亞能源基礎設施——迫使美國退縮，不是什麼外交進展。</p>
+
+<p>兩國各說各話的同一天，市場仍在消化一個更深層的現實：開戰三週多，幾乎所有投資人都押錯了避險標的。</p>
+
+<hr class="divider">
+
+<!-- CHART 1: 資產表現對比 -->
+<div class="chart-block">
+  <div class="chart-title">四大資產自 2 月 28 日開戰以來的累積報酬</div>
+  <div class="chart-subtitle">以開戰日（2026/2/28）為基準 0%，正值為上漲，負值為下跌</div>
+
+  <svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="btcGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#e8a87c" stop-opacity="0.3"/>
+        <stop offset="100%" stop-color="#e8a87c" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="620" height="300" fill="#fff"/>
+
+    <!-- Grid lines -->
+    <line x1="60" y1="40" x2="590" y2="40" stroke="#f0f0f0" stroke-width="1"/>
+    <line x1="60" y1="80" x2="590" y2="80" stroke="#f0f0f0" stroke-width="1"/>
+    <line x1="60" y1="120" x2="590" y2="120" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="4,3"/>
+    <line x1="60" y1="160" x2="590" y2="160" stroke="#f0f0f0" stroke-width="1"/>
+    <line x1="60" y1="200" x2="590" y2="200" stroke="#f0f0f0" stroke-width="1"/>
+    <line x1="60" y1="240" x2="590" y2="240" stroke="#f0f0f0" stroke-width="1"/>
+
+    <!-- Zero line -->
+    <line x1="60" y1="150" x2="590" y2="150" stroke="#9ca3af" stroke-width="1.5"/>
+
+    <!-- Y-axis labels -->
+    <text x="48" y="44" text-anchor="end" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">+30%</text>
+    <text x="48" y="84" text-anchor="end" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">+20%</text>
+    <text x="48" y="124" text-anchor="end" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">+10%</text>
+    <text x="48" y="154" text-anchor="end" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">0%</text>
+    <text x="48" y="204" text-anchor="end" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">-10%</text>
+    <text x="48" y="244" text-anchor="end" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">-20%</text>
+
+    <!-- X-axis labels -->
+    <text x="60" y="275" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">2/28</text>
+    <text x="180" y="275" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">3/7</text>
+    <text x="300" y="275" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">3/14</text>
+    <text x="420" y="275" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">3/21</text>
+    <text x="530" y="275" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">3/24</text>
+
+    <!-- BTC line (orange): starts at 150, climbs to ~110 (+8%) via various points -->
+    <!-- y = 150 - (pct/100)*100*1.2 ; scale: each 10% = 40px -->
+    <!-- BTC: 0%, +2%, +3%, +1%, +5%, +7%, +6%, +8% -->
+    <polyline
+      points="60,150 130,142 180,138 230,146 300,120 360,126 420,132 480,128 530,118"
+      fill="none" stroke="#e8a87c" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- BTC label -->
+    <text x="538" y="115" fill="#e8a87c" font-size="11" font-weight="500" font-family="Noto Sans TC, sans-serif">BTC +8%</text>
+
+    <!-- Gold line (gray): starts at 150, goes up to ~120 (+12%) then crashes to ~202 (-13%) -->
+    <!-- Gold: 0%, +5%, +8%, +12%, +10%, +3%, -8%, -13% -->
+    <polyline
+      points="60,150 130,130 180,118 230,102 300,110 360,138 420,182 480,196 530,202"
+      fill="none" stroke="#b8860b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5,3"/>
+    <text x="538" y="205" fill="#b8860b" font-size="11" font-weight="500" font-family="Noto Sans TC, sans-serif">黃金 -13%</text>
+
+    <!-- S&P500 line (light gray): flat slightly down -->
+    <!-- S&P: 0%, -1%, -2%, -1.5%, -2%, -1.5%, -1%, -1% -->
+    <polyline
+      points="60,150 130,154 180,158 230,156 300,158 360,156 420,154 480,154 530,154"
+      fill="none" stroke="#d1d5db" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="538" y="157" fill="#9ca3af" font-size="11" font-family="Noto Sans TC, sans-serif">S&amp;P500 -1%</text>
+
+    <!-- US Treasuries line (red/dark): slightly down -->
+    <!-- Treasuries: 0%, -1%, -1.5%, -1.5%, -2%, -2%, -2% -->
+    <polyline
+      points="60,150 130,154 180,156 230,156 300,158 360,158 420,158 480,158 530,158"
+      fill="none" stroke="#ef4444" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3,3"/>
+    <text x="538" y="173" fill="#ef4444" font-size="11" font-family="Noto Sans TC, sans-serif">美債 -2%</text>
+
+    <!-- Gold peak annotation -->
+    <circle cx="230" cy="102" r="4" fill="none" stroke="#b8860b" stroke-width="1.5"/>
+    <text x="234" y="97" fill="#b8860b" font-size="9" font-family="Noto Sans TC, sans-serif">黃金峰值</text>
+    <text x="234" y="107" fill="#b8860b" font-size="9" font-family="Noto Sans TC, sans-serif">$5,032</text>
+
+    <!-- Iran Treasury threat annotation -->
+    <line x1="450" y1="40" x2="450" y2="260" stroke="#dc2626" stroke-width="1" stroke-dasharray="2,3" opacity="0.5"/>
+    <text x="454" y="52" fill="#dc2626" font-size="9" font-family="Noto Sans TC, sans-serif">伊朗警告</text>
+    <text x="454" y="62" fill="#dc2626" font-size="9" font-family="Noto Sans TC, sans-serif">美債投資人</text>
+    <text x="454" y="72" fill="#dc2626" font-size="9" font-family="Noto Sans TC, sans-serif">3/22</text>
+  </svg>
+
+  <div class="chart-source">資料來源：The Pomp Letter、MEXC Blog、Phemex Research、CNN Business｜圖示為示意趨勢，非精確逐日報價</div>
+</div>
+
+<p>教科書的標準劇本是：戰爭爆發，避險資金流入黃金和美國公債，這兩項資產上漲，股市下跌。過去幾十年每次中東危機大致如此。</p>
+
+<p>2 月 28 日美國與以色列對伊朗發動空襲後，劇本在前兩週似乎還算正常——黃金確實漲了，一度衝上每盎司 5,032 美元，創歷史新高。但接下來的走勢讓市場措手不及。</p>
+
+<hr class="divider">
+
+<p>黃金從 3 月 14 日高點開始崩跌，三週內跌了 13%，至今約在 4,100 美元。CNN 稱這是 1983 年以來最慘烈的單週跌幅。</p>
+
+<p>為什麼避險資產在有戰爭的時候往下走？</p>
+
+<p>加密投資人 Anthony Pompliano 在週報中的分析是：這次的買家與以往不同。過去兩年積極購入黃金的，主要是中國、中東各國的主權財富基金和央行，以及對美元體系抱有疑慮的新興市場機構。戰爭爆發後，美元指數（DXY）快速走強，以美元計價的黃金對這些持有者來說變得更貴，同時這些機構本身也面臨流動性壓力，需要變現。買家轉成了賣家。</p>
+
+<p>另一條壓制黃金的力量來自通膨。伊朗在戰爭開始後不久封鎖了荷姆茲海峽，並攻擊多艘試圖通行的船隻，導致油價大漲。油價上漲重燃停滯性通膨（stagflation）風險——美國聯準會不但無法降息，甚至可能被迫升息。這讓傳統黃金的邏輯進一步失靈：黃金不生息，利率環境越高，持有成本越高。</p>
+
+<div class="pullquote">
+「美債是用伊朗人的鮮血換來的。購買美債，就等於購買對你總部和資產的一次打擊。我們監控你們的投資組合。這是最後通牒。」<br>——伊朗國會議長加利巴夫（Mohammad Bagher Ghalibaf），2026 年 3 月 22 日發文於 X
+</div>
+
+<p>美國公債的表現同樣反直覺。正常的避險情境下，資金會湧入美債，殖利率下降、債券價格上漲。這次卻是殖利率走高、美債成為開戰以來表現最差的主要資產之一。原因還是油價與停滯性通膨風險。</p>
+
+<p>然後伊朗國會議長加利巴夫在 3 月 22 日放出了那條怪異的警告——不只要打軍事目標，連持有美債的金融機構都是合法打擊對象。「我們監控你們的投資組合。」這句話讓華爾街一陣騷動。全球幾乎所有主要金融機構、主權財富基金和央行都持有美債，這個警告理論上適用於地球上幾千個法人。市場對這威脅有多認真？目前說法不一。但它對已經脆弱的美債市場心理造成了額外壓力。</p>
+
+<hr class="divider">
+
+<!-- CHART 2: BTC vs Gold 以 % 計對比圖 -->
+<div class="chart-block">
+  <div class="chart-title">比特幣對黃金的相對報酬（開戰以來累積）</div>
+  <div class="chart-subtitle">兩者之間的差距已達 34 個百分點——首次在重大地緣政治危機中出現如此明顯的分岔</div>
+
+  <svg viewBox="0 0 620 220" xmlns="http://www.w3.org/2000/svg">
+    <rect width="620" height="220" fill="#fff"/>
+
+    <!-- Grid -->
+    <line x1="60" y1="40" x2="590" y2="40" stroke="#f0f0f0" stroke-width="1"/>
+    <line x1="60" y1="80" x2="590" y2="80" stroke="#f0f0f0" stroke-width="1"/>
+    <line x1="60" y1="120" x2="590" y2="120" stroke="#e5e7eb" stroke-width="1"/>
+    <line x1="60" y1="160" x2="590" y2="160" stroke="#f0f0f0" stroke-width="1"/>
+
+    <!-- Y labels -->
+    <text x="48" y="44" text-anchor="end" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">+20%</text>
+    <text x="48" y="84" text-anchor="end" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">+10%</text>
+    <text x="48" y="124" text-anchor="end" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">0%</text>
+    <text x="48" y="164" text-anchor="end" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">-10%</text>
+
+    <!-- Zero line -->
+    <line x1="60" y1="120" x2="590" y2="120" stroke="#9ca3af" stroke-width="1.2"/>
+
+    <!-- Shaded area between BTC and Gold -->
+    <polygon
+      points="60,120 130,116 180,114 230,118 300,100 360,104 420,110 480,106 530,100 530,162 480,158 420,146 360,144 300,152 230,164 180,142 130,136 60,120"
+      fill="#e8a87c" opacity="0.12"/>
+
+    <!-- BTC line -->
+    <polyline
+      points="60,120 130,116 180,114 230,118 300,100 360,104 420,110 480,106 530,100"
+      fill="none" stroke="#e8a87c" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- Gold line -->
+    <polyline
+      points="60,120 130,112 180,104 230,92 300,108 360,128 420,154 480,158 530,162"
+      fill="none" stroke="#b8860b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5,3"/>
+
+    <!-- Labels -->
+    <text x="538" y="98" fill="#e8a87c" font-size="11" font-weight="500" font-family="Noto Sans TC, sans-serif">BTC +8%</text>
+    <text x="538" y="165" fill="#b8860b" font-size="11" font-family="Noto Sans TC, sans-serif">黃金 -26%</text>
+
+    <!-- Bracket showing gap -->
+    <line x1="530" y1="100" x2="545" y2="100" stroke="#9ca3af" stroke-width="1"/>
+    <line x1="530" y1="162" x2="545" y2="162" stroke="#9ca3af" stroke-width="1"/>
+    <line x1="545" y1="100" x2="545" y2="162" stroke="#9ca3af" stroke-width="1"/>
+    <text x="550" y="134" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">34%</text>
+    <text x="550" y="144" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">差距</text>
+
+    <!-- X axis labels -->
+    <text x="60" y="195" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">2/28</text>
+    <text x="300" y="195" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">3/14</text>
+    <text x="530" y="195" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Noto Sans TC, sans-serif">3/24</text>
+
+    <!-- Legend -->
+    <line x1="65" y1="210" x2="85" y2="210" stroke="#e8a87c" stroke-width="2.5"/>
+    <text x="90" y="213" fill="#6b7280" font-size="10" font-family="Noto Sans TC, sans-serif">比特幣（BTC）</text>
+    <line x1="185" y1="210" x2="205" y2="210" stroke="#b8860b" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="210" y="213" fill="#6b7280" font-size="10" font-family="Noto Sans TC, sans-serif">黃金（XAU）</text>
+  </svg>
+
+  <div class="chart-source">資料來源：The Pomp Letter（引述 Ash Crypto）、MEXC Blog、Phemex Research｜注：此為 BTC 相對黃金之超額報酬，而非兩者各自對黃金的報酬率比較</div>
+</div>
+
+<p>就在黃金和美債交出最糟糕成績單的同一段時間，比特幣悄悄成了地緣政治危機中表現最好的資產。開戰以來，比特幣上漲約 8%，標普 500 下跌約 1%，美元指數走強——而比特幣對黃金的超額報酬，依照加密研究員 Ash Crypto 的統計，已累積達 34 個百分點。</p>
+
+<p>機構資金的流向也印證了這件事不是偶然。根據市場數據，戰爭爆發後的 3 月 2 日至 4 日短短三個交易日，美國比特幣現貨 ETF 錄得淨流入超過 11 億美元。這不是散戶在 X（推特）上打賭，這是大型機構在危機時刻用真金白銀投票。</p>
+
+<p>為什麼是比特幣？Pompliano 的說法是：一個不依附於任何主權國家、能在幾秒內移動到地球任何角落的資產，在今天這個「炸彈決定資產價格」的世界裡，有了全新的意義。黃金需要飛機才能運走，美債是「浸了伊朗人鮮血」的紙，而比特幣不需要任何物理基礎設施。</p>
+
+<p>當然，比特幣並非毫無波動。川普發完通牒又縮手的那 15 分鐘，幣價先跌後漲，足以說明它仍然是風險資產而非純粹的避險工具。每一條來自德黑蘭或白宮的推文，都能讓整個市場顫一下。</p>
+
+<hr class="divider">
+
+<p>就在伊朗戰爭讓市場陷入混亂的同時，美國國會對加密貨幣的立法工作卻以意外的速度向前推進。</p>
+
+<p>上週五，兩位參議員——共和黨的 Thom Tillis 與民主黨的 Angela Alsobrooks——宣布就《CLARITY 法案》中最棘手的爭議達成原則性協議：穩定幣的「被動殖利率」問題。</p>
+
+<p>爭議的核心是這樣的：Coinbase 等加密公司目前已對 USDC 持有者提供約 4% 的年化收益，而傳統銀行的活存利率只有 0.01% 到 0.02%。銀行業者認為這是不公平競爭，在國會遊說凍結立法進程。</p>
+
+<p>最後達成的妥協是：單純「放著不動」的穩定幣，不能付利息；但如果是因為消費、轉帳、使用特定平台而獲得的獎勵，仍然合法。直白的說：躺著賺的不行，動了才行。</p>
+
+<p>這份協議距離成為法律還有五個關卡——參院銀行委員會的審查投票、全院 60 票門檻、與農業委員會的版本協調、與眾院版本的整合、最後送到總統桌上簽署——銀行委員會的下一步排到了四月下旬國會復會後。沒想到在戰爭的陰影下，加密監管反而悄悄在往前走。</p>
+
+<hr class="divider">
+
+<p>本週市場的核心問題只有一個：停火，還是升級？</p>
+
+<p>川普在週五向記者說美國「接近結束戰爭」，股市盤後立即拉升——投資人都清楚，只要停火訊號真的出現，風險資產會立刻大幅反彈。問題是，每個人都知道這件事，卻沒有辦法掐準時間點。吃下持倉的波動等待反彈，或出場等待訊號再入場，各有各的代價。</p>
+
+<p>兩條線索值得關注。其一，伊朗的否認是策略性語言還是真的沒有接觸？如果雙方確實有非公開管道，衝突升級的機率低於市場定價的水準，目前的比特幣點位對應的風險溢酬就偏高。其二，美國即將在本週就《CLARITY 法案》的預備聽證和 Anthropic 訴美國政府案（聯邦法院本週開庭）上有實質進展，任何一個意外結果都可能影響科技股和加密市場的情緒。</p>
+
+<p>黃金投資人的教科書失效了。但換個角度，這或許才是那本書第一次被認真考驗。</p>
+
+<div class="tags">
+  <span class="tag"># 伊朗戰爭</span>
+  <span class="tag"># 比特幣</span>
+  <span class="tag"># 黃金</span>
+  <span class="tag"># 美國公債</span>
+  <span class="tag"># CLARITY 法案</span>
+  <span class="tag"># 避險資產</span>
+  <span class="tag"># 地緣政治</span>
+  <span class="tag"># 穩定幣</span>
+</div>
+
+<div class="sources">
+  <div class="sources-title">來源</div>
+  <a href="https://pomp.substack.com/p/gold-bonds-and-bitcoin-the-three" target="_blank">The Pomp Letter — Gold, Bonds, and Bitcoin: The Three Truth Tellers of Financial Markets</a>
+  <a href="https://mrcrypto.milkroad.com/p/did-iran-just-call-trump-s-bluff" target="_blank">Milk Road — Did Iran Just Call Trump's Bluff?</a>
+  <a href="https://dlnews-the-guidance.beehiiv.com/p/why-prediction-market-bills-are-flooding-washington" target="_blank">DL News: The Guidance — Why Prediction Market Bills Are Flooding Washington</a>
+  <a href="https://newsletter2.thedefiant.io/p/defi-s-curator-model-faces-scrutiny" target="_blank">The Defiant — DeFi's Curator Model Faces Scrutiny</a>
+  <a href="https://www.cnbc.com/2026/03/23/iran-war-tensions-build-as-conflict-enters-its-fourth-week.html" target="_blank">CNBC — Iran Threatens U.S. Treasury Buyers</a>
+  <a href="https://www.cnn.com/2026/03/20/investing/gold-price-drop-fed-rate-iran" target="_blank">CNN Business — Gold Just Had Its Worst Week Since 1983</a>
+  <a href="https://phemex.com/blogs/bitcoin-outperforming-gold-stocks-dollar-iran-war-march-18" target="_blank">Phemex — Bitcoin Outpaces Gold, Stocks, Dollar Amid Iran War</a>
+  <a href="https://www.thenationalnews.com/business/markets/2026/03/22/gold-bitcoin-iran-war/" target="_blank">The National — Gold Sinking and Bitcoin Swaying: Iran War Reshaping Safe-Haven Bets</a>
+</div>
+
+<div class="disclaimer">
+  本文僅供資訊參考，不構成任何投資建議。加密貨幣與金融資產具有高度波動性與風險，投資前請自行評估並諮詢專業人士。
+</div>
+
+</main>
+
+</body>
+</html>
