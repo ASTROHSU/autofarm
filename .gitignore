@@ -14,3 +14,5 @@ __pycache__/
 .auto-push.log
 .auto-push-error.log
 data/originals/
+daily-digest-*.html
+blocktrend-daily-*.html
