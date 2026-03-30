@@ -1,18 +1,31 @@
+# Environment
 .env
 .venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+.ssh/
+
+# Logs
+.auto-push.log
+.auto-push-error.log
+data/cron.log
+data/launchd_stdout.log
+data/launchd_stderr.log
+
+# Working data (local only)
 output/
 data/seen.json
 data/pending.json
 data/x_following.json
-data/cron.log
-data/launchd_stdout.log
-data/launchd_stderr.log
-__pycache__/
-*.pyc
-.ssh/
-.DS_Store
-.auto-push.log
-.auto-push-error.log
 data/originals/
+
+# Working files (local only, published versions in docs/)
 daily-digest-*.html
 blocktrend-daily-*.html
+stories/
+
+# Archive (local only)
+archive/

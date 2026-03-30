@@ -94,7 +94,7 @@ cronExpression: 0 21 * * *
 產出 HTML 檔案後，執行以下 bash 命令部署到 GitHub Pages：
 
 ```bash
-cd /Users/staarrr/autofarm && bash deploy-to-pages.sh evening "YYYY-MM-DD" "文章標題" "/Users/staarrr/autofarm/stories/檔名.html"
+cd /Users/staarrr/autofarm && bash scripts/deploy-to-pages.sh evening "YYYY-MM-DD" "文章標題" "/Users/staarrr/autofarm/stories/檔名.html"
 ```
 
 將上面的 YYYY-MM-DD 替換為今天日期，文章標題替換為你寫的標題，檔名替換為實際的檔案名稱。

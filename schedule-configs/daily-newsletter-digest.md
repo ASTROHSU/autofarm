@@ -81,7 +81,7 @@ cd /Users/staarrr/autofarm && python3 auto_feedback.py save daily-digest-YYYY-MM
 產出 HTML 後，執行以下 bash 命令：
 
 ```bash
-cd /Users/staarrr/autofarm && bash deploy-to-pages.sh digest "YYYY-MM-DD" "每日摘要 YYYY-MM-DD" "/Users/staarrr/autofarm/daily-digest-YYYY-MM-DD.html"
+cd /Users/staarrr/autofarm && bash scripts/deploy-to-pages.sh digest "YYYY-MM-DD" "每日摘要 YYYY-MM-DD" "/Users/staarrr/autofarm/daily-digest-YYYY-MM-DD.html"
 ```
 
 將 YYYY-MM-DD 替換為今天的日期。
