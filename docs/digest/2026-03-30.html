@@ -107,7 +107,7 @@
       font-size: 20px;
       font-weight: 600;
       line-height: 1.5;
-      margin-bottom: 8px;
+      margin-bottom: 16px;
     }
 
     .story-title a {
@@ -121,10 +121,19 @@
       border-bottom-color: var(--text);
     }
 
+    .story-body p {
+      margin-bottom: 12px;
+      text-align: justify;
+    }
+
+    .story-body p:last-child {
+      margin-bottom: 0;
+    }
+
     .story-source {
+      margin-top: 16px;
       font-size: 13px;
       color: var(--muted);
-      margin-bottom: 16px;
     }
 
     .story-source a {
@@ -138,16 +147,94 @@
       border-bottom-color: var(--link);
     }
 
-    .story-body p {
+    details {
+      margin-top: 20px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--muted);
+      padding: 6px 0;
+    }
+
+    .chart-wrap {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: -apple-system, 'Noto Sans TC', sans-serif;
+      max-width: 800px;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 12px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .chart-wrap .chart-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: #ffffff;
+    }
+
+    .chart-wrap .chart-source {
+      font-size: 11px;
+      color: #666;
+      margin-top: 16px;
+      text-align: right;
+    }
+
+    .chart-bar-group {
       margin-bottom: 12px;
-      text-align: justify;
     }
 
-    .story-body p:last-child {
-      margin-bottom: 0;
+    .chart-bar-label {
+      font-size: 13px;
+      margin-bottom: 4px;
+      color: #aaa;
     }
 
-    .related {
+    .chart-bar-track {
+      background: #1a1a1a;
+      border-radius: 4px;
+      height: 28px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .chart-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      padding-left: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .chart-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #1a1a1a;
+      font-size: 13px;
+    }
+
+    .chart-row:last-child {
+      border-bottom: none;
+    }
+
+    .chart-row-label {
+      color: #aaa;
+    }
+
+    .chart-row-value {
+      color: #e0e0e0;
+      font-weight: 600;
+    }
+
+    .story-discuss {
       margin-top: 20px;
       padding: 16px 20px;
       background: var(--tag-bg);
@@ -156,35 +243,34 @@
       line-height: 1.7;
     }
 
-    .related-label {
+    .discuss-title {
       font-weight: 500;
       display: block;
-      margin-bottom: 10px;
+      margin-bottom: 6px;
       font-size: 13px;
       letter-spacing: 1px;
       color: var(--tag-text);
     }
 
-    .related ul {
-      list-style: disc;
+    .story-discuss ol {
       padding-left: 20px;
     }
 
-    .related li {
-      margin-bottom: 10px;
+    .story-discuss li {
+      margin-bottom: 8px;
     }
 
-    .related li:last-child {
+    .story-discuss li:last-child {
       margin-bottom: 0;
     }
 
-    .related a {
+    .story-discuss a {
       color: var(--link);
       text-decoration: none;
       border-bottom: 1px solid transparent;
     }
 
-    .related a:hover {
+    .story-discuss a:hover {
       border-bottom-color: var(--link);
     }
 
@@ -212,94 +298,160 @@
       <div class="site-title">每日摘要</div>
       <h1 class="digest-headline">2026 年 3 月 30 日（一）</h1>
       <div class="digest-meta">
-        <span>3 則摘要</span>
-        <span>來源：a16z crypto · Milk Road · Macro Notes · The Block · DTCC</span>
+        <span>2 則摘要</span>
+        <span>來源：Milk Road · The Block · Fortune · Bloomberg</span>
       </div>
     </header>
 
-    <!-- Story 1: 華爾街遷鏈 -->
-    <article class="story">
-      <div class="story-tags">
-        <span class="tag tag-crypto">代幣化</span>
-        <span class="tag tag-market">金融基建</span>
-      </div>
-      <h2 class="story-title">
-        <a href="https://a16zcrypto.substack.com/p/why-wall-street-is-moving-onchain" target="_blank" rel="noopener">華爾街不只是在「探索」區塊鏈了，而是直接搬過去</a>
-      </h2>
-      <div class="story-source">來源：<a href="https://a16zcrypto.substack.com/p/why-wall-street-is-moving-onchain" target="_blank" rel="noopener">a16z crypto</a> ｜ <a href="https://www.dtcc.com/news/2025/december/17/dtcc-and-digital-asset-partner-to-tokenize-dtc-custodied-us-treasury-securities" target="_blank" rel="noopener">DTCC</a> ｜ <a href="https://www.coindesk.com/business/2026/03/19/nasdaq-winning-sec-approval-to-move-stocks-onchain-shows-how-wall-street-is-taking-charge-of-crypto-tech" target="_blank" rel="noopener">CoinDesk</a></div>
-      <div class="story-body">
-        <p>2024 年處理了 $3.7 千兆美元交易的 DTCC，去年底拿到 SEC 的免訴函，準備在 2026 上半年推出美國國債的代幣化服務。紐約證交所 1 月宣布全天候鏈上股票交易平台，合作對象是紐約梅隆銀行和花旗。Tradeweb 去年 8 月已經在週六完成了第一筆即時鏈上國債融資。a16z 的 Jason Rosenthal 說：這是資本市場三十年來最大的基礎建設升級。</p>
-        <p>這些機構不會自己蓋中間件、合規工具或跨境分銷層——它們是買家，不是開發者。Rosenthal 的重點是：創辦人才是建造下一層金融基礎設施的人，就像 1990 年代交易所沒有蓋出 E*TRADE 或 Bloomberg 一樣。</p>
-      </div>
-      <div class="related">
-        <span class="related-label">相關討論</span>
-        <ul>
-          <li>產業分析 / <a href="https://mpost.io/wall-street-accelerates-migration-to-on-chain-infrastructure-says-a16z-cryptos-jason-rosenthal/" target="_blank" rel="noopener">Metaverse Post</a><br>
-          整理了 Rosenthal 的完整論點，稱這是「從實驗到遷徙」的轉折。他將當前比作 1990 年代電子交易取代場內喊價的過程——當時價差從分數制壓縮到小數制，散戶手續費從 $150 掉到零，市場規模翻了數倍。代幣化套用的是同一套邏輯。</li>
-          <li>監管背景 / <a href="https://www.coindesk.com/business/2026/03/19/nasdaq-winning-sec-approval-to-move-stocks-onchain-shows-how-wall-street-is-taking-charge-of-crypto-tech" target="_blank" rel="noopener">CoinDesk</a><br>
-          Nasdaq 也在三月拿到 SEC 核准，與 Kraken 合作推出跨鏈股票代幣平台 xStocks。CoinDesk 稱華爾街正在「圈地」區塊鏈技術——不是讓加密原生平台進來，而是傳統交易所自己跳下去做。</li>
-          <li>基建進度 / <a href="https://www.dtcc.com/news/2025/december/11/paving-the-way-to-tokenized-dtc-custodied-assets" target="_blank" rel="noopener">DTCC 官方新聞稿</a><br>
-          DTCC 在免訴函範圍內可代幣化的標的包括 Russell 1000 成分股、追蹤美國主要股指的 ETF、以及國債。2026 上半年先做受控環境的 MVP，下半年擴大產業推出。</li>
-        </ul>
-      </div>
-    </article>
-
-    <!-- Story 2: 穩定幣吸走新興市場存款 -->
+    <!-- Story 1: 穩定幣吃掉新興市場存款 -->
     <article class="story">
       <div class="story-tags">
         <span class="tag tag-crypto">穩定幣</span>
         <span class="tag tag-market">總經</span>
       </div>
       <h2 class="story-title">
-        <a href="https://www.theblock.co/post/373510/standard-chartered-estimates-1-trillion-could-exit-emerging-market-bank-deposits-for-us-stablecoins" target="_blank" rel="noopener">渣打銀行估算：$1 兆美元新興市場存款將流入穩定幣</a>
+        <a href="https://www.theblock.co/post/373510/standard-chartered-estimates-1-trillion-could-exit-emerging-market-bank-deposits-for-us-stablecoins" target="_blank" rel="noopener">渣打銀行估算：1 兆美元新興市場存款，正在搬進穩定幣</a>
       </h2>
-      <div class="story-source">來源：<a href="https://mrcrypto.milkroad.com/p/software-is-a-dead-asset" target="_blank" rel="noopener">Milk Road</a> ｜ <a href="https://www.theblock.co/post/373510/standard-chartered-estimates-1-trillion-could-exit-emerging-market-bank-deposits-for-us-stablecoins" target="_blank" rel="noopener">The Block</a> ｜ <a href="https://finance.yahoo.com/news/standard-chartered-stablecoins-could-end-162329513.html" target="_blank" rel="noopener">Yahoo Finance</a></div>
       <div class="story-body">
-        <p>穩定幣現在的總量約 $3,000 億，其中渣打銀行估計有三分之二（約 $2,000 億）其實是新興市場的「美元存款替代品」——阿根廷、哈薩克、烏克蘭等地的人把錢停在 USDC 或 USDT 裡，因為比當地銀行系統更安全也更方便。渣打的 Geoffrey Kendrick 認為這個行為會從富人向下擴散，未來幾年再流入 $1 兆。</p>
-        <p>這筆錢的二階效應值得注意：GENIUS Act 要求穩定幣以短期國債擔保，$1 兆的新需求足以取代美國三年份的 30 年期國債拍賣。結果可能是美國房貸利率下降、美元流動性增強，但新興市場的銀行體系可能面臨存款流失的壓力。</p>
+        <p>目前穩定幣總市值約 3,000 億美元，其中三分之二（約 2,000 億）其實是新興市場的居民存款。阿根廷、巴基斯坦、烏克蘭等地的使用者把錢從本地銀行搬進 USDT 和 USDC，不是為了炒幣，而是因為這些「美元帳戶」比當地銀行更安全、更方便。渣打銀行數位資產研究主管 Geoffrey Kendrick 估計，未來三年還會有 1 兆美元從新興市場銀行流出。</p>
+        <p>這筆錢的去向會產生連鎖效應：GENIUS Act 要求穩定幣發行商用短天期美國公債做儲備，1 兆美元新增需求足以取代未來三年所有 30 年期公債的發行量，間接壓低美國房貸利率。不過反面也很明確——埃及、孟加拉、斯里蘭卡等國的銀行體系可能面臨存款外逃。南非央行已公開表態，認為這項警告「值得認真看待」。</p>
       </div>
-      <div class="related">
-        <span class="related-label">相關討論</span>
-        <ul>
-          <li>研究報告 / <a href="https://www.theblock.co/post/390783/stablecoins-could-drive-1-trillion-in-t-bill-demand-giving-treasury-room-to-shift-issuance-standard-chartered" target="_blank" rel="noopener">The Block（更新報導）</a><br>
-          渣打最新估算指出，穩定幣帶來的國債需求加上其他成長，到 2028 年可能產生約 $2.2 兆的短期國債總需求，對比同期約 $1.3 兆的淨供給，會出現約 $9,000 億的缺口——除非財政部調整發行結構。</li>
-          <li>新興市場驗證 / <a href="https://yellow.com/news/south-africa-validates-standard-chartereds-dollar1-trillion-stablecoin-warning-for-emerging-markets" target="_blank" rel="noopener">Yellow</a><br>
-          南非的穩定幣採用資料正在驗證渣打的預測。當地使用者以 USDT 作為儲蓄帳戶的比例在過去六個月顯著攀升，多數動機是對南非幣貶值的避險。</li>
-          <li>銀行衝擊 / <a href="https://www.dlnews.com/articles/markets/four-risks-stablecoins-pose-banks-says-standard-chartered/" target="_blank" rel="noopener">DL News</a><br>
-          渣打在另一份報告中列出穩定幣對銀行的四大風險：存款外流、信用中介弱化、跨境支付繞道、以及央行貨幣政策傳導效率降低。預估至 2028 年全球銀行系統可能流失 $1.5 兆存款。</li>
-        </ul>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">穩定幣對全球金融體系的連鎖效應</div>
+          <div class="chart-row">
+            <span class="chart-row-label">現有穩定幣市值</span>
+            <span class="chart-row-value">3,000 億美元</span>
+          </div>
+          <div class="chart-row">
+            <span class="chart-row-label">其中新興市場存款占比</span>
+            <span class="chart-row-value">約 2/3（2,000 億）</span>
+          </div>
+          <div class="chart-row">
+            <span class="chart-row-label">預估三年內新增流入</span>
+            <span class="chart-row-value">1 兆美元</span>
+          </div>
+          <div class="chart-row">
+            <span class="chart-row-label">預估 2028 年穩定幣總市值</span>
+            <span class="chart-row-value">2 兆美元</span>
+          </div>
+          <div class="chart-row">
+            <span class="chart-row-label">對美國銀行存款衝擊</span>
+            <span class="chart-row-value">5,000 億美元流出</span>
+          </div>
+          <div class="chart-row">
+            <span class="chart-row-label">對新興市場銀行存款衝擊</span>
+            <span class="chart-row-value">1 兆美元流出</span>
+          </div>
+          <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid #1a1a1a;">
+            <div style="font-size: 13px; color: #aaa; margin-bottom: 8px;">高風險國家（存款外逃風險）</div>
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">埃及</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 90%; background: #e05252;">極高</div></div>
+            </div>
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">巴基斯坦</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 85%; background: #e05252;">極高</div></div>
+            </div>
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">孟加拉</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 80%; background: #e07852;">高</div></div>
+            </div>
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">斯里蘭卡</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 75%; background: #e07852;">高</div></div>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Standard Chartered Digital Assets Research / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <div class="discuss-title">相關討論</div>
+        <ol>
+          <li><a href="https://www.theblock.co/post/390783/stablecoins-could-drive-1-trillion-in-t-bill-demand-giving-treasury-room-to-shift-issuance-standard-chartered" target="_blank" rel="noopener">The Block</a>：渣打另一份報告指出，穩定幣發行商可能成為美國短天期公債的最大買家，1 兆美元新增需求讓財政部有空間減少長債發行。</li>
+          <li><a href="https://yellow.com/news/south-africa-validates-standard-chartereds-dollar1-trillion-stablecoin-warning-for-emerging-markets" target="_blank" rel="noopener">Yellow News</a>：南非央行公開表態支持渣打的警告，認為穩定幣對新興市場銀行體系的威脅「值得認真看待」。</li>
+          <li><a href="https://www.coindesk.com/business/2026/01/27/standard-chartered-says-u-s-regional-banks-most-at-risk-in-usd500-billion-stablecoin-shift" target="_blank" rel="noopener">CoinDesk</a>：Lisk 營運長 Dominic Schwenter 認為渣打的分析忽略了新興市場本幣穩定幣的崛起，「真正有意義的轉變是各國本幣穩定幣的快速採用」。</li>
+        </ol>
       </div>
+      <div class="story-source">來源：<a href="https://www.theblock.co/post/373510/standard-chartered-estimates-1-trillion-could-exit-emerging-market-bank-deposits-for-us-stablecoins" target="_blank" rel="noopener">The Block</a>｜<a href="https://stocktwits.com/news-articles/markets/cryptocurrency/standard-chartered-forecasts-1-trillion-flow-into-stablecoins-from-emerging-markets/ch6R5mNR3gQ" target="_blank" rel="noopener">Stocktwits</a>｜<a href="https://mrcrypto.milkroad.com/p/software-is-a-dead-asset" target="_blank" rel="noopener">Milk Road</a></div>
     </article>
 
-    <!-- Story 3: Tesla Terafab -->
+    <!-- Story 2: Cursor 面臨 Claude Code 威脅 -->
     <article class="story">
       <div class="story-tags">
         <span class="tag tag-ai">AI</span>
-        <span class="tag tag-market">半導體</span>
+        <span class="tag tag-market">新創</span>
       </div>
       <h2 class="story-title">
-        <a href="https://www.fintechweekly.com/news/terafab-launch-tesla-spacex-xai-chip-factory-austin-march-2026" target="_blank" rel="noopener">Musk 砸 $250 億蓋晶片廠，但 80% 產能是給太空用的</a>
+        <a href="https://fortune.com/2026/03/21/cursor-ceo-michael-truell-ai-coding-claude-anthropic-venture-capital/" target="_blank" rel="noopener">Cursor 市值衝上 300 億美元，但 Claude Code 正從底層掏空它的護城河</a>
       </h2>
-      <div class="story-source">來源：<a href="https://macronotes.substack.com/p/what-is-musks-actual-plan" target="_blank" rel="noopener">Macro Notes</a> ｜ <a href="https://mrcrypto.milkroad.com/p/software-is-a-dead-asset" target="_blank" rel="noopener">Milk Road</a> ｜ <a href="https://www.teslarati.com/elon-musk-lanuches-terafab-tesla-spacexai-chip-factory/" target="_blank" rel="noopener">Teslarati</a></div>
       <div class="story-body">
-        <p>Tesla、SpaceX 和 xAI 三家聯手在德州奧斯汀蓋一座叫 Terafab 的晶片廠，目標是從設計到封裝全部自己來，年產 1,000 億到 2,000 億顆晶片，採用 2 奈米製程。外界直覺是拿來跟台積電競爭，但 Musk 在發表會上透露的數字說了另一件事：80% 的產能供給太空，只有 20% 留在地球。SpaceX 今年已向 FCC 申請發射 100 萬顆軌道 AI 資料中心衛星。</p>
-        <p>Tesla 股價在發表會後三天跌了 17%，從 $440 以上掉到 $364。市場擔心的是資本支出：Tesla 2026 年已經要花 $200 億以上，Terafab 再加 $250 億，Barclays 警告可能稀釋獲利。不過 Macro Notes 的分析認為，這跟 Musk 過去的劇本一樣——先砸基礎建設、市場恐慌、成本曲線交叉、然後壟斷。Starlink 的終端機成本從 2020 年的 $2,400 降到 2025 年的 $349，就是同一套邏輯。</p>
+        <p>Cursor 是過去一年成長最快的 AI 工具，年化營收從 2025 年 5 月的 5 億美元翻到 10 月的 10 億、今年 2 月突破 20 億，六成七的財星 500 大企業都在用，每天產出 1.5 億行程式碼。不過它的商業模式有一個結構性弱點：Cursor 的核心引擎是 Anthropic 的 Claude 模型，等於用零售價買進原料，再加工賣出。Anthropic 自己賣的 Claude Code，原料成本是批發價。</p>
+        <p>Fortune 三月的封面故事把這稱為 AI 時代的「創新者困境」。Cursor 開創了 AI 輔助編碼市場，但 Anthropic 的 Claude Code 已有 30 萬企業客戶、年化營收 25 億美元，而且正把戰場從「輔助開發者」推向「自主寫程式」。Cursor 正在訓練自研模型 Composer 回應，但一位投資人對 Fortune 說：「燒 1 塊錢只賺回 9 毛，這不是生意。」市場傳出新一輪融資估值 500 億，但關鍵工程師已開始流向 xAI 和 Anthropic。</p>
       </div>
-      <div class="related">
-        <span class="related-label">相關討論</span>
-        <ul>
-          <li>批評觀點 / <a href="https://electrek.co/2026/03/22/tesla-spacex-terafab-chip-factory-ai-desperation/" target="_blank" rel="noopener">Electrek</a><br>
-          認為 Terafab「散發著絕望的氣息」，指出 Tesla 在汽車本業連續兩年下滑的情況下，同時開闢半導體戰線是分散注意力。文章質疑：目前全球只有台積電、三星和 Intel 能做先進製程，Tesla 從零開始要花多少年？</li>
-          <li>法律爭議 / <a href="https://www.bloomberg.com/opinion/newsletters/2026-03-23/elon-did-some-securities-fraud" target="_blank" rel="noopener">Bloomberg（Matt Levine 專欄）</a><br>
-          標題直接寫「Elon Did Some Securities Fraud」。Levine 的論點是：Terafab 是 Tesla、SpaceX 和 xAI 的聯合專案，但發表會主要透過 Tesla 的投資人關係管道宣傳，三家公司之間的成本分攤、智財歸屬和利益衝突都沒有交代清楚。</li>
-          <li>市場反應 / <a href="https://www.ainvest.com/news/tesla-shares-tank-17-terafab-unveiled-market-prices-execution-risk-strategic-gamble-2603/" target="_blank" rel="noopener">AInvest</a><br>
-          分析指出市場正在為「執行風險 vs. 策略豪賭」定價。Tesla 10-K 文件中出現「可能需要籌集額外資本或尋求替代融資來源」的措辭，被解讀為增發股票的前兆。</li>
-        </ul>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">Cursor 營收成長 vs 競爭壓力</div>
+          <div style="margin-bottom: 16px;">
+            <div style="font-size: 13px; color: #aaa; margin-bottom: 8px;">年化營收（ARR）成長軌跡</div>
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">2025 年 5 月</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 25%; background: #6c8ebf;">$5 億</div></div>
+            </div>
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">2025 年 10 月</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 50%; background: #6c8ebf;">$10 億</div></div>
+            </div>
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">2026 年 2 月</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 100%; background: #6c8ebf;">$20 億+</div></div>
+            </div>
+          </div>
+          <div style="padding-top: 12px; border-top: 1px solid #1a1a1a;">
+            <div style="font-size: 13px; color: #aaa; margin-bottom: 8px;">Cursor vs Claude Code</div>
+            <div class="chart-row">
+              <span class="chart-row-label">Cursor 估值</span>
+              <span class="chart-row-value">$293 億 → 傳 $500 億</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Claude Code 年化營收</span>
+              <span class="chart-row-value">$25 億</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Anthropic 估值</span>
+              <span class="chart-row-value">$3,800 億</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Fortune 500 使用率（Cursor）</span>
+              <span class="chart-row-value">67%</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Claude Code 企業客戶</span>
+              <span class="chart-row-value">30 萬+</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Fortune / Bloomberg / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <div class="discuss-title">相關討論</div>
+        <ol>
+          <li><a href="https://fortune.com/2026/03/21/cursor-ceo-michael-truell-ai-coding-claude-anthropic-venture-capital/" target="_blank" rel="noopener">Fortune</a>：Cursor 執行長 Michael Truell 對長期策略仍有信心——「在我們這個產業，用長遠眼光看事情被低估了。」但他也承認市場正在「標準化到少數幾個方案上」。</li>
+          <li><a href="https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html" target="_blank" rel="noopener">CNBC</a>：Cursor 二月底發布重大更新，擴大 AI 代理人的自主性和整合範圍，試圖在「自主寫程式」的新戰場搶回主導權。</li>
+          <li><a href="https://developers.slashdot.org/story/25/12/26/0623233/cursor-ceo-warns-vibe-coding-builds-shaky-foundations-that-eventually-crumble" target="_blank" rel="noopener">Slashdot</a>：Truell 去年底警告「氛圍編碼」（vibe coding）是在「蓋搖搖欲墜的地基」，暗示 Cursor 的定位是專業開發者工具，而非取代開發者。這和 Claude Code 主打全自主的路線形成對比。</li>
+        </ol>
       </div>
+      <div class="story-source">來源：<a href="https://fortune.com/2026/03/21/cursor-ceo-michael-truell-ai-coding-claude-anthropic-venture-capital/" target="_blank" rel="noopener">Fortune</a>｜<a href="https://www.bloomberg.com/news/articles/2026-03-02/cursor-recurring-revenue-doubles-in-three-months-to-2-billion" target="_blank" rel="noopener">Bloomberg</a>｜<a href="https://www.readtheprofile.com/p/the-profile-the-30-billion-ai-startup" target="_blank" rel="noopener">The Profile</a></div>
     </article>
 
     <footer class="page-footer">
-      <p>本摘要由 AI 協助產出，僅供參考，不構成投資建議。</p>
+      <p>每日摘要 · 2026-03-30 · 自動生成，供個人閱讀參考，不構成投資建議</p>
     </footer>
 
   </div>
