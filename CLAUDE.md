@@ -154,44 +154,32 @@
 
 ## 工作流程
 
-兩條路線，共用同一份 `draft-lessons.md` 作為寫作規則來源：
+兩個核心流程，全自動運作：
 
-**自動路線**（`farm.py` / 排程任務）
-- 自動抓取新聞來源 → 比對前幾天日報去重 → 用 `prompts/auto_draft.md`（含 `{LESSONS}`）產出摘要 → 搜尋每則新聞的社群討論 → 用 zhtw-mcp 檢查用字 → 推送 Notion 或產出 HTML
-- 摘要狀態為「待審閱」，由你在 Notion 審閱後決定是否發布
+**自動摘要**（每天早上 8 點）
+- 掃描 Gmail 電子報 + YouTube 頻道 → 比對近 7 天日報去重 → 用 `prompts/auto_draft.md`（含 `{LESSONS}`）產出兩段式摘要 → 搜尋社群討論 → 套用 `word-map.yml` 用字替換 → 用 zhtw-mcp 檢查 → 產出 HTML → 部署到 GitHub Pages
 - 去重：讀取近 7 天的日報 HTML，提取所有已報導的標題，排除已報導主題。週末電子報多為週回顧，特別容易重複
 
-**手動路線**（`/digest`）
-- 手動貼入新聞內容或 URL → 背景研究 → 摘要草稿 → 搜尋社群討論並附上「相關討論」區塊 → 用 zhtw-mcp 檢查用字 → 推送 Notion
-- 開頭會讀取 `draft-lessons.md`，套用已學規則
+**自動回顧**（每週一中午 12 點）
+- 從 Gmail 讀取已發布的週報 → 跟 `data/originals/` 裡的原稿逐則比對 → 偵測用字替換、結構差異、選題偏好 → 自動更新 `word-map.yml` 和 `draft-lessons.md`
+- 每次產出摘要時自動存原稿，發布後自動學習，不需要手動操作
 
-**改稿回饋**（`/feedback`）
-- 使用者貼回修改版 → 分析差異 → 提取規則 → 更新 `draft-lessons.md`
-- 執行次數越多，兩條路線的產出越貼近你的偏好
+### 用字系統
 
-**被動學習**（`auto_feedback.py`）
-- 每次產出摘要時自動存一份原稿到 `data/originals/`
-- 使用者修改後，執行 `python3 auto_feedback.py diff <檔案>` 自動比對差異、提取用字替換
-- 用字替換會累積到 `word-map.yml`，下次產出時程式化套用
+- **word-map.yml** — 用字偏好字典，摘要產出後程式化替換（如「然而→不過」「24/7→全年無休」）
+- **zhtw-mcp** — 發布前客觀檢查：簡體字、半形標點、中英文空格等
+- **draft-lessons.md** — 累積的改稿教訓，產出時自動讀取套用
 
-**用字字典**（`word-map.yml`）
-- 整合 CLAUDE.md、auto_draft.md、draft-lessons.md 的所有用字規則於一處
-- 摘要產出後執行 `python3 auto_feedback.py apply <檔案>` 自動替換
-- 新增規則只要加一行，所有路線自動套用
+<!--
+### 已歸檔的工作流（archive/deprecated-workflows/）
 
-**發布**（`/publish`）
-- 從 Notion 撈出「已發布」條目 → 排版成 Substack 電子報草稿
+以下流程曾用於早期開發，產出的規則和教訓已整合到自動流程中：
 
-### 用字檢查（zhtw-mcp）
-
-所有摘要在推送 Notion 之前，必須經過 [zhtw-mcp](https://github.com/sysprog21/zhtw-mcp) 工具檢查。這個 MCP 工具會自動偵測：
-- 簡體中文或中國大陸用語（如軟件→軟體、用戶→使用者）
-- 半形標點符號應為全形的情況
-- 非教育部標準字體
-- 中英文之間缺少空格
-- 政治敏感用語
-
-檢查流程：產出摘要草稿後，呼叫 zhtw-mcp 的 lint 功能檢查全文，若有問題則自動修正後再推送。這層檢查與上方「語言規範」表格互補——表格是寫作時的主觀提醒，zhtw-mcp 是發布前的客觀把關。
+- /digest — 手動貼入新聞 → 研究 → 摘要 → Notion
+- /feedback — 手動改稿回饋 → 分析差異 → 更新 draft-lessons.md
+- /publish — Notion → Substack 電子報
+- stage1~4 prompts — 手動路線的四階段 prompt 模板
+-->
 
 ## 禁止事項
 
