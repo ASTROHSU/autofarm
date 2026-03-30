@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日摘要 2026-03-30</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8f6f1;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #1a1a1a;
+      --tag-bg: #f0ede6;
+      --tag-text: #5a5040;
+      --border: #e8e3d8;
+      --link: #2d6a4f;
+      --energy-tag: #7b4f1e;
+      --energy-bg: #fdf3e3;
+      --crypto-tag: #1a3a6b;
+      --crypto-bg: #e8f0fc;
+      --ai-tag: #3d1a6b;
+      --ai-bg: #f0e8fc;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 17px;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .site-header {
+      margin-bottom: 48px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--text);
+    }
+
+    .site-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .digest-headline {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .digest-meta {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .digest-meta span::before {
+      content: '·';
+      margin-right: 16px;
+    }
+
+    .digest-meta span:first-child::before {
+      content: '';
+      margin-right: 0;
+    }
+
+    .relation-notice {
+      background: #fff8ee;
+      border-left: 3px solid #d4a853;
+      padding: 12px 16px;
+      border-radius: 0 6px 6px 0;
+      font-size: 13.5px;
+      color: #6b4c1a;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .relation-notice strong {
+      font-weight: 600;
+    }
+
+    .story {
+      background: var(--surface);
+      border-radius: 8px;
+      padding: 32px 36px;
+      margin-bottom: 28px;
+      border: 1px solid var(--border);
+    }
+
+    .story-tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    .tag {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      padding: 3px 9px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+
+    .tag-crypto { background: var(--crypto-bg); color: var(--crypto-tag); }
+    .tag-ai { background: var(--ai-bg); color: var(--ai-tag); }
+    .tag-energy { background: var(--energy-bg); color: var(--energy-tag); }
+    .tag-macro { background: #f0f4e8; color: #3a5a1e; }
+
+    .story-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.45;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .story-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .story-title a:hover {
+      color: var(--link);
+    }
+
+    .story-source {
+      font-size: 12.5px;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .story-source a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .story-source a:hover {
+      color: var(--link);
+      border-bottom-color: var(--link);
+    }
+
+    .story-body {
+      font-size: 16.5px;
+      line-height: 1.9;
+      color: var(--text);
+    }
+
+    .story-body p {
+      margin-bottom: 14px;
+    }
+
+    .story-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .story-group {
+      position: relative;
+      margin-bottom: 28px;
+    }
+
+    .story-group .story {
+      margin-bottom: 0;
+    }
+
+    .story-group .story:not(:last-child) {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      border-bottom: 1px dashed var(--border);
+    }
+
+    .story-group .story:not(:first-child) {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .story-group-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #d4a853;
+      background: #fff8ee;
+      padding: 5px 14px;
+      text-align: center;
+      border-left: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+    }
+
+    .discussion {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 13.5px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .discussion a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .discussion a:hover {
+      color: var(--link);
+      border-bottom-color: var(--link);
+    }
+
+    .discussion-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #aaa;
+      margin-bottom: 6px;
+    }
+
+    .discussion ol {
+      padding-left: 20px;
+      margin-top: 6px;
+    }
+
+    .discussion li {
+      margin-bottom: 6px;
+    }
+
+    .page-footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 600px) {
+      .page-wrap { padding: 28px 16px 60px; }
+      .story { padding: 24px 20px; }
+      .digest-headline { font-size: 22px; }
+      .story-title { font-size: 17px; }
+      .story-body { font-size: 15.5px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <div class="site-title">每日摘要</div>
+      <h1 class="digest-headline">2026 年 3 月 30 日，週一</h1>
+      <div class="digest-meta">
+        <span>3 則摘要</span>
+        <span>來源：Gmail 電子報</span>
+      </div>
+    </header>
+
+    <div class="relation-notice">
+      <strong>今日關聯：</strong>華爾街正把交易結算搬上鏈，穩定幣同時從新興市場吸走銀行存款——這兩件事指向同一個方向：鏈上金融基礎建設正在取代傳統管道。
+    </div>
+
+    <div class="story-group">
+      <article class="story">
+        <div class="story-tags">
+          <span class="tag tag-crypto">CRYPTO</span>
+          <span class="tag tag-macro">金融基建</span>
+        </div>
+        <h2 class="story-title">
+          <a href="https://a16zcrypto.substack.com/p/why-wall-street-is-moving-onchain" target="_blank" rel="noopener">
+            華爾街不只是在「探索」區塊鏈了，而是直接搬過去
+          </a>
+        </h2>
+        <div class="story-source">來源：<a href="https://a16zcrypto.substack.com/p/why-wall-street-is-moving-onchain" target="_blank" rel="noopener">a16z crypto</a></div>
+        <div class="story-body">
+          <p>2024 年處理了 $3.7 千兆美元交易的 DTCC，去年底拿到 SEC 的免訴函，準備在 2026 上半年推出美國國債的代幣化服務。紐約證交所 1 月宣布全天候鏈上股票交易平台，合作對象是紐約梅隆銀行和花旗。Tradeweb 去年 8 月已經在週六完成了第一筆即時鏈上國債融資。a16z 的 Jason Rosenthal 說：這是資本市場三十年來最大的基礎建設升級。</p>
+          <p>這些機構不會自己蓋中間件、合規工具或跨境分銷層——它們是買家，不是開發者。Rosenthal 的重點是：創辦人才是建造下一層金融基礎設施的人，就像 1990 年代交易所沒有蓋出 E*TRADE 或 Bloomberg 一樣。</p>
+        </div>
+        <div class="discussion">
+          <div class="discussion-label">相關討論</div>
+          <ol>
+            <li>相關：<a href="https://www.coindesk.com/business/2026/03/19/nasdaq-winning-sec-approval-to-move-stocks-onchain-shows-how-wall-street-is-taking-charge-of-crypto-tech" target="_blank" rel="noopener">CoinDesk</a> 報導 Nasdaq 也拿到 SEC 核准將股票搬上鏈，華爾街正在「圈地」區塊鏈技術</li>
+            <li>相關：<a href="https://mpost.io/wall-street-accelerates-migration-to-on-chain-infrastructure-says-a16z-cryptos-jason-rosenthal/" target="_blank" rel="noopener">Metaverse Post</a> 整理了 Rosenthal 的完整論點，稱這是「從實驗到遷徙」的轉折</li>
+          </ol>
+        </div>
+      </article>
+
+      <div class="story-group-label">同一條線：穩定幣是鏈上金融的「存款層」</div>
+
+      <article class="story">
+        <div class="story-tags">
+          <span class="tag tag-crypto">穩定幣</span>
+          <span class="tag tag-macro">總經</span>
+        </div>
+        <h2 class="story-title">
+          <a href="https://www.theblock.co/post/373510/standard-chartered-estimates-1-trillion-could-exit-emerging-market-bank-deposits-for-us-stablecoins" target="_blank" rel="noopener">
+            渣打銀行估算：$1 兆美元新興市場存款將流入穩定幣
+          </a>
+        </h2>
+        <div class="story-source">來源：<a href="https://mrcrypto.milkroad.com/p/software-is-a-dead-asset" target="_blank" rel="noopener">Milk Road</a> · <a href="https://www.theblock.co/post/373510/standard-chartered-estimates-1-trillion-could-exit-emerging-market-bank-deposits-for-us-stablecoins" target="_blank" rel="noopener">The Block</a></div>
+        <div class="story-body">
+          <p>穩定幣現在的總量約 $3,000 億，其中渣打銀行估計有三分之二（約 $2,000 億）其實是新興市場的「美元存款替代品」——阿根廷、哈薩克、烏克蘭等地的人把錢停在 USDC 或 USDT 裡，因為比當地銀行系統更安全也更方便。渣打的 Geoffrey Kendrick 認為這個行為會從富人向下擴散，未來幾年再流入 $1 兆。</p>
+          <p>這筆錢的二階效應值得注意：GENIUS Act 要求穩定幣以短期國債擔保，$1 兆的新需求足以取代美國三年份的 30 年期國債拍賣。結果可能是美國房貸利率下降、美元流動性增強，但新興市場的銀行體系可能面臨存款流失的壓力。</p>
+        </div>
+        <div class="discussion">
+          <div class="discussion-label">相關討論</div>
+          <ol>
+            <li>相關：<a href="https://www.theblock.co/post/390783/stablecoins-could-drive-1-trillion-in-t-bill-demand-giving-treasury-room-to-shift-issuance-standard-chartered" target="_blank" rel="noopener">The Block</a> 更新報導指出，穩定幣帶來的國債需求加上其他成長，到 2028 年可能製造 $9,000 億的短期國債供給缺口</li>
+            <li>相關：<a href="https://yellow.com/news/south-africa-validates-standard-chartereds-dollar1-trillion-stablecoin-warning-for-emerging-markets" target="_blank" rel="noopener">Yellow</a>：南非的穩定幣採用資料正在驗證渣打的預測</li>
+          </ol>
+        </div>
+      </article>
+    </div>
+
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-ai">AI</span>
+        <span class="tag tag-energy">半導體</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.fintechweekly.com/news/terafab-launch-tesla-spacex-xai-chip-factory-austin-march-2026" target="_blank" rel="noopener">
+          Musk 砸 $250 億蓋晶片廠，但 80% 產能是給太空用的
+        </a>
+      </h2>
+      <div class="story-source">來源：<a href="https://macronotes.substack.com/p/what-is-musks-actual-plan" target="_blank" rel="noopener">Macro Notes</a> · <a href="https://mrcrypto.milkroad.com/p/software-is-a-dead-asset" target="_blank" rel="noopener">Milk Road</a></div>
+      <div class="story-body">
+        <p>Tesla、SpaceX 和 xAI 三家聯手在德州奧斯汀蓋一座叫 Terafab 的晶片廠，目標是從設計到封裝全部自己來，年產 1,000 億到 2,000 億顆晶片，採用 2 奈米製程。外界直覺是拿來跟台積電競爭，但 Musk 在發表會上透露的數字說了另一件事：80% 的產能供給太空，只有 20% 留在地球。SpaceX 今年已向 FCC 申請發射 100 萬顆軌道 AI 資料中心衛星。</p>
+        <p>Tesla 股價在發表會後三天跌了 17%，從 $440 以上掉到 $364。市場擔心的是資本支出：Tesla 2026 年已經要花 $200 億以上，Terafab 再加 $250 億，Barclays 警告可能稀釋獲利。不過 Macro Notes 的分析認為，這跟 Musk 過去的劇本一樣——先砸基礎建設、市場恐慌、成本曲線交叉、然後壟斷。Starlink 的終端機成本從 2020 年的 $2,400 降到 2025 年的 $349，就是同一套邏輯。</p>
+      </div>
+      <div class="discussion">
+        <div class="discussion-label">相關討論</div>
+        <ol>
+          <li><a href="https://electrek.co/2026/03/22/tesla-spacex-terafab-chip-factory-ai-desperation/" target="_blank" rel="noopener">Electrek</a> 認為 Terafab「散發著絕望的氣息」，質疑 Tesla 是否有能力同時打汽車戰和半導體戰</li>
+          <li><a href="https://www.bloomberg.com/opinion/newsletters/2026-03-23/elon-did-some-securities-fraud" target="_blank" rel="noopener">Bloomberg</a> 的 Matt Levine 專欄標題直接寫「Elon Did Some Securities Fraud」，討論 Terafab 發表的資訊揭露問題</li>
+          <li><a href="https://www.ainvest.com/news/tesla-shares-tank-17-terafab-unveiled-market-prices-execution-risk-strategic-gamble-2603/" target="_blank" rel="noopener">AInvest</a>：市場正在為「執行風險 vs. 策略豪賭」定價</li>
+        </ol>
+      </div>
+    </article>
+
+    <footer class="page-footer">
+      每日摘要 · 2026-03-30 · 僅供個人參考，不構成投資建議
+    </footer>
+
+  </div>
+</body>
+</html>
