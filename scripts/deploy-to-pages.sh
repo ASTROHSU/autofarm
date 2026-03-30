@@ -98,6 +98,20 @@ PYEOF
 # Git commit & push
 git add docs/
 git commit -m "Deploy ${TYPE}: ${TITLE} (${DATE})" || echo "Nothing to commit"
-git push origin main || echo "Push failed, will retry next time"
+
+# Try SSH first, fall back to HTTPS with token from .env
+if ! git push origin main 2>/dev/null; then
+  echo "SSH push failed, trying HTTPS with token..."
+  if [ -f "$REPO_DIR/.env" ]; then
+    GITHUB_TOKEN=$(grep GITHUB_TOKEN "$REPO_DIR/.env" | cut -d= -f2)
+    if [ -n "$GITHUB_TOKEN" ]; then
+      git push "https://${GITHUB_TOKEN}@github.com/ASTROHSU/autofarm.git" main
+    else
+      echo "Push failed: no GITHUB_TOKEN in .env"
+    fi
+  else
+    echo "Push failed: no .env file found"
+  fi
+fi
 
 echo "Deployed: $REL_PATH"
