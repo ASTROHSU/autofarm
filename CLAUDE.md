@@ -169,6 +169,16 @@
 - 使用者貼回修改版 → 分析差異 → 提取規則 → 更新 `draft-lessons.md`
 - 執行次數越多，兩條路線的產出越貼近你的偏好
 
+**被動學習**（`auto_feedback.py`）
+- 每次產出摘要時自動存一份原稿到 `data/originals/`
+- 使用者修改後，執行 `python3 auto_feedback.py diff <檔案>` 自動比對差異、提取用字替換
+- 用字替換會累積到 `word-map.yml`，下次產出時程式化套用
+
+**用字字典**（`word-map.yml`）
+- 整合 CLAUDE.md、auto_draft.md、draft-lessons.md 的所有用字規則於一處
+- 摘要產出後執行 `python3 auto_feedback.py apply <檔案>` 自動替換
+- 新增規則只要加一行，所有路線自動套用
+
 **發布**（`/publish`）
 - 從 Notion 撈出「已發布」條目 → 排版成 Substack 電子報草稿
 

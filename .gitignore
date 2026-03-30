@@ -9,3 +9,8 @@ data/launchd_stdout.log
 data/launchd_stderr.log
 __pycache__/
 *.pyc
+.ssh/
+.DS_Store
+.auto-push.log
+.auto-push-error.log
+data/originals/

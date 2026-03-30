@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日摘要 2026-03-29</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8f6f1;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #1a1a1a;
+      --tag-bg: #f0ede6;
+      --tag-text: #5a5040;
+      --border: #e8e3d8;
+      --link: #2d6a4f;
+      --crypto-tag: #1a3a6b;
+      --crypto-bg: #e8f0fc;
+      --ai-tag: #3d1a6b;
+      --ai-bg: #f0e8fc;
+      --legal-tag: #6b1a1a;
+      --legal-bg: #fce8e8;
+      --market-tag: #1a5a3a;
+      --market-bg: #e8faf0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 17px;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .site-header {
+      margin-bottom: 48px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--text);
+    }
+
+    .site-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 14px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .digest-headline {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+
+    .digest-meta {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      gap: 16px;
+    }
+
+    .story {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 32px;
+      margin-bottom: 28px;
+    }
+
+    .story-tags {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .tag {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .tag-crypto { background: var(--crypto-bg); color: var(--crypto-tag); }
+    .tag-ai { background: var(--ai-bg); color: var(--ai-tag); }
+    .tag-legal { background: var(--legal-bg); color: var(--legal-tag); }
+    .tag-market { background: var(--market-bg); color: var(--market-tag); }
+
+    .story-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .story-title a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .story-title a:hover {
+      border-bottom-color: var(--text);
+    }
+
+    .story-body p {
+      margin-bottom: 12px;
+      text-align: justify;
+    }
+
+    .story-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .related {
+      margin-top: 20px;
+      padding: 16px 20px;
+      background: var(--tag-bg);
+      border-radius: 6px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .related-label {
+      font-weight: 500;
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+      letter-spacing: 1px;
+      color: var(--tag-text);
+    }
+
+    .related a {
+      color: var(--link);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .related a:hover {
+      border-bottom-color: var(--link);
+    }
+
+    .story-source {
+      margin-top: 16px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .story-source a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--muted);
+    }
+
+    .story-source a:hover {
+      color: var(--link);
+      border-bottom-color: var(--link);
+    }
+
+    .page-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .page-wrap { padding: 24px 16px 48px; }
+      .digest-headline { font-size: 22px; }
+      .story { padding: 20px; }
+      .story-title { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <div class="site-title">每日摘要</div>
+      <h1 class="digest-headline">2026 年 3 月 29 日（日）</h1>
+      <div class="digest-meta">
+        <span>3 則摘要</span>
+        <span>來源：CoinDesk · CNBC · The Defiant · The Block</span>
+      </div>
+    </header>
+
+    <!-- Story 1: CLARITY Act 穩定幣收益禁令 -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-crypto">穩定幣</span>
+        <span class="tag tag-legal">監管</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.coindesk.com/policy/2026/03/23/stablecoin-yield-in-crypto-clarity-act-won-t-allow-rewards-on-balances-latest-text-says" target="_blank" rel="noopener">CLARITY Act 堵死穩定幣被動收益，Circle 單日蒸發 56 億美元</a>
+      </h2>
+      <div class="story-body">
+        <p>Circle 營收的 96% 來自 USDC 儲備金的利息收入。Coinbase 則靠分潤協議，從 USDC 利息中抽成。這兩家公司的商業模式都建立在一個前提上：穩定幣發行商可以拿儲備金去賺利息，再把一部分回饋給持有者。美國國會正在審議的《數位資產市場明確法》（CLARITY Act）最新草案，直接挑戰了這個前提。</p>
+        <p>參議員 Alsobrooks 與 Tillis 上週公布的妥協條文明確禁止對穩定幣餘額提供被動收益，也禁止任何「在經濟上等同於銀行存款利息」的結構。只有基於使用者活動（如支付、交易）的獎勵才被允許。消息曝光後 Circle 股價單日暴跌 20%，創上市以來最大跌幅。白宮加密顧問 Patrick Witt 在 X 上說「一切都會沒事」，但 Polymarket 上 CLARITY Act 年內通過的賠率已下跌 30%。</p>
+      </div>
+      <div class="related">
+        <span class="related-label">相關討論</span>
+        <a href="https://x.com/EleanorTerrett/status/2036279124382077137" target="_blank" rel="noopener">Eleanor Terrett</a>（Fox Business）率先取得妥協條文全文，指出加密業者反應分歧：有人認為「比預期窄」，有人警告「經濟等價」標準模糊，未來可能被擴大解釋。<br>
+        <a href="https://x.com/blockchainchick/status/2036447643287581003" target="_blank" rel="noopener">@blockchainchick</a>：「銀行用 6.6 兆美元存款外流的預測嚇住了國會議員，這就是結果。」
+      </div>
+      <div class="story-source">來源：<a href="https://www.coindesk.com/policy/2026/03/23/stablecoin-yield-in-crypto-clarity-act-won-t-allow-rewards-on-balances-latest-text-says" target="_blank" rel="noopener">CoinDesk</a> · <a href="https://www.cnbc.com/2026/03/24/circle-stock-craters-as-stablecoin-rival-tether-announces-audit-milestone.html" target="_blank" rel="noopener">CNBC</a> · <a href="https://finance.yahoo.com/news/circle-stock-sinks-20-over-reports-that-clarity-act-could-restrict-stablecoin-rewards-184112251.html" target="_blank" rel="noopener">Yahoo Finance</a></div>
+    </article>
+
+    <!-- Story 2: MARA 賣 15,000 BTC 還債 -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-crypto">比特幣</span>
+        <span class="tag tag-market">企業財務</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://thedefiant.io/news/tradfi-and-fintech/mara-sells-15-000-btc-for-usd1-1-billion-to-retire-convertible-debt" target="_blank" rel="noopener">MARA 賣掉 15,000 顆比特幣還債，「囤幣策略」悄悄轉向</a>
+      </h2>
+      <div class="story-body">
+        <p>MARA 是美國最大的比特幣礦商，過去兩年的策略很簡單：發零息可轉債買幣、挖到的幣全部留著不賣。2024 年底 MARA 一口氣發了 19 億美元可轉債，用來買入約 15,500 顆比特幣，均價約 98,500 美元。但 2025 年減半後，挖礦成本上升、幣價又從高點回落，帳上 33 億美元可轉債的壓力開始浮現。</p>
+        <p>MARA 在三月初到三月底之間分批賣出 15,133 顆比特幣，均價約 65,348 美元，拿回的 11 億美元用來以九折折價回購 10 億美元可轉債，省下約 8,800 萬美元。可轉債餘額從 33 億降到 23 億，減幅 30%。消息公布後股價反而漲了 10%——市場把它解讀為去槓桿而非看空比特幣。MARA 投資人關係主管 <a href="https://x.com/RobSamuelsIR/status/2028879276091817991" target="_blank" rel="noopener">Robert Samuels</a> 在 X 上澄清：「我們擴大了政策彈性，不代表要清倉。」</p>
+      </div>
+      <div class="related">
+        <span class="related-label">相關討論</span>
+        <a href="https://bitcoinmagazine.com/news/mara-dumps-1-1-billion-in-bitcoin" target="_blank" rel="noopener">Bitcoin Magazine</a> 標題用了「Dumps」——但實際上 MARA 仍持有約 15,600 顆比特幣，在企業持幣排行榜上排第三。<br>
+        相關：比特幣本週跌破 66,000 美元，伊朗局勢與風險資產拋售是主因（見 3/23 摘要）
+      </div>
+      <div class="story-source">來源：<a href="https://thedefiant.io/news/tradfi-and-fintech/mara-sells-15-000-btc-for-usd1-1-billion-to-retire-convertible-debt" target="_blank" rel="noopener">The Defiant</a> · <a href="https://www.coindesk.com/markets/2026/03/26/mara-holdings-higher-by-10-after-selling-usd1-1-billion-in-bitcoin-to-fund-debt-buyback" target="_blank" rel="noopener">CoinDesk</a> · <a href="https://ir.mara.com/news-events/press-releases/detail/1418/mara-holdings-inc-announces-1-0-billion-repurchase-of-0-00-convertible-senior-notes-due-2030-and-2031-and-sale-of-15133-bitcoin" target="_blank" rel="noopener">MARA 新聞稿</a></div>
+    </article>
+
+    <!-- Story 3: Obex 部署 10 億 USDS -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-crypto">DeFi</span>
+        <span class="tag tag-market">RWA</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.coindesk.com/business/2026/03/25/sky-backed-obex-spreads-usd1-billion-across-credit-energy-and-ai-assets-to-expand-stablecoin-yield" target="_blank" rel="noopener">Sky 生態系的 10 億美元花到哪去了：房貸、太陽能、AI 硬體</a>
+      </h2>
+      <div class="story-body">
+        <p>Sky（前身 MakerDAO）是 DeFi 最老牌的借貸協議，發行的 USDS 穩定幣規模約 100 億美元。過去一年 Sky 授權旗下孵化器 Obex 最多動用 25 億美元儲備金，投入實體世界資產來擴大收益來源。Obex 由 Framework Ventures 營運，定位類似穩定幣版的 Y Combinator——篩選專案、分配資金、追蹤績效。</p>
+        <p>Obex 本週公布第一批八個合作夥伴，開始部署首輪 10 億美元 USDS。名單涵蓋結構化信貸（Maple、Centrifuge）、加密擔保房貸（Better，與 Coinbase 合作、由房利美背書）、太陽能基礎設施（Daylight）、AI 硬體融資（USD.ai），以及代幣化證券（Securitize）。這筆錢的去向，其實就是一張 DeFi 資金流向實體經濟的清單。</p>
+      </div>
+      <div class="related">
+        <span class="related-label">相關討論</span>
+        相關：Better 與 Coinbase 合推的加密擔保房貸已獲房利美核准（見 3/27 摘要）。Securitize 同時也是 NYSE 代幣化證券平台的首個鑄造商（見 3/26 摘要）。兩個專案同時出現在 Obex 名單上，顯示 Sky 的資金正流向本週最活躍的幾個交叉點。
+      </div>
+      <div class="story-source">來源：<a href="https://www.coindesk.com/business/2026/03/25/sky-backed-obex-spreads-usd1-billion-across-credit-energy-and-ai-assets-to-expand-stablecoin-yield" target="_blank" rel="noopener">CoinDesk</a> · <a href="https://thedefiant.io/news/defi/obex-starts-deploying-usd1b-in-usds-into-mortgages-ai-hardware-and-solar-energy" target="_blank" rel="noopener">The Defiant</a> · <a href="https://www.theblock.co/post/379390/sky-authorizes-2-5-billion-back-obex-incubated-crypto-yield-projects" target="_blank" rel="noopener">The Block</a></div>
+    </article>
+
+    <footer class="page-footer">
+      <p>本摘要由 AI 協助產出，僅供參考，不構成投資建議。</p>
+    </footer>
+
+  </div>
+</body>
+</html>

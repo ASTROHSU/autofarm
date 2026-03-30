@@ -62,8 +62,19 @@ cronExpression: 0 8 * * *
 - 加入關係圖或相關性提示（如果多則新聞之間有關聯）
 - 底部列出所有來源
 
+### 3.5 套用用字字典（產出後、儲存前必做）
+產出 HTML 後，執行用字自動替換：
+```bash
+cd /Users/staarrr/autofarm && python3 auto_feedback.py apply daily-digest-YYYY-MM-DD.html
+```
+這會根據 `word-map.yml` 自動替換已知的用字偏好（簡體→正體、作者風格偏好等）。
+
 ### 4. 儲存
 - 檔案儲存到：`/Users/staarrr/autofarm/daily-digest-YYYY-MM-DD.html`
+- 儲存後，立即保存一份原稿供日後比對學習：
+```bash
+cd /Users/staarrr/autofarm && python3 auto_feedback.py save daily-digest-YYYY-MM-DD.html
+```
 - 使用 present_files 工具呈現給使用者
 
 ### 5. 部署到 GitHub Pages（最後一步）
