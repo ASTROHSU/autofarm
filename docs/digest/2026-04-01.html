@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日摘要 2026-04-01</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8f6f1;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #1a1a1a;
+      --tag-bg: #f0ede6;
+      --tag-text: #5a5040;
+      --border: #e8e3d8;
+      --link: #2d6a4f;
+      --crypto-tag: #1a3a6b;
+      --crypto-bg: #e8f0fc;
+      --ai-tag: #3d1a6b;
+      --ai-bg: #f0e8fc;
+      --legal-tag: #6b1a1a;
+      --legal-bg: #fce8e8;
+      --market-tag: #1a5a3a;
+      --market-bg: #e8faf0;
+      --defi-tag: #6b4a1a;
+      --defi-bg: #fcf0e8;
+      --policy-tag: #1a4a6b;
+      --policy-bg: #e8f4fc;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 17px;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .site-header {
+      margin-bottom: 48px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--text);
+    }
+
+    .site-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 14px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .digest-headline {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+
+    .digest-meta {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      gap: 16px;
+    }
+
+    .digest-intro {
+      font-size: 16px;
+      color: var(--muted);
+      margin-top: 16px;
+      line-height: 1.8;
+    }
+
+    .story {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 32px;
+      margin-bottom: 28px;
+    }
+
+    .story-tags {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .tag {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .tag-crypto { background: var(--crypto-bg); color: var(--crypto-tag); }
+    .tag-ai { background: var(--ai-bg); color: var(--ai-tag); }
+    .tag-legal { background: var(--legal-bg); color: var(--legal-tag); }
+    .tag-market { background: var(--market-bg); color: var(--market-tag); }
+    .tag-defi { background: var(--defi-bg); color: var(--defi-tag); }
+    .tag-policy { background: var(--policy-bg); color: var(--policy-tag); }
+
+    .story-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .story-title a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .story-title a:hover {
+      border-bottom-color: var(--text);
+    }
+
+    .story-body p {
+      margin-bottom: 12px;
+      text-align: justify;
+    }
+
+    .story-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .story-source {
+      margin-top: 16px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .story-source a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--muted);
+    }
+
+    .story-source a:hover {
+      color: var(--link);
+      border-bottom-color: var(--link);
+    }
+
+    details {
+      margin-top: 20px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--muted);
+      padding: 6px 0;
+    }
+
+    .chart-wrap {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: -apple-system, 'Noto Sans TC', sans-serif;
+      max-width: 800px;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 12px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .chart-wrap .chart-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: #ffffff;
+    }
+
+    .chart-wrap .chart-source {
+      font-size: 11px;
+      color: #666;
+      margin-top: 16px;
+      text-align: right;
+    }
+
+    .chart-bar-group {
+      margin-bottom: 12px;
+    }
+
+    .chart-bar-label {
+      font-size: 13px;
+      margin-bottom: 4px;
+      color: #aaa;
+    }
+
+    .chart-bar-track {
+      background: #1a1a1a;
+      border-radius: 4px;
+      height: 28px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .chart-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      padding-left: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .chart-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #1a1a1a;
+      font-size: 13px;
+    }
+
+    .chart-row:last-child {
+      border-bottom: none;
+    }
+
+    .chart-row-label {
+      color: #aaa;
+    }
+
+    .chart-row-value {
+      color: #e0e0e0;
+      font-weight: 600;
+    }
+
+    .chart-timeline {
+      position: relative;
+      padding-left: 20px;
+      border-left: 2px solid #333;
+    }
+
+    .chart-timeline-item {
+      position: relative;
+      margin-bottom: 16px;
+      padding-left: 16px;
+    }
+
+    .chart-timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -27px;
+      top: 6px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #4a9eff;
+      border: 2px solid #0a0a0a;
+    }
+
+    .chart-timeline-item.highlight::before {
+      background: #ff6b6b;
+    }
+
+    .chart-timeline-date {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 2px;
+    }
+
+    .chart-timeline-text {
+      font-size: 13px;
+      color: #ccc;
+    }
+
+    .chart-compare {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .chart-compare-box {
+      background: #1a1a1a;
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    .chart-compare-label {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+
+    .chart-compare-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    .chart-compare-note {
+      font-size: 11px;
+      color: #888;
+    }
+
+    .story-discuss {
+      margin-top: 20px;
+      padding: 16px 20px;
+      background: var(--tag-bg);
+      border-radius: 6px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .discuss-title {
+      font-weight: 500;
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+      letter-spacing: 1px;
+      color: var(--tag-text);
+    }
+
+    .story-discuss ol {
+      padding-left: 20px;
+    }
+
+    .story-discuss li {
+      margin-bottom: 8px;
+    }
+
+    .story-discuss li:last-child {
+      margin-bottom: 0;
+    }
+
+    .discuss-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 500;
+      padding: 1px 6px;
+      border-radius: 3px;
+      background: #e0ddd5;
+      color: var(--tag-text);
+      margin-right: 4px;
+    }
+
+    .story-discuss a {
+      color: var(--link);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .story-discuss a:hover {
+      border-bottom-color: var(--link);
+    }
+
+    .page-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .page-wrap { padding: 24px 16px 48px; }
+      .digest-headline { font-size: 22px; }
+      .story { padding: 20px; }
+      .story-title { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <div class="site-title">每日摘要</div>
+      <h1 class="digest-headline">2026 年 4 月 1 日（三）</h1>
+      <div class="digest-meta">
+        <span>3 則摘要</span>
+        <span>來源：Gmail 電子報 / 固定追蹤網站</span>
+      </div>
+      <p class="digest-intro">量子運算、DeFi 借貸架構、比特幣挖礦硬體供應鏈——三件事的共通點是：既有的基礎設施正在被重新定義，而時間壓力各不相同。</p>
+    </header>
+
+    <!-- Story 1: Google Quantum AI -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-crypto">加密安全</span>
+        <span class="tag tag-ai">量子運算</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/" target="_blank" rel="noopener">Google 量子團隊：破解比特幣加密所需的量子電腦門檻降低 20 倍</a>
+      </h2>
+      <div class="story-body">
+        <p>比特幣和以太坊的錢包安全，建立在一種叫做橢圓曲線密碼學（ECDLP-256）的數學難題上。過去的共識是：量子電腦要破解這道數學題，至少需要 1,000 萬顆物理量子位元，這個數字離現實太遠，產業普遍認為「至少還有幾十年」。Google 目前最先進的 Willow 晶片只有 105 顆量子位元。</p>
+        <p>3 月 31 日，Google Quantum AI 團隊與以太坊基金會聯合發表論文，將所需的物理量子位元數從 1,000 萬降到不到 50 萬顆，運算時間只需幾分鐘。Google 同時宣布 2029 年為後量子密碼學遷移期限。論文特別點名兩種攻擊情境：對正在交易中的錢包發動「即時攻擊」（比特幣 10 分鐘出塊時間內破解），以及對已曝露公鑰的休眠錢包發動「靜態攻擊」——包括中本聰時代約 690 萬顆比特幣。</p>
+      </div>
+      <div class="story-source">來源：<a href="https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/" target="_blank" rel="noopener">Google Research 官方部落格</a> ｜ <a href="https://www.theblock.co/post/395814/google-quantum-computing-earlier" target="_blank" rel="noopener">The Block</a> ｜ <a href="https://thedefiant.io/news/research-and-opinion/google-quantum-ai-paper-rewrites-threat-timeline-for-bitcoin-ethereum-security" target="_blank" rel="noopener">The Defiant</a></div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">破解 ECDLP-256 所需的物理量子位元數</div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">先前估計</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 100%; background: linear-gradient(90deg, #4a9eff, #2d6aff);">~10,000,000 顆</div>
+            </div>
+          </div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">Google 新論文估計</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 5%; background: linear-gradient(90deg, #ff6b6b, #ff3b3b); min-width: 120px;">&lt;500,000 顆</div>
+            </div>
+          </div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">Google Willow 晶片（目前）</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 0.1%; background: #666; min-width: 80px;">105 顆</div>
+            </div>
+          </div>
+          <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">已曝露公鑰的比特幣</span>
+              <span class="chart-row-value">~690 萬顆 BTC</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Google 建議遷移期限</span>
+              <span class="chart-row-value">2029 年</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">即時攻擊窗口（BTC）</span>
+              <span class="chart-row-value">~9 分鐘</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Google Quantum AI / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">社群討論</span>
+        <ol>
+          <li><span class="discuss-tag">官方聲明</span> Google Quantum AI 研究總監 <a href="https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/" target="_blank" rel="noopener">Ryan Babbush</a> 在論文中強調，團隊刻意使用零知識證明來驗證研究成果，「證明威脅存在，但不洩露任何可被攻擊者利用的實作細節」——這是資訊安全領域首次出現這種負責任揭露方式。</li>
+          <li><span class="discuss-tag">產業回應</span> 以太坊共同創辦人 <a href="https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat" target="_blank" rel="noopener">Vitalik Buterin</a> 早在 2 月就警告橢圓曲線密碼學可能在 2028 年前被破解，並公布多階段後量子遷移路線圖。以太坊基金會已在每週運行測試網。相較之下，比特幣目前沒有統一的升級計畫或時間表。</li>
+          <li><span class="discuss-tag">反對聲音</span> 安全研究員 <a href="https://x.com/lopp/status/1945125667294556629" target="_blank" rel="noopener">Jameson Lopp</a> 提出的 BIP-360 提案建議在寬限期後凍結未遷移的舊錢包——包括中本聰的持幣。這觸發社群激烈辯論：支持者認為遷移期限能促使升級，反對者認為凍結資產違反「持有私鑰即擁有控制權」的核心原則。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 2: Aave V4 -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-defi">DeFi</span>
+        <span class="tag tag-crypto">以太坊</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://coinpedia.org/news/aave-v4-goes-live-on-ethereum-mainnet-with-new-lending-architecture/" target="_blank" rel="noopener">Aave V4 上線以太坊，「輪輻式」架構拆開 DeFi 借貸的風險共用問題</a>
+      </h2>
+      <div class="story-body">
+        <p>Aave 是 DeFi 最大的借貸協議，鎖倉量約 238 億美元，佔去中心化借貸市場六到七成。過去 V3 的設計是一個大池子：所有資產混在一起，所有使用者共同承擔壞帳風險。這代表如果某個冷門代幣的擔保品出了問題，連存 USDC 的人也可能受波及。</p>
+        <p>3 月 30 日，Aave Labs 在以太坊主網部署 V4，引入「輪輻式」（hub-and-spoke）架構。流動性集中在「Hub」，各個借貸市場是獨立的「Spoke」，可以自訂擔保品類型、風險參數和清算規則，但共享底層資金池。Aave Labs 執行長 Stani Kulechov 表示 V4 的架構「完全模組化」，目標是讓借貸市場擴展到代幣化資產、固定利率、甚至資料作為擔保品。V4 目前存款約 475 萬美元，與 V3 並行運作。</p>
+      </div>
+      <div class="story-source">來源：<a href="https://coinpedia.org/news/aave-v4-goes-live-on-ethereum-mainnet-with-new-lending-architecture/" target="_blank" rel="noopener">CoinPedia</a> ｜ <a href="https://www.theblock.co/post/389726/aave-labs-proposes-100-protocol-revenue-dao-exchange-funding" target="_blank" rel="noopener">The Block</a> ｜ <a href="https://www.bankless.com/" target="_blank" rel="noopener">Bankless</a></div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">Aave V3 vs V4 架構比較</div>
+          <div class="chart-compare">
+            <div class="chart-compare-box">
+              <div class="chart-compare-label">V3：單一資金池</div>
+              <div class="chart-compare-value" style="font-size: 16px; color: #4a9eff;">所有資產混合</div>
+              <div class="chart-compare-note">壞帳風險由全體使用者共擔</div>
+              <div class="chart-compare-note" style="margin-top: 8px;">每條鏈一個市場</div>
+            </div>
+            <div class="chart-compare-box">
+              <div class="chart-compare-label">V4：輪輻式架構</div>
+              <div class="chart-compare-value" style="font-size: 16px; color: #ff6b6b;">Hub 共享 + Spoke 隔離</div>
+              <div class="chart-compare-note">各 Spoke 自訂風險參數</div>
+              <div class="chart-compare-note" style="margin-top: 8px;">同一條鏈可有多個市場</div>
+            </div>
+          </div>
+          <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">Aave 總鎖倉量</span>
+              <span class="chart-row-value">~$238 億</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">DeFi 借貸市場佔比</span>
+              <span class="chart-row-value">60-67%</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">V4 初始支援資產</span>
+              <span class="chart-row-value">USDT, USDC, EURC, XAUt, cbBTC 等</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">V4 目前存款</span>
+              <span class="chart-row-value">~$475 萬</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Aave Labs / Bankless / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">社群討論</span>
+        <ol>
+          <li><span class="discuss-tag">官方聲明</span> Aave Labs 執行長 <a href="https://www.coindesk.com/tech/2026/03/29/inside-aave-s-governance-battle-as-defi-giant-prepares-for-upgrade" target="_blank" rel="noopener">Stani Kulechov</a> 接受 CoinDesk 訪問時表示：V4 目前由 DAO 治理管控新 Spoke 的上架，「但未來有能力實現完全無需許可的市場創建，問題在於這個模型是否安全。」</li>
+          <li><span class="discuss-tag">產業觀點</span> Bankless 分析師 <a href="https://www.bankless.com/" target="_blank" rel="noopener">Jack Inabinet</a> 指出，V4 的模組化設計讓新建的借貸市場不需要從零開始募集資金，可以直接接入 Aave 的共享流動性層。「這解決了長期以來 DeFi 借貸的冷啟動問題。」</li>
+          <li><span class="discuss-tag">治理爭議</span> V4 上線前夕，Aave DAO 核心貢獻者 BGD Labs 和 ACI 相繼退出，<a href="https://unchainedcrypto.com/aaves-rushed-governance-vote-draws-backlash/" target="_blank" rel="noopener">Unchained 報導</a>指出兩者均對治理方向和中心化趨勢表示擔憂。Kulechov 回應稱 DAO 需要「進化」，把治理限縮在關鍵決策，執行層面交給專業團隊。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 3: Mined in America Act -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-policy">政策法案</span>
+        <span class="tag tag-crypto">比特幣挖礦</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.theblock.co/post/395750/gop-senators-mined-in-america-act-expand-crypto-mining-strategic-bitcoin-reserve" target="_blank" rel="noopener">Mined in America Act：美國參議員要把比特幣挖礦硬體從中國搬回來</a>
+      </h2>
+      <div class="story-body">
+        <p>美國控制全球 38% 的比特幣算力，但驅動這些算力的專用晶片（ASIC），97% 由中國廠商 Bitmain 和 MicroBT 製造。換句話說，美國的比特幣挖礦產業幾乎完全依賴「外國對手」的硬體供應鏈。這個結構性弱點在中美科技脫鉤的背景下，越來越像是一個國安問題。</p>
+        <p>3 月 30 日，共和黨參議員 Bill Cassidy 和 Cynthia Lummis 提出 Mined in America Act。法案設立「自願認證」制度：通過認證的礦場必須逐步淘汰來自外國對手的設備，同時可獲得能源部和農業部的融資管道（涵蓋電網穩定負載、再生能源吸收和甲烷捕捉）。法案也正式將川普的「戰略比特幣儲備」寫入法律，由財政部管理。</p>
+      </div>
+      <div class="story-source">來源：<a href="https://www.theblock.co/post/395750/gop-senators-mined-in-america-act-expand-crypto-mining-strategic-bitcoin-reserve" target="_blank" rel="noopener">The Block</a> ｜ <a href="https://decrypt.co/362802/senators-reveal-mined-america-bill-boost-bitcoin-mining-trump-reserve" target="_blank" rel="noopener">Decrypt</a> ｜ <a href="https://cryptoslate.com/washington-moves-to-cut-china-out-of-the-machines-powering-us-bitcoin-mining/" target="_blank" rel="noopener">CryptoSlate</a></div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">美國比特幣挖礦的中國硬體依賴</div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">美國佔全球比特幣算力</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 38%; background: linear-gradient(90deg, #4a9eff, #2d6aff);">38%</div>
+            </div>
+          </div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">美國礦機來自中國製造商</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 97%; background: linear-gradient(90deg, #ff6b6b, #ff3b3b);">97%</div>
+            </div>
+          </div>
+          <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">主要中國製造商</span>
+              <span class="chart-row-value">Bitmain、MicroBT</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">法案認證方式</span>
+              <span class="chart-row-value">自願認證（非強制）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">認證礦場可獲得</span>
+              <span class="chart-row-value">DOE/USDA 融資管道</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">同時立法</span>
+              <span class="chart-row-value">戰略比特幣儲備寫入法律</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：The Block / CryptoSlate / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">社群討論</span>
+        <ol>
+          <li><span class="discuss-tag">立法推動</span> 參議員 <a href="https://decrypt.co/362802/senators-reveal-mined-america-bill-boost-bitcoin-mining-trump-reserve" target="_blank" rel="noopener">Cynthia Lummis</a> 在聲明中表示，法案目標是「確保驅動比特幣網路的硬體在美國製造、受美國法律保護」，同時強調認證制度是自願性質，不是聯邦強制令。</li>
+          <li><span class="discuss-tag">產業支持</span> <a href="https://cryptoslate.com/washington-moves-to-cut-china-out-of-the-machines-powering-us-bitcoin-mining/" target="_blank" rel="noopener">CryptoSlate</a> 報導指出，白宮正將此法案納入「儲備保護＋製造業」政策包裹。法案把認證礦場連結到既有的能源部和農業部融資計畫，而非另立新的補貼機制。</li>
+          <li><span class="discuss-tag">質疑聲音</span> 批評者指出，「自願認證」的實際約束力有限。礦場的採購決策終究由價格、效能和供貨速度主導，如果美國製造的 ASIC 在這三項上追不上 Bitmain，<a href="https://crypto.news/u-s-senators-push-mined-in-america-act-to-cut-reliance-on-chinese-miners/" target="_blank" rel="noopener">認證標章可能只是品牌行銷</a>，實際採購行為不會改變。</li>
+        </ol>
+      </div>
+    </article>
+
+    <footer class="page-footer">
+      每日摘要 · 2026-04-01 · 自動生成，供個人閱讀參考，不構成投資建議
+    </footer>
+
+  </div>
+</body>
+</html>
