@@ -18,11 +18,14 @@ cronExpression: 0 22 * * *
 
 ## 步驟
 
-### 1. 讀取今天的日報
+### 1. 確認今天的日報是否有產出
 
-讀取今天的日報檔案：`/Users/staarrr/autofarm/daily-digest-$(date +%Y-%m-%d).html`
+檢查今天的日報檔案是否存在：`/Users/staarrr/autofarm/daily-digest-$(date +%Y-%m-%d).html`
 
-如果今天沒有日報（例如排程沒跑），記錄「今日無日報」並結束。
+- 如果存在 → 繼續下一步
+- 如果不存在 → **這是嚴重問題**。記錄「⚠️ 今日日報未產出，排程可能失效」，檢查可能的原因（Mac 是否關機、排程是否被停用、網路是否斷線等），寫入改進筆記後結束
+
+同時檢查 `docs/digest/$(date +%Y-%m-%d).html` 是否存在，確認日報有成功部署到 GitHub Pages。如果日報存在但未部署，也要記錄。
 
 ### 2. 風格檢查（逐條對照 CLAUDE.md）
 
