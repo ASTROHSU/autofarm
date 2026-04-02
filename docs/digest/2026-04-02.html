@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日摘要 2026-04-02</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8f6f1;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #1a1a1a;
+      --tag-bg: #f0ede6;
+      --tag-text: #5a5040;
+      --border: #e8e3d8;
+      --link: #2d6a4f;
+      --crypto-tag: #1a3a6b;
+      --crypto-bg: #e8f0fc;
+      --ai-tag: #3d1a6b;
+      --ai-bg: #f0e8fc;
+      --legal-tag: #6b1a1a;
+      --legal-bg: #fce8e8;
+      --market-tag: #1a5a3a;
+      --market-bg: #e8faf0;
+      --defi-tag: #6b4a1a;
+      --defi-bg: #fcf0e8;
+      --policy-tag: #1a4a6b;
+      --policy-bg: #e8f4fc;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 17px;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .site-header {
+      margin-bottom: 48px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--text);
+    }
+
+    .site-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 14px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .digest-headline {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+
+    .digest-meta {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      gap: 16px;
+    }
+
+    .digest-intro {
+      font-size: 16px;
+      color: var(--muted);
+      margin-top: 16px;
+      line-height: 1.8;
+    }
+
+    .story {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 32px;
+      margin-bottom: 28px;
+    }
+
+    .story-tags {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .tag {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .tag-crypto { background: var(--crypto-bg); color: var(--crypto-tag); }
+    .tag-ai { background: var(--ai-bg); color: var(--ai-tag); }
+    .tag-legal { background: var(--legal-bg); color: var(--legal-tag); }
+    .tag-market { background: var(--market-bg); color: var(--market-tag); }
+    .tag-defi { background: var(--defi-bg); color: var(--defi-tag); }
+    .tag-policy { background: var(--policy-bg); color: var(--policy-tag); }
+
+    .story-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+
+    .story-title a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .story-title a:hover {
+      border-bottom-color: var(--text);
+    }
+
+    .story-source {
+      margin-bottom: 16px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .story-source a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--muted);
+    }
+
+    .story-source a:hover {
+      color: var(--link);
+      border-bottom-color: var(--link);
+    }
+
+    .story-body p {
+      margin-bottom: 12px;
+      text-align: justify;
+    }
+
+    .story-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    details {
+      margin-top: 20px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--muted);
+      padding: 6px 0;
+    }
+
+    .chart-wrap {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: -apple-system, 'Noto Sans TC', sans-serif;
+      max-width: 800px;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 12px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .chart-wrap .chart-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: #ffffff;
+    }
+
+    .chart-wrap .chart-source {
+      font-size: 11px;
+      color: #666;
+      margin-top: 16px;
+      text-align: right;
+    }
+
+    .chart-bar-group {
+      margin-bottom: 12px;
+    }
+
+    .chart-bar-label {
+      font-size: 13px;
+      margin-bottom: 4px;
+      color: #aaa;
+    }
+
+    .chart-bar-track {
+      background: #1a1a1a;
+      border-radius: 4px;
+      height: 28px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .chart-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      padding-left: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .chart-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #1a1a1a;
+      font-size: 13px;
+    }
+
+    .chart-row:last-child {
+      border-bottom: none;
+    }
+
+    .chart-row-label {
+      color: #aaa;
+    }
+
+    .chart-row-value {
+      color: #e0e0e0;
+      font-weight: 600;
+    }
+
+    .chart-timeline {
+      position: relative;
+      padding-left: 20px;
+      border-left: 2px solid #333;
+    }
+
+    .chart-timeline-item {
+      position: relative;
+      margin-bottom: 16px;
+      padding-left: 16px;
+    }
+
+    .chart-timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -27px;
+      top: 6px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #4a9eff;
+      border: 2px solid #0a0a0a;
+    }
+
+    .chart-timeline-item.highlight::before {
+      background: #ff6b6b;
+    }
+
+    .chart-timeline-date {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 2px;
+    }
+
+    .chart-timeline-text {
+      font-size: 13px;
+      color: #ccc;
+    }
+
+    .chart-compare {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .chart-compare-box {
+      background: #1a1a1a;
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    .chart-compare-label {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+
+    .chart-compare-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    .chart-compare-note {
+      font-size: 11px;
+      color: #888;
+    }
+
+    .story-discuss {
+      margin-top: 20px;
+      padding: 16px 20px;
+      background: var(--tag-bg);
+      border-radius: 6px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .discuss-title {
+      font-weight: 500;
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+      letter-spacing: 1px;
+      color: var(--tag-text);
+    }
+
+    .story-discuss ol {
+      padding-left: 20px;
+    }
+
+    .story-discuss li {
+      margin-bottom: 8px;
+    }
+
+    .story-discuss li:last-child {
+      margin-bottom: 0;
+    }
+
+    .discuss-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 500;
+      padding: 1px 6px;
+      border-radius: 3px;
+      background: #e0ddd5;
+      color: var(--tag-text);
+      margin-right: 4px;
+    }
+
+    .story-discuss a {
+      color: var(--link);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .story-discuss a:hover {
+      border-bottom-color: var(--link);
+    }
+
+    .page-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .page-wrap { padding: 24px 16px 48px; }
+      .digest-headline { font-size: 22px; }
+      .story { padding: 20px; }
+      .story-title { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <div class="site-title">每日摘要</div>
+      <h1 class="digest-headline">2026 年 4 月 2 日（四）</h1>
+      <div class="digest-meta">
+        <span>4 則摘要</span>
+        <span>來源：Gmail 電子報 / 固定追蹤網站</span>
+      </div>
+      <p class="digest-intro">Solana 上的 Drift 被掏走 2.7 億美元，華爾街老牌做市商搶著申請信託銀行牌照，穩定幣法案的收益條款據說只剩 48 小時就能談攏，而 OpenAI 一輪募了 1,220 億美元——四件事指向同一個方向：錢在往受監管的基礎設施集中。</p>
+    </header>
+
+    <!-- Story 1: Drift Protocol Exploit -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-defi">DeFi</span>
+        <span class="tag tag-crypto">Solana</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://thedefiant.io/news/defi/drift-protocol-vault-loses-usd270-million-in-potential-exploit" target="_blank" rel="noopener">Drift 遭攻擊掏走 2.7 億美元，Solana 史上第二大漏洞事件</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.theblock.co/post/396107/solana-trading-platform-drift-exploited-at-least-200-million" target="_blank" rel="noopener">The Block</a> ｜ <a href="https://sherwood.news/crypto/drift-solana-based-trading-venue-suffers-ongoing-exploit-resulting-in-at/" target="_blank" rel="noopener">Sherwood News</a> ｜ <a href="https://www.bloomberg.com/news/articles/2026-04-01/solana-based-defi-project-drift-hit-by-285-million-exploit" target="_blank" rel="noopener">Bloomberg</a></div>
+      <div class="story-body">
+        <p>Drift 是 Solana 上的永續合約交易所，被攻擊前金庫裡有 3.09 億美元。4 月 1 日下午，金庫餘額在幾分鐘內從 3.09 億跌到 4,100 萬美元，涵蓋穩定幣、wrapped BTC、流動性質押代幣、Jupiter 的 JLP 代幣等 15 種以上資產。Drift 團隊隨即暫停存提款，聲明「這不是愚人節玩笑」。</p>
+        <p>這筆損失超過 Drift 總鎖倉量的一半，按 Rekt 排行榜計算，僅次於 2022 年 Wormhole 跨鏈橋被盜的 3.26 億美元，是 Solana 生態系統系史上第二大漏洞事件。DRIFT 代幣在消息曝光後下跌超過 20%，報約 0.05 美元。團隊表示正與安全公司、跨鏈橋和交易所合作追蹤資金。</p>
+      </div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">Drift 金庫資產變化</div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">攻擊前金庫</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 100%; background: linear-gradient(90deg, #4a9eff, #2d6aff);">$3.09 億</div>
+            </div>
+          </div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">攻擊後剩餘</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 13%; background: linear-gradient(90deg, #ff6b6b, #ff3b3b); min-width: 100px;">$4,100 萬</div>
+            </div>
+          </div>
+          <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">預估損失</span>
+              <span class="chart-row-value">$2.7 億 – $2.85 億</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">DRIFT 代幣跌幅</span>
+              <span class="chart-row-value">超過 20%</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Solana 史上最大漏洞</span>
+              <span class="chart-row-value">Wormhole $3.26 億（2022）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">涉及資產種類</span>
+              <span class="chart-row-value">15 種以上</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：The Block / Sherwood News / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">社群討論</span>
+        <ol>
+          <li><span class="discuss-tag">官方聲明</span> Drift 團隊在 <a href="https://x.com/DriftProtocol" target="_blank" rel="noopener">X 上發布聲明</a>：「Drift Protocol 正在遭受主動攻擊。存提款已暫停，我們正在與安全公司、跨鏈橋和交易所協調控制事態。」強調已凍結相關合約並展開調查。</li>
+          <li><span class="discuss-tag">產業觀點</span> The Defiant 訪問 Chaos Labs 創辦人 <a href="https://www.youtube.com/watch?v=mXPWjzyxc5o" target="_blank" rel="noopener">Omer Goldberg</a>，他指出這次事件暴露的問題不只是單一漏洞，而是 DeFi 金庫管理者（vault curator）的風控機制不足：「損失擴散到整個借貸市場，說明風險隔離還做得不夠。」</li>
+          <li><span class="discuss-tag">不同角度</span> DeFi Development Corp. 搶先<a href="https://sherwood.news/crypto/drift-solana-based-trading-venue-suffers-ongoing-exploit-resulting-in-at/" target="_blank" rel="noopener">聲明</a>自家對 Drift 零曝險。這種「撇清關係」的速度本身就說明市場對 DeFi 安全性的信心有多脆弱——一出事，第一反應是證明自己沒被波及。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 2: CLARITY Act Update -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-policy">政策法案</span>
+        <span class="tag tag-crypto">穩定幣</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.cryptotimes.io/2026/04/02/coinbase-clo-says-clarity-act-stablecoin-deal-is-48-hours-away/" target="_blank" rel="noopener">CLARITY Act 穩定幣收益條款：Coinbase 說 48 小時內能談攏</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.theblock.co/post/396170/coinbase-clo-grewal-clarity-act-very-close" target="_blank" rel="noopener">The Block</a> ｜ <a href="https://www.cryptotimes.io/2026/04/02/coinbase-clo-says-clarity-act-stablecoin-deal-is-48-hours-away/" target="_blank" rel="noopener">Crypto Times</a> ｜ <a href="https://finance.yahoo.com/markets/crypto/articles/clarity-act-progress-within-48-081733603.html" target="_blank" rel="noopener">Yahoo Finance</a></div>
+      <div class="story-body">
+        <p>CLARITY Act 三月底公布的草案禁止穩定幣的被動收益，只允許基於使用行為（支付、轉帳）的獎勵。Coinbase 在 3 月 23 日看到條文後直接拒絕，認為限制範圍太寬。僵局持續了十天。銀行業的立場很明確：如果穩定幣能發利息，就等於跟銀行存款競爭，沒有存保卻給收益。</p>
+        <p>4 月 1 日，Coinbase 法務長 Paul Grewal 上 Fox Business 表示「48 小時內會有進展」。參議員 Cynthia Lummis 更早之前說收益條款「99% 談完了」，剩下的只是文字微調。不過 Polymarket 上 CLARITY Act 年內簽署的賠率已從二三月的 70–90% 降到 51%。Galaxy Research 警告，如果法案在五月初前沒進參議院全院表決，今年就來不及了。</p>
+      </div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">CLARITY Act 穩定幣收益條款談判時間軸</div>
+          <div class="chart-timeline">
+            <div class="chart-timeline-item">
+              <div class="chart-timeline-date">3 月 20 日</div>
+              <div class="chart-timeline-text">Tillis、Alsobrooks 公布兩黨妥協：禁止被動收益，允許活動獎勵</div>
+            </div>
+            <div class="chart-timeline-item highlight">
+              <div class="chart-timeline-date">3 月 23 日</div>
+              <div class="chart-timeline-text">Coinbase 拒絕草案，稱限制範圍太寬</div>
+            </div>
+            <div class="chart-timeline-item">
+              <div class="chart-timeline-date">3 月底</div>
+              <div class="chart-timeline-text">Lummis 稱收益條款「99% 談完了」</div>
+            </div>
+            <div class="chart-timeline-item highlight">
+              <div class="chart-timeline-date">4 月 1 日</div>
+              <div class="chart-timeline-text">Grewal 上 Fox Business：「48 小時內會有進展」</div>
+            </div>
+            <div class="chart-timeline-item">
+              <div class="chart-timeline-date">4 月 13 日後</div>
+              <div class="chart-timeline-text">復活節假期後，參議院銀行委員會排審</div>
+            </div>
+          </div>
+          <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">Polymarket 年內通過賠率</span>
+              <span class="chart-row-value">~51%（高點曾達 90%）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Galaxy 警告期限</span>
+              <span class="chart-row-value">五月初前須進全院</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：The Block / Crypto Times / Polymarket / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">社群討論</span>
+        <ol>
+          <li><span class="discuss-tag">官方表態</span> Coinbase 法務長 <a href="https://finance.yahoo.com/markets/crypto/articles/clarity-act-progress-within-48-081733603.html" target="_blank" rel="noopener">Paul Grewal</a> 在 Fox Business 上稱 CLARITY Act 是「GENIUS Act 通過後最重要的未完工程」，並表達 48 小時內達成協議的信心。這是 Coinbase 自 3 月 23 日拒絕草案以來首次釋出正面訊號。</li>
+          <li><span class="discuss-tag">立法推動</span> 參議員 <a href="https://www.cryptotimes.io/2026/04/02/coinbase-clo-says-clarity-act-stablecoin-deal-is-48-hours-away/" target="_blank" rel="noopener">Bernie Moreno</a> 警告：如果錯過這個窗口期，穩定幣立法可能延遲數年。銀行委員會主席 Tim Scott 掌握排審權，復活節假期後的日程安排是關鍵變數。</li>
+          <li><span class="discuss-tag">質疑聲音</span> Galaxy Research <a href="https://www.theblock.co/post/396170/coinbase-clo-grewal-clarity-act-very-close" target="_blank" rel="noopener">報告</a>指出，即便收益條款談攏，CLARITY Act 還有數位資產分類、SEC/CFTC 管轄劃分等爭議未解。Polymarket 賠率從 90% 腰斬到 51%，反映的是市場對整部法案（而非單一條款）的通過預期。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 3: EDX Markets Trust Bank Charter -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-crypto">機構基建</span>
+        <span class="tag tag-market">TradFi</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.bloomberg.com/news/articles/2026-04-01/citadel-securities-backed-crypto-exchange-seeks-bank-charter" target="_blank" rel="noopener">EDX Markets 申請聯邦信託銀行牌照，華爾街做市商搶進加密託管</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.bloomberg.com/news/articles/2026-04-01/citadel-securities-backed-crypto-exchange-seeks-bank-charter" target="_blank" rel="noopener">Bloomberg</a> ｜ <a href="https://www.coindesk.com/markets/2026/04/01/citadel-backed-edx-markets-applies-for-u-s-trust-charter-to-expand-institutional-crypto-services" target="_blank" rel="noopener">CoinDesk</a> ｜ <a href="https://www.benzinga.com/markets/private-markets/26/04/51613537/citadel-securities-backed-edx-markets-files-for-national-trust-bank-charter" target="_blank" rel="noopener">Benzinga</a></div>
+      <div class="story-body">
+        <p>加密貨幣交易所通常自己做交易、自己保管客戶資產、自己清算——這正是 FTX 出事的結構性原因。EDX Markets 2022 年成立時就刻意把交易和託管分開，背後股東是 Citadel Securities、Fidelity Digital Assets、Sequoia、Pantera 和 Paradigm。現在 EDX 向美國貨幣監理署（OCC）申請國家信託銀行牌照，把這個分離再往前推一步。</p>
+        <p>拿到信託銀行牌照後，EDX 可以在聯邦銀行監管下提供數位資產的託管、保管和穩定幣管理。去年 12 月，Circle、Ripple、Paxos、BitGo 和 Fidelity Digital Assets 已拿到有條件的信託牌照核准。EDX 的申請代表另一批人——這次是傳統做市商和避險基金——也認定加密產業需要「交易歸交易、託管歸託管」的基礎設施。</p>
+      </div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">加密信託銀行牌照申請進度</div>
+          <div class="chart-timeline">
+            <div class="chart-timeline-item">
+              <div class="chart-timeline-date">2021 年</div>
+              <div class="chart-timeline-text">Anchorage Digital 成為首家聯邦特許數位資產銀行</div>
+            </div>
+            <div class="chart-timeline-item">
+              <div class="chart-timeline-date">2025 年 12 月</div>
+              <div class="chart-timeline-text">Circle、Ripple、Paxos、BitGo、Fidelity Digital Assets 獲有條件核准</div>
+            </div>
+            <div class="chart-timeline-item highlight">
+              <div class="chart-timeline-date">2026 年 4 月 1 日</div>
+              <div class="chart-timeline-text">EDX Markets 向 OCC 提交申請</div>
+            </div>
+          </div>
+          <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">EDX 股東</span>
+              <span class="chart-row-value">Citadel、Fidelity、Sequoia、Pantera、Paradigm</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">牌照允許業務</span>
+              <span class="chart-row-value">託管、保管、穩定幣管理</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">核心設計</span>
+              <span class="chart-row-value">交易與託管結構性分離</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Bloomberg / CoinDesk / Benzinga / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">社群討論</span>
+        <ol>
+          <li><span class="discuss-tag">產業觀點</span> <a href="https://www.coindesk.com/markets/2026/04/01/citadel-backed-edx-markets-applies-for-u-s-trust-charter-to-expand-institutional-crypto-services" target="_blank" rel="noopener">CoinDesk 報導</a>引述 EDX 立場：將經紀、交易和託管集中在同一個實體「會製造利益衝突和營運風險」。信託銀行模式把託管和清算從交易活動中拆出來，這是傳統金融市場已運作數十年的結構。</li>
+          <li><span class="discuss-tag">監管背景</span> <a href="https://bitcoinmagazine.com/news/edx-markets-us-trust-bank-charter" target="_blank" rel="noopener">Bitcoin Magazine</a> 指出，EDX 的申請是川普政府鬆綁政策下的產物。拜登時代 OCC 凍結了數位資產銀行的審批，川普上任後重新開閘，去年底一口氣放行五家。</li>
+          <li><span class="discuss-tag">質疑聲音</span> 批評者指出，EDX 的股東名單讀起來就是華爾街做市商的「誰是誰」——Citadel 和 HRT 本身就是全球最大的高頻交易商。「交易歸交易、託管歸託管」的說法很好聽，但這些公司同時在交易端和託管端都有佈局，<a href="https://www.benzinga.com/markets/private-markets/26/04/51613537/citadel-securities-backed-edx-markets-files-for-national-trust-bank-charter" target="_blank" rel="noopener">結構分離是否真能防止利益衝突</a>，仍待觀察。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 4: OpenAI $122B Round -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-ai">AI</span>
+        <span class="tag tag-market">融資</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round" target="_blank" rel="noopener">OpenAI 一輪募 1,220 億美元，估值 8,520 億，史上最大私募融資</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round" target="_blank" rel="noopener">Bloomberg</a> ｜ <a href="https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html" target="_blank" rel="noopener">CNBC</a> ｜ <a href="https://techstartups.com/2026/04/01/openai-raises-record-122b-at-852b-valuation-as-ipo-buzz-intensifies/" target="_blank" rel="noopener">Tech Startups</a></div>
+      <div class="story-body">
+        <p>OpenAI 完成 1,220 億美元融資，投後估值 8,520 億美元。Amazon 投入 500 億、NVIDIA 和 SoftBank 各投 300 億、個人投資者透過銀行管道首度參與，出資 30 億。這輪融資的本質更像算力供應鏈的利益綁定：投資方同時也是 GPU、雲端服務的供應商，等於先投錢給 OpenAI，再從硬體和算力訂單賺回來。</p>
+        <p>不過 OpenAI 仍未獲利。年營收 131 億美元、月營收約 20 億、ChatGPT 週活超過 9 億、付費使用者超過 5,000 萬——數字亮眼，但算力成本居高不下，規模增長沒有帶來成本拐點。影片生成工具 Sora 因為每天燒 100 萬美元、使用者從 100 萬掉到不足 50 萬而關停。OpenAI 正從「展示技術可能性」轉向「可持續收入」——企業端收入已佔超過 40%，IPO 討論越來越具體。</p>
+      </div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">OpenAI 1,220 億美元融資：誰投了多少</div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">Amazon</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 41%; background: linear-gradient(90deg, #ff9500, #ff6b00);">$500 億</div>
+            </div>
+          </div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">NVIDIA</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 25%; background: linear-gradient(90deg, #76b900, #5a8f00);">$300 億</div>
+            </div>
+          </div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">SoftBank</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 25%; background: linear-gradient(90deg, #4a9eff, #2d6aff);">$300 億</div>
+            </div>
+          </div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">個人投資者（透過銀行）</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 3%; background: #888; min-width: 60px;">$30 億</div>
+            </div>
+          </div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">其他機構（a16z、D.E. Shaw 等）</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 7%; background: #555; min-width: 60px;">~$90 億</div>
+            </div>
+          </div>
+          <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">投後估值</span>
+              <span class="chart-row-value">$8,520 億</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">年營收（2025）</span>
+              <span class="chart-row-value">$131 億</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">ChatGPT 週活</span>
+              <span class="chart-row-value">9 億+</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">獲利狀態</span>
+              <span class="chart-row-value">尚未獲利</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Bloomberg / CNBC / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">社群討論</span>
+        <ol>
+          <li><span class="discuss-tag">媒體報導</span> <a href="https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html" target="_blank" rel="noopener">CNBC</a> 指出，這輪融資首度開放個人投資者透過銀行管道參與，募到 30 億美元。這被解讀為 IPO 前的「零售試水」，讓高淨值個人提前鎖定配額。</li>
+          <li><span class="discuss-tag">產業分析</span> ChainFeeds <a href="https://chainfeeds.substack.com/p/openai-aster-ceo-l1-2026-aster" target="_blank" rel="noopener">投研早報</a>分析：投資方同時也是算力供應鏈的上游，Amazon 賣雲端、NVIDIA 賣晶片、SoftBank 投基礎設施——「投進去的錢會以硬體訂單的形式回流，風險其實比表面上看起來低。」</li>
+          <li><span class="discuss-tag">質疑聲音</span> Sora 的關停揭示核心矛盾：影片生成每天燒 100 萬美元，使用者卻從上線的 100 萬跌到不足 50 萬。<a href="https://techstartups.com/2026/04/01/openai-raises-record-122b-at-852b-valuation-as-ipo-buzz-intensifies/" target="_blank" rel="noopener">Tech Startups 報導</a>引述分析師觀點：8,520 億估值對應 131 億年營收，本益比超過 65 倍，而且還沒開始獲利。</li>
+        </ol>
+      </div>
+    </article>
+
+    <footer class="page-footer">
+      每日摘要 · 2026-04-02 · 自動生成，供個人閱讀參考，不構成投資建議
+    </footer>
+
+  </div>
+</body>
+</html>
