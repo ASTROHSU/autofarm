@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日摘要 2026-03-24</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8f6f1;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #1a1a1a;
+      --tag-bg: #f0ede6;
+      --tag-text: #5a5040;
+      --border: #e8e3d8;
+      --link: #2d6a4f;
+      --energy-tag: #7b4f1e;
+      --energy-bg: #fdf3e3;
+      --crypto-tag: #1a3a6b;
+      --crypto-bg: #e8f0fc;
+      --ai-tag: #3d1a6b;
+      --ai-bg: #f0e8fc;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 17px;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .site-header {
+      margin-bottom: 48px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--text);
+    }
+
+    .site-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .digest-headline {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .digest-meta {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .digest-meta span::before {
+      content: '·';
+      margin-right: 16px;
+    }
+
+    .digest-meta span:first-child::before {
+      content: '';
+      margin-right: 0;
+    }
+
+    .relation-notice {
+      background: #fff8ee;
+      border-left: 3px solid #d4a853;
+      padding: 12px 16px;
+      border-radius: 0 6px 6px 0;
+      font-size: 13.5px;
+      color: #6b4c1a;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .relation-notice strong {
+      font-weight: 600;
+    }
+
+    .story {
+      background: var(--surface);
+      border-radius: 8px;
+      padding: 32px 36px;
+      margin-bottom: 28px;
+      border: 1px solid var(--border);
+    }
+
+    .story-tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    .tag {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      padding: 3px 9px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+
+    .tag-crypto { background: var(--crypto-bg); color: var(--crypto-tag); }
+    .tag-ai { background: var(--ai-bg); color: var(--ai-tag); }
+    .tag-energy { background: var(--energy-bg); color: var(--energy-tag); }
+    .tag-macro { background: #f0f4e8; color: #3a5a1e; }
+
+    .story-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.45;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .story-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .story-title a:hover {
+      color: var(--link);
+    }
+
+    .story-source {
+      font-size: 12.5px;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .story-body {
+      font-size: 16.5px;
+      line-height: 1.9;
+      color: var(--text);
+    }
+
+    .story-body p {
+      margin-bottom: 14px;
+    }
+
+    .story-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .story-group {
+      position: relative;
+      margin-bottom: 28px;
+    }
+
+    .story-group .story {
+      margin-bottom: 0;
+    }
+
+    .story-group .story:not(:last-child) {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      border-bottom: 1px dashed var(--border);
+    }
+
+    .story-group .story:not(:first-child) {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .story-group-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #d4a853;
+      background: #fff8ee;
+      padding: 5px 14px;
+      text-align: center;
+      border-left: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+    }
+
+    .discussion {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 13.5px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .discussion-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #aaa;
+      margin-bottom: 6px;
+    }
+
+    .sources-section {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    .sources-title {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .sources-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .sources-list li {
+      font-size: 13.5px;
+      color: var(--muted);
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+    }
+
+    .sources-list li::before {
+      content: '↗';
+      font-size: 11px;
+      color: #aaa;
+      flex-shrink: 0;
+    }
+
+    .sources-list a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .sources-list a:hover {
+      color: var(--link);
+      border-bottom-color: var(--link);
+    }
+
+    .story-source a, .story-body a, .discussion a {
+      color: var(--link);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(45, 106, 79, 0.3);
+    }
+
+    .story-source a:hover, .story-body a:hover, .discussion a:hover {
+      border-bottom-color: var(--link);
+    }
+
+    .page-footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 600px) {
+      .page-wrap { padding: 28px 16px 60px; }
+      .story { padding: 24px 20px; }
+      .digest-headline { font-size: 22px; }
+      .story-title { font-size: 17px; }
+      .story-body { font-size: 15.5px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <div class="site-title">每日摘要</div>
+      <h1 class="digest-headline">2026 年 3 月 24 日，週二</h1>
+      <div class="digest-meta">
+        <span>4 則摘要</span>
+        <span>來源：Gmail 電子報</span>
+      </div>
+    </header>
+
+    <div class="relation-notice">
+      <strong>今日關聯：</strong>第 3、4 則是 DeFi 的兩個側面——Resolv 駭客事件揭露策展人制度的誘因缺陷，《CLARITY 法》的穩定幣利息妥協則是立法者試圖補上護欄。市場失敗與監管推進，本週恰好同步發生。
+    </div>
+
+    <!-- Story 1: Anthropic vs. Pentagon -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-ai">AI 政策</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.bigtechnology.com/p/anthropic-takes-the-pentagon-to-court" target="_blank" rel="noopener">
+          Anthropic 拒絕讓 Claude 上戰場，告上五角大廈
+        </a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.bigtechnology.com/p/anthropic-takes-the-pentagon-to-court" target="_blank" rel="noopener">Big Technology</a> · CNN · <a href="https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/" target="_blank" rel="noopener">TechCrunch</a></div>
+      <div class="story-body">
+        <p>今年二月，川普政府要求 Anthropic 在合約中開放 Claude 用於「自主武器系統」和「國內大規模監控」。Anthropic 拒絕，國防部長 Hegseth 隨即以「供應鏈風險」名義撤銷了它與所有聯邦機構的合約——這個標籤通常貼給外國敵對勢力。OpenAI 接手了那份國防合約，但此後逾 400 萬用戶揚言刪除 ChatGPT。</p>
+        <p>3 月 9 日，Anthropic 分別在加州和華盛頓特區提告，主張拒簽合約受第一修正案（言論自由）保護，黑名單行動違反第五修正案正當程序，且 Hegseth 動用的法律條款本是針對外國勢力而設。本週二，加州聯邦法官 Rita Lin 舉行聽證，決定是否凍結政府禁令。近 150 名退休聯邦法官已連署支持 Anthropic；Google 首席科學家 Jeff Dean 與多名 OpenAI 研究人員也聯名提交意見書，稱政府這項指定可能「嚴重衝擊整個產業」。</p>
+      </div>
+      <div class="discussion">
+        <div class="discussion-label">相關討論</div>
+        <a href="https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/" target="_blank" rel="noopener">TechCrunch</a> 報導：五角大廈在 3 月 20 日的法庭文件中透露，曾在川普宣佈破局後一週告知 Anthropic「雙方幾近達成共識」——此細節讓外界對政府行動的急迫性產生疑問。舊金山週末出現反 AI 抗議，示威者在 Anthropic 總部前高舉「不要建造天網」標語。
+      </div>
+    </article>
+
+    <!-- Story 2: Iran → Helium → Semiconductors -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-energy">能源</span>
+        <span class="tag tag-ai">AI 晶片</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://fortune.com/2026/03/21/iran-war-helium-shortage-qatar-chip-supply-chains-ai-boom/" target="_blank" rel="noopener">
+          伊朗炸了一個氦氣廠，AI 晶片供應鏈開始倒數計時
+        </a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.exponentialview.co/p/data-to-start-your-week-helium" target="_blank" rel="noopener">Exponential View（Azeem Azhar）</a> · <a href="https://fortune.com/2026/03/21/iran-war-helium-shortage-qatar-chip-supply-chains-ai-boom/" target="_blank" rel="noopener">Fortune</a> · <a href="https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock" target="_blank" rel="noopener">Tom's Hardware</a></div>
+      <div class="story-body">
+        <p>氦氣在晶片製造中不可替代：冷卻矽晶圓超過 20 個製程步驟都需要它，目前沒有替代材料。卡達的拉斯拉凡設施是全球最集中的氦氣生產地，供應全球約 34% 的需求；南韓從卡達進口 65% 的氦氣，而南韓工廠負責生產全球約 80% 的高頻寬記憶體（HBM）——所有高階 AI 晶片的必要元件。</p>
+        <p>伊朗上週空襲拉斯拉凡，QatarEnergy 通報「嚴重損壞」，需要 3 至 5 年修復，每年氦氣出口量減少 14%。不過 SK 海力士因已分散供應商，表示「幾乎不受影響」；三星也在戰前建好業界首個氦氣回收系統。即使氦氣價格翻倍，對晶片成本的影響也僅從 0.5% 升至約 1%。眼前的壓力在時間：液態氦容器只能撐 35 到 48 天，採購團隊接下來幾週要加緊補貨。</p>
+      </div>
+      <div class="discussion">
+        <div class="discussion-label">相關討論</div>
+        Tom's Hardware 以「兩週倒數計時」為標題，強調採購窗口正在收窄。Exponential View 的 Azeem Azhar 則指出，高附加值 AI 加速器廠商議價力夠強，即便漲價也能吸收或轉嫁，對 AI 供應鏈的短期威脅低於媒體標題暗示的程度。相關：3 月 23 日摘要曾報導伊朗攻擊卡達 LNG 引發油價飆升。
+      </div>
+    </article>
+
+    <!-- Stories 3+4: DeFi double pressure -->
+    <div class="story-group">
+
+      <!-- Story 3: Resolv hack / DeFi Curator -->
+      <article class="story">
+        <div class="story-tags">
+          <span class="tag tag-crypto">DeFi</span>
+        </div>
+        <h2 class="story-title">
+          <a href="https://thedefiant.io/news/hacks/defi-has-seen-resolv-s-usd25m-usr-exploit-many-times-before" target="_blank" rel="noopener">
+            Resolv 遭竊 2,500 萬美元，15 個 Morpho 保險庫中彈——策展人制度的誘因問題再度爆發
+          </a>
+        </h2>
+        <div class="story-source">來源：<a href="https://thedefiant.io/news/hacks/defi-has-seen-resolv-s-usd25m-usr-exploit-many-times-before" target="_blank" rel="noopener">The Defiant（Cami）</a> · <a href="https://www.dlnews.com/articles/defi/resolve-labs-stablecoin-falls-80-per-cent-as-millions-tokens-minted/" target="_blank" rel="noopener">DL News</a> · <a href="https://www.theblock.co/post/394582/resolvs-usr-stablecoin-depegs-after-attacker-mints-80-million-unbacked-tokens-extracts-roughly-25-million" target="_blank" rel="noopener">The Block</a></div>
+        <div class="story-body">
+          <p>DeFi 近年流行一種「策展人」架構：由專業風險管理者操作保險庫、設定抵押品規則，協議本身保持中立。問題是策展人靠管理費分潤，收益率越高才能吸引更多存款——有動機接受風險更高的抵押品；一旦抵押品崩潰，損失全由存款人吸收，策展人的自有資金幾乎不受影響。</p>
+          <p>上週日，Resolv 遭攻擊者以被盜私鑰增發 8,000 萬顆無擔保的 USR 穩定幣，17 分鐘內抽走 2,500 萬美元。USR 跌至 2 美分，但 Morpho 的預言機因協議暫停而凍結在 1.13 美元，形成套利缺口——低價買入 USR、以高估值抵押後借走 USDC，15 個保險庫被波及。Fluid 單日遭提款逾 3 億美元，部分策展人的自動化機器人在事發後仍持續往受害保險庫補錢，加深損失。Aave 的 <a href="https://x.com/Marczeller/status/2035825258490372339" target="_blank" rel="noopener">Marc Zeller</a> 在 X 上說：「策展人產業的設計根本有問題，根本沒有在做真正的策展。」這已是 14 個月內同類事故的第四次。</p>
+        </div>
+        <div class="discussion">
+          <div class="discussion-label">相關討論</div>
+          <a href="https://x.com/d2_finance/status/2035560501070225770" target="_blank" rel="noopener">@d2_finance</a> 在 X 上貼出鏈上數據，顯示 Gauntlet 的「USDC Core 核心保險庫」有 495 萬美元暴露在受損市場，與 Gauntlet 原本「僅少量曝險」的說法相矛盾。The Defiant 創辦人 Cami 評論：「DeFi 的一貫回應，是用更精美的包裝把同樣的假設再包一次。」
+        </div>
+      </article>
+
+      <div class="story-group-label">同一週的 DeFi 壓力測試：市場面與監管面</div>
+
+      <!-- Story 4: CLARITY Act stablecoin yield -->
+      <article class="story">
+        <div class="story-tags">
+          <span class="tag tag-crypto">加密監管</span>
+          <span class="tag tag-macro">立法</span>
+        </div>
+        <h2 class="story-title">
+          <a href="https://www.coindesk.com/policy/2026/03/20/crypto-clarity-act-may-be-cleared-to-move-after-senators-agree-on-stablecoin-yield" target="_blank" rel="noopener">
+            穩定幣能不能付利息？美國參議員打破《CLARITY 法》最大障礙
+          </a>
+        </h2>
+        <div class="story-source">來源：<a href="https://www.coindesk.com/policy/2026/03/20/crypto-clarity-act-may-be-cleared-to-move-after-senators-agree-on-stablecoin-yield" target="_blank" rel="noopener">CoinDesk</a> · <a href="https://www.theblock.co/post/394554/lawmakers-breakthrough-agreement-in-principle-stablecoin-yield-sweeping-crypto-bill" target="_blank" rel="noopener">The Block</a> · Politico</div>
+        <div class="story-body">
+          <p>《CLARITY 法》是美國最新的加密資產綜合監管框架草案，一個問題卡了好幾個月：穩定幣持有者能不能拿利息？Coinbase 已對 USDC 提供約 4% 年化報酬，而銀行存款利率只有 0.01% 到 0.02%。銀行業者算清楚這個差距，派說客把整個法案卡在銀行委員會。</p>
+          <p>3 月 20 日，共和黨參議員 Tillis 和民主黨參議員 Alsobrooks 宣布達成原則性妥協：純粹持有穩定幣的被動收益禁止；透過消費、轉帳或使用平台產生的活動型報酬仍可保留。Alsobrooks 說：「這讓我們既能保護創新，也能防止大規模存款外流。」不過法案接下來仍需通過銀行委員會審查（預計四月下旬）、全院 60 票門檻、與農業委員會版本整合、再跟眾議院版本合併，才能送至總統簽署。DeFi 條款和政府官員持幣的利益迴避規定仍有爭議。</p>
+        </div>
+        <div class="discussion">
+          <div class="discussion-label">相關討論</div>
+          CoinDesk 報導：3 月 23 日業界和銀行業代表赴國會山莊審閱尚未公開的完整協議文字，細節仍在確認中。Politico 引述 Alsobrooks：「我們在這件事上走了很長一段路。」
+        </div>
+      </article>
+
+    </div>
+
+    <footer class="page-footer">
+      每日摘要 · 2026-03-24 · 僅供個人參考，不構成投資建議
+    </footer>
+
+  </div>
+</body>
+</html>

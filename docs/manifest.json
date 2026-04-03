@@ -1,0 +1,190 @@
+{
+  "entries": [
+    {
+      "type": "digest",
+      "date": "2026-04-02",
+      "title": "每日摘要 2026-04-02",
+      "path": "digest/2026-04-02.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-04-01",
+      "title": "每日摘要 2026-04-01",
+      "path": "digest/2026-04-01.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-31",
+      "title": "每日摘要 2026-03-31",
+      "path": "digest/2026-03-31.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-30",
+      "title": "每日摘要 2026-03-30",
+      "path": "digest/2026-03-30.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-29",
+      "title": "每日摘要 2026-03-29",
+      "path": "digest/2026-03-29.html"
+    },
+    {
+      "type": "morning",
+      "date": "2026-03-28",
+      "title": "比特幣腰斬，華爾街卻在搶位子",
+      "path": "stories/story_2026-03-28_早晨版_散戶恐慌華爾街進場.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-28",
+      "title": "每日摘要 2026-03-28",
+      "path": "digest/2026-03-28.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-27",
+      "title": "每日摘要 2026-03-27",
+      "path": "digest/2026-03-27.html"
+    },
+    {
+      "type": "morning",
+      "date": "2026-03-26",
+      "title": "華盛頓的兩張臉：SEC 替代幣分類，卻堵住穩定幣的獲利之路",
+      "path": "stories/story_2026-03-26_早晨版_華盛頓的兩張臉.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-26",
+      "title": "每日摘要 2026-03-26",
+      "path": "digest/2026-03-26.html"
+    },
+    {
+      "type": "morning",
+      "date": "2026-03-25",
+      "title": "穩定幣的成年禮，規則還沒寫完",
+      "path": "stories/story_2026-03-25_早晨版_穩定幣成年禮.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-25",
+      "title": "每日摘要 2026-03-25",
+      "path": "digest/2026-03-25.html"
+    },
+    {
+      "type": "morning",
+      "date": "2026-03-24",
+      "title": "避險劇本失效：伊朗戰爭第 25 天，黃金輸給比特幣",
+      "path": "stories/story_2026-03-24_早晨版_避險劇本失效.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-24",
+      "title": "每日摘要 2026-03-24",
+      "path": "digest/2026-03-24.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-23",
+      "title": "每日摘要 2026-03-23",
+      "path": "digest/2026-03-23.html"
+    },
+    {
+      "type": "morning",
+      "date": "2026-03-22",
+      "title": "28 年前的未竟之業：AI 代理人搶著付錢，誰來收？",
+      "path": "stories/story_2026-03-22_早晨版_AI代理人支付戰爭.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-22",
+      "title": "每日摘要 2026-03-22",
+      "path": "digest/2026-03-22.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-21",
+      "title": "每日摘要 2026-03-21",
+      "path": "digest/2026-03-21.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-20",
+      "title": "每日摘要 2026-03-20",
+      "path": "digest/2026-03-20.html"
+    },
+    {
+      "type": "morning",
+      "date": "2026-03-20",
+      "title": "聯準會被困住了，但金融基礎設施的重建沒有停",
+      "path": "stories/story_2026-03-20_早晨版_油價困局與金融重建.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-19",
+      "title": "本週精選｜2026.03.13-19",
+      "path": "digest/weekly-2026-03-13-19.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-19",
+      "title": "每日摘要 2026-03-19",
+      "path": "digest/2026-03-19.html"
+    },
+    {
+      "type": "morning",
+      "date": "2026-03-19",
+      "title": "同一天，穩定幣從四個方向攻入支付產業",
+      "path": "stories/story_2026-03-19_早晨版_穩定幣攻入支付產業.html"
+    },
+    {
+      "type": "morning",
+      "date": "2026-03-19",
+      "title": "SEC 終於鬆口，但這扇窗可能只開 18 個月",
+      "path": "stories/story_2026-03-19_早晨版_加密監管窗口期.html"
+    },
+    {
+      "type": "evening",
+      "date": "2026-03-19",
+      "title": "11 個人、零創投，Hyperliquid 如何讓石油交易員湧入鏈上",
+      "path": "stories/story_2026-03-19_晚間版_Hyperliquid石油交易爆量.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-18",
+      "title": "每日摘要 2026-03-18",
+      "path": "digest/2026-03-18.html"
+    },
+    {
+      "type": "evening",
+      "date": "2026-03-18",
+      "title": "華爾街搬上鏈",
+      "path": "stories/story_2026-03-18_晚間版_華爾街搬上鏈.html"
+    },
+    {
+      "type": "evening",
+      "date": "2026-03-18",
+      "title": "當 AI 能自己查資料，誰還需要金融終端機？",
+      "path": "stories/story_2026-03-18_晚間版_Morningstar的AI賭注.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-17",
+      "title": "每日摘要 2026-03-17",
+      "path": "digest/2026-03-17.html"
+    },
+    {
+      "type": "evening",
+      "date": "2026-03-17",
+      "title": "Meta 放棄 Instagram 加密",
+      "path": "stories/story_2026-03-17_晚間版_Meta放棄Instagram加密.html"
+    },
+    {
+      "type": "digest",
+      "date": "2026-03-16",
+      "title": "每日摘要 2026-03-16",
+      "path": "digest/2026-03-16.html"
+    }
+  ]
+}

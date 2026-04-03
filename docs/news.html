@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#faf9f6">
+<title>AutoFarm News</title>
+<link rel="icon" type="image/png" href="https://i.urusai.cc/yaku8.png">
+<script src="feed.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #faf9f6;
+  --bg-alt: #f3efe8;
+  --surface: #ffffff;
+  --text: #1a1a1a;
+  --text-2: #555;
+  --text-3: #999;
+  --accent: #c67a3c;
+  --accent-soft: rgba(198,122,60,0.1);
+  --border: #e8e3d8;
+  --border-light: #f0ece6;
+  --link: #2d6a4f;
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.02);
+  --card-shadow-hover: 0 4px 12px rgba(0,0,0,0.08);
+  --radius: 10px;
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Tag colors */
+  --tag-defi: #b8860b; --tag-defi-bg: #fef3e2;
+  --tag-crypto: #2a6f8a; --tag-crypto-bg: #e8f4f8;
+  --tag-ai: #7b4f9d; --tag-ai-bg: #f0e6f6;
+  --tag-policy: #1a4a6b; --tag-policy-bg: #e8f4fc;
+  --tag-market: #2d6a4f; --tag-market-bg: #e8f5ee;
+  --tag-legal: #8b3a3a; --tag-legal-bg: #fce8e8;
+  --tag-default: #666; --tag-default-bg: #f0f0f0;
+}
+
+[data-theme="dark"] {
+  --bg: #0f0f0f;
+  --bg-alt: #161616;
+  --surface: #1a1a1a;
+  --text: #e0e0e0;
+  --text-2: #aaa;
+  --text-3: #666;
+  --accent: #e0a060;
+  --accent-soft: rgba(224,160,96,0.12);
+  --border: #2a2a2a;
+  --border-light: #222;
+  --link: #7db8a0;
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  --card-shadow-hover: 0 4px 16px rgba(0,0,0,0.4);
+  --tag-defi: #e8b84a; --tag-defi-bg: #2e2510;
+  --tag-crypto: #5fb8d4; --tag-crypto-bg: #1a2e35;
+  --tag-ai: #b88fda; --tag-ai-bg: #251a2e;
+  --tag-policy: #6baed6; --tag-policy-bg: #1a2535;
+  --tag-market: #5fbf8a; --tag-market-bg: #1a2e22;
+  --tag-legal: #d47070; --tag-legal-bg: #2e1a1a;
+  --tag-default: #888; --tag-default-bg: #252525;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+  font-size: 18px;
+  min-height: 100vh;
+  transition: background var(--transition), color var(--transition);
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.navbar-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-brand {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text);
+  cursor: pointer;
+  transition: color 0.15s;
+  text-decoration: none;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: var(--text-2);
+  width: 36px; height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.nav-btn:hover { background: var(--accent-soft); color: var(--text); }
+.nav-btn svg { width: 18px; height: 18px; }
+
+/* ===== Tag Filters ===== */
+.filter-bar {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border-light);
+  transition: background var(--transition), border-color var(--transition);
+  position: sticky;
+  top: 52px;
+  z-index: 99;
+}
+
+.filter-scroll {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.filter-scroll::-webkit-scrollbar { display: none; }
+
+.chip {
+  flex-shrink: 0;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-2);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.chip:hover { border-color: var(--text-3); }
+.chip.active {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+
+/* ===== Last Updated ===== */
+.update-bar {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.update-time {
+  font-size: 12px;
+  color: var(--text-3);
+}
+
+.update-dot {
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #4ade80;
+  margin-right: 6px;
+  animation: pulse 2s ease infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+/* ===== Feed Grid ===== */
+.feed {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 12px 20px 80px;
+}
+
+.date-divider {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: var(--text-3);
+  padding: 20px 0 8px;
+  border-bottom: 1px solid var(--border-light);
+  margin-bottom: 12px;
+  position: sticky;
+  top: 97px;
+  background: var(--bg);
+  z-index: 10;
+  transition: background var(--transition);
+}
+
+/* ===== News Card ===== */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
+  position: relative;
+  padding: 20px 24px;
+}
+.card:hover {
+  box-shadow: var(--card-shadow-hover);
+  border-color: var(--border);
+  transform: translateY(-1px);
+}
+.card:active { transform: translateY(0); }
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.card-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 4px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.card-title {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--text);
+  transition: color 0.15s;
+}
+.card:hover .card-title { color: var(--accent); }
+
+.card-excerpt {
+  font-size: 16px;
+  color: var(--text-2);
+  line-height: 1.7;
+  margin-top: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--text-3);
+}
+
+.card-sources {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.card-source {
+  color: var(--text-3);
+  text-decoration: none;
+}
+
+/* ===== Article Detail (overlay) ===== */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: var(--bg);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.overlay.open {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.overlay-bar {
+  position: sticky;
+  top: 0;
+  z-index: 201;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.overlay-bar-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.close-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px 10px;
+  margin-left: -10px;
+  border-radius: 6px;
+  font-family: inherit;
+  transition: background 0.15s;
+}
+.close-btn:hover { background: var(--accent-soft); }
+.close-btn svg { width: 18px; height: 18px; }
+
+.overlay-nav {
+  display: flex;
+  gap: 4px;
+}
+
+.overlay-nav button {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-2);
+  width: 32px; height: 32px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.overlay-nav button:hover:not(:disabled) { background: var(--bg-alt); color: var(--text); }
+.overlay-nav button:disabled { opacity: 0.3; cursor: default; }
+.overlay-nav button svg { width: 16px; height: 16px; }
+
+/* Article content */
+.article {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+}
+
+.article-tags {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.article-title {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.45;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+.article-title a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+.article-title a:hover { border-bottom-color: var(--accent); }
+
+.article-meta {
+  font-size: 14px;
+  color: var(--text-3);
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-light);
+}
+.article-meta a {
+  color: var(--text-2);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--text-3);
+}
+.article-meta a:hover { color: var(--link); border-bottom-color: var(--link); }
+
+.article-body {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 19px;
+  line-height: 1.9;
+  color: var(--text);
+}
+.article-body p {
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+/* Chart section */
+.article-chart {
+  margin: 28px 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.article-chart .chart-wrap {
+  background: #0a0a0a;
+  color: #e0e0e0;
+  font-family: 'Noto Sans TC', sans-serif;
+  border-radius: var(--radius);
+  padding: 24px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.article-chart .chart-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.article-chart .chart-source {
+  font-size: 11px;
+  color: #666;
+  margin-top: 16px;
+  text-align: right;
+}
+
+.article-chart .chart-bar-group { margin-bottom: 12px; }
+.article-chart .chart-bar-label { font-size: 13px; margin-bottom: 4px; color: #aaa; }
+.article-chart .chart-bar-track { background: #1a1a1a; border-radius: 4px; height: 28px; position: relative; overflow: hidden; }
+.article-chart .chart-bar-fill { height: 100%; border-radius: 4px; display: flex; align-items: center; padding-left: 8px; font-size: 12px; font-weight: 600; color: #fff; }
+.article-chart .chart-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #1a1a1a; font-size: 13px; }
+.article-chart .chart-row:last-child { border-bottom: none; }
+.article-chart .chart-row-label { color: #aaa; }
+.article-chart .chart-row-value { color: #e0e0e0; font-weight: 600; }
+.article-chart .chart-timeline { position: relative; padding-left: 20px; border-left: 2px solid #333; }
+.article-chart .chart-timeline-item { position: relative; margin-bottom: 16px; padding-left: 16px; }
+.article-chart .chart-timeline-item::before { content: ''; position: absolute; left: -27px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: #4a9eff; border: 2px solid #0a0a0a; }
+.article-chart .chart-timeline-item.highlight::before { background: #ff6b6b; }
+.article-chart .chart-timeline-date { font-size: 12px; color: #666; margin-bottom: 2px; }
+.article-chart .chart-timeline-text { font-size: 13px; color: #ccc; }
+.article-chart .chart-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.article-chart .chart-compare-box { background: #1a1a1a; border-radius: 8px; padding: 16px; }
+.article-chart .chart-compare-label { font-size: 12px; color: #666; margin-bottom: 8px; }
+.article-chart .chart-compare-value { font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+.article-chart .chart-compare-note { font-size: 11px; color: #888; }
+
+/* Discussions section */
+.article-discussions {
+  margin-top: 28px;
+  background: var(--bg-alt);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.discuss-heading {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--text-3);
+  margin-bottom: 16px;
+}
+
+.article-discussions ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+.article-discussions li {
+  margin-bottom: 16px;
+  color: var(--text-2);
+  padding: 14px 16px;
+  background: var(--surface);
+  border-radius: 8px;
+  border-left: 3px solid var(--border);
+}
+.article-discussions li:last-child { margin-bottom: 0; }
+
+.article-discussions li[data-stance="official"],
+.article-discussions li:has(.discuss-tag--official) {
+  border-left-color: #2d6a4f;
+}
+.article-discussions li[data-stance="industry"],
+.article-discussions li:has(.discuss-tag--industry) {
+  border-left-color: #2a6f8a;
+}
+.article-discussions li[data-stance="skeptic"],
+.article-discussions li:has(.discuss-tag--skeptic) {
+  border-left-color: #c0392b;
+}
+.article-discussions li[data-stance="community"],
+.article-discussions li:has(.discuss-tag--community) {
+  border-left-color: #b8860b;
+}
+
+.discuss-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background: var(--border);
+  color: var(--text-2);
+}
+
+.discuss-tag--official {
+  background: #e8f5ee;
+  color: #2d6a4f;
+}
+.discuss-tag--industry {
+  background: #e8f4f8;
+  color: #2a6f8a;
+}
+.discuss-tag--skeptic {
+  background: #fce8e8;
+  color: #c0392b;
+}
+.discuss-tag--community {
+  background: #fef3e2;
+  color: #b8860b;
+}
+[data-theme="dark"] .discuss-tag--official { background: #1a2e22; color: #5fbf8a; }
+[data-theme="dark"] .discuss-tag--industry { background: #1a2e35; color: #5fb8d4; }
+[data-theme="dark"] .discuss-tag--skeptic { background: #2e1a1a; color: #d47070; }
+[data-theme="dark"] .discuss-tag--community { background: #2e2510; color: #e8b84a; }
+
+.discuss-author {
+  font-weight: 600;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.article-discussions a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.article-discussions a:hover { border-bottom-color: var(--link); }
+
+/* ===== Loading & Empty ===== */
+.loading {
+  text-align: center;
+  padding: 80px 24px;
+  color: var(--text-3);
+}
+.spinner {
+  width: 24px; height: 24px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  margin: 0 auto 12px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.empty {
+  text-align: center;
+  padding: 60px 24px;
+  color: var(--text-3);
+  font-size: 14px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  body { font-size: 17px; }
+  .card { padding: 16px; }
+  .card-title { font-size: 18px; }
+  .article-title { font-size: 24px; }
+  .article-body { font-size: 17px; }
+  .date-divider { top: 93px; }
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="nav-brand" onclick="goHome()">AutoFarm</a>
+    <div class="nav-actions">
+      <button class="nav-btn" id="themeBtn" onclick="toggleTheme()" title="切換深色模式">
+        <svg id="iconSun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        <svg id="iconMoon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Filter bar -->
+<div class="filter-bar">
+  <div class="filter-scroll" id="filterBar"></div>
+</div>
+
+<!-- Update bar -->
+<div class="update-bar" id="updateBar">
+  <span class="update-time" id="updateTime"></span>
+</div>
+
+<!-- Feed -->
+<div class="feed" id="feed">
+  <div class="loading"><div class="spinner"></div>載入中⋯</div>
+</div>
+
+<!-- Article overlay -->
+<div class="overlay" id="overlay">
+  <div class="overlay-bar">
+    <div class="overlay-bar-inner">
+      <button class="close-btn" onclick="closeArticle()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        返回
+      </button>
+      <div class="overlay-nav">
+        <button id="prevBtn" onclick="navArticle(-1)" title="上一篇">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button id="nextBtn" onclick="navArticle(1)" title="下一篇">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="article" id="articleContent"></div>
+</div>
+
+<script>
+// ===== State =====
+let feed = { items: [] };
+let filtered = [];
+let activeTag = 'all';
+let currentIdx = -1;
+let scrollPos = 0;
+
+// ===== Tag mapping =====
+const TAG_STYLES = {
+  'DeFi': { color: 'var(--tag-defi)', bg: 'var(--tag-defi-bg)' },
+  'defi': { color: 'var(--tag-defi)', bg: 'var(--tag-defi-bg)' },
+  'Crypto': { color: 'var(--tag-crypto)', bg: 'var(--tag-crypto-bg)' },
+  'crypto': { color: 'var(--tag-crypto)', bg: 'var(--tag-crypto-bg)' },
+  'Solana': { color: 'var(--tag-crypto)', bg: 'var(--tag-crypto-bg)' },
+  'Bitcoin': { color: 'var(--tag-crypto)', bg: 'var(--tag-crypto-bg)' },
+  '穩定幣': { color: 'var(--tag-crypto)', bg: 'var(--tag-crypto-bg)' },
+  '機構基建': { color: 'var(--tag-crypto)', bg: 'var(--tag-crypto-bg)' },
+  'AI': { color: 'var(--tag-ai)', bg: 'var(--tag-ai-bg)' },
+  '政策法案': { color: 'var(--tag-policy)', bg: 'var(--tag-policy-bg)' },
+  '政策': { color: 'var(--tag-policy)', bg: 'var(--tag-policy-bg)' },
+  '監管': { color: 'var(--tag-policy)', bg: 'var(--tag-policy-bg)' },
+  'TradFi': { color: 'var(--tag-market)', bg: 'var(--tag-market-bg)' },
+  '融資': { color: 'var(--tag-market)', bg: 'var(--tag-market-bg)' },
+  '市場': { color: 'var(--tag-market)', bg: 'var(--tag-market-bg)' },
+  '法律': { color: 'var(--tag-legal)', bg: 'var(--tag-legal-bg)' },
+};
+
+function getTagStyle(tag) {
+  return TAG_STYLES[tag] || { color: 'var(--tag-default)', bg: 'var(--tag-default-bg)' };
+}
+
+
+// ===== Init =====
+document.addEventListener('DOMContentLoaded', init);
+
+async function init() {
+  // Theme
+  const dark = localStorage.getItem('af-theme') === 'dark' ||
+    (!localStorage.getItem('af-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  if (dark) applyTheme(true);
+
+  // Load feed: try fetch first (works on server), fall back to script tag (works with file://)
+  try {
+    if (window.FEED_DATA) {
+      feed = window.FEED_DATA;
+    } else {
+      const r = await fetch('feed.json?t=' + Date.now());
+      feed = await r.json();
+    }
+    feed.items.forEach((item, i) => item._idx = i);
+    buildFilters();
+    applyFilter();
+    showUpdateTime();
+  } catch (e) {
+    // fetch failed (likely file:// protocol) — try loading via script tag
+    if (!window.FEED_DATA) {
+      const s = document.createElement('script');
+      s.src = 'feed.js';
+      s.onload = () => {
+        if (window.FEED_DATA) {
+          feed = window.FEED_DATA;
+          feed.items.forEach((item, i) => item._idx = i);
+          buildFilters();
+          applyFilter();
+          showUpdateTime();
+        }
+      };
+      s.onerror = () => {
+        document.getElementById('feed').innerHTML = '<div class="empty">無法載入新聞</div>';
+      };
+      document.head.appendChild(s);
+    }
+  }
+
+  // Hash
+  if (location.hash.startsWith('#article-')) {
+    const idx = parseInt(location.hash.replace('#article-', ''));
+    if (!isNaN(idx)) openArticle(idx);
+  }
+}
+
+// ===== Filters =====
+function buildFilters() {
+  // Collect all tags
+  const tagCount = {};
+  feed.items.forEach(item => {
+    (item.tags || []).forEach(t => {
+      tagCount[t] = (tagCount[t] || 0) + 1;
+    });
+  });
+
+  // Group similar tags
+  const groupMap = {
+    'DeFi': 'DeFi', 'defi': 'DeFi',
+    'Crypto': 'Crypto', 'crypto': 'Crypto', 'Solana': 'Crypto', 'Bitcoin': 'Crypto', '穩定幣': 'Crypto', '機構基建': 'Crypto',
+    'AI': 'AI',
+    '政策法案': '政策', '政策': '政策', '監管': '政策',
+    'TradFi': '市場', '融資': '市場', '市場': '市場',
+  };
+
+  const groupCount = {};
+  feed.items.forEach(item => {
+    const groups = new Set();
+    (item.tags || []).forEach(t => {
+      const g = groupMap[t] || t;
+      groups.add(g);
+    });
+    groups.forEach(g => { groupCount[g] = (groupCount[g] || 0) + 1; });
+  });
+
+  // Store group map for filtering
+  window._groupMap = groupMap;
+  window._groups = Object.entries(groupCount)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 6);
+
+  const bar = document.getElementById('filterBar');
+  let html = `<button class="chip active" data-tag="all" onclick="setFilter('all')">全部 <span style="opacity:0.5">${feed.items.length}</span></button>`;
+
+  window._groups.forEach(([group, count]) => {
+    html += `<button class="chip" data-tag="${esc(group)}" onclick="setFilter('${esc(group)}')">${esc(group)} <span style="opacity:0.5">${count}</span></button>`;
+  });
+
+  bar.innerHTML = html;
+}
+
+function setFilter(tag) {
+  activeTag = tag;
+  document.querySelectorAll('.chip').forEach(c => {
+    c.classList.toggle('active', c.dataset.tag === tag);
+  });
+  applyFilter();
+}
+
+function applyFilter() {
+  if (activeTag === 'all') {
+    filtered = [...feed.items];
+  } else {
+    filtered = feed.items.filter(item => {
+      return (item.tags || []).some(t => {
+        const g = (window._groupMap || {})[t] || t;
+        return g === activeTag;
+      });
+    });
+  }
+  renderFeed();
+}
+
+// ===== Render Feed =====
+function renderFeed() {
+  const container = document.getElementById('feed');
+  if (filtered.length === 0) {
+    container.innerHTML = '<div class="empty">沒有符合的新聞</div>';
+    return;
+  }
+
+  // Group by date
+  const groups = {};
+  filtered.forEach(item => {
+    const d = item.date || 'unknown';
+    if (!groups[d]) groups[d] = [];
+    groups[d].push(item);
+  });
+
+  const dates = Object.keys(groups).sort().reverse();
+  let html = '';
+
+  dates.forEach(date => {
+    const weekday = getWeekday(date);
+    const relative = getRelativeDate(date);
+    const label = relative ? `${relative}　${date} ${weekday}` : `${date}　${weekday}`;
+    html += `<div class="date-divider">${label}</div>`;
+
+    groups[date].forEach(item => {
+      const tagsHtml = (item.tags || []).map(t => {
+        const s = getTagStyle(t);
+        return `<span class="tag" style="background:${s.bg};color:${s.color}">${esc(t)}</span>`;
+      }).join('');
+
+      // Extract first paragraph as excerpt
+      const excerptMatch = item.summary ? item.summary.match(/<p>(.*?)<\/p>/) : null;
+      const excerpt = excerptMatch
+        ? excerptMatch[1].replace(/<[^>]+>/g, '').slice(0, 100)
+        : '';
+
+      const sourcesHtml = (item.sources || []).slice(0, 3)
+        .map(s => esc(s.name)).join('　');
+
+      html += `
+        <div class="card" onclick="openArticle(${item._idx})">
+          <div class="card-tags">${tagsHtml}</div>
+          <div class="card-title">${esc(item.title)}</div>
+          ${excerpt ? `<div class="card-excerpt">${esc(excerpt)}</div>` : ''}
+          <div class="card-footer">
+            <span class="card-sources">${sourcesHtml}</span>
+          </div>
+        </div>`;
+    });
+  });
+
+  container.innerHTML = html;
+}
+
+// ===== Article Detail =====
+function openArticle(idx) {
+  const item = feed.items[idx];
+  if (!item) return;
+  currentIdx = idx;
+  scrollPos = window.scrollY;
+
+  // Build article HTML
+  const tagsHtml = (item.tags || []).map(t => {
+    const s = getTagStyle(t);
+    return `<span class="tag" style="background:${s.bg};color:${s.color}">${esc(t)}</span>`;
+  }).join('');
+
+  const sourcesHtml = (item.sources || [])
+    .map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`)
+    .join('　｜　');
+
+  let html = `
+    <div class="article-tags">${tagsHtml}</div>
+    <h1 class="article-title">
+      ${item.url ? `<a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a>` : esc(item.title)}
+    </h1>
+    <div class="article-meta">
+      ${item.date}　｜　來源：${sourcesHtml}
+    </div>
+    <div class="article-body">${item.summary || ''}</div>
+  `;
+
+  if (item.chart) {
+    html += `<div class="article-chart">${item.chart}</div>`;
+  }
+
+  if (item.discussions) {
+    // Clean up discussions - remove the outer wrapper if it has story-discuss class
+    let disc = item.discussions;
+    disc = disc.replace('class="story-discuss"', 'class="article-discussions-inner"');
+    disc = disc.replace('<span class="discuss-title">社群討論</span>', '');
+
+    // Enhance discuss-tag with stance-based styling
+    const stanceMap = {
+      '官方聲明': 'official', '官方': 'official', '項目方': 'official', '創辦人': 'official',
+      '產業觀點': 'industry', '產業': 'industry', '分析師': 'industry', '業界': 'industry', '機構': 'industry',
+      '質疑聲音': 'skeptic', '質疑': 'skeptic', '批評': 'skeptic', '反對': 'skeptic', '不同角度': 'skeptic', '風險提醒': 'skeptic',
+      '社群反應': 'community', '社群': 'community', '用戶': 'community', '使用者': 'community', '開發者': 'community',
+    };
+    disc = disc.replace(/class="discuss-tag">([^<]+)<\/span>/g, (match, text) => {
+      const trimmed = text.trim();
+      let cls = 'discuss-tag';
+      for (const [keyword, stance] of Object.entries(stanceMap)) {
+        if (trimmed.includes(keyword)) {
+          cls = `discuss-tag discuss-tag--${stance}`;
+          break;
+        }
+      }
+      return `class="${cls}">${trimmed}</span>`;
+    });
+
+    html += `
+      <div class="article-discussions">
+        <div class="discuss-heading">社群討論</div>
+        ${disc}
+      </div>`;
+  }
+
+  document.getElementById('articleContent').innerHTML = html;
+
+  // Nav buttons
+  const inFiltered = filtered.findIndex(f => f._idx === idx);
+  document.getElementById('prevBtn').disabled = inFiltered <= 0;
+  document.getElementById('nextBtn').disabled = inFiltered >= filtered.length - 1;
+
+  // Show overlay
+  const overlay = document.getElementById('overlay');
+  overlay.classList.add('open');
+  overlay.scrollTop = 0;
+  document.body.style.overflow = 'hidden';
+
+  history.pushState({ idx }, '', '#article-' + idx);
+}
+
+function closeArticle() {
+  document.getElementById('overlay').classList.remove('open');
+  document.body.style.overflow = '';
+  currentIdx = -1;
+  history.pushState(null, '', location.pathname);
+  requestAnimationFrame(() => window.scrollTo(0, scrollPos));
+}
+
+function navArticle(dir) {
+  const inFiltered = filtered.findIndex(f => f._idx === currentIdx);
+  const next = inFiltered + dir;
+  if (next >= 0 && next < filtered.length) {
+    openArticle(filtered[next]._idx);
+    document.getElementById('overlay').scrollTop = 0;
+  }
+}
+
+// ===== Theme =====
+function toggleTheme() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  applyTheme(!isDark);
+  localStorage.setItem('af-theme', isDark ? 'light' : 'dark');
+}
+
+function applyTheme(dark) {
+  document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  document.getElementById('iconSun').style.display = dark ? 'none' : 'block';
+  document.getElementById('iconMoon').style.display = dark ? 'block' : 'none';
+  document.querySelector('meta[name="theme-color"]').content = dark ? '#0f0f0f' : '#faf9f6';
+}
+
+// ===== Keyboard =====
+document.addEventListener('keydown', e => {
+  if (currentIdx >= 0) {
+    if (e.key === 'Escape') closeArticle();
+    if (e.key === 'j' || e.key === 'J') navArticle(1);
+    if (e.key === 'k' || e.key === 'K') navArticle(-1);
+  }
+});
+
+window.addEventListener('popstate', e => {
+  if (e.state && typeof e.state.idx === 'number') {
+    openArticle(e.state.idx);
+  } else if (currentIdx >= 0) {
+    closeArticle();
+  }
+});
+
+// ===== Helpers =====
+function showUpdateTime() {
+  const el = document.getElementById('updateTime');
+  if (feed.lastUpdated) {
+    const d = new Date(feed.lastUpdated);
+    const now = new Date();
+    const diffH = Math.floor((now - d) / 3600000);
+    let label = '';
+    if (diffH < 1) label = '剛剛更新';
+    else if (diffH < 24) label = `${diffH} 小時前更新`;
+    else label = `${Math.floor(diffH / 24)} 天前更新`;
+    el.innerHTML = `<span class="update-dot"></span>${label}`;
+  }
+}
+
+function getWeekday(dateStr) {
+  try {
+    const d = new Date(dateStr + 'T00:00:00');
+    return ['日', '一', '二', '三', '四', '五', '六'][d.getDay()];
+  } catch { return ''; }
+}
+
+function getRelativeDate(dateStr) {
+  try {
+    const d = new Date(dateStr + 'T00:00:00');
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const diff = Math.floor((today - d) / 86400000);
+    if (diff === 0) return '今天';
+    if (diff === 1) return '昨天';
+    if (diff === 2) return '前天';
+    return '';
+  } catch { return ''; }
+}
+
+function esc(str) {
+  if (!str) return '';
+  const d = document.createElement('div');
+  d.textContent = str;
+  return d.innerHTML;
+}
+</script>
+
+</body>
+</html>

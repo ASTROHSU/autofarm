@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日摘要 2026-03-31</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8f6f1;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #1a1a1a;
+      --tag-bg: #f0ede6;
+      --tag-text: #5a5040;
+      --border: #e8e3d8;
+      --link: #2d6a4f;
+      --crypto-tag: #1a3a6b;
+      --crypto-bg: #e8f0fc;
+      --ai-tag: #3d1a6b;
+      --ai-bg: #f0e8fc;
+      --legal-tag: #6b1a1a;
+      --legal-bg: #fce8e8;
+      --market-tag: #1a5a3a;
+      --market-bg: #e8faf0;
+      --defi-tag: #6b4a1a;
+      --defi-bg: #fcf0e8;
+      --privacy-tag: #1a6b5a;
+      --privacy-bg: #e8fcf5;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 17px;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .site-header {
+      margin-bottom: 48px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--text);
+    }
+
+    .site-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 14px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .digest-headline {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+
+    .digest-meta {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .digest-intro {
+      margin-top: 16px;
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .story {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 32px;
+      margin-bottom: 28px;
+    }
+
+    .story-tags {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .tag {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .tag-crypto { background: var(--crypto-bg); color: var(--crypto-tag); }
+    .tag-ai { background: var(--ai-bg); color: var(--ai-tag); }
+    .tag-legal { background: var(--legal-bg); color: var(--legal-tag); }
+    .tag-market { background: var(--market-bg); color: var(--market-tag); }
+    .tag-defi { background: var(--defi-bg); color: var(--defi-tag); }
+    .tag-privacy { background: var(--privacy-bg); color: var(--privacy-tag); }
+
+    .story-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+
+    .story-title a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .story-title a:hover {
+      border-bottom-color: var(--text);
+    }
+
+    .story-source {
+      margin-bottom: 16px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .story-source a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--muted);
+    }
+
+    .story-source a:hover {
+      color: var(--link);
+      border-bottom-color: var(--link);
+    }
+
+    .story-body p {
+      margin-bottom: 12px;
+      text-align: justify;
+    }
+
+    .story-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    details {
+      margin-top: 20px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--muted);
+      padding: 6px 0;
+    }
+
+    .chart-wrap {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: -apple-system, 'Noto Sans TC', sans-serif;
+      max-width: 800px;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 12px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .chart-wrap .chart-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: #ffffff;
+    }
+
+    .chart-wrap .chart-source {
+      font-size: 11px;
+      color: #666;
+      margin-top: 16px;
+      text-align: right;
+    }
+
+    .chart-bar-group {
+      margin-bottom: 12px;
+    }
+
+    .chart-bar-label {
+      font-size: 13px;
+      margin-bottom: 4px;
+      color: #aaa;
+    }
+
+    .chart-bar-track {
+      background: #1a1a1a;
+      border-radius: 4px;
+      height: 28px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .chart-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      padding-left: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .chart-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #1a1a1a;
+      font-size: 13px;
+    }
+
+    .chart-row:last-child {
+      border-bottom: none;
+    }
+
+    .chart-row-label {
+      color: #aaa;
+    }
+
+    .chart-row-value {
+      color: #e0e0e0;
+      font-weight: 600;
+    }
+
+    .story-discuss {
+      margin-top: 20px;
+      padding: 16px 20px;
+      background: var(--tag-bg);
+      border-radius: 6px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .discuss-title {
+      font-weight: 500;
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+      letter-spacing: 1px;
+      color: var(--tag-text);
+    }
+
+    .story-discuss ol {
+      padding-left: 20px;
+    }
+
+    .story-discuss li {
+      margin-bottom: 8px;
+    }
+
+    .story-discuss li:last-child {
+      margin-bottom: 0;
+    }
+
+    .story-discuss a {
+      color: var(--link);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .story-discuss a:hover {
+      border-bottom-color: var(--link);
+    }
+
+    .page-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .page-wrap { padding: 24px 16px 48px; }
+      .digest-headline { font-size: 22px; }
+      .story { padding: 20px; }
+      .story-title { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <div class="site-title">每日摘要</div>
+      <h1 class="digest-headline">2026 年 3 月 31 日，週二</h1>
+      <div class="digest-meta">
+        <span>4 則摘要</span>
+        <span>來源：Gmail 電子報 / YouTube / 固定追蹤網站</span>
+      </div>
+      <p class="digest-intro">Google 與以太坊基金會聯手揭露量子威脅的新時間表，Aave 在 EthCC 上發布第四代借貸架構，Tether 的美國合規穩定幣首度離開以太坊，Aztec 則推出以太坊上第一個隱私 L2。四件事分屬不同領域，但都在回答同一個問題：基礎設施升級的速度，跟不跟得上市場的期待？</p>
+    </header>
+
+    <!-- Story 1: Google 量子論文 -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-crypto">加密安全</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/" target="_blank" rel="noopener">Google 量子論文：破解比特幣加密所需算力降 20 倍，2029 年是死線</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/" target="_blank" rel="noopener">Google Research</a>｜<a href="https://www.bloomberg.com/news/articles/2026-03-31/google-paper-warns-crypto-on-quantum-risk-ahead-of-2029-timeline" target="_blank" rel="noopener">Bloomberg</a>｜<a href="https://www.theblock.co/post/395814/google-quantum-computing-earlier" target="_blank" rel="noopener">The Block</a>｜<a href="https://www.coindesk.com/tech/2026/03/31/bitcoin-bulls-scramble-for-post-quantum-protection-as-google-drops-bombshell-paper" target="_blank" rel="noopener">CoinDesk</a></div>
+      <div class="story-body">
+        <p>過去業界普遍認為，量子電腦要破解比特幣和以太坊使用的橢圓曲線加密（ECDSA-256），至少需要 1,000 萬顆物理量子位元，離現實還有幾十年。Google Quantum AI 團隊 3 月 31 日發表的論文把這個數字壓到 50 萬顆以下——縮減了 20 倍。這篇論文與以太坊基金會、Coinbase、史丹佛區塊鏈研究所共同合作，並採用零知識證明來驗證研究成果，避免攻擊手法外洩。</p>
+        <p>目前鏈上約有 690 萬顆比特幣的公鑰已經暴露，其中包括中本聰持有的早期錢包（P2PK 格式），價值超過 700 億美元。這些錢包無法透過軟體升級修復，除非持有人主動把幣轉到抗量子錢包。比特幣安全研究者 Jameson Lopp 已提出草案，建議在過渡期後凍結這類脆弱錢包。Google 內部路線圖把 2029 年列為全面遷移至後量子密碼學的期限。</p>
+      </div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">量子威脅時間表：從「遙遠」到「可見」</div>
+          <div style="margin-bottom: 16px;">
+            <div style="font-size: 13px; color: #aaa; margin-bottom: 8px;">破解 ECDSA-256 所需物理量子位元</div>
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">舊估算（2024 年前共識）</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 100%; background: #555;">1,000 萬顆</div></div>
+            </div>
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">Google 新論文（2026.03.31）</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 5%; background: #e05252; min-width: 100px;">< 50 萬顆</div></div>
+            </div>
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">Google Willow 晶片（現有）</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 1%; background: #4a9; min-width: 80px;">105 顆</div></div>
+            </div>
+          </div>
+          <div style="padding-top: 12px; border-top: 1px solid #1a1a1a;">
+            <div style="font-size: 13px; color: #aaa; margin-bottom: 8px;">已暴露公鑰的比特幣</div>
+            <div class="chart-row">
+              <span class="chart-row-label">暴露數量</span>
+              <span class="chart-row-value">690 萬 BTC</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">預估價值（以 $68,000 計）</span>
+              <span class="chart-row-value">約 4,700 億美元</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">中本聰錢包（P2PK 格式）</span>
+              <span class="chart-row-value">約 100 萬 BTC / $700 億+</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Google 遷移死線</span>
+              <span class="chart-row-value">2029 年</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Google Quantum AI / Project Eleven / Arkham / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <div class="discuss-title">相關討論</div>
+        <ol>
+          <li><span style="font-weight:500;">官方聲明</span>｜Google Quantum AI 研究總監 Ryan Babbush 與副總裁 Hartmut Neven 在<a href="https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/" target="_blank" rel="noopener">官方部落格</a>表示，團隊採用零知識證明驗證研究成果，「在不暴露攻擊細節的前提下，證明漏洞確實存在」。</li>
+          <li><span style="font-weight:500;">產業觀點</span>｜<a href="https://www.coindesk.com/tech/2026/03/31/bitcoin-bulls-scramble-for-post-quantum-protection-as-google-drops-bombshell-paper" target="_blank" rel="noopener">CoinDesk</a> 報導，比特幣安全研究者 Jameson Lopp 已提出草案，建議在寬限期後凍結使用脆弱格式的錢包，但這挑戰了「私鑰等於所有權」的核心原則。</li>
+          <li><span style="font-weight:500;">反面觀點</span>｜<a href="https://thedefiant.io/news/research-and-opinion/google-quantum-ai-paper-rewrites-threat-timeline-for-bitcoin-ethereum-security" target="_blank" rel="noopener">The Defiant</a> 指出，Ethereum、Algorand、Solana 都已在測試後量子密碼學，威脅是真實的但不是迫在眉睫——目前沒有任何量子電腦能執行這類攻擊。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 2: Aave V4 上線 -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-defi">DeFi</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.theblock.co/post/395617/aave-v4-launches-ethereum-mainnet" target="_blank" rel="noopener">Aave V4 搬上以太坊主網，「軸輻式」架構讓借貸市場可以拆開來組</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.theblock.co/post/395617/aave-v4-launches-ethereum-mainnet" target="_blank" rel="noopener">The Block</a>｜<a href="https://www.dlnews.com/articles/defi/aave-launches-v4-on-ethereum/" target="_blank" rel="noopener">DL News</a>｜<a href="https://bankless.ghost.io/r/f7ee1bc2" target="_blank" rel="noopener">Bankless</a></div>
+      <div class="story-body">
+        <p>Aave V3 的設計是「一家銀行服務所有人」：每條鏈上只有一個共用資金池，所有資產共享風險。V4 在 EthCC 上宣布後正式部署到以太坊主網，改用「軸輻式」（hub-and-spoke）架構。Hub 是共用的流動性層，Spoke 是獨立的借貸環境，各自設定抵押品類型、風險參數和清算規則。首批上線三個 Hub（Core、Prime、Plus），已有 Lido、EtherFi、Kelp、Ethena、Lombard 五個 Spoke 接入。</p>
+        <p>開發超過兩年，上線初期規模不大：活躍借款 107 萬美元，總存款 475 萬美元。不過 Aave Labs 執行長 Stani Kulechov 對 The Block 說，V4 目前由 DAO 治理，「但未來有能力實現完全無許可的市場創建」。這個架構的意義在於：新建的借貸市場不必從零開始吸引資金，而是直接接入 Aave 的共用流動性。V3 和 V4 平行運作、互不影響。</p>
+      </div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">Aave V3 vs V4 架構比較</div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+            <div style="background: #1a1a1a; border-radius: 8px; padding: 16px;">
+              <div style="font-size: 13px; color: #e05252; margin-bottom: 8px; font-weight: 600;">V3（現有）</div>
+              <div style="font-size: 12px; color: #aaa; line-height: 1.6;">
+                每條鏈一個資金池<br>
+                所有資產共享風險<br>
+                新增抵押品需 DAO 投票<br>
+                無法隔離風險
+              </div>
+            </div>
+            <div style="background: #1a1a1a; border-radius: 8px; padding: 16px;">
+              <div style="font-size: 13px; color: #4a9; margin-bottom: 8px; font-weight: 600;">V4（新上線）</div>
+              <div style="font-size: 12px; color: #aaa; line-height: 1.6;">
+                多個 Hub 共用流動性<br>
+                Spoke 各自隔離風險<br>
+                模組化、可擴充<br>
+                未來可無許可創建市場
+              </div>
+            </div>
+          </div>
+          <div style="padding-top: 12px; border-top: 1px solid #1a1a1a;">
+            <div style="font-size: 13px; color: #aaa; margin-bottom: 8px;">V4 上線資料（首日）</div>
+            <div class="chart-row">
+              <span class="chart-row-label">活躍借款</span>
+              <span class="chart-row-value">$107 萬</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">總存款</span>
+              <span class="chart-row-value">$475 萬</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">首批 Hub</span>
+              <span class="chart-row-value">Core / Prime / Plus</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">首批 Spoke 合作方</span>
+              <span class="chart-row-value">Lido / EtherFi / Kelp / Ethena / Lombard</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Aave / The Block / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <div class="discuss-title">相關討論</div>
+        <ol>
+          <li><span style="font-weight:500;">官方聲明</span>｜Aave Labs 執行長 Stani Kulechov 在<a href="https://www.dlnews.com/articles/defi/aave-launches-v4-on-ethereum/" target="_blank" rel="noopener">DL News</a> 訪談中表示：「V4 和 V3 最大的差別是架構完全模組化」，未來可以支援「非傳統資產」的借貸，包括資料。</li>
+          <li><span style="font-weight:500;">媒體分析</span>｜<a href="https://www.theblock.co/post/395617/aave-v4-launches-ethereum-mainnet" target="_blank" rel="noopener">The Block</a> 指出，V4 面臨冷啟動問題——新市場不會自動吸引存款。加上近幾個月幾個關鍵社群管理團隊退出，治理層面的不確定性仍高。</li>
+          <li><span style="font-weight:500;">治理爭議</span>｜<a href="https://bankless.ghost.io/r/4a4df5c4" target="_blank" rel="noopener">Bankless</a> 3 月初報導 Aave DAO 內部爆發「內戰」，幾個主要委任團隊因治理方向分歧而離開，V4 的無許可願景能否上線，取決於 DAO 能否先穩住自己。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 3: Tether USAT 擴展到 Celo -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-crypto">穩定幣</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://decrypt.co/362941/tethers-usat-stablecoin-expands-ethereum-mainnet-celo" target="_blank" rel="noopener">Tether 合規穩定幣 USAT 首度離開以太坊，落腳 Celo</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://tether.io/news/tether-announces-the-launch-of-usat-the-federally-regulated-dollar-backed-stablecoin-made-in-america/" target="_blank" rel="noopener">Tether 官方公告</a>｜<a href="https://decrypt.co/362941/tethers-usat-stablecoin-expands-ethereum-mainnet-celo" target="_blank" rel="noopener">Decrypt</a>｜<a href="https://cryptobriefing.com/usa-token-expansion-to-celo/" target="_blank" rel="noopener">Crypto Briefing</a></div>
+      <div class="story-body">
+        <p>Tether 今年 1 月推出的 USAT，是專為美國市場設計、符合 GENIUS Act 的穩定幣，由聯邦監管的 Anchorage Digital Bank 發行，儲備放在 Cantor Fitzgerald 的短天期美國公債。上線兩個月只在以太坊主網運作。3 月 31 日 USAT 宣布擴展至 Celo 網路，這是它第一次登上以太坊以外的區塊鏈。</p>
+        <p>Celo 在 2024 年從獨立 L1 遷移成以太坊 L2，主打低手續費與行動支付場景。USAT 到 Celo 後可以直接當作 gas 費用，Google Cloud 提供基礎設施支援。這個擴展的脈絡是：Tether 已有全球最大穩定幣 USDT，但 USDT 不符合美國監管框架。USAT 是 Tether 在美國市場與 Circle 的 USDC 正面競爭的產品，選擇 Celo 而非 Solana 或 Arbitrum 作為第一個擴展目標，顯示 Tether 優先瞄準新興市場的支付需求。</p>
+      </div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">Tether 穩定幣版圖：USDT vs USAT</div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+            <div style="background: #1a1a1a; border-radius: 8px; padding: 16px;">
+              <div style="font-size: 13px; color: #6c8ebf; margin-bottom: 8px; font-weight: 600;">USDT（全球版）</div>
+              <div style="font-size: 12px; color: #aaa; line-height: 1.6;">
+                市值約 1,400 億美元<br>
+                部署在 10+ 條鏈<br>
+                不符 GENIUS Act<br>
+                Tether 自行發行
+              </div>
+            </div>
+            <div style="background: #1a1a1a; border-radius: 8px; padding: 16px;">
+              <div style="font-size: 13px; color: #4a9; margin-bottom: 8px; font-weight: 600;">USAT（美國合規版）</div>
+              <div style="font-size: 12px; color: #aaa; line-height: 1.6;">
+                2026 年 1 月上線<br>
+                Anchorage Digital Bank 發行<br>
+                符合 GENIUS Act<br>
+                儲備：短天期美國公債
+              </div>
+            </div>
+          </div>
+          <div style="padding-top: 12px; border-top: 1px solid #1a1a1a;">
+            <div style="font-size: 13px; color: #aaa; margin-bottom: 8px;">USAT 擴展路徑</div>
+            <div class="chart-row">
+              <span class="chart-row-label">2026 年 1 月</span>
+              <span class="chart-row-value">以太坊主網上線</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">2026 年 3 月 31 日</span>
+              <span class="chart-row-value">擴展至 Celo（首個非以太坊部署）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">基礎設施支援</span>
+              <span class="chart-row-value">Google Cloud</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Celo 上可作為 gas 費用</span>
+              <span class="chart-row-value">是</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Tether / Decrypt / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <div class="discuss-title">相關討論</div>
+        <ol>
+          <li><span style="font-weight:500;">官方聲明</span>｜<a href="https://tether.io/news/tether-announces-the-launch-of-usat-the-federally-regulated-dollar-backed-stablecoin-made-in-america/" target="_blank" rel="noopener">Tether 官方</a>稱 USAT 是「美國製造的聯邦監管穩定幣」，強調由 Anchorage Digital Bank 發行，儲備交由 Cantor Fitzgerald 託管。</li>
+          <li><span style="font-weight:500;">媒體報導</span>｜<a href="https://en.cryptonomist.ch/2026/03/31/usa-tether-stablecoin-celo-cloud/" target="_blank" rel="noopener">Cryptonomist</a> 指出 Google Cloud 提供基礎設施支援，USAT 在 Celo 上可直接用來支付 gas 費用，降低使用門檻。</li>
+          <li><span style="font-weight:500;">競爭脈絡</span>｜<a href="https://www.coindesk.com/business/2026/01/27/tether-debuts-federally-regulated-usat-stablecoin-via-anchorage-digital" target="_blank" rel="noopener">CoinDesk</a> 1 月的報導分析，USAT 是 Tether 在美國市場正面挑戰 Circle USDC 的產品。Tether 過去因審計透明度被詬病，USAT 改由聯邦監管銀行發行是直接回應這些批評。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 4: Aztec 隱私 L2 -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-privacy">隱私</span>
+        <span class="tag tag-crypto">L2</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://thedefiant.io/news/blockchains/aztec-launches-alpha-network-ethereum-s-first-l2-for-private-smart-contracts" target="_blank" rel="noopener">以太坊首個隱私 L2 上線：Aztec 開放 Alpha 測試網</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://thedefiant.io/news/blockchains/aztec-launches-alpha-network-ethereum-s-first-l2-for-private-smart-contracts" target="_blank" rel="noopener">The Defiant</a>｜<a href="https://aztec.network/" target="_blank" rel="noopener">Aztec 官網</a></div>
+      <div class="story-body">
+        <p>以太坊上的交易預設全部公開，這讓許多需要保密的商業應用（薪資發放、供應鏈結算、合規交易）難以直接上鏈。Aztec 推出 Alpha 測試網，是以太坊上第一個原生支援隱私智慧合約的 L2。它用零知識證明同時處理三個層次的隱私：資料隱私（交易內容）、身分隱私（選擇性揭露）和計算隱私（鏈上操作不可見）。</p>
+        <p>不過 Aztec 3 月 27 日揭露了目前 Alpha v4 版本的一個重大漏洞，影響證明系統，理論上可能導致使用者資金被盜。修補版本（v5）預計 7 月才會上線。團隊警告 Alpha 是實驗性軟體，使用者不應存入超過可承受損失的金額。Aztec 的前身是以太坊上的隱私交易協議 Aztec Connect，2023 年關閉後團隊花了兩年多重建整套架構。</p>
+      </div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">Aztec 隱私 L2 三層架構</div>
+          <div style="margin-bottom: 16px;">
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">資料隱私（Private Data）</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 100%; background: linear-gradient(90deg, #4a6fa5, #6c8ebf);">交易金額、餘額、轉帳對象不公開</div></div>
+            </div>
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">身分隱私（Private Identity）</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 100%; background: linear-gradient(90deg, #4a9a7a, #6bc4a0);">選擇性揭露，可合規回報</div></div>
+            </div>
+            <div class="chart-bar-group">
+              <div class="chart-bar-label">計算隱私（Private Compute）</div>
+              <div class="chart-bar-track"><div class="chart-bar-fill" style="width: 100%; background: linear-gradient(90deg, #9a6bb5, #b88fd0);">鏈上邏輯執行過程不可見</div></div>
+            </div>
+          </div>
+          <div style="padding-top: 12px; border-top: 1px solid #1a1a1a;">
+            <div style="font-size: 13px; color: #aaa; margin-bottom: 8px;">關鍵時間軸</div>
+            <div class="chart-row">
+              <span class="chart-row-label">2023 年</span>
+              <span class="chart-row-value">Aztec Connect 關閉，團隊重建架構</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">2025 年 11 月</span>
+              <span class="chart-row-value">Ignition Chain 上線（協調層）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">2026 年 3 月</span>
+              <span class="chart-row-value">Alpha 測試網上線（含已知重大漏洞）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">2026 年 7 月（預計）</span>
+              <span class="chart-row-value">v5 修補版本上線</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Aztec / The Defiant / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <div class="discuss-title">相關討論</div>
+        <ol>
+          <li><span style="font-weight:500;">官方聲明</span>｜<a href="https://aztec.network/" target="_blank" rel="noopener">Aztec 官方</a>稱 Alpha 是「以太坊上第一個去中心化、保護隱私的 L2」，升級經過社群治理投票一致通過。</li>
+          <li><span style="font-weight:500;">安全警告</span>｜<a href="https://thedefiant.io/news/blockchains/aztec-launches-alpha-network-ethereum-s-first-l2-for-private-smart-contracts" target="_blank" rel="noopener">The Defiant</a> 報導，Aztec 團隊主動揭露 Alpha v4 的重大漏洞，影響證明系統，修補版要等到 7 月。這種透明度在業界不常見，但也意味著目前不適合存入大筆資金。</li>
+          <li><span style="font-weight:500;">產業背景</span>｜Canton Network 與公鏈陣營近日爆發激烈辯論，Canton 主張零知識證明「有 bug 風險不適合金融」。<a href="https://x.com/gluk64/status/2037613072521842734" target="_blank" rel="noopener">ZKsync 創辦人 Alex Gluchowski</a> 反駁：如果「可能有 bug」就排除一項技術，那沒有任何技術能通過這個標準。</li>
+        </ol>
+      </div>
+    </article>
+
+    <footer class="page-footer">
+      <p>每日摘要 · 2026-03-31 · 自動生成，供個人閱讀參考，不構成投資建議</p>
+    </footer>
+
+  </div>
+</body>
+</html>

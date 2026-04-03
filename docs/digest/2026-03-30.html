@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日摘要 2026-03-30</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8f6f1;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #1a1a1a;
+      --tag-bg: #f0ede6;
+      --tag-text: #5a5040;
+      --border: #e8e3d8;
+      --link: #2d6a4f;
+      --crypto-tag: #1a3a6b;
+      --crypto-bg: #e8f0fc;
+      --ai-tag: #3d1a6b;
+      --ai-bg: #f0e8fc;
+      --legal-tag: #6b1a1a;
+      --legal-bg: #fce8e8;
+      --market-tag: #1a5a3a;
+      --market-bg: #e8faf0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 17px;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .site-header {
+      margin-bottom: 48px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--text);
+    }
+
+    .site-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 14px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .digest-headline {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+
+    .digest-meta {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      gap: 16px;
+    }
+
+    .digest-intro {
+      font-size: 16px;
+      color: var(--muted);
+      margin-top: 16px;
+      line-height: 1.8;
+    }
+
+    .story {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 32px;
+      margin-bottom: 28px;
+    }
+
+    .story-tags {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .tag {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .tag-crypto { background: var(--crypto-bg); color: var(--crypto-tag); }
+    .tag-ai { background: var(--ai-bg); color: var(--ai-tag); }
+    .tag-legal { background: var(--legal-bg); color: var(--legal-tag); }
+    .tag-market { background: var(--market-bg); color: var(--market-tag); }
+
+    .story-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .story-title a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .story-title a:hover {
+      border-bottom-color: var(--text);
+    }
+
+    .story-body p {
+      margin-bottom: 12px;
+      text-align: justify;
+    }
+
+    .story-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .related {
+      margin-top: 20px;
+      padding: 16px 20px;
+      background: var(--tag-bg);
+      border-radius: 6px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .related-label {
+      font-weight: 500;
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+      letter-spacing: 1px;
+      color: var(--tag-text);
+    }
+
+    .related a {
+      color: var(--link);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .related a:hover {
+      border-bottom-color: var(--link);
+    }
+
+    .story-source {
+      margin-top: 16px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .story-source a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--muted);
+    }
+
+    .story-source a:hover {
+      color: var(--link);
+      border-bottom-color: var(--link);
+    }
+
+    details {
+      margin-top: 16px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--muted);
+      padding: 8px 0;
+    }
+
+    .chart-wrap {
+      margin-top: 12px;
+    }
+
+    .page-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .page-wrap { padding: 24px 16px 48px; }
+      .digest-headline { font-size: 22px; }
+      .story { padding: 20px; }
+      .story-title { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <div class="site-title">每日摘要</div>
+      <h1 class="digest-headline">2026 年 3 月 30 日（一）</h1>
+      <div class="digest-meta">
+        <span>3 則摘要</span>
+        <span>來源：X · Gmail 電子報 · 固定追蹤網站</span>
+      </div>
+      <p class="digest-intro">私募信貸的流動性問題正在蔓延，EthCC 在坎城開幕，而加密貨幣市場等待報稅日這個隱形催化劑。三件事指向同一個方向：傳統金融的裂縫，正在成為鏈上金融的機會。</p>
+    </header>
+
+    <!-- Story 1: Apollo 私募信貸贖回限制 -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-market">總經</span>
+        <span class="tag tag-crypto">DeFi</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.bloomberg.com/news/articles/2026-03-23/apollo-caps-private-credit-fund-withdrawals-as-requests-hit-11" target="_blank" rel="noopener">Apollo 限制贖回只付 45 美分，私募信貸的「流動性假象」破裂</a>
+      </h2>
+      <div class="story-body">
+        <p>Apollo、Blue Owl、Ares 這幾家機構管理的私募信貸基金，過去幾年是華爾街最熱門的資產類別之一。賣點是「像存款一樣穩定、比公債報酬高」。不過私募信貸有個結構性問題：底層資產是企業貸款，流動性遠不如公債，基金卻向投資人承諾每季可贖回。當贖回潮一來，這個承諾就會打折。Apollo 的 $250 億旗艦基金 ADS 就是最新的案例。</p>
+        <p>今年第一季 ADS 收到 11.2% 的贖回請求，超過 $15 億美元要出場。Apollo 啟動合約中的 5% 季度上限，只兌付了 $7.3 億——等於投資人每要求贖回 1 美元，只拿回 45 美分。全產業情況類似：貝萊德、摩根士丹利、高盛旗下的私募信貸基金，Q1 合計收到超過 $100 億贖回請求，只兌付了約七成。高盛分析師預測，未來兩年零售端私募信貸可能流失 $450 億到 $700 億資產。違約率已升至 5.8%，其中兩到三成的曝險集中在 SaaS 公司——AI 正在侵蝕這些借款企業的護城河。</p>
+      </div>
+
+      <details>
+        <summary>📊 展開圖表：私募信貸贖回潮</summary>
+        <div class="chart-wrap">
+          <div style="background:#0a0a0a;color:#e0e0e0;max-width:800px;border-radius:12px;padding:24px;font-family:-apple-system,'Noto Sans TC',sans-serif;">
+            <div style="font-size:16px;font-weight:600;margin-bottom:4px;">2026 Q1 主要私募信貸基金贖回情況</div>
+            <div style="font-size:12px;color:#888;margin-bottom:20px;">投資人要求贖回 vs 實際兌付金額（億美元）</div>
+            <div style="display:flex;flex-direction:column;gap:16px;">
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;"><span>Apollo ADS</span><span>$15 億 → 兌付 $7.3 億（45%）</span></div>
+                <div style="background:#222;border-radius:4px;height:24px;position:relative;">
+                  <div style="background:#c0392b;width:100%;height:100%;border-radius:4px;position:absolute;opacity:0.3;"></div>
+                  <div style="background:#c0392b;width:45%;height:100%;border-radius:4px;"></div>
+                </div>
+              </div>
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;"><span>全產業合計</span><span>$101 億 → 兌付 ~$70 億（~70%）</span></div>
+                <div style="background:#222;border-radius:4px;height:24px;position:relative;">
+                  <div style="background:#e67e22;width:100%;height:100%;border-radius:4px;position:absolute;opacity:0.3;"></div>
+                  <div style="background:#e67e22;width:70%;height:100%;border-radius:4px;"></div>
+                </div>
+              </div>
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;"><span>Blue Owl OBDC II</span><span>永久關閉贖回（200% 贖回暴增）</span></div>
+                <div style="background:#222;border-radius:4px;height:24px;position:relative;">
+                  <div style="background:#8e44ad;width:100%;height:100%;border-radius:4px;opacity:0.5;"></div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top:16px;padding-top:12px;border-top:1px solid #333;display:flex;justify-content:space-between;font-size:12px;color:#888;">
+              <span>違約率 5.8%（近年新高）</span>
+              <span>高盛預估兩年流失 $450-700 億</span>
+            </div>
+            <div style="text-align:right;font-size:11px;color:#666;margin-top:12px;">資料來源：Bloomberg · CNBC / 區塊勢整理</div>
+          </div>
+        </div>
+      </details>
+
+      <div class="related">
+        <span class="related-label">相關討論</span>
+        <a href="https://x.com/elerianm/status/2036190523862470967" target="_blank" rel="noopener">Mohamed El-Erian</a>（Allianz 首席經濟顧問）轉發 Bloomberg 報導，指出 Apollo 啟動贖回限制在私募信貸業界具有指標意義。<br><br>
+        <a href="https://x.com/zerohedge/status/2034396964020744701" target="_blank" rel="noopener">ZeroHedge</a>：私募信貸恐慌蔓延，消費貸款基金限制投資人出場，JPMorgan 撤回交易，Apollo 部分資產回收率僅 20 美分。<br><br>
+        <a href="https://x.com/StaniKulechov/status/2030611384581423574" target="_blank" rel="noopener">Stani Kulechov</a>（Aave 創辦人）：私募信貸的處境很奇怪——低利率理論上該刺激借貸，高利率則壓縮需求，但現在兩邊的問題同時出現了。
+      </div>
+      <div class="story-source">來源：<a href="https://www.bloomberg.com/news/articles/2026-03-23/apollo-caps-private-credit-fund-withdrawals-as-requests-hit-11" target="_blank" rel="noopener">Bloomberg</a> · <a href="https://www.cnbc.com/2026/03/23/apollo-private-credit-fund-gives-investors-only-45percent-of-requested-withdrawals.html" target="_blank" rel="noopener">CNBC</a> · <a href="https://mrcrypto.milkroad.com/p/software-is-a-dead-asset" target="_blank" rel="noopener">Milk Road</a></div>
+    </article>
+
+    <!-- Story 2: EthCC 坎城開幕 -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-crypto">以太坊</span>
+        <span class="tag tag-market">產業</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://ethcc.io" target="_blank" rel="noopener">EthCC 今日坎城開幕，以太坊走進「機構化」新階段</a>
+      </h2>
+      <div class="story-body">
+        <p>EthCC 是歐洲最大的以太坊年度會議，去年吸引 6,500 人參加，Robinhood 和 Vitalik Buterin 都選在這裡做重大宣布。今年第九屆搬進坎城影展的主場地——節慶宮（Palais des Festivals），規格再升一級。不過真正值得注意的不是場地，而是今年多了一個叫 The Agora 的新區塊，專門給機構投資人討論鏈上金融。</p>
+        <p>Ethereum France 創辦人 Jerome de Tychey 說，2026 年是以太坊「專業化元年」。支撐這個說法的事實包括：Fusaka 升級預計四月上線、每日活躍地址持續上升、JP Morgan 等銀行已在用以太坊做結算。講者名單裡有 Aave 的 Stani Kulechov、法國興業銀行數位資產子公司 SG-Forge 的執行長 Jean-Marc Stenger，以及 Vitalik Buterin。會議從今天持續到 4 月 2 日。</p>
+      </div>
+
+      <details>
+        <summary>📊 展開圖表：EthCC 歷年規模</summary>
+        <div class="chart-wrap">
+          <div style="background:#0a0a0a;color:#e0e0e0;max-width:800px;border-radius:12px;padding:24px;font-family:-apple-system,'Noto Sans TC',sans-serif;">
+            <div style="font-size:16px;font-weight:600;margin-bottom:4px;">EthCC 歷年參與人數與場地升級</div>
+            <div style="font-size:12px;color:#888;margin-bottom:20px;">從巴黎大學到坎城影展主場地</div>
+            <div style="display:flex;align-items:flex-end;gap:12px;height:140px;padding-bottom:24px;border-bottom:1px solid #333;">
+              <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;">
+                <div style="font-size:11px;margin-bottom:4px;">800</div>
+                <div style="background:#2d6a4f;width:100%;height:15px;border-radius:3px 3px 0 0;"></div>
+                <div style="font-size:10px;color:#888;margin-top:4px;">2019</div>
+              </div>
+              <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;">
+                <div style="font-size:11px;margin-bottom:4px;">2,000</div>
+                <div style="background:#2d6a4f;width:100%;height:38px;border-radius:3px 3px 0 0;"></div>
+                <div style="font-size:10px;color:#888;margin-top:4px;">2022</div>
+              </div>
+              <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;">
+                <div style="font-size:11px;margin-bottom:4px;">4,000</div>
+                <div style="background:#2d6a4f;width:100%;height:75px;border-radius:3px 3px 0 0;"></div>
+                <div style="font-size:10px;color:#888;margin-top:4px;">2024</div>
+              </div>
+              <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;">
+                <div style="font-size:11px;margin-bottom:4px;">6,500</div>
+                <div style="background:#2d6a4f;width:100%;height:100px;border-radius:3px 3px 0 0;"></div>
+                <div style="font-size:10px;color:#888;margin-top:4px;">2025</div>
+              </div>
+              <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;">
+                <div style="font-size:11px;margin-bottom:4px;">7,000+</div>
+                <div style="background:#e67e22;width:100%;height:120px;border-radius:3px 3px 0 0;"></div>
+                <div style="font-size:10px;color:#888;margin-top:4px;">2026</div>
+              </div>
+            </div>
+            <div style="margin-top:12px;font-size:12px;color:#888;">新增 The Agora 機構專區 · 400+ 講者 · 首度進駐坎城節慶宮</div>
+            <div style="text-align:right;font-size:11px;color:#666;margin-top:12px;">資料來源：EthCC · The Defiant / 區塊勢整理</div>
+          </div>
+        </div>
+      </details>
+
+      <div class="related">
+        <span class="related-label">相關討論</span>
+        <a href="https://x.com/EthCC/status/2031380076651044903" target="_blank" rel="noopener">EthCC 官方</a>：「坎城一直是大創意和創意舞台的故鄉。現在，這裡也是以太坊未來的建造地。」<br><br>
+        <a href="https://monacolife.net/ethereum-at-a-crossroads-vitalik-buterin-steers-ethcc-cannes-toward-real-decentralisation/" target="_blank" rel="noopener">Monaco Life</a> 報導 Vitalik Buterin 將在 EthCC 闡述「真正的去中心化」路線圖，指出以太坊正站在十字路口。<br><br>
+        相關：<a href="https://www.dlnews.com/articles/people-culture/ethcc-touts-tight-security-ahead-of-vitalik-buterin-arrival/" target="_blank" rel="noopener">DL News</a> 報導 EthCC 為 Vitalik 的安全防護規格比照坎城影展明星，反映加密產業人身安全議題升溫。
+      </div>
+      <div class="story-source">來源：<a href="https://ethcc.io" target="_blank" rel="noopener">EthCC</a> · <a href="https://thedefiant.io/news/event/europe-s-biggest-ethereum-conference-returns-to-cannes-with-emphasis-on-institutional" target="_blank" rel="noopener">The Defiant</a> · <a href="https://monacolife.net/ethereum-at-a-crossroads-vitalik-buterin-steers-ethcc-cannes-toward-real-decentralisation/" target="_blank" rel="noopener">Monaco Life</a></div>
+    </article>
+
+    <!-- Story 3: 報稅日催化劑 -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-crypto">比特幣</span>
+        <span class="tag tag-market">市場分析</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.theblock.co/post/390837/the-optimistic-case-for-crypto-in-2026-with-bitwise-cio-matt-hougan" target="_blank" rel="noopener">Bitwise：4 月 15 日報稅截止後，加密貨幣的賣壓才會真正消失</a>
+      </h2>
+      <div class="story-body">
+        <p>比特幣目前在 $66,000 附近震盪，恐懼與貪婪指數跌到 9——接近歷史最低。市場上有各種解釋：伊朗局勢、私募信貸風暴、全球風險資產拋售。不過 Bitwise 投資長 Matt Hougan 指出一個被忽略的因素：美國報稅日。2025 年初的川普迷因幣暴漲和選後大漲，讓投資人帳面上有可觀的資本利得稅要繳。4 月 15 日是報稅截止日，這些人正在賣幣籌錢繳稅。</p>
+        <p>Hougan 的觀察是：加密貨幣歷史上經常在報稅日前走弱、報稅日後反彈。今年的稅務賣壓特別重，因為 2025 年的獲利特別高。一旦 4/15 過後賣壓消失，搭配 CLARITY Act 可能在年中通過、以及中東局勢若降溫，就是反彈的窗口。Bitwise 分析師仍預期比特幣先到 $80,000 的機率高於跌到 $60,000。22V Research 的 Jordy Visser 則從更宏觀的角度補充：七大科技股的成長敘事正在被 AI 瓦解，退休基金仍需要報酬，比特幣是下一個選項。</p>
+      </div>
+
+      <details>
+        <summary>📊 展開圖表：報稅日效應與市場情緒</summary>
+        <div class="chart-wrap">
+          <div style="background:#0a0a0a;color:#e0e0e0;max-width:800px;border-radius:12px;padding:24px;font-family:-apple-system,'Noto Sans TC',sans-serif;">
+            <div style="font-size:16px;font-weight:600;margin-bottom:4px;">2026 Q1 加密市場情緒時間軸</div>
+            <div style="font-size:12px;color:#888;margin-bottom:20px;">恐懼與貪婪指數 · 關鍵事件標記</div>
+            <div style="position:relative;height:80px;margin-bottom:8px;">
+              <div style="position:absolute;left:0;right:0;top:50%;height:2px;background:#333;"></div>
+              <div style="position:absolute;left:5%;top:10px;text-align:center;">
+                <div style="width:10px;height:10px;background:#27ae60;border-radius:50%;margin:0 auto;"></div>
+                <div style="font-size:10px;color:#888;margin-top:4px;">1月<br>指數 65</div>
+              </div>
+              <div style="position:absolute;left:30%;top:10px;text-align:center;">
+                <div style="width:10px;height:10px;background:#e67e22;border-radius:50%;margin:0 auto;"></div>
+                <div style="font-size:10px;color:#888;margin-top:4px;">2月<br>指數 30</div>
+              </div>
+              <div style="position:absolute;left:55%;top:2px;text-align:center;">
+                <div style="width:14px;height:14px;background:#c0392b;border-radius:50%;margin:0 auto;border:2px solid #e74c3c;"></div>
+                <div style="font-size:10px;color:#e74c3c;margin-top:4px;font-weight:600;">3/30<br>指數 9</div>
+              </div>
+              <div style="position:absolute;left:75%;top:10px;text-align:center;">
+                <div style="width:10px;height:10px;background:#f39c12;border-radius:50%;margin:0 auto;border:2px dashed #f39c12;"></div>
+                <div style="font-size:10px;color:#f39c12;margin-top:4px;">4/15<br>報稅日</div>
+              </div>
+              <div style="position:absolute;left:92%;top:10px;text-align:center;">
+                <div style="width:10px;height:10px;background:#27ae60;border-radius:50%;margin:0 auto;border:2px dashed #27ae60;"></div>
+                <div style="font-size:10px;color:#27ae60;margin-top:4px;">反彈?</div>
+              </div>
+            </div>
+            <div style="margin-top:20px;display:flex;gap:16px;font-size:12px;">
+              <div style="flex:1;padding:10px;background:#1a1a2e;border-radius:6px;">
+                <div style="color:#c0392b;font-weight:600;">BTC $66K</div>
+                <div style="color:#888;">Fear & Greed: 9</div>
+              </div>
+              <div style="flex:1;padding:10px;background:#1a1a2e;border-radius:6px;">
+                <div style="color:#f39c12;font-weight:600;">Bitwise 預測</div>
+                <div style="color:#888;">先到 $80K > $60K</div>
+              </div>
+              <div style="flex:1;padding:10px;background:#1a1a2e;border-radius:6px;">
+                <div style="color:#27ae60;font-weight:600;">催化劑</div>
+                <div style="color:#888;">報稅日 + CLARITY</div>
+              </div>
+            </div>
+            <div style="text-align:right;font-size:11px;color:#666;margin-top:12px;">資料來源：Bitwise · Milk Road · Blockchain Magazine / 區塊勢整理</div>
+          </div>
+        </div>
+      </details>
+
+      <div class="related">
+        <span class="related-label">相關討論</span>
+        <a href="https://www.theblock.co/post/390837/the-optimistic-case-for-crypto-in-2026-with-bitwise-cio-matt-hougan" target="_blank" rel="noopener">The Block</a>：Hougan 受訪時表示，加密貨幣的早期漲勢若要延續，需要三個條件——避免重大爆雷、美國立法推進、股市穩定。<br><br>
+        <a href="https://www.benzinga.com/crypto/cryptocurrency/26/03/51518339/bitcoin-next-stop-80k-or-60k-bitwise-analysts-just-made-their-bet" target="_blank" rel="noopener">Benzinga</a>：Bitwise 兩位分析師（Hougan 與 Rasmussen）均認為，從目前價位來看，漲到 $80,000 的阻力比跌到 $60,000 還小。<br><br>
+        <a href="https://x.com/Matt_Hougan/status/2018695396386570257" target="_blank" rel="noopener">Matt Hougan</a>（@Matt_Hougan）二月在 X 上直言「加密寒冬從 2025 年一月就開始了」，指出大盤幣跌一到兩成、中小幣跌四到七成，目前正處於出清尾端。
+      </div>
+      <div class="story-source">來源：<a href="https://www.theblock.co/post/390837/the-optimistic-case-for-crypto-in-2026-with-bitwise-cio-matt-hougan" target="_blank" rel="noopener">The Block</a> · <a href="https://mrcrypto.milkroad.com/p/software-is-a-dead-asset" target="_blank" rel="noopener">Milk Road</a> · <a href="https://blockchainmagazine.net/crypto-market-today-2026-03-29/" target="_blank" rel="noopener">Blockchain Magazine</a></div>
+    </article>
+
+    <footer class="page-footer">
+      每日摘要 · 2026-03-30 · 自動生成，供個人閱讀參考，不構成投資建議
+    </footer>
+
+  </div>
+</body>
+</html>
