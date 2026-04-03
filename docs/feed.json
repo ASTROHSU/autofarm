@@ -1,6 +1,93 @@
 {
-  "lastUpdated": "2026-04-03T15:45:28+08:00",
+  "lastUpdated": "2026-04-03T16:18:01.475582+08:00",
   "items": [
+    {
+      "id": "2026-04-03-OpenAI-收購-TBPN-科技脫口秀",
+      "title": "OpenAI 收購矽谷科技脫口秀 TBPN，花數億美元買下自己的媒體話語權",
+      "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "媒體"
+      ],
+      "date": "2026-04-03",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/Jordi_Hays_and_John_Coogan_on_set_2_1.webp?resize=1200,675",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5"
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/4fe4972a-3d24-45be-b9fa-a429c432b08e"
+        }
+      ],
+      "summary": "<p>TBPN 是一檔每天在 YouTube 和 X 直播 3 小時的矽谷科技脫口秀，由 John Coogan 和 Jordi Hays 主持。節目去年 10 月才開播，今年營收預估超過 3,000 萬美元，Mark Zuckerberg、Satya Nadella 等科技 CEO 都上過節目。OpenAI 以「數億美元」收購這個 11 人團隊。</p><p>OpenAI 說 TBPN 會保有編輯獨立性，但節目將納入 OpenAI 策略部門、向公共事務長 Chris Lehane 報告。批評者質疑：一家 AI 公司買下專門報導 AI 的節目，「編輯獨立」能維持多久？</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-title' style='color:#1a1a1a'>TBPN 快速崛起</div><div class='chart-timeline' style='background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px'><div style='display:flex;justify-content:space-between;margin-bottom:10px'><span style='color:#1a1a1a;font-size:13px'>2024 年 10 月</span><span style='color:#666;font-size:12px'>開播，每天直播 3 小時</span></div><div style='display:flex;justify-content:space-between;margin-bottom:10px'><span style='color:#1a1a1a;font-size:13px'>2025 年</span><span style='color:#666;font-size:12px'>Zuckerberg、Nadella 等 CEO 上節目</span></div><div style='display:flex;justify-content:space-between;margin-bottom:10px'><span style='color:#1a1a1a;font-size:13px'>2026 年預估</span><span style='color:#666;font-size:12px'>營收 $3,000 萬+</span></div><div style='display:flex;justify-content:space-between;border-top:2px solid #10a37f;padding-top:10px'><span style='color:#1a1a1a;font-size:13px;font-weight:600'>2026 年 4 月</span><span style='color:#10a37f;font-size:12px;font-weight:600'>被 OpenAI 以數億美元收購</span></div></div><div class='chart-source' style='color:#999;font-size:11px;margin-top:6px'>資料來源：WSJ、Financial Times</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span> TBPN 節目不變，每天太平洋時間 11 點照常直播，這對我來說是完整的一圈——Sam Altman 2013 年就投資過我的第一家公司 — <a href='https://x.com/johncoogan/status/2039756493621542915'>@johncoogan</a></li><li><span class='discuss-tag'>質疑聲音</span> 一家 AI 公司買下專門報導 AI 的節目，Zuckerberg 還會想上嗎？TBPN 實質上失去了獨立性 — <a href='https://x.com/neilcybart/status/2039770096759910749'>@neilcybart</a></li><li><span class='discuss-tag'>產業觀點</span> TBPN 只有 5.8 萬 YouTube 訂閱，卻能請到所有頂級 CEO，這說明矽谷圈子有多小 — <a href='https://x.com/The_AI_Investor/status/2039782893892039080'>@The_AI_Investor</a></li><li><span class='discuss-tag'>社群反應</span> 花數億美元買一個脫口秀？這些錢能買不少 GPU — <a href='https://x.com/negligible_cap/status/2039789750895223023'>@negligible_cap</a></li></ol></div>"
+    },
+    {
+      "id": "2026-04-03-Microsoft-推出自研-MAI-模型系列",
+      "title": "Microsoft「超級智慧團隊」推出 3 款自研 MAI 模型，語音轉文字速度是 Azure 的 2.5 倍",
+      "url": "https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/",
+      "tags": [
+        "AI",
+        "Microsoft",
+        "模型"
+      ],
+      "date": "2026-04-03",
+      "image": "https://microsoft.ai/wp-content/uploads/2026/04/social02.jpg",
+      "sources": [
+        {
+          "name": "Microsoft AI",
+          "url": "https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/"
+        },
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/technology/microsoft-launches-3-new-ai-models-in-direct-shot-at-openai-and-google"
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/e511dfce-555d-4bce-90fd-d09db7529d96"
+        }
+      ],
+      "summary": "<p>Microsoft 去年 11 月成立、由 Mustafa Suleyman 領軍的「超級智慧團隊」交出第一批成果：MAI-Transcribe-1 語音轉文字、MAI-Voice-1 語音生成、MAI-Image-2 圖片生成，三款模型全部透過 Foundry 平台對外開放。其中 MAI-Transcribe-1 在 25 種語言的平均錯誤率僅 3.8%，速度是 Azure 現有方案的 2.5 倍。</p><p>Suleyman 在 Financial Times 專訪中直言 Microsoft 要追求 AI「完全自主」，減少對 OpenAI 的依賴。這是 Microsoft 修改 OpenAI 合作條款後的第一個具體動作：自己的模型、自己的晶片（Maia 200）、自己的平台。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-title' style='color:#1a1a1a'>Microsoft MAI 模型一覽</div><div class='chart-row' style='background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid #eee'><span style='color:#1a1a1a;font-size:13px'>MAI-Transcribe-1</span><span style='color:#666;font-size:12px'>語音轉文字</span><span style='color:#0078d4;font-size:12px'>$0.36/hr</span></div><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid #eee'><span style='color:#1a1a1a;font-size:13px'>MAI-Voice-1</span><span style='color:#666;font-size:12px'>語音生成</span><span style='color:#0078d4;font-size:12px'>$22/1M 字元</span></div><div style='display:flex;justify-content:space-between;align-items:center'><span style='color:#1a1a1a;font-size:13px'>MAI-Image-2</span><span style='color:#666;font-size:12px'>圖片生成</span><span style='color:#0078d4;font-size:12px'>$5–$33/1M token</span></div></div><div class='chart-source' style='color:#999;font-size:11px;margin-top:6px'>資料來源：Microsoft AI、VentureBeat</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span> 超級智慧團隊將率先使用 Maia 200 晶片開發前沿模型，我們有宏大的願景 — <a href='https://x.com/mustafasuleyman/status/2015825111769841744'>@mustafasuleyman</a></li><li><span class='discuss-tag'>產業觀點</span> Microsoft 追求 AI 自主是修改 OpenAI 合約後的必然，自己做模型才能掌控成本和產品路線 — <a href='https://x.com/Techmeme/status/2021826501440848011'>@Techmeme</a></li><li><span class='discuss-tag'>不同角度</span> Suleyman 說 Microsoft 目前還無法訓練最大規模的模型，但算力正在到位——這是承認還是預告？ — <a href='https://x.com/mustafasuleyman/status/1961112411294822694'>@mustafasuleyman</a></li></ol></div>"
+    },
+    {
+      "id": "2026-04-03-Cursor-3-推出代理優先程式編輯器",
+      "title": "Cursor 3 推出「代理優先」介面，讓多個 AI 代理同時幫你寫程式",
+      "url": "https://siliconangle.com/2026/04/02/cursor-refreshes-vibe-coding-platform-focus-ai-agents/",
+      "tags": [
+        "AI",
+        "開發工具",
+        "Cursor"
+      ],
+      "date": "2026-04-03",
+      "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/04/Cursor.png",
+      "sources": [
+        {
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/04/02/cursor-refreshes-vibe-coding-platform-focus-ai-agents/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/cusor-launches-coding-agent-openai-anthropic/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/"
+        }
+      ],
+      "summary": "<p>Cursor 代號「Glass」的新產品正式亮相：Cursor 3 把介面從傳統程式編輯器翻成「代理優先」設計，開發者用自然語言描述需求，多個 AI 代理就能在雲端和本機同時執行任務，完成後還會自動生成 demo 影片。這是 Cursor 回應 Anthropic Claude Code 和 OpenAI Codex 的直接競爭之作。</p><p>Cursor 目前的代理使用者數已是 Tab 自動補全使用者的 2 倍（一年內翻轉），35% 的內部 PR 由自主代理建立。Cursor 也開始訓練自研模型，減少對第三方模型的依賴。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-title' style='color:#1a1a1a'>Cursor 使用模式轉變</div><div class='chart-compare' style='background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px'><div style='margin-bottom:12px'><div style='display:flex;justify-content:space-between;margin-bottom:4px'><span style='color:#1a1a1a;font-size:13px'>AI 代理使用者</span><span style='color:#1a1a1a;font-size:13px;font-weight:600'>2x</span></div><div style='background:#e0e0e0;border-radius:4px;height:20px'><div style='background:#6366f1;border-radius:4px;height:20px;width:67%'></div></div></div><div style='margin-bottom:12px'><div style='display:flex;justify-content:space-between;margin-bottom:4px'><span style='color:#1a1a1a;font-size:13px'>Tab 自動補全使用者</span><span style='color:#666;font-size:13px'>1x</span></div><div style='background:#e0e0e0;border-radius:4px;height:20px'><div style='background:#a5b4fc;border-radius:4px;height:20px;width:33%'></div></div></div><div style='border-top:1px solid #eee;padding-top:8px;color:#666;font-size:12px'>35% 的 Cursor 內部 PR 由自主代理建立</div></div><div class='chart-source' style='color:#999;font-size:11px;margin-top:6px'>資料來源：Cursor 官方資料</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span> Cursor 3 更簡潔、更強大，專為所有程式碼都由代理撰寫的世界設計 — <a href='https://x.com/cursor_ai/status/2039768512894505086'>@cursor_ai</a></li><li><span class='discuss-tag'>產業觀點</span> 從 Opus 4.5 開始我主要用代理寫程式，但一直沒找到滿意的介面——Cursor 3 重新設計了這個體驗 — <a href='https://x.com/leerob/status/2039771986180649010'>@leerob</a></li><li><span class='discuss-tag'>社群反應</span> Grind 模式太誇張了，我的團隊有一個代理連續跑了 7 小時還成功完成任務 — <a href='https://x.com/MatthewBerman/status/2026441599773978959'>@MatthewBerman</a></li></ol></div>"
+    },
     {
       "id": "2026-04-03-Google-Gemma-4-開源模型首度採用-Apache-2-0-授權",
       "title": "Google 發布 Gemma 4 開源模型，首度採用 Apache 2.0 授權，瞄準邊緣裝置 AI",
