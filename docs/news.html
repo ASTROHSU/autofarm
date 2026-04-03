@@ -231,12 +231,40 @@ body {
   cursor: pointer;
   transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
   position: relative;
-  padding: 20px 24px;
+  overflow: hidden;
 }
 .card:hover {
   box-shadow: var(--card-shadow-hover);
   border-color: var(--border);
   transform: translateY(-1px);
+}
+
+.card-cover {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.card-cover-icon {
+  font-size: 48px;
+  opacity: 0.25;
+  position: absolute;
+  right: 24px;
+  bottom: 16px;
+}
+.card-cover-pattern {
+  position: absolute;
+  inset: 0;
+  opacity: 0.06;
+  background-image: radial-gradient(circle at 20% 80%, currentColor 1px, transparent 1px),
+    radial-gradient(circle at 80% 20%, currentColor 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.card-body {
+  padding: 20px 24px;
 }
 .card:active { transform: translateY(0); }
 
@@ -615,6 +643,7 @@ body {
   body { font-size: 17px; }
   .card { padding: 16px; }
   .card-title { font-size: 18px; }
+  .card-cover { height: 140px; }
   .article-title { font-size: 24px; }
   .article-body { font-size: 17px; }
   .date-divider { top: 93px; }
@@ -709,6 +738,56 @@ function getTagStyle(tag) {
   return TAG_STYLES[tag] || { color: 'var(--tag-default)', bg: 'var(--tag-default-bg)' };
 }
 
+// Cover gradients & icons per tag category
+const COVER_THEMES = {
+  'DeFi':   { gradient: 'linear-gradient(135deg, #b8860b22 0%, #fef3e2 100%)', icon: '⛓' },
+  'defi':   { gradient: 'linear-gradient(135deg, #b8860b22 0%, #fef3e2 100%)', icon: '⛓' },
+  'Crypto': { gradient: 'linear-gradient(135deg, #2a6f8a22 0%, #e8f4f8 100%)', icon: '₿' },
+  'crypto': { gradient: 'linear-gradient(135deg, #2a6f8a22 0%, #e8f4f8 100%)', icon: '₿' },
+  'Solana': { gradient: 'linear-gradient(135deg, #9945FF22 0%, #e8f4f8 100%)', icon: '◎' },
+  'Bitcoin': { gradient: 'linear-gradient(135deg, #f7931a22 0%, #fff5e6 100%)', icon: '₿' },
+  '穩定幣': { gradient: 'linear-gradient(135deg, #2a6f8a22 0%, #e8f4f8 100%)', icon: '$' },
+  '機構基建': { gradient: 'linear-gradient(135deg, #2a6f8a22 0%, #e8f4f8 100%)', icon: '🏛' },
+  'AI':     { gradient: 'linear-gradient(135deg, #7b4f9d22 0%, #f0e6f6 100%)', icon: '🤖' },
+  '政策法案': { gradient: 'linear-gradient(135deg, #1a4a6b22 0%, #e8f4fc 100%)', icon: '📋' },
+  '政策':   { gradient: 'linear-gradient(135deg, #1a4a6b22 0%, #e8f4fc 100%)', icon: '📋' },
+  '監管':   { gradient: 'linear-gradient(135deg, #1a4a6b22 0%, #e8f4fc 100%)', icon: '⚖' },
+  'TradFi': { gradient: 'linear-gradient(135deg, #2d6a4f22 0%, #e8f5ee 100%)', icon: '🏦' },
+  '融資':   { gradient: 'linear-gradient(135deg, #2d6a4f22 0%, #e8f5ee 100%)', icon: '💰' },
+  '市場':   { gradient: 'linear-gradient(135deg, #2d6a4f22 0%, #e8f5ee 100%)', icon: '📈' },
+  '法律':   { gradient: 'linear-gradient(135deg, #8b3a3a22 0%, #fce8e8 100%)', icon: '⚖' },
+};
+const COVER_THEMES_DARK = {
+  'DeFi':   { gradient: 'linear-gradient(135deg, #2e2510 0%, #1a1608 100%)' },
+  'defi':   { gradient: 'linear-gradient(135deg, #2e2510 0%, #1a1608 100%)' },
+  'Crypto': { gradient: 'linear-gradient(135deg, #1a2e35 0%, #0f1a1f 100%)' },
+  'crypto': { gradient: 'linear-gradient(135deg, #1a2e35 0%, #0f1a1f 100%)' },
+  'Solana': { gradient: 'linear-gradient(135deg, #1a1535 0%, #0f0a1f 100%)' },
+  'Bitcoin': { gradient: 'linear-gradient(135deg, #2e2010 0%, #1a1408 100%)' },
+  '穩定幣': { gradient: 'linear-gradient(135deg, #1a2e35 0%, #0f1a1f 100%)' },
+  '機構基建': { gradient: 'linear-gradient(135deg, #1a2e35 0%, #0f1a1f 100%)' },
+  'AI':     { gradient: 'linear-gradient(135deg, #251a2e 0%, #15101a 100%)' },
+  '政策法案': { gradient: 'linear-gradient(135deg, #1a2535 0%, #0f151f 100%)' },
+  '政策':   { gradient: 'linear-gradient(135deg, #1a2535 0%, #0f151f 100%)' },
+  '監管':   { gradient: 'linear-gradient(135deg, #1a2535 0%, #0f151f 100%)' },
+  'TradFi': { gradient: 'linear-gradient(135deg, #1a2e22 0%, #0f1a14 100%)' },
+  '融資':   { gradient: 'linear-gradient(135deg, #1a2e22 0%, #0f1a14 100%)' },
+  '市場':   { gradient: 'linear-gradient(135deg, #1a2e22 0%, #0f1a14 100%)' },
+  '法律':   { gradient: 'linear-gradient(135deg, #2e1a1a 0%, #1a0f0f 100%)' },
+};
+const DEFAULT_COVER = { gradient: 'linear-gradient(135deg, #66666622 0%, #f0f0f0 100%)', icon: '📰' };
+const DEFAULT_COVER_DARK = { gradient: 'linear-gradient(135deg, #252525 0%, #151515 100%)' };
+
+function getCoverTheme(tags) {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const firstTag = (tags || [])[0] || '';
+  const light = COVER_THEMES[firstTag] || DEFAULT_COVER;
+  if (isDark) {
+    const dark = COVER_THEMES_DARK[firstTag] || DEFAULT_COVER_DARK;
+    return { gradient: dark.gradient, icon: light.icon };
+  }
+  return light;
+}
 
 // ===== Init =====
 document.addEventListener('DOMContentLoaded', init);
@@ -866,13 +945,21 @@ function renderFeed() {
       const sourcesHtml = (item.sources || []).slice(0, 3)
         .map(s => esc(s.name)).join('　');
 
+      const cover = getCoverTheme(item.tags);
+
       html += `
         <div class="card" onclick="openArticle(${item._idx})">
-          <div class="card-tags">${tagsHtml}</div>
-          <div class="card-title">${esc(item.title)}</div>
-          ${excerpt ? `<div class="card-excerpt">${esc(excerpt)}</div>` : ''}
-          <div class="card-footer">
-            <span class="card-sources">${sourcesHtml}</span>
+          <div class="card-cover" style="background:${cover.gradient}">
+            <div class="card-cover-pattern"></div>
+            <span class="card-cover-icon">${cover.icon}</span>
+          </div>
+          <div class="card-body">
+            <div class="card-tags">${tagsHtml}</div>
+            <div class="card-title">${esc(item.title)}</div>
+            ${excerpt ? `<div class="card-excerpt">${esc(excerpt)}</div>` : ''}
+            <div class="card-footer">
+              <span class="card-sources">${sourcesHtml}</span>
+            </div>
           </div>
         </div>`;
     });
