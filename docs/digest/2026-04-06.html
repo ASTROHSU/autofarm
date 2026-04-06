@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日摘要 2026-04-06</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8f6f1;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #1a1a1a;
+      --tag-bg: #f0ede6;
+      --tag-text: #5a5040;
+      --border: #e8e3d8;
+      --link: #2d6a4f;
+      --crypto-tag: #1a3a6b;
+      --crypto-bg: #e8f0fc;
+      --ai-tag: #3d1a6b;
+      --ai-bg: #f0e8fc;
+      --legal-tag: #6b1a1a;
+      --legal-bg: #fce8e8;
+      --market-tag: #1a5a3a;
+      --market-bg: #e8faf0;
+      --defi-tag: #6b4a1a;
+      --defi-bg: #fcf0e8;
+      --policy-tag: #1a4a6b;
+      --policy-bg: #e8f4fc;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 17px;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .site-header {
+      margin-bottom: 48px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--text);
+    }
+
+    .site-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 14px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .digest-headline {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+
+    .digest-meta {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      gap: 16px;
+    }
+
+    .digest-intro {
+      font-size: 16px;
+      color: var(--muted);
+      margin-top: 16px;
+      line-height: 1.8;
+    }
+
+    .story {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 32px;
+      margin-bottom: 28px;
+    }
+
+    .story-tags {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .tag {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .tag-crypto { background: var(--crypto-bg); color: var(--crypto-tag); }
+    .tag-ai { background: var(--ai-bg); color: var(--ai-tag); }
+    .tag-legal { background: var(--legal-bg); color: var(--legal-tag); }
+    .tag-market { background: var(--market-bg); color: var(--market-tag); }
+    .tag-defi { background: var(--defi-bg); color: var(--defi-tag); }
+    .tag-policy { background: var(--policy-bg); color: var(--policy-tag); }
+
+    .story-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+
+    .story-title a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .story-title a:hover {
+      border-bottom-color: var(--text);
+    }
+
+    .story-source {
+      margin-bottom: 16px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .story-source a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--muted);
+    }
+
+    .story-source a:hover {
+      color: var(--link);
+      border-bottom-color: var(--link);
+    }
+
+    .story-body p {
+      margin-bottom: 12px;
+      text-align: justify;
+    }
+
+    .story-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    details {
+      margin-top: 20px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--muted);
+      padding: 6px 0;
+    }
+
+    .chart-wrap {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: -apple-system, 'Noto Sans TC', sans-serif;
+      max-width: 800px;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 12px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .chart-wrap .chart-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: #ffffff;
+    }
+
+    .chart-wrap .chart-source {
+      font-size: 11px;
+      color: #666;
+      margin-top: 16px;
+      text-align: right;
+    }
+
+    .chart-bar-group {
+      margin-bottom: 12px;
+    }
+
+    .chart-bar-label {
+      font-size: 13px;
+      margin-bottom: 4px;
+      color: #aaa;
+    }
+
+    .chart-bar-track {
+      background: #1a1a1a;
+      border-radius: 4px;
+      height: 28px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .chart-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      padding-left: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .chart-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #1a1a1a;
+      font-size: 13px;
+    }
+
+    .chart-row:last-child {
+      border-bottom: none;
+    }
+
+    .chart-row-label {
+      color: #aaa;
+    }
+
+    .chart-row-value {
+      color: #e0e0e0;
+      font-weight: 600;
+    }
+
+    .chart-timeline {
+      position: relative;
+      padding-left: 20px;
+      border-left: 2px solid #333;
+    }
+
+    .chart-timeline-item {
+      position: relative;
+      margin-bottom: 16px;
+      padding-left: 16px;
+    }
+
+    .chart-timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -27px;
+      top: 6px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #4a9eff;
+      border: 2px solid #0a0a0a;
+    }
+
+    .chart-timeline-item.highlight::before {
+      background: #ff6b6b;
+    }
+
+    .chart-timeline-date {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 2px;
+    }
+
+    .chart-timeline-text {
+      font-size: 13px;
+      color: #ccc;
+    }
+
+    .chart-compare {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .chart-compare-box {
+      background: #1a1a1a;
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    .chart-compare-label {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+
+    .chart-compare-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    .chart-compare-note {
+      font-size: 11px;
+      color: #888;
+    }
+
+    .story-discuss {
+      margin-top: 20px;
+      padding: 16px 20px;
+      background: var(--tag-bg);
+      border-radius: 6px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .discuss-title {
+      font-weight: 500;
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+      letter-spacing: 1px;
+      color: var(--tag-text);
+    }
+
+    .story-discuss ol {
+      padding-left: 20px;
+    }
+
+    .story-discuss li {
+      margin-bottom: 8px;
+    }
+
+    .story-discuss li:last-child {
+      margin-bottom: 0;
+    }
+
+    .discuss-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 500;
+      padding: 1px 6px;
+      border-radius: 3px;
+      background: #e0ddd5;
+      color: var(--tag-text);
+      margin-right: 4px;
+    }
+
+    .story-discuss a {
+      color: var(--link);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .story-discuss a:hover {
+      border-bottom-color: var(--link);
+    }
+
+    .page-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .page-wrap { padding: 24px 16px 48px; }
+      .digest-headline { font-size: 22px; }
+      .story { padding: 20px; }
+      .story-title { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <div class="site-title">每日摘要</div>
+      <h1 class="digest-headline">2026 年 4 月 6 日（一）</h1>
+      <div class="digest-meta">
+        <span>3 則摘要</span>
+        <span>來源：Gmail 電子報 / 固定追蹤網站 / WebSearch</span>
+      </div>
+      <p class="digest-intro">關稅戰讓加密市場震盪，但三件結構性的事在同步推進：管理 11.9 兆美元的傳統券商直接進場現貨交易、日本把加密幣稅率砍去一半、DeepSeek 下一個模型全部跑在華為晶片上。</p>
+    </header>
+
+    <!-- Story 1: Schwab Crypto -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-market">TradFi</span>
+        <span class="tag tag-crypto">加密交易</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.coindesk.com/business/2026/04/03/schwab-plans-spot-bitcoin-ether-trading-launch-in-first-half-of-2026" target="_blank" rel="noopener">Schwab 開放現貨 BTC 和 ETH 交易，11.9 兆美元傳統券商直接進場</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.coindesk.com/business/2026/04/03/schwab-plans-spot-bitcoin-ether-trading-launch-in-first-half-of-2026" target="_blank" rel="noopener">CoinDesk</a> ｜ <a href="https://coinpaper.com/15995/12-t-charles-schwab-to-launch-spot-bitcoin-eth-trading-this-quarter-what-next" target="_blank" rel="noopener">CoinPaper</a></div>
+      <div class="story-body">
+        <p>加密貨幣的零售入場管道，長期由 Coinbase、Robinhood 這類加密原生平台主導。傳統大型券商提供比特幣 ETF，但直接持有加密貨幣一直是缺口。Charles Schwab 管理 4,600 萬個帳戶、11.9 兆美元客戶資產，規模遠超任何加密原生平台。</p>
+        <p>Schwab 4 月 3 日宣布，透過旗下 Charles Schwab Premier Bank SSB 開放比特幣和以太幣的直接現貨交易，Q2 先對部分客戶開放候補名單，再逐步向全美擴展（紐約州與路易斯安那州暫時除外）。不是 ETF，也不是衍生品，是客戶直接持有加密貨幣。CEO Rick Wurster 說，客戶一直在問這個問題，現在給出答案。</p>
+      </div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">傳統券商 vs 加密原生平台：客戶資產規模</div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">Charles Schwab（現貨加密：即將開放）</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 100%; background: linear-gradient(90deg, #4a9eff, #2d6aff);">$11.9 兆</div>
+            </div>
+          </div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">Fidelity（部分加密服務已開放）</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 100%; background: linear-gradient(90deg, #4ab8a0, #2d9a82);">$14.1 兆</div>
+            </div>
+          </div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">Coinbase（現貨加密：全面開放）</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 5%; background: linear-gradient(90deg, #ff9f4a, #e07a20); min-width: 120px;">約 $0.6 兆</div>
+            </div>
+          </div>
+          <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">Schwab 帳戶數</span>
+              <span class="chart-row-value">4,600 萬</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">開放資產</span>
+              <span class="chart-row-value">BTC、ETH（直接現貨）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">時程</span>
+              <span class="chart-row-value">Q2 候補名單 → 全美開放</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">暫時排除</span>
+              <span class="chart-row-value">紐約州、路易斯安那州</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：CoinDesk / CoinPaper / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">社群討論</span>
+        <ol>
+          <li><span class="discuss-tag">官方聲明</span> Charles Schwab CEO <a href="https://www.coindesk.com/business/2026/04/03/schwab-plans-spot-bitcoin-ether-trading-launch-in-first-half-of-2026" target="_blank" rel="noopener">Rick Wurster</a> 表示，客戶長期以來持續詢問現貨加密交易，Schwab 決定直接在自家平台提供，而非依賴第三方加密原生平台。他預計客戶需求會非常顯著。</li>
+          <li><span class="discuss-tag">產業觀點</span> <a href="https://coinpaper.com/15995/12-t-charles-schwab-to-launch-spot-bitcoin-eth-trading-this-quarter-what-next" target="_blank" rel="noopener">CoinPaper 分析</a>指出，這是傳統券商進入加密現貨交易規模最大的一步。Schwab 的 4,600 萬帳戶若有一小部分轉換為加密持有者，帶進的資金流就會超過 Coinbase 的現有客戶資產基礎。</li>
+          <li><span class="discuss-tag">競爭背景</span> Schwab 的公告與 Fidelity 早已為機構客戶提供加密託管服務的動向相互呼應，顯示傳統金融機構不再把加密視為利基市場。Coinbase 和 Robinhood 長期靠零售加密交易費用支撐的商業模式，正面臨更強大的資本競爭者。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 2: Japan FSA -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-policy">監管政策</span>
+        <span class="tag tag-crypto">日本</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.financemagnates.com/cryptocurrency/regulation/japan-plans-20-crypto-tax-reclassifies-digital-assets-as-financial-products/" target="_blank" rel="noopener">日本將 105 種加密資產列為金融商品，稅率從最高 55% 降至固定 20%</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.financemagnates.com/cryptocurrency/regulation/japan-plans-20-crypto-tax-reclassifies-digital-assets-as-financial-products/" target="_blank" rel="noopener">Finance Magnates</a> ｜ <a href="https://www.theblock.co/post/378993/japan-reclassify-crypto-tax-relief" target="_blank" rel="noopener">The Block</a> ｜ <a href="https://beincrypto.com/japan-fsa-crypto-regulation-fiea/" target="_blank" rel="noopener">BeInCrypto</a></div>
+      <div class="story-body">
+        <p>日本是全球最早設立加密交易所牌照的主要市場，但稅制一直是市場發展的障礙。加密獲利被列為「雜項所得」，最高稅率達 55%，比股票的 20% 高出一倍以上。這讓日本散戶和機構長期傾向在海外交易加密，而不是留在本土市場。</p>
+        <p>日本金融廳 4 月 5 日宣布，推進將比特幣等 105 種加密資產納入《金融商品交易法》監管。納入後，適用內線交易和市場操縱禁令，違規最高罰款 1,000 萬日圓，並可能面臨刑事責任。稅率同步改為 20% 固定稅率，增加三年損失遞延，與股票 ETF 規範一致。銀行與保險業者未來也可能獲准持有這些核准資產。業界有聲音擔心合規成本，且最終落地時間可能要到 2028 年。</p>
+      </div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">日本加密資產稅制改革：改革前後對照</div>
+          <div class="chart-compare" style="margin-bottom: 16px;">
+            <div class="chart-compare-box">
+              <div class="chart-compare-label">改革前：雜項所得</div>
+              <div class="chart-compare-value" style="color: #ff6b6b;">最高 55%</div>
+              <div class="chart-compare-note">累進稅率，無損失遞延</div>
+            </div>
+            <div class="chart-compare-box">
+              <div class="chart-compare-label">改革後：金融商品</div>
+              <div class="chart-compare-value" style="color: #4aff9f;">固定 20%</div>
+              <div class="chart-compare-note">三年損失遞延，與股票同等</div>
+            </div>
+          </div>
+          <div style="padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">納入法規</span>
+              <span class="chart-row-value">《金融商品交易法》（FIEA）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">涵蓋資產數</span>
+              <span class="chart-row-value">105 種（含 BTC、ETH）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">違規罰款上限</span>
+              <span class="chart-row-value">1,000 萬日圓 + 刑事責任</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">銀行／保險業</span>
+              <span class="chart-row-value">未來可能獲准持有核准資產</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">立法時程</span>
+              <span class="chart-row-value">2026 年國會審議，落地或延至 2028 年</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Finance Magnates / The Block / BeInCrypto / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">社群討論</span>
+        <ol>
+          <li><span class="discuss-tag">官方立場</span> 日本首相 <a href="https://beincrypto.com/japan-fsa-crypto-regulation-fiea/" target="_blank" rel="noopener">Ishiba Shigeru</a> 表示，Web3 的健全發展「極為重要」，並將此次改革定位為日本吸引數位資產相關業者回流本土市場的關鍵政策。</li>
+          <li><span class="discuss-tag">支持聲音</span> CryptoQuant 分析師 XWIN Research Japan 在 <a href="https://beincrypto.com/japan-fsa-crypto-regulation-fiea/" target="_blank" rel="noopener">BeInCrypto</a> 指出，這次改革引入的不只是稅率調整，更是「更強大的投資人保護工具」，包括標準化資訊揭露、禁止不公平交易，以及發行方風險說明義務。</li>
+          <li><span class="discuss-tag">質疑聲音</span> 日本區塊鏈協會公開警告，若合規要求過於嚴格，業界「可能難以承受」。新規要求交易所就 105 種核准資產提供詳細揭露並維持近即時的準備金報告，中小型交易所面臨的合規負擔不亞於大型機構。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 3: DeepSeek V4 -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-ai">AI</span>
+        <span class="tag tag-policy">晶片地緣政治</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.theinformation.com/articles/deepseeks-new-ai-model-will-victory-huawei" target="_blank" rel="noopener">DeepSeek V4 即將發布：1 兆參數開放權重，華為晶片優先取用</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.theinformation.com/articles/deepseeks-new-ai-model-will-victory-huawei" target="_blank" rel="noopener">The Information</a> ｜ <a href="https://the-decoder.com/deepseek-v4-will-reportedly-run-entirely-on-huawei-chips-in-a-major-win-for-chinas-ai-independence-push/" target="_blank" rel="noopener">The Decoder</a> ｜ <a href="https://www.tradingview.com/news/reuters.com,2026:newsml_L4N40M0E0:0-deepseek-s-v4-model-will-run-on-huawei-chips-the-information-reports/" target="_blank" rel="noopener">Reuters</a></div>
+      <div class="story-body">
+        <p>DeepSeek 去年以 V3 震驚 AI 產業——560 萬美元的訓練成本，對比美國前沿模型動輒數億的投入，讓整個產業重新評估算力投資的必要性。V4 的到來延續這個邏輯，但這次最值得注意的不是規格本身，而是晶片選擇：DeepSeek 讓華為昇騰和寒武紀晶片提前數週取得 V4 存取權，同時對 Nvidia 和 AMD 關閉了這扇門。</p>
+        <p>The Information 4 月 3 日報導，DeepSeek V4 採用混合專家架構，總參數約 1 兆，每個 token 實際啟用約 370 億個參數，上下文窗口達 100 萬個 token，原生支援文字、圖像與影片多模態輸入，計畫以 Apache 2.0 授權開放全部權重。發布時間因需要重新改寫部分程式碼以適配華為昇騰和寒武紀晶片而延誤，但預計近期即將推出。</p>
+      </div>
+
+      <details>
+        <summary>展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">DeepSeek V4 規格一覽</div>
+          <div style="margin-bottom: 16px;">
+            <div class="chart-row">
+              <span class="chart-row-label">架構</span>
+              <span class="chart-row-value">混合專家架構（MoE）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">總參數量</span>
+              <span class="chart-row-value">約 1 兆</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">每個 token 啟用</span>
+              <span class="chart-row-value">約 370 億參數</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">上下文窗口</span>
+              <span class="chart-row-value">100 萬個 token</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">多模態支援</span>
+              <span class="chart-row-value">文字、圖像、影片（原生）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">授權方式</span>
+              <span class="chart-row-value">Apache 2.0（開放商業使用）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">推理定價</span>
+              <span class="chart-row-value">輸入 $0.30 / 輸出 $0.50（每百萬 token）</span>
+            </div>
+          </div>
+          <div style="border-top: 1px solid #333; padding-top: 12px;">
+            <div class="chart-title" style="font-size: 14px; margin-bottom: 10px;">晶片策略</div>
+            <div class="chart-timeline">
+              <div class="chart-timeline-item">
+                <div class="chart-timeline-date">提前數週</div>
+                <div class="chart-timeline-text">華為昇騰、寒武紀晶片開發商獲 V4 獨家搶先取用</div>
+              </div>
+              <div class="chart-timeline-item highlight">
+                <div class="chart-timeline-date">同期</div>
+                <div class="chart-timeline-text">Nvidia、AMD 被排除在外</div>
+              </div>
+              <div class="chart-timeline-item">
+                <div class="chart-timeline-date">延誤原因</div>
+                <div class="chart-timeline-text">部分程式碼需重寫以完整適配昇騰／寒武紀架構</div>
+              </div>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：The Information / The Decoder / Reuters / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">社群討論</span>
+        <ol>
+          <li><span class="discuss-tag">媒體報導</span> The Information 以「DeepSeek's New AI Model Will Be a Victory for Huawei」為標題報導此事，<a href="https://www.theinformation.com/articles/deepseeks-new-ai-model-will-victory-huawei" target="_blank" rel="noopener">核心框架</a>是：這不只是一個新模型的發布，而是中國在美國出口管制下，建立本土 AI 晶片生態系統的里程碑。</li>
+          <li><span class="discuss-tag">產業觀點</span> The Decoder <a href="https://the-decoder.com/deepseek-v4-will-reportedly-run-entirely-on-huawei-chips-in-a-major-win-for-chinas-ai-independence-push/" target="_blank" rel="noopener">報導</a>指出，V4 全面跑在華為晶片上，是中國 AI 獨立戰略「最重要的實際驗證」——美國出口管制的目標是阻止中國取得先進算力，但 DeepSeek 透過晶片優先策略，正在幫華為晶片建立開發者生態。</li>
+          <li><span class="discuss-tag">中立背景</span> <a href="https://www.tradingview.com/news/reuters.com,2026:newsml_L4N40M0E0:0-deepseek-s-v4-model-will-run-on-huawei-chips-the-information-reports/" target="_blank" rel="noopener">Reuters</a> 中性陳述這則消息，並指出 V4 的規格目前主要來自 The Information 的報導，DeepSeek 官方尚未正式宣布發布日期或完整技術細節。</li>
+        </ol>
+      </div>
+    </article>
+
+    <footer class="page-footer">
+      每日摘要 · 2026-04-06 · 自動生成，供個人閱讀參考，不構成投資建議
+    </footer>
+
+  </div>
+</body>
+</html>
