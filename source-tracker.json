@@ -1,0 +1,365 @@
+{
+  "last_updated": "2026-04-06T12:15:00+08:00",
+  "sources": {
+    "CoinDesk Daily": {
+      "tier": "core",
+      "sender": "newsletters@coindesk.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "CoinDesk State of Crypto": {
+      "tier": "core",
+      "sender": "stateofcrypto@coindesk.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "CoinDesk The Protocol": {
+      "tier": "core",
+      "sender": "theprotocol@coindesk.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "The Block": {
+      "tier": "core",
+      "sender": "@theblock.pro",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": "2026-04-05",
+      "total_hits": 1,
+      "total_scans": 1,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "Decrypt Daily Dispatch": {
+      "tier": "core",
+      "sender": "hi@mail-daily.decrypt.co",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": "2026-04-05",
+      "total_hits": 1,
+      "total_scans": 2,
+      "consecutive_misses": 1,
+      "status": "active"
+    },
+    "Cointelegraph": {
+      "tier": "core",
+      "sender": "drop@cointelegraph.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": "2026-04-05",
+      "total_hits": 1,
+      "total_scans": 2,
+      "consecutive_misses": 1,
+      "status": "active"
+    },
+    "Blockworks": {
+      "tier": "core",
+      "sender": "newsletter@blockworks.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": "2026-04-06",
+      "total_hits": 1,
+      "total_scans": 2,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "Bankless": {
+      "tier": "core",
+      "sender": "team@bankless.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": "2026-04-05",
+      "total_hits": 2,
+      "total_scans": 2,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "The Defiant": {
+      "tier": "core",
+      "sender": "no-reply@mail.thedefiant.io",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": "2026-04-04",
+      "total_hits": 1,
+      "total_scans": 2,
+      "consecutive_misses": 1,
+      "status": "active"
+    },
+    "Milk Road": {
+      "tier": "core",
+      "sender": "newsletter@mail.milkroad.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 5,
+      "consecutive_misses": 5,
+      "status": "active"
+    },
+    "Unchained": {
+      "tier": "core",
+      "sender": "unchainedcrypto@mail.beehiiv.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": "2026-04-06",
+      "total_hits": 1,
+      "total_scans": 2,
+      "consecutive_misses": 1,
+      "status": "active"
+    },
+    "DL News": {
+      "tier": "core",
+      "sender": "@mail.beehiiv.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "ChainFeeds": {
+      "tier": "core",
+      "sender": "chainfeeds+daily@substack.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": "2026-04-04",
+      "total_hits": 1,
+      "total_scans": 2,
+      "consecutive_misses": 1,
+      "status": "active"
+    },
+    "Techmeme Daily": {
+      "tier": "supplementary",
+      "sender": "newsletter@techmeme.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": "2026-04-06",
+      "total_hits": 1,
+      "total_scans": 2,
+      "consecutive_misses": 1,
+      "status": "active"
+    },
+    "Stratechery": {
+      "tier": "supplementary",
+      "sender": "email@stratechery.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 2,
+      "consecutive_misses": 2,
+      "status": "active"
+    },
+    "Big Technology": {
+      "tier": "supplementary",
+      "sender": "bigtechnology@substack.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 2,
+      "consecutive_misses": 2,
+      "status": "active"
+    },
+    "a16z": {
+      "tier": "supplementary",
+      "sender": "a16z@substack.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "Exponential View": {
+      "tier": "supplementary",
+      "sender": "exponentialview@substack.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 3,
+      "consecutive_misses": 3,
+      "status": "active"
+    },
+    "Platformer": {
+      "tier": "supplementary",
+      "sender": "casey@platformer.news",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "The Pomp Letter": {
+      "tier": "supplementary",
+      "sender": "pomp@substack.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 2,
+      "consecutive_misses": 2,
+      "status": "active"
+    },
+    "Bits + Bips": {
+      "tier": "supplementary",
+      "sender": "bitsandbips@mail.beehiiv.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "Not Boring": {
+      "tier": "supplementary",
+      "sender": "notboring@substack.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "Fintech Brainfood": {
+      "tier": "supplementary",
+      "sender": "sytaylor@mail.beehiiv.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 2,
+      "consecutive_misses": 2,
+      "status": "active"
+    },
+    "Galaxy Research": {
+      "tier": "supplementary",
+      "sender": "glxy@galaxy.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "Ethereal News": {
+      "tier": "supplementary",
+      "sender": "etherealnews@substack.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "ethdevnews": {
+      "tier": "supplementary",
+      "sender": "ethdevnews@newsletter.paragraph.xyz",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "Kiwi Weekly": {
+      "tier": "supplementary",
+      "sender": "kiwi-weekly@newsletter.paragraph.xyz",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "Citation Needed": {
+      "tier": "supplementary",
+      "sender": "newsletter@citationneeded.news",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "DHK 郵報": {
+      "tier": "supplementary",
+      "sender": "dhkdao+ckxpress@substack.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "BlockThreat": {
+      "tier": "supplementary",
+      "sender": "noreply@blockthreat.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 1,
+      "consecutive_misses": 1,
+      "status": "active"
+    },
+    "Crypto Venture Weekly": {
+      "tier": "supplementary",
+      "sender": "crypto-venture-weekly@mail.beehiiv.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "Macro Notes": {
+      "tier": "supplementary",
+      "sender": "macronotes@substack.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 1,
+      "consecutive_misses": 1,
+      "status": "active"
+    },
+    "Opening Bell Daily": {
+      "tier": "supplementary",
+      "sender": "opening-bell@mail.beehiiv.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 1,
+      "consecutive_misses": 1,
+      "status": "active"
+    },
+    "DeFi Education": {
+      "tier": "supplementary",
+      "sender": "defieducation@substack.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "Castle Labs": {
+      "tier": "supplementary",
+      "sender": "castlelabs@substack.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    },
+    "LikeCoin": {
+      "tier": "supplementary",
+      "sender": "likecoin@substack.com",
+      "first_tracked": "2026-04-04",
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
+    }
+  }
+}
