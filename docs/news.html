@@ -302,7 +302,7 @@ function renderHero(item){
   const extra=srcCount>4?` 等 ${srcCount} 個來源`:(srcCount>0?`（${srcCount} 個來源）`:'');
 
   let h='<div class="hero">';
-  if(hasImage)h+=`<img class="hero-image" src="${esc(item.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`;
+  if(hasImage)h+=`<img class="hero-image" src="${esc(item.image)}" alt="" loading="lazy" onerror="this.style.display='none'" onclick="openArticle('${item.id}')" style="cursor:pointer">`;
   h+=`<div class="hero-headline" onclick="openArticle('${item.id}')">${esc(item.title)}</div>`;
   h+=`<div class="hero-meta"><span class="hero-score">${scoreLabel(item)}</span><span>${item.date||''}</span></div>`;
   h+=`<div class="hero-summary">${esc(excerpt)}</div>`;
@@ -319,7 +319,7 @@ function renderSubLead(item){
   const extra=srcCount>3?` 等 ${srcCount} 個來源`:(srcCount>0?`（${srcCount} 個來源）`:'');
 
   let h='<div class="sub-lead-item">';
-  if(hasImage)h+=`<img class="sub-lead-image" src="${esc(item.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`;
+  if(hasImage)h+=`<img class="sub-lead-image" src="${esc(item.image)}" alt="" loading="lazy" onerror="this.style.display='none'" onclick="openArticle('${item.id}')" style="cursor:pointer">`;
   h+=`<div class="sub-lead-headline" onclick="openArticle('${item.id}')">${esc(item.title)}</div>`;
   h+=`<div class="sub-lead-meta"><span class="sub-lead-score">${scoreLabel(item)}</span><span>${item.date||''}</span></div>`;
   h+=`<div class="sub-lead-summary">${esc(excerpt)}</div>`;
