@@ -160,7 +160,7 @@ window.FEED_DATA = {
         "Solana"
       ],
       "date": "2026-04-06",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/19279f188fd985541125b59d44d4ad2e9c7399a3-5760x3840.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "image": "https://cdn.thedefiant.io/pasted-1775066840154-png-d4b69d09-70dc-48be-ad98-f9fb30da5cb3.png",
       "_image_source": "og",
       "sources": [
         {
