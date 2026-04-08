@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日摘要 2026-04-08</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #f8f6f1;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #1a1a1a;
+      --tag-bg: #f0ede6;
+      --tag-text: #5a5040;
+      --border: #e8e3d8;
+      --link: #2d6a4f;
+      --crypto-tag: #1a3a6b;
+      --crypto-bg: #e8f0fc;
+      --ai-tag: #3d1a6b;
+      --ai-bg: #f0e8fc;
+      --legal-tag: #6b1a1a;
+      --legal-bg: #fce8e8;
+      --market-tag: #1a5a3a;
+      --market-bg: #e8faf0;
+      --defi-tag: #6b4a1a;
+      --defi-bg: #fcf0e8;
+      --policy-tag: #1a4a6b;
+      --policy-bg: #e8f4fc;
+      --security-tag: #6b1a3a;
+      --security-bg: #fce8f0;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 17px;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+    .page-wrap { max-width: 680px; margin: 0 auto; padding: 48px 24px 80px; }
+    .site-header { margin-bottom: 48px; padding-bottom: 24px; border-bottom: 2px solid var(--text); }
+    .site-title { font-family: 'Noto Serif TC', serif; font-size: 14px; letter-spacing: 3px; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+    .digest-headline { font-family: 'Noto Serif TC', serif; font-size: 28px; font-weight: 600; line-height: 1.4; margin-bottom: 12px; }
+    .digest-meta { font-size: 14px; color: var(--muted); display: flex; gap: 16px; }
+    .digest-intro { font-size: 16px; color: var(--muted); margin-top: 16px; line-height: 1.8; }
+    .story { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 32px; margin-bottom: 28px; }
+    .story-tags { display: flex; gap: 8px; margin-bottom: 12px; }
+    .tag { font-size: 12px; font-weight: 500; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.5px; }
+    .tag-crypto { background: var(--crypto-bg); color: var(--crypto-tag); }
+    .tag-ai { background: var(--ai-bg); color: var(--ai-tag); }
+    .tag-legal { background: var(--legal-bg); color: var(--legal-tag); }
+    .tag-market { background: var(--market-bg); color: var(--market-tag); }
+    .tag-defi { background: var(--defi-bg); color: var(--defi-tag); }
+    .tag-policy { background: var(--policy-bg); color: var(--policy-tag); }
+    .tag-security { background: var(--security-bg); color: var(--security-tag); }
+    .story-title { font-family: 'Noto Serif TC', serif; font-size: 20px; font-weight: 600; line-height: 1.5; margin-bottom: 8px; }
+    .story-title a { color: var(--text); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+    .story-title a:hover { border-bottom-color: var(--text); }
+    .story-source { margin-bottom: 16px; font-size: 13px; color: var(--muted); }
+    .story-source a { color: var(--muted); text-decoration: none; border-bottom: 1px dotted var(--muted); }
+    .story-source a:hover { color: var(--link); border-bottom-color: var(--link); }
+    .story-body p { margin-bottom: 12px; text-align: justify; }
+    .story-body p:last-child { margin-bottom: 0; }
+    details { margin-top: 20px; }
+    summary { cursor: pointer; font-size: 14px; color: var(--muted); padding: 6px 0; }
+    .chart-wrap { background: #0a0a0a; color: #e0e0e0; font-family: -apple-system, 'Noto Sans TC', sans-serif; max-width: 800px; border-radius: 12px; padding: 24px; margin-top: 12px; font-size: 14px; line-height: 1.6; }
+    .chart-wrap .chart-title { font-size: 16px; font-weight: 600; margin-bottom: 16px; color: #ffffff; }
+    .chart-wrap .chart-source { font-size: 11px; color: #666; margin-top: 16px; text-align: right; }
+    .chart-bar-group { margin-bottom: 12px; }
+    .chart-bar-label { font-size: 13px; margin-bottom: 4px; color: #aaa; }
+    .chart-bar-track { background: #1a1a1a; border-radius: 4px; height: 28px; position: relative; overflow: hidden; }
+    .chart-bar-fill { height: 100%; border-radius: 4px; display: flex; align-items: center; padding-left: 8px; font-size: 12px; font-weight: 600; color: #fff; }
+    .chart-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #1a1a1a; font-size: 13px; }
+    .chart-row:last-child { border-bottom: none; }
+    .chart-row-label { color: #aaa; }
+    .chart-row-value { color: #e0e0e0; font-weight: 600; }
+    .chart-timeline { position: relative; padding-left: 20px; border-left: 2px solid #333; }
+    .chart-timeline-item { position: relative; margin-bottom: 16px; padding-left: 16px; }
+    .chart-timeline-item::before { content: ''; position: absolute; left: -27px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: #4a9eff; border: 2px solid #0a0a0a; }
+    .chart-timeline-item.highlight::before { background: #ff6b6b; }
+    .chart-timeline-date { font-size: 12px; color: #666; margin-bottom: 2px; }
+    .chart-timeline-text { font-size: 13px; color: #ccc; }
+    .chart-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .chart-compare-box { background: #1a1a1a; border-radius: 8px; padding: 16px; }
+    .chart-compare-label { font-size: 12px; color: #666; margin-bottom: 8px; }
+    .chart-compare-value { font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+    .chart-compare-note { font-size: 11px; color: #888; }
+    .story-discuss { margin-top: 20px; padding: 16px 20px; background: var(--tag-bg); border-radius: 6px; font-size: 15px; line-height: 1.7; }
+    .discuss-title { font-weight: 500; display: block; margin-bottom: 6px; font-size: 13px; letter-spacing: 1px; color: var(--tag-text); }
+    .story-discuss ol { padding-left: 20px; }
+    .story-discuss li { margin-bottom: 8px; }
+    .story-discuss li:last-child { margin-bottom: 0; }
+    .discuss-tag { display: inline-block; font-size: 11px; font-weight: 500; padding: 1px 6px; border-radius: 3px; background: #e0ddd5; color: var(--tag-text); margin-right: 4px; }
+    .story-discuss a { color: var(--link); text-decoration: none; border-bottom: 1px solid transparent; }
+    .story-discuss a:hover { border-bottom-color: var(--link); }
+    .page-footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); font-size: 13px; color: var(--muted); text-align: center; }
+    @media (max-width: 600px) {
+      .page-wrap { padding: 24px 16px 48px; }
+      .digest-headline { font-size: 22px; }
+      .story { padding: 20px; }
+      .story-title { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="site-header">
+      <div class="site-title">每日摘要</div>
+      <h1 class="digest-headline">2026 年 4 月 8 日（三）</h1>
+      <div class="digest-meta">
+        <span>3 則摘要</span>
+        <span>來源：Gmail 電子報 / 固定追蹤網站 / WebSearch</span>
+      </div>
+      <p class="digest-intro">美國監管框架在一週內密集推進：GENIUS Act 的具體準備金規則、SEC 的募資豁免草案同日公布。同時間，Solana 最大的永續合約平台在 12 分鐘內損失 2.85 億美元，把 DeFi 的安全架構問題再次推到檯面。</p>
+    </header>
+
+    <!-- Story 1: Drift Protocol Hack -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-security">資安事件</span>
+        <span class="tag tag-defi">DeFi</span>
+        <span class="tag tag-crypto">Solana</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.bloomberg.com/news/articles/2026-04-01/solana-based-defi-project-drift-hit-by-285-million-exploit" target="_blank" rel="noopener">Drift Protocol 2.85 億美元遭竊，12 分鐘，疑似北韓駭客</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.bloomberg.com/news/articles/2026-04-01/solana-based-defi-project-drift-hit-by-285-million-exploit" target="_blank" rel="noopener">Bloomberg</a> ｜ <a href="https://fortune.com/2026/04/02/latest-crypto-hack-sees-thieves-make-off-with-280-million-from-solana-defi-platform-drift/" target="_blank" rel="noopener">Fortune</a> ｜ <a href="https://www.coindesk.com/business/2026/04/02/north-koreans-hackers-likely-behind-the-usd286-million-drift-protocol-exploit-elliptic" target="_blank" rel="noopener">CoinDesk</a></div>
+      <div class="story-body">
+        <p>Drift 是 Solana 上最大的去中心化永續合約交易所。去中心化金融的核心主張是「程式碼即法律」，但多簽安全架構的社交工程漏洞一直是這個主張的弱點——也是外界質疑鏈上合規能力的核心論點。</p>
+        <p>4 月 1 日，Drift 遭到攻擊，2.85 億美元資產在 12 分鐘內被盜，成為 2026 年第一季最大的 DeFi 資安事件——當季 DeFi 漏洞總損失達 5.01 億美元，Drift 佔了 57%。攻擊手法是針對 Drift 安全委員會的多簽持有人實施社交工程，透過「持久 nonce」帳戶取得管理員控制權。Elliptic 和 TRM Labs 追蹤鏈上資金流向，將此次攻擊歸因於疑似北韓駭客組織。事後鏈上調查員 ZachXBT 另外批評 Circle：在美國工作時間內超過 6 小時，可見大規模 USDC 正透過 CCTP 跨鏈轉出，卻沒有採取凍結行動。</p>
+      </div>
+
+      <details>
+        <summary>📊 展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">2026 年第一季 DeFi 重大漏洞損失</div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">Drift Protocol（4 月 1 日）</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 57%; background: linear-gradient(90deg, #ff4a4a, #cc2222);">$2.85 億</div>
+            </div>
+          </div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">其他 144 起事件合計（Q1 2026）</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 43%; background: linear-gradient(90deg, #ff9f4a, #cc7020);">$2.16 億</div>
+            </div>
+          </div>
+          <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">Q1 2026 DeFi 漏洞總損失</span>
+              <span class="chart-row-value">$5.01 億</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Drift 損失金額</span>
+              <span class="chart-row-value">$2.85 億</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">攻擊時長</span>
+              <span class="chart-row-value">12 分鐘</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">攻擊手法</span>
+              <span class="chart-row-value">持久 nonce 社交工程</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">歸因</span>
+              <span class="chart-row-value">疑似北韓（DPRK）駭客</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Bloomberg / CoinDesk / ainvest / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">相關討論</span>
+        <ol>
+          <li><span class="discuss-tag">官方聲明</span> <a href="https://www.coindesk.com/tech/2026/04/01/solana-defi-platform-drift-investigates-suspicious-activity-tells-users-to-halt-deposits" target="_blank" rel="noopener">Drift Protocol 官方</a>在事發後立即通知使用者暫停存入，並確認正在調查可疑資金異動，同時表示安全委員會的多簽機制遭到入侵。</li>
+          <li><span class="discuss-tag">批評聲音</span> 鏈上調查員 <a href="https://finance.yahoo.com/markets/crypto/articles/zachxbt-slams-circle-letting-millions-052847479.html" target="_blank" rel="noopener">ZachXBT</a> 直接批評 Circle：被盜的 USDC 在美國工作時間內超過 6 小時持續透過 CCTP 跨鏈轉出，期間超過 100 筆交易可見，但 Circle 始終沒有凍結或介入。他寫道：「Circle 在美國上班時間睡著了。」</li>
+          <li><span class="discuss-tag">安全研究</span> 區塊鏈追蹤機構 <a href="https://www.coindesk.com/business/2026/04/02/north-koreans-hackers-likely-behind-the-usd286-million-drift-protocol-exploit-elliptic" target="_blank" rel="noopener">Elliptic</a> 分析鏈上行為、洗錢手法與網路層指標後，認定此次攻擊「高度符合北韓駭客組織過去的操作模式」，TRM Labs 也獨立得出相同結論。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 2: FDIC Stablecoin / GENIUS Act -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-policy">監管政策</span>
+        <span class="tag tag-crypto">穩定幣</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://news.bitcoin.com/fdic-proposes-genius-act-rules-for-bank-stablecoin-issuers-11-reserves-and-2-day-redemptions-required/" target="_blank" rel="noopener">FDIC 提出穩定幣準備金規則，GENIUS Act 監管框架開始有了輪廓</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://news.bitcoin.com/fdic-proposes-genius-act-rules-for-bank-stablecoin-issuers-11-reserves-and-2-day-redemptions-required/" target="_blank" rel="noopener">Bitcoin.com News</a> ｜ <a href="https://www.pymnts.com/news/regulation/2026/treasury-proposes-its-first-regulation-to-implement-genius-act/" target="_blank" rel="noopener">PYMNTS</a> ｜ <a href="https://www.coindesk.com/policy/2026/04/07/sec-close-to-putting-out-reg-crypto-for-fundraising-questions-chair-atkins-says" target="_blank" rel="noopener">CoinDesk</a></div>
+      <div class="story-body">
+        <p>GENIUS Act 是美國首部聯邦穩定幣立法，2025 年 7 月通過後，實施細則一直是業界等待的空白。稅賦、準備金要求、發行規模限制這些細節，決定的不只是銀行能不能進場發穩定幣，更是 Circle 和 Tether 這類現有業者的競爭條件。</p>
+        <p>4 月 1 日，財政部提出第一條 GENIUS Act 實施細則：發行量在 100 億美元以下的業者，可選擇適用州政府監管，而非聯邦框架。4 月 7 日，FDIC 進一步提出銀行穩定幣發行的準備金規範：1:1 備付金、最快 2 個工作日內可贖回，新業者前三年須維持 500 萬美元最低資本；FDIC 同時確認，銀行以穩定幣支持的存款不享有存款保險，而是以銀行本身的企業存款形式處理。同日，SEC 主席 Paul Atkins 也確認「Reg Crypto」募資豁免草案已送交白宮 OIRA 審查，預計近期正式公布。</p>
+      </div>
+
+      <details>
+        <summary>📊 展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">GENIUS Act 穩定幣監管框架：關鍵規則一覽</div>
+          <div style="margin-bottom: 20px;">
+            <div class="chart-row" style="border-bottom: 1px solid #2a2a2a; padding: 10px 0;">
+              <span class="chart-row-label" style="color: #888;">財政部（4/1）</span>
+              <span class="chart-row-value" style="font-size: 12px; text-align: right;">發行量 ≤100 億可選擇州監管</span>
+            </div>
+            <div class="chart-row" style="border-bottom: 1px solid #2a2a2a; padding: 10px 0;">
+              <span class="chart-row-label" style="color: #888;">FDIC 準備金要求（4/7）</span>
+              <span class="chart-row-value" style="font-size: 12px; text-align: right;">1:1 備付金，合格流動資產</span>
+            </div>
+            <div class="chart-row" style="border-bottom: 1px solid #2a2a2a; padding: 10px 0;">
+              <span class="chart-row-label" style="color: #888;">贖回時限</span>
+              <span class="chart-row-value" style="font-size: 12px; text-align: right;">最快 2 個工作日內</span>
+            </div>
+            <div class="chart-row" style="border-bottom: 1px solid #2a2a2a; padding: 10px 0;">
+              <span class="chart-row-label" style="color: #888;">新業者最低資本（前 3 年）</span>
+              <span class="chart-row-value" style="font-size: 12px; text-align: right;">500 萬美元</span>
+            </div>
+            <div class="chart-row" style="border-bottom: 1px solid #2a2a2a; padding: 10px 0;">
+              <span class="chart-row-label" style="color: #888;">存款保險</span>
+              <span class="chart-row-value" style="font-size: 12px; text-align: right;">穩定幣支持存款不適用</span>
+            </div>
+            <div class="chart-row" style="padding: 10px 0;">
+              <span class="chart-row-label" style="color: #888;">SEC Reg Crypto（4/7）</span>
+              <span class="chart-row-value" style="font-size: 12px; text-align: right;">募資豁免草案送白宮 OIRA 審查</span>
+            </div>
+          </div>
+          <div class="chart-timeline">
+            <div class="chart-timeline-item">
+              <div class="chart-timeline-date">2025 年 7 月</div>
+              <div class="chart-timeline-text">GENIUS Act 正式通過，美國首部聯邦穩定幣立法</div>
+            </div>
+            <div class="chart-timeline-item">
+              <div class="chart-timeline-date">2026 年 4 月 1 日</div>
+              <div class="chart-timeline-text">財政部提出第一條實施細則（雙軌監管路徑）</div>
+            </div>
+            <div class="chart-timeline-item highlight">
+              <div class="chart-timeline-date">2026 年 4 月 7 日</div>
+              <div class="chart-timeline-text">FDIC 提出準備金規範 + SEC Reg Crypto 草案送審</div>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：FDIC / 財政部 / Bitcoin.com News / PYMNTS / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">相關討論</span>
+        <ol>
+          <li><span class="discuss-tag">官方聲明</span> SEC 主席 <a href="https://www.coindesk.com/policy/2026/04/07/sec-close-to-putting-out-reg-crypto-for-fundraising-questions-chair-atkins-says" target="_blank" rel="noopener">Paul Atkins</a> 表示「Reg Crypto」草案專注於 1933 年《證券法》的募資豁免問題，目標是讓新創公司有清楚的法律路徑可走。他另外提到 SEC 也在準備「創新豁免」機制，預計同期公布。</li>
+          <li><span class="discuss-tag">產業觀點</span> <a href="https://news.bitcoin.com/fdic-proposes-genius-act-rules-for-bank-stablecoin-issuers-11-reserves-and-2-day-redemptions-required/" target="_blank" rel="noopener">Bitcoin.com News</a> 指出，FDIC 的草案放出 60 天公開諮詢，共提出 144 個問題供業界回應，涵蓋準備金組成、流動性緩衝要求、以及 FDIC 保險的適用範圍。這代表最終規則仍有空間根據業界反饋調整。</li>
+          <li><span class="discuss-tag">監管背景</span> 紐約州檢察長 <a href="https://www.pymnts.com/news/regulation/2026/treasury-proposes-its-first-regulation-to-implement-genius-act/" target="_blank" rel="noopener">Letitia James</a> 批評 GENIUS Act 的一個核心漏洞：法案沒有要求業者在詐騙事件中退還受害者資金，「這讓消費者在穩定幣詐騙發生後幾乎無路可走」。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 3: Strategy Bitcoin Loss -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-market">機構持倉</span>
+        <span class="tag tag-crypto">比特幣</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.theblock.co/post/396408/strategy-14-5-billion-unrealized-loss-bitcoin-holdings-q1-2026" target="_blank" rel="noopener">Strategy Q1 帳面虧損 145 億美元，財報出來後股價反漲 6.6%</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.theblock.co/post/396408/strategy-14-5-billion-unrealized-loss-bitcoin-holdings-q1-2026" target="_blank" rel="noopener">The Block</a> ｜ <a href="https://www.bloomberg.com/news/articles/2026-04-06/strategy-posts-14-5-billion-unrealized-loss-in-first-quarter" target="_blank" rel="noopener">Bloomberg</a> ｜ <a href="https://www.benzinga.com/crypto/cryptocurrency/26/04/51650966/michael-saylor-says-bitcoin-has-won" target="_blank" rel="noopener">Benzinga</a></div>
+      <div class="story-body">
+        <p>Strategy（前身 MicroStrategy）是全球持有最多比特幣的上市企業。其策略邏輯是：透過發行公司債與可轉債籌資，持續累積比特幣，以比特幣的長期升值取代傳統現金儲備。這個邏輯在 2020 至 2025 年帶動一批上市公司跟進仿效，但前提是比特幣持續升值。2026 年第一季，比特幣跌超過 20%，是這個策略的直接壓力測試。</p>
+        <p>4 月 6 日，Strategy 公布 Q1 財報：帳面虧損 145 億美元，是 2018 年以來第一季最大跌幅。公司目前持有 762,099 枚比特幣，平均成本約 75,644 美元，而比特幣現價在 68,000 美元附近。沒想到財報出來後，MSTR 股價反漲 6.6%。4 月 1 至 5 日，公司又花 3.3 億美元買進 4,871 枚比特幣。虧損同時替公司產生 24.2 億美元的遞延稅務資產。創辦人 Michael Saylor 回應：「不完美，但比別的都好。」</p>
+      </div>
+
+      <details>
+        <summary>📊 展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">Strategy 比特幣持倉：成本 vs. 現值</div>
+          <div class="chart-compare" style="margin-bottom: 20px;">
+            <div class="chart-compare-box">
+              <div class="chart-compare-label">平均購入成本</div>
+              <div class="chart-compare-value" style="color: #ff9f4a;">$75,644</div>
+              <div class="chart-compare-note">每枚比特幣</div>
+            </div>
+            <div class="chart-compare-box">
+              <div class="chart-compare-label">Q1 結束時市場價</div>
+              <div class="chart-compare-value" style="color: #4a9eff;">~$68,000</div>
+              <div class="chart-compare-note">跌幅逾 20%</div>
+            </div>
+          </div>
+          <div style="padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">總持有量</span>
+              <span class="chart-row-value">762,099 枚 BTC</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Q1 2026 帳面虧損</span>
+              <span class="chart-row-value">145 億美元</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">遞延稅務資產</span>
+              <span class="chart-row-value">24.2 億美元</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Q1 新增購入</span>
+              <span class="chart-row-value">88,594 枚 BTC（$72.5 億）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">4/1–4/5 追加購入</span>
+              <span class="chart-row-value">4,871 枚 BTC（$3.3 億）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">財報發布後 MSTR 股價</span>
+              <span class="chart-row-value">+6.6%</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：The Block / Bloomberg / Strategy 官方公告 / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">相關討論</span>
+        <ol>
+          <li><span class="discuss-tag">官方聲明</span> Strategy 創辦人 <a href="https://www.benzinga.com/crypto/cryptocurrency/26/04/51650966/michael-saylor-says-bitcoin-has-won" target="_blank" rel="noopener">Michael Saylor</a> 面對外界對帳面虧損的質疑，回應只有一句：「不完美，但比別的都好。」他另外說「比特幣已經贏了」，強調這是長期儲備策略，帳面浮虧不影響持倉邏輯。</li>
+          <li><span class="discuss-tag">產業觀點</span> <a href="https://www.theblock.co/post/396408/strategy-14-5-billion-unrealized-loss-bitcoin-holdings-q1-2026" target="_blank" rel="noopener">The Block</a> 指出，市場對財報的正面反應（股價反漲）顯示投資人把重心放在持倉規模和持續買入的訊號，而非帳面損益數字；Strategy 在 Q1 同時也替自己取得 24.2 億美元的遞延稅務資產，在稅務層面部分抵銷了帳面損失。</li>
+          <li><span class="discuss-tag">反對聲音</span> Traders Union 分析師 <a href="https://coingape.com/strategy-reports-14-5-billion-loss-in-q1-as-saylor-continues-to-accumulate-bitcoin/" target="_blank" rel="noopener">Anton Kharitonov</a> 指出，MSTR 股價仍處於所有主要均線之下，基本面的持續買進訊號無法提振技術面的賣壓；他認為這個策略的真正風險在於：股價的走勢現在幾乎完全依賴比特幣能否收復失地。</li>
+        </ol>
+      </div>
+    </article>
+
+    <footer class="page-footer">
+      每日摘要 · 2026-04-08 · 自動生成，供個人閱讀參考，不構成投資建議
+    </footer>
+  </div>
+</body>
+</html>
