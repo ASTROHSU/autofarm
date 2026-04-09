@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日摘要 2026-04-09</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #f8f6f1;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #1a1a1a;
+      --tag-bg: #f0ede6;
+      --tag-text: #5a5040;
+      --border: #e8e3d8;
+      --link: #2d6a4f;
+      --crypto-tag: #1a3a6b;
+      --crypto-bg: #e8f0fc;
+      --ai-tag: #3d1a6b;
+      --ai-bg: #f0e8fc;
+      --legal-tag: #6b1a1a;
+      --legal-bg: #fce8e8;
+      --market-tag: #1a5a3a;
+      --market-bg: #e8faf0;
+      --defi-tag: #6b4a1a;
+      --defi-bg: #fcf0e8;
+      --policy-tag: #1a4a6b;
+      --policy-bg: #e8f4fc;
+      --security-tag: #6b1a3a;
+      --security-bg: #fce8f0;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 17px;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+    .page-wrap { max-width: 680px; margin: 0 auto; padding: 48px 24px 80px; }
+    .site-header { margin-bottom: 48px; padding-bottom: 24px; border-bottom: 2px solid var(--text); }
+    .site-title { font-family: 'Noto Serif TC', serif; font-size: 14px; letter-spacing: 3px; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+    .digest-headline { font-family: 'Noto Serif TC', serif; font-size: 28px; font-weight: 600; line-height: 1.4; margin-bottom: 12px; }
+    .digest-meta { font-size: 14px; color: var(--muted); display: flex; gap: 16px; }
+    .digest-intro { font-size: 16px; color: var(--muted); margin-top: 16px; line-height: 1.8; }
+    .story { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 32px; margin-bottom: 28px; }
+    .story-tags { display: flex; gap: 8px; margin-bottom: 12px; }
+    .tag { font-size: 12px; font-weight: 500; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.5px; }
+    .tag-crypto { background: var(--crypto-bg); color: var(--crypto-tag); }
+    .tag-ai { background: var(--ai-bg); color: var(--ai-tag); }
+    .tag-legal { background: var(--legal-bg); color: var(--legal-tag); }
+    .tag-market { background: var(--market-bg); color: var(--market-tag); }
+    .tag-defi { background: var(--defi-bg); color: var(--defi-tag); }
+    .tag-policy { background: var(--policy-bg); color: var(--policy-tag); }
+    .tag-security { background: var(--security-bg); color: var(--security-tag); }
+    .story-title { font-family: 'Noto Serif TC', serif; font-size: 20px; font-weight: 600; line-height: 1.5; margin-bottom: 8px; }
+    .story-title a { color: var(--text); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+    .story-title a:hover { border-bottom-color: var(--text); }
+    .story-source { margin-bottom: 16px; font-size: 13px; color: var(--muted); }
+    .story-source a { color: var(--muted); text-decoration: none; border-bottom: 1px dotted var(--muted); }
+    .story-source a:hover { color: var(--link); border-bottom-color: var(--link); }
+    .story-body p { margin-bottom: 12px; text-align: justify; }
+    .story-body p:last-child { margin-bottom: 0; }
+    details { margin-top: 20px; }
+    summary { cursor: pointer; font-size: 14px; color: var(--muted); padding: 6px 0; }
+    .chart-wrap { background: #0a0a0a; color: #e0e0e0; font-family: -apple-system, 'Noto Sans TC', sans-serif; max-width: 800px; border-radius: 12px; padding: 24px; margin-top: 12px; font-size: 14px; line-height: 1.6; }
+    .chart-wrap .chart-title { font-size: 16px; font-weight: 600; margin-bottom: 16px; color: #ffffff; }
+    .chart-wrap .chart-source { font-size: 11px; color: #666; margin-top: 16px; text-align: right; }
+    .chart-bar-group { margin-bottom: 12px; }
+    .chart-bar-label { font-size: 13px; margin-bottom: 4px; color: #aaa; }
+    .chart-bar-track { background: #1a1a1a; border-radius: 4px; height: 28px; position: relative; overflow: hidden; }
+    .chart-bar-fill { height: 100%; border-radius: 4px; display: flex; align-items: center; padding-left: 8px; font-size: 12px; font-weight: 600; color: #fff; }
+    .chart-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #1a1a1a; font-size: 13px; }
+    .chart-row:last-child { border-bottom: none; }
+    .chart-row-label { color: #aaa; }
+    .chart-row-value { color: #e0e0e0; font-weight: 600; }
+    .chart-timeline { position: relative; padding-left: 20px; border-left: 2px solid #333; }
+    .chart-timeline-item { position: relative; margin-bottom: 16px; padding-left: 16px; }
+    .chart-timeline-item::before { content: ""; position: absolute; left: -27px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: #4a9eff; border: 2px solid #0a0a0a; }
+    .chart-timeline-item.highlight::before { background: #ff6b6b; }
+    .chart-timeline-date { font-size: 12px; color: #666; margin-bottom: 2px; }
+    .chart-timeline-text { font-size: 13px; color: #ccc; }
+    .chart-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .chart-compare-box { background: #1a1a1a; border-radius: 8px; padding: 16px; }
+    .chart-compare-label { font-size: 12px; color: #666; margin-bottom: 8px; }
+    .chart-compare-value { font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+    .chart-compare-note { font-size: 11px; color: #888; }
+    .story-discuss { margin-top: 20px; padding: 16px 20px; background: var(--tag-bg); border-radius: 6px; font-size: 15px; line-height: 1.7; }
+    .discuss-title { font-weight: 500; display: block; margin-bottom: 6px; font-size: 13px; letter-spacing: 1px; color: var(--tag-text); }
+    .story-discuss ol { padding-left: 20px; }
+    .story-discuss li { margin-bottom: 8px; }
+    .story-discuss li:last-child { margin-bottom: 0; }
+    .discuss-tag { display: inline-block; font-size: 11px; font-weight: 500; padding: 1px 6px; border-radius: 3px; background: #e0ddd5; color: var(--tag-text); margin-right: 4px; }
+    .story-discuss a { color: var(--link); text-decoration: none; border-bottom: 1px solid transparent; }
+    .story-discuss a:hover { border-bottom-color: var(--link); }
+    .page-footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); font-size: 13px; color: var(--muted); text-align: center; }
+    @media (max-width: 600px) {
+      .page-wrap { padding: 24px 16px 48px; }
+      .digest-headline { font-size: 22px; }
+      .story { padding: 20px; }
+      .story-title { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="site-header">
+      <div class="site-title">每日摘要</div>
+      <h1 class="digest-headline">2026 年 4 月 9 日（四）</h1>
+      <div class="digest-meta">
+        <span>3 則摘要</span>
+        <span>來源：固定追蹤網站 / WebSearch</span>
+      </div>
+      <p class="digest-intro">Anthropic 的新模型改變了資安研究的基本預設，AI 現在能自主找到並利用人類從未發現過的漏洞。同一天，《紐約時報》花一年追查 Satoshi 身份點名 Adam Back，以及白宮自己的數字正在挑戰 GENIUS Act 裡一條已經入法的條文。</p>
+    </header>
+
+    <!-- Story 1: Anthropic Project Glasswing -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-ai">AI 安全</span>
+        <span class="tag tag-security">資安研究</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.anthropic.com/glasswing" target="_blank" rel="noopener">Claude Mythos 能找並利用零日漏洞，Anthropic 宣布 Project Glasswing</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.anthropic.com/glasswing" target="_blank" rel="noopener">Anthropic 官方公告</a> ｜ <a href="https://www.theregister.com/2026/04/07/anthropic_all_your_zerodays_are_belong_to_us/" target="_blank" rel="noopener">The Register</a> ｜ <a href="https://www.coindesk.com/markets/2026/04/08/move-over-bitcoin-and-quantum-risks-anthropic-s-mythos-ai-changes-everything-for-defi" target="_blank" rel="noopener">CoinDesk</a></div>
+      <div class="story-body">
+        <p>資安研究一直是人力密集型工作：找到一個真正的零日漏洞，往往需要頂尖研究員花數個月時間。AI 工具進入資安領域已有一段時間，但多數工具的能力止於已知漏洞類型的自動化掃描。Anthropic 在 4 月 7 日宣布的 Project Glasswing，改變了這個預設——他們的新前沿模型 Claude Mythos 不只能找到零日漏洞，還能自主寫出可利用的攻擊程式碼。</p>
+        <p>數字很直接：Claude Mythos 在測試中的零日漏洞利用成功率是 72.4%，相比之下 Claude Opus 4.6 接近 0%。目標涵蓋市面上每個主流作業系統和每個主流瀏覽器，找到的漏洞包括一個潛伏 27 年的 OpenBSD 安全缺陷、以及 CVE-2026-4747，一個存在 17 年的 FreeBSD 遠端程式執行漏洞。Project Glasswing 加入了 11 家機構：AWS、Apple、Broadcom、Cisco、CrowdStrike、Google、JPMorgan Chase、Linux Foundation、Microsoft、NVIDIA、Palo Alto Networks。Anthropic 提供最多 1 億美元算力資源，另撥 400 萬美元捐給開源資安組織。Mythos 不對外開放，原因是濫用風險過高。</p>
+      </div>
+
+      <details>
+        <summary>📊 展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">Claude Mythos vs. 既有模型：零日漏洞利用能力</div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">Claude Mythos Preview — 零日漏洞利用成功率</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 72.4%; background: linear-gradient(90deg, #a855f7, #7c3aed);">72.4%</div>
+            </div>
+          </div>
+          <div class="chart-bar-group">
+            <div class="chart-bar-label">Claude Opus 4.6 — 零日漏洞利用成功率</div>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: 2%; background: linear-gradient(90deg, #4a9eff, #1a6fd4);">~0%</div>
+            </div>
+          </div>
+          <div style="margin-top: 20px; padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">Anthropic 投入算力資源</span>
+              <span class="chart-row-value">最多 1 億美元</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">開源資安組織捐款</span>
+              <span class="chart-row-value">400 萬美元</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">參與機構數</span>
+              <span class="chart-row-value">11 家</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">最古老發現漏洞</span>
+              <span class="chart-row-value">OpenBSD（存在 27 年）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">CVE-2026-4747</span>
+              <span class="chart-row-value">FreeBSD RCE（存在 17 年）</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：Anthropic / The Register / Tom's Hardware / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">相關討論</span>
+        <ol>
+          <li><span class="discuss-tag">官方聲明</span> <a href="https://www.anthropic.com/glasswing" target="_blank" rel="noopener">Anthropic 官方</a>在 Project Glasswing 公告中說明不公開 Mythos 的決策邏輯：「這個模型的能力已超過負責任開放的門檻，我們優先選擇將它用於防禦性研究，而不是讓所有人可以取用。」公告同時列出 11 家合作機構，強調協作修補是本次計畫的核心。</li>
+          <li><span class="discuss-tag">媒體報導</span> <a href="https://www.theregister.com/2026/04/07/anthropic_all_your_zerodays_are_belong_to_us/" target="_blank" rel="noopener">The Register</a> 指出，這是目前公開記錄中，AI 模型在真實作業系統和瀏覽器上發現並利用零日漏洞成功率最高的案例，遠超過過去所有已發表的學術研究結果。報導也注意到這批合作機構橫跨雲端、晶片、資安、金融，幾乎是整個數位基礎建設的主要持份者。</li>
+          <li><span class="discuss-tag">產業觀點</span> <a href="https://www.coindesk.com/markets/2026/04/08/move-over-bitcoin-and-quantum-risks-anthropic-s-mythos-ai-changes-everything-for-defi" target="_blank" rel="noopener">CoinDesk</a> 的分析指出，DeFi 協議依賴的底層密碼學函式庫（OpenSSL、libsecp256k1）若存在未知零日漏洞，AI 現在能比人類研究員更快找到，這對鏈上資產安全的影響比量子運算更即時——量子威脅是 2029 年，Mythos 是今天。</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 2: NYT Satoshi / Adam Back -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-crypto">比特幣</span>
+        <span class="tag tag-crypto">Satoshi</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://techcrunch.com/2026/04/08/british-cryptographer-adam-back-denies-nyt-report-that-he-is-bitcoin-creator-satoshi-nakamoto/" target="_blank" rel="noopener">《紐約時報》追查一年點名 Adam Back 是最可能的 Satoshi，他否認了</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://techcrunch.com/2026/04/08/british-cryptographer-adam-back-denies-nyt-report-that-he-is-bitcoin-creator-satoshi-nakamoto/" target="_blank" rel="noopener">TechCrunch</a> ｜ <a href="https://www.coindesk.com/markets/2026/04/08/adam-back-denies-he-s-satoshi-nakamoto-after-nyt-report-claims-he-s-bitcoin-s-creator" target="_blank" rel="noopener">CoinDesk</a> ｜ <a href="https://www.cnbc.com/2026/04/08/latest-investigation-of-bitcoin-founder-ties-identity-to-blockstream-ceo-adam-back.html" target="_blank" rel="noopener">CNBC</a></div>
+      <div class="story-body">
+        <p>Satoshi Nakamoto 的真實身份，是加密貨幣史上最長的懸案。Craig Wright 主張自己是 Satoshi（後被英國法院認定造假）、Hal Finney 和 Nick Szabo 都曾被社群指名，但沒有一個獲得廣泛認可。《紐約時報》這次派出 John Carreyrou——以揭發 Theranos 醜聞聞名的調查記者——花超過一年時間重新追查。</p>
+        <p>調查方法是分析 Cypherpunks、Cryptography 和 Hashcash 郵件列表從 1992 年到 Bitcoin 白皮書發表前夕（2008 年 10 月 30 日）的歷史檔案，共涵蓋 34,000 名使用者，最終縮小到 8 名候選人。《紐時》認為 Blockstream 執行長 Adam Back 是「迄今最強的候選人」：他是 Hashcash 發明者，Bitcoin 白皮書直接引用了這個工作量證明機制；寫作習慣（句尾雙空格、英式拼法、特定用詞偏好）也與 Satoshi 的留存文字高度吻合。Back 隔天公開否認：「這些重疊反映的是密碼龐克社群的共同文化，不是隱藏的作者身份。」</p>
+      </div>
+
+      <details>
+        <summary>📊 展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">Satoshi 身份追查：《紐約時報》調查方法一覽</div>
+          <div class="chart-timeline">
+            <div class="chart-timeline-item">
+              <div class="chart-timeline-date">1997 年</div>
+              <div class="chart-timeline-text">Adam Back 發明 Hashcash，工作量證明機制的雛形</div>
+            </div>
+            <div class="chart-timeline-item">
+              <div class="chart-timeline-date">2008 年 10 月 31 日</div>
+              <div class="chart-timeline-text">Satoshi Nakamoto 發表 Bitcoin 白皮書，直接引用 Hashcash</div>
+            </div>
+            <div class="chart-timeline-item">
+              <div class="chart-timeline-date">2024 年初</div>
+              <div class="chart-timeline-text">《紐時》調查記者 John Carreyrou 開始追查</div>
+            </div>
+            <div class="chart-timeline-item highlight">
+              <div class="chart-timeline-date">2026 年 4 月 8 日</div>
+              <div class="chart-timeline-text">《紐時》發布調查報告，點名 Adam Back；Back 同日否認</div>
+            </div>
+          </div>
+          <div style="margin-top: 20px; padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">調查涵蓋郵件列表使用者</span>
+              <span class="chart-row-value">34,000 人</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">最終候選人數</span>
+              <span class="chart-row-value">8 人</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">調查依據</span>
+              <span class="chart-row-value">寫作風格、用詞、時間戳記</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">Adam Back 現任職位</span>
+              <span class="chart-row-value">Blockstream 執行長（共同創辦人）</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：New York Times / TechCrunch / CoinDesk / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">相關討論</span>
+        <ol>
+          <li><span class="discuss-tag">當事人回應</span> Blockstream 執行長 <a href="https://techcrunch.com/2026/04/08/british-cryptographer-adam-back-denies-nyt-report-that-he-is-bitcoin-creator-satoshi-nakamoto/" target="_blank" rel="noopener">Adam Back</a> 在公開貼文中否認《紐時》報告的結論，稱寫作習慣的重疊是「密碼龐克社群的共同文化背景」，而非隱藏身份的證據。他也指出，Hashcash 的工作量證明機制在 Bitcoin 出現前已廣為人知，任何熟悉這個領域的人都可能有類似的行文方式。</li>
+          <li><span class="discuss-tag">媒體報導</span> <a href="https://www.coindesk.com/markets/2026/04/08/adam-back-denies-he-s-satoshi-nakamoto-after-nyt-report-claims-he-s-bitcoin-s-creator" target="_blank" rel="noopener">CoinDesk</a> 整理了加密社群的反應：多數資深比特幣參與者對此報告持懷疑態度，認為 Craig Wright 案留下的教訓是，沒有私鑰簽名就沒有確定性。也有人指出，如果 Back 真的是 Satoshi，他持有的早期比特幣至今從未動用，這是現有最有力的間接否認。</li>
+          <li><span class="discuss-tag">不同角度</span> <a href="https://www.cnbc.com/2026/04/08/latest-investigation-of-bitcoin-founder-ties-identity-to-blockstream-ceo-adam-back.html" target="_blank" rel="noopener">CNBC</a> 引述早期比特幣參與者 Nicholas Gregory 的看法：「Carreyrou 的調查方法嚴謹，但寫作風格分析對於在相同技術社群中成長的人來說，結論有很大的誤差空間。」他說「最終只有一種辦法能證明：移動 Satoshi 的早期比特幣。」</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Story 3: White House CEA stablecoin yield -->
+    <article class="story">
+      <div class="story-tags">
+        <span class="tag tag-policy">監管政策</span>
+        <span class="tag tag-crypto">穩定幣</span>
+      </div>
+      <h2 class="story-title">
+        <a href="https://www.whitehouse.gov/research/2026/04/effects-of-stablecoin-yield-prohibition-on-bank-lending/" target="_blank" rel="noopener">白宮資料：禁止穩定幣孳息讓銀行多貸 21 億，但消費者損失 8 億</a>
+      </h2>
+      <div class="story-source">來源：<a href="https://www.whitehouse.gov/research/2026/04/effects-of-stablecoin-yield-prohibition-on-bank-lending/" target="_blank" rel="noopener">白宮經濟顧問委員會報告</a> ｜ <a href="https://www.coindesk.com/policy/2026/04/08/white-house-study-bolsters-crypto-s-stance-in-stablecoin-yield-fight-against-bankers" target="_blank" rel="noopener">CoinDesk</a></div>
+      <div class="story-body">
+        <p>GENIUS Act 在 2025 年 7 月通過時，包含一條禁止穩定幣提供孳息（yield）的條文。這條禁令的理由是保護銀行存款：若穩定幣可以提供收益，資金會大量流出傳統銀行帳戶，侵蝕銀行的放貸能力。這個邏輯成為整條禁令的核心依據，並且已經入法。</p>
+        <p>4 月 8 日，白宮經濟顧問委員會（CEA）發布研究報告，用數字正面挑戰這個邏輯。按 CEA 的估算，禁止穩定幣孳息對銀行貸款規模的影響是：增加 21 億美元，約佔美國銀行業總放貸量的 0.02%。代價則是消費者損失約 8 億美元的收益。成本效益比是 6.6——禁令的代價是效益的 6.6 倍。CEA 結論是「孳息禁令對銀行放貸的保護作用微乎其微，卻放棄了穩定幣競爭性收益帶來的消費者利益」。這份報告來自行政體系內部，時間點正值參議院審議《數位資產市場清晰法》，說法不一。</p>
+      </div>
+
+      <details>
+        <summary>📊 展開圖表</summary>
+        <div class="chart-wrap">
+          <div class="chart-title">穩定幣孳息禁令：成本 vs. 效益（白宮 CEA 估算）</div>
+          <div class="chart-compare" style="margin-bottom: 20px;">
+            <div class="chart-compare-box">
+              <div class="chart-compare-label">禁令帶來的銀行放貸增加</div>
+              <div class="chart-compare-value" style="color: #4a9eff;">$21 億</div>
+              <div class="chart-compare-note">佔美國總放貸量 0.02%</div>
+            </div>
+            <div class="chart-compare-box">
+              <div class="chart-compare-label">消費者損失的收益福利</div>
+              <div class="chart-compare-value" style="color: #ff6b6b;">$8 億</div>
+              <div class="chart-compare-note">相當於禁令效益的 38%</div>
+            </div>
+          </div>
+          <div style="padding-top: 12px; border-top: 1px solid #222;">
+            <div class="chart-row">
+              <span class="chart-row-label">成本效益比</span>
+              <span class="chart-row-value">6.6 倍（禁令代價 > 效益）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">報告發布機構</span>
+              <span class="chart-row-value">白宮經濟顧問委員會（CEA）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">GENIUS Act 孳息禁令生效時間</span>
+              <span class="chart-row-value">2025 年 7 月（已入法）</span>
+            </div>
+            <div class="chart-row">
+              <span class="chart-row-label">研究發布時間</span>
+              <span class="chart-row-value">2026 年 4 月 8 日</span>
+            </div>
+          </div>
+          <div class="chart-source">資料來源：白宮 CEA / CoinDesk / 區塊勢整理</div>
+        </div>
+      </details>
+
+      <div class="story-discuss">
+        <span class="discuss-title">相關討論</span>
+        <ol>
+          <li><span class="discuss-tag">官方來源</span> <a href="https://www.whitehouse.gov/research/2026/04/effects-of-stablecoin-yield-prohibition-on-bank-lending/" target="_blank" rel="noopener">白宮 CEA 報告</a>原文指出，銀行業者支持禁令的核心論點——穩定幣吸走存款會削減放貸能力——在資料上站不住腳。報告強調，穩定幣孳息的潛在替代品是貨幣市場基金，而非銀行存款，因此轉移效果非常有限。</li>
+          <li><span class="discuss-tag">產業觀點</span> <a href="https://www.coindesk.com/policy/2026/04/08/white-house-study-bolsters-crypto-s-stance-in-stablecoin-yield-fight-against-bankers" target="_blank" rel="noopener">CoinDesk</a> 的分析指出，這份報告的政治意義不小於學術意義——它來自行政體系本身，而 GENIUS Act 是白宮支持通過的法案。白宮現在等於是在用自己產出的數字，挑戰自己支持的法律條文，預示著後續修訂的可能。</li>
+          <li><span class="discuss-tag">監管背景</span> 相關：GENIUS Act 的孳息禁令是美國銀行業者（代表機構包括美國銀行家協會 ABA）在立法過程中成功遊說的結果。這份 CEA 報告，讓這個遊說結果在數字層面受到正式挑戰。參議院目前審議的《數位資產市場清晰法》是否會修改這條禁令，目前說法不一。</li>
+        </ol>
+      </div>
+    </article>
+
+    <footer class="page-footer">
+      每日摘要 · 2026-04-09 · 自動生成，供個人閱讀參考，不構成投資建議
+    </footer>
+  </div>
+</body>
+</html>
