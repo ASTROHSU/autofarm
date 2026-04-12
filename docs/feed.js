@@ -1,4 +1,4 @@
-{
+window.FEED_DATA = {
   "lastUpdated": "2026-04-12T00:18:26Z",
   "items": [
     {
@@ -4246,4 +4246,4 @@
     }
   ],
   "last_scan_date": "2026-04-10"
-}
+};
