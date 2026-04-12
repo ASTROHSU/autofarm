@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T00:18:26Z",
+  "lastUpdated": "2026-04-12T08:30:00Z",
   "items": [
     {
       "tags": [
@@ -2913,6 +2913,44 @@
       "discussion_count": 3,
       "importance_score": 9,
       "added_date": "2026-03-31"
+    },
+    {
+      "id": "2026-04-12-Scroll-手續費暴增-1280-倍-超收五萬美元",
+      "title": "Scroll 偷灌手續費 1,280 倍：13.9 萬筆交易超收 5 萬美元，最大客戶正要搬走",
+      "url": "https://thedefiant.io/news/blockchains/scroll-users-paid-usd50k-in-excess-fees-after-team-cranked-l1-fees-by-1-280x",
+      "tags": [
+        "L2",
+        "Scroll",
+        "手續費"
+      ],
+      "date": "2026-04-12",
+      "sources": [
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/blockchains/scroll-users-paid-usd50k-in-excess-fees-after-team-cranked-l1-fees-by-1-280x",
+          "title": "Scroll Users Paid $50K in Excess Fees After Team Cranked L1 Fees by 1,280x",
+          "added_date": "2026-04-12"
+        },
+        {
+          "name": "L2BEAT",
+          "url": "https://x.com/l2beat/status/2042663064038756785",
+          "title": "L2BEAT 分析 Scroll 手續費異常",
+          "added_date": "2026-04-12"
+        },
+        {
+          "name": "ETH Daily",
+          "url": "https://ethdaily.io",
+          "title": "ETH Daily Newsletter 報導 Scroll 超收事件",
+          "added_date": "2026-04-12"
+        }
+      ],
+      "summary": "<p>Scroll 團隊透過多簽錢包，在 4 月 4 日至 8 日間對 L1 手續費乘數做了 6 次手動調高，複合效果把費率推到基線的 1,280 倍。13.9 萬筆交易受影響，原本只要 $280 的總成本被灌到超過 5 萬美元。Succinct 工程師 fakedev9999 實測：單筆手續費從 $0.002 跳到 $20 以上。</p><p>其中 66%（約 3.5 萬美元）落在 ether.fi 的遷移機器人上——ether.fi 正從 Scroll 搬到 OP Mainnet，時間點高度重疊。4 月 9 日 Scroll 把乘數降了 160 倍，但仍是基線的 8 倍。Scroll 團隊至今未公開回應。</p>",
+      "chart": "<div class='chart-wrap'><div style='background:#ffffff;padding:20px;border-radius:12px;font-family:system-ui,-apple-system,sans-serif;color:#1a1a1a;max-width:520px'><div style='font-size:14px;color:#666;margin-bottom:16px'>主要 L2 每筆交易中位費用（2026 年 4 月）</div><div style='position:relative'><div style='display:flex;align-items:center;margin-bottom:10px'><div style='width:120px;font-size:12px;color:#666;flex-shrink:0'>Arbitrum One</div><div style='flex:1;background:#f5f5f5;border-radius:4px;height:24px;position:relative'><div style='background:#42a5f5;border-radius:4px;height:24px;width:8%'></div></div><div style='width:60px;text-align:right;font-size:12px;color:#666'>$0.003</div></div><div style='display:flex;align-items:center;margin-bottom:10px'><div style='width:120px;font-size:12px;color:#666;flex-shrink:0'>Base</div><div style='flex:1;background:#f5f5f5;border-radius:4px;height:24px;position:relative'><div style='background:#42a5f5;border-radius:4px;height:24px;width:5%'></div></div><div style='width:60px;text-align:right;font-size:12px;color:#666'>$0.002</div></div><div style='display:flex;align-items:center;margin-bottom:10px'><div style='width:120px;font-size:12px;color:#666;flex-shrink:0'>OP Mainnet</div><div style='flex:1;background:#f5f5f5;border-radius:4px;height:24px;position:relative'><div style='background:#42a5f5;border-radius:4px;height:24px;width:10%'></div></div><div style='width:60px;text-align:right;font-size:12px;color:#666'>$0.004</div></div><div style='display:flex;align-items:center;margin-bottom:10px'><div style='width:120px;font-size:12px;color:#666;flex-shrink:0'>Scroll（正常）</div><div style='flex:1;background:#f5f5f5;border-radius:4px;height:24px;position:relative'><div style='background:#66bb6a;border-radius:4px;height:24px;width:5%'></div></div><div style='width:60px;text-align:right;font-size:12px;color:#666'>$0.002</div></div><div style='display:flex;align-items:center;margin-bottom:10px'><div style='width:120px;font-size:12px;color:#ef5350;flex-shrink:0;font-weight:600'>Scroll（灌高後）</div><div style='flex:1;background:#f5f5f5;border-radius:4px;height:24px;position:relative'><div style='background:#ef5350;border-radius:4px;height:24px;width:100%'></div></div><div style='width:60px;text-align:right;font-size:12px;color:#ef5350;font-weight:600'>$20+</div></div></div><div style='font-size:11px;color:#999;margin-top:12px'>資料來源：L2BEAT、fakedev9999 實測 / 區塊勢整理</div></div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>鏈上分析</span> L2BEAT 拆解 Scroll 的 6 次手動調高過程，指出複合乘數達到基線的 1,280 倍，13.9 萬筆交易受影響 — <a href='https://x.com/l2beat/status/2042663064038756785' target='_blank' rel='noopener'>@l2beat</a></li><li><span class='discuss-tag'>開發者實測</span> Succinct 工程師 fakedev9999 最早公開揭露，實測單筆手續費從 $0.002 暴漲到 $20 以上 — <a href='https://x.com/fakedev9999/status/2041716419893850379' target='_blank' rel='noopener'>@fakedev9999</a></li></ol></div>",
+      "source_count": 3,
+      "discussion_count": 2,
+      "importance_score": 8,
+      "added_date": "2026-04-12"
     },
     {
       "id": "2026-04-04-加拿大央行報告背書-Aave-DeFi-借貸可行",
