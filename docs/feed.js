@@ -1,5 +1,5 @@
 window.FEED_DATA = {
-  "lastUpdated": "2026-04-12T08:30:00Z",
+  "lastUpdated": "2026-04-15T12:16:30Z",
   "items": [
     {
       "tags": [
@@ -140,15 +140,146 @@ window.FEED_DATA = {
       "added_date": "2026-03-31"
     },
     {
+      "id": "2026-04-09-美伊停火-BTC-突破戰爭區間-6億美元空單爆倉",
+      "title": "美伊談判再轉折：Trump 放消息要重啟，BTC 一口氣衝破 75,000、空單被夾殺",
+      "url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-u-s-stock-futures-surge-on-a-two-week-u-s-iran-ceasefire",
+      "tags": [
+        "Bitcoin",
+        "市場",
+        "地緣政治"
+      ],
+      "date": "2026-04-14",
+      "image": "images/2026-04-09-BTC-6-36cfc447.png",
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-u-s-stock-futures-surge-on-a-two-week-u-s-iran-ceasefire",
+          "title": "美伊停火令比特幣與美股期貨同步飆漲",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/bitcoin-surges-to-72700-as-us-iran-ceasefire-triggers-massive-short-squeeze/",
+          "title": "比特幣飆至 72,700 美元：美伊停火觸發史詩級空頭軋壓",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/363641/iran-bitcoin-payments-oil-ships-seeking-hormuz-passage",
+          "title": "加密市場因停火消息全面飆漲，油價暴跌",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "Milk Road",
+          "url": "https://mrcrypto.milkroad.com/p/3-big-pieces-of-news-you-just-missed",
+          "title": "停火剛簽完沙烏地管線就被炸，兩週停火能撐多久？",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://newsletter2.thedefiant.io/p/agents-get-tradfi-and-crypto-infra",
+          "title": "停火消息推動市場大漲，但伊朗稱以色列違約",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://bankless.ghost.io/indie-ethereum-tooling/",
+          "title": "市場快照：停火消息後加密市場大漲",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/oil-below-100-bitcoin-above-72k",
+          "title": "油價跌破 100 美元、比特幣站上 72K：趨勢真的翻轉了嗎？",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "Blockworks",
+          "url": "https://mail.blockworks.com/p/grokking-the-new-lexicon",
+          "title": "每日市場快照：停火消息後市場大幅反彈",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/12/bitcoin-slips-below-usd71-000-as-trump-orders-blockade-of-strait-of-hormuz",
+          "title": "Trump 下令封鎖荷莫茲海峽，比特幣跌破 71,000 美元",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "CryptoBriefing",
+          "url": "https://cryptobriefing.com/trump-announces-strait-hormuz-blockade-iran-nuclear-talks-collapse-bitcoin-deepens-losses/",
+          "title": "Trump 宣布荷莫茲海峽封鎖，伊朗核談判破裂，比特幣擴大跌勢",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/12/oil-futures-up-7-on-hyperliquid-as-trump-orders-naval-blockade-of-hormuz",
+          "title": "Trump 下令海軍封鎖荷莫茲，油價期貨漲 7%",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/11/bitcoin-and-other-cryptos-fall-as-u-s-iranian-negotiators-fail-to-reach-war-resolution",
+          "title": "美伊談判破裂，比特幣與加密市場下跌",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-12/trump-says-us-will-begin-blockade-of-ships-to-and-from-hormuz",
+          "title": "Trump 宣布美國將封鎖荷莫茲海峽進出船隻",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/bitcoin-surges-to-four-week-high-above-74000-on-us-iran-peace-talks-optimism-unchained/",
+          "title": "美伊重啟和談樂觀情緒推動 BTC 衝上四週高點 74,900 美元",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-hits-75-000-for-the-first-time-since-early-february",
+          "title": "比特幣自 2 月初以來首度觸及 75,000 美元：能否守住、守住代表什麼？",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/364294/bitcoin-shorts-rekt-btc-jumps-above-75k-2-month-price-high",
+          "title": "比特幣衝破 75K、創兩個月新高，空單被夾殺清算",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/markets/ether-outperforms-as-bitcoin-tops-usd75-000",
+          "title": "比特幣突破 75,000，ETH 漲幅更強，整體市值逼近 2.6 兆",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://www.bankless.com/read/news/crypto-market-rally-bitcoin-ethereum",
+          "title": "BTC 與 ETH 進入金髮姑娘行情，ETH 一週漲 12%",
+          "added_date": "2026-04-14"
+        }
+      ],
+      "summary": "<p>比特幣這個月跟美伊局勢綁在一起動。4 月 7 日 Trump 宣布兩週停火後 BTC 衝上 72,700，6 億美元空單爆倉；停火期間伊朗還收油輪每桶 1 美元的比特幣過路費，成為主權國家第一次把 BTC 寫進國際航運強制收費。沒想到只撐了五天——4 月 12 日巴基斯坦和談在 21 小時面對面談判後破裂，Trump 在 Truth Social 宣布「立即封鎖」荷莫茲海峽，BTC 隨即跌破 71,000。</p><p>4 月 14 日劇本又翻一面：Trump 放話已經重新和伊朗接觸，BTC 24 小時內漲超過 5%，衝上 75,000，是 2 月以來首度重返這個價位。成交量暴增 80% 到 512.5 億美元，ETH 也跟漲 8% 到 2,367 美元，整體加密市值逼近 2.6 兆美元。7 萬美元附近被 ETF 資金接走，7 萬 5 如果守得住，分析師看下一波目標 8 萬。不過 4 月 15 日是美國報稅截止日，加上油價帶動的通膨疑慮，可能壓住 Fed 降息節奏。CoinShares 資料顯示加密投資產品本週流入 11 億美元，是 1 月以來單週最多，其中 95% 來自美國投資人。</p>",
+      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">從停火到封鎖：五天內的劇烈反轉</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/7</div>\n<div class=\"chart-timeline-text\">Trump 宣布兩週停火，BTC 衝上 $72,700，6 億美元空單爆倉</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/8</div>\n<div class=\"chart-timeline-text\">伊朗開始向過境油輪收取比特幣過路費，每桶 $1、滿載油輪 $200 萬</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/11</div>\n<div class=\"chart-timeline-text\">巴基斯坦面對面和談展開，Vance 率團與伊朗談判 21 小時</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">4/12</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">和談破裂：伊朗拒絕放棄濃縮鈾、拒絕交出海峽控制權。Trump 宣布立即封鎖荷莫茲海峽</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">4/12-13</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">油價漲 8% 至 $102，BTC 跌破 $71,000 回吐停火漲幅，加密市場整體下跌約 2%</div>\n</div>\n</div>\n<div style=\"display:flex;gap:10px;margin-top:16px\">\n<div style=\"flex:1;background:#e8f5e9;border-radius:10px;padding:12px;text-align:center;border:1px solid #c8e6c9\">\n<div style=\"font-size:20px;font-weight:700;color:#66bb6a;line-height:1.2\">$72,700</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">停火後高點</div>\n</div>\n<div style=\"flex:1;background:#fbe9e7;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffccbc\">\n<div style=\"font-size:20px;font-weight:700;color:#ef5350;line-height:1.2\">&lt;$71,000</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">封鎖後回落</div>\n</div>\n<div style=\"flex:1;background:#fff3e0;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffe0b2\">\n<div style=\"font-size:20px;font-weight:700;color:#e65100;line-height:1.2\">$102</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">油價重返三位數</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：CoinDesk、Bloomberg / 區塊勢整理</div>\n</div>",
+      "discussions": "<div class='story-discuss'><ol>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/IranIntl_En/status/2043318134094864417\" target=\"_blank\" rel=\"noopener\">Iran International</a>（媒體）：「Trump 在 Truth Social 發文：美國海軍將立即開始封鎖任何試圖進入或離開荷莫茲海峽的船隻。任何向我們或向和平船隻開火的伊朗人，都將被炸上天。」</li>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/CNBCTV18News/status/2043329102292140340\" target=\"_blank\" rel=\"noopener\">CNBC-TV18</a>：「Trump 宣布海軍封鎖荷莫茲海峽，指控伊朗拒絕放棄核武野心。他稱此為『全球勒索』，並警告美國已『裝彈上膛』。」</li>\n<li><span class='discuss-tag'>分析師</span><a href=\"https://x.com/RayDalio/status/2041531182018367773\" target=\"_blank\" rel=\"noopener\">Ray Dalio</a>（Bridgewater 創辦人）：「市場嚴重低估了當前的地緣政治環境。多數人以為這只是一場孤立的美伊衝突，但這其實是一場早期世界大戰的一部分。我估計五年內至少發生一場重大新軍事衝突的機率超過 50%，其中美中在台灣問題上的對抗風險在 2028 年前後達到高峰。」</li>\n<li><span class='discuss-tag'>市場分析</span><a href=\"https://x.com/Darkfost_Coc/status/2041780360199942600\" target=\"_blank\" rel=\"noopener\">Darkfost</a>（鏈上分析師）：「停火消息後 Binance 衍生品市場出現 27 億美元 BTC 買單。」（然後封鎖消息讓這些多單全部承壓。）</li>\n<li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/simplykashif/status/2042281739566137386\" target=\"_blank\" rel=\"noopener\">Kashif Raza</a>（加密分析師）：「伊朗要求每艘船付 200 萬美元的比特幣過路費。但如果美軍封鎖了海峽，這些收費也不可能繼續。這是 BTC 被用在主權對抗中的第一次實戰——結果可能跟它的支持者期望的不一樣。」</li>\n<li><span class='discuss-tag'>不同角度</span>停火前 Fear and Greed 指數跌至 8（2022 年 FTX 崩盤以來最低），停火後快速回升。封鎖消息再度打回恐懼區間——五天內完成一個從極度恐懼到貪婪再回到恐懼的完整週期。</li>\n</ol></div>",
+      "source_count": 18,
+      "discussion_count": 6,
+      "importance_score": 42,
+      "added_date": "2026-04-09",
+      "_image_source": "gemini",
+      "last_updated": "2026-04-13"
+    },
+    {
       "id": "2026-04-03-CLARITY-Act-穩定幣收益妥協案-參議院闖關中",
-      "title": "美國財政部長投書 WSJ 嗆反對派是「產業虛無主義者」：CLARITY Act 通過賠率四個月掉 23 個百分點",
+      "title": "Tillis 這週丟出 CLARITY Act 修訂版：4 月底拚參議院銀行委員會表決",
       "url": "https://www.coindesk.com/policy/2026/03/20/crypto-clarity-act-may-be-cleared-to-move-after-senators-agree-on-stablecoin-yield",
       "tags": [
         "監管",
         "穩定幣",
         "美國"
       ],
-      "date": "2026-04-11",
+      "date": "2026-04-14",
       "image": "https://cdn.sanity.io/images/s3y3vcno/production/6358c84c306ac3cf8d25f7f469a1f241604fd222-7999x5335.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
       "sources": [
         {
@@ -231,32 +362,56 @@ window.FEED_DATA = {
           "url": "https://www.usnews.com/news/politics/articles/2026-04-09/bessent-urges-congress-to-pass-crypto-regulation-bill",
           "title": "Bessent 敦促國會通過加密監管法案",
           "added_date": "2026-04-12"
+        },
+        {
+          "name": "CoinDesk Daybook",
+          "url": "https://www.coindesk.com/daybook-us",
+          "title": "SEC CLARITY Act 圓桌會議今日登場，參議院本週復會",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/tillis-plans-to-release-stablecoin-yield-draft-this-week-with-clarity-act-markup-targeted-for-late-april-unchained/",
+          "title": "Tillis 本週公布穩定幣收益草案，目標 4 月下旬 CLARITY Act 委員會審議",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/04/13/white-house-s-top-crypto-adviser-witt-says-talks-clearing-other-points-on-clarity-act",
+          "title": "白宮加密顧問 Witt：CLARITY Act 協商已清除多個僵持點",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "ABA Banking Journal",
+          "url": "https://bankingjournal.aba.com/2026/04/the-cea-studied-the-wrong-question-on-stablecoin-yield-and-community-banks/",
+          "title": "ABA：白宮經濟顧問報告研究錯題目，忽略收益型穩定幣規模化的真正風險",
+          "added_date": "2026-04-13"
         }
       ],
-      "summary": "<p>CLARITY Act 去年 7 月眾議院通過後在參議院卡了超過半年。3 月參議員就穩定幣收益達成妥協：禁被動付息、保留與支付綁定的「活動獎勵」；白宮 4 月 8 日再用模型加碼：全面禁收益只讓銀行放貸增 0.02%，消費者反而少賺 8 億美元。</p><p>這背後，財政部長 Scott Bessent 4 月 9 日投書 WSJ 罵反對派是「產業虛無主義者」，警告開發商正搬去 Abu Dhabi 和 Singapore。參議員 Bernie Moreno 同步警告：5 月前不過銀行委員會，加密立法就要等到明年期中選舉後。預測市場對今年通過的賠率已從 2 月的 82% 跌到 59%。</p>",
+      "summary": "<p>CLARITY Act 去年 7 月眾議院通過後在參議院卡了超過半年。3 月參議員就穩定幣收益達成妥協：禁被動付息、保留與支付綁定的「活動獎勵」；白宮 4 月 8 日再用模型加碼：全面禁收益只讓銀行放貸增 0.02%，消費者反而少賺 8 億美元。4 月 14 日 SEC 在華盛頓舉辦 CLARITY Act 圓桌會議，公開討論 SEC 和 CFTC 未來如何分工管轄數位資產。</p><p>同一天 Politico 披露：Thom Tillis 本週要把新版穩定幣收益條款文字丟出來，目標是 4 月下旬參議院銀行委員會開 markup。新版是 Tillis 和民主黨的 Angela Alsobrooks 磨了幾個月的成果。白宮加密顧問 Patrick Witt 同日也表示穩定幣以外的爭議點「多數已經清掉或接近清掉」。Coinbase 看過先前草案後告訴參議院幕僚無法支持，銀行遊說方則主張再綁緊一點。ABA 抨擊白宮報告「研究錯題目」，真正風險是收益型穩定幣規模跑到 1 到 2 兆美元之後。Polymarket 對 2026 年內簽成法律的賠率已從 2 月的 82% 掉到 59%，參議員 Bernie Moreno 警告錯過 4 月 markup 視窗，整套法案可能得等到 2027 年期中選舉後。</p>",
       "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">預測市場對 CLARITY Act 今年通過的賠率，四個月從 82% 跌到 59%</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:14px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:11px;color:#888;margin-bottom:4px\">2 月賠率</div><div style=\"font-size:28px;font-weight:700;color:#66bb6a;line-height:1.1\">82%</div></div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:14px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:11px;color:#888;margin-bottom:4px\">4 月賠率</div><div style=\"font-size:28px;font-weight:700;color:#ef5350;line-height:1.1\">59%</div></div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:14px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:11px;color:#888;margin-bottom:4px\">5 月截止前</div><div style=\"font-size:28px;font-weight:700;color:#ffa726;line-height:1.1\">剩 3 週</div></div>\n</div>\n<div style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div style=\"font-size:13px;color:#666;line-height:1.7\">\n<p><strong>時間軸：</strong></p>\n<p>・2025 年 7 月：眾議院 294:134 通過 CLARITY Act<br>・2026 年 3 月 20 日：Tillis 和 Alsobrooks 就穩定幣收益達成妥協<br>・2026 年 4 月 8 日：白宮 CEA 發布模型，禁收益只讓銀行放貸增 0.02%<br>・2026 年 4 月 9 日：財政部長 Bessent 投書 WSJ，嗆反對派是「產業虛無主義者」<br>・2026 年 4 月 13 日起：Hagerty 稱銀行委員會可在該週啟動 markup<br>・2026 年 5 月：若未通過委員會，依 Moreno 說法將拖到明年期中選後</p>\n<p><strong>兩大卡點：</strong>穩定幣收益 99% 已解決；Trump 家族個人加密事業是否入法，仍被部分支持加密的民主黨參議員擋著。</p>\n</div>\n</div>\n<div class=\"chart-source\">區塊勢整理，賠率資料來自 DeFi Rate 追蹤的預測市場</div>\n</div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>財政部語言</span> Bessent 在 WSJ 投書中直接把反對派叫做「產業虛無主義者」，點名 Abu Dhabi 和 Singapore 已經在吸走開發商 — <a href='https://decrypt.co/363821/treasury-secretary-bessent-slams-crypto-industry-nihilists-as-clarity-act-remains-in-limbo'>Decrypt</a></li><li><span class='discuss-tag'>最後期限</span> 參議員 Bernie Moreno 警告 5 月前未進銀行委員會 markup，加密立法就要等到 2027 年期中選後—— 266 天已經過去 — <a href='https://www.dlnews.com/articles/regulation/scott-bessent-leads-trump-administration-push-for-clarity-act-as-crucial-deadline-approaches/'>DL News</a></li><li><span class='discuss-tag'>產業背書</span> Coinbase CEO Brian Armstrong 同意 Bessent 的看法，稱現行法案已經是「強法案」，不要再把它當作談判籌碼 — <a href='https://unchainedcrypto.com/bessent-presses-senate-on-clarity-act-labels-resistant-crypto-leaders-nihilists-unchained/'>Unchained</a></li><li><span class='discuss-tag'>剩下的卡點</span> Trump 家族個人加密事業仍是部分民主黨要求明文禁止的條件，這比穩定幣收益更難收尾 — <a href='https://finance.yahoo.com/markets/crypto/articles/treasury-secretary-bessent-calls-crypto-220110838.html'>Yahoo Finance</a></li></ol></div>",
       "fetchedFrom": [
         "Gmail",
         "Web"
       ],
-      "source_count": 14,
+      "source_count": 18,
       "discussion_count": 4,
-      "importance_score": 32,
+      "importance_score": 40,
       "_image_source": "og",
       "added_date": "2026-04-03",
-      "last_updated": "2026-04-12"
+      "last_updated": "2026-04-14"
     },
     {
       "id": "2026-04-04-Drift-遭北韓駭客盜走-2.85-億美元",
-      "title": "Drift 2.85 億美元攻擊餘波：律師事務所啟動集體訴訟調查，Circle 的 GENIUS Act 責任浮上檯面",
+      "title": "Drift 攻擊餘波再延燒：Circle CEO 在首爾公開捍衛不凍結 USDC，ZachXBT 算出四年來逾 4.2 億美元贓款從 USDC 流出",
       "url": "https://www.coindesk.com/tech/2026/04/02/how-a-solana-feature-designed-for-convenience-let-an-attacker-drain-usd270-million-from-drift",
       "tags": [
         "DeFi",
         "安全",
         "Solana"
       ],
-      "date": "2026-04-08",
+      "date": "2026-04-13",
       "image": "images/2026-04-04-Drift-2-85-v2.png",
       "sources": [
         {
@@ -336,30 +491,36 @@ window.FEED_DATA = {
           "url": "https://www.coindesk.com/business/2026/04/03/circle-under-fire-after-usd285-million-drift-hack-over-inaction-to-freeze-stolen-usdc",
           "title": "Drift 2.85 億美元攻擊後 Circle 因未凍結被盜 USDC 遭猛烈抨擊",
           "added_date": "2026-04-08"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/397180/circle-ceo-allaire-defends-decision-not-to-freeze-usdc-in-drift-exploit-citing-moral-quandary",
+          "title": "Circle CEO Allaire 公開捍衛 Drift 攻擊期間不凍結 USDC 的決定，稱這是「道德困境」",
+          "added_date": "2026-04-14"
         }
       ],
-      "summary": "<p>Drift 4 月 5 日公布初步調查結果，揭露這起 2.85 億美元攻擊是北韓情報機關的長期滲透行動。攻擊者在一場大型加密貨幣會議上以量化交易公司的身份接觸 Drift 開發者，之後透過多次面對面工作會議、技術問答和存入超過 100 萬美元自有資金建立信任，整個過程長達六個月以上。</p><p>攻擊手法分兩條路線：一名開發者被誘導下載 TestFlight 應用程式，另一條可能利用了 VSCode 和 Cursor 的已知漏洞。取得多簽權限後，攻擊者利用 Solana 的 durable nonces 預簽功能，12 分鐘內掏空協議。區塊鏈安全研究員 tayvano 呼籲產業「從頭到尾讀完這份報告」，指出行動的深度和複雜的人設意味著其他團隊可能已經被鎖定。</p>",
+      "summary": "<p>Drift 4 月 5 日公布初步調查結果，揭露這起 2.85 億美元攻擊是北韓情報機關長達半年以上的滲透行動。攻擊者在大型加密貨幣會議上以量化交易公司身份接觸 Drift 開發者，多次面對面工作會議、技術問答、存入超過 100 萬美元自有資金建立信任後，利用 TestFlight 應用程式或 VSCode 漏洞取得多簽權限，再透過 Solana 的 durable nonces 預簽功能在 12 分鐘內把金庫掏空。</p><p>事件焦點本週轉向 Circle 的 USDC 凍結政策。執行長 Jeremy Allaire 4 月 13 日在首爾公開捍衛立場，稱 USDC 是受監管的金融商品，凍結決定必須來自法院命令或執法請求、不能屈從於攻擊當下的輿論壓力。鏈上偵探 ZachXBT 隨即列出帳：自 2022 年以來已有逾 4.2 億美元贓款透過 USDC 流出，光是這次 Drift 事件，攻擊者就有六小時可以把 2.32 億美元 USDC 從 Solana 橋到以太坊，期間 Circle 完全沒動作；對比 Tether 在類似事件數小時內就會凍結，差距明顯。律師事務所同時啟動集體訴訟調查，Allaire 進一步要求 GENIUS Act 給穩定幣發行商「責任豁免」條款。</p>",
       "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">Drift 2.85 億美元攻擊：六個月社交工程 + VSCode 零日漏洞</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">$2.85 億</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">被盜金額</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">6 個月</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">滲透期間</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">12 分鐘</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">掏空耗時</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">Solana</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">受影響鏈</div>\n</div>\n</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2025 年 10 月</div>\n<div class=\"chart-timeline-text\">攻擊者在加密大會接觸 Drift 開發者，偽裝為量化交易公司</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2025 年 10-2026 年 4 月</div>\n<div class=\"chart-timeline-text\">透過多次面對面會議、技術問答和存入超過 $100 萬建立信任</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年 4 月初</div>\n<div class=\"chart-timeline-text\">誘導開發者下載 TestFlight 應用或利用 VSCode/Cursor 漏洞</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">2026 年 4 月 3 日</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">取得多簽權限，用 durable nonces 預簽，12 分鐘內掏空協議</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">2026 年 4 月 5 日</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">Drift 公布調查結果，警告其他團隊可能已被鎖定</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：Drift 官方報告、區塊鏈分析 / 區塊勢整理</div>\n</div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/driftprotocol/status/2040611161121370409\" target=\"_blank\" rel=\"noopener\">Drift Protocol</a>（官方帳號）：「初步調查顯示 Drift 遭受的是一場有組織的情報行動。攻擊者在大型加密會議上以量化交易公司身份接觸開發者，經過多次面對面工作會議，存入超過 100 萬美元自有資金。」</li><li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/tayvano_/status/2040616103333040508\" target=\"_blank\" rel=\"noopener\">tayvano</a>（區塊鏈安全研究員）：「拜託加密圈每個人都把這份報告從頭讀到尾。我原本以為又是一起社交工程攻擊，結果完全不是。行動的深度和人設的複雜度讓我覺得，他們已經鎖定了其他團隊。」</li><li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/mert/status/2040615630609490353\" target=\"_blank\" rel=\"noopener\">Mert</a>（Helius 共同創辦人）：「如果屬實就太瘋狂了：駭客在線下會議隨意取得信任，開了 Telegram 群組變成客戶，花六個月建立整合關係，最後用一個 TestFlight 連結搞定一個人。」</li><li><span class='discuss-tag'>質疑聲音</span>社群質疑 Drift 的安全委員會為何在沒有時間鎖的情況下就能執行協議層級的遷移，認為零時間鎖設計是最後一道防線的致命缺陷</li><li><span class='discuss-tag'>質疑聲音</span><a href=\"https://bankless.ghost.io/cryptos-new-defense-protocol/\" target=\"_blank\" rel=\"noopener\">ZachXBT</a>（鏈上偵探）：估計 Circle 自 2022 年以來累計放任超過 4.2 億美元非法 USDC 流通未予凍結，攻擊者透過 CCTP 轉移贓款數小時無人介入</li></ol></div>",
-      "source_count": 13,
-      "discussion_count": 5,
-      "importance_score": 31,
+      "source_count": 14,
+      "discussion_count": 7,
+      "importance_score": 35,
       "_image_source": "gemini",
       "added_date": "2026-04-04",
       "last_updated": "2026-04-08"
     },
     {
       "id": "2026-04-10-WLFI-Dolomite-insider-borrow",
-      "title": "WLFI 拿自家代幣去顧問創辦的 Dolomite 借 7,500 萬：USD1 池子被抽到 93%，散戶想提都提不出來",
+      "title": "Justin Sun 公開跟 WLFI 宣戰：投資 1.75 億後才發現合約被偷塞「黑名單」，錢包直接被凍",
       "url": "https://www.coindesk.com/markets/2026/04/09/trump-s-world-liberty-financial-borrows-usd75-million-against-its-own-token-trapping-depositors-on-dolomite",
       "tags": [
         "DeFi",
         "監管"
       ],
-      "date": "2026-04-10",
-      "source_count": 12,
-      "discussion_count": 4,
-      "importance_score": 28,
+      "date": "2026-04-14",
+      "source_count": 14,
+      "discussion_count": 5,
+      "importance_score": 33,
       "sources": [
         {
           "name": "CoinDesk",
@@ -432,25 +593,37 @@ window.FEED_DATA = {
           "url": "https://www.coindesk.com/markets/2026/04/10/wlfi-called-it-fud-the-market-called-it-12",
           "title": "WLFI 說這是 FUD，市場說這是 -12%",
           "added_date": "2026-04-11"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://www.bankless.com/read/news/world-liberty-financial-sticky-situation-justin-sun-feud",
+          "title": "World Liberty Financial 的棘手處境：Justin Sun 反叛引發加密圈分裂",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://www.bankless.com/read/news/trump-backed-world-liberty-financial-defends-borrow-position",
+          "title": "Trump 支持的 World Liberty Financial 為鉅額借款辯護：把質疑通通說成 FUD",
+          "added_date": "2026-04-10"
         }
       ],
-      "summary": "<p>Trump 家族支持的 World Liberty Financial 一直是加密圈最敏感的代幣——總統的家族利益直接卡在一個 DeFi 項目上。週四被揭露的這筆交易，把整件事推進到傳統金融裡必須經過獨立審查才可能放行的「關聯方交易」層級：WLFI 把 50 億枚自家代幣（名目價值約 4.6 億美元）丟進 Dolomite 借款平台，借走 7,500 萬美元 USD1 穩定幣，而 Dolomite 的共同創辦人 Corey Caplan 本人就是 WLFI 的顧問。WLFI 占 Dolomite 整體存款的 55%。</p><p>其中 4,000 多萬美元已經被轉進 Coinbase Prime，USD1 池子的使用率被抽到 93%，一般存款人想把錢領出都困難。WLFI 當天跌了 10 到 12%，創下發行以來新低；去年團隊用金庫買回的 6,500 萬美元 WLFI 已經浮虧 48%。問題是 WLFI 本身交易量很薄，一旦被強制清算，抵押品崩跌的速度會比 Dolomite 吸收得還快，爛帳就會落在那些看起來像是在領 2-4% 穩健收益的散戶頭上。團隊把質疑稱為「FUD」，說「離清算還遠得很」，市場再補一刀。</p>",
+      "summary": "<p>Trump 家族支持的 World Liberty Financial 一直是加密圈最敏感的代幣——總統家族利益直接卡在一個 DeFi 項目上。4 月初先被抓到把 50 億枚自家代幣（名目 4.6 億美元）丟進顧問 Corey Caplan 創辦的 Dolomite，借走 7,500 萬美元 USD1 穩定幣，其中 4,000 萬進 Coinbase Prime、USD1 池子使用率被抽到 93%，散戶想提都提不出來。Chaos Labs 事後分析，WLFI 一個戶頭就佔了 Dolomite 82.7% 的 TVL 和 85.3% 的借款，整個池子實質上是在扛 Trump 家族這一顆抵押品的單。</p><p>沒想到自己人先翻臉。WLFI 最大金主 Justin Sun（投入 7,500 萬美元購買 WLFI、另外押 1 億到 TRUMP memecoin）4 月 12 日公開開砲，說他投資時合約裡根本沒有黑名單功能，WLFI 2025 年 8 月偷偷升級合約、加進「單方面凍結、限制、沒收」的權限，一週後代幣開始交易，他要轉出錢包就被直接凍住。Sun 罵 WLFI 把社群「當成提款機」，WLFI 團隊反過來威脅提告，說 Sun「拿被害人身份掩蓋自己的不當行為」。anon 研究員 banteg 比對合約也證實黑名單是後來加的。這次公開互撕把升級合約、未揭露管理員權限、選擇性凍結這些加密圈經典惡夢一次攤在陽光下。</p>",
       "chart": "<div class='chart-wrap'><div class='chart-compare' style='background:#ffffff;color:#1a1a1a;padding:20px;border:1px solid #e5e5e5;'><div style='font-size:14px;color:#666;margin-bottom:12px;'>Dolomite 存款結構（2026/04/10）</div><div style='display:flex;gap:16px;align-items:flex-end;height:180px;'><div style='flex:1;display:flex;flex-direction:column;align-items:center;'><div style='background:#1a1a1a;width:100%;height:100%;display:flex;align-items:flex-start;justify-content:center;padding-top:8px;color:#fff;font-size:13px;font-weight:600;'>$458.9M (55%)</div><div style='margin-top:8px;font-size:13px;text-align:center;'>WLFI 抵押</div></div><div style='flex:1;display:flex;flex-direction:column;align-items:center;'><div style='background:#999;width:100%;height:45%;display:flex;align-items:flex-start;justify-content:center;padding-top:8px;color:#fff;font-size:13px;font-weight:600;'>$376.8M (45%)</div><div style='margin-top:8px;font-size:13px;text-align:center;'>其他所有存款</div></div></div><div style='margin-top:12px;font-size:12px;color:#666;line-height:1.6;'>Dolomite 總存款流動性 8.357 億美元。一個借款人占掉超過一半——且借款人的顧問就是 Dolomite 共同創辦人 Corey Caplan。</div></div></div>",
-      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://x.com/worldlibertyfi' target='_blank' rel='noopener'>World Liberty Financial</a>（Trump 家族加密項目）：「這些說法是 FUD。我們離清算還遠得很，即使市場劇烈對我們不利，我們就再補更多抵押品。」</li><li><span class='discuss-tag'>分析師</span><a href='https://x.com/dirtroadscapital' target='_blank' rel='noopener'>Luca Prosperi</a>（M0 創辦人、Dirt Roads 電子報）：「我用銀行給公司債定價的模型去算，用 ETH 或 BTC 做抵押的借貸市場，存款人應該拿到高於美債 2.5% 到 4% 的利差。Morpho 主要市場給的只是其中的一小塊。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://www.theblock.co/post/397066/justin-sun-frozen-wlfi-11-million-hit-world-liberty-brushes-off-liquidation-fears' target='_blank' rel='noopener'>Justin Sun</a>（波場創辦人）：去年 9 月他的 5.45 億枚 WLFI 被 WLFI 團隊直接凍結在黑名單裡，今天這波下跌讓這筆被迫持倉的代幣又少了 1,100 萬美元，他當時在 X 上公開求 Trump 團隊解凍但沒得到回應。</li><li><span class='discuss-tag'>產業觀點</span><a href='https://bankless.ghost.io/can-defi-survive-mythos/' target='_blank' rel='noopener'>David Christopher</a>（Bankless）：「11.8 億美元目前存在 Morpho 金庫裡，大多透過 Coinbase 或 Kraken 這類介面進來。那些存款人以為自己在領 2 到 4% 的儲蓄帳戶利息，但他們承擔的風險遠遠超過那個報酬。加上國家級駭客和 AI 漏洞挖掘，擠出來的果汁已經不值得這一擠。」</li></ol></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>質疑聲音</span><a href='https://x.com/justinsuntron' target='_blank' rel='noopener'>Justin Sun</a>（TRON 創辦人、WLFI 最大金主）：「WLFI 團隊每一個動作——從用戶身上抽手續費、偷偷在代幣裡塞後門、沒有任何程序就凍結投資人資金——都是把加密社群當成他們的私人提款機。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://x.com/banteg' target='_blank' rel='noopener'>banteg</a>（匿名研究員）：「2024 年 9 月部署的原始 WLFI 合約沒有任何凍結或沒收功能，但是可升級的。黑名單是 2025 年 8 月才加進去的——Sun 投資後的第 11 個月，代幣開始交易前一週。」</li><li><span class='discuss-tag'>官方聲明</span><a href='https://x.com/worldlibertyfi' target='_blank' rel='noopener'>World Liberty Financial</a>（官方帳號）：「Sun 一邊扮演受害者、一邊用毫無根據的指控掩蓋他自己的不當行為。我們保留採取一切法律行動的權利。」</li><li><span class='discuss-tag'>分析師</span><a href='https://x.com/chaos_labs' target='_blank' rel='noopener'>Chaos Labs</a>（DeFi 風險管理機構）：「WLFI 占 Dolomite 整體 TVL 的 82.7%、借款的 85.3%。如果 WLFI 代幣突然崩盤，USDC 和 USD1 池的借方只能拿回一部分本金。」</li><li><span class='discuss-tag'>社群反應</span><a href='https://x.com/jinabinet' target='_blank' rel='noopener'>Jack Inabinet</a>（Bankless 編輯）：「WLFI 的玩法長期以來被業內私下抱怨，但現在連 CEO 和 VC 過去幾個月都不敢公開講的事——終於被自家最大投資人拿出來攤牌了。」</li></ol></div>",
       "image": "https://cdn.sanity.io/images/s3y3vcno/production/c8bfe95b424c430682e7e2761b9bb8d2d70fcee1-3790x2132.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
       "_image_source": "og",
       "last_updated": "2026-04-12"
     },
     {
       "id": "2026-04-03-CFTC-控告三州-預測市場管轄權之爭",
-      "title": "聯邦法院首度判預測市場不是賭博：Kalshi 在第三巡迴上訴法院擊敗紐澤西，但馬里蘭判相反",
+      "title": "聯邦法院接連站隊：第三巡迴判預測市場不是賭博，亞利桑那刑事案也被凍結",
       "url": "https://www.cftc.gov/PressRoom/PressReleases/9206-26",
       "tags": [
         "監管",
         "預測市場",
         "CFTC"
       ],
-      "date": "2026-04-06",
+      "date": "2026-04-13",
       "image": "images/2026-04-03-CFTC-v2.png",
       "sources": [
         {
@@ -515,20 +688,130 @@ window.FEED_DATA = {
           "url": "https://www.coindesk.com/markets/2026/04/09/kalshi-now-controls-89-of-the-u-s-prediction-market-as-regulated-trading-takes-over",
           "title": "Kalshi 拿下美國預測市場 89% 份額，受監管交易全面接管",
           "added_date": "2026-04-10"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/us-judge-blocks-arizona-criminal-case-against-kalshi-cftcs-request-2026-04-10/",
+          "title": "聯邦法官應 CFTC 要求封鎖亞利桑那對 Kalshi 的刑事案件",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/04/11/kalshi-wins-temporary-pause-in-arizona-criminal-case/",
+          "title": "Kalshi 成功暫停亞利桑那州刑事案件",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "Benzinga",
+          "url": "https://www.benzinga.com/news/legal/26/04/51768188/arizonas-crackdown-on-kalshi-halted-as-federal-court-sides-with-cftc-in-fight-over-election-betting-an",
+          "title": "聯邦法院在選舉投注爭議中站在 CFTC 一邊，亞利桑那對 Kalshi 的行動遭凍結",
+          "added_date": "2026-04-13"
         }
       ],
-      "summary": "<p>預測市場在美國的法律定位一直曖昧：是金融衍生品，還是線上賭博？川普政府的 CFTC 4 月 3 日控告伊利諾、亞利桑那、康乃狄克三州，主張預測市場合約屬於聯邦專屬管轄的「交換契約」。三天後，第三巡迴上訴法院以 2:1 裁定《商品交易法》優先於紐澤西州的賭博法——這是聯邦上訴法院首度就這個問題表態。</p><p>不過馬里蘭州聯邦法院在同一個問題上判了相反的結果，該案正在上訴至第四巡迴法院。市場龍頭 Kalshi 目前佔美國 89% 份額、3 月剛以 220 億美元估值完成 10 億美元募資、月交易量超過 120 億美元——兩個巡迴法院意見相左，正是案件送進最高法院的典型路徑。</p>",
+      "summary": "<p>預測市場在美國的法律定位一直曖昧：是金融衍生品，還是線上賭博？川普政府的 CFTC 4 月 3 日控告伊利諾、亞利桑那、康乃狄克三州，主張預測市場合約屬於聯邦專屬管轄的「交換契約」。三天後第三巡迴上訴法院以 2:1 裁定《商品交易法》優先於紐澤西州的賭博法——聯邦上訴法院首度就這個問題表態。4 月 10 日再下一城：聯邦法官應 CFTC 請求核發臨時禁制令，凍結亞利桑那州對 Kalshi 的刑事起訴至 4 月 24 日。</p><p>兩週內連拿兩場聯邦勝利，但馬里蘭州聯邦法院在同一個問題上判了相反的結果，該案正在上訴至第四巡迴法院。市場龍頭 Kalshi 目前佔美國 89% 份額、3 月剛以 220 億美元估值完成 10 億美元募資、月交易量超過 120 億美元——兩個巡迴法院意見相左，正是案件送進最高法院的典型路徑。</p>",
       "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">預測市場大戰：聯邦法院首判「不是賭博」，巡迴法院現分歧</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">3 州</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">CFTC 控告</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">2:1</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">第三巡迴裁定</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">相反判決</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">馬里蘭聯邦法院</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">最高法院</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">可能上訴終局</div>\n</div>\n</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2025 年</div>\n<div class=\"chart-timeline-text\">Kalshi 及 Polymarket 在多州法院遭控告</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年 4 月 3 日</div>\n<div class=\"chart-timeline-text\">CFTC 控告伊利諾、亞利桑那、康乃狄克三州</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">2026 年 4 月 6 日</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">第三巡迴上訴法院裁定預測市場非賭博，屬聯邦管轄</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">同時進行</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">馬里蘭州聯邦法院判相反結果，已上訴至第四巡迴法院</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">未來</div>\n<div class=\"chart-timeline-text\">若兩巡迴分歧，案件送最高法院</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：美國聯邦法院、CFTC / 區塊勢整理</div>\n</div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>產業觀點</span><a href='https://x.com/DustinGouker/status/2041148496775119162' target='_blank' rel='noopener'>Dustin Gouker</a>（Legal Sports Report 記者）：「Kalshi 在第三巡迴上訴法院擊敗紐澤西，這是迄今為止關於預測市場合法性、以及聯邦法是否優先於州博弈法的最重大判決。」</li><li><span class='discuss-tag'>官方聲明</span> CFTC 將持續捍衛對這些市場的專屬監管權，保護市場參與者免受州級過度監管 — <a href='https://www.cftc.gov/PressRoom/PressReleases/9206-26'>CFTC 主席 Michael Selig</a></li><li><span class='discuss-tag'>質疑聲音</span><a href='https://www.npr.org/2026/04/02/nx-s1-5771635/trump-cftc-kalshi-polymarket-lawsuits' target='_blank' rel='noopener'>NPR</a>：把運動賽事投注包裝成「交換契約」，不改變它本質上就是賭博的事實。</li><li><span class='discuss-tag'>分析師</span><a href='https://ambcrypto.com/u-s-court-backs-kalshi-reinforcing-cftcs-push-for-federal-control-over-prediction-markets/' target='_blank' rel='noopener'>AMBCrypto</a>：法院判決強化了 CFTC 推動聯邦控制預測市場的立場，但各州仍在反擊——國會民主黨人也提出立法禁止選舉、戰爭和政府行為相關合約。</li></ol></div>",
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 11,
+      "source_count": 14,
       "discussion_count": 4,
-      "importance_score": 26,
+      "importance_score": 32,
       "_image_source": "gemini",
       "added_date": "2026-04-03",
-      "last_updated": "2026-04-10"
+      "last_updated": "2026-04-13"
+    },
+    {
+      "id": "2026-04-06-Chaos-Labs-離開-Aave-DeFi-最大借貸協議的治理危機",
+      "title": "Aave 治理危機落幕：「Aave Will Win」以七成五通過，100% 營收歸 AAVE 持有者，創辦人喊出 1 兆美元目標",
+      "url": "https://x.com/omeragoldberg/status/2041185313163276302",
+      "tags": [
+        "DeFi",
+        "治理",
+        "Aave"
+      ],
+      "date": "2026-04-14",
+      "image": "images/2026-04-06-Chaos-Labs-Aave-DeFi-81fa41d5.png",
+      "source_count": 11,
+      "discussion_count": 5,
+      "importance_score": 27,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/04/06/aave-loses-key-risk-manager-chaos-labs-amid-contributor-exodus-and-disputes",
+          "title": "Aave 失去核心風控商 Chaos Labs：貢獻者出走潮與治理爭議加劇",
+          "added_date": "2026-04-06"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/396458/top-aave-risk-manager-chaos-labs-exits-amid-governance-dispute",
+          "title": "Aave 頂級風控商 Chaos Labs 在治理爭議中宣布退出",
+          "added_date": "2026-04-06"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/defi/chaos-labs-exits-aave",
+          "title": "Chaos Labs 結束與 Aave 三年合作關係",
+          "added_date": "2026-04-06"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://www.bankless.com/articles/chaos-labs-aave-departure",
+          "title": "Chaos Labs 離開 Aave：DeFi 治理出了什麼問題？",
+          "added_date": "2026-04-06"
+        },
+        {
+          "name": "Invezz",
+          "url": "https://invezz.com/news/2026/04/07/aave-price-analysis-can-bulls-defend-90-as-chaos-labs-exits/",
+          "title": "AAVE 價格分析：多頭能守住 90 美元嗎？",
+          "added_date": "2026-04-08"
+        },
+        {
+          "name": "CryptoTimes",
+          "url": "https://www.cryptotimes.io/2026/04/07/aave-exchange-reserves-jump-to-2-23m-amid-contributor-exodus-and-v4-tension/",
+          "title": "AAVE 交易所儲備升至 223 萬枚，貢獻者出走與 V4 緊張局勢持續",
+          "added_date": "2026-04-08"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/chaos-labs-exits-aave-risk-management-role-citing-v4-workload-and-funding-gap/",
+          "title": "Chaos Labs 退出 Aave 風控角色，稱 V4 工作量和資金缺口是導火線",
+          "added_date": "2026-04-08"
+        },
+        {
+          "name": "DL News",
+          "url": "https://www.dlnews.com/articles/defi/aave-firm-exits-defi-giant-amid-protracted-power-struggle/",
+          "title": "Aave 核心風控商在長期權力鬥爭中退出 DeFi 最大借貸協議",
+          "added_date": "2026-04-08"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/aave-dao-passes-aave-will-win-proposal-directing-100-of-product-revenue-to-token-holders-unchained/",
+          "title": "Aave DAO 通過「Aave Will Win」提案，將 100% 產品營收導向代幣持有者",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/defi/aave-dao-votes-to-consolidate-all-revenue-under-aave-token",
+          "title": "Aave DAO 投票將所有營收歸 AAVE 代幣",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "DL News",
+          "url": "https://thedecentralised.beehiiv.com/p/aave-will-win",
+          "title": "Stani 喊「Aave Will Win」，但零摩擦的 DAO 還算民主嗎？",
+          "added_date": "2026-04-15"
+        }
+      ],
+      "summary": "<p>DeFi 最大借貸協議 Aave 過去四個月陷入嚴重的治理對峙：從 2022 年起負責風控的 Chaos Labs 宣布終止合作（管理三年期間 TVL 從 52 億成長到 260 億、零重大壞帳），Chaos Labs、ACI 與 BGD Labs 三大核心貢獻者接連出走，AAVE 代幣從 2025 年 8 月高點 356 美元一路跌到 85 美元附近、蒸發約 75%。對峙的根源是去年 12 月 CoWSwap 與 Aave 介面整合時，手續費被悄悄導向開發公司 Aave Labs 而非社群國庫。</p><p>4 月 12 日「Aave Will Win」提案以將近 75% 同意票通過，明定所有 Aave 品牌產品的 100% 營收都歸入 DAO 國庫，AAVE 代幣自此成為協議全部經濟收益的單一捕獲者。Aave Labs 拿到 2,500 萬美元穩定幣加 7.5 萬顆 AAVE 的四年歸屬包，創辦人 Stani Kulechov 隨即宣示要把 Aave 從現在的 400 億美元規模推到 1 兆美元 AUM。</p>",
+      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">Aave 治理危機：三大核心團隊接連出走，AAVE 代幣蒸發 75%</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">$260 億</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Aave TVL</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">3 支</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">核心團隊離職</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">75%</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">AAVE 跌幅</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">$800 萬</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Chaos Labs 要價</div>\n</div>\n</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2022 年</div>\n<div class=\"chart-timeline-text\">Chaos Labs 開始為 Aave 提供風控服務</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2022-2026 年</div>\n<div class=\"chart-timeline-text\">Aave TVL 從 $52 億成長到 $260 億，零重大壞帳</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年初</div>\n<div class=\"chart-timeline-text\">ACI 和 BGD Labs 相繼宣布終止合作</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">2026 年 4 月</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">Chaos Labs 拒絕 $500 萬續約，要求 $800 萬年費</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">同月</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">AAVE 從 $356 美元高點跌至 $85 附近，蒸發約 75%</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：Chaos Labs、Aave DAO 公告 / 區塊勢整理</div>\n</div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://x.com/omeragoldberg/status/2041185313163276302' target='_blank' rel='noopener'>Omer Goldberg</a>（Chaos Labs 創辦人）：「這次離開不是預算的問題。即使 Aave Labs 把預算提高到 500 萬美元，我們仍然會是虧損經營。根本的分歧在於：我們認為風險管理在 Aave 這個規模應該被怎樣對待，跟 DAO 目前的方向不一致。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://x.com/aixbt_agent/status/2031623794406863253' target='_blank' rel='noopener'>aixbt</a>（AI 分析代理）：「Stani Kulechov 在 2 月 7 日買了 353 萬美元的 AAVE，同一週他的頂級貢獻者宣布離開。Arthur Hayes 同一週虧損賣出。創辦人在人才流失期間以 4.6 倍 P/S 買進，而 Morpho 以類似營收交易在 4.2 倍。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://x.com/StaniKulechov/status/2001036446098919461' target='_blank' rel='noopener'>Stani Kulechov</a>（Aave 創辦人）：「Aave Will Win: 2026 Master Plan」——公布策略計畫回應治理爭議，強調 Aave Labs 與協議長期利益一致。</li><li><span class='discuss-tag'>產業觀點</span><a href='https://x.com/StaniKulechov/status/2043382887764930635' target='_blank' rel='noopener'>Stani Kulechov</a>（Aave 創辦人）：「DAO 採取的是零官僚主義做法，沒有任何摩擦的空間。」</li></ol></div>",
+      "fetchedFrom": [
+        "Gmail"
+      ],
+      "added_date": "2026-04-06",
+      "last_updated": "2026-04-08",
+      "_image_source": "gemini"
     },
     {
       "id": "2026-04-09-伊朗要求油輪用比特幣付荷莫茲海峽過路費",
@@ -753,6 +1036,81 @@ window.FEED_DATA = {
       "_image_source": "gemini"
     },
     {
+      "id": "2026-04-10-FinCEN-OFAC-stablecoin-AML-GENIUS-Act",
+      "title": "穩定幣發行商正式變金融機構：FinCEN 303 頁規則要求 KYC、SAR、即時凍結制裁對象",
+      "url": "https://home.treasury.gov/news/press-releases/sb0435",
+      "tags": [
+        "監管",
+        "穩定幣",
+        "合規"
+      ],
+      "date": "2026-04-13",
+      "source_count": 9,
+      "discussion_count": 3,
+      "importance_score": 21,
+      "sources": [
+        {
+          "name": "US Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0435",
+          "title": "財政部提出規則實施 GENIUS Act 的打擊非法金融要求",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "Federal Register",
+          "url": "https://www.federalregister.gov/documents/2026/04/10/2026-06963/permitted-payment-stablecoin-issuer-anti-money-launderingcountering-the-financing-of-terrorism",
+          "title": "許可支付穩定幣發行商反洗錢/反恐融資計畫與制裁合規計畫要求",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/04/08/u-s-treasury-to-propose-demands-that-stablecoin-firms-be-set-to-police-bad-transactions",
+          "title": "美國財政部提出要求穩定幣公司監管不良交易",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "Ledger Insights",
+          "url": "https://www.ledgerinsights.com/us-treasury-fincen-publish-aml-bsa-rule-proposals-for-genius-act-stablecoins/",
+          "title": "美國財政部與 FinCEN 發布 GENIUS Act 穩定幣 AML/BSA 規則提案",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "PYMNTS",
+          "url": "https://www.pymnts.com/aml/2026/treasury-proposes-anti-money-laundering-framework-for-stablecoin-issuers",
+          "title": "財政部提出穩定幣發行商反洗錢框架",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "ABA Banking Journal",
+          "url": "http://bankingjournal.aba.com/2026/04/agenices-propose-anti-money-laundering-sanctions-requirements-for-stablecoin-issuers/",
+          "title": "機構提出穩定幣發行商反洗錢與制裁要求",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "Law360",
+          "url": "https://www.law360.com/compliance/articles/2463225",
+          "title": "FinCEN 與 OFAC 提出穩定幣發行商 AML 規則",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "Invezz",
+          "url": "https://invezz.com/ie/news/2026/04/09/us-targets-stablecoins-with-aml-rules-under-new-genius-act-push/",
+          "title": "美國在 GENIUS Act 推動下以 AML 規則瞄準穩定幣",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "CryptoTimes",
+          "url": "https://www.cryptotimes.io/2026/04/09/us-treasury-proposes-new-stablecoin-rules-under-genius-act/",
+          "title": "美國財政部在 GENIUS Act 下提出新穩定幣規則",
+          "added_date": "2026-04-13"
+        }
+      ],
+      "summary": "<p>GENIUS Act 去年 7 月簽署成法後，穩定幣產業一直在等「到底要遵守什麼」。4 月 10 日 FinCEN 和 OFAC 聯合發布 303 頁的擬議規則，答案來了：所有「許可支付穩定幣發行商」在《銀行保密法》下正式被歸類為金融機構，必須建立完整的 KYC 程序、申報 5,000 美元以上可疑交易、即時篩查 OFAC 制裁名單並凍結相關交易。</p><p>公開評論期到 6 月 9 日截止，最終規則須在 7 月 18 日前定案，2027 年 1 月 18 日前全面執法。這份規則出來的時間點耐人尋味：就在 Drift 2.85 億美元攻擊暴露穩定幣合規漏洞的同一週。隱私倡議者和業界公會預計會在評論期內對零售級交易的客戶盡職調查和 travel rule 要求提出異議。Circle 和 Tether 之外，目前約有 30 多家穩定幣發行商可能受影響。</p>",
+      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">穩定幣從「灰色地帶」到「金融機構」的監管時間軸</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2025 年 7 月</div>\n<div class=\"chart-timeline-text\">GENIUS Act 簽署成法，授權財政部制定穩定幣 AML 規則</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年 4 月 1 日</div>\n<div class=\"chart-timeline-text\">Drift 2.85 億美元攻擊，2.32 億 USDC 6 小時內透過 Circle 橋轉移無人介入</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">2026 年 4 月 10 日</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">FinCEN + OFAC 發布 303 頁擬議規則：穩定幣發行商 = BSA 金融機構</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年 6 月 9 日</div>\n<div class=\"chart-timeline-text\">60 天公開評論期截止</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年 7 月 18 日</div>\n<div class=\"chart-timeline-text\">最終規則定案期限（法定死線）</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2027 年 1 月 18 日</div>\n<div class=\"chart-timeline-text\">全面執法開始</div>\n</div>\n</div>\n<div style=\"margin-top:14px;background:#f8f4ee;border-radius:10px;padding:14px;border:1px solid #e8e0d4\">\n<div style=\"font-size:13px;font-weight:600;color:#333;margin-bottom:8px\">發行商必須做到的四件事</div>\n<div style=\"font-size:12px;color:#444;line-height:1.8\">\n1. 建立完整 KYC（認識你的客戶）程序<br>\n2. 申報 $5,000 以上可疑交易（SAR）<br>\n3. 即時篩查 OFAC 制裁名單，凍結或拒絕相關交易<br>\n4. 維護與銀行合規部門相當的紀錄保存系統\n</div>\n</div>\n<div class=\"chart-source\">資料來源：US Treasury、Federal Register / 區塊勢整理</div>\n</div>",
+      "discussions": "<div class='story-discuss'><ol>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://home.treasury.gov/news/press-releases/sb0435\" target=\"_blank\" rel=\"noopener\">US Treasury</a>（美國財政部）：「這項擬議規則實施 GENIUS Act 對穩定幣發行商的反洗錢和制裁合規要求，同時鼓勵支付穩定幣的創新。」</li>\n<li><span class='discuss-tag'>產業觀點</span><a href=\"https://www.fintechbrainfood.com/p/poor-aml-will-ruin-stablecoins\" target=\"_blank\" rel=\"noopener\">Simon Taylor</a>（Fintech Brainfood）：「穩定幣有一個傳統金融從未擁有的合規超能力——即時可見性、單一全球帳本、可程式化規則。問題是產業到現在都還沒真正用起來。Drift 攻擊者算好 Circle 的反應時間是 6 小時，然後從容作業。」</li>\n<li><span class='discuss-tag'>不同角度</span><a href=\"https://www.ledgerinsights.com/us-treasury-fincen-publish-aml-bsa-rule-proposals-for-genius-act-stablecoins/\" target=\"_blank\" rel=\"noopener\">Ledger Insights</a>：隱私倡議者和業界公會預計會在評論期內挑戰零售級交易的 KYC 和 travel rule 要求——這些要求如果照搬銀行標準，可能會摧毀穩定幣的速度和成本優勢。</li>\n</ol></div>",
+      "added_date": "2026-04-13",
+      "last_updated": "2026-04-13"
+    },
+    {
       "id": "2026-04-08-Morgan-Stanley-BTC-ETF-MSBT",
       "title": "Morgan Stanley 成為第一家自己發 BTC ETF 的華爾街銀行：費率 0.14% 直接砍 BlackRock 近半",
       "url": "https://www.coindesk.com/markets/2026/03/27/morgan-stanley-enters-bitcoin-etf-race-with-market-leading-low-fee",
@@ -829,74 +1187,191 @@ window.FEED_DATA = {
       "last_updated": "2026-04-10"
     },
     {
-      "id": "2026-04-09-美伊停火-BTC-突破戰爭區間-6億美元空單爆倉",
-      "title": "6 億美元空單一夜爆倉：美伊停火打破比特幣六週戰爭區間",
-      "url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-u-s-stock-futures-surge-on-a-two-week-u-s-iran-ceasefire",
+      "id": "2026-04-13-Kraken-extortion-insider-breach-Deutsche-Boerse",
+      "title": "Kraken 內鬼偷拍客服系統反過來勒索交易所：安全長公開拒絕談判；同日德交所丟 2 億美元入股",
+      "url": "https://www.coindesk.com/business/2026/04/13/crypto-exchange-kraken-targeted-in-extortion-attempt-but-says-there-was-no-breach-and-no-client-funds-at-risk",
       "tags": [
-        "Bitcoin",
-        "市場",
-        "地緣政治"
+        "交易所",
+        "安全",
+        "Kraken"
       ],
-      "date": "2026-04-09",
-      "image": "images/2026-04-09-BTC-6-36cfc447.png",
-      "sources": [
-        {
-          "name": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-u-s-stock-futures-surge-on-a-two-week-u-s-iran-ceasefire",
-          "title": "美伊停火令比特幣與美股期貨同步飆漲",
-          "added_date": "2026-04-09"
-        },
-        {
-          "name": "Unchained",
-          "url": "https://unchainedcrypto.com/bitcoin-surges-to-72700-as-us-iran-ceasefire-triggers-massive-short-squeeze/",
-          "title": "比特幣飆至 72,700 美元：美伊停火觸發史詩級空頭軋壓",
-          "added_date": "2026-04-09"
-        },
-        {
-          "name": "Decrypt",
-          "url": "https://decrypt.co/363641/iran-bitcoin-payments-oil-ships-seeking-hormuz-passage",
-          "title": "加密市場因停火消息全面飆漲，油價暴跌",
-          "added_date": "2026-04-09"
-        },
-        {
-          "name": "Milk Road",
-          "url": "https://mrcrypto.milkroad.com/p/3-big-pieces-of-news-you-just-missed",
-          "title": "停火剛簽完沙烏地管線就被炸，兩週停火能撐多久？",
-          "added_date": "2026-04-09"
-        },
-        {
-          "name": "The Defiant",
-          "url": "https://newsletter2.thedefiant.io/p/agents-get-tradfi-and-crypto-infra",
-          "title": "停火消息推動市場大漲，但伊朗稱以色列違約",
-          "added_date": "2026-04-09"
-        },
-        {
-          "name": "Bankless",
-          "url": "https://bankless.ghost.io/indie-ethereum-tooling/",
-          "title": "市場快照：停火消息後加密市場大漲",
-          "added_date": "2026-04-09"
-        },
-        {
-          "name": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/oil-below-100-bitcoin-above-72k",
-          "title": "油價跌破 100 美元、比特幣站上 72K：趨勢真的翻轉了嗎？",
-          "added_date": "2026-04-09"
-        },
-        {
-          "name": "Blockworks",
-          "url": "https://mail.blockworks.com/p/grokking-the-new-lexicon",
-          "title": "每日市場快照：停火消息後市場大幅反彈",
-          "added_date": "2026-04-09"
-        }
-      ],
-      "summary": "<p>Trump 4 月 7 日晚間在 Truth Social 宣布美伊兩週停火，伊朗隨即確認。比特幣在數小時內衝上 72,700 美元，突破自 2 月以來鎖死在 65,000–73,000 美元的「戰爭區間」。油價暴跌超過 10% 至每桶約 95 美元，荷莫茲海峽自開戰以來首度重新開放協調通行。</p><p>最劇烈的是空頭的慘況：24 小時內近 6 億美元槓桿空單遭清算，其中 2.45 億來自 BTC、1.26 億來自 ETH，最大一筆是 Binance 上 1,179 萬美元的 BTC-USDT 空單。停火前 Fear and Greed 指數跌至 8——2022 年 FTX 崩盤以來最低。兩週停火能否轉化為持久降溫，還是只是把不確定性延後，這是市場接下來的核心問題。</p>",
-      "chart": "<div class=\"chart-wrap\"><div class=\"chart-title\">美伊停火前後的市場劇變</div><div style=\"display:flex;gap:10px;margin-bottom:18px\"><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">$72,700</div><div style=\"font-size:11px;color:#888;margin-top:4px\">BTC 三週新高</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">$5.95 億</div><div style=\"font-size:11px;color:#888;margin-top:4px\">空單清算</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">-10%</div><div style=\"font-size:11px;color:#888;margin-top:4px\">油價單日跌幅</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">8</div><div style=\"font-size:11px;color:#888;margin-top:4px\">停火前恐懼指數</div></div></div><div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\"><div style=\"font-size:13px;color:#444;margin-bottom:12px;font-weight:600\">比特幣「戰爭區間」vs 停火突破</div><div style=\"position:relative;height:120px;border-left:1px solid #ccc;border-bottom:1px solid #ccc;margin:0 10px 8px 40px\"><div style=\"position:absolute;left:-40px;top:0;font-size:10px;color:#888\">$76K</div><div style=\"position:absolute;left:-40px;top:35px;font-size:10px;color:#ef5350\">$73K</div><div style=\"position:absolute;left:-40px;top:65px;font-size:10px;color:#ef5350\">$65K</div><div style=\"position:absolute;left:-40px;bottom:0;font-size:10px;color:#888\">$55K</div><div style=\"position:absolute;top:35px;left:0;right:0;height:30px;background:rgba(239,83,80,0.08);border-top:1px dashed #ef5350;border-bottom:1px dashed #ef5350\"></div><div style=\"position:absolute;top:35px;left:5%;width:70%;height:2px;background:#42a5f5\"></div><div style=\"position:absolute;top:20px;right:10%;width:3px;height:20px;background:#66bb6a;border-radius:2px\"></div><div style=\"position:absolute;top:8px;right:5%;font-size:10px;color:#66bb6a;font-weight:600\">突破!</div></div><div style=\"display:flex;justify-content:space-between;margin:0 10px 0 40px;font-size:10px;color:#888\"><span>2 月</span><span>3 月</span><span>4/7 停火</span><span>4/8</span></div></div><div class=\"chart-source\">資料來源：CoinDesk、Coinglass / 區塊勢整理</div></div>",
-      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>分析師</span><a href=\"https://x.com/EricBalchunas/status/2041914237249859948\" target=\"_blank\" rel=\"noopener\">Eric Balchunas</a>（Bloomberg 資深 ETF 分析師）：「Morgan Stanley 的 MSBT 首日交易量超過 3,000 萬美元，進入 ETF 上市首日表現前 1%。選在停火日上線，時機不可能更好。」</li><li><span class='discuss-tag'>社群反應</span><a href=\"https://x.com/Polymarket/status/2041868764388483208\" target=\"_blank\" rel=\"noopener\">Polymarket</a>（預測市場平台）：「快訊：伊朗宣布他們選擇的加密貨幣是比特幣。」</li><li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/FT/status/2041861135406702709\" target=\"_blank\" rel=\"noopener\">Financial Times</a>：「伊朗將要求航運公司以加密貨幣支付滿載油輪通過荷莫茲海峽的過路費，試圖在兩週停火期間保持對關鍵水道的控制。」</li><li><span class='discuss-tag'>不同角度</span>停火後數小時，一架無人機攻擊沙烏地阿拉伯的關鍵石油管線——在海峽關閉期間，這條管線是沙國唯一仍在運作的出口路線。攻擊者不明，但伊朗此前曾威脅要攻擊同一條管線。</li></ol></div>",
+      "date": "2026-04-14",
       "source_count": 8,
       "discussion_count": 4,
       "importance_score": 20,
-      "added_date": "2026-04-09",
-      "_image_source": "gemini"
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/04/13/crypto-exchange-kraken-targeted-in-extortion-attempt-but-says-there-was-no-breach-and-no-client-funds-at-risk",
+          "title": "Kraken 遭勒索，交易所稱系統未被入侵、客戶資金無虞",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/397260/kraken-security-says-exchange-wont-negotiate-faces-extortion-threat",
+          "title": "Kraken 安全長：面對勒索威脅絕不談判",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/kraken-discloses-criminal-extortion-attempt-after-two-insider-security-incidents-unchained/",
+          "title": "兩起內部安全事件後，Kraken 揭露遭犯罪集團勒索",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/crypto-exchange-kraken-extorted-by-hackers-after-insider-breach/",
+          "title": "內鬼洩密後，加密交易所 Kraken 遭駭客勒索",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "American Banker",
+          "url": "https://www.americanbanker.com/news/kraken-faces-extortion-threat-over-rogue-employee-breach",
+          "title": "內部員工違規後，Kraken 面臨勒索威脅",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "Protos",
+          "url": "https://protos.com/kraken-confirms-extortion-attempt-after-2000-clients-data-stolen/",
+          "title": "2,000 名客戶資料遭竊後，Kraken 證實遭勒索",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/deutsche-boerse-acquires-200-mln-stake-kraken-2026-04-14/",
+          "title": "德意志交易所以 2 億美元取得 Kraken 股權",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/364290/deutsche-borse-acquires-kraken-stake-in-200m-deal",
+          "title": "德意志交易所 2 億美元收購 Kraken 股份",
+          "added_date": "2026-04-15"
+        }
+      ],
+      "summary": "<p>Kraken 4 月 13 日公開揭露兩起內部員工違規事件：一名客服團隊員工在 2025 年 2 月越權進入內部客服系統並錄下所見畫面，另一名在更近期被抓包。兩起事件合計波及約 2,000 個帳戶，佔 Kraken 用戶數的 0.02%，內容是客服系統可見的客戶資料，未觸及資產或私鑰。Kraken 停掉兩人帳號之後，一個犯罪集團拿著那些影片反過來威脅交易所——要錢，不然就把內部畫面公開。</p><p>Kraken 安全長 Nick Percoco 直接在 X 上宣戰：「我們不會付給這些罪犯，我們絕不跟壞人談判。」公司已經把證據交給跨司法轄區的聯邦執法單位，循 Coinbase 去年同款路線處理。同一天德意志交易所宣布砸 2 億美元，透過次級市場取得 Kraken 1.5% 完全稀釋股權，延續 2025 年 12 月雙方在機構級交易、託管、結算上的合作框架——勒索新聞跟機構背書同框出現，對 Kraken 的風控敘事是一次壓力測試。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-timeline'><div class='timeline-item'><div class='timeline-date'>2025-02</div><div class='timeline-event'>第一名客服團隊員工越權進入客服系統被抓</div></div><div class='timeline-item'><div class='timeline-date'>2025-12</div><div class='timeline-event'>德意志交易所與 Kraken 簽署機構級合作框架</div></div><div class='timeline-item'><div class='timeline-date'>2026-04 初</div><div class='timeline-event'>第二名內部員工同樣越權，犯罪集團取得影片</div></div><div class='timeline-item chart-highlight'><div class='timeline-date'>2026-04-13</div><div class='timeline-event'>Kraken 公開拒絕談判，約 2,000 個帳戶資料曝險</div></div><div class='timeline-item chart-highlight'><div class='timeline-date'>2026-04-14</div><div class='timeline-event'>德意志交易所以 2 億美元取得 Kraken 1.5% 完全稀釋股權</div></div></div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://x.com/c7five/status/2043378492989763628' target='_blank' rel='noopener'>Nick Percoco</a>（Kraken 安全長）：「我們的系統沒有被攻破，客戶資金也從未面臨風險。我們不會付給這些罪犯，我們絕不跟壞人談判。」</li><li><span class='discuss-tag'>分析師</span><a href='https://www.americanbanker.com/news/kraken-faces-extortion-threat-over-rogue-employee-breach' target='_blank' rel='noopener'>American Banker</a>：「內鬼型威脅已經變成交易所最難防的一環——客服團隊的越權行為通常在資安邊界之外。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://protos.com/kraken-confirms-extortion-attempt-after-2000-clients-data-stolen/' target='_blank' rel='noopener'>Protos</a>：「Kraken 走的是 Coinbase 去年的劇本：公開揭露、拒絕付款、把事情交給 FBI。這套 SOP 正在變成產業標準。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://decrypt.co/364290/deutsche-borse-acquires-kraken-stake-in-200m-deal' target='_blank' rel='noopener'>Decrypt</a>：「德交所入股的時間點很微妙——在勒索新聞當天發布，等於用機構資金替 Kraken 的風控背書。」</li></ol></div>"
+    },
+    {
+      "id": "2026-04-14-SEC-DeFi-front-end-broker-dealer-guidance",
+      "title": "SEC 劃線放行 DeFi 前端：錢包介面不用當 broker-dealer，但只給五年",
+      "url": "https://www.sec.gov/newsroom/speeches-statements/staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized-prepare-staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized",
+      "tags": [
+        "監管",
+        "DeFi"
+      ],
+      "date": "2026-04-14",
+      "source_count": 7,
+      "discussion_count": 5,
+      "importance_score": 19,
+      "sources": [
+        {
+          "name": "SEC.gov",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized-prepare-staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized",
+          "title": "關於某些用於發起加密資產證券交易之使用者介面的 broker-dealer 註冊問題的工作人員聲明",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/04/14/u-s-sec-says-software-allowing-crypto-wallet-transactions-aren-t-considered-brokers",
+          "title": "美國 SEC：協助加密錢包交易的軟體不算 broker",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/sec-staff-exempt-certain-crypto-wallet-interfaces-from-broker-dealer-registration-requirements-unchained/",
+          "title": "SEC 工作人員豁免部分加密錢包介面 broker-dealer 註冊要求",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/regulation/sec-staff-guidance-broker-dealer-rules-for-defi",
+          "title": "SEC 為 DeFi 前端開出一條窄路，繞過 broker-dealer 規則",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "ETH Daily",
+          "url": "https://ethdaily.xyz/sec-guidance-defi-front-ends",
+          "title": "SEC 對 DeFi 前端的指引：符合 12 條件可免註冊",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Ledger Insights",
+          "url": "https://www.ledgerinsights.com/sec-wallets-defi-interfaces-arent-broker-dealers-even-for-tokenized-securities/",
+          "title": "SEC：錢包與 DeFi 介面即使處理代幣化證券，也不是 broker-dealer",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://www.bankless.com/read/news/sec-staff-exempts-crypto-interface-providers-from-mandatory-registration",
+          "title": "SEC 豁免「加密介面供應商」強制註冊義務",
+          "added_date": "2026-04-14"
+        }
+      ],
+      "summary": "<p>SEC 去年對 DeFi 前端的態度還是「可能都得以 broker-dealer 註冊」，直接把 Uniswap 這類介面推進合規死角。Paul Atkins 接任 SEC 主席後改走工作人員聲明路線，過去一年已經對 meme coin、穩定幣、質押陸續放行。4 月 13 日交易與市場司再丟出一份聲明，把手畫在「介面」和「經紀商」之間：只要錢不經你、建議不給、不幫人下單、只收固定費，網站、瀏覽器擴充套件、錢包 App 都可以繼續做，不必去登記為 broker-dealer。</p><p>新框架定義「covered user interface」——就是把買賣、數量、價格這些參數轉成鏈上指令、讓使用者用自己錢包簽名送出去的軟體。要符合豁免，有 12 條操作限制：不能保管資產、不能下投資建議、不能代為執行、不能路由訂單給關聯交易所、手續費必須是固定或 flat fee。碰到這些紅線的平台仍然適用現行 broker 規則。這份聲明只是 interim guidance，沒有法律效力，五年後自動失效、除非 SEC 正式立規則補上。等於給 DeFi 前端一個暫時的法律擋箭牌，但也把「如果 Commission 換人、五年到期怎麼辦」的壓力重新丟回國會。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-row'><div class='chart-cell'><div class='chart-label'>豁免資格</div><div class='chart-val'>12 條操作限制</div></div><div class='chart-cell'><div class='chart-label'>有效期限</div><div class='chart-val'>5 年（2031 年失效）</div></div><div class='chart-cell'><div class='chart-label'>法律效力</div><div class='chart-val'>工作人員聲明，非正式規則</div></div><div class='chart-cell'><div class='chart-label'>Atkins 任內發布</div><div class='chart-val'>第 5 份加密豁免指引（前有 meme 幣、穩定幣、質押）</div></div></div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://x.com/SECGov' target='_blank' rel='noopener'>SEC</a>（美國證管會）：「只要 covered user interface 維持中立——不招攬、不給投資建議、不掌握執行裁量權——就無需以 broker-dealer 身分註冊。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://x.com/cblockadvisory' target='_blank' rel='noopener'>Bill Hughes</a>（Consensys 資深法律顧問）：「這是 SEC 第一次正面承認 DeFi 前端不是經紀商。但五年後自動失效的設計，等於把球丟回國會——Clarity Act 不過，一切白做。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://x.com/carolinecrenshaw' target='_blank' rel='noopener'>Caroline Crenshaw</a>（SEC 民主黨委員）：「用 staff statement 繞過正式規則制定程序，是在讓證券法對加密資產「不再特殊」。這不是現代化，是解除管制。」</li><li><span class='discuss-tag'>分析師</span><a href='https://x.com/jchervinsky' target='_blank' rel='noopener'>Jake Chervinsky</a>（Variant 法務長）：「12 條件的豁免清單實際上就是一張「這樣做就沒事」的 checklist。自托管錢包、前端、擴充套件終於拿到明確法律擋箭牌。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://x.com/miladmarkets' target='_blank' rel='noopener'>Amanda Tuminelli</a>（DeFi Education Fund）：「五年期限意味著任何基於這份指引的商業決策，都得接受下一任 SEC 可能推翻的風險。正式立規則才是長久之計。」</li></ol></div>"
+    },
+    {
+      "id": "2026-04-14-Kraken-extortion-insider-Deutsche-Boerse",
+      "title": "Kraken 同一天兩條新聞：被犯罪集團勒索拒不付錢，又把 1.5% 股權賣給德交所換 2 億",
+      "url": "https://unchainedcrypto.com/kraken-discloses-criminal-extortion-attempt-after-two-insider-security-incidents-unchained/",
+      "tags": [
+        "加密安全",
+        "交易所"
+      ],
+      "date": "2026-04-14",
+      "source_count": 7,
+      "discussion_count": 5,
+      "importance_score": 19,
+      "sources": [
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/kraken-discloses-criminal-extortion-attempt-after-two-insider-security-incidents-unchained/",
+          "title": "Kraken 揭露遭犯罪集團勒索，事件源自兩起內部資安事故",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/04/13/crypto-exchange-kraken-targeted-in-extortion-attempt-but-says-there-was-no-breach-and-no-client-funds-at-risk",
+          "title": "Kraken 遭勒索，強調未遭駭客攻擊、客戶資金無風險",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/kraken-refuses-to-pay-extortionists-after-insider-breaches-expose-client-data",
+          "title": "Kraken 拒付贖金：內部人事故外洩客戶資料後的強硬回應",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "PYMNTS",
+          "url": "https://www.pymnts.com/cybersecurity/2026/kraken-reports-criminal-extortion-attempt-involving-insider-recruitment/",
+          "title": "Kraken 通報犯罪集團勒索，涉及跨產業的內部人招募行動",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/04/14/deutsche-boerse-takes-1-5-stake-in-crypto-exchange-kraken-for-usd200-million",
+          "title": "德意志交易所以 2 億美元收購 Kraken 1.5% 股權",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/deutsche-boerse-acquires-200-mln-stake-kraken-2026-04-14/",
+          "title": "Deutsche Börse 以 2 億美元收購 Kraken 股權",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Finbold",
+          "url": "https://finbold.com/kraken-insider-extortion-reveals-remote-work-security-blind-spot/",
+          "title": "Kraken 內部人勒索案曝出遠距工作的資安盲點",
+          "added_date": "2026-04-14"
+        }
+      ],
+      "summary": "<p>北韓駭客 2 月才讓整個產業重新檢討內部人風險，4 月 14 日 Kraken 的兩條新聞等於把這個議題一次推到檯面。資安長 Nick Percoco 公開說公司正被一個犯罪集團勒索，對方拿出內部系統畫面的影片，威脅不付就公開。Kraken 回得非常硬：「我們不付、也永遠不跟壞人談判」，同時配合聯邦執法部門跨轄區追查。</p><p>事件其實是兩次內部人滲透的後遺症——第一次早在 2025 年 2 月就有客服團隊成員被招募外洩資料，第二次更近期才被抓到。前後約 2,000 個帳號（占全體 0.02%）的有限客服資料被瀏覽過，系統本身沒被破。Kraken 說已有足夠證據指認人選、正協調跨國逮捕，並與同業一起調查鎖定加密、遊戲、電信產業的協調性內部人招募活動——Galaxy Digital 同日也揭露曾遏止一起開發環境被未授權存取的事件。戲劇性的是同一天消息傳來：德意志交易所用 2 億美元二級市場交易買下 Kraken 1.5% 股權，接續去年 12 月的合作，要一起蓋機構級加密交易、託管、結算基礎設施。一邊在跟犯罪集團對抗，一邊拿到歐洲最大傳統交易所背書。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-row'><div class='chart-cell'><div class='chart-label'>受影響帳號</div><div class='chart-val'>約 2,000 個（0.02%）</div></div><div class='chart-cell'><div class='chart-label'>系統被破</div><div class='chart-val'>沒有</div></div><div class='chart-cell'><div class='chart-label'>首次事件</div><div class='chart-val'>2025 年 2 月客服被招募</div></div><div class='chart-cell'><div class='chart-label'>Deutsche Börse 入股</div><div class='chart-val'>$200M，1.5% 全稀釋股權</div></div></div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://x.com/c7five' target='_blank' rel='noopener'>Nick Percoco</a>（Kraken 資安長）：「我們不會付這些犯罪份子一毛錢，我們永遠不會跟壞人談判。系統沒被破、資金沒事，但他們把內部畫面的影片寄來威脅。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://x.com/mikeb' target='_blank' rel='noopener'>Mike Belshe</a>（BitGo CEO）：「這不是 Kraken 獨有的問題，是整個加密、遊戲、電信產業都在被同一批人用同樣手法招募內部員工。是時候把背景調查拉高到金融機構等級。」</li><li><span class='discuss-tag'>分析師</span><a href='https://x.com/Mandiant' target='_blank' rel='noopener'>Mandiant</a>（Google 資安部門）：「2025 年以來針對加密交易所客服團隊的 insider recruitment campaign 明顯增加，跟北韓 IT 工作者網絡有部分重疊。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://x.com/Deutsche_Boerse' target='_blank' rel='noopener'>Deutsche Börse</a>（德意志交易所官方）：「我們很高興擴大與 Kraken 的合作，持有 1.5% 全稀釋股權。這筆投資延續 2025 年 12 月開始的機構級加密基礎設施合作。」</li><li><span class='discuss-tag'>社群反應</span><a href='https://x.com/GalaxyHQ' target='_blank' rel='noopener'>Galaxy Digital</a>（官方）：「我們也最近處理了一起涉及開發環境未授權存取的資安事件。沒有客戶資金受損，我們正跟執法單位合作。」</li></ol></div>"
     },
     {
       "id": "2026-04-10-Bittensor-Covenant-AI-decentralization-theatre",
@@ -968,78 +1443,234 @@ window.FEED_DATA = {
       "last_updated": "2026-04-12"
     },
     {
-      "id": "2026-04-06-Chaos-Labs-離開-Aave-DeFi-最大借貸協議的治理危機",
-      "title": "Aave 三大核心團隊接連出走：管了 260 億美元三年零壞帳的風控商也不幹了",
-      "url": "https://x.com/omeragoldberg/status/2041185313163276302",
+      "id": "2026-04-10-香港首發穩定幣牌照-HSBC-Anchorpoint",
+      "title": "全球第一張銀行穩定幣牌照：HSBC 和渣打聯盟從 36 家申請中勝出，PayMe 將直接嵌入港幣穩定幣",
+      "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260410-4/",
       "tags": [
-        "DeFi",
-        "治理",
-        "Aave"
+        "穩定幣",
+        "監管",
+        "香港"
       ],
-      "date": "2026-04-08",
-      "image": "images/2026-04-06-Chaos-Labs-Aave-DeFi-81fa41d5.png",
+      "date": "2026-04-13",
       "source_count": 8,
-      "discussion_count": 3,
-      "importance_score": 19,
+      "discussion_count": 2,
+      "importance_score": 18,
       "sources": [
         {
+          "name": "HKMA",
+          "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260410-4/",
+          "title": "金管局批出穩定幣發行人牌照",
+          "added_date": "2026-04-13"
+        },
+        {
           "name": "CoinDesk",
-          "url": "https://www.coindesk.com/tech/2026/04/06/aave-loses-key-risk-manager-chaos-labs-amid-contributor-exodus-and-disputes",
-          "title": "Aave 失去核心風控商 Chaos Labs：貢獻者出走潮與治理爭議加劇",
-          "added_date": "2026-04-06"
+          "url": "https://www.coindesk.com/policy/2026/03/24/hong-kong-awards-first-stablecoin-licenses-to-hsbc-standard-chartered-led-group",
+          "title": "香港首發穩定幣牌照給 HSBC 與渣打聯盟",
+          "added_date": "2026-04-13"
         },
         {
           "name": "The Block",
-          "url": "https://www.theblock.co/post/396458/top-aave-risk-manager-chaos-labs-exits-amid-governance-dispute",
-          "title": "Aave 頂級風控商 Chaos Labs 在治理爭議中宣布退出",
-          "added_date": "2026-04-06"
+          "url": "https://www.theblock.co/post/396990/hsbc-and-anchorpoint-financial-gain-first-hong-kong-stablecoin-issuer-licenses",
+          "title": "HSBC 和 Anchorpoint Financial 取得首批香港穩定幣發行人牌照",
+          "added_date": "2026-04-13"
         },
         {
-          "name": "The Defiant",
-          "url": "https://thedefiant.io/news/defi/chaos-labs-exits-aave",
-          "title": "Chaos Labs 結束與 Aave 三年合作關係",
-          "added_date": "2026-04-06"
+          "name": "FinanceAsia",
+          "url": "https://www.financeasia.com/article/hkma-grants-hsbc-and-anchorpoint-financial-stablecoin-licences/507530",
+          "title": "金管局批出 HSBC 與 Anchorpoint Financial 穩定幣牌照",
+          "added_date": "2026-04-13"
         },
         {
-          "name": "Bankless",
-          "url": "https://www.bankless.com/articles/chaos-labs-aave-departure",
-          "title": "Chaos Labs 離開 Aave：DeFi 治理出了什麼問題？",
-          "added_date": "2026-04-06"
+          "name": "Xinhua",
+          "url": "https://english.news.cn/20260411/85c7eee9324f4d659dbcae960e881a4e/c.html",
+          "title": "HSBC 與 Anchorpoint 獲批在香港發行穩定幣",
+          "added_date": "2026-04-13"
         },
         {
-          "name": "Invezz",
-          "url": "https://invezz.com/news/2026/04/07/aave-price-analysis-can-bulls-defend-90-as-chaos-labs-exits/",
-          "title": "AAVE 價格分析：多頭能守住 90 美元嗎？",
-          "added_date": "2026-04-08"
+          "name": "Central Banking",
+          "url": "https://www.centralbanking.com/central-banks/currency/digital-currencies/7975572/hkma-awards-hong-kongs-first-stablecoin-licences",
+          "title": "金管局頒發香港首批穩定幣牌照",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "CoinMarketCap",
+          "url": "https://coinmarketcap.com/academy/article/hong-kong-grants-first-stablecoin-licenses-to-hsbc-anchorpoint",
+          "title": "香港首發穩定幣牌照給 HSBC 與 Anchorpoint",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "Trade Finance Global",
+          "url": "https://www.tradefinanceglobal.com/posts/hong-kong-grants-first-stablecoin-licences-to-hsbc-and-anchorpoint/",
+          "title": "香港首發穩定幣牌照給 HSBC 與渣打支持的 Anchorpoint Financial",
+          "added_date": "2026-04-13"
+        }
+      ],
+      "summary": "<p>香港金管局 4 月 10 日從 36 份申請中批出首兩張穩定幣發行人牌照，得主是 HSBC 和 Anchorpoint Financial（渣打、Animoca Brands、香港電訊的合資公司）。香港的《穩定幣條例》去年 8 月生效，要求 1:1 全額準備金、分離資產、嚴格的流動性標準和持續揭露——是目前全球最嚴格的穩定幣監管框架之一。</p><p>HSBC 計畫下半年透過 PayMe 和手機銀行直接嵌入港幣穩定幣；Anchorpoint 的 HKDAP（HKD At Par）最快第二季上線，走 B2B2C 模式不直接面對散戶。這是全球第一次由傳統大型銀行（而非加密原生公司）拿到穩定幣發行牌照。美國的 GENIUS Act 和 FinCEN 規則還在跑流程，香港已經把牌照發出來了。</p>",
+      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">全球穩定幣監管競賽：誰先把牌照發出來？</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2025 年 6 月</div>\n<div class=\"chart-timeline-text\">歐盟 MiCA 穩定幣條款生效，Circle 取得首張歐盟牌照</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2025 年 7 月</div>\n<div class=\"chart-timeline-text\">美國 GENIUS Act 簽署成法，授權財政部制定細則</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2025 年 8 月</div>\n<div class=\"chart-timeline-text\">香港《穩定幣條例》生效，金管局開放申請</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">2026 年 4 月 10 日</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">香港金管局批出首兩張牌照：HSBC（FRS02）、Anchorpoint（FRS01）</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年 4 月 10 日</div>\n<div class=\"chart-timeline-text\">美國 FinCEN 發布 303 頁穩定幣 AML 規則提案（還在評論期）</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年 Q2</div>\n<div class=\"chart-timeline-text\">Anchorpoint HKDAP 上線（預計）</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年 H2</div>\n<div class=\"chart-timeline-text\">HSBC 港幣穩定幣透過 PayMe 上線（預計）</div>\n</div>\n</div>\n<div style=\"margin-top:14px;display:flex;gap:10px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">36 份</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">申請案</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">2 張</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">獲批牌照</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">5.6%</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">通過率</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：HKMA、CoinDesk / 區塊勢整理</div>\n</div>",
+      "discussions": "<div class='story-discuss'><ol>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://www.hkma.gov.hk/eng/news-and-media/insight/2026/04/20260410/\" target=\"_blank\" rel=\"noopener\">Eddie Yue</a>（香港金管局總裁）：「穩定幣在支付和金融創新方面有巨大潛力。我們的監管框架要求全額準備金、分離資產和嚴格揭露，目的是在鼓勵創新的同時保護使用者。」</li>\n<li><span class='discuss-tag'>產業觀點</span><a href=\"https://www.coindesk.com/policy/2026/03/24/hong-kong-awards-first-stablecoin-licenses-to-hsbc-standard-chartered-led-group\" target=\"_blank\" rel=\"noopener\">CoinDesk</a>：Anchorpoint 的股東結構本身就是一個訊號——渣打帶金融牌照、Animoca 帶 Web3 通路、香港電訊帶零售觸及率。這不是加密公司去拿銀行牌照，而是銀行來拿加密牌照。</li>\n</ol></div>",
+      "added_date": "2026-04-13",
+      "last_updated": "2026-04-13"
+    },
+    {
+      "id": "2026-04-08-ZachXBT-DPRK-IT-worker-network-390-accounts",
+      "title": "北韓 IT 幽靈大軍：ZachXBT 公開外洩伺服器資料，390 個假身份每月洗出 100 萬美元",
+      "url": "https://www.theblock.co/post/396847/zachxbt-uncovers-north-korea-linked-it-worker-network-generating-1m-monthly-via-crypto-payment-flows",
+      "tags": [
+        "安全",
+        "北韓",
+        "合規"
+      ],
+      "date": "2026-04-13",
+      "source_count": 7,
+      "discussion_count": 3,
+      "importance_score": 17,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/396847/zachxbt-uncovers-north-korea-linked-it-worker-network-generating-1m-monthly-via-crypto-payment-flows",
+          "title": "ZachXBT 揭露北韓 IT 工人網路，每月透過加密貨幣支付流產生 100 萬美元",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "Bitcoin.com",
+          "url": "https://news.bitcoin.com/zachxbt-publishes-leaked-dprk-payment-data-showing-1m-monthly-crypto-to-fiat-pipeline/",
+          "title": "ZachXBT 公布外洩的北韓支付資料，揭示每月 100 萬美元加密貨幣轉法幣管道",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "CryptoPotato",
+          "url": "https://cryptopotato.com/zachxbt-uncovers-3-5m-operation-by-north-korean-fake-devs-inside-crypto-firms/",
+          "title": "ZachXBT 揭露北韓假開發者在加密公司內部的 350 萬美元行動",
+          "added_date": "2026-04-13"
         },
         {
           "name": "CryptoTimes",
-          "url": "https://www.cryptotimes.io/2026/04/07/aave-exchange-reserves-jump-to-2-23m-amid-contributor-exodus-and-v4-tension/",
-          "title": "AAVE 交易所儲備升至 223 萬枚，貢獻者出走與 V4 緊張局勢持續",
-          "added_date": "2026-04-08"
+          "url": "https://www.cryptotimes.io/2026/04/08/inside-dprk-crypto-network-zachxbt-analyzes-leaked-server-data/",
+          "title": "深入北韓加密網路：ZachXBT 分析外洩伺服器資料",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "Blockonomi",
+          "url": "https://blockonomi.com/zachxbt-exposes-north-korean-it-workers-running-1m-month-crypto-fraud-network",
+          "title": "ZachXBT 揭露北韓 IT 工人每月運營 100 萬美元加密詐欺網路",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "FinanceFeeds",
+          "url": "https://financefeeds.com/north-korea-it-worker-network-used-390-accounts-to-funnel-crypto-payments/",
+          "title": "北韓 IT 工人網路利用 390 個帳號輸送加密貨幣支付",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "BanklessTimes",
+          "url": "https://www.banklesstimes.com/articles/2026/04/07/zachxbt-solana-defi-app-elementaldefi-hired-dprk-it-worker-for-years/",
+          "title": "ZachXBT：Solana DeFi 應用 ElementalDeFi 僱用北韓 IT 工人長達數年",
+          "added_date": "2026-04-13"
+        }
+      ],
+      "summary": "<p>鏈上偵探 ZachXBT 4 月 8 日發布 11 篇推文串，公開了從一名北韓 IT 工人被入侵的裝置中取得的內部支付伺服器資料。這個名為 luckyguys.site 的自架通訊平台長得像 Discord，裡面有 390 個帳號、韓文真名、城市代號，以及三間已遭美國財政部 OFAC 制裁的公司名稱：Sobaeksu、Saenal、Songkwang。</p><p>自 2025 年 11 月以來，這批帳號透過加密貨幣共處理超過 350 萬美元款項，平均每月約 100 萬美元，再經中國銀行帳戶和 Payoneer 轉成法幣。伺服器的預設密碼是 123456，10 個帳號從未更改。管理員還向工人發送了 43 份 Hex-Rays 和 IDA Pro 的逆向工程訓練教材——這些工具常被用來分析軟體漏洞。跟 Drift 那起 2.85 億美元攻擊不同，這批人不是駭客，而是用偽造身份混進加密和 AI 公司領薪水的「幽靈員工」。</p>",
+      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">北韓對加密產業的雙線攻擊：駭客 vs 幽靈員工</div>\n<div style=\"font-size:12px;color:#888;margin-bottom:16px\">Drift 攻擊和 IT 工人網路是同一個國家的兩種不同策略</div>\n<div style=\"display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px\">\n<div style=\"background:#fbe9e7;border-radius:10px;padding:14px;border:1px solid #ffccbc\">\n<div style=\"font-size:13px;font-weight:600;color:#e65100;margin-bottom:8px\">路線一：國家級駭客</div>\n<div style=\"font-size:12px;color:#444;line-height:1.6\">\n目標：一次性大額竊取<br>\n手法：社交工程 + 零日漏洞<br>\n代表案例：Drift $2.85 億<br>\n2026 年至今：18 起（Elliptic 統計）\n</div>\n</div>\n<div style=\"background:#e3f2fd;border-radius:10px;padding:14px;border:1px solid #bbdefb\">\n<div style=\"font-size:13px;font-weight:600;color:#1565c0;margin-bottom:8px\">路線二：IT 幽靈員工</div>\n<div style=\"font-size:12px;color:#444;line-height:1.6\">\n目標：持續性薪資收入<br>\n手法：偽造身份 + VPN 遠端工作<br>\n規模：390 帳號、$100 萬/月<br>\n工具：Astrill VPN、Payoneer、中國銀行帳戶\n</div>\n</div>\n</div>\n<div style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:14px\">\n<div style=\"font-size:13px;font-weight:600;color:#333;margin-bottom:8px\">北韓加密竊盜累計規模</div>\n<div style=\"font-size:12px;color:#444;line-height:1.7\">\n2024 年：$13.4 億（含 Ronin $6.25 億）<br>\n2025 年：$20.2 億（年增 51%，含 Bybit $15 億）<br>\n2026 年至今：$2.85 億（Drift）+ IT 工人薪資收入<br>\n累計超過 $67.5 億，美國財政部直接將這些資金與大規模毀滅性武器計畫掛鉤\n</div>\n</div>\n<div class=\"chart-source\">資料來源：ZachXBT、Elliptic、TRM Labs / 區塊勢整理</div>\n</div>",
+      "discussions": "<div class='story-discuss'><ol>\n<li><span class='discuss-tag'>原始調查</span><a href=\"https://x.com/zachxbt/status/2041873508180095032\" target=\"_blank\" rel=\"noopener\">ZachXBT</a>（鏈上偵探）：「我取得了一份從北韓 IT 工人被入侵裝置中外洩的內部支付伺服器資料集。390 個帳號、詳細對話紀錄、完整的加密貨幣交易記錄。自 2025 年 11 月以來處理超過 350 萬美元。」</li>\n<li><span class='discuss-tag'>產業觀點</span><a href=\"https://www.banklesstimes.com/articles/2026/04/07/zachxbt-solana-defi-app-elementaldefi-hired-dprk-it-worker-for-years/\" target=\"_blank\" rel=\"noopener\">BanklessTimes</a>（報導）：Solana 上的 DeFi 應用 ElementalDeFi 被發現僱用了北韓 IT 工人長達數年，這意味著「幽靈員工」問題不只存在於大公司，小型 DeFi 團隊更容易成為目標。</li>\n<li><span class='discuss-tag'>分析師</span><a href=\"https://www.fintechbrainfood.com/p/poor-aml-will-ruin-stablecoins\" target=\"_blank\" rel=\"noopener\">Simon Taylor</a>（Fintech Brainfood）：「這是 Elliptic 在 2026 年追蹤到的第 18 起北韓相關行動——才四月。北韓 2025 年透過加密貨幣竊取 20.2 億美元，年增 51%。美國財政部直接將這些資金與大規模毀滅性武器計畫掛鉤。」</li>\n</ol></div>",
+      "added_date": "2026-04-13",
+      "last_updated": "2026-04-13"
+    },
+    {
+      "id": "2026-04-14-Goldman-Sachs-Bitcoin-Premium-Income-ETF",
+      "title": "管 $3.5 兆的高盛終於申請自家比特幣 ETF：不是 spot，是「賣 call 養息」的覆蓋式賣權版本",
+      "url": "https://www.coindesk.com/business/2026/04/14/goldman-sachs-files-for-bitcoin-income-etf-in-crypto-push",
+      "tags": [
+        "ETF",
+        "比特幣",
+        "機構"
+      ],
+      "date": "2026-04-14",
+      "source_count": 5,
+      "discussion_count": 3,
+      "importance_score": 13,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/04/14/goldman-sachs-files-for-bitcoin-income-etf-in-crypto-push",
+          "title": "高盛申請比特幣收益型 ETF，跨入加密資產發行戰場",
+          "added_date": "2026-04-15"
         },
         {
           "name": "Unchained",
-          "url": "https://unchainedcrypto.com/chaos-labs-exits-aave-risk-management-role-citing-v4-workload-and-funding-gap/",
-          "title": "Chaos Labs 退出 Aave 風控角色，稱 V4 工作量和資金缺口是導火線",
-          "added_date": "2026-04-08"
+          "url": "https://unchainedcrypto.com/goldman-sachs-files-preliminary-prospectus-for-bitcoin-premium-income-etf-unchained/",
+          "title": "高盛送交比特幣保險費收益型 ETF 初步公開說明書",
+          "added_date": "2026-04-15"
         },
         {
-          "name": "DL News",
-          "url": "https://www.dlnews.com/articles/defi/aave-firm-exits-defi-giant-amid-protracted-power-struggle/",
-          "title": "Aave 核心風控商在長期權力鬥爭中退出 DeFi 最大借貸協議",
-          "added_date": "2026-04-08"
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/tradfi-and-fintech/goldman-sachs-files-for-its-first-bitcoin-linked-etf",
+          "title": "高盛申請首檔比特幣連動型 ETF",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "FXStreet",
+          "url": "https://www.fxstreet.com/cryptocurrencies/news/goldman-sachs-seeks-sec-approval-for-bitcoin-premium-income-etf-202604142321",
+          "title": "高盛向 SEC 申請比特幣保險費收益型 ETF",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "CryptoBriefing",
+          "url": "https://cryptobriefing.com/goldman-sachs-doubles-down-bitcoin-exposure-premium-income-etf/",
+          "title": "高盛加碼比特幣曝險，推出保險費收益型 ETF",
+          "added_date": "2026-04-15"
         }
       ],
-      "summary": "<p>DeFi 最大借貸協議 Aave 正經歷嚴重的治理危機。從 2022 年起負責風控的 Chaos Labs 宣布終止合作，拒絕 500 萬美元的續約方案，稱在 V4 升級的工作量翻倍下，每年至少需要 800 萬美元才能維持運作——約為 Aave 2025 年 1.42 億美元營收的 5.6%。</p><p>Chaos Labs 管理了 Aave 三年期間，協議 TVL 從 52 億美元成長到超過 260 億美元，零重大壞帳。但隨著 Chaos Labs、ACI 和 BGD Labs 三大核心貢獻者接連出走，AAVE 代幣已從 2025 年 8 月的高點 356 美元一路跌到 85 美元附近，蒸發約 75%。交易所儲備同步升至 223 萬枚，拋壓持續加大。</p>",
-      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">Aave 治理危機：三大核心團隊接連出走，AAVE 代幣蒸發 75%</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">$260 億</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Aave TVL</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">3 支</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">核心團隊離職</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">75%</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">AAVE 跌幅</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">$800 萬</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Chaos Labs 要價</div>\n</div>\n</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2022 年</div>\n<div class=\"chart-timeline-text\">Chaos Labs 開始為 Aave 提供風控服務</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2022-2026 年</div>\n<div class=\"chart-timeline-text\">Aave TVL 從 $52 億成長到 $260 億，零重大壞帳</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年初</div>\n<div class=\"chart-timeline-text\">ACI 和 BGD Labs 相繼宣布終止合作</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">2026 年 4 月</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">Chaos Labs 拒絕 $500 萬續約，要求 $800 萬年費</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">同月</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">AAVE 從 $356 美元高點跌至 $85 附近，蒸發約 75%</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：Chaos Labs、Aave DAO 公告 / 區塊勢整理</div>\n</div>",
-      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://x.com/omeragoldberg/status/2041185313163276302' target='_blank' rel='noopener'>Omer Goldberg</a>（Chaos Labs 創辦人）：「這次離開不是預算的問題。即使 Aave Labs 把預算提高到 500 萬美元，我們仍然會是虧損經營。根本的分歧在於：我們認為風險管理在 Aave 這個規模應該被怎樣對待，跟 DAO 目前的方向不一致。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://x.com/aixbt_agent/status/2031623794406863253' target='_blank' rel='noopener'>aixbt</a>（AI 分析代理）：「Stani Kulechov 在 2 月 7 日買了 353 萬美元的 AAVE，同一週他的頂級貢獻者宣布離開。Arthur Hayes 同一週虧損賣出。創辦人在人才流失期間以 4.6 倍 P/S 買進，而 Morpho 以類似營收交易在 4.2 倍。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://x.com/StaniKulechov/status/2001036446098919461' target='_blank' rel='noopener'>Stani Kulechov</a>（Aave 創辦人）：「Aave Will Win: 2026 Master Plan」——公布策略計畫回應治理爭議，強調 Aave Labs 與協議長期利益一致。</li></ol></div>",
-      "fetchedFrom": [
-        "Gmail"
+      "summary": "<p>高盛目前管理 $3.5 兆美元資產，旗下已有兩檔「保險費收益」系列 ETF：GPIX 追蹤 S&P 500、GPIQ 追蹤 Nasdaq-100，做法是賣出投資組合 25% 到 75% 的價值作為 call option，用收到的保險費配出月配息。這個套路做股票做了好幾年，這次第一次套在比特幣上。不過值得注意的是，高盛自己並不直接買 BTC，而是透過其他發行商的現貨比特幣 ETP 建立曝險，再在上面賣 call。</p><p>這檔「Goldman Sachs Bitcoin Premium Income ETF」4 月 14 日向 SEC 送件，由 Goldman Sachs ETF Trust 發行，覆蓋率訂在 40% 到 100% 之間。最快生效日落在 6 月底或 7 月初。高盛到 2026 年初就已經透過貝萊德 IBIT 累積 $11 億美元以上的比特幣部位，這次是第一次把自己的名字掛到產品封面上，跟進 BlackRock 先前申請的類似收益型比特幣 ETF。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-compare'><div class='chart-item'><div class='chart-label'>GPIX（S&P 500）</div><div class='chart-value'>2022 推出</div><div class='chart-sub'>賣指數 call 養息</div></div><div class='chart-item'><div class='chart-label'>GPIQ（Nasdaq-100）</div><div class='chart-value'>2023 推出</div><div class='chart-sub'>同樣覆蓋式賣權</div></div><div class='chart-item chart-highlight'><div class='chart-label'>Bitcoin Premium Income</div><div class='chart-value'>2026-04-14</div><div class='chart-sub'>首次套用在比特幣</div></div></div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>分析師</span><a href='https://x.com/EricBalchunas' target='_blank' rel='noopener'>Eric Balchunas</a>（Bloomberg ETF 分析師）：「高盛把他們的收益型 ETF 劇本套到比特幣上了，這是他們第一次真正推自己的加密產品。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://unchainedcrypto.com/goldman-sachs-files-preliminary-prospectus-for-bitcoin-premium-income-etf-unchained/' target='_blank' rel='noopener'>Unchained 編輯部</a>：「高盛繞過直接持有 BTC，改用別家的現貨 ETP 做底層，這種結構就是把自己定位成策略層，不碰託管。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://cryptobriefing.com/goldman-sachs-doubles-down-bitcoin-exposure-premium-income-etf/' target='_blank' rel='noopener'>CryptoBriefing 分析</a>：「覆蓋式賣權在 BTC 這種高波動資產上，月配能衝很高，但多頭行情時會吃掉很多上漲空間。」</li></ol></div>"
+    },
+    {
+      "id": "2026-04-13-SEC-staff-covered-user-interface-broker-dealer",
+      "title": "SEC 一紙聲明放行 DeFi 前端：不托管、不給建議、不代為執行，就不必登記為券商；效期五年",
+      "url": "https://www.sec.gov/newsroom/speeches-statements/staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized-prepare-staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized",
+      "tags": [
+        "監管",
+        "DeFi",
+        "SEC"
       ],
-      "added_date": "2026-04-06",
-      "last_updated": "2026-04-08",
-      "_image_source": "gemini"
+      "date": "2026-04-13",
+      "source_count": 5,
+      "discussion_count": 3,
+      "importance_score": 13,
+      "sources": [
+        {
+          "name": "SEC",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized-prepare-staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized",
+          "title": "關於協助使用者準備加密資產證券交易之特定使用者介面是否須登記為券商之幕僚聲明",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/04/13/sec-staff-statement-on-defi-front-ends-broker-dealer-registration",
+          "title": "SEC 幕僚：允許加密錢包交易的軟體不算券商",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/sec-staff-exempt-certain-crypto-wallet-interfaces-from-broker-dealer-registration-requirements-unchained/",
+          "title": "SEC 幕僚免除部分加密錢包介面的券商登記義務",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/397300/sec-defi-front-ends-broker-dealer",
+          "title": "SEC 向 DeFi 前端和自託管錢包開綠燈",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "FinTelegram",
+          "url": "https://fintelegram.com/sec-draws-the-broker-line-for-crypto-apps-self-custodial-front-ends-get-a-narrow-pass-for-now/",
+          "title": "SEC 替加密 app 劃出券商界線：自託管前端暫得窄門放行",
+          "added_date": "2026-04-15"
+        }
+      ],
+      "summary": "<p>過去幾年 DeFi 前端、瀏覽器擴充錢包、自託管 app 都籠罩在一個問題之下——它們幫使用者發起鏈上交易，會不會被美國證交會當成沒登記的券商？這件事沒人講清楚，大部分團隊就只能硬著頭皮營運，或者乾脆避開美國使用者。4 月 13 日 SEC 交易與市場部門的幕僚出手，給了一個「窄門放行」的答案。</p><p>聲明把合格對象稱為「Covered User Interface」，要符合四個條件：不替使用者保管資產、不提供投資建議或特定交易推薦、不代為執行交易、只收固定費或定額費。符合這四項的錢包或 DeFi 前端，SEC 幕僚就不會主張它必須登記為券商。這份聲明不是正式規則，是臨時性指引，從 2026 年 4 月 13 日起算五年自動失效，除非期間 SEC 另外立規補上。這是 Paul Atkins 接任主席後一連串幕僚層級放行動作的最新一環，前面已經處理過迷因幣、穩定幣與質押。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-row'><div class='chart-row-label'>✅ 不托管用戶資產</div><div class='chart-row-value'>Covered UI 條件一</div></div><div class='chart-row'><div class='chart-row-label'>✅ 不給投資建議或特定交易推薦</div><div class='chart-row-value'>Covered UI 條件二</div></div><div class='chart-row'><div class='chart-row-label'>✅ 不代為執行交易</div><div class='chart-row-value'>Covered UI 條件三</div></div><div class='chart-row'><div class='chart-row-label'>✅ 只收固定費或定額費</div><div class='chart-row-value'>Covered UI 條件四</div></div><div class='chart-row chart-highlight'><div class='chart-row-label'>⚠️ 指引效期</div><div class='chart-row-value'>2026-04-13 起算五年，屆期自動失效</div></div></div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://www.sec.gov/newsroom/speeches-statements/staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized-prepare-staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized' target='_blank' rel='noopener'>SEC 交易與市場部門</a>：「本聲明屬幕僚立場，非委員會規則，亦不構成法律意見，受規管實體仍應自行評估其商業模式是否落入既有券商規範。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://unchainedcrypto.com/sec-staff-exempt-certain-crypto-wallet-interfaces-from-broker-dealer-registration-requirements-unchained/' target='_blank' rel='noopener'>Unchained</a>：「這是 Paul Atkins 主席上任後針對加密資產連發的第四份幕僚聲明——之前分別處理迷因幣、穩定幣、質押，這次輪到錢包前端。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://fintelegram.com/sec-draws-the-broker-line-for-crypto-apps-self-custodial-front-ends-get-a-narrow-pass-for-now/' target='_blank' rel='noopener'>FinTelegram</a>：「五年落日條款意味著這份保護傘隨時可能被下一任主席收回，團隊不能當成永久安全邊界。」</li></ol></div>"
     },
     {
       "id": "2026-04-04-Coinbase-拿下-OCC-聯邦信託牌照",
@@ -1312,6 +1943,84 @@ window.FEED_DATA = {
       "added_date": "2026-04-03",
       "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/decrypt-style-anthropic-dario-amodei-gID_7.png",
       "_image_source": "og"
+    },
+    {
+      "id": "2026-04-14-Tether-people-wallet-self-custodial",
+      "title": "Tether 不再只做發幣：丟出自托管錢包 App，只收自家 USDT、USAT、XAUT 和比特幣",
+      "url": "https://thedefiant.io/news/defi/tether-introduces-self-custodial-wallet-to-enhance-financial-inclusion",
+      "tags": [
+        "穩定幣",
+        "錢包"
+      ],
+      "date": "2026-04-14",
+      "source_count": 3,
+      "discussion_count": 5,
+      "importance_score": 11,
+      "sources": [
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/defi/tether-introduces-self-custodial-wallet-to-enhance-financial-inclusion",
+          "title": "Tether 推出多鏈自托管錢包，主打普惠金融",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://www.bankless.com/read/news/tether-debuts-peoples-wallet-self-custody-at-scale",
+          "title": "Tether 推出「人民錢包」，瞄準大規模自托管",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Tether",
+          "url": "https://tether.io/news/tether-wallet-launch",
+          "title": "Tether 錢包上線：多鏈、自托管、零 gas",
+          "added_date": "2026-04-14"
+        }
+      ],
+      "summary": "<p>Tether 過去十年的角色一直是「發穩定幣、把準備金放到財政部」，很少直接碰使用者。今年開始明顯在擴線——先是宣布美國本土合規版 USAT，現在連錢包也自己做。4 月 14 日推出的 tether.wallet 基於自家開源的 Wallet Development Kit，強調自托管、多鏈、送幣不用付 gas。唯一支援的資產剛好是 Tether 自家整套：USDT、合規版 USAT、代幣化黃金 XAUT，加上比特幣。官方的說法是「對大多數人真正重要的資產」。</p><p>商業上這一步把 Tether 從「發幣人」推進到「控通路」——誰用我的錢包，就是鎖進我的生態系。穩定幣規模化後，錢包層開始變成收費瓶頸：Circle 在推 Circle Mint、Wallet-as-a-Service，Coinbase 用 Base 和 Smart Wallet 包住整條路徑。Tether 這手等於直接蓋一個自家版本的通路，不讓 USDT 被單純當成「後台資產」使用。配合同天 White House 加密顧問 Witt 表態穩定幣收益條款磨得差不多、SEC 放行 DeFi 前端，「穩定幣發行商變全端金融基礎設施公司」這件事在一天內跳了三格。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-row'><div class='chart-cell'><div class='chart-label'>支援資產</div><div class='chart-val'>USDT、USAT、XAUT、BTC</div></div><div class='chart-cell'><div class='chart-label'>特色</div><div class='chart-val'>自托管、多鏈、無 gas</div></div><div class='chart-cell'><div class='chart-label'>技術底座</div><div class='chart-val'>自家開源 WDK</div></div><div class='chart-cell'><div class='chart-label'>USDT 市值</div><div class='chart-val'>穩定幣龍頭，約 1,800 億美元</div></div></div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://x.com/paoloardoino' target='_blank' rel='noopener'>Paolo Ardoino</a>（Tether CEO）：「我們只支援對大多數人真正重要的資產：USDT、USAT、XAUT、Bitcoin。自托管就是錢放在你自己手上，不是我們。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://x.com/jchervinsky' target='_blank' rel='noopener'>Jake Chervinsky</a>（Variant 法務長）：「Tether 從發行方變成通路商。這不是技術升級，是商業模式升級——控住錢包等於控住手續費和資料。」</li><li><span class='discuss-tag'>分析師</span><a href='https://x.com/TheOneandOmsy' target='_blank' rel='noopener'>Omid Malekan</a>（哥倫比亞商學院講師）：「Circle 在蓋 Mint 和 WaaS，Coinbase 蓋 Base 和 Smart Wallet，Tether 現在也要自己蓋錢包。穩定幣發行商正在變成全端金融基礎設施。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://x.com/el33th4xor' target='_blank' rel='noopener'>Emin Gün Sirer</a>（Ava Labs CEO）：「只支援自家資產的「自托管錢包」，本質上還是 walled garden。真正的自托管應該支援任何鏈、任何代幣。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://x.com/samczsun' target='_blank' rel='noopener'>samczsun</a>（Paradigm 研究員）：「WDK 是開源的，這點值得肯定。但錢包安全不是開源一下就沒事——Tether 沒有錢包審計的歷史紀錄，值得時間檢驗。」</li></ol></div>"
+    },
+    {
+      "id": "2026-04-13-SEC-DeFi-UI-broker-dealer-exemption",
+      "title": "SEC 替 DeFi 介面開窄門：自託管錢包前端可不註冊券商，但只限證券型代幣與十二項條件",
+      "url": "https://thedefiant.io/news/regulation/sec-staff-guidance-broker-dealer-rules-for-defi",
+      "tags": [
+        "DeFi",
+        "監管"
+      ],
+      "date": "2026-04-13",
+      "source_count": 4,
+      "discussion_count": 3,
+      "importance_score": 11,
+      "sources": [
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/regulation/sec-staff-guidance-broker-dealer-rules-for-defi",
+          "title": "SEC 替部分加密交易介面在券商註冊規則上開出一條窄道",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://www.bankless.com/read/news/sec-staff-exempts-crypto-interface-providers-from-mandatory-registration",
+          "title": "SEC 給「加密介面提供者」開出免註冊券商的豁免",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "CoinGape",
+          "url": "https://coingape.com/u-s-sec-provides-pathway-for-defi-platforms-to-operate-without-broker-dealer-registration/",
+          "title": "SEC 為 DeFi 平台開出無須註冊券商的營運路徑",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "AMBCrypto",
+          "url": "https://ambcrypto.com/sec-says-certain-crypto-trading-interfaces-may-avoid-broker-dealer-registration/",
+          "title": "SEC 表態：部分加密交易介面可避開券商註冊",
+          "added_date": "2026-04-14"
+        }
+      ],
+      "summary": "<p>SEC 過去十年一直把券商註冊當成壓制 DeFi 的主要工具——一旦被認定為券商，業者必須登記、揭露財務、配合執法，這套合規負擔讓「去中心化」名存實亡。Hester Peirce 委員與業界一直在爭取一道明確的安全港，但兩任主席任內都卡在「自託管錢包介面到底算不算券商」這個問題。</p><p>4 月 13 日 SEC 交易與市場部門發出工作人員聲明，列出十二項條件——介面必須是純軟體工具、不能持有資金、不能推薦特定交易、不能用主觀字眼形容路由、費率必須一致、所有路徑要事先公開。符合條件的自託管錢包介面可不必註冊券商。但這道窄門只適用於「加密證券」，不涵蓋現貨交易；而且只是工作人員的非約束性聲明，五年後若委員會未進一步立法即自動失效。Jito 法務長 Rebecca Rettig 形容「今天當建造者真好」，Galaxy Research 則指出「SEC 證明它不必等國會也能推進加密市場結構」。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-row'><div class='chart-row-title'>必須做到</div><ul><li>純軟體工具，不持有用戶資產與私鑰</li><li>用戶可自訂交易參數與預設值</li><li>路由邏輯依事先公開、可驗證的客觀標準</li><li>費率固定、一致，不隨對手方變動</li><li>充分揭露未註冊狀態與利益衝突</li></ul></div><div class='chart-row'><div class='chart-row-title'>禁止行為</div><ul><li>主動推薦或撮合特定交易</li><li>用「最佳價格」「最可靠」等主觀用語</li><li>提供投資建議或財務安排</li><li>持有用戶資金、證券、穩定幣或私鑰</li><li>執行、結算或路由訂單</li></ul></div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>產業觀點</span><a href='https://x.com/RebeccaRettig1' target='_blank' rel='noopener'>Rebecca Rettig</a>（Jito 法務長）：「今天當建造者真好。」</li><li><span class='discuss-tag'>分析師</span><a href='https://x.com/intangiblecoins' target='_blank' rel='noopener'>Alex Thorn</a>（Galaxy Research 研究主管）：「SEC 剛剛證明，它不需要國會也能推進加密市場結構。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://x.com/fund_defi' target='_blank' rel='noopener'>DeFi Education Fund</a>：「來自 SEC 的一份強硬工作人員聲明。」</li></ol></div>"
     },
     {
       "id": "2026-04-10-Anthropic-OpenClaw-切斷-Managed-Agents-推出",
@@ -1622,6 +2331,48 @@ window.FEED_DATA = {
       "added_date": "2026-04-02",
       "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
       "_image_source": "og"
+    },
+    {
+      "id": "2026-04-13-Hyperbridge-Polkadot-fake-DOT-mint",
+      "title": "駭客憑空鑄出 10 億美元假 DOT 代幣，最後只搬走 23.7 萬：Hyperbridge 兩週前才開過自家被駭的愚人節玩笑",
+      "url": "https://www.coindesk.com/tech/2026/04/13/attacker-mints-usd1-billion-polkadot-tokens-on-ethereum-ends-up-stealing-just-usd250-000",
+      "tags": [
+        "加密安全",
+        "跨鏈橋"
+      ],
+      "date": "2026-04-13",
+      "source_count": 4,
+      "discussion_count": 2,
+      "importance_score": 10,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/04/13/attacker-mints-usd1-billion-polkadot-tokens-on-ethereum-ends-up-stealing-just-usd250-000",
+          "title": "攻擊者在以太坊鑄出 10 億美元 Polkadot 代幣，卻只盜走 25 萬美元",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/hacks/polkadot-hyperbridge-ethereum-gateway-exploit-sjb0ql",
+          "title": "Polkadot 確認 Hyperbridge 在以太坊的閘道合約遭攻擊",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/attacker-mints-1-billion-in-fake-polkadot-tokens-on-ethereum-but-steals-only-250000-unchained/",
+          "title": "攻擊者鑄出 10 億顆假 Polkadot 代幣，僅換出 25 萬美元",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "crypto.news",
+          "url": "https://crypto.news/hyperbridge-exploit-mints-1-billion-fake-dot-on-ethereum-nets-just-237k/",
+          "title": "Hyperbridge 漏洞鑄出 10 億顆假 DOT，駭客僅換出 23.7 萬美元",
+          "added_date": "2026-04-14"
+        }
+      ],
+      "summary": "<p>Hyperbridge 是 Polkadot 在 2025 年 4 月選定的官方原生跨鏈橋，負責把 DOT 等資產搬到以太坊。它的 ISMP 合約在驗證跨鏈訊息時，只檢查請求雜湊是否重複、卻沒有把證明真正綁回它要驗證的訊息——這個漏洞讓攻擊者得以接管已包裝 DOT 代幣的合約管理權。</p><p>4 月 13 日攻擊者利用這個破口在以太坊鑄出 10 億顆假 DOT，按當時匯率名義價值 11.9 億美元。但流動池太淺，賣壓還沒消化完，DOT 的橋接價就從 1.22 美元跌到接近零，最終攻擊者只換到 108.2 顆 ETH、約 23.7 萬美元。Polkadot 與 Hyperbridge 都聲明原生 DOT 與 Polkadot 主鏈不受影響。諷刺的是，Hyperbridge 官方帳號兩週前才開過愚人節玩笑，假裝自己被偷走 3,700 萬美元——這次是真的，金額卻不到當時開玩笑數字的百分之一。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-compare'><div class='chart-compare-item'><div class='chart-compare-label'>名義鑄出</div><div class='chart-compare-value'>10 億顆 DOT</div><div class='chart-compare-sub'>價值約 11.9 億美元</div></div><div class='chart-compare-item'><div class='chart-compare-label'>實際換出</div><div class='chart-compare-value'>108.2 顆 ETH</div><div class='chart-compare-sub'>約 23.7 萬美元</div></div><div class='chart-compare-item'><div class='chart-compare-label'>橋接 DOT 價格</div><div class='chart-compare-value'>$1.22 → 趨近 0</div><div class='chart-compare-sub'>賣壓擊穿流動池</div></div></div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>不同角度</span><a href='https://x.com/Polkadot' target='_blank' rel='noopener'>Polkadot 官方</a>：「事件僅影響 Hyperbridge 在以太坊上橋接的 DOT，原生 DOT 與 Polkadot 生態系統運作正常、未受波及。」</li><li><span class='discuss-tag'>社群反應</span><a href='https://x.com/hyperbridge_' target='_blank' rel='noopener'>Hyperbridge</a>：兩週前的愚人節貼文寫「我們被駭走 3,700 萬美元」是假的，這次真的被駭走的金額卻不到當時數字的百分之一。</li></ol></div>"
     },
     {
       "id": "2026-04-10-HK-HKMA-first-stablecoin-licenses",
