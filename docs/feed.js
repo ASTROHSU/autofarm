@@ -1,184 +1,624 @@
 window.FEED_DATA = {
-  "lastUpdated": "2026-04-16T08:00:00Z",
+  "lastUpdated": "2026-04-24T05:52:24Z",
   "items": [
     {
-      "id": "2026-04-15-Saylor-Strategy-STRC-1B-BTC-fear8",
-      "title": "市場恐慌指數卡在 8 第 60 天，Saylor 上週進場買 $10 億 BTC：全由 STRC 優先股撐腰",
-      "url": "https://www.coindesk.com/markets/2026/04/13/michael-saylor-s-strategy-added-13-927-bitcoin-for-usd1-billion",
+      "id": "2026-04-19-Kelp-DAO-rsETH-bridge-exploit-292M",
+      "title": "Lazarus 18 天掏走 DeFi 5.75 億：Kelp DAO 2.92 億攻擊引爆 Aave 擠兌，全鏈 TVL 三週蒸發 25%",
+      "url": "https://www.coindesk.com/tech/2026/04/19/2026-s-biggest-crypto-exploit-kelp-dao-hit-for-usd292-million-with-wrapped-ether-stranded-across-20-chains",
       "tags": [
-        "Bitcoin",
-        "Strategy",
-        "機構",
-        "情緒指標"
+        "DeFi",
+        "安全",
+        "Ethereum"
       ],
-      "date": "2026-04-15",
-      "added_date": "2026-04-16",
-      "last_updated": "2026-04-16",
+      "date": "2026-04-24",
+      "source_count": 44,
+      "discussion_count": 8,
+      "importance_score": 96,
       "sources": [
         {
           "name": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/04/13/michael-saylor-s-strategy-added-13-927-bitcoin-for-usd1-billion",
-          "title": "Saylor 旗下 Strategy 單週加碼 13,927 顆 BTC、耗資 $10 億",
-          "added_date": "2026-04-16"
+          "url": "https://www.coindesk.com/tech/2026/04/19/2026-s-biggest-crypto-exploit-kelp-dao-hit-for-usd292-million-with-wrapped-ether-stranded-across-20-chains",
+          "title": "2026 最大加密攻擊：Kelp DAO 被掏 2.92 億，wrapped ether 困在 20 條鏈上",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "CryptoBriefing",
+          "url": "https://cryptobriefing.com/kelp-dao-bridge-hack-292m-loss/",
+          "title": "Kelp DAO 遭 2.92 億美元橋接攻擊，rsETH 儲備被抽乾，Aave 凍結受影響市場",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "DL News",
+          "url": "https://www.dlnews.com/articles/defi/kelp-dao-defi-protocol-hacked-for-300-million/",
+          "title": "駭客鎖定 DeFi 協議 Kelp DAO，攻擊規模達 3 億美元",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "PANews",
+          "url": "https://www.panewslab.com/en/articles/019da436-2b56-7540-8228-cbee705833ef",
+          "title": "Kelp 被駭、Aave 慘賠：2.92 億美元是怎麼被偷走的？",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "News.Bitcoin.com",
+          "url": "https://news.bitcoin.com/zachxbt-flags-280m-kelpdao-exploit-hitting-ethereum-defi-lending-markets/",
+          "title": "ZachXBT 標記 2.8 億以上 KelpDAO 攻擊正衝擊 Ethereum DeFi 借貸市場",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "Blockonomi",
+          "url": "https://blockonomi.com/kelp-dao-rseth-bridge-hack-drains-292m-as-defi-losses-top-600m-in-two-weeks/",
+          "title": "Kelp DAO rsETH 橋接被掏 2.92 億，DeFi 兩週失血突破 6 億",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "FinanceFeeds",
+          "url": "https://financefeeds.com/kelp-dao-exploit-drains-292m-in-rseth-as-cross-chain-bridge-targeted/",
+          "title": "Kelp DAO 攻擊掏走 2.92 億 rsETH，跨鏈橋成為目標",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "CoinGape",
+          "url": "https://coingape.com/aave-price-crashes-10-as-aave-backed-kelpdao-faces-280m-crypto-hack/",
+          "title": "KelpDAO 遭 2.8 億駭客攻擊，AAVE 價格暴跌 10%",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "Yellow.com",
+          "url": "https://yellow.com/news/kelp-dao-292m-exploit-defi-lending",
+          "title": "每個 DeFi 交易者都在盯這起 Kelp DAO 2.92 億攻擊，它將如何改變借貸市場",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "MoneyCheck",
+          "url": "https://moneycheck.com/kelp-dao-suffers-292m-exploit-through-layerzero-bridge-vulnerability",
+          "title": "Kelp DAO 遭 2.92 億美元攻擊：LayerZero 橋接漏洞",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "SpazioCrypto",
+          "url": "https://en.spaziocrypto.com/hack/kelp-dao-hack-292-million-rseth-bridge-layerzero/",
+          "title": "Kelp DAO 駭客事件：rsETH 橋接被掏 2.92 億美元",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "Startup Fortune",
+          "url": "https://startupfortune.com/kelpdao-rseth-exploit-creates-290m-bad-debt-on-aave/",
+          "title": "KelpDAO rsETH 攻擊在 Aave 上製造 2.9 億壞帳",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/04/19/aave-records-usd6-billion-tvl-drop-as-kelp-hack-exposes-structural-risk-at-defi-lender",
+          "title": "Aave TVL 蒸發 60 億美元：Kelp 攻擊暴露 DeFi 借貸結構性風險",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-19/crypto-hack-worth-290-million-triggers-defi-contagion-shock",
+          "title": "2.9 億美元加密攻擊引發 DeFi 傳染性衝擊",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/defi/aave-price-crash-kelpdao-exploit-whale-dump-rxi8o9",
+          "title": "Kelp DAO 損失 2.93 億，Aave 背上超過 2 億壞帳",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "TheStreet",
+          "url": "https://www.thestreet.com/crypto/markets/major-defi-hack-becomes-the-largest-of-2026-yet",
+          "title": "重大 DeFi 攻擊成為 2026 年最大一起",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/04/19/defi-is-dead-crypto-community-scrambles-after-usd292-million-hack-exposes-cross-chain-risks",
+          "title": "「DeFi 已死」：2.92 億攻擊暴露跨鏈風險後社群一片恐慌",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "News.Bitcoin.com",
+          "url": "https://news.bitcoin.com/defi-lender-aave-battles-withdrawal-crisis-after-kelpdao-rseth-exploit/",
+          "title": "DeFi 借貸龍頭 Aave 在 KelpDAO rsETH 攻擊後苦撐提款危機",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "CoinCentral",
+          "url": "https://coincentral.com/292-million-gone-in-46-minutes-inside-the-kelp-dao-defi-hack/",
+          "title": "46 分鐘蒸發 2.92 億：Kelp DAO DeFi 攻擊內幕",
+          "added_date": "2026-04-20"
         },
         {
           "name": "The Block",
-          "url": "https://www.theblock.co/post/397188/think-bigger-michael-saylors-strategy-buys-more-bitcoin",
-          "title": "「想大一點」：Saylor 再買 13,927 顆 BTC，部位衝上 780,897 顆",
-          "added_date": "2026-04-16"
+          "url": "https://www.theblock.co/post/397988/kelp-daos-rseth-bridge-apparently-exploited-for-roughly-292-million-in-layerzero-based-attack",
+          "title": "Kelp DAO rsETH 橋接疑遭攻擊，損失約 2.92 億美元",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://bankless.ghost.io/defi-bank-run-kelp-dao-rseth-exploit/",
+          "title": "DeFi 銀行擠兌？Kelp DAO 被掏 2.92 億，Aave 蒸發 70 億",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Blockworks / The Breakdown",
+          "url": "https://mail.blockworks.com/p/1925-bank-run-comes-for-defi",
+          "title": "1925 年銀行擠兌重現 DeFi：偽造指令如何製造「真假幣」",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/364872/layerzero-pins-292m-kelpdao-bridge-hack-on-north-koreas-lazarus-group",
+          "title": "LayerZero 將 2.92 億 KelpDAO 橋接攻擊歸咎北韓 Lazarus Group",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/layerzero-links-292-million-kelp-dao-bridge-exploit-to-north-koreas-lazarus-group/",
+          "title": "LayerZero 確認 2.92 億 Kelp DAO 攻擊與北韓 Lazarus Group 相關",
+          "added_date": "2026-04-21"
         },
         {
           "name": "Milk Road",
-          "url": "https://milkroad.com/news/saylor-worst-sentiment-record-buys-strc/",
-          "title": "市場情緒跌到月谷底，Saylor 卻創紀錄加碼",
-          "added_date": "2026-04-16"
+          "url": "https://mrcrypto.milkroad.com/p/the-scary-part-nobody-s-pricing-in",
+          "title": "投資人從 DeFi 撤出 150 億美元：沒人定價的恐怖部分",
+          "added_date": "2026-04-21"
         },
         {
-          "name": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/04/15/bitcoin-news-strategys-1-billion-bitcoin-buy-pushes-saylor-back-into-profit-as-btc-hits-75000/",
-          "title": "BTC 衝上 $75,000，Strategy 再買 $10 億把 Saylor 帳面拉回獲利",
-          "added_date": "2026-04-16"
+          "name": "DL News",
+          "url": "https://www.dlnews.com/articles/defi/investors-pull-money-from-defi-after-kelpdao-hack/",
+          "title": "投資人從 DeFi 撤出 150 億美元：最新攻擊引發安全恐慌",
+          "added_date": "2026-04-21"
         },
         {
-          "name": "AMBCrypto",
-          "url": "https://ambcrypto.com/michael-saylor-adds-13927-btc-strategys-treasury-now-has-780897-bitcoin/",
-          "title": "Saylor 再加 13,927 顆 BTC，Strategy 金庫部位達 780,897 顆",
-          "added_date": "2026-04-16"
+          "name": "Cointelegraph Weekly",
+          "url": "https://cointelegraph.com/news/bitcoin-etfs-pull-in-nearly-1b-worldcoin-drops",
+          "title": "BTC ETF 流入近 10 億、Kelp DAO 2.92 億攻擊等本週要聞",
+          "added_date": "2026-04-21"
         },
         {
-          "name": "CryptoTimes",
-          "url": "https://www.cryptotimes.io/2026/04/14/fact-check-strategys-record-1-1b-strc-volume-signals-secret-bitcoin-buy/",
-          "title": "STRC 日成交量創 $11.56 億紀錄，市場解讀為「偷偷加碼」BTC 的訊號",
-          "added_date": "2026-04-16"
-        }
-      ],
-      "source_count": 6,
-      "discussion_count": 5,
-      "importance_score": 17,
-      "summary": "<p>市場恐慌與貪婪指數 4 月中卡在 8 分，已經連續 60 天以上處於「極度恐慌」區間——比 2022 年 Terra/Luna 崩盤那次還多一倍的時間，創下該指標史上最長的恐慌期。Saylor 旗下 Strategy 偏偏就在這個時點，上週一口氣加碼 13,927 顆 BTC、花掉 $10 億美元，平均每顆成本 $71,902。金庫部位累積到 780,897 顆，持倉總成本 $590 億、平均 $75,577 一顆，離「年底持滿 100 萬顆」的目標剩下約 22 萬顆。</p><p>這筆 $10 億不是靠債、也不是增發普通股，而是完全來自優先股 STRC 的發行。STRC 四月 13 日單日成交量衝到 $11.56 億美元，創下該證券問世以來紀錄。公司手上還有 $216 億 STRC 和 $271 億 MSTR 授權額度沒發完。CoinDesk 指這等於「BTC 真空吸塵器」：每次市場恐慌、優先股需求反而上升，公司用這股需求換成更多比特幣部位。Saylor 本人的回應只有兩個字：Think bigger。</p>",
-      "chart": "<div class='chart-wrap'><div class='chart-title'>極度恐慌期歷史對照（連續天數）</div><div style='display:flex;gap:10px;margin-bottom:18px'><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#ef5350'>60+</div><div style='font-size:11px;color:#888;margin-top:4px'>2026 年 4 月（現在）</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#ffa726'>~30</div><div style='font-size:11px;color:#888;margin-top:4px'>2022 Terra/Luna</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#42a5f5'>8</div><div style='font-size:11px;color:#888;margin-top:4px'>本週指數讀數</div></div></div><div class='chart-row'><span class='chart-row-label'>Strategy 新增部位</span><span class='chart-row-value'>13,927 BTC</span></div><div class='chart-row'><span class='chart-row-label'>上週投入金額</span><span class='chart-row-value'>$10 億美元</span></div><div class='chart-row'><span class='chart-row-label'>平均成本</span><span class='chart-row-value'>$71,902 / BTC</span></div><div class='chart-row'><span class='chart-row-label'>金庫總持倉</span><span class='chart-row-value'>780,897 BTC</span></div><div class='chart-row'><span class='chart-row-label'>STRC 日成交量紀錄</span><span class='chart-row-value'>$11.56 億</span></div><div class='chart-row'><span class='chart-row-label'>剩餘授權額度</span><span class='chart-row-value'>STRC $216 億 + MSTR $271 億</span></div><div class='chart-source'>資料來源：CoinDesk / The Block / 恐慌與貪婪指數 / 區塊勢整理</div></div>",
-      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>當事人</span><a href='https://x.com/saylor' target='_blank' rel='noopener'>Michael Saylor</a>（Strategy 執行董事長）：「Think bigger.」只留兩個字回應本次加碼，搭配金庫部位的貼圖。</li><li><span class='discuss-tag'>分析師</span><a href='https://www.cryptotimes.io/2026/04/14/fact-check-strategys-record-1-1b-strc-volume-signals-secret-bitcoin-buy/' target='_blank' rel='noopener'>CryptoTimes 事實查核</a>：「STRC 4/13 當日成交量 $11.56 億創紀錄，等同於一輪新的 BTC 真空吸塵器啟動——優先股需求越強，Strategy 能擠出的購幣彈藥越多。」</li><li><span class='discuss-tag'>市場分析</span><a href='https://247wallst.com/investing/2026/04/15/bitcoin-news-strategys-1-billion-bitcoin-buy-pushes-saylor-back-into-profit-as-btc-hits-75000/' target='_blank' rel='noopener'>24/7 Wall St.</a>：「BTC 4/15 盤中衝到 $75,000，Strategy 帳面未實現損益重新翻正，這是過去一季最久的紅字之後第一次回到獲利。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://coingape.com/strategy-strc-raises-enough-capital-to-buy-another-1-76b-in-bitcoin/' target='_blank' rel='noopener'>CoinGape</a>（加密媒體）：「STRC 過去兩天募到的現金已足以再買 $17.6 億 BTC，市場押注下一次公告會更大。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://www.techi.com/saylors-strategy-bought-1-billion-bitcoin-without-diluting-mstr-share-inside-strc/' target='_blank' rel='noopener'>Techi</a>（科技媒體）：「Strategy 用 STRC 募資買幣，對 MSTR 股東避開一部分稀釋，但優先股的永續股息負擔會隨部位一起放大，這是長期的套利壓力。」</li></ol></div>",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/a57323d92b3fa599df2ee442af800248477423c0-6000x3376.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-      "_image_source": "og"
-    },
-    {
-      "id": "2026-04-14-SEC-FINRA-pattern-day-trader-rule-eliminated",
-      "title": "卡了散戶 25 年的當沖門檻被拔掉：SEC 通過廢 $25,000 PDT 規則，Robinhood 盤中跳 7.8%",
-      "url": "https://thedefiant.io/news/regulation/sec-approves-elimination-pattern-day-trader-rule-25000-minimum-shfufn",
-      "tags": [
-        "監管",
-        "券商",
-        "散戶"
-      ],
-      "date": "2026-04-14",
-      "added_date": "2026-04-16",
-      "last_updated": "2026-04-16",
-      "sources": [
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-14/sec-approves-plan-removing-day-trading-limit-for-small-investors",
-          "title": "SEC 通過廢除散戶當沖門檻",
-          "added_date": "2026-04-16"
-        },
-        {
-          "name": "SEC",
-          "url": "https://www.sec.gov/files/rules/sro/finra/2026/34-105226.pdf",
-          "title": "SEC 正式批准 FINRA 修改 Rule 4210、廢 PDT 定義",
-          "added_date": "2026-04-16"
-        },
-        {
-          "name": "The Defiant",
-          "url": "https://thedefiant.io/news/regulation/sec-approves-elimination-pattern-day-trader-rule-25000-minimum-shfufn",
-          "title": "SEC 核准廢 $25,000 PDT 規則，改採即時保證金",
-          "added_date": "2026-04-16"
-        },
-        {
-          "name": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/options/articles/sec-eliminates-25-000-pattern-050417843.html",
-          "title": "SEC 廢除 $25,000 PDT 規則：散戶交易大改版",
-          "added_date": "2026-04-16"
-        },
-        {
-          "name": "Watcher.Guru",
-          "url": "https://watcher.guru/news/sec-approves-ending-pattern-day-trader-rule-25k-minimum",
-          "title": "SEC 通過終結 PDT 規則及其 $25,000 門檻",
-          "added_date": "2026-04-16"
-        },
-        {
-          "name": "Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4575207-sec-removes-day-trading-limit-for-investors-top-rated-investment-and-brokerage-stocks",
-          "title": "SEC 拔除當沖門檻：券商股全線受惠",
-          "added_date": "2026-04-16"
-        }
-      ],
-      "source_count": 6,
-      "discussion_count": 5,
-      "importance_score": 17,
-      "summary": "<p>2001 年 NASDAQ 泡沫炸開後，FINRA 定下那條知名的 PDT 規則：只要五個交易日內做滿四筆當沖，戶頭就必須維持 $25,000 以上的權益，否則卡死。25 年下來，這條規則一直是美國散戶進階到主動交易的一道物理門檻。4 月 14 日，SEC 正式核准 FINRA 把 Rule 4210 改寫，刪除「Pattern Day Trader」這個定義、也拿掉 $25,000 最低門檻。SEC 副秘書長 Sherry Haywood 寫的批准令裡提到，公眾意見「壓倒性地支持」這項改動。</p><p>取代的做法是「即時保證金」：系統會隨著部位曝險動態計算擔保金額，而不是數交易筆數。連續五個交易日沒補足的戶頭，會被凍結 90 天、不能再新開或擴大空單和融資部位，不過 5% 或 $1,000 以下的小額缺口直接豁免。消息公布當天，Robinhood 盤中漲 7.8%、Webull 漲 8.9%。完整落地要 2026 中到 2028 年之間各家券商逐步改系統。這些券商同時都是加密交易的主要入口，散戶想在盤中快速切換股票和幣，等於一起鬆綁。</p>",
-      "chart": "<div class='chart-wrap'><div class='chart-title'>從 PDT 走到即時保證金</div><div class='chart-compare'><div class='chart-compare-box'><div class='chart-compare-label'>舊規則（2001–）</div><div class='chart-compare-value'>$25,000</div><div class='chart-compare-note'>帳戶最低權益門檻</div></div><div class='chart-compare-box'><div class='chart-compare-label'>新規則</div><div class='chart-compare-value'>即時保證金</div><div class='chart-compare-note'>按實際部位曝險計算</div></div></div><div style='margin-top:16px'><div class='chart-row'><span class='chart-row-label'>PDT 定義</span><span class='chart-row-value'>五日四筆當沖即觸發</span></div><div class='chart-row'><span class='chart-row-label'>新規則豁免額</span><span class='chart-row-value'>5% 或 $1,000 以下</span></div><div class='chart-row'><span class='chart-row-label'>違規處置</span><span class='chart-row-value'>90 天凍結新增空單/融資</span></div><div class='chart-row'><span class='chart-row-label'>Robinhood 盤中反應</span><span class='chart-row-value'>+7.8%</span></div><div class='chart-row'><span class='chart-row-label'>Webull 盤中反應</span><span class='chart-row-value'>+8.9%</span></div><div class='chart-row'><span class='chart-row-label'>完整落地時程</span><span class='chart-row-value'>2026 中 ~ 2028</span></div></div><div class='chart-source'>資料來源：SEC 34-105226 / Bloomberg / The Defiant / 區塊勢整理</div></div>",
-      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://www.sec.gov/files/rules/sro/finra/2026/34-105226.pdf' target='_blank' rel='noopener'>Sherry Haywood</a>（SEC 助理秘書）：「公眾意見壓倒性地支持廢除 $25,000 最低權益門檻、以及 Pattern Day Trader 的定義。」直接出現在批准令的書面紀錄。</li><li><span class='discuss-tag'>業界領袖</span><a href='https://watcher.guru/news/sec-approves-ending-pattern-day-trader-rule-25k-minimum' target='_blank' rel='noopener'>Vlad Tenev</a>（Robinhood 執行長）：「我們等這項改革等了十年。它讓每一個用認真方法在交易的散戶，終於不必先被一個固定數字擋在門外。」Robinhood 公司聲明。</li><li><span class='discuss-tag'>市場分析</span><a href='https://seekingalpha.com/news/4575207-sec-removes-day-trading-limit-for-investors-top-rated-investment-and-brokerage-stocks' target='_blank' rel='noopener'>Seeking Alpha 快評</a>：「Robinhood、Webull、Interactive Brokers、嘉信都在盤中跳，市場直接把這件事讀成『散戶客群放大』，而不是『監管鬆綁』。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://thedefiant.io/news/regulation/sec-approves-elimination-pattern-day-trader-rule-25000-minimum-shfufn' target='_blank' rel='noopener'>The Defiant</a>（加密媒體）：「部分交易心理學家擔心，PDT 原本是一道冷靜裝置。拔掉門檻、只留即時保證金，會把更多沒準備好的小戶推進槓桿市場。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://phemex.com/news/article/sec-ends-pattern-day-trader-rule-removes-25000-minimum-73263' target='_blank' rel='noopener'>Phemex 觀察</a>（加密交易所）：「PDT 只管證券，不管現貨加密，但 Robinhood、Webull 這類混合券商既做股票也做幣。規則鬆了，他們拿到的是雙邊流量。」</li></ol></div>",
-      "image": "",
-      "_image_source": ""
-    },
-    {
-      "id": "2026-04-15-EtherFi-Scroll-OP-Mainnet-migration",
-      "title": "Scroll 最大收費來源整體出走：EtherFi 帶 70,000 張卡、30 萬戶、$2.2 億 TVL 搬進 OP Mainnet",
-      "url": "https://thedefiant.io/news/defi/ether-fi-migrates-to-optimism-s-op-mainnet-from-scroll",
-      "tags": [
-        "DeFi",
-        "Layer 2",
-        "Optimism",
-        "Scroll"
-      ],
-      "date": "2026-04-15",
-      "added_date": "2026-04-16",
-      "last_updated": "2026-04-16",
-      "sources": [
-        {
-          "name": "The Defiant",
-          "url": "https://thedefiant.io/news/defi/ether-fi-migrates-to-optimism-s-op-mainnet-from-scroll",
-          "title": "ether.fi 完成從 Scroll 搬家到 Optimism 的 OP Mainnet",
-          "added_date": "2026-04-16"
-        },
-        {
-          "name": "The Block",
-          "url": "https://www.theblock.co/post/390420/ether-fi-shifts-non-custodial-crypto-card-product-op-mainnet-scroll",
-          "title": "ether.fi 把非託管加密簽帳卡從 Scroll 搬到 OP Mainnet",
-          "added_date": "2026-04-16"
-        },
-        {
-          "name": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/04/14/scroll-moves-to-cut-costs-after-top-protocol-to-migrates-to-optimism",
-          "title": "Scroll 最大協議搬家後，官方開始縮減治理支出",
-          "added_date": "2026-04-16"
-        },
-        {
-          "name": "Optimism 官方",
-          "url": "https://www.optimism.io/blog/ether.fi-is-migrating-to-optimism-op-mainnet",
-          "title": "ether.fi 正在搬家到 OP Mainnet",
-          "added_date": "2026-04-16"
+          "name": "rekt.news",
+          "url": "https://rekt.news/kelp-dao-hyperbridge-rhea/",
+          "title": "區塊鏈安全簡報：Hyperbridge 攻擊、KYC 亂象、Rhea 駭客",
+          "added_date": "2026-04-21"
         },
         {
           "name": "ETH Daily",
-          "url": "https://ethdaily.io/926",
-          "title": "EtherFi 完成 OP Mainnet 遷移",
+          "url": "https://ethdaily.newsletter.paragraph.xyz/kelpdao-layerzero-exploit-aave-freeze",
+          "title": "KelpDAO 與 LayerZero 攻擊、Aave 凍結、Fluid aWETH 贖回",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "CoinDesk（Kelp 反擊）",
+          "url": "https://www.coindesk.com/tech/2026/04/20/kelp-dao-claims-layerzero-s-default-settings-are-what-actually-caused-the-usd290-million-disaster",
+          "title": "Kelp DAO 反擊：LayerZero 預設設定才是 2.9 億災難的元兇",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Wu Blockchain",
+          "url": "https://t.me/s/wublockchainenglish",
+          "title": "DeFi 三週失血超過 6 億美元，TVL 跌 25% 至 824 億",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Unchained（Arbitrum 凍結）",
+          "url": "https://unchainedcrypto.com/arbitrum-security-council-freezes-71-million-in-eth-tied-to-kelp-dao-exploit/",
+          "title": "Arbitrum 安全委員會凍結 Kelp DAO 攻擊相關 7,100 萬美元 ETH",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Unchained（Aave 壞帳）",
+          "url": "https://unchainedcrypto.com/aave-faces-up-to-230-million-in-losses-after-kelp-dao-exploit-incident-report-finds/",
+          "title": "Aave 在 Kelp DAO 攻擊後面臨最高 2.3 億美元損失",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Decrypt（Arbitrum 凍結）",
+          "url": "https://decrypt.co/364981/arbitrum-security-council-freezes-71-5m-in-ethereum-linked-to-292m-kelpdao-exploit",
+          "title": "Arbitrum 安全委員會凍結 7,150 萬美元 ETH",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "The Defiant（Fluid 逃生口）",
+          "url": "https://thedefiant.io/news/defi/defi-protocols-launch-joint-escape-hatch-for-aave-eth-lenders-and-loopers",
+          "title": "DeFi 協議聯手為 Aave ETH 存戶打造逃生出口",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "The Defiant（47% LayerZero）",
+          "url": "https://thedefiant.io/news/security/dune-layerzero-oapp-dvn-security-analysis-1bklaq",
+          "title": "Dune 分析：47% 的 LayerZero 應用使用與 Kelp 相同的最低安全配置",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "The Defiant（DeFi 傳染）",
+          "url": "https://thedefiant.io/news/defi/defi-tokens-plunge-aave-layerzero-lido-ethena-contagion-hvywbw",
+          "title": "DeFi 傳染蔓延：AAVE、ZRO 跌 22%，LDO、ENA 也受波及",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "CoinDesk（Arbitrum 凍結）",
+          "url": "https://www.coindesk.com/markets/2026/04/21/arbitrum-freezes-usd71-million-in-ether-tied-to-kelp-dao-exploit",
+          "title": "Arbitrum 凍結 Kelp DAO 攻擊相關的 7,100 萬美元 ETH",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Unchained（洗錢啟動）",
+          "url": "https://unchainedcrypto.com/kelp-dao-exploiter-moves-175-million-in-stolen-eth-into-new-wallets-routing-funds-through-thorchain/",
+          "title": "Kelp DAO 攻擊者轉移 1.75 億美元 ETH 至新錢包，透過 THORChain 洗錢",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "Aave（解凍 WETH）",
+          "url": "https://thedefiant.io/news/defi/aave-partially-unfreezes-weth-after-rseth-bridge-exploit",
+          "title": "Aave 部分解凍 WETH，但存戶仍受困",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "CoinDesk（DeFi United）",
+          "url": "https://www.coindesk.com/business/2026/04/23/aave-rallies-defi-partners-to-contain-fallout-from-usd292-million-kelpdao-hack",
+          "title": "Aave 號召 DeFi 夥伴控制 2.92 億 KelpDAO 攻擊的後續影響",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "The Defiant（DeFi United）",
+          "url": "https://thedefiant.io/news/defi/aave-announces-defi-united-relief-fund-to-restore-rseth-backing-after-kelp-exploit",
+          "title": "Aave 宣布 DeFi United 救助基金，在 Kelp 攻擊後恢復 rsETH 支撐",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "CryptoBriefing（Stani 5000 ETH）",
+          "url": "https://cryptobriefing.com/stani-kulechov-commits-5000-eth-to-defi-united-for-ecosystem-stabilization/",
+          "title": "Stani Kulechov 個人捐出 5,000 ETH 給 DeFi United 穩定生態",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "CryptoTimes（Lido 2500 stETH）",
+          "url": "https://www.cryptotimes.io/2026/04/24/lido-proposes-2500-steth-to-help-aave-after-kelpdao-exploit/",
+          "title": "Lido 提議捐出 2,500 stETH 協助 Aave 應對 KelpDAO 攻擊",
+          "added_date": "2026-04-24"
+        }
+      ],
+      "summary": "<p>Kelp DAO 的 LayerZero 跨鏈橋選了最低安全等級的 1/1 DVN 設定（一個驗證者簽名就放行），4 月 18 日攻擊者偽造一條指令騙橋接釋出 116,500 顆 rsETH（佔流通量 18%、價值 2.92 億美元），46 分鐘後 Kelp 才凍結合約。LayerZero 事後報告把攻擊歸給北韓 Lazarus Group 旗下 TraderTraitor 單位。攻擊者把偷來的 rsETH 存進 Aave V3 當抵押品借走真的 WETH，Aave 壞帳估計 1.24 億到 2.3 億美元。</p><p>Aave 4 月 23 日發起「DeFi United」救助行動，Stani Kulechov 個人捐出 5,000 ETH、EtherFi 出 5,000 ETH、Lido DAO 提案捐 2,500 stETH、Ethena 和 LayerZero 也加入、Mantle 提案借出 30,000 ETH（利率 LIDO+1%、最長 36 個月）。攻擊者已將近 75,700 顆 ETH 全數透過 THORChain 換成 BTC，光洗錢就產生 8 億美元交易量、替 THORChain 賺進 91 萬美元手續費。Aave 存款從攻擊前的 458 億跌到 296 億，淨流出 162 億美元。Spark 趁機吸收了約 24 億美元的轉入存款。</p>",
+      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">Kelp DAO 攻擊的連鎖效應：從 2.92 億被盜到 66 億 TVL 蒸發</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">$2.92 億</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">被盜 rsETH 價值</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">$66 億</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Aave TVL 蒸發</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">-16%</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">AAVE 代幣跌幅</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">$1.96 億</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Aave 壞帳</div>\n</div>\n</div>\n<div style=\"margin-bottom:14px;font-size:14px;font-weight:600;color:#1a1a1a\">攻擊如何擴散成系統性危機</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">17:35 UTC</div>\n<div class=\"chart-timeline-text\">攻擊者偽造 LayerZero 跨鏈訊息，騙 Kelp 橋接釋出 116,500 顆 rsETH</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">17:40-18:00</div>\n<div class=\"chart-timeline-text\">攻擊者把 rsETH 存進 Aave V3 當抵押品，借走約 1.96 億 WETH</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">18:21 UTC</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">Kelp 凍結合約（攻擊後 46 分鐘），擋下兩次各 1 億美元追加攻擊</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">數小時內</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">Aave 存戶恐慌提款，WETH 池使用率衝上 100%，TVL 從 264 億跌到 200 億</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/19 白天</div>\n<div class=\"chart-timeline-text\">擠兌蔓延至其他協議，連 Solana 上未受影響的平台也出現淨流出</div>\n</div>\n</div>\n<div style=\"margin-top:16px;font-size:13px;color:#1a1a1a\">\n<div style=\"font-weight:600;margin-bottom:8px\">2026 年 4 月 DeFi 攻擊一覽：兩週失血超過 6 億</div>\n<div class=\"chart-bar-group\">\n<div class=\"chart-bar-label\" style=\"color:#e65100;font-weight:600\">Kelp DAO（4/18）</div>\n<div class=\"chart-bar-track\">\n<div class=\"chart-bar-fill\" style=\"width:100%;background:linear-gradient(90deg,#ef5350,#ef9a9a)\">$2.92 億</div>\n</div>\n</div>\n<div class=\"chart-bar-group\">\n<div class=\"chart-bar-label\">Drift（4/2）</div>\n<div class=\"chart-bar-track\">\n<div class=\"chart-bar-fill\" style=\"width:98%;background:linear-gradient(90deg,#ffa726,#ffcc80)\">$2.85 億</div>\n</div>\n</div>\n<div class=\"chart-bar-group\">\n<div class=\"chart-bar-label\">其他 10+ 協議</div>\n<div class=\"chart-bar-track\">\n<div class=\"chart-bar-fill\" style=\"width:10%;background:linear-gradient(90deg,#42a5f5,#90caf9)\">~$30M</div>\n</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：CoinDesk、DefiLlama、Bloomberg / 區塊勢整理</div>\n</div>",
+      "discussions": "<div class='story-discuss'><ol>\n<li><span class='discuss-tag'>首位發現者</span><a href='https://x.com/zachxbt' target='_blank' rel='noopener'>ZachXBT</a>（鏈上偵探，最早在 Telegram 示警）：「KelpDAO rsETH 出現異常轉移，我追蹤到六個攻擊者錢包，全部在攻擊前幾小時透過 Tornado Cash 預先充值 gas fee。」</li>\n<li><span class='discuss-tag'>官方聲明</span><a href='https://x.com/KelpDAO/status/2045595819035046148' target='_blank' rel='noopener'>Kelp DAO</a>（官方帳號，攻擊近三小時後首度發聲）：「我們偵測到涉及 rsETH 的可疑跨鏈活動，已啟動緊急保護措施，立即暫停 rsETH 存取，正與 LayerZero、Unichain、審計方及外部安全專家協調。」</li>\n<li><span class='discuss-tag'>受波及協議</span><a href='https://x.com/aave/status/2045593585966252377' target='_blank' rel='noopener'>Aave</a>（官方帳號）：「rsETH 市場在 Aave V3 和 V4 上已凍結。Aave 合約沒有被攻擊，這是 rsETH 的外部漏洞。凍結後無法新增存款或以 rsETH 借款。」</li>\n<li><span class='discuss-tag'>受波及協議</span><a href='https://x.com/StaniKulechov/status/2045595382986559987' target='_blank' rel='noopener'>Stani Kulechov</a>（Aave 創辦人）：「rsETH 在 Aave 上沒有借款能力，市場已經凍結。Aave V3 和 V4 對 rsETH 沒有進一步曝險。」</li>\n<li><span class='discuss-tag'>產業觀點</span><a href='https://x.com/euler_mab/status/2045624228725092695' target='_blank' rel='noopener'>Michael Bentley</a>（Euler 創辦人）：「Kelp rsETH 攻擊的後續影響會很棘手，嚴重程度可能比目前多數人估計的更高。主網上的 rsETH 技術上仍有抵押，但市場上已經沒有流動性可以賣出 rsETH。」</li>\n<li><span class='discuss-tag'>社群反應</span><a href='https://x.com/Jeremybtc/status/2045588919362990431' target='_blank' rel='noopener'>Jeremy</a>（加密分析師）：「Kelp DAO 在過去一小時被掏走 2.93 億美元，成為 2026 最大 DeFi 攻擊。而且遠不止這一起，過去兩週超過 10 個不同協議被攻擊、DeFi 失血超過 6 億美元，AI 只會讓情況更糟。」</li>\n<li><span class='discuss-tag'>質疑聲音</span>匿名帳號在 X 上發文：「DeFi 已死……『放 Aave 就好』已死。加密時代結束了。如果你還在看這篇——你為什麼還留在加密圈？」這則貼文被 CoinDesk 引用為社群情緒的代表。</li>\n<li><span class='discuss-tag'>不同角度</span>多位開發者指出，Kelp 的漏洞在於選用 LayerZero 最低安全層級的「模組化安全」設定，而非 LayerZero 協議本身有問題。這暴露了模組化安全架構缺乏最低標準的系統性風險。</li>\n</ol></div>",
+      "added_date": "2026-04-19",
+      "last_updated": "2026-04-24",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/5844591d4fc53908b4ecc1fda0511af88a269620-6024x4024.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "_image_source": "og"
+    },
+    {
+      "id": "2026-04-09-美伊停火-BTC-突破戰爭區間-6億美元空單爆倉",
+      "title": "美伊停火無限期延長：BTC 衝上 78,400 創 11 週新高，Strategy 同天砸 25.4 億美元加碼",
+      "url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-u-s-stock-futures-surge-on-a-two-week-u-s-iran-ceasefire",
+      "tags": [
+        "Bitcoin",
+        "市場",
+        "地緣政治"
+      ],
+      "date": "2026-04-22",
+      "image": "images/2026-04-09-BTC-6-36cfc447.png",
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-u-s-stock-futures-surge-on-a-two-week-u-s-iran-ceasefire",
+          "title": "美伊停火令比特幣與美股期貨同步飆漲",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/bitcoin-surges-to-72700-as-us-iran-ceasefire-triggers-massive-short-squeeze/",
+          "title": "比特幣飆至 72,700 美元：美伊停火觸發史詩級空頭軋壓",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/363641/iran-bitcoin-payments-oil-ships-seeking-hormuz-passage",
+          "title": "加密市場因停火消息全面飆漲，油價暴跌",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "Milk Road",
+          "url": "https://mrcrypto.milkroad.com/p/3-big-pieces-of-news-you-just-missed",
+          "title": "停火剛簽完沙烏地管線就被炸，兩週停火能撐多久？",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://newsletter2.thedefiant.io/p/agents-get-tradfi-and-crypto-infra",
+          "title": "停火消息推動市場大漲，但伊朗稱以色列違約",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://bankless.ghost.io/indie-ethereum-tooling/",
+          "title": "市場快照：停火消息後加密市場大漲",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/oil-below-100-bitcoin-above-72k",
+          "title": "油價跌破 100 美元、比特幣站上 72K：趨勢真的翻轉了嗎？",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "Blockworks",
+          "url": "https://mail.blockworks.com/p/grokking-the-new-lexicon",
+          "title": "每日市場快照：停火消息後市場大幅反彈",
+          "added_date": "2026-04-09"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/12/bitcoin-slips-below-usd71-000-as-trump-orders-blockade-of-strait-of-hormuz",
+          "title": "Trump 下令封鎖荷莫茲海峽，比特幣跌破 71,000 美元",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "CryptoBriefing",
+          "url": "https://cryptobriefing.com/trump-announces-strait-hormuz-blockade-iran-nuclear-talks-collapse-bitcoin-deepens-losses/",
+          "title": "Trump 宣布荷莫茲海峽封鎖，伊朗核談判破裂，比特幣擴大跌勢",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/12/oil-futures-up-7-on-hyperliquid-as-trump-orders-naval-blockade-of-hormuz",
+          "title": "Trump 下令海軍封鎖荷莫茲，油價期貨漲 7%",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/11/bitcoin-and-other-cryptos-fall-as-u-s-iranian-negotiators-fail-to-reach-war-resolution",
+          "title": "美伊談判破裂，比特幣與加密市場下跌",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-12/trump-says-us-will-begin-blockade-of-ships-to-and-from-hormuz",
+          "title": "Trump 宣布美國將封鎖荷莫茲海峽進出船隻",
+          "added_date": "2026-04-13"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/bitcoin-surges-to-four-week-high-above-74000-on-us-iran-peace-talks-optimism-unchained/",
+          "title": "美伊重啟和談樂觀情緒推動 BTC 衝上四週高點 74,900 美元",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-hits-75-000-for-the-first-time-since-early-february",
+          "title": "比特幣自 2 月初以來首度觸及 75,000 美元：能否守住、守住代表什麼？",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/364294/bitcoin-shorts-rekt-btc-jumps-above-75k-2-month-price-high",
+          "title": "比特幣衝破 75K、創兩個月新高，空單被夾殺清算",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/markets/ether-outperforms-as-bitcoin-tops-usd75-000",
+          "title": "比特幣突破 75,000，ETH 漲幅更強，整體市值逼近 2.6 兆",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://www.bankless.com/read/news/crypto-market-rally-bitcoin-ethereum",
+          "title": "BTC 與 ETH 進入金髮姑娘行情，ETH 一週漲 12%",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/17/bitcoin-rises-past-usd76-000-aiming-at-major-breakout-as-oil-plunges-on-iran-cooldown",
+          "title": "伊朗降溫、油價暴跌，BTC 衝破 76,000 美元瞄準重大突破",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-17/iran-says-hormuz-strait-now-completely-open-for-commercial-ships",
+          "title": "伊朗宣布荷莫茲海峽對商業船舶完全開放",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/04/18/nx-s1-5789780/iran-middle-east-updates",
+          "title": "伊朗再度關閉荷莫茲海峽，停火即將到期",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/04/17/world/live-news/iran-war-trump-lebanon-israel-ceasefire",
+          "title": "中東衝突第 49 天：伊朗宣布荷莫茲海峽開放",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "CoinDesk（停火延長+Strategy 購買）",
+          "url": "https://www.coindesk.com/markets/2026/04/22/bitcoin-climbs-to-usd77-500-on-trump-ceasefire-extension-strategy-s-usd2-5-billion-buy",
+          "title": "BTC 衝上 78,000：Trump 延長停火 + Strategy 砸 25.4 億美元買入",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "Bloomberg（停火延長）",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-22/bitcoin-rises-on-optimism-over-trump-s-extended-iran-ceasefire",
+          "title": "Trump 延長伊朗停火，比特幣受樂觀情緒推動上漲",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "Unchained（BTC 11 週高點）",
+          "url": "https://unchainedcrypto.com/bitcoin-climbs-to-78400-an-11-week-high-after-trump-extends-the-us-iran-ceasefire/",
+          "title": "Trump 延長停火後 BTC 攀上 78,400：11 週新高",
+          "added_date": "2026-04-22"
+        }
+      ],
+      "summary": "<p>比特幣這個月跟美伊局勢綁在一起動。4 月 7 日 Trump 宣布兩週停火後 BTC 衝上 72,700，6 億美元空單爆倉；12 日和談破裂、海峽封鎖讓 BTC 跌回 71,000；14 日重新接觸伊朗後衝上 75,000；17 日伊朗宣布海峽開放、BTC 突破 76,000，隔天 IRGC 又關上門。停火原定 4 月 22 日到期。</p><p>4 月 21 日 Trump 宣布停火無限期延長（直到伊朗提交和平方案並完成談判），但海軍封鎖維持。BTC 22 日早盤衝上 78,400 創 11 週新高（2 月 3 日以來）。同一天 Strategy 砸 25.4 億美元買入 34,164 顆 BTC，是 2024 年以來最大單筆購買，總持倉增至 815,061 顆。Reuters 報導有詐騙集團冒充伊朗當局向卡在海峽西側的船公司索要 BTC 或 USDT「過路費」，至少一艘船付款後試圖通過卻遭伊朗砲艇開火。</p>",
+      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">從停火到封鎖：五天內的劇烈反轉</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/7</div>\n<div class=\"chart-timeline-text\">Trump 宣布兩週停火，BTC 衝上 $72,700，6 億美元空單爆倉</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/8</div>\n<div class=\"chart-timeline-text\">伊朗開始向過境油輪收取比特幣過路費，每桶 $1、滿載油輪 $200 萬</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/11</div>\n<div class=\"chart-timeline-text\">巴基斯坦面對面和談展開，Vance 率團與伊朗談判 21 小時</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">4/12</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">和談破裂：伊朗拒絕放棄濃縮鈾、拒絕交出海峽控制權。Trump 宣布立即封鎖荷莫茲海峽</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">4/12-13</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">油價漲 8% 至 $102，BTC 跌破 $71,000 回吐停火漲幅，加密市場整體下跌約 2%</div>\n</div>\n</div>\n<div style=\"display:flex;gap:10px;margin-top:16px\">\n<div style=\"flex:1;background:#e8f5e9;border-radius:10px;padding:12px;text-align:center;border:1px solid #c8e6c9\">\n<div style=\"font-size:20px;font-weight:700;color:#66bb6a;line-height:1.2\">$72,700</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">停火後高點</div>\n</div>\n<div style=\"flex:1;background:#fbe9e7;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffccbc\">\n<div style=\"font-size:20px;font-weight:700;color:#ef5350;line-height:1.2\">&lt;$71,000</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">封鎖後回落</div>\n</div>\n<div style=\"flex:1;background:#fff3e0;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffe0b2\">\n<div style=\"font-size:20px;font-weight:700;color:#e65100;line-height:1.2\">$102</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">油價重返三位數</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：CoinDesk、Bloomberg / 區塊勢整理</div>\n</div>",
+      "discussions": "<div class='story-discuss'><ol>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/IranIntl_En/status/2043318134094864417\" target=\"_blank\" rel=\"noopener\">Iran International</a>（媒體）：「Trump 在 Truth Social 發文：美國海軍將立即開始封鎖任何試圖進入或離開荷莫茲海峽的船隻。任何向我們或向和平船隻開火的伊朗人，都將被炸上天。」</li>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/CNBCTV18News/status/2043329102292140340\" target=\"_blank\" rel=\"noopener\">CNBC-TV18</a>：「Trump 宣布海軍封鎖荷莫茲海峽，指控伊朗拒絕放棄核武野心。他稱此為『全球勒索』，並警告美國已『裝彈上膛』。」</li>\n<li><span class='discuss-tag'>分析師</span><a href=\"https://x.com/RayDalio/status/2041531182018367773\" target=\"_blank\" rel=\"noopener\">Ray Dalio</a>（Bridgewater 創辦人）：「市場嚴重低估了當前的地緣政治環境。多數人以為這只是一場孤立的美伊衝突，但這其實是一場早期世界大戰的一部分。我估計五年內至少發生一場重大新軍事衝突的機率超過 50%，其中美中在台灣問題上的對抗風險在 2028 年前後達到高峰。」</li>\n<li><span class='discuss-tag'>市場分析</span><a href=\"https://x.com/Darkfost_Coc/status/2041780360199942600\" target=\"_blank\" rel=\"noopener\">Darkfost</a>（鏈上分析師）：「停火消息後 Binance 衍生品市場出現 27 億美元 BTC 買單。」（然後封鎖消息讓這些多單全部承壓。）</li>\n<li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/simplykashif/status/2042281739566137386\" target=\"_blank\" rel=\"noopener\">Kashif Raza</a>（加密分析師）：「伊朗要求每艘船付 200 萬美元的比特幣過路費。但如果美軍封鎖了海峽，這些收費也不可能繼續。這是 BTC 被用在主權對抗中的第一次實戰——結果可能跟它的支持者期望的不一樣。」</li>\n<li><span class='discuss-tag'>不同角度</span>停火前 Fear and Greed 指數跌至 8（2022 年 FTX 崩盤以來最低），停火後快速回升。封鎖消息再度打回恐懼區間——五天內完成一個從極度恐懼到貪婪再回到恐懼的完整週期。</li>\n</ol></div>",
+      "source_count": 25,
+      "discussion_count": 6,
+      "importance_score": 56,
+      "added_date": "2026-04-09",
+      "_image_source": "gemini",
+      "last_updated": "2026-04-22"
+    },
+    {
+      "id": "2026-04-10-WLFI-Dolomite-insider-borrow",
+      "title": "Sun 正式告上法院：聯邦訴訟指控 WLFI 詐欺勒索，凍結他 7,500 萬美元代幣",
+      "url": "https://www.coindesk.com/markets/2026/04/09/trump-s-world-liberty-financial-borrows-usd75-million-against-its-own-token-trapping-depositors-on-dolomite",
+      "tags": [
+        "DeFi",
+        "監管"
+      ],
+      "date": "2026-04-22",
+      "source_count": 23,
+      "discussion_count": 6,
+      "importance_score": 52,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/09/trump-s-world-liberty-financial-borrows-usd75-million-against-its-own-token-trapping-depositors-on-dolomite",
+          "title": "Trump 的 World Liberty Financial 拿 5 億枚自家代幣在顧問共同創辦的平台借走 7,500 萬，把存款人困在 Dolomite",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/world-liberty-financial-borrows-75-million-against-its-own-token-on-a-protocol-its-advisor-co-founded-unchained/",
+          "title": "World Liberty Financial 用自家代幣在顧問共同創辦的協議借出 7,500 萬美元",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/defi/world-liberty-financial-has-borrowed-millions-against-its-own-token",
+          "title": "World Liberty Financial 拿自家代幣借了幾千萬美元",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/363928/trump-linked-wlfi-erases-427-million-token-unlock-proposal-defi-loan",
+          "title": "Trump 相關 WLFI 市值蒸發 4.27 億美元：DeFi 貸款爭議加上代幣解鎖提案",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/396967/world-liberty-rebuts-dolomite-criticism",
+          "title": "World Liberty 回應 Dolomite 借款爭議，把清算疑慮貶為「FUD」",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "DL News",
+          "url": "https://www.dlnews.com/articles/markets/world-liberty-financial-drops-on-accusations-and-looming-unlock/",
+          "title": "Trump 家族的 WLFI 代幣跌到發行以來最低點，團隊把自己人交易質疑稱為 FUD",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/04/10/trump-world-liberty-financial-crypto-tokens-insider-loans/",
+          "title": "Trump 支持的 World Liberty Financial 代幣創新低，起因於自己人貸款的報導",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://www.bankless.com/need-to-know-world-liberty-big-borrow",
+          "title": "World Liberty 的大額借款：Trump 加密項目的 FUD 防禦戰",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/defi/world-liberty-financial-drains-dolomite-usd1-pool",
+          "title": "World Liberty Financial 抽乾 Dolomite 的 USD1 池，存款人無法提款",
+          "added_date": "2026-04-10"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/world-liberty-financial-borrows-75m-dolomite/",
+          "title": "World Liberty Financial 在顧問共同創辦的協議上借出 7,500 萬美元",
+          "added_date": "2026-04-10"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://www.bankless.com/need-to-know/world-liberty-big-borrow",
+          "title": "World Liberty Financial 為龐大借款部位辯護：Trump 家族支持的加密計畫邊抽錢邊說這是 FUD",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "CoinDesk Headlines",
+          "url": "https://www.coindesk.com/markets/2026/04/10/wlfi-called-it-fud-the-market-called-it-12",
+          "title": "WLFI 說這是 FUD，市場說這是 -12%",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://www.bankless.com/read/news/world-liberty-financial-sticky-situation-justin-sun-feud",
+          "title": "World Liberty Financial 的棘手處境：Justin Sun 反叛引發加密圈分裂",
+          "added_date": "2026-04-14"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://www.bankless.com/read/news/trump-backed-world-liberty-financial-defends-borrow-position",
+          "title": "Trump 支持的 World Liberty Financial 為鉅額借款辯護：把質疑通通說成 FUD",
+          "added_date": "2026-04-10"
+        },
+        {
+          "name": "CoinDesk（解鎖提案）",
+          "url": "https://www.coindesk.com/markets/2026/04/15/trump-backed-world-liberty-financial-proposes-unlocking-62-billion-tokens",
+          "title": "Trump 撐腰的 WLFI 提議解鎖 623 億代幣：走四年歸屬期",
           "added_date": "2026-04-16"
         },
         {
-          "name": "The Defiant（Scroll 側）",
-          "url": "https://thedefiant.io/news/blockchains/scroll-top-fee-earner-etherfi-leaves-for-optimism",
-          "title": "Scroll 最大收費貢獻者出走",
+          "name": "Unchained（銷毀提案）",
+          "url": "https://unchainedcrypto.com/world-liberty-financial-proposes-burning-4-5-billion-insider-tokens-in-62-billion-token-vesting-overhaul/",
+          "title": "WLFI 提議銷毀 45 億內部代幣，作為 623 億歸屬改造的一部分",
           "added_date": "2026-04-16"
+        },
+        {
+          "name": "Bankless Times（Sun 回應）",
+          "url": "https://www.banklesstimes.com/articles/2026/04/16/justin-sun-slams-world-libertys-new-wlfi-vesting-plan-as-trap-door/",
+          "title": "Justin Sun 痛批 WLFI 新解鎖方案是「陷阱門」",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/world-liberty-financial-major-token-governance-overhaul/",
+          "title": "WLFI 主力代幣治理大改造：10% 內部份額立即銷毀",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "News.Bitcoin.com（批評方）",
+          "url": "https://news.bitcoin.com/world-liberty-financial-62b-token-unlock-plan-faces-criticism-unlock-comes-after-trump-exit/",
+          "title": "「解鎖時間在 Trump 卸任之後」——WLFI 623 億解鎖案被質疑",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "CoinDesk（訴訟）",
+          "url": "https://www.coindesk.com/policy/2026/04/21/tron-s-justin-sun-sues-trump-linked-world-liberty-financial-over-frozen-assets",
+          "title": "Tron 創辦人 Justin Sun 控告 Trump 相關 World Liberty Financial 凍結資產",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "Unchained（訴訟）",
+          "url": "https://unchainedcrypto.com/justin-sun-sues-world-liberty-financial-alleging-fraud-and-unlawful-token-freeze-in-75-million-dispute/",
+          "title": "Justin Sun 控告 WLFI 詐欺與非法凍結代幣：7,500 萬美元爭議",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/justin-sun-launches-legal-battle-045704416.html",
+          "title": "Justin Sun 對 World Liberty Financial 發動法律戰",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "Mediaite",
+          "url": "https://www.mediaite.com/lawcrime/breaking-billionaire-investor-sues-trump-crypto-project-for-fraud-says-its-on-verge-of-collapse/",
+          "title": "億萬富翁投資人控告 Trump 加密項目詐欺，稱其瀕臨崩潰",
+          "added_date": "2026-04-22"
         }
       ],
-      "source_count": 6,
-      "discussion_count": 5,
-      "importance_score": 17,
-      "summary": "<p>EtherFi 是以太坊上最大的流動性再質押協議，旗下的 Cash 產品把自托管錢包和 Visa 簽帳卡綁在一起：使用者既可以直接用 ETH/USDC 抵押借出 USD1 穩定幣、也能刷卡消費、把再質押部位當成類信用卡的底層。這套產品原本部署在 L2 新秀 Scroll 上，2026 年初 EtherFi 宣布要搬家到 Optimism 的 OP Mainnet，三個月後正式完工。</p><p>這次搬過去的規模是 70,000 張活卡、30 萬個帳戶、$2.2 億 TVL，過程三天內搬完、零當機。OP Mainnet 官方聲明這是該網路史上最大的單次 TVL 轉入事件。EtherFi 給的理由是手續費中位數壓到 $0.00001、Flashblocks 讓敲定時間不到 250 毫秒、再加上 OP Enterprise 合作夥伴計畫。對 Scroll 則是明確的失血：根據 DeFiLlama 的資料，EtherFi 走之後 Scroll 年化手續費掉掉 $1,300 萬、TVL 剩下 $2,300 萬，相較 2024 年 10 月的巔峰 $5.85 億已經跌 96%。上週 Scroll 才被抓到偷灌 L1 data posting 費用 1,280 倍、超收使用者 $5 萬美元，兩件事湊在一起等於「最大收費來源離開、治理支出還要縮」的連鎖反應。</p>",
-      "chart": "<div class='chart-wrap'><div class='chart-title'>Scroll vs OP Mainnet：EtherFi 搬家帶走什麼</div><div style='display:flex;gap:10px;margin-bottom:18px'><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#ef5350'>$2.2 億</div><div style='font-size:11px;color:#888;margin-top:4px'>TVL 搬入 OP Mainnet</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#ffa726'>70,000</div><div style='font-size:11px;color:#888;margin-top:4px'>活卡搬家</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#42a5f5'>300,000</div><div style='font-size:11px;color:#888;margin-top:4px'>帳戶搬家</div></div></div><div class='chart-compare'><div class='chart-compare-box'><div class='chart-compare-label'>Scroll（搬家後）</div><div class='chart-compare-value'>$2,300 萬</div><div class='chart-compare-note'>剩餘 TVL</div></div><div class='chart-compare-box'><div class='chart-compare-label'>Scroll（2024-10 高點）</div><div class='chart-compare-value'>$5.85 億</div><div class='chart-compare-note'>跌幅 96%</div></div></div><div style='margin-top:14px'><div class='chart-row'><span class='chart-row-label'>Scroll 年化手續費損失</span><span class='chart-row-value'>$1,300 萬</span></div><div class='chart-row'><span class='chart-row-label'>OP Mainnet 手續費中位數</span><span class='chart-row-value'>$0.00001</span></div><div class='chart-row'><span class='chart-row-label'>Flashblocks 敲定時間</span><span class='chart-row-value'>不到 250 毫秒</span></div><div class='chart-row'><span class='chart-row-label'>搬遷耗時</span><span class='chart-row-value'>三天、零當機</span></div></div><div class='chart-source'>資料來源：The Defiant / The Block / DeFiLlama / Optimism 官方 / 區塊勢整理</div></div>",
-      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://www.optimism.io/blog/ether.fi-is-migrating-to-optimism-op-mainnet' target='_blank' rel='noopener'>Optimism 官方部落格</a>：「這是 OP Mainnet 史上單次最大的 TVL 轉入事件。我們期待和 ether.fi 一起把 Cash 產品推向全球支付。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://etherfi.medium.com/ether-fi-is-now-on-op-mainnet-37bbb301845e' target='_blank' rel='noopener'>ether.fi 官方文章</a>：「選 OP Mainnet 是因為 sub-250ms 敲定時間、99.99% 可用率，以及在 Flashblocks 下的吞吐量超過每秒 2,000 萬 gas——這些是支付體驗的底線。」</li><li><span class='discuss-tag'>分析師</span><a href='https://www.coindesk.com/business/2026/04/14/scroll-moves-to-cut-costs-after-top-protocol-to-migrates-to-optimism' target='_blank' rel='noopener'>CoinDesk 分析</a>：「Scroll TVL 從巔峰 $5.85 億跌到 $2,300 萬，年化手續費也掉 $1,300 萬。治理層面已經在準備縮編。」</li><li><span class='discuss-tag'>市場分析</span><a href='https://thedefiant.io/news/blockchains/scroll-top-fee-earner-etherfi-leaves-for-optimism' target='_blank' rel='noopener'>The Defiant</a>：「EtherFi 搬家前，它自己就貢獻 Scroll 鏈上收入的大頭。這次出走加上上週的 L1 data posting 費率 1,280 倍事件，對 Scroll 的敘事衝擊非同小可。」</li><li><span class='discuss-tag'>社群反應</span><a href='https://x.com/Optimism' target='_blank' rel='noopener'>Optimism 官方帳號</a>：「歡迎 70,000 張卡、300,000 戶加入 OP Mainnet。接下來的路我們一起走。」OP 代幣消息公布後收漲。</li></ol></div>",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/583c63ea59b710702d42e44984e6b1eb5441bd79-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-      "_image_source": "og"
+      "summary": "<p>Trump 家族的 World Liberty Financial 從內部糾紛走到了法庭。Justin Sun 4 月 21 日在加州聯邦法院提告 WLFI，指控詐欺、勒索與非法凍結代幣。訴狀稱 Sun 2024 年投入 3,000 萬美元（後增至 7,500 萬），但 WLFI 在 2025 年 8 月偷偷升級合約、加入黑名單功能，他轉出約 900 萬美元後整個錢包被凍；拒絕追加投資和鑄造 USD1 穩定幣後，團隊威脅向美國當局檢舉他的 KYC 問題。Sun 強調訴訟針對 WLFI 團隊個人，不是 Trump 總統。</p><p>這只是連環爆的最新一章。WLFI 4 月初被抓到把 50 億枚自家代幣在顧問創辦的 Dolomite 借走 7,500 萬 USD1（佔 TVL 八成），4 月 15 日又拋出 623 億代幣解鎖案並銷毀 45 億內部份額回應質疑，但 Sun 當天就罵這是「陷阱門」。Mediaite 報導稱 Sun 的訴狀暗示 WLFI「瀕臨崩潰」，可贖回儲備不足以應付即時贖回需求。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-compare' style='background:#ffffff;color:#1a1a1a;padding:20px;border:1px solid #e5e5e5;'><div style='font-size:14px;color:#666;margin-bottom:12px;'>Dolomite 存款結構（2026/04/10）</div><div style='display:flex;gap:16px;align-items:flex-end;height:180px;'><div style='flex:1;display:flex;flex-direction:column;align-items:center;'><div style='background:#1a1a1a;width:100%;height:100%;display:flex;align-items:flex-start;justify-content:center;padding-top:8px;color:#fff;font-size:13px;font-weight:600;'>$458.9M (55%)</div><div style='margin-top:8px;font-size:13px;text-align:center;'>WLFI 抵押</div></div><div style='flex:1;display:flex;flex-direction:column;align-items:center;'><div style='background:#999;width:100%;height:45%;display:flex;align-items:flex-start;justify-content:center;padding-top:8px;color:#fff;font-size:13px;font-weight:600;'>$376.8M (45%)</div><div style='margin-top:8px;font-size:13px;text-align:center;'>其他所有存款</div></div></div><div style='margin-top:12px;font-size:12px;color:#666;line-height:1.6;'>Dolomite 總存款流動性 8.357 億美元。一個借款人占掉超過一半——且借款人的顧問就是 Dolomite 共同創辦人 Corey Caplan。</div></div></div>",
+      "discussions": "<div class='story-discuss'><ol>\n<li><span class='discuss-tag'>官方聲明 / Justin Sun</span><a href='https://x.com/justinsuntron/status/2043234272622883074' target='_blank' rel='noopener'>Justin Sun</a>（TRON 創辦人、WLFI 最大金主）：「我投資 WLFI 是因為相信它的去中心化願景。結果他們偷偷在合約裡加了黑名單功能，凍結我的錢包、剝奪我的治理投票權，還威脅要舉報我。」</li>\n<li><span class='discuss-tag'>質疑聲音 / Justin Sun</span><a href='https://x.com/justinsuntron/status/2043578233023774723' target='_blank' rel='noopener'>Justin Sun</a>（第二則貼文，要求透明）：「我呼籲 WLFI 公開揭露誰控制著那個單一 guardian EOA 和 3/5 多簽，這是基本的投資人權利。合約可以升級、可以凍結、可以沒收——這不是去中心化，這是集權。」</li>\n<li><span class='discuss-tag'>官方聲明 / World Liberty Financial</span><a href='https://x.com/worldlibertyfi' target='_blank' rel='noopener'>World Liberty Financial</a>（官方帳號）：「Sun 一邊扮演受害者、一邊用毫無根據的指控掩蓋他自己的不當行為。我們保留採取一切法律行動的權利。」</li>\n<li><span class='discuss-tag'>不同角度 / Tommy Vietor</span><a href='https://x.com/TVietor08/status/2043396203149480221' target='_blank' rel='noopener'>Tommy Vietor</a>（Pod Save America 主持人）：「諷刺的是，Trump 的 SEC 在 Sun 投了 7,500 萬之後撤銷了對他的訴訟——結果 WLFI 轉頭就凍了他的錢包，然後公開攻擊他。」</li>\n<li><span class='discuss-tag'>產業觀點 / banteg</span><a href='https://x.com/banteg' target='_blank' rel='noopener'>banteg</a>（匿名研究員）：「2024 年 9 月部署的原始 WLFI 合約沒有任何凍結或沒收功能，但是可升級的。黑名單是 2025 年 8 月才加進去的——Sun 投資後的第 11 個月，代幣開始交易前一週。」</li>\n<li><span class='discuss-tag'>社群反應 / Jeremy</span><a href='https://x.com/Jeremybtc/status/2043371581876158514' target='_blank' rel='noopener'>Jeremy</a>（加密分析師）：「Sun 前後花了大約 1.75 億美元想跟 Trump 家族搞好關係——結果錢包被凍、代幣被黑名單、投票權被拔。這段關係的投資回報率大概是負無限大。」</li>\n</ol></div>",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/c8bfe95b424c430682e7e2761b9bb8d2d70fcee1-3790x2132.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "_image_source": "og",
+      "last_updated": "2026-04-22"
     },
     {
       "tags": [
@@ -319,135 +759,264 @@ window.FEED_DATA = {
       "added_date": "2026-03-31"
     },
     {
-      "id": "2026-04-09-美伊停火-BTC-突破戰爭區間-6億美元空單爆倉",
-      "title": "美伊談判再轉折：Trump 放消息要重啟，BTC 一口氣衝破 75,000、空單被夾殺",
-      "url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-u-s-stock-futures-surge-on-a-two-week-u-s-iran-ceasefire",
+      "id": "2026-04-04-Drift-遭北韓駭客盜走-2.85-億美元",
+      "title": "Tether 砸 1.275 億美元救 Drift、順手搶走 Solana 穩定幣地盤：USDT 取代 USDC 成為結算貨幣",
+      "url": "https://www.coindesk.com/tech/2026/04/02/how-a-solana-feature-designed-for-convenience-let-an-attacker-drain-usd270-million-from-drift",
       "tags": [
-        "Bitcoin",
-        "市場",
-        "地緣政治"
+        "DeFi",
+        "安全",
+        "Solana"
       ],
-      "date": "2026-04-14",
-      "image": "images/2026-04-09-BTC-6-36cfc447.png",
+      "date": "2026-04-16",
+      "image": "images/2026-04-04-Drift-2-85-v2.png",
       "sources": [
         {
           "name": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-u-s-stock-futures-surge-on-a-two-week-u-s-iran-ceasefire",
-          "title": "美伊停火令比特幣與美股期貨同步飆漲",
-          "added_date": "2026-04-09"
+          "url": "https://www.coindesk.com/tech/2026/04/02/how-a-solana-feature-designed-for-convenience-let-an-attacker-drain-usd270-million-from-drift",
+          "title": "一個為便利設計的 Solana 功能，如何讓攻擊者從 Drift 抽走 2.7 億美元",
+          "added_date": "2026-04-08"
         },
         {
-          "name": "Unchained",
-          "url": "https://unchainedcrypto.com/bitcoin-surges-to-72700-as-us-iran-ceasefire-triggers-massive-short-squeeze/",
-          "title": "比特幣飆至 72,700 美元：美伊停火觸發史詩級空頭軋壓",
-          "added_date": "2026-04-09"
+          "name": "Elliptic",
+          "url": "https://www.elliptic.co/blog/drift-protocol-exploited-for-286-million-in-suspected-dprk-linked-attack",
+          "title": "Drift Protocol 遭 2.86 億美元攻擊，疑似北韓相關",
+          "added_date": "2026-04-04"
         },
         {
-          "name": "Decrypt",
-          "url": "https://decrypt.co/363641/iran-bitcoin-payments-oil-ships-seeking-hormuz-passage",
-          "title": "加密市場因停火消息全面飆漲，油價暴跌",
-          "added_date": "2026-04-09"
-        },
-        {
-          "name": "Milk Road",
-          "url": "https://mrcrypto.milkroad.com/p/3-big-pieces-of-news-you-just-missed",
-          "title": "停火剛簽完沙烏地管線就被炸，兩週停火能撐多久？",
-          "added_date": "2026-04-09"
-        },
-        {
-          "name": "The Defiant",
-          "url": "https://newsletter2.thedefiant.io/p/agents-get-tradfi-and-crypto-infra",
-          "title": "停火消息推動市場大漲，但伊朗稱以色列違約",
-          "added_date": "2026-04-09"
+          "name": "TRM Labs",
+          "url": "https://www.trmlabs.com/resources/blog/north-korean-hackers-attack-drift-protocol-in-285-million-heist",
+          "title": "北韓駭客攻擊 Drift Protocol，盜走 2.85 億美元",
+          "added_date": "2026-04-04"
         },
         {
           "name": "Bankless",
-          "url": "https://bankless.ghost.io/indie-ethereum-tooling/",
-          "title": "市場快照：停火消息後加密市場大漲",
-          "added_date": "2026-04-09"
+          "url": "https://bankless.ghost.io/cryptos-new-defense-protocol/",
+          "title": "Circle 因 Drift 事件遭到強烈反彈：ZachXBT 估計 2022 年至今超過 4.2 億美元非法 USDC 未被凍結",
+          "added_date": "2026-04-04"
         },
         {
-          "name": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/oil-below-100-bitcoin-above-72k",
-          "title": "油價跌破 100 美元、比特幣站上 72K：趨勢真的翻轉了嗎？",
-          "added_date": "2026-04-09"
-        },
-        {
-          "name": "Blockworks",
-          "url": "https://mail.blockworks.com/p/grokking-the-new-lexicon",
-          "title": "每日市場快照：停火消息後市場大幅反彈",
-          "added_date": "2026-04-09"
-        },
-        {
-          "name": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/04/12/bitcoin-slips-below-usd71-000-as-trump-orders-blockade-of-strait-of-hormuz",
-          "title": "Trump 下令封鎖荷莫茲海峽，比特幣跌破 71,000 美元",
-          "added_date": "2026-04-13"
-        },
-        {
-          "name": "CryptoBriefing",
-          "url": "https://cryptobriefing.com/trump-announces-strait-hormuz-blockade-iran-nuclear-talks-collapse-bitcoin-deepens-losses/",
-          "title": "Trump 宣布荷莫茲海峽封鎖，伊朗核談判破裂，比特幣擴大跌勢",
-          "added_date": "2026-04-13"
-        },
-        {
-          "name": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/04/12/oil-futures-up-7-on-hyperliquid-as-trump-orders-naval-blockade-of-hormuz",
-          "title": "Trump 下令海軍封鎖荷莫茲，油價期貨漲 7%",
-          "added_date": "2026-04-13"
-        },
-        {
-          "name": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/04/11/bitcoin-and-other-cryptos-fall-as-u-s-iranian-negotiators-fail-to-reach-war-resolution",
-          "title": "美伊談判破裂，比特幣與加密市場下跌",
-          "added_date": "2026-04-13"
-        },
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-12/trump-says-us-will-begin-blockade-of-ships-to-and-from-hormuz",
-          "title": "Trump 宣布美國將封鎖荷莫茲海峽進出船隻",
-          "added_date": "2026-04-13"
-        },
-        {
-          "name": "Unchained",
-          "url": "https://unchainedcrypto.com/bitcoin-surges-to-four-week-high-above-74000-on-us-iran-peace-talks-optimism-unchained/",
-          "title": "美伊重啟和談樂觀情緒推動 BTC 衝上四週高點 74,900 美元",
-          "added_date": "2026-04-14"
-        },
-        {
-          "name": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-hits-75-000-for-the-first-time-since-early-february",
-          "title": "比特幣自 2 月初以來首度觸及 75,000 美元：能否守住、守住代表什麼？",
-          "added_date": "2026-04-14"
-        },
-        {
-          "name": "Decrypt",
-          "url": "https://decrypt.co/364294/bitcoin-shorts-rekt-btc-jumps-above-75k-2-month-price-high",
-          "title": "比特幣衝破 75K、創兩個月新高，空單被夾殺清算",
-          "added_date": "2026-04-14"
+          "name": "Protos",
+          "url": "https://protos.com/inside-the-280m-drift-hack-weeks-of-setup-minutes-to-drain/",
+          "title": "Drift 2.8 億美元攻擊內幕：數週布局，數分鐘掏空",
+          "added_date": "2026-04-04"
         },
         {
           "name": "The Defiant",
-          "url": "https://thedefiant.io/news/markets/ether-outperforms-as-bitcoin-tops-usd75-000",
-          "title": "比特幣突破 75,000，ETH 漲幅更強，整體市值逼近 2.6 兆",
+          "url": "https://thedefiant.io/drift-protocol-vault-loses-usd270-million-in-potential-exploit",
+          "title": "Drift Protocol 金庫損失 2.7 億美元，疑似遭攻擊",
+          "added_date": "2026-04-04"
+        },
+        {
+          "name": "ChainFeeds",
+          "url": "https://chainfeeds.substack.com/p/ai-eip-8141-hegota-ai-token",
+          "title": "Drift 攻擊事件波及 20 個協議，Prime Numbers Fi 預估損失超 1,000 萬美元",
+          "added_date": "2026-04-04"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/05/drift-says-usd270-million-exploit-was-a-six-month-north-korean-intelligence-operation",
+          "title": "Drift 稱 2.7 億美元攻擊是一場歷時六個月的北韓情報行動",
+          "added_date": "2026-04-08"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/363364/north-korean-hackers-spent-six-months-infiltrating-drift-before-285m-exploit",
+          "title": "北韓駭客花六個月滲透 Drift，最終盜走 2.85 億美元",
+          "added_date": "2026-04-04"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/drift-protocol-reveals-285-million-exploit-was-a-six-month-north-korean-intelligence-operation-unchained/",
+          "title": "Drift Protocol 揭露 2.85 億美元攻擊是一場六個月的北韓情報行動",
+          "added_date": "2026-04-04"
+        },
+        {
+          "name": "rekt.news",
+          "url": "https://newsletter.rekt.news/p/blockchain-security-brief-drift-hack-axios-backdoor-quantum-threat",
+          "title": "區塊鏈安全簡報：Drift 駭客事件、Axios 後門、量子威脅",
+          "added_date": "2026-04-04"
+        },
+        {
+          "name": "Gibbs Mura LLP",
+          "url": "https://www.classlawgroup.com/drift-protocol-hack-lawsuit",
+          "title": "Drift Protocol 加密貨幣駭客攻擊訴訟調查",
+          "added_date": "2026-04-04"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/04/03/circle-under-fire-after-usd285-million-drift-hack-over-inaction-to-freeze-stolen-usdc",
+          "title": "Drift 2.85 億美元攻擊後 Circle 因未凍結被盜 USDC 遭猛烈抨擊",
+          "added_date": "2026-04-08"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/397180/circle-ceo-allaire-defends-decision-not-to-freeze-usdc-in-drift-exploit-citing-moral-quandary",
+          "title": "Circle CEO Allaire 公開捍衛 Drift 攻擊期間不凍結 USDC 的決定，稱這是「道德困境」",
           "added_date": "2026-04-14"
         },
         {
-          "name": "Bankless",
-          "url": "https://www.bankless.com/read/news/crypto-market-rally-bitcoin-ethereum",
-          "title": "BTC 與 ETH 進入金髮姑娘行情，ETH 一週漲 12%",
-          "added_date": "2026-04-14"
+          "name": "CoinDesk（Tether 救援）",
+          "url": "https://www.coindesk.com/business/2026/04/16/drift-gets-usd148-million-funding-from-tether-and-partners-as-it-replaces-circle-stablecoin-with-usdt-after-massive-exploit",
+          "title": "Drift 獲 Tether 與夥伴 1.48 億美元救援金，改用 USDT 結算取代 Circle 的 USDC",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "The Defiant（Tether 救援）",
+          "url": "https://thedefiant.io/news/defi/tether-commits-over-usd127m-to-drift-protocol-recovery-plan",
+          "title": "Tether 承諾投入 1.275 億美元參與 Drift 復原計畫",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "DL News",
+          "url": "https://www.dlnews.com/articles/defi/tether-steps-in-to-help-hacked-drift-protocol/",
+          "title": "Tether 丟出 1.28 億美元救命繩給被駭的 Drift，但要的回報不少",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "The Block（Tether 救援）",
+          "url": "https://www.theblock.co/post/397735/drift-127-million-tether-recovery-pivots-circle-usdc-usdt-280-million-exploit",
+          "title": "Drift 從 Tether 拿到 1.27 億美元復原資金，同時從 USDC 轉投 USDT",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Protos",
+          "url": "https://protos.com/tether-challenges-usdc-solana-hegemony-with-127-5m-drift-bailout/",
+          "title": "Tether 用 1.275 億美元紓困挑戰 USDC 在 Solana 的霸權",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "DL News（Circle 集體訴訟）",
+          "url": "https://www.dlnews.com/articles/regulation/drift-user-sues-circle-for-inaction-in-biggest-hack-of-2026/",
+          "title": "Drift 使用者控告 Circle 在 2026 年最大攻擊中「什麼都沒做」",
+          "added_date": "2026-04-21"
         }
       ],
-      "summary": "<p>比特幣這個月跟美伊局勢綁在一起動。4 月 7 日 Trump 宣布兩週停火後 BTC 衝上 72,700，6 億美元空單爆倉；停火期間伊朗還收油輪每桶 1 美元的比特幣過路費，成為主權國家第一次把 BTC 寫進國際航運強制收費。沒想到只撐了五天——4 月 12 日巴基斯坦和談在 21 小時面對面談判後破裂，Trump 在 Truth Social 宣布「立即封鎖」荷莫茲海峽，BTC 隨即跌破 71,000。</p><p>4 月 14 日劇本又翻一面：Trump 放話已經重新和伊朗接觸，BTC 24 小時內漲超過 5%，衝上 75,000，是 2 月以來首度重返這個價位。成交量暴增 80% 到 512.5 億美元，ETH 也跟漲 8% 到 2,367 美元，整體加密市值逼近 2.6 兆美元。7 萬美元附近被 ETF 資金接走，7 萬 5 如果守得住，分析師看下一波目標 8 萬。不過 4 月 15 日是美國報稅截止日，加上油價帶動的通膨疑慮，可能壓住 Fed 降息節奏。CoinShares 資料顯示加密投資產品本週流入 11 億美元，是 1 月以來單週最多，其中 95% 來自美國投資人。</p>",
-      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">從停火到封鎖：五天內的劇烈反轉</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/7</div>\n<div class=\"chart-timeline-text\">Trump 宣布兩週停火，BTC 衝上 $72,700，6 億美元空單爆倉</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/8</div>\n<div class=\"chart-timeline-text\">伊朗開始向過境油輪收取比特幣過路費，每桶 $1、滿載油輪 $200 萬</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/11</div>\n<div class=\"chart-timeline-text\">巴基斯坦面對面和談展開，Vance 率團與伊朗談判 21 小時</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">4/12</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">和談破裂：伊朗拒絕放棄濃縮鈾、拒絕交出海峽控制權。Trump 宣布立即封鎖荷莫茲海峽</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">4/12-13</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">油價漲 8% 至 $102，BTC 跌破 $71,000 回吐停火漲幅，加密市場整體下跌約 2%</div>\n</div>\n</div>\n<div style=\"display:flex;gap:10px;margin-top:16px\">\n<div style=\"flex:1;background:#e8f5e9;border-radius:10px;padding:12px;text-align:center;border:1px solid #c8e6c9\">\n<div style=\"font-size:20px;font-weight:700;color:#66bb6a;line-height:1.2\">$72,700</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">停火後高點</div>\n</div>\n<div style=\"flex:1;background:#fbe9e7;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffccbc\">\n<div style=\"font-size:20px;font-weight:700;color:#ef5350;line-height:1.2\">&lt;$71,000</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">封鎖後回落</div>\n</div>\n<div style=\"flex:1;background:#fff3e0;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffe0b2\">\n<div style=\"font-size:20px;font-weight:700;color:#e65100;line-height:1.2\">$102</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">油價重返三位數</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：CoinDesk、Bloomberg / 區塊勢整理</div>\n</div>",
-      "discussions": "<div class='story-discuss'><ol>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/IranIntl_En/status/2043318134094864417\" target=\"_blank\" rel=\"noopener\">Iran International</a>（媒體）：「Trump 在 Truth Social 發文：美國海軍將立即開始封鎖任何試圖進入或離開荷莫茲海峽的船隻。任何向我們或向和平船隻開火的伊朗人，都將被炸上天。」</li>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/CNBCTV18News/status/2043329102292140340\" target=\"_blank\" rel=\"noopener\">CNBC-TV18</a>：「Trump 宣布海軍封鎖荷莫茲海峽，指控伊朗拒絕放棄核武野心。他稱此為『全球勒索』，並警告美國已『裝彈上膛』。」</li>\n<li><span class='discuss-tag'>分析師</span><a href=\"https://x.com/RayDalio/status/2041531182018367773\" target=\"_blank\" rel=\"noopener\">Ray Dalio</a>（Bridgewater 創辦人）：「市場嚴重低估了當前的地緣政治環境。多數人以為這只是一場孤立的美伊衝突，但這其實是一場早期世界大戰的一部分。我估計五年內至少發生一場重大新軍事衝突的機率超過 50%，其中美中在台灣問題上的對抗風險在 2028 年前後達到高峰。」</li>\n<li><span class='discuss-tag'>市場分析</span><a href=\"https://x.com/Darkfost_Coc/status/2041780360199942600\" target=\"_blank\" rel=\"noopener\">Darkfost</a>（鏈上分析師）：「停火消息後 Binance 衍生品市場出現 27 億美元 BTC 買單。」（然後封鎖消息讓這些多單全部承壓。）</li>\n<li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/simplykashif/status/2042281739566137386\" target=\"_blank\" rel=\"noopener\">Kashif Raza</a>（加密分析師）：「伊朗要求每艘船付 200 萬美元的比特幣過路費。但如果美軍封鎖了海峽，這些收費也不可能繼續。這是 BTC 被用在主權對抗中的第一次實戰——結果可能跟它的支持者期望的不一樣。」</li>\n<li><span class='discuss-tag'>不同角度</span>停火前 Fear and Greed 指數跌至 8（2022 年 FTX 崩盤以來最低），停火後快速回升。封鎖消息再度打回恐懼區間——五天內完成一個從極度恐懼到貪婪再回到恐懼的完整週期。</li>\n</ol></div>",
+      "summary": "<p>Drift 4 月 1 日遭北韓駭客掏走 2.85 億美元後，Circle 拒絕凍結被盜的 USDC 引發幣圈怒火，ZachXBT 算出四年來超過 4.2 億美元贓款透過 USDC 流出。Circle 執行長 Jeremy Allaire 4 月 13 日在首爾公開捍衛凍結政策，稱 USDC 是受監管金融商品、不能單方面凍結，但社群不買帳。</p><p>Tether 4 月 16 日趁勢出手：承諾提供 1.275 億美元（夥伴再加 2,000 萬），以收入連動結構逐步償還約 2.95 億美元的使用者損失。交換條件是 Drift 把結算貨幣從 USDC 換成 USDT，等於讓 Tether 一口氣撬開 Circle 在 Solana DeFi 的根據地。Drift 還會發行獨立的復原代幣，讓受損使用者持有對復原池的請求權。DRIFT 代幣消息公布後跳漲 20%。DL News 形容這是「Tether 丟救命繩，但要的回報不少」。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-title'>Drift 攻擊到復原：關鍵數字</div><div style='display:flex;gap:10px;margin-bottom:18px'><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#ef5350'>$2.85 億</div><div style='font-size:11px;color:#888;margin-top:4px'>被盜金額</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#66bb6a'>$1.475 億</div><div style='font-size:11px;color:#888;margin-top:4px'>Tether + 夥伴救援金</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#42a5f5'>+20%</div><div style='font-size:11px;color:#888;margin-top:4px'>DRIFT 代幣反彈</div></div></div><div class='chart-compare'><div class='chart-compare-box'><div class='chart-compare-label'>舊結算貨幣</div><div class='chart-compare-value'>USDC (Circle)</div><div class='chart-compare-note'>拒絕凍結被盜資金</div></div><div class='chart-compare-box'><div class='chart-compare-label'>新結算貨幣</div><div class='chart-compare-value'>USDT (Tether)</div><div class='chart-compare-note'>提供救援 + 流動性</div></div></div><div style='margin-top:14px'><div class='chart-row'><span class='chart-row-label'>使用者待償損失</span><span class='chart-row-value'>~$2.95 億</span></div><div class='chart-row'><span class='chart-row-label'>償還機制</span><span class='chart-row-value'>收入連動 + 復原代幣</span></div><div class='chart-row'><span class='chart-row-label'>USDC 四年贓款流出</span><span class='chart-row-value'>$4.2 億（ZachXBT）</span></div></div><div class='chart-source'>資料來源：CoinDesk / The Block / DL News / Protos / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://tether.io' target='_blank' rel='noopener'>Tether</a>（USDT 發行商）：「這項合作將為 Drift 使用者提供復原路徑，同時透過 USDT 結算和流動性支持強化 Solana 的 DeFi 基礎設施。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://protos.com/tether-challenges-usdc-solana-hegemony-with-127-5m-drift-bailout/' target='_blank' rel='noopener'>Protos</a>（加密媒體）：「Tether 這招是用 1.275 億美元買下 Solana DeFi 的結算地盤——Circle 在 Solana 的霸權第一次被正面挑戰。」</li><li><span class='discuss-tag'>分析師</span><a href='https://www.dlnews.com/articles/defi/tether-steps-in-to-help-hacked-drift-protocol/' target='_blank' rel='noopener'>DL News</a>（調查媒體）：「Tether 丟出 1.28 億美元救命繩，但交換條件是整個平台的結算貨幣。這不是慈善，是戰略併購的變體。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://www.coindesk.com/business/2026/04/16/drift-gets-usd148-million-funding-from-tether-and-partners-as-it-replaces-circle-stablecoin-with-usdt-after-massive-exploit' target='_blank' rel='noopener'>CoinDesk</a>：「復原金是收入連動結構，意味著如果 Drift 重啟後交易量不如預期，使用者拿回錢的速度會大幅放慢。」</li><li><span class='discuss-tag'>社群反應</span><a href='https://invezz.com/news/2026/04/16/drift-protocol-jumps-20-as-tether-backs-127-5m-recovery-plan/' target='_blank' rel='noopener'>Invezz</a>（財經媒體）：「DRIFT 代幣消息公布後跳漲 20%，市場解讀是 Tether 的背書比 Circle 的沉默更有說服力。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://www.theblock.co/post/397735/drift-127-million-tether-recovery-pivots-circle-usdc-usdt-280-million-exploit' target='_blank' rel='noopener'>The Block</a>：「Drift 會發行獨立的復原代幣，每枚代表對復原池的請求權，且可轉讓——這等於把受害者的損失證券化。」</li></ol></div>",
+      "source_count": 20,
+      "discussion_count": 6,
+      "importance_score": 46,
+      "_image_source": "gemini",
+      "added_date": "2026-04-04",
+      "last_updated": "2026-04-21"
+    },
+    {
+      "id": "2026-04-21-NY-AG-sues-Coinbase-Gemini-prediction-markets",
+      "title": "預測市場前後夾擊：Kalshi、Polymarket 搶推永續合約，紐約同天告 Coinbase、Gemini 非法賭博",
+      "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-sues-coinbase-and-gemini-running-illegal-gambling",
+      "tags": [
+        "監管",
+        "預測市場",
+        "DeFi"
+      ],
+      "date": "2026-04-22",
+      "image": "",
       "source_count": 18,
       "discussion_count": 6,
       "importance_score": 42,
-      "added_date": "2026-04-09",
-      "_image_source": "gemini",
-      "last_updated": "2026-04-13"
+      "sources": [
+        {
+          "name": "紐約州檢察長辦公室",
+          "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-sues-coinbase-and-gemini-running-illegal-gambling",
+          "title": "檢察長 James 控告 Coinbase 和 Gemini 經營非法賭博平台"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/04/21/new-york-sues-coinbase-gemini-over-prediction-market-offerings",
+          "title": "紐約州控告 Coinbase、Gemini 的預測市場違法"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/04/21/new-york-sues-coinbase-gemini-titan-calls-their-prediction-markets-illegal-gambling.html",
+          "title": "紐約控告 Coinbase 和 Gemini Titan，稱其預測市場為非法賭博"
+        },
+        {
+          "name": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/new-york-brief/new-york-sues-coinbase-gemini-over-illegal-prediction-markets",
+          "title": "紐約州控告 Coinbase、Gemini 的「非法」預測市場"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/newyork/news/letitia-james-sues-coinbase-gemini-prediction-markets-illegal-gambling/",
+          "title": "紐約州檢察長 Letitia James 控告 Coinbase、Gemini，稱其預測市場為非法賭博"
+        },
+        {
+          "name": "Benzinga",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/04/51951130/new-york-attorney-general-sues-coinbase-over-prediction-markets-coin-slides-6",
+          "title": "紐約州檢察長控告 Coinbase 預測市場：COIN 下跌 6%"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/365048/new-york-sues-coinbase-gemini-prediction-market-offerings",
+          "title": "紐約控告 Coinbase 和 Gemini 預測市場，求償數十億美元"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Technology/wireStory/new-york-sues-coinbase-gemini-seeking-halt-unlicensed-132251823",
+          "title": "紐約控告 Coinbase 和 Gemini，要求關閉無牌預測市場業務"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://bankless.ghost.io/",
+          "title": "紐約州檢察長控告 Coinbase 和 Gemini，將預測市場歸類為非法賭博"
+        },
+        {
+          "name": "PYMNTS",
+          "url": "https://www.pymnts.com/legal/2026/new-york-sues-coinbase-and-gemini-over-prediction-markets/",
+          "title": "紐約控告 Coinbase 和 Gemini 預測市場違法"
+        },
+        {
+          "name": "News.Bitcoin.com",
+          "url": "https://news.bitcoin.com/new-york-ag-sues-coinbase-and-gemini-over-illegal-prediction-market-gambling-claims/",
+          "title": "紐約州檢察長控告 Coinbase 和 Gemini 非法預測市場賭博"
+        },
+        {
+          "name": "Covers",
+          "url": "https://www.covers.com/industry/new-york-ag-sues-coinbase-gemini-titan-event-contracts-april-21-2026",
+          "title": "紐約州檢察長控告 Coinbase、Gemini 的「非法」事件合約"
+        },
+        {
+          "name": "Bloomberg（Kalshi 永續合約）",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-21/kalshi-to-expand-crypto-wagers-with-perpetual-futures-push",
+          "title": "Kalshi 計畫推出加密貨幣永續合約，擴大衍生品版圖",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "CNBC（Polymarket 永續合約）",
+          "url": "https://www.cnbc.com/2026/04/21/polymarket-launches-trading-of-heavily-leveraged-perps-contracts.html",
+          "title": "Polymarket 推出高槓桿永續合約交易",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "CoinDesk（Kalshi vs Coinbase）",
+          "url": "https://www.coindesk.com/markets/2026/04/21/kalshi-takes-on-coinbase-robinhood-with-new-plan-to-offer-crypto-perpetual-futures-the-information",
+          "title": "Kalshi 挑戰 Coinbase、Robinhood，計畫提供加密永續合約",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/kalshi-and-polymarket-enter-the-crypto",
+          "title": "Kalshi 與 Polymarket 進軍加密貨幣，同時推出永續合約",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/kalshi-and-polymarket-race-to-launch-crypto-perpetual-futures-challenging-coinbase-and-robinhood/",
+          "title": "Kalshi 與 Polymarket 競相推出永續合約，挑戰 Coinbase 和 Robinhood",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "Wu Blockchain",
+          "url": "https://wublockchain.xyz/news/kalshi-launches-crypto-perpetual-futures-trading-18821",
+          "title": "Kalshi 計畫推出加密貨幣永續合約交易",
+          "added_date": "2026-04-22"
+        }
+      ],
+      "summary": "<p>預測市場一天之內同時踩油門和踩煞車。4 月 21 日 Kalshi 宣布 4 月 27 日上線代號「Timeless」的加密永續合約（BTC 等資產、無到期日），幾小時後 Polymarket 也跟進公布自家永續合約，提供加密、股票、商品交易與 10 倍槓桿。兩家都持有 CFTC 執照，是第一批能在美國境內合法提供永續合約的平台，直接挑戰 Coinbase 花了數年建起的 29 億美元衍生品護城河。</p><p>同一天紐約州檢察長控告 Coinbase 和 Gemini 的預測市場是「非法賭博」，對 Coinbase 求償 22 億、Gemini 12 億美元，指控開放 18 歲下注卻不繳合法賭場約 51% 的營收稅。Robinhood 的預測市場年化營收已達 3.5 億美元，Kalshi 3 月加密交易量首度突破 10 億。預測市場從選舉小眾工具變成了加密交易所的核心戰場。</p>",
+      "chart": "<div class='chart-wrap'><div style='background:#ffffff;border-radius:12px;padding:20px;font-family:system-ui,-apple-system,sans-serif;color:#1a1a1a;'><div style='font-size:16px;font-weight:600;margin-bottom:16px;'>預測市場 2026：從選舉工具到加密交易所核心戰場</div><div style='display:flex;gap:10px;margin-bottom:18px'><div style='flex:1;background:#f0f7ff;border-radius:10px;padding:12px;text-align:center;border:1px solid #d0e3ff'><div style='font-size:22px;font-weight:700;color:#2563eb;line-height:1.2'>$2,400 億</div><div style='font-size:11px;color:#888;margin-top:4px'>2026 年預估交易量</div></div><div style='flex:1;background:#fef3c7;border-radius:10px;padding:12px;text-align:center;border:1px solid #fde68a'><div style='font-size:22px;font-weight:700;color:#d97706;line-height:1.2'>$3.5 億</div><div style='font-size:11px;color:#888;margin-top:4px'>Robinhood 年化營收</div></div><div style='flex:1;background:#fef2f2;border-radius:10px;padding:12px;text-align:center;border:1px solid #fecaca'><div style='font-size:22px;font-weight:700;color:#dc2626;line-height:1.2'>$34 億</div><div style='font-size:11px;color:#888;margin-top:4px'>紐約求償金額</div></div></div><div style='font-size:14px;font-weight:600;margin-bottom:10px;'>4/21 一日雙爆：擴張與打壓同步發生</div><div class='chart-timeline' style='background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px'><div class='chart-timeline-item'><div class='chart-timeline-date'>上午</div><div class='chart-timeline-text'>The Information 報導 Kalshi 將於 4/27 推出代號「Timeless」的加密永續合約</div></div><div class='chart-timeline-item'><div class='chart-timeline-date'>下午</div><div class='chart-timeline-text'>Polymarket 搶先公布自家永續合約，覆蓋加密、股票、商品</div></div><div class='chart-timeline-item highlight'><div class='chart-timeline-date' style='color:#dc2626;font-weight:600'>傍晚</div><div class='chart-timeline-text' style='color:#333'>紐約州檢察長控告 Coinbase（求償 22 億）和 Gemini（12 億）非法賭博</div></div></div><div class='chart-source'>資料來源：Bloomberg、CNBC、CoinDesk、紐約州檢察長辦公室</div></div></div>",
+      "discussions": "<div class='story-discuss'><ol>\n<li><span class='discuss-tag'>官方聲明 / Paul Grewal</span><a href='https://x.com/iaborsky' target='_blank' rel='noopener'>Paul Grewal</a>（Coinbase 法務長）：「預測市場是受 CFTC 監管的全國性交易所。Coinbase 會繼續為國會設定的聯邦監管架構而戰。」</li>\n<li><span class='discuss-tag'>官方聲明 / Letitia James</span><a href='https://ag.ny.gov/press-release/2026/attorney-general-james-sues-coinbase-and-gemini-running-illegal-gambling' target='_blank' rel='noopener'>Letitia James</a>（紐約州檢察長）：「換個名字叫的賭博還是賭博，不會因此免受州法和州憲法的監管。」</li>\n<li><span class='discuss-tag'>產業觀點 / Shay Boloor</span><a href='https://x.com/StockSavvyShay/status/2046657328964137449' target='_blank' rel='noopener'>Shay Boloor</a>（市場分析師）：「Polymarket 推出永續合約之後，它已經不只是預測市場了——是一個 24 小時運轉的高槓桿投機交易場。」</li>\n<li><span class='discuss-tag'>分析師 / Dustin Gouker</span><a href='https://x.com/DustinGouker/status/2046675365930942475' target='_blank' rel='noopener'>Dustin Gouker</a>（博弈/預測市場記者）：「Kalshi 的永續合約幾週內上線，目標 Q2 接受穩定幣作為保證金。這意味著持有 CFTC 執照的平台第一次可以在美國境內合法提供永續合約。」</li>\n<li><span class='discuss-tag'>不同角度 / Byron Gilliam</span><a href='https://x.com/bgilliam1982' target='_blank' rel='noopener'>Byron Gilliam</a>（Blockworks）：「每花 1 美元在體育博弈上，美國人就少投資 0.99 美元。2025 年美國人在體育博弈上花了 1,670 億美元。預測市場是對自願者課的稅，問題是我們得到了什麼回報。」</li>\n<li><span class='discuss-tag'>不同角度 / CFTC</span><a href='https://www.cftc.gov/PressRoom/PressReleases/9206-26' target='_blank' rel='noopener'>CFTC</a>：CFTC 在 4 月初主動控告亞利桑那、康乃狄克和伊利諾三州，主張各州無權監管預測市場，聯邦擁有專屬管轄權。</li>\n</ol></div>",
+      "last_updated": "2026-04-22"
     },
     {
       "id": "2026-04-03-CLARITY-Act-穩定幣收益妥協案-參議院闖關中",
@@ -582,246 +1151,340 @@ window.FEED_DATA = {
       "last_updated": "2026-04-14"
     },
     {
-      "id": "2026-04-04-Drift-遭北韓駭客盜走-2.85-億美元",
-      "title": "Drift 攻擊餘波再延燒：Circle CEO 在首爾公開捍衛不凍結 USDC，ZachXBT 算出四年來逾 4.2 億美元贓款從 USDC 流出",
-      "url": "https://www.coindesk.com/tech/2026/04/02/how-a-solana-feature-designed-for-convenience-let-an-attacker-drain-usd270-million-from-drift",
+      "id": "2026-04-10-Anthropic-Mythos-Project-Glasswing-bank-CEOs",
+      "title": "NSA 偷偷用上了被五角大廈封殺的 Mythos：Anthropic CEO 同日進白宮密談",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-10/anthropic-model-scare-sparks-urgent-bessent-powell-warning-to-bank-ceos",
       "tags": [
-        "DeFi",
-        "安全",
-        "Solana"
+        "AI",
+        "資安",
+        "DeFi"
       ],
-      "date": "2026-04-13",
-      "image": "images/2026-04-04-Drift-2-85-v2.png",
+      "date": "2026-04-20",
+      "image": "images/2026-04-10-Anthropic-Mythos-Project-Glasswing-bank-CEOs-1db2fe94.png",
       "sources": [
         {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-10/anthropic-model-scare-sparks-urgent-bessent-powell-warning-to-bank-ceos",
+          "title": "Anthropic 模型引發恐慌：Bessent 與 Powell 緊急警告銀行 CEO",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-10/wall-street-banks-try-out-anthropic-s-mythos-as-us-urges-testing",
+          "title": "Goldman、Citi 等華爾街銀行正在內部測試 Anthropic Mythos，JPMorgan 是 Project Glasswing 中唯一點名的銀行",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/04/10/trump-white-house-ai-cyber-threat-anthropic-mythos.html",
+          "title": "Mythos 發表前一週，JD Vance 與 Bessent 私下質問 Amodei、Altman 關於 AI 模型安全與應對網攻",
+          "added_date": "2026-04-11"
+        },
+        {
+          "name": "Wall Street Journal",
+          "url": "https://www.wsj.com/tech/ai/white-house-races-to-head-off-threats-from-powerful-ai-tools-5c6f22e2",
+          "title": "白宮國家網路主任 Sean Cairncross 正領導跨部門清查 AI 能利用的關鍵基礎設施漏洞",
+          "added_date": "2026-04-11"
+        },
+        {
           "name": "CoinDesk",
-          "url": "https://www.coindesk.com/tech/2026/04/02/how-a-solana-feature-designed-for-convenience-let-an-attacker-drain-usd270-million-from-drift",
-          "title": "一個為便利設計的 Solana 功能，如何讓攻擊者從 Drift 抽走 2.7 億美元",
-          "added_date": "2026-04-08"
-        },
-        {
-          "name": "Elliptic",
-          "url": "https://www.elliptic.co/blog/drift-protocol-exploited-for-286-million-in-suspected-dprk-linked-attack",
-          "title": "Drift Protocol 遭 2.86 億美元攻擊，疑似北韓相關",
-          "added_date": "2026-04-04"
-        },
-        {
-          "name": "TRM Labs",
-          "url": "https://www.trmlabs.com/resources/blog/north-korean-hackers-attack-drift-protocol-in-285-million-heist",
-          "title": "北韓駭客攻擊 Drift Protocol，盜走 2.85 億美元",
-          "added_date": "2026-04-04"
+          "url": "https://www.coindesk.com/markets/2026/04/10/mythos-ai-threat-sees-bessent-powell-call-urgent-meeting-with-bank-ceos",
+          "title": "Mythos AI 威脅促使 Bessent、Powell 緊急召集銀行 CEO 開會",
+          "added_date": "2026-04-11"
         },
         {
           "name": "Bankless",
-          "url": "https://bankless.ghost.io/cryptos-new-defense-protocol/",
-          "title": "Circle 因 Drift 事件遭到強烈反彈：ZachXBT 估計 2022 年至今超過 4.2 億美元非法 USDC 未被凍結",
-          "added_date": "2026-04-04"
-        },
-        {
-          "name": "Protos",
-          "url": "https://protos.com/inside-the-280m-drift-hack-weeks-of-setup-minutes-to-drain/",
-          "title": "Drift 2.8 億美元攻擊內幕：數週布局，數分鐘掏空",
-          "added_date": "2026-04-04"
-        },
-        {
-          "name": "The Defiant",
-          "url": "https://thedefiant.io/drift-protocol-vault-loses-usd270-million-in-potential-exploit",
-          "title": "Drift Protocol 金庫損失 2.7 億美元，疑似遭攻擊",
-          "added_date": "2026-04-04"
-        },
-        {
-          "name": "ChainFeeds",
-          "url": "https://chainfeeds.substack.com/p/ai-eip-8141-hegota-ai-token",
-          "title": "Drift 攻擊事件波及 20 個協議，Prime Numbers Fi 預估損失超 1,000 萬美元",
-          "added_date": "2026-04-04"
-        },
-        {
-          "name": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/04/05/drift-says-usd270-million-exploit-was-a-six-month-north-korean-intelligence-operation",
-          "title": "Drift 稱 2.7 億美元攻擊是一場歷時六個月的北韓情報行動",
-          "added_date": "2026-04-08"
-        },
-        {
-          "name": "Decrypt",
-          "url": "https://decrypt.co/363364/north-korean-hackers-spent-six-months-infiltrating-drift-before-285m-exploit",
-          "title": "北韓駭客花六個月滲透 Drift，最終盜走 2.85 億美元",
-          "added_date": "2026-04-04"
-        },
-        {
-          "name": "Unchained",
-          "url": "https://unchainedcrypto.com/drift-protocol-reveals-285-million-exploit-was-a-six-month-north-korean-intelligence-operation-unchained/",
-          "title": "Drift Protocol 揭露 2.85 億美元攻擊是一場六個月的北韓情報行動",
-          "added_date": "2026-04-04"
-        },
-        {
-          "name": "rekt.news",
-          "url": "https://newsletter.rekt.news/p/blockchain-security-brief-drift-hack-axios-backdoor-quantum-threat",
-          "title": "區塊鏈安全簡報：Drift 駭客事件、Axios 後門、量子威脅",
-          "added_date": "2026-04-04"
-        },
-        {
-          "name": "Gibbs Mura LLP",
-          "url": "https://www.classlawgroup.com/drift-protocol-hack-lawsuit",
-          "title": "Drift Protocol 加密貨幣駭客攻擊訴訟調查",
-          "added_date": "2026-04-04"
-        },
-        {
-          "name": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/04/03/circle-under-fire-after-usd285-million-drift-hack-over-inaction-to-freeze-stolen-usdc",
-          "title": "Drift 2.85 億美元攻擊後 Circle 因未凍結被盜 USDC 遭猛烈抨擊",
-          "added_date": "2026-04-08"
-        },
-        {
-          "name": "The Block",
-          "url": "https://www.theblock.co/post/397180/circle-ceo-allaire-defends-decision-not-to-freeze-usdc-in-drift-exploit-citing-moral-quandary",
-          "title": "Circle CEO Allaire 公開捍衛 Drift 攻擊期間不凍結 USDC 的決定，稱這是「道德困境」",
-          "added_date": "2026-04-14"
-        }
-      ],
-      "summary": "<p>Drift 4 月 5 日公布初步調查結果，揭露這起 2.85 億美元攻擊是北韓情報機關長達半年以上的滲透行動。攻擊者在大型加密貨幣會議上以量化交易公司身份接觸 Drift 開發者，多次面對面工作會議、技術問答、存入超過 100 萬美元自有資金建立信任後，利用 TestFlight 應用程式或 VSCode 漏洞取得多簽權限，再透過 Solana 的 durable nonces 預簽功能在 12 分鐘內把金庫掏空。</p><p>事件焦點本週轉向 Circle 的 USDC 凍結政策。執行長 Jeremy Allaire 4 月 13 日在首爾公開捍衛立場，稱 USDC 是受監管的金融商品，凍結決定必須來自法院命令或執法請求、不能屈從於攻擊當下的輿論壓力。鏈上偵探 ZachXBT 隨即列出帳：自 2022 年以來已有逾 4.2 億美元贓款透過 USDC 流出，光是這次 Drift 事件，攻擊者就有六小時可以把 2.32 億美元 USDC 從 Solana 橋到以太坊，期間 Circle 完全沒動作；對比 Tether 在類似事件數小時內就會凍結，差距明顯。律師事務所同時啟動集體訴訟調查，Allaire 進一步要求 GENIUS Act 給穩定幣發行商「責任豁免」條款。</p>",
-      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">Drift 2.85 億美元攻擊：六個月社交工程 + VSCode 零日漏洞</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">$2.85 億</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">被盜金額</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">6 個月</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">滲透期間</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">12 分鐘</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">掏空耗時</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">Solana</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">受影響鏈</div>\n</div>\n</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2025 年 10 月</div>\n<div class=\"chart-timeline-text\">攻擊者在加密大會接觸 Drift 開發者，偽裝為量化交易公司</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2025 年 10-2026 年 4 月</div>\n<div class=\"chart-timeline-text\">透過多次面對面會議、技術問答和存入超過 $100 萬建立信任</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年 4 月初</div>\n<div class=\"chart-timeline-text\">誘導開發者下載 TestFlight 應用或利用 VSCode/Cursor 漏洞</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">2026 年 4 月 3 日</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">取得多簽權限，用 durable nonces 預簽，12 分鐘內掏空協議</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">2026 年 4 月 5 日</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">Drift 公布調查結果，警告其他團隊可能已被鎖定</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：Drift 官方報告、區塊鏈分析 / 區塊勢整理</div>\n</div>",
-      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/driftprotocol/status/2040611161121370409\" target=\"_blank\" rel=\"noopener\">Drift Protocol</a>（官方帳號）：「初步調查顯示 Drift 遭受的是一場有組織的情報行動。攻擊者在大型加密會議上以量化交易公司身份接觸開發者，經過多次面對面工作會議，存入超過 100 萬美元自有資金。」</li><li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/tayvano_/status/2040616103333040508\" target=\"_blank\" rel=\"noopener\">tayvano</a>（區塊鏈安全研究員）：「拜託加密圈每個人都把這份報告從頭讀到尾。我原本以為又是一起社交工程攻擊，結果完全不是。行動的深度和人設的複雜度讓我覺得，他們已經鎖定了其他團隊。」</li><li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/mert/status/2040615630609490353\" target=\"_blank\" rel=\"noopener\">Mert</a>（Helius 共同創辦人）：「如果屬實就太瘋狂了：駭客在線下會議隨意取得信任，開了 Telegram 群組變成客戶，花六個月建立整合關係，最後用一個 TestFlight 連結搞定一個人。」</li><li><span class='discuss-tag'>質疑聲音</span>社群質疑 Drift 的安全委員會為何在沒有時間鎖的情況下就能執行協議層級的遷移，認為零時間鎖設計是最後一道防線的致命缺陷</li><li><span class='discuss-tag'>質疑聲音</span><a href=\"https://bankless.ghost.io/cryptos-new-defense-protocol/\" target=\"_blank\" rel=\"noopener\">ZachXBT</a>（鏈上偵探）：估計 Circle 自 2022 年以來累計放任超過 4.2 億美元非法 USDC 流通未予凍結，攻擊者透過 CCTP 轉移贓款數小時無人介入</li></ol></div>",
-      "source_count": 14,
-      "discussion_count": 7,
-      "importance_score": 35,
-      "_image_source": "gemini",
-      "added_date": "2026-04-04",
-      "last_updated": "2026-04-08"
-    },
-    {
-      "id": "2026-04-10-WLFI-Dolomite-insider-borrow",
-      "title": "WLFI 反擊 Justin Sun 反叛：週二丟出 623 億解鎖案、銷毀 45 億內部份額；Sun 回罵「陷阱門」",
-      "url": "https://www.coindesk.com/markets/2026/04/09/trump-s-world-liberty-financial-borrows-usd75-million-against-its-own-token-trapping-depositors-on-dolomite",
-      "tags": [
-        "DeFi",
-        "監管"
-      ],
-      "date": "2026-04-14",
-      "source_count": 19,
-      "discussion_count": 9,
-      "importance_score": 47,
-      "sources": [
-        {
-          "name": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/04/09/trump-s-world-liberty-financial-borrows-usd75-million-against-its-own-token-trapping-depositors-on-dolomite",
-          "title": "Trump 的 World Liberty Financial 拿 5 億枚自家代幣在顧問共同創辦的平台借走 7,500 萬，把存款人困在 Dolomite",
+          "url": "https://www.bankless.com/can-defi-survive-mythos",
+          "title": "DeFi 撐得過 Mythos 嗎？智能合約找漏洞的成本正在崩塌",
           "added_date": "2026-04-11"
         },
         {
-          "name": "Unchained",
-          "url": "https://unchainedcrypto.com/world-liberty-financial-borrows-75-million-against-its-own-token-on-a-protocol-its-advisor-co-founded-unchained/",
-          "title": "World Liberty Financial 用自家代幣在顧問共同創辦的協議借出 7,500 萬美元",
+          "name": "Stratechery",
+          "url": "https://stratechery.com/2026/myth-and-mythos/",
+          "title": "Myth and Mythos：另一次典範轉移",
           "added_date": "2026-04-11"
         },
         {
-          "name": "The Defiant",
-          "url": "https://thedefiant.io/news/defi/world-liberty-financial-has-borrowed-millions-against-its-own-token",
-          "title": "World Liberty Financial 拿自家代幣借了幾千萬美元",
+          "name": "Exponential View",
+          "url": "https://www.exponentialview.co/p/mythos-and-the-mispricing-of-everything",
+          "title": "Mythos 與萬物的錯誤定價：AI 能力與 AI 危險永久綁在一起的那一刻",
           "added_date": "2026-04-11"
         },
         {
-          "name": "Decrypt",
-          "url": "https://decrypt.co/363928/trump-linked-wlfi-erases-427-million-token-unlock-proposal-defi-loan",
-          "title": "Trump 相關 WLFI 市值蒸發 4.27 億美元：DeFi 貸款爭議加上代幣解鎖提案",
-          "added_date": "2026-04-11"
-        },
-        {
-          "name": "The Block",
-          "url": "https://www.theblock.co/post/396967/world-liberty-rebuts-dolomite-criticism",
-          "title": "World Liberty 回應 Dolomite 借款爭議，把清算疑慮貶為「FUD」",
+          "name": "crypto.news",
+          "url": "https://crypto.news/us-treasury-calls-bank-ceos-over-cyber-risks-tied-to-anthropics-claude-mythos-model/",
+          "title": "美國財政部就 Anthropic Claude Mythos 的網路風險緊急召集銀行 CEO",
           "added_date": "2026-04-11"
         },
         {
           "name": "DL News",
-          "url": "https://www.dlnews.com/articles/markets/world-liberty-financial-drops-on-accusations-and-looming-unlock/",
-          "title": "Trump 家族的 WLFI 代幣跌到發行以來最低點，團隊把自己人交易質疑稱為 FUD",
-          "added_date": "2026-04-11"
+          "url": "https://www.dlnews.com/articles/markets/crypto-exchanges-seek-claude-mythos-access-amid-ai-threat/",
+          "title": "「AI 超級攻擊者」威脅迫近，頂級加密交易所搶著取得 Claude 模型存取權",
+          "added_date": "2026-04-19"
         },
         {
           "name": "Fortune",
-          "url": "https://fortune.com/2026/04/10/trump-world-liberty-financial-crypto-tokens-insider-loans/",
-          "title": "Trump 支持的 World Liberty Financial 代幣創新低，起因於自己人貸款的報導",
-          "added_date": "2026-04-11"
+          "url": "https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity/",
+          "title": "Anthropic 提供部分公司搶先使用 Claude Mythos 強化網路防禦",
+          "added_date": "2026-04-19"
         },
         {
-          "name": "Bankless",
-          "url": "https://www.bankless.com/need-to-know-world-liberty-big-borrow",
-          "title": "World Liberty 的大額借款：Trump 加密項目的 FUD 防禦戰",
-          "added_date": "2026-04-11"
-        },
-        {
-          "name": "The Defiant",
-          "url": "https://thedefiant.io/news/defi/world-liberty-financial-drains-dolomite-usd1-pool",
-          "title": "World Liberty Financial 抽乾 Dolomite 的 USD1 池，存款人無法提款",
-          "added_date": "2026-04-10"
-        },
-        {
-          "name": "Unchained",
-          "url": "https://unchainedcrypto.com/world-liberty-financial-borrows-75m-dolomite/",
-          "title": "World Liberty Financial 在顧問共同創辦的協議上借出 7,500 萬美元",
-          "added_date": "2026-04-10"
-        },
-        {
-          "name": "Bankless",
-          "url": "https://www.bankless.com/need-to-know/world-liberty-big-borrow",
-          "title": "World Liberty Financial 為龐大借款部位辯護：Trump 家族支持的加密計畫邊抽錢邊說這是 FUD",
-          "added_date": "2026-04-11"
-        },
-        {
-          "name": "CoinDesk Headlines",
-          "url": "https://www.coindesk.com/markets/2026/04/10/wlfi-called-it-fud-the-market-called-it-12",
-          "title": "WLFI 說這是 FUD，市場說這是 -12%",
-          "added_date": "2026-04-11"
-        },
-        {
-          "name": "Bankless",
-          "url": "https://www.bankless.com/read/news/world-liberty-financial-sticky-situation-justin-sun-feud",
-          "title": "World Liberty Financial 的棘手處境：Justin Sun 反叛引發加密圈分裂",
-          "added_date": "2026-04-14"
-        },
-        {
-          "name": "Bankless",
-          "url": "https://www.bankless.com/read/news/trump-backed-world-liberty-financial-defends-borrow-position",
-          "title": "Trump 支持的 World Liberty Financial 為鉅額借款辯護：把質疑通通說成 FUD",
-          "added_date": "2026-04-10"
-        },
-        {
-          "name": "CoinDesk（解鎖提案）",
-          "url": "https://www.coindesk.com/markets/2026/04/15/trump-backed-world-liberty-financial-proposes-unlocking-62-billion-tokens",
-          "title": "Trump 撐腰的 WLFI 提議解鎖 623 億代幣：走四年歸屬期",
-          "added_date": "2026-04-16"
-        },
-        {
-          "name": "Unchained（銷毀提案）",
-          "url": "https://unchainedcrypto.com/world-liberty-financial-proposes-burning-4-5-billion-insider-tokens-in-62-billion-token-vesting-overhaul/",
-          "title": "WLFI 提議銷毀 45 億內部代幣，作為 623 億歸屬改造的一部分",
-          "added_date": "2026-04-16"
-        },
-        {
-          "name": "Bankless Times（Sun 回應）",
-          "url": "https://www.banklesstimes.com/articles/2026/04/16/justin-sun-slams-world-libertys-new-wlfi-vesting-plan-as-trap-door/",
-          "title": "Justin Sun 痛批 WLFI 新解鎖方案是「陷阱門」",
-          "added_date": "2026-04-16"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/04/15/anthropics-mythos-isnt-threatening-bitcoin-the-real-ai-risk-is-at-crypto-exchanges-.html",
+          "title": "Mythos 威脅的不是比特幣，真正的 AI 風險在加密交易所",
+          "added_date": "2026-04-19"
         },
         {
           "name": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/world-liberty-financial-major-token-governance-overhaul/",
-          "title": "WLFI 主力代幣治理大改造：10% 內部份額立即銷毀",
+          "url": "https://cryptobriefing.com/coinbase-binance-mythos-ai-model-access/",
+          "title": "Coinbase、Binance 爭取 Anthropic Mythos 存取權，應對 AI 資安威脅",
+          "added_date": "2026-04-19"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon",
+          "title": "獨家：NSA 正在使用 Anthropic Mythos，無視五角大廈「供應鏈風險」標籤",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/c9f5b690-a10e-4c66-9245-017f8bfbc7b4",
+          "title": "Anthropic 延後 Mythos 大規模發布，近期服務中斷影響穩定性",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-17/anthropic-s-mythos-adds-strain-on-cybersecurity-teams-facing-ai-threats",
+          "title": "Mythos 加重開源維護者負擔：漏洞報告數量「瘋了」",
+          "added_date": "2026-04-20"
+        }
+      ],
+      "source_count": 16,
+      "discussion_count": 6,
+      "importance_score": 38,
+      "summary": "<p>Anthropic 4 月 7 日揭露 Claude Mythos Preview，這個模型能自主挖出數千個零日漏洞（含一個塵封 17 年的 FreeBSD 遠端執行漏洞），不對外開放，僅透過 Project Glasswing 限定分享給 AWS、Google、JPMorgan 等約 40 家合作方。加密交易所不在初始名單上，Coinbase 與 Binance 正在爭取授權。2022-2023 年間被駭的智能合約有 91.96% 在出事前已通過審計，鏈上被駭總額 2025 年飆到 $34 億。</p><p>4 月 19 日 Axios 獨家揭露 NSA 已在使用 Mythos，DoD 內部也廣泛部署，儘管五角大廈二月才把 Anthropic 列為「供應鏈風險」。這等於美國軍方一邊在法庭上告 Anthropic，一邊讓網路安全部門用它的模型。同日 Anthropic 執行長 Dario Amodei 進白宮與幕僚長 Susie Wiles、財政部長 Bessent 會面討論政府使用 Mythos 的規範。FT 報導 Anthropic 因近期服務中斷，暫緩對外大規模發布。</p>",
+      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">Project Glasswing 是什麼？Mythos 為什麼讓監管機構緊張</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">$50</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Mythos 找到一個 27 年老漏洞的成本</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">2% → 55%</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">LLM 重現智能合約漏洞的成功率（2024 → 2025）</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">12 家</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Project Glasswing 初始合作夥伴</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">$1 億</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Anthropic 承諾提供的防禦性使用額度</div>\n</div>\n</div>\n<div style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div style=\"margin-bottom:14px;font-size:14px;font-weight:600\">4 月 7 日緊急會議出席名單</div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">財政部</span><span class=\"chart-row-value\">Scott Bessent（財政部長）</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">聯準會</span><span class=\"chart-row-value\">Jerome Powell（主席）</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">Citigroup</span><span class=\"chart-row-value\">Jane Fraser</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">Morgan Stanley</span><span class=\"chart-row-value\">Ted Pick</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">Bank of America</span><span class=\"chart-row-value\">Brian Moynihan</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">Wells Fargo</span><span class=\"chart-row-value\">Charlie Scharf</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">Goldman Sachs</span><span class=\"chart-row-value\">David Solomon</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">JPMorgan Chase</span><span class=\"chart-row-value\">Jamie Dimon 缺席（但是 Glasswing 唯一點名的銀行）</span></div>\n</div>\n</div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>當事人</span><a href='https://cryptobriefing.com/coinbase-binance-mythos-ai-model-access/' target='_blank' rel='noopener'>Philip Martin</a>（Coinbase 資安長）：「Mythos 以及未來類似的模型，會讓大規模軟體與系統測試變得更深入。這會同時加速數位威脅與數位防禦。」Coinbase 正在與 Anthropic 密切溝通。</li><li><span class='discuss-tag'>產業觀點</span><a href='https://www.dlnews.com/articles/markets/crypto-exchanges-seek-claude-mythos-access-amid-ai-threat/' target='_blank' rel='noopener'>Deddy Lavid</a>（Cyvers Alert 執行長）：「如果 AI 能大規模發現核心網路基礎設施的漏洞，加密市場會是最先感受到衝擊的。」他估計潛在損失規模「數億到數十億美元」。</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://x.com/theobearman/status/2045965569359257641' target='_blank' rel='noopener'>Theo Bearman</a>（記者）：「NSA 要用 Mythos 肯定得有很高層的人簽核，因為這完全違反五角大廈目前對 Anthropic 的政策。NSA 這麼做不會直接損害國防部在第九巡迴法院的訴訟嗎？」</li><li><span class='discuss-tag'>不同角度</span><a href='https://x.com/deredleritt3r/status/2045967154277654963' target='_blank' rel='noopener'>deredleritt3r</a>：「在這件事被過度渲染之前提醒一下：NSA 是負責美國政府網路安全的聯邦機構。他們用最強的漏洞挖掘工具，不是什麼奇怪的事。」</li><li><span class='discuss-tag'>官方聲明</span><a href='https://x.com/axios/status/2045926085011874216' target='_blank' rel='noopener'>Axios</a>：「NSA 正在使用 Anthropic 的 Mythos，儘管國防部高層堅持 Anthropic 是『供應鏈風險』。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://simonwillison.net/2026/Apr/7/project-glasswing/' target='_blank' rel='noopener'>Simon Willison</a>（獨立開發者）：「把 Claude Mythos 限制在安全研究者手裡聽起來有道理，但這也意味著攻防之間永遠存在時間差。」</li></ol></div>",
+      "_image_source": "gemini",
+      "last_updated": "2026-04-20"
+    },
+    {
+      "id": "2026-04-15-Saylor-Strategy-STRC-1B-BTC-fear8",
+      "title": "Saylor 越跌越買：Strategy 單筆砸 25.4 億美元買 34,164 顆 BTC，2024 年以來最大手筆",
+      "url": "https://www.coindesk.com/markets/2026/04/13/michael-saylor-s-strategy-added-13-927-bitcoin-for-usd1-billion",
+      "tags": [
+        "Bitcoin",
+        "Strategy",
+        "機構",
+        "情緒指標"
+      ],
+      "date": "2026-04-22",
+      "added_date": "2026-04-16",
+      "last_updated": "2026-04-22",
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/13/michael-saylor-s-strategy-added-13-927-bitcoin-for-usd1-billion",
+          "title": "Saylor 旗下 Strategy 單週加碼 13,927 顆 BTC、耗資 $10 億",
           "added_date": "2026-04-16"
         },
         {
-          "name": "News.Bitcoin.com（批評方）",
-          "url": "https://news.bitcoin.com/world-liberty-financial-62b-token-unlock-plan-faces-criticism-unlock-comes-after-trump-exit/",
-          "title": "「解鎖時間在 Trump 卸任之後」——WLFI 623 億解鎖案被質疑",
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/397188/think-bigger-michael-saylors-strategy-buys-more-bitcoin",
+          "title": "「想大一點」：Saylor 再買 13,927 顆 BTC，部位衝上 780,897 顆",
           "added_date": "2026-04-16"
+        },
+        {
+          "name": "Milk Road",
+          "url": "https://milkroad.com/news/saylor-worst-sentiment-record-buys-strc/",
+          "title": "市場情緒跌到月谷底，Saylor 卻創紀錄加碼",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/04/15/bitcoin-news-strategys-1-billion-bitcoin-buy-pushes-saylor-back-into-profit-as-btc-hits-75000/",
+          "title": "BTC 衝上 $75,000，Strategy 再買 $10 億把 Saylor 帳面拉回獲利",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "AMBCrypto",
+          "url": "https://ambcrypto.com/michael-saylor-adds-13927-btc-strategys-treasury-now-has-780897-bitcoin/",
+          "title": "Saylor 再加 13,927 顆 BTC，Strategy 金庫部位達 780,897 顆",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "CryptoTimes",
+          "url": "https://www.cryptotimes.io/2026/04/14/fact-check-strategys-record-1-1b-strc-volume-signals-secret-bitcoin-buy/",
+          "title": "STRC 日成交量創 $11.56 億紀錄，市場解讀為「偷偷加碼」BTC 的訊號",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/20/strategy-buys-34-164-bitcoin-for-usd2-54-billion",
+          "title": "Strategy 再砸 25.4 億美元買進 34,164 顆 BTC，史上第三大單筆",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/364883/strategy-2-5-billion-bitcoin-strc-dividend-traders-drive-largest-buy-2024",
+          "title": "Strategy 加碼 25 億 BTC：STRC 股息交易者推動 2024 以來最大買盤",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "CryptoBriefing",
+          "url": "https://cryptobriefing.com/microstrategy-and-bitmine-make-largest-bitcoin-ethereum-buys-since-2024-2025/",
+          "title": "MicroStrategy 和 Bitmine 創下 2024、2025 以來最大 BTC 和 ETH 買盤",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Wu Blockchain",
+          "url": "https://t.me/s/wublockchainenglish",
+          "title": "Strategy 以均價 74,395 美元買入 34,164 BTC，總持倉達 815,061 顆",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/21/strategy-overtakes-blackrock-ibit-in-bitcoin-holdings-after-bear-market-buying",
+          "title": "Strategy 在熊市買進中超越 BlackRock IBIT 的比特幣持有量",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "CoinGape",
+          "url": "https://coingape.com/michael-saylor-strategy-surpasses-blackrock-with-2-54b-bitcoin-buy/",
+          "title": "Saylor 的 Strategy 以 25.4 億美元買入超越 BlackRock",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "CoinEdition",
+          "url": "https://coinedition.com/strategy-overtakes-blackrock-in-bitcoin-holdings-with-815061-btc/",
+          "title": "Strategy 以 815,061 顆 BTC 超越 BlackRock 成為最大機構持有者",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Invezz",
+          "url": "https://invezz.com/news/2026/04/20/strategys-mstr-bitcoin-holdings-surpass-815000-btc-after-latest-acquisition/",
+          "title": "Strategy 持有量突破 815,000 顆 BTC",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "CoinDesk（25.4 億購買）",
+          "url": "https://www.coindesk.com/markets/2026/04/22/bitcoin-climbs-to-usd77-500-on-trump-ceasefire-extension-strategy-s-usd2-5-billion-buy",
+          "title": "Strategy 砸 25.4 億美元買入 34,164 顆 BTC，2024 年以來最大單筆",
+          "added_date": "2026-04-22"
         }
       ],
-      "summary": "<p>Trump 家族支持的 World Liberty Financial 一直是加密圈最敏感的代幣——總統家族利益直接卡在一個 DeFi 項目上。4 月初先被抓到把 50 億枚自家代幣（名目 4.6 億美元）丟進顧問 Corey Caplan 創辦的 Dolomite，借走 7,500 萬美元 USD1 穩定幣，其中 4,000 萬進 Coinbase Prime、USD1 池子使用率被抽到 93%，散戶想提都提不出來。Chaos Labs 事後分析，WLFI 一個戶頭就佔了 Dolomite 82.7% 的 TVL 和 85.3% 的借款，整個池子實質上是在扛 Trump 家族這一顆抵押品的單。</p><p>沒想到自己人先翻臉。WLFI 最大金主 Justin Sun（投入 7,500 萬美元購買 WLFI、另外押 1 億到 TRUMP memecoin）4 月 12 日公開開砲，說他投資時合約裡根本沒有黑名單功能，WLFI 2025 年 8 月偷偷升級合約、加進「單方面凍結、限制、沒收」的權限，一週後代幣開始交易，他要轉出錢包就被直接凍住。Sun 罵 WLFI 把社群「當成提款機」，WLFI 團隊反過來威脅提告，說 Sun「拿被害人身份掩蓋自己的不當行為」。anon 研究員 banteg 比對合約也證實黑名單是後來加的。這次公開互撕把升級合約、未揭露管理員權限、選擇性凍結這些加密圈經典惡夢一次攤在陽光下。</p><p>沒想到過了兩天，WLFI 週二（4/15）直接回擊——提出治理案把原本無限期鎖倉的 623 億張代幣解鎖：170 億張給早期支持者走「兩年懸崖加兩年線性」歸屬、452 億張給團隊顧問先銷毀 10%（約 45 億張）、剩下走「兩年懸崖加五年歸屬」。不接受新條件的持有人仍然維持舊版無限期鎖倉。提案定額 10 億張代幣才能通過最低門檻，投票期七天。Justin Sun 當天晚上就罵這是「陷阱門」——兩年懸崖一到、內部人先跑；News.Bitcoin.com 點出這個時點剛好落在 Trump 卸任之後。</p>",
-      "chart": "<div class='chart-wrap'><div class='chart-compare' style='background:#ffffff;color:#1a1a1a;padding:20px;border:1px solid #e5e5e5;'><div style='font-size:14px;color:#666;margin-bottom:12px;'>Dolomite 存款結構（2026/04/10）</div><div style='display:flex;gap:16px;align-items:flex-end;height:180px;'><div style='flex:1;display:flex;flex-direction:column;align-items:center;'><div style='background:#1a1a1a;width:100%;height:100%;display:flex;align-items:flex-start;justify-content:center;padding-top:8px;color:#fff;font-size:13px;font-weight:600;'>$458.9M (55%)</div><div style='margin-top:8px;font-size:13px;text-align:center;'>WLFI 抵押</div></div><div style='flex:1;display:flex;flex-direction:column;align-items:center;'><div style='background:#999;width:100%;height:45%;display:flex;align-items:flex-start;justify-content:center;padding-top:8px;color:#fff;font-size:13px;font-weight:600;'>$376.8M (45%)</div><div style='margin-top:8px;font-size:13px;text-align:center;'>其他所有存款</div></div></div><div style='margin-top:12px;font-size:12px;color:#666;line-height:1.6;'>Dolomite 總存款流動性 8.357 億美元。一個借款人占掉超過一半——且借款人的顧問就是 Dolomite 共同創辦人 Corey Caplan。</div></div></div>",
-      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>質疑聲音</span><a href='https://x.com/justinsuntron' target='_blank' rel='noopener'>Justin Sun</a>（TRON 創辦人、WLFI 最大金主）：「WLFI 團隊每一個動作——從使用者身上抽手續費、偷偷在代幣裡塞後門、沒有任何程序就凍結投資人資金——都是把加密社群當成他們的私人提款機。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://x.com/banteg' target='_blank' rel='noopener'>banteg</a>（匿名研究員）：「2024 年 9 月部署的原始 WLFI 合約沒有任何凍結或沒收功能，但是可升級的。黑名單是 2025 年 8 月才加進去的——Sun 投資後的第 11 個月，代幣開始交易前一週。」</li><li><span class='discuss-tag'>官方聲明</span><a href='https://x.com/worldlibertyfi' target='_blank' rel='noopener'>World Liberty Financial</a>（官方帳號）：「Sun 一邊扮演受害者、一邊用毫無根據的指控掩蓋他自己的不當行為。我們保留採取一切法律行動的權利。」</li><li><span class='discuss-tag'>分析師</span><a href='https://x.com/chaos_labs' target='_blank' rel='noopener'>Chaos Labs</a>（DeFi 風險管理機構）：「WLFI 占 Dolomite 整體 TVL 的 82.7%、借款的 85.3%。如果 WLFI 代幣突然崩盤，USDC 和 USD1 池的借方只能拿回一部分本金。」</li><li><span class='discuss-tag'>社群反應</span><a href='https://x.com/jinabinet' target='_blank' rel='noopener'>Jack Inabinet</a>（Bankless 編輯）：「WLFI 的玩法長期以來被業內私下抱怨，但現在連 CEO 和 VC 過去幾個月都不敢公開講的事——終於被自家最大投資人拿出來攤牌了。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://www.banklesstimes.com/articles/2026/04/16/justin-sun-slams-world-libertys-new-wlfi-vesting-plan-as-trap-door/' target='_blank' rel='noopener'>Justin Sun</a>（WLFI 最大金主，更新回應）：「這個 623 億解鎖提案就是陷阱門——想把黑名單爭議壓下去，但兩年懸崖期一到就是內部人先跑。」</li><li><span class='discuss-tag'>官方聲明</span><a href='https://www.coindesk.com/markets/2026/04/15/trump-backed-world-liberty-financial-proposes-unlocking-62-billion-tokens' target='_blank' rel='noopener'>World Liberty Financial</a>（4/15 治理提案）：「我們提議把 623 億張 WLFI 治理代幣解鎖——早期支持者 170 億張走兩年懸崖加兩年線性歸屬；團隊顧問的 452 億張先銷毀 10%（約 45 億張），其餘 407 億張走兩年懸崖加五年歸屬。」</li><li><span class='discuss-tag'>分析師</span><a href='https://unchainedcrypto.com/world-liberty-financial-proposes-burning-4-5-billion-insider-tokens-in-62-billion-token-vesting-overhaul/' target='_blank' rel='noopener'>Unchained</a>：「拒絕接受新條件的持有人仍然保留原本的無限期鎖倉和治理投票權——這是一個『自願解鎖、但背後有壓力』的設計。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://news.bitcoin.com/world-liberty-financial-62b-token-unlock-plan-faces-criticism-unlock-comes-after-trump-exit/' target='_blank' rel='noopener'>News.Bitcoin.com</a>：「批評者指出兩年懸崖期讓內部人真正領幣的時點會落在 Trump 卸任之後，形同把政治風險留給市場承擔、利益留給自己。」</li></ol></div>",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/c8bfe95b424c430682e7e2761b9bb8d2d70fcee1-3790x2132.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-      "_image_source": "og",
-      "last_updated": "2026-04-16"
+      "source_count": 15,
+      "discussion_count": 5,
+      "importance_score": 35,
+      "summary": "<p>Strategy 4 月 13 至 19 日買入 34,164 顆比特幣，均價 74,395 美元，總支出 25.4 億美元，是 2024 年 11 月以來最大單週買入。資金 86% 來自 STRC 優先股，不稀釋 MSTR 普通股。總持有量來到 815,061 顆 BTC，首度超越 BlackRock iShares Bitcoin Trust（IBIT）的 802,823 顆，成為全球最大的機構比特幣持有者。Strategy 現在控制了所有將被挖出的比特幣中的 3.88%。</p><p>這個里程碑出現在 BTC 從去年 10 月歷史高點回落超過 50% 的熊市中。Strategy 2026 年已累計增持近 80,000 顆 BTC，平均買入成本遠低於 2024 年的平均水位。CoinShares 資料顯示上週加密投資產品流入 14 億美元，比特幣基金佔 11.2 億，是 1 月以來最強單週。市場正在測試一個矛盾：散戶完全退場，但機構買盤創紀錄。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-title'>極度恐慌期歷史對照（連續天數）</div><div style='display:flex;gap:10px;margin-bottom:18px'><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#ef5350'>60+</div><div style='font-size:11px;color:#888;margin-top:4px'>2026 年 4 月（現在）</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#ffa726'>~30</div><div style='font-size:11px;color:#888;margin-top:4px'>2022 Terra/Luna</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#42a5f5'>8</div><div style='font-size:11px;color:#888;margin-top:4px'>本週指數讀數</div></div></div><div class='chart-row'><span class='chart-row-label'>Strategy 新增部位</span><span class='chart-row-value'>13,927 BTC</span></div><div class='chart-row'><span class='chart-row-label'>上週投入金額</span><span class='chart-row-value'>$10 億美元</span></div><div class='chart-row'><span class='chart-row-label'>平均成本</span><span class='chart-row-value'>$71,902 / BTC</span></div><div class='chart-row'><span class='chart-row-label'>金庫總持倉</span><span class='chart-row-value'>780,897 BTC</span></div><div class='chart-row'><span class='chart-row-label'>STRC 日成交量紀錄</span><span class='chart-row-value'>$11.56 億</span></div><div class='chart-row'><span class='chart-row-label'>剩餘授權額度</span><span class='chart-row-value'>STRC $216 億 + MSTR $271 億</span></div><div class='chart-source'>資料來源：CoinDesk / The Block / 恐慌與貪婪指數 / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>當事人</span><a href='https://x.com/saylor' target='_blank' rel='noopener'>Michael Saylor</a>（Strategy 執行董事長）：「Think bigger.」只留兩個字回應本次加碼，搭配金庫部位的貼圖。</li><li><span class='discuss-tag'>分析師</span><a href='https://www.cryptotimes.io/2026/04/14/fact-check-strategys-record-1-1b-strc-volume-signals-secret-bitcoin-buy/' target='_blank' rel='noopener'>CryptoTimes 事實查核</a>：「STRC 4/13 當日成交量 $11.56 億創紀錄，等同於一輪新的 BTC 真空吸塵器啟動——優先股需求越強，Strategy 能擠出的購幣彈藥越多。」</li><li><span class='discuss-tag'>市場分析</span><a href='https://247wallst.com/investing/2026/04/15/bitcoin-news-strategys-1-billion-bitcoin-buy-pushes-saylor-back-into-profit-as-btc-hits-75000/' target='_blank' rel='noopener'>24/7 Wall St.</a>：「BTC 4/15 盤中衝到 $75,000，Strategy 帳面未實現損益重新翻正，這是過去一季最久的紅字之後第一次回到獲利。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://coingape.com/strategy-strc-raises-enough-capital-to-buy-another-1-76b-in-bitcoin/' target='_blank' rel='noopener'>CoinGape</a>（加密媒體）：「STRC 過去兩天募到的現金已足以再買 $17.6 億 BTC，市場押注下一次公告會更大。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://www.techi.com/saylors-strategy-bought-1-billion-bitcoin-without-diluting-mstr-share-inside-strc/' target='_blank' rel='noopener'>Techi</a>（科技媒體）：「Strategy 用 STRC 募資買幣，對 MSTR 股東避開一部分稀釋，但優先股的永續股息負擔會隨部位一起放大，這是長期的套利壓力。」</li></ol></div>",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/a57323d92b3fa599df2ee442af800248477423c0-6000x3376.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "_image_source": "og"
+    },
+    {
+      "id": "2026-04-23-Polymarket-soldier-classified-intel-Maduro-bet",
+      "title": "特種部隊靠機密情報在 Polymarket 賺 40 萬美元：預測市場史上首件內線交易刑事起訴",
+      "url": "https://www.justice.gov/opa/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets",
+      "tags": [
+        "預測市場",
+        "監管"
+      ],
+      "date": "2026-04-24",
+      "source_count": 14,
+      "discussion_count": 5,
+      "importance_score": 33,
+      "sources": [
+        {
+          "name": "美國司法部",
+          "url": "https://www.justice.gov/opa/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets",
+          "title": "美國士兵被控利用機密資訊從預測市場投注獲利",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/04/23/politics/us-special-forces-soldier-arrested-maduro-raid-trade",
+          "title": "美國特種部隊士兵涉嫌用機密情報在 Maduro 行動中獲利 40 萬美元遭逮",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/04/23/doj-soldier-polymarket-bets-venezuela-maduro.html",
+          "title": "司法部稱士兵靠 Polymarket 押注 Maduro 被捕獲利 40 萬美元",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/04/23/nx-s1-5797957/maduro-raid-charges-polymarket-insider",
+          "title": "美國士兵被控利用機密資訊在 Polymarket 押注 Maduro 下台",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/04/23/us-soldier-arrested-maduro-bet-polymarket",
+          "title": "參與 Maduro 突擊行動的美國士兵因 Polymarket 押注遭逮",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/us-special-forces-soldier-arrested-polymarket-maduro-raid/",
+          "title": "美國特種部隊士兵因 Polymarket 押注 Maduro 行動遭逮：預測市場首件內線交易逮捕案",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/04/23/insider-trading-polymarket-soldier-venezuela/",
+          "title": "聯邦起訴用 Polymarket 押注 Maduro 被捕的美軍士兵",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/4/23/us-soldier-charged-with-using-polymarket-to-bet-on-nicolas-maduro-abduction",
+          "title": "美國士兵被控用 Polymarket 押注 Maduro 綁架行動",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/u-s-special-forces-won-409k-bet-maduro-removal-venezuela/",
+          "title": "贏得 40.9 萬美元的美國特種部隊士兵被控在 Maduro 行動前押注",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/business/5846393-solider-in-maduro-raid-charged-over-prediction-market-bets-on-operation-doj/",
+          "title": "參與 Maduro 突擊行動的士兵因預測市場押注遭起訴",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "PBS",
+          "url": "https://www.pbs.org/newshour/nation/u-s-soldier-charged-with-using-classified-intel-to-win-more-than-400k-in-bet-on-maduro-raid",
+          "title": "美國士兵被控用機密情報在 Maduro 行動押注贏得逾 40 萬美元",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-23/trump-reviews-federal-employees-prediction-market-bets",
+          "title": "Trump 表示將審查聯邦雇員的預測市場押注行為",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Wu Blockchain",
+          "url": "https://t.me/s/wublockchainenglish",
+          "title": "美國士兵被控利用機密資訊在 Polymarket 押注獲利約 40.9 萬美元",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "CFTC",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9089-26",
+          "title": "CFTC 對士兵提起民事訴訟，要求歸還利潤、罰款並永久禁止交易",
+          "added_date": "2026-04-24"
+        }
+      ],
+      "summary": "<p>美國司法部 4 月 23 日起訴現役特種部隊士官長 Gannon Ken Van Dyke，指控他利用參與「絕對決心行動」突擊 Maduro 時取得的機密情報，在 Polymarket 上押注 Maduro 下台。這是預測市場史上第一件內線交易刑事起訴案。Van Dyke 自 2008 年服役、隸屬聯合特種作戰司令部（負責三角洲部隊和海豹六隊的單位），去年 12 月開設 Polymarket 帳號，用 33,000 美元下了 13 筆注，淨賺約 409,000 美元。</p><p>行動當天 Van Dyke 立刻把大部分獲利轉進海外加密貨幣金庫，再存入新開的券商帳戶。媒體開始報導 Maduro 合約的異常大額押注後，他要求 Polymarket 刪除帳號，謊稱忘了註冊信箱。CFTC 同日提起民事訴訟，求償獲利歸還、罰款與永久禁止交易。Trump 隨後表示將審查聯邦雇員參與預測市場的行為。這起案件連同同日曝光的巴黎吹風機操控事件，讓 Polymarket 的市場誠信在 24 小時內遭到兩面夾擊。</p>",
+      "chart": "<div class=\"chart-wrap\"><div class=\"chart-title\">從機密情報到 Polymarket 帳號：Van Dyke 的押注時間線</div><div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\"><div class=\"chart-timeline-item\"><div class=\"chart-timeline-date\">2024/12 月</div><div class=\"chart-timeline-text\">Van Dyke 開設 Polymarket 帳號，開始研究 Maduro/Venezuela 相關合約</div></div><div class=\"chart-timeline-item\"><div class=\"chart-timeline-date\">12/27-1/2</div><div class=\"chart-timeline-text\">連續下注 13 筆，共投入 $33,000，全部押注 Maduro 被移除</div></div><div class=\"chart-timeline-item highlight\"><div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">1/3</div><div class=\"chart-timeline-text\" style=\"color:#333\">「絕對決心行動」突擊加拉加斯，Maduro 被逮捕。Van Dyke 當天提領大部分獲利</div></div><div class=\"chart-timeline-item\"><div class=\"chart-timeline-date\">1/6</div><div class=\"chart-timeline-text\">Van Dyke 要求 Polymarket 刪除帳號，謊稱信箱遺失</div></div><div class=\"chart-timeline-item highlight\"><div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">4/23</div><div class=\"chart-timeline-text\" style=\"color:#333\">DOJ 起訴五項罪名：機密資訊濫用、竊取非公開政府資訊、商品詐欺、電信詐欺、非法金融交易</div></div></div><div style=\"display:flex;gap:10px;margin-top:16px\"><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">$33K</div><div style=\"font-size:11px;color:#888;margin-top:4px\">投入本金</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">$409K</div><div style=\"font-size:11px;color:#888;margin-top:4px\">獲利</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">1,140%</div><div style=\"font-size:11px;color:#888;margin-top:4px\">報酬率</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">13 筆</div><div style=\"font-size:11px;color:#888;margin-top:4px\">總押注次數</div></div></div><div class=\"chart-source\">資料來源：美國司法部起訴書 / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明 / 美國司法部</span><a href='https://www.justice.gov/opa/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets' target='_blank' rel='noopener'>DOJ</a>：「Van Dyke 涉嫌利用服役期間取得的機密資訊，在預測市場平台上押注並獲取非法利潤。任何人都不應該利用國家機密來圖利自己。」</li><li><span class='discuss-tag'>產業觀點 / WIRED</span><a href='https://x.com/WIRED' target='_blank' rel='noopener'>WIRED</a>：「這名士官長涉嫌用機密情報從委內瑞拉總統 Maduro 的逮捕行動中獲利，這是美國史上第一起預測市場內線交易逮捕案。」</li><li><span class='discuss-tag'>社群反應 / @aaronjmars</span><a href='https://x.com/aaronjmars/status/2047017251270734309' target='_blank' rel='noopener'>Aaron Mars</a>（加密研究者）：「這傢伙用 3.3 萬美元押注賺了 40 萬——報酬率 1,140%。但他犯了每個業餘內線交易者都會犯的錯：贏太多、贏太明顯，然後想刪帳號滅證。」</li><li><span class='discuss-tag'>不同角度 / CNN</span><a href='https://www.cnn.com/2026/03/30/politics/prediction-markets-justice-department' target='_blank' rel='noopener'>CNN</a>（報導）：聯邦檢察官其實從今年 3 月就開始調查預測市場是否構成內線交易。Van Dyke 並不是唯一的可疑案例——伊朗空襲前、烏俄戰場上、甚至 OpenAI 發布前，Polymarket 都出現過異常大額押注。</li><li><span class='discuss-tag'>分析師 / Fortune</span><a href='https://fortune.com/2026/04/23/413-million-bets-with-over-100-million-at-stake-the-latest-polymarket-insider-trading-trump-controversy/' target='_blank' rel='noopener'>Fortune</a>：「Polymarket 上有 4.13 億筆押注、超過 1 億美元的資金押在與 Trump 政策相關的合約上。內線交易的問題不是會不會發生，而是已經發生了多少次而沒有被抓到。」</li></ol></div>",
+      "added_date": "2026-04-24",
+      "last_updated": "2026-04-24"
     },
     {
       "id": "2026-04-03-CFTC-控告三州-預測市場管轄權之爭",
@@ -931,6 +1594,94 @@ window.FEED_DATA = {
       "last_updated": "2026-04-13"
     },
     {
+      "id": "2026-04-14-Goldman-Sachs-Bitcoin-Premium-Income-ETF",
+      "title": "BTC ETF 一週吸金 $9.96 億創四個月新高：BlackRock IBIT 獨拿 $9.06 億，Morgan Stanley MSBT 首週 $7,100 萬",
+      "url": "https://www.coindesk.com/business/2026/04/14/goldman-sachs-files-for-bitcoin-income-etf-in-crypto-push",
+      "tags": [
+        "ETF",
+        "比特幣",
+        "機構"
+      ],
+      "date": "2026-04-20",
+      "source_count": 11,
+      "discussion_count": 6,
+      "importance_score": 28,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/04/14/goldman-sachs-files-for-bitcoin-income-etf-in-crypto-push",
+          "title": "高盛申請比特幣收益型 ETF，跨入加密資產發行戰場",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/goldman-sachs-files-preliminary-prospectus-for-bitcoin-premium-income-etf-unchained/",
+          "title": "高盛送交比特幣保險費收益型 ETF 初步公開說明書",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/tradfi-and-fintech/goldman-sachs-files-for-its-first-bitcoin-linked-etf",
+          "title": "高盛申請首檔比特幣連動型 ETF",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "FXStreet",
+          "url": "https://www.fxstreet.com/cryptocurrencies/news/goldman-sachs-seeks-sec-approval-for-bitcoin-premium-income-etf-202604142321",
+          "title": "高盛向 SEC 申請比特幣保險費收益型 ETF",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "CryptoBriefing",
+          "url": "https://cryptobriefing.com/goldman-sachs-doubles-down-bitcoin-exposure-premium-income-etf/",
+          "title": "高盛加碼比特幣曝險，推出保險費收益型 ETF",
+          "added_date": "2026-04-15"
+        },
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-etfs-inflows-412-million-goldman-sachs-filing",
+          "title": "比特幣現貨 ETF 週二吸金 $4.12 億，高盛申請自家 BTC ETF",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-15/goldman-s-bitcoin-etf-push-signals-wall-street-taming-of-crypto",
+          "title": "高盛申請比特幣 ETF，華爾街馴化加密訊號",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "FinanceFeeds",
+          "url": "https://financefeeds.com/bitcoin-reclaims-76000-level-as-etf-inflows-hit-411-million-dollars/",
+          "title": "ETF 流入 $4.11 億當天 BTC 重返 $76,000",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/364423/bitcoin-etfs-draw-411m-after-btc-hits-75k-but-analysts-urge-caution",
+          "title": "比特幣站 $75K 後，現貨 ETF 單日吸金 $4.11 億；分析師提醒謹慎",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/398044/spot-bitcoin-etfs-1-billion-weekly-inflows",
+          "title": "現貨 BTC ETF 單週流入近 $10 億，1 月中以來最高",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/spot-bitcoin-etfs-attract-nearly-1b-in-weekly-inflows",
+          "title": "現貨 BTC ETF 單週吸金近 $10 億，風險偏好回升",
+          "added_date": "2026-04-20"
+        }
+      ],
+      "summary": "<p>高盛 4 月 14 日向 SEC 送件申請「Bitcoin Premium Income ETF」，把旗下行之有年的覆蓋式賣權策略第一次套在比特幣上。高盛管理 $3.5 兆資產，自己不直接買 BTC，而是透過其他發行商的現貨 ETP 建立曝險再賣 call，覆蓋率訂在 40% 到 100%。高盛到年初已經透過 IBIT 累積 $11 億以上的 BTC 部位，這次是第一次把自家商標掛到比特幣產品封面。</p><p>送件當週（4/13-17）美國現貨 BTC ETF 吸入 $9.964 億，是 1 月中以來單週最高。BlackRock IBIT 獨拿 $9.06 億，Morgan Stanley 剛上線的 MSBT 首週進帳 $7,100 萬。4/17 單日流入 $6.64 億，是四月最大單日量。三週累計流入超過 $18 億，2026 全年累計首次轉正。ETH 現貨 ETF 同週也拿到 $2.76 億，是三個月新高。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-compare'><div class='chart-item'><div class='chart-label'>GPIX（S&P 500）</div><div class='chart-value'>2022 推出</div><div class='chart-sub'>賣指數 call 養息</div></div><div class='chart-item'><div class='chart-label'>GPIQ（Nasdaq-100）</div><div class='chart-value'>2023 推出</div><div class='chart-sub'>同樣覆蓋式賣權</div></div><div class='chart-item chart-highlight'><div class='chart-label'>Bitcoin Premium Income</div><div class='chart-value'>2026-04-14</div><div class='chart-sub'>首次套用在比特幣</div></div></div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>分析師</span><a href='https://x.com/EricBalchunas' target='_blank' rel='noopener'>Eric Balchunas</a>（Bloomberg ETF 分析師）：「高盛把他們的收益型 ETF 劇本套到比特幣上了，這是他們第一次真正推自己的加密產品。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://unchainedcrypto.com/goldman-sachs-files-preliminary-prospectus-for-bitcoin-premium-income-etf-unchained/' target='_blank' rel='noopener'>Unchained 編輯部</a>：「高盛繞過直接持有 BTC，改用別家的現貨 ETP 做底層，這種結構就是把自己定位成策略層，不碰託管。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://cryptobriefing.com/goldman-sachs-doubles-down-bitcoin-exposure-premium-income-etf/' target='_blank' rel='noopener'>CryptoBriefing 分析</a>：「覆蓋式賣權在 BTC 這種高波動資產上，月配能衝很高，但多頭行情時會吃掉很多上漲空間。」</li><li><span class='discuss-tag'>市場分析</span><a href='https://financefeeds.com/bitcoin-reclaims-76000-level-as-etf-inflows-hit-411-million-dollars/' target='_blank' rel='noopener'>FinanceFeeds</a>：「高盛送件當天，美股收盤前現貨 BTC ETF 已吸入 $4.115 億——其中 BlackRock IBIT 獨吞 $2.14 億——讓 2026 全年累計流入首次由負轉正，落在 $2.45 億。」</li><li><span class='discuss-tag'>分析師</span><a href='https://decrypt.co/364423/bitcoin-etfs-draw-411m-after-btc-hits-75k-but-analysts-urge-caution' target='_blank' rel='noopener'>Decrypt</a>：「這是四月單日第二大的流入；所有主流發行商都看到正流入，不是集中在一兩檔。但分析師提醒，BTC 衝 $76K 的同時，恐慌指數還在 8，兩者訊號不一致。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://cointelegraph.com/news/bitcoin-etfs-inflows-412-million-goldman-sachs-filing' target='_blank' rel='noopener'>Cointelegraph</a>：「高盛自己年初已透過 IBIT 累積超過 $11 億 BTC 曝險，這次送件是第一次把自家商標掛到比特幣產品封面。管 $3.5 兆的銀行下場做 BTC ETF 品牌，是標的第一次擠進主流資產配置選單。」</li></ol></div>",
+      "last_updated": "2026-04-20",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/66903c353099b75a87c51fc314ab63a82507b979-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "_image_source": "og"
+    },
+    {
       "id": "2026-04-06-Chaos-Labs-離開-Aave-DeFi-最大借貸協議的治理危機",
       "title": "Aave 治理危機落幕：「Aave Will Win」以七成五通過，100% 營收歸 AAVE 持有者，創辦人喊出 1 兆美元目標",
       "url": "https://x.com/omeragoldberg/status/2041185313163276302",
@@ -1023,6 +1774,168 @@ window.FEED_DATA = {
       "_image_source": "gemini"
     },
     {
+      "id": "2026-04-23-Polymarket-hairdryer-Paris-weather-oracle-attack",
+      "title": "用吹風機賺 3.4 萬美元：有人跑到戴高樂機場對氣象感測器吹熱風，破解了 Polymarket",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-23/france-probes-weather-data-glitch-after-surge-in-polymarket-bets",
+      "tags": [
+        "預測市場",
+        "Oracle"
+      ],
+      "date": "2026-04-24",
+      "source_count": 11,
+      "discussion_count": 4,
+      "importance_score": 26,
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-23/france-probes-weather-data-glitch-after-surge-in-polymarket-bets",
+          "title": "Polymarket 押注激增後法國調查天氣資料異常",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Le Monde",
+          "url": "https://www.lemonde.fr/pixels/article/2026/04/23/polymarket-meteo-france-cdg-temperature-manipulation_7443276_4408996.html",
+          "title": "巴黎氣溫押注騙局：有人疑似用吹風機操控機場氣象站",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/04/23/europe/france-weather-sensor-polymarket-bet-intl-latam",
+          "title": "法國調查 Polymarket 押注後的疑似天氣感測器竄改",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.nhpr.org/2026-04-23/french-police-probe-suspected-weather-device-tampering-after-odd-polymarket-bet",
+          "title": "法國警方調查 Polymarket 異常押注後的疑似天氣裝置竄改",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/business/2026/04/23/hair-dryer-trick-behind-25000-win-france-probes-potential-weather-data-scam-linked-to-poly",
+          "title": "吹風機手法背後的 25,000 歐元？法國調查與 Polymarket 相關的天氣資料詐騙",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "DL News",
+          "url": "https://www.dlnews.com/articles/defi/french-meteorological-agency-is-investigating-tampering-amid-big-polymarket-bets/",
+          "title": "法國氣象局調查 Polymarket 大額押注背後的竄改行為",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "BeInCrypto",
+          "url": "https://beincrypto.com/polymarket-hair-dryer-weather-sensor-oracle-problem/",
+          "title": "吹風機如何被用來操控 Polymarket：實體世界的 Oracle 問題",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Benzinga",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/04/51989428/polymarket-bettor-uses-hair-dryer-to-change-the-weather-in-paris-prediction-market-manipulation-controversy-intensifies",
+          "title": "Polymarket 押注者用吹風機改變巴黎天氣，預測市場操控爭議升溫",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Bitcoin.com",
+          "url": "https://news.bitcoin.com/a-hair-dryer-may-have-gamed-a-paris-weather-sensor-for-34000-on-polymarket/",
+          "title": "吹風機可能操控了巴黎氣象感測器，在 Polymarket 賺走 34,000 美元",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/polymarket-weather-hair-dryer-paris/",
+          "title": "有人涉嫌用吹風機操控 Polymarket 天氣押注",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Wu Blockchain",
+          "url": "https://t.me/s/wublockchainenglish",
+          "title": "Polymarket 巴黎天氣市場遭吹風機竄改感測器操控，獲利 34,000 美元",
+          "added_date": "2026-04-24"
+        }
+      ],
+      "summary": "<p>加密貨幣白皮書談了十年的「Oracle 問題」，有人用一支吹風機就示範了。Polymarket 的巴黎氣溫押注市場用戴高樂機場跑道旁一個無人看管的 Météo France 感測器作為結算來源。4 月 6 日和 15 日，有人帶著攜帶式加熱裝置（疑似吹風機）跑到感測器旁邊吹，讓讀數在 12 分鐘內竄升 4°C，觸發 22°C 的結算門檻。鏈上分析公司 Bubblemaps 發現，附近所有其他氣象站都沒記錄到這個溫度異常。</p><p>操作者事先以極低價格買進「22°C」的合約（正常共識是 18°C），兩次操控合計獲利約 34,000 美元，其中第一次下注金額是平常的 20 倍。Météo France 已向戴高樂機場航空憲兵隊提告「竄改自動化資料處理系統」，Polymarket 事後也把資料來源改為 Le Bourget 機場。這是預測市場第一次遭到「實體 Oracle 攻擊」——你可以去中心化驗證者，但你沒辦法去中心化一支溫度計。</p>",
+      "chart": "<div class=\"chart-wrap\"><div class=\"chart-title\">吹風機 Oracle 攻擊：12 分鐘操控一個感測器，賺走 34,000 美元</div><div style=\"display:flex;gap:10px;margin-bottom:16px\"><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">+4°C</div><div style=\"font-size:11px;color:#888;margin-top:4px\">感測器竄改幅度</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">12 分鐘</div><div style=\"font-size:11px;color:#888;margin-top:4px\">溫度竄升時間</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">$34K</div><div style=\"font-size:11px;color:#888;margin-top:4px\">獲利金額</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">20x</div><div style=\"font-size:11px;color:#888;margin-top:4px\">高於平常下注額</div></div></div><div style=\"margin-bottom:14px;font-size:14px;font-weight:600;color:#1a1a1a\">Oracle 攻擊的三層結構</div><div style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\"><div style=\"display:flex;flex-direction:column;gap:12px\"><div style=\"display:flex;align-items:center;gap:12px\"><div style=\"min-width:36px;height:36px;background:#ef5350;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:14px\">1</div><div style=\"font-size:13px;color:#1a1a1a\">實體層：跑到機場圍欄外，對無人看管的氣象感測器吹熱風</div></div><div style=\"display:flex;align-items:center;gap:12px\"><div style=\"min-width:36px;height:36px;background:#ffa726;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:14px\">2</div><div style=\"font-size:13px;color:#1a1a1a\">資料層：Polymarket 用單一感測器結算，沒有交叉驗證其他氣象站</div></div><div style=\"display:flex;align-items:center;gap:12px\"><div style=\"min-width:36px;height:36px;background:#42a5f5;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:14px\">3</div><div style=\"font-size:13px;color:#1a1a1a\">市場層：事先買進低價合約，等感測器被竄改後自動結算獲利</div></div></div></div><div class=\"chart-source\">資料來源：Le Monde、Bubblemaps、Météo France / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>社群反應 / @aaronjmars</span><a href='https://x.com/aaronjmars/status/2047017251270734309' target='_blank' rel='noopener'>Aaron Mars</a>（加密研究者，1,428 萬次觀看）：「Polymarket 的巴黎氣溫市場用戴高樂機場跑道旁一個基本上無人看管的 Météo France 感測器結算。有人跑去買了 22°C 的低價合約——正常共識是 18°C——然後帶著吹風機跑去對感測器吹。12 分鐘後溫度飆升 4°C 觸發結算。加密白皮書講了十年的 Oracle 問題，終於有人用 34,000 美元示範了。」</li><li><span class='discuss-tag'>官方聲明 / Météo France</span><a href='https://www.euronews.com/business/2026/04/23/hair-dryer-trick-behind-25000-win-france-probes-potential-weather-data-scam-linked-to-poly' target='_blank' rel='noopener'>Météo France</a>（法國國家氣象局）：已向戴高樂機場航空憲兵隊提起「竄改自動化資料處理系統」的刑事告訴。分析結果顯示該感測器的讀數與所有鄰近氣象站明顯不一致。</li><li><span class='discuss-tag'>產業觀點 / BeInCrypto</span><a href='https://beincrypto.com/polymarket-hair-dryer-weather-sensor-oracle-problem/' target='_blank' rel='noopener'>BeInCrypto</a>（分析文）：「實體 Oracle 攻擊瞄準的是餵資料給區塊鏈的真實世界感測器，這是最脆弱的環節。你可以去中心化驗證者網路，但你沒辦法去中心化一支溫度計。Polymarket 事後改用 Le Bourget 機場感測器，但根本問題沒解——換一台感測器不等於解決了 Oracle 問題。」</li><li><span class='discuss-tag'>不同角度 / Engadget</span><a href='https://x.com/engadget' target='_blank' rel='noopener'>Engadget</a>：「有人涉嫌用吹風機操控 Polymarket 天氣押注。」這則新聞同時登上 Hacker News 首頁前 20 名，吸引大量軟體工程師討論 Oracle 設計的根本缺陷。</li></ol></div>",
+      "added_date": "2026-04-24",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "id": "2026-04-15-BIP-361-quantum-freeze-satoshi",
+      "title": "為防量子攻擊，BIP-361 提案要凍結 690 萬顆 BTC，中本聰的幣也救不回來",
+      "url": "https://www.coindesk.com/tech/2026/04/15/bitcoin-developer-proposal-could-freeze-quantum-related-coins",
+      "tags": [
+        "Bitcoin",
+        "量子",
+        "BIP",
+        "安全"
+      ],
+      "date": "2026-04-15",
+      "source_count": 10,
+      "discussion_count": 6,
+      "importance_score": 26,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/04/15/bitcoin-developer-proposal-could-freeze-quantum-related-coins",
+          "title": "比特幣開發者提案以量子防禦為名，可凍結量子相關比特幣"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/364450/new-bitcoin-proposal-would-freeze-coins-to-counter-quantum-threat",
+          "title": "比特幣新提案為對抗量子威脅，將凍結未遷移的幣"
+        },
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-devs-and-researchers-propose-freezing-quantum-vulnerable-coins-bip-361",
+          "title": "比特幣 BIP-361 直指量子安全威脅"
+        },
+        {
+          "name": "CoinDesk (interview)",
+          "url": "https://www.coindesk.com/business/2026/04/15/bitcoin-developer-jameson-lopp-says-it-s-better-to-freeze-5-6-million-btc-than-let-hackers-have-them",
+          "title": "Jameson Lopp：與其讓駭客拿走 560 萬顆 BTC，不如凍結它們"
+        },
+        {
+          "name": "News.Bitcoin.com",
+          "url": "https://news.bitcoin.com/bitcoin-developers-propose-freezing-coins-that-skip-quantum-safe-migration-under-bip-361/",
+          "title": "BIP-361：未完成量子安全遷移的幣將被凍結"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://github.com/bitcoin/bips/blob/master/bip-0361.mediawiki",
+          "title": "BIP-361 正式草案：三階段凍結量子脆弱幣"
+        },
+        {
+          "name": "CoinDesk（Adam Back）",
+          "url": "https://www.coindesk.com/tech/2026/04/16/bitcoin-s-quantum-debate-splits-as-adam-back-pushes-optional-upgrades-over-forced-freeze",
+          "title": "比特幣量子辯論分裂：Adam Back 主張選擇性升級，反對強制凍結",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/364562/adam-back-pushes-for-optional-upgrades-to-quantum-proof-bitcoin",
+          "title": "Adam Back 推動選擇性升級來抗量子，反對 BIP-361 凍結方案",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "CoinDesk（Hoskinson）",
+          "url": "https://www.coindesk.com/tech/2026/04/16/cardano-s-hoskinson-says-bitcoin-s-quantum-fix-is-a-hard-fork-that-can-t-save-satoshi-s-coins",
+          "title": "Hoskinson：比特幣量子修復方案實為硬分叉，救不了中本聰的幣",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Unchained（Hoskinson）",
+          "url": "https://unchainedcrypto.com/hoskinson-says-bitcoins-quantum-proposal-is-a-disguised-hard-fork-that-leaves-1-7-million-btc-unrecoverable-unchained/",
+          "title": "Hoskinson：BIP-361 是偽裝的硬分叉，170 萬顆 BTC 無法贖回",
+          "added_date": "2026-04-17"
+        }
+      ],
+      "summary": "<p>量子電腦一旦夠強，就能從公鑰反推私鑰、盜走比特幣。全網約 690 萬顆 BTC 的公鑰已暴露在鏈上，其中包括中本聰持有的約 170 萬顆（帳面超過 $740 億）。知名比特幣安全研究者、Casa 技術長 Jameson Lopp 帶領五位密碼學家在 4 月 15 日提交 BIP-361「後量子遷移」提案，主張先禁止把幣送進舊地址，兩年後舊簽章在共識層失效，未遷移的幣永久凍結。Lopp 自己也說：「我不喜歡這個提案，但更不喜歡另一個選項。」</p><p>提案隔天三方論戰全面展開。Blockstream 執行長 Adam Back 主張選擇性升級，反對預設凍結時程，理由是量子電腦 25 年來的進展仍屬「漸進式實驗」。BitMEX Research 提出「金絲雀基金」替代方案：把 BTC 放進已知公鑰的地址當誘餌，被花掉就代表量子威脅成真，屆時再啟動全網軟分叉。Cardano 創辦人 Hoskinson 則嗆 BIP-361 號稱軟分叉，實際是硬分叉，而且中本聰的幣在 BIP-39 助記詞發明之前產生，零知識證明贖回機制根本救不回來。Phil Geiger 一句話代表反對派心聲：「為了不讓錢被偷，我們要先把錢偷走？」</p>",
+      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">BIP-361：多少幣會被凍結，時程怎麼走</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">690 萬</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">公鑰已暴露的 BTC</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">34%</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">佔全網流通量</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">170 萬</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">中本聰持有（無法贖回）</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">$740 億</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">受影響 BTC 帳面價值</div>\n</div>\n</div>\n<div class=\"chart-timeline\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">Phase A</div>\n<div class=\"chart-timeline-text\">BIP-360 啟用後約 3 年：錢包禁止再送幣到舊地址，開始強制遷移</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">Phase B</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">Phase A 後 2 年：舊簽章在共識層失效，未遷移的幣永久凍結</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">Phase C</div>\n<div class=\"chart-timeline-text\">研究中：用 BIP-39 種子詞產生零知識證明，讓原主贖回（中本聰的幣不適用）</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：BIP-361 草案、Google Research / 區塊勢整理</div>\n</div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>提案作者</span><a href='https://x.com/lopp/status/2044406134178795748' target='_blank' rel='noopener'>Jameson Lopp</a>（Casa CTO、BIP-361 共同作者）：「我自己也不喜歡這個提案，我寫它是因為我更不喜歡另一個選項。這是一份粗略的應急計畫草案，不是最終規格。」</li><li><span class='discuss-tag'>業界領袖</span><a href='https://x.com/adam3us' target='_blank' rel='noopener'>Adam Back</a>（Blockstream 執行長，巴黎區塊鏈週演講）：「準備是關鍵。以可控的方式做改變，遠比危機來了才被迫反應安全得多。」他追蹤量子運算 25 年，認為目前進展仍屬「漸進式實驗」，反對預設凍結時程。</li><li><span class='discuss-tag'>替代方案</span><a href='https://x.com/BitMEXResearch/status/2044517060315697382' target='_blank' rel='noopener'>BitMEX Research</a>：提出「金絲雀基金」機制，把 BTC 存入一個私鑰未知但地址有效的特殊地址。如果這筆幣被花掉，就等於公開證明量子破解不再是理論，自動觸發全網保護性軟分叉。</li><li><span class='discuss-tag'>不同角度</span><a href='https://www.youtube.com/watch?v=GFXdLqpWB20' target='_blank' rel='noopener'>Charles Hoskinson</a>（Cardano 創辦人，YouTube 直播）：「BIP-361 說是軟分叉，但實際上是硬分叉。」他指出中本聰的 170 萬顆 BTC 在 BIP-39 助記詞之前產生，提案中的零知識證明贖回機制對這些幣完全無效。</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://x.com/CatoTheElder17/status/2044079534316605559' target='_blank' rel='noopener'>Phil Geiger</a>（Metaplanet 業務主管）：「所以邏輯是：為了不讓錢被偷，我們要先把錢偷走？」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://x.com/MartyBent/status/2044154577608470740' target='_blank' rel='noopener'>Marty Bent</a>（TFTC 創辦人）：「這個提案本身就很可笑，根本不該被認真討論。」</li></ol></div>",
+      "last_updated": "2026-04-17",
+      "added_date": "2026-04-16"
+    },
+    {
       "id": "2026-04-09-伊朗要求油輪用比特幣付荷莫茲海峽過路費",
       "title": "伊朗要求油輪用比特幣付荷莫茲海峽過路費：每桶 1 美元，幾秒內到帳",
       "url": "https://www.bloomberg.com/news/articles/2026-04-01/strait-of-hormuz-ships-paying-iran-yuan-and-crypto-tolls-for-safe-passage",
@@ -1100,79 +2013,84 @@ window.FEED_DATA = {
       "_image_source": "gemini"
     },
     {
-      "id": "2026-04-10-Anthropic-Mythos-Project-Glasswing-bank-CEOs",
-      "title": "Anthropic 新模型太會抓漏洞，財政部長把八大銀行 CEO 叫去華盛頓：DeFi 被列為下個戰場",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-10/anthropic-model-scare-sparks-urgent-bessent-powell-warning-to-bank-ceos",
+      "id": "2026-04-23-Tether-freezes-344M-USDT-OFAC",
+      "title": "Tether 史上最大凍結：配合 OFAC 一次鎖住 3.44 億美元 USDT，累計凍結資產突破 44 億",
+      "url": "https://tether.io/news/tether-supports-freeze-of-more-than-344-million-in-usdt-in-coordination-with-ofac-and-u-s-law-enforcement/",
       "tags": [
-        "AI",
-        "資安",
-        "DeFi"
+        "穩定幣",
+        "合規"
       ],
-      "date": "2026-04-10",
-      "image": "images/2026-04-10-Anthropic-Mythos-Project-Glasswing-bank-CEOs-1db2fe94.png",
+      "date": "2026-04-24",
+      "source_count": 10,
+      "discussion_count": 3,
+      "importance_score": 23,
       "sources": [
         {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-10/anthropic-model-scare-sparks-urgent-bessent-powell-warning-to-bank-ceos",
-          "title": "Anthropic 模型引發恐慌：Bessent 與 Powell 緊急警告銀行 CEO",
-          "added_date": "2026-04-11"
-        },
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-10/wall-street-banks-try-out-anthropic-s-mythos-as-us-urges-testing",
-          "title": "Goldman、Citi 等華爾街銀行正在內部測試 Anthropic Mythos，JPMorgan 是 Project Glasswing 中唯一點名的銀行",
-          "added_date": "2026-04-11"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/04/10/trump-white-house-ai-cyber-threat-anthropic-mythos.html",
-          "title": "Mythos 發表前一週，JD Vance 與 Bessent 私下質問 Amodei、Altman 關於 AI 模型安全與應對網攻",
-          "added_date": "2026-04-11"
-        },
-        {
-          "name": "Wall Street Journal",
-          "url": "https://www.wsj.com/tech/ai/white-house-races-to-head-off-threats-from-powerful-ai-tools-5c6f22e2",
-          "title": "白宮國家網路主任 Sean Cairncross 正領導跨部門清查 AI 能利用的關鍵基礎設施漏洞",
-          "added_date": "2026-04-11"
+          "name": "Tether（官方）",
+          "url": "https://tether.io/news/tether-supports-freeze-of-more-than-344-million-in-usdt-in-coordination-with-ofac-and-u-s-law-enforcement/",
+          "title": "Tether 配合 OFAC 和美國執法機構凍結超過 3.44 億美元 USDT",
+          "added_date": "2026-04-24"
         },
         {
           "name": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/04/10/mythos-ai-threat-sees-bessent-powell-call-urgent-meeting-with-bank-ceos",
-          "title": "Mythos AI 威脅促使 Bessent、Powell 緊急召集銀行 CEO 開會",
-          "added_date": "2026-04-11"
+          "url": "https://www.coindesk.com/business/2026/04/23/tether-freezes-usd344-million-in-usdt-on-tron-tied-to-illicit-activity",
+          "title": "Tether 凍結 Tron 上 3.44 億美元 USDT，涉嫌非法活動",
+          "added_date": "2026-04-24"
         },
         {
-          "name": "Bankless",
-          "url": "https://www.bankless.com/can-defi-survive-mythos",
-          "title": "DeFi 撐得過 Mythos 嗎？智能合約找漏洞的成本正在崩塌",
-          "added_date": "2026-04-11"
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-23/tether-freezes-344-million-usdt-stablecoins-ofac-enforcement",
+          "title": "Tether 配合 OFAC 執法凍結 3.44 億美元 USDT 穩定幣",
+          "added_date": "2026-04-24"
         },
         {
-          "name": "Stratechery",
-          "url": "https://stratechery.com/2026/myth-and-mythos/",
-          "title": "Myth and Mythos：另一次典範轉移",
-          "added_date": "2026-04-11"
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/tether-freezes-344-million-usdt-130306016.html",
+          "title": "Tether 配合 OFAC 凍結 Tron 上 3.44 億美元 USDT",
+          "added_date": "2026-04-24"
         },
         {
-          "name": "Exponential View",
-          "url": "https://www.exponentialview.co/p/mythos-and-the-mispricing-of-everything",
-          "title": "Mythos 與萬物的錯誤定價：AI 能力與 AI 危險永久綁在一起的那一刻",
-          "added_date": "2026-04-11"
+          "name": "TheStreet",
+          "url": "https://www.thestreet.com/crypto/markets/gold-giant-freezes-344-million-tied-to-illicit-activity",
+          "title": "穩定幣巨頭凍結 3.44 億美元涉嫌非法活動的資產",
+          "added_date": "2026-04-24"
         },
         {
-          "name": "crypto.news",
-          "url": "https://crypto.news/us-treasury-calls-bank-ceos-over-cyber-risks-tied-to-anthropics-claude-mythos-model/",
-          "title": "美國財政部就 Anthropic Claude Mythos 的網路風險緊急召集銀行 CEO",
-          "added_date": "2026-04-11"
+          "name": "ZeroHedge",
+          "url": "https://www.zerohedge.com/crypto/tether-freezes-344-million-usdt-stablecoins-flagged-illicit-activity",
+          "title": "Tether 凍結被標記為非法活動的 3.44 億美元 USDT 穩定幣",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Bitcoin.com",
+          "url": "https://news.bitcoin.com/tether-freezes-344-million-in-usdt-with-ofac-and-us-law-enforcement/",
+          "title": "Tether 配合 OFAC 和美國執法機構凍結 3.44 億美元 USDT",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "BitcoinKE",
+          "url": "https://bitcoinke.io/2026/04/tether-freezes-over-300-million-dollars-in-usdt/",
+          "title": "里程碑：Tether 凍結超過 3 億美元 USDT，史上單筆最大凍結",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "TFTC",
+          "url": "https://www.tftc.io/tether-freezes-344-million-usdt-censorship-bitcoin-permissionless/",
+          "title": "Tether 凍結 3.44 億美元 USDT——這就是比特幣存在的原因",
+          "added_date": "2026-04-24"
+        },
+        {
+          "name": "Wu Blockchain",
+          "url": "https://t.me/s/wublockchainenglish",
+          "title": "Tether 配合 OFAC 和美國執法機構凍結超過 3.44 億美元 USDT",
+          "added_date": "2026-04-24"
         }
       ],
-      "source_count": 9,
-      "discussion_count": 4,
-      "importance_score": 22,
-      "summary": "<p>Anthropic 週二發表 Mythos Preview 的同一天，財政部長 Bessent 與聯準會主席 Powell 在華盛頓把 Citigroup 的 Jane Fraser、Morgan Stanley 的 Ted Pick、Bank of America 的 Brian Moynihan、Wells Fargo 的 Charlie Scharf、Goldman 的 David Solomon 叫進財政部開緊急會議，確認銀行正在防範這個新模型可能帶來的系統性風險。Anthropic 自己也因為 Mythos 太會找漏洞而決定不公開釋出，改用「Project Glasswing」計畫，只分享給 12 家合作夥伴並附上 1 億美元使用額度，其中 JPMorgan 是唯一被點名的銀行。</p><p>對 DeFi 來說，這比量子電腦還近。Anthropic 去年十二月的報告顯示，前沿模型從零開始重現智能合約漏洞的成功率從 2% 跳到 55%；Mythos 則是另一個量級——Bankless 引述 Anthropic 資料，Mythos 只要 50 美元就找到一個塵封 27 年的漏洞。上週才有北韓駭客社交工程盜走 Drift 2.85 億美元，$118 億存在 Morpho 金庫裡的散戶賺著 2–4% 的「儲蓄」，DeFi 的風險定價正在被改寫。</p>",
-      "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">Project Glasswing 是什麼？Mythos 為什麼讓監管機構緊張</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">$50</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Mythos 找到一個 27 年老漏洞的成本</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">2% → 55%</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">LLM 重現智能合約漏洞的成功率（2024 → 2025）</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">12 家</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Project Glasswing 初始合作夥伴</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">$1 億</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Anthropic 承諾提供的防禦性使用額度</div>\n</div>\n</div>\n<div style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div style=\"margin-bottom:14px;font-size:14px;font-weight:600\">4 月 7 日緊急會議出席名單</div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">財政部</span><span class=\"chart-row-value\">Scott Bessent（財政部長）</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">聯準會</span><span class=\"chart-row-value\">Jerome Powell（主席）</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">Citigroup</span><span class=\"chart-row-value\">Jane Fraser</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">Morgan Stanley</span><span class=\"chart-row-value\">Ted Pick</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">Bank of America</span><span class=\"chart-row-value\">Brian Moynihan</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">Wells Fargo</span><span class=\"chart-row-value\">Charlie Scharf</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">Goldman Sachs</span><span class=\"chart-row-value\">David Solomon</span></div>\n<div class=\"chart-row\"><span class=\"chart-row-label\">JPMorgan Chase</span><span class=\"chart-row-value\">Jamie Dimon 缺席（但是 Glasswing 唯一點名的銀行）</span></div>\n</div>\n</div>",
-      "discussions": "<div class=\"story-discuss\">\n<ol>\n<li><span class=\"discuss-tag\">官方聲明</span><a href=\"https://x.com/atrupar/status/2042689625831899456\" target=\"_blank\" rel=\"noopener\">Kevin Hassett</a>（白宮國家經濟委員會主任）：「我們正在採取一切能做的步驟，確保每個人都能防範這些潛在風險，包括 Anthropic 同意把模型押後公開發布，等政府官員把一切搞清楚。現在確實有一種急迫感。」</li>\n<li><span class=\"discuss-tag\">產業觀點</span><a href=\"https://x.com/deanwball/status/2042238507507134912\" target=\"_blank\" rel=\"noopener\">Dean W. Ball</a>（前白宮 AI 政策顧問）：「塵埃落定後，Mythos 和後續跟進的模型會被寫進網路安全史。它們對全球重要軟體的強化，是美國資本主義給世界的一份禮物——我們自己出錢，免費送給大家。甚至有機會在沒出大亂子的情況下完成這輪強化。」</li>\n<li><span class=\"discuss-tag\">質疑聲音</span><a href=\"https://x.com/edzitron/status/2042587048318546190\" target=\"_blank\" rel=\"noopener\">Ed Zitron</a>（Better Offline 作者）：「CoreWeave 的產能不夠，Anthropic 也沒錢付，但是只要數字往上，AI 就是飢渴到爆的需求，zug zug。」</li>\n<li><span class=\"discuss-tag\">產業觀點</span><a href=\"https://www.bankless.com/can-defi-survive-mythos\" target=\"_blank\" rel=\"noopener\">David Christopher</a>（Bankless 分析師）：「沒有理由讓領先的 AI 公司在早期預覽中把加密公司排除在外，當攻擊面這麼誘人、國家級駭客這麼積極的時候。」</li>\n</ol>\n</div>",
-      "_image_source": "gemini"
+      "summary": "<p>Tether 4 月 23 日宣布配合 OFAC 和美國執法機構，一次凍結兩個 Tron 地址上合計 3.44 億美元的 USDT。這是 Tether 有史以來單筆最大的凍結行動，遠超今年 1 月凍結五個 Tron 錢包共 1.82 億美元的紀錄。Tether 目前與全球 65 個國家、超過 340 個執法機構合作，累計協助超過 2,300 件案件，凍結資產總額超過 44 億美元（其中 21 億與美國當局相關）。</p><p>同一天 Pornhub 宣布停用 USDT、改以符合歐盟 MiCA 規範的 USDC 支付創作者報酬。一邊是 Tether 展現配合執法的「審查能力」，另一邊是歐洲監管讓 USDT 逐漸被邊緣化。TFTC 的評論文章直接下標「這就是比特幣存在的原因」——能被一家公司單方面凍結的數位美元，跟傳統銀行帳戶有什麼差別？</p>",
+      "chart": "<div class=\"chart-wrap\"><div class=\"chart-title\">Tether 凍結行動規模：從零星配合到單筆 3.44 億美元</div><div style=\"font-size:12px;color:#888;margin-bottom:16px\">Tether 歷年重大凍結事件（估計金額）</div><div class=\"chart-bar-group\"><div class=\"chart-bar-label\" style=\"color:#e65100;font-weight:600\">2026/4/23（本次）</div><div class=\"chart-bar-track\"><div class=\"chart-bar-fill\" style=\"width:100%;background:linear-gradient(90deg,#ef5350,#ef9a9a)\">$3.44 億</div></div></div><div class=\"chart-bar-group\"><div class=\"chart-bar-label\">2026/1 月（Tron 五地址）</div><div class=\"chart-bar-track\"><div class=\"chart-bar-fill\" style=\"width:53%;background:linear-gradient(90deg,#ffa726,#ffcc80)\">$1.82 億</div></div></div><div class=\"chart-bar-group\"><div class=\"chart-bar-label\">2024 全年累計</div><div class=\"chart-bar-track\"><div class=\"chart-bar-fill\" style=\"width:80%;background:linear-gradient(90deg,#42a5f5,#90caf9)\">~$2.7 億</div></div></div><div style=\"margin-top:16px;display:flex;gap:10px\"><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:20px;font-weight:700;color:#1a1a1a;line-height:1.2\">$44 億+</div><div style=\"font-size:11px;color:#888;margin-top:4px\">累計凍結總額</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:20px;font-weight:700;color:#1a1a1a;line-height:1.2\">2,300+</div><div style=\"font-size:11px;color:#888;margin-top:4px\">協助案件數</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:20px;font-weight:700;color:#1a1a1a;line-height:1.2\">340+</div><div style=\"font-size:11px;color:#888;margin-top:4px\">合作執法機構</div></div></div><div class=\"chart-source\">資料來源：Tether 官方公告、BitcoinKE / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明 / Tether</span><a href='https://tether.io/news/tether-supports-freeze-of-more-than-344-million-in-usdt-in-coordination-with-ofac-and-u-s-law-enforcement/' target='_blank' rel='noopener'>Tether</a>（官方公告）：「Tether 對犯罪使用其金融產品採取零容忍政策。我們在收到美國當局提供的資訊後凍結了相關地址，以防止資金進一步轉移。」</li><li><span class='discuss-tag'>質疑聲音 / TFTC</span><a href='https://www.tftc.io/tether-freezes-344-million-usdt-censorship-bitcoin-permissionless/' target='_blank' rel='noopener'>TFTC</a>（比特幣媒體）：「Tether 剛凍結了 3.44 億美元——這就是比特幣存在的原因。能被一家公司單方面凍結的數位美元，和傳統銀行帳戶有什麼差別？穩定幣不是自由的貨幣，它只是有了新皮膚的舊系統。」</li><li><span class='discuss-tag'>產業觀點 / CoinDesk</span><a href='https://www.coindesk.com/business/2026/04/23/tether-freezes-usd344-million-in-usdt-on-tron-tied-to-illicit-activity' target='_blank' rel='noopener'>CoinDesk</a>：「這兩個地址都在 Tron 鏈上，而 Tron 一直是 USDT 非法轉帳的主要管道。Tether 今年加速與執法機構合作，正在為 GENIUS Act 穩定幣法案通過做準備。」</li></ol></div>",
+      "added_date": "2026-04-24",
+      "last_updated": "2026-04-24"
     },
     {
       "id": "2026-04-09-紐時指名-Adam-Back-就是中本聰",
@@ -1465,6 +2383,71 @@ window.FEED_DATA = {
       "_image_source": "og"
     },
     {
+      "id": "2026-04-15-eToro-acquires-Zengo-70M",
+      "title": "eToro 以 $7,000 萬收購自託管錢包 Zengo：上市後第一筆收購，補齊 DeFi 最後一塊拼圖",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-15/etoro-etor-to-acquire-crypto-wallet-startup-zengo-in-70-million-deal",
+      "tags": [
+        "TradFi",
+        "自託管",
+        "收購",
+        "錢包"
+      ],
+      "date": "2026-04-15",
+      "added_date": "2026-04-17",
+      "last_updated": "2026-04-17",
+      "sources": [
+        {
+          "name": "eToro 官方新聞稿",
+          "url": "https://www.etoro.com/news-and-analysis/press-releases/etoro-acquires-zengo-to-expand-self-custodial-crypto-capabilities/",
+          "title": "eToro 收購 Zengo，擴展自託管加密資產能力",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-15/etoro-etor-to-acquire-crypto-wallet-startup-zengo-in-70-million-deal",
+          "title": "eToro 以 $7,000 萬收購加密錢包新創 Zengo",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/04/15/etoro-to-acquire-crypto-wallet-zengo-in-usd70-million-deal",
+          "title": "eToro 以 $7,000 萬收購加密錢包 Zengo，擴展自託管服務",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/364464/etoro-acquires-self-custody-crypto-wallet-firm-70-million",
+          "title": "eToro 以 $7,000 萬收購自託管錢包 Zengo",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/etoro-acquires-self-custody-crypto-164020088.html",
+          "title": "eToro 以 $7,000 萬收購自託管加密錢包公司 Zengo",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "PYMNTS",
+          "url": "https://www.pymnts.com/acquisitions/2026/etoro-expands-crypto-capabilities-with-70-million-zengo-deal/",
+          "title": "eToro 以 $7,000 萬 Zengo 交易擴展加密能力",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Calcalist",
+          "url": "https://www.calcalistech.com/ctechnews/article/ryfuhp2hbl",
+          "title": "eToro 以 $7,000 萬收購以色列加密錢包 Zengo",
+          "added_date": "2026-04-17"
+        }
+      ],
+      "source_count": 7,
+      "discussion_count": 5,
+      "importance_score": 19,
+      "summary": "<p>eToro 是全球 4,000 萬名使用者的交易平台，去年在那斯達克上市後加密交易佔佣金收入六成，Q1 交易量年增近四倍。但平台只提供託管式交易，使用者買了幣卻不能自己保管私鑰，也無法直接使用 DeFi 協議。</p><p>4 月 15 日 eToro 執行長 Yoni Assia 在巴黎區塊鏈週宣布以約 $7,000 萬美元現金收購以色列自託管錢包 Zengo，這是上市以來第一筆收購。Zengo 2018 年成立，用多方運算（MPC）加密取代傳統助記詞，超過 200 萬名使用者遍佈 180 個國家，先前共募資 $2,400 萬（投資者包括 Insight Partners 和 Tether）。收購完成後 eToro 計畫把產品線延伸到預測市場、永續合約和收益型產品。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-title'>eToro + Zengo：收購前後的產品版圖</div><div style='display:flex;gap:10px;margin-bottom:18px'><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#42a5f5'>$7,000 萬</div><div style='font-size:11px;color:#888;margin-top:4px'>收購金額（現金為主）</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#66bb6a'>4,000 萬</div><div style='font-size:11px;color:#888;margin-top:4px'>eToro 使用者</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#7c4dff'>200 萬+</div><div style='font-size:11px;color:#888;margin-top:4px'>Zengo 使用者</div></div></div><div class='chart-compare'><div class='chart-compare-box'><div class='chart-compare-label'>收購前（eToro）</div><div class='chart-compare-value'>託管式交易</div><div class='chart-compare-note'>股票、加密、ETF<br>使用者不持有私鑰</div></div><div class='chart-compare-box'><div class='chart-compare-label'>收購後（+ Zengo）</div><div class='chart-compare-value'>自託管 + DeFi</div><div class='chart-compare-note'>預測市場、永續合約<br>收益型產品、MPC 錢包</div></div></div><div style='margin-top:14px'><div class='chart-row'><span class='chart-row-label'>Zengo 核心技術</span><span class='chart-row-value'>MPC 加密（無助記詞）</span></div><div class='chart-row'><span class='chart-row-label'>加密佔 eToro 佣金</span><span class='chart-row-value'>60%</span></div><div class='chart-row'><span class='chart-row-label'>Q1 加密交易量年增</span><span class='chart-row-value'>近 4 倍</span></div><div class='chart-row'><span class='chart-row-label'>Zengo 累計募資</span><span class='chart-row-value'>$2,400 萬</span></div></div><div class='chart-source'>資料來源：Bloomberg / eToro 官方 / Decrypt / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>當事人</span><a href='https://x.com/eToro/status/2044340746405220661' target='_blank' rel='noopener'>eToro 官方</a>：「eToro 正在收購自託管錢包領導者 Zengo。這筆收購讓我們更接近傳統金融與鏈上經濟的交會點，把 Zengo 開創的 MPC 技術帶進 eToro 家族。」</li><li><span class='discuss-tag'>當事人</span><a href='https://x.com/ZenGo/status/2044345634107605148' target='_blank' rel='noopener'>Zengo</a>（官方）：「從 2018 年創立以來，我們的使命就是提高加密託管的標準。加入 eToro 後，我們會繼續建造安全、創新的加密錢包。」</li><li><span class='discuss-tag'>業界領袖</span><a href='https://decrypt.co/364464/etoro-acquires-self-custody-crypto-wallet-firm-70-million' target='_blank' rel='noopener'>Yoni Assia</a>（eToro 執行長）：「我們相信金融的未來會越來越數位化、去中心化、由使用者自主掌控。」他把這筆收購定位為「在市場低潮期打底的長期策略」。</li><li><span class='discuss-tag'>產業觀點</span><a href='https://www.bloomberg.com/news/articles/2026-04-15/etoro-etor-to-acquire-crypto-wallet-startup-zengo-in-70-million-deal' target='_blank' rel='noopener'>Bloomberg</a>：交易主要以現金支付，是 eToro 上市以來的第一筆收購。消息公布當天 eToro 股價上漲逾 6%，過去一週累計漲幅 18%。</li><li><span class='discuss-tag'>社群反應</span><a href='https://x.com/CPOfficialtx/status/2044351225580384440' target='_blank' rel='noopener'>Cryptopolitan</a>：「這對自託管的普及意義重大。主要交易所終於意識到使用者想要掌控自己的私鑰，從『信任我們』到『自己驗證』的轉變正在加速。」</li></ol></div>",
+      "image": ""
+    },
+    {
       "id": "2026-04-14-SEC-DeFi-front-end-broker-dealer-guidance",
       "title": "SEC 劃線放行 DeFi 前端：錢包介面不用當 broker-dealer，但只給五年",
       "url": "https://www.sec.gov/newsroom/speeches-statements/staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized-prepare-staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized",
@@ -1654,6 +2637,71 @@ window.FEED_DATA = {
       "last_updated": "2026-04-12"
     },
     {
+      "id": "2026-04-16-Schwab-spot-crypto-trading-launch",
+      "title": "管理 $12 兆資產的嘉信理財開放現貨加密交易：每筆 75 個基點，Paxos 託管",
+      "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Announces-Details-of-Spot-Crypto-Trading-Launch/default.aspx",
+      "tags": [
+        "TradFi",
+        "交易所",
+        "比特幣",
+        "以太坊"
+      ],
+      "date": "2026-04-16",
+      "added_date": "2026-04-17",
+      "last_updated": "2026-04-17",
+      "sources": [
+        {
+          "name": "Schwab 官方新聞稿",
+          "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Announces-Details-of-Spot-Crypto-Trading-Launch/default.aspx",
+          "title": "嘉信理財公布現貨加密交易上線細節",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/04/03/schwab-plans-spot-bitcoin-ether-trading-launch-in-first-half-of-2026",
+          "title": "嘉信理財計畫 2026 上半年推出 BTC、ETH 現貨交易",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/tradfi-and-fintech/charles-schwab-spot-bitcoin-ethereum-trading-launch",
+          "title": "嘉信理財宣布向散戶開放 BTC 和 ETH 現貨交易",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/12-trillion-us-giant-charles-150557520.html",
+          "title": "$12 兆美國巨頭嘉信理財開放現貨加密交易",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Watcher.Guru",
+          "url": "https://watcher.guru/news/charles-schwab-to-launch-spot-btc-eth-crypto-trading-for-retail-clients",
+          "title": "嘉信理財向散戶客戶開放 BTC、ETH 現貨交易",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/charles-schwab-spot-crypto-trading-2026/",
+          "title": "嘉信理財 2026 年啟動現貨加密交易",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/04/16/charles-schwab-to-launch-direct-bitcoin-ethereum-trading-to-compete-with-robinhood.html",
+          "title": "嘉信理財推出 BTC、ETH 直接交易，與 Robinhood 正面競爭",
+          "added_date": "2026-04-17"
+        }
+      ],
+      "source_count": 7,
+      "discussion_count": 4,
+      "importance_score": 18,
+      "summary": "<p>管理 11.9 兆美元客戶資產的嘉信理財（Charles Schwab）正式公布現貨加密交易的上線細節。產品名稱是 Schwab Crypto，由旗下 Charles Schwab Premier Bank 營運，Q2 起分批上線：先讓員工和預約名單試跑，再開放給全體客戶。首波只開放 BTC 和 ETH，定價每筆 75 個基點，託管、撮合和清算全部由持有聯邦銀行執照的 Paxos 提供。</p><p>嘉信理財過去只讓客戶透過 ETF 和衍生品間接碰加密資產，這次直接開放現貨，等於把 3,900 萬個既有帳戶變成潛在的加密入口。不過上線初期不能從外部錢包存入或提領加密資產，紐約州和路易斯安那州也暫時排除在外。對照 Robinhood 和 Webull 等已經同時提供股票和幣的混合券商，嘉信理財的加入代表「傳統大型券商」這一層正式到齊。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-title'>美國主要券商加密交易開放進度</div><div class='chart-row'><span class='chart-row-label'>Robinhood</span><span class='chart-row-value'>2018 年起提供加密交易</span></div><div class='chart-row'><span class='chart-row-label'>Webull</span><span class='chart-row-value'>2020 年起提供加密交易</span></div><div class='chart-row'><span class='chart-row-label'>Interactive Brokers</span><span class='chart-row-value'>2021 年起提供加密交易</span></div><div class='chart-row'><span class='chart-row-label'>Fidelity</span><span class='chart-row-value'>2022 年起提供 BTC 交易</span></div><div class='chart-row'><span class='chart-row-label'>Morgan Stanley</span><span class='chart-row-value'>2026 年初推出 BTC ETF（MSBT）</span></div><div class='chart-row'><span class='chart-row-label' style='color:#1a73e8'>嘉信理財（$11.9 兆 AUM）</span><span class='chart-row-value' style='color:#1a73e8'>2026 Q2 現貨 BTC/ETH</span></div><div style='margin-top:14px'><div class='chart-row'><span class='chart-row-label'>定價</span><span class='chart-row-value'>75 bps / 筆</span></div><div class='chart-row'><span class='chart-row-label'>託管方</span><span class='chart-row-value'>Paxos（OCC 銀行執照）</span></div><div class='chart-row'><span class='chart-row-label'>可用州</span><span class='chart-row-value'>48 州（排除 NY、LA）</span></div><div class='chart-row'><span class='chart-row-label'>外部存提</span><span class='chart-row-value'>上線初期不開放</span></div></div><div class='chart-source'>資料來源：Schwab 官方新聞稿 / CoinDesk / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Announces-Details-of-Spot-Crypto-Trading-Launch/default.aspx' target='_blank' rel='noopener'>嘉信理財</a>（官方新聞稿）：「Schwab Crypto 讓客戶在同一個平台上交易股票、ETF、固定收益和加密資產，不用再切換到獨立的加密交易所。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://thedefiant.io/news/tradfi-and-fintech/charles-schwab-spot-bitcoin-ethereum-trading-launch' target='_blank' rel='noopener'>The Defiant</a>（加密媒體）：「這代表嘉信理財從 ETF 和衍生品的間接曝險，正式轉向直接持有加密資產——戰略上的質變。」</li><li><span class='discuss-tag'>分析師</span><a href='https://finance.yahoo.com/markets/crypto/articles/12-trillion-us-giant-charles-150557520.html' target='_blank' rel='noopener'>Yahoo Finance</a>：「$12 兆的客戶資產池加上 3,400 萬帳戶，即使只有 1% 轉入加密，也是 $1,190 億的潛在新資金。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://cryptobriefing.com/charles-schwab-spot-crypto-trading-2026/' target='_blank' rel='noopener'>Crypto Briefing</a>：「75 個基點的定價在幣圈算貴——Coinbase Pro 低量用戶才 60 bps，幣安更低。嘉信理財賭的是客戶懶得搬家。」</li></ol></div>",
+      "image": ""
+    },
+    {
       "id": "2026-04-10-香港首發穩定幣牌照-HSBC-Anchorpoint",
       "title": "全球第一張銀行穩定幣牌照：HSBC 和渣打聯盟從 36 家申請中勝出，PayMe 將直接嵌入港幣穩定幣",
       "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260410-4/",
@@ -1723,6 +2771,125 @@ window.FEED_DATA = {
       "last_updated": "2026-04-13"
     },
     {
+      "id": "2026-04-15-EtherFi-Scroll-OP-Mainnet-migration",
+      "title": "Scroll 最大收費來源整體出走：EtherFi 帶 70,000 張卡、30 萬戶、$2.2 億 TVL 搬進 OP Mainnet",
+      "url": "https://thedefiant.io/news/defi/ether-fi-migrates-to-optimism-s-op-mainnet-from-scroll",
+      "tags": [
+        "DeFi",
+        "Layer 2",
+        "Optimism",
+        "Scroll"
+      ],
+      "date": "2026-04-15",
+      "added_date": "2026-04-16",
+      "last_updated": "2026-04-16",
+      "sources": [
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/defi/ether-fi-migrates-to-optimism-s-op-mainnet-from-scroll",
+          "title": "ether.fi 完成從 Scroll 搬家到 Optimism 的 OP Mainnet",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/390420/ether-fi-shifts-non-custodial-crypto-card-product-op-mainnet-scroll",
+          "title": "ether.fi 把非託管加密簽帳卡從 Scroll 搬到 OP Mainnet",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/04/14/scroll-moves-to-cut-costs-after-top-protocol-to-migrates-to-optimism",
+          "title": "Scroll 最大協議搬家後，官方開始縮減治理支出",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "Optimism 官方",
+          "url": "https://www.optimism.io/blog/ether.fi-is-migrating-to-optimism-op-mainnet",
+          "title": "ether.fi 正在搬家到 OP Mainnet",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "ETH Daily",
+          "url": "https://ethdaily.io/926",
+          "title": "EtherFi 完成 OP Mainnet 遷移",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "The Defiant（Scroll 側）",
+          "url": "https://thedefiant.io/news/blockchains/scroll-top-fee-earner-etherfi-leaves-for-optimism",
+          "title": "Scroll 最大收費貢獻者出走",
+          "added_date": "2026-04-16"
+        }
+      ],
+      "source_count": 6,
+      "discussion_count": 5,
+      "importance_score": 17,
+      "summary": "<p>EtherFi 是以太坊上最大的流動性再質押協議，旗下的 Cash 產品把自托管錢包和 Visa 簽帳卡綁在一起：使用者既可以直接用 ETH/USDC 抵押借出 USD1 穩定幣、也能刷卡消費、把再質押部位當成類信用卡的底層。這套產品原本部署在 L2 新秀 Scroll 上，2026 年初 EtherFi 宣布要搬家到 Optimism 的 OP Mainnet，三個月後正式完工。</p><p>這次搬過去的規模是 70,000 張活卡、30 萬個帳戶、$2.2 億 TVL，過程三天內搬完、零當機。OP Mainnet 官方聲明這是該網路史上最大的單次 TVL 轉入事件。EtherFi 給的理由是手續費中位數壓到 $0.00001、Flashblocks 讓敲定時間不到 250 毫秒、再加上 OP Enterprise 合作夥伴計畫。對 Scroll 則是明確的失血：根據 DeFiLlama 的資料，EtherFi 走之後 Scroll 年化手續費掉掉 $1,300 萬、TVL 剩下 $2,300 萬，相較 2024 年 10 月的巔峰 $5.85 億已經跌 96%。上週 Scroll 才被抓到偷灌 L1 data posting 費用 1,280 倍、超收使用者 $5 萬美元，兩件事湊在一起等於「最大收費來源離開、治理支出還要縮」的連鎖反應。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-title'>Scroll vs OP Mainnet：EtherFi 搬家帶走什麼</div><div style='display:flex;gap:10px;margin-bottom:18px'><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#ef5350'>$2.2 億</div><div style='font-size:11px;color:#888;margin-top:4px'>TVL 搬入 OP Mainnet</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#ffa726'>70,000</div><div style='font-size:11px;color:#888;margin-top:4px'>活卡搬家</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#42a5f5'>300,000</div><div style='font-size:11px;color:#888;margin-top:4px'>帳戶搬家</div></div></div><div class='chart-compare'><div class='chart-compare-box'><div class='chart-compare-label'>Scroll（搬家後）</div><div class='chart-compare-value'>$2,300 萬</div><div class='chart-compare-note'>剩餘 TVL</div></div><div class='chart-compare-box'><div class='chart-compare-label'>Scroll（2024-10 高點）</div><div class='chart-compare-value'>$5.85 億</div><div class='chart-compare-note'>跌幅 96%</div></div></div><div style='margin-top:14px'><div class='chart-row'><span class='chart-row-label'>Scroll 年化手續費損失</span><span class='chart-row-value'>$1,300 萬</span></div><div class='chart-row'><span class='chart-row-label'>OP Mainnet 手續費中位數</span><span class='chart-row-value'>$0.00001</span></div><div class='chart-row'><span class='chart-row-label'>Flashblocks 敲定時間</span><span class='chart-row-value'>不到 250 毫秒</span></div><div class='chart-row'><span class='chart-row-label'>搬遷耗時</span><span class='chart-row-value'>三天、零當機</span></div></div><div class='chart-source'>資料來源：The Defiant / The Block / DeFiLlama / Optimism 官方 / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://www.optimism.io/blog/ether.fi-is-migrating-to-optimism-op-mainnet' target='_blank' rel='noopener'>Optimism 官方部落格</a>：「這是 OP Mainnet 史上單次最大的 TVL 轉入事件。我們期待和 ether.fi 一起把 Cash 產品推向全球支付。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://etherfi.medium.com/ether-fi-is-now-on-op-mainnet-37bbb301845e' target='_blank' rel='noopener'>ether.fi 官方文章</a>：「選 OP Mainnet 是因為 sub-250ms 敲定時間、99.99% 可用率，以及在 Flashblocks 下的吞吐量超過每秒 2,000 萬 gas——這些是支付體驗的底線。」</li><li><span class='discuss-tag'>分析師</span><a href='https://www.coindesk.com/business/2026/04/14/scroll-moves-to-cut-costs-after-top-protocol-to-migrates-to-optimism' target='_blank' rel='noopener'>CoinDesk 分析</a>：「Scroll TVL 從巔峰 $5.85 億跌到 $2,300 萬，年化手續費也掉 $1,300 萬。治理層面已經在準備縮編。」</li><li><span class='discuss-tag'>市場分析</span><a href='https://thedefiant.io/news/blockchains/scroll-top-fee-earner-etherfi-leaves-for-optimism' target='_blank' rel='noopener'>The Defiant</a>：「EtherFi 搬家前，它自己就貢獻 Scroll 鏈上收入的大頭。這次出走加上上週的 L1 data posting 費率 1,280 倍事件，對 Scroll 的敘事衝擊非同小可。」</li><li><span class='discuss-tag'>社群反應</span><a href='https://x.com/Optimism' target='_blank' rel='noopener'>Optimism 官方帳號</a>：「歡迎 70,000 張卡、300,000 戶加入 OP Mainnet。接下來的路我們一起走。」OP 代幣消息公布後收漲。</li></ol></div>",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/583c63ea59b710702d42e44984e6b1eb5441bd79-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "_image_source": "og"
+    },
+    {
+      "id": "2026-04-14-SEC-FINRA-pattern-day-trader-rule-eliminated",
+      "title": "卡了散戶 25 年的當沖門檻被拔掉：SEC 通過廢 $25,000 PDT 規則，Robinhood 盤中跳 7.8%",
+      "url": "https://thedefiant.io/news/regulation/sec-approves-elimination-pattern-day-trader-rule-25000-minimum-shfufn",
+      "tags": [
+        "監管",
+        "券商",
+        "散戶"
+      ],
+      "date": "2026-04-14",
+      "added_date": "2026-04-16",
+      "last_updated": "2026-04-16",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-14/sec-approves-plan-removing-day-trading-limit-for-small-investors",
+          "title": "SEC 通過廢除散戶當沖門檻",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "SEC",
+          "url": "https://www.sec.gov/files/rules/sro/finra/2026/34-105226.pdf",
+          "title": "SEC 正式批准 FINRA 修改 Rule 4210、廢 PDT 定義",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/regulation/sec-approves-elimination-pattern-day-trader-rule-25000-minimum-shfufn",
+          "title": "SEC 核准廢 $25,000 PDT 規則，改採即時保證金",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/options/articles/sec-eliminates-25-000-pattern-050417843.html",
+          "title": "SEC 廢除 $25,000 PDT 規則：散戶交易大改版",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "Watcher.Guru",
+          "url": "https://watcher.guru/news/sec-approves-ending-pattern-day-trader-rule-25k-minimum",
+          "title": "SEC 通過終結 PDT 規則及其 $25,000 門檻",
+          "added_date": "2026-04-16"
+        },
+        {
+          "name": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4575207-sec-removes-day-trading-limit-for-investors-top-rated-investment-and-brokerage-stocks",
+          "title": "SEC 拔除當沖門檻：券商股全線受惠",
+          "added_date": "2026-04-16"
+        }
+      ],
+      "source_count": 6,
+      "discussion_count": 5,
+      "importance_score": 17,
+      "summary": "<p>2001 年 NASDAQ 泡沫炸開後，FINRA 定下那條知名的 PDT 規則：只要五個交易日內做滿四筆當沖，戶頭就必須維持 $25,000 以上的權益，否則卡死。25 年下來，這條規則一直是美國散戶進階到主動交易的一道物理門檻。4 月 14 日，SEC 正式核准 FINRA 把 Rule 4210 改寫，刪除「Pattern Day Trader」這個定義、也拿掉 $25,000 最低門檻。SEC 副秘書長 Sherry Haywood 寫的批准令裡提到，公眾意見「壓倒性地支持」這項改動。</p><p>取代的做法是「即時保證金」：系統會隨著部位曝險動態計算擔保金額，而不是數交易筆數。連續五個交易日沒補足的戶頭，會被凍結 90 天、不能再新開或擴大空單和融資部位，不過 5% 或 $1,000 以下的小額缺口直接豁免。消息公布當天，Robinhood 盤中漲 7.8%、Webull 漲 8.9%。完整落地要 2026 中到 2028 年之間各家券商逐步改系統。這些券商同時都是加密交易的主要入口，散戶想在盤中快速切換股票和幣，等於一起鬆綁。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-title'>從 PDT 走到即時保證金</div><div class='chart-compare'><div class='chart-compare-box'><div class='chart-compare-label'>舊規則（2001–）</div><div class='chart-compare-value'>$25,000</div><div class='chart-compare-note'>帳戶最低權益門檻</div></div><div class='chart-compare-box'><div class='chart-compare-label'>新規則</div><div class='chart-compare-value'>即時保證金</div><div class='chart-compare-note'>按實際部位曝險計算</div></div></div><div style='margin-top:16px'><div class='chart-row'><span class='chart-row-label'>PDT 定義</span><span class='chart-row-value'>五日四筆當沖即觸發</span></div><div class='chart-row'><span class='chart-row-label'>新規則豁免額</span><span class='chart-row-value'>5% 或 $1,000 以下</span></div><div class='chart-row'><span class='chart-row-label'>違規處置</span><span class='chart-row-value'>90 天凍結新增空單/融資</span></div><div class='chart-row'><span class='chart-row-label'>Robinhood 盤中反應</span><span class='chart-row-value'>+7.8%</span></div><div class='chart-row'><span class='chart-row-label'>Webull 盤中反應</span><span class='chart-row-value'>+8.9%</span></div><div class='chart-row'><span class='chart-row-label'>完整落地時程</span><span class='chart-row-value'>2026 中 ~ 2028</span></div></div><div class='chart-source'>資料來源：SEC 34-105226 / Bloomberg / The Defiant / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://www.sec.gov/files/rules/sro/finra/2026/34-105226.pdf' target='_blank' rel='noopener'>Sherry Haywood</a>（SEC 助理秘書）：「公眾意見壓倒性地支持廢除 $25,000 最低權益門檻、以及 Pattern Day Trader 的定義。」直接出現在批准令的書面紀錄。</li><li><span class='discuss-tag'>業界領袖</span><a href='https://watcher.guru/news/sec-approves-ending-pattern-day-trader-rule-25k-minimum' target='_blank' rel='noopener'>Vlad Tenev</a>（Robinhood 執行長）：「我們等這項改革等了十年。它讓每一個用認真方法在交易的散戶，終於不必先被一個固定數字擋在門外。」Robinhood 公司聲明。</li><li><span class='discuss-tag'>市場分析</span><a href='https://seekingalpha.com/news/4575207-sec-removes-day-trading-limit-for-investors-top-rated-investment-and-brokerage-stocks' target='_blank' rel='noopener'>Seeking Alpha 快評</a>：「Robinhood、Webull、Interactive Brokers、嘉信都在盤中跳，市場直接把這件事讀成『散戶客群放大』，而不是『監管鬆綁』。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://thedefiant.io/news/regulation/sec-approves-elimination-pattern-day-trader-rule-25000-minimum-shfufn' target='_blank' rel='noopener'>The Defiant</a>（加密媒體）：「部分交易心理學家擔心，PDT 原本是一道冷靜裝置。拔掉門檻、只留即時保證金，會把更多沒準備好的小戶推進槓桿市場。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://phemex.com/news/article/sec-ends-pattern-day-trader-rule-removes-25000-minimum-73263' target='_blank' rel='noopener'>Phemex 觀察</a>（加密交易所）：「PDT 只管證券，不管現貨加密，但 Robinhood、Webull 這類混合券商既做股票也做幣。規則鬆了，他們拿到的是雙邊流量。」</li></ol></div>",
+      "image": "",
+      "_image_source": ""
+    },
+    {
       "id": "2026-04-08-ZachXBT-DPRK-IT-worker-network-390-accounts",
       "title": "北韓 IT 幽靈大軍：ZachXBT 公開外洩伺服器資料，390 個假身份每月洗出 100 萬美元",
       "url": "https://www.theblock.co/post/396847/zachxbt-uncovers-north-korea-linked-it-worker-network-generating-1m-monthly-via-crypto-payment-flows",
@@ -1786,54 +2953,132 @@ window.FEED_DATA = {
       "last_updated": "2026-04-13"
     },
     {
-      "id": "2026-04-15-BIP-361-quantum-freeze-satoshi",
-      "title": "比特幣史上最爭議的提案：為防量子電腦，開發者要把中本聰的 170 萬 BTC 凍結",
-      "url": "https://www.coindesk.com/tech/2026/04/15/bitcoin-developer-proposal-could-freeze-quantum-related-coins",
+      "id": "2026-04-16-Cantor-Tether-Fellowship-PAC",
+      "title": "Lutnick 的舊公司砸 $1,000 萬給 Tether 高管領軍的 PAC：廣告費再流回 Bo Hines 口袋",
+      "url": "https://www.coindesk.com/policy/2026/04/15/crypto-s-new-usd11-million-pac-booked-millions-in-ads-with-firm-started-by-tether-us-ceo",
       "tags": [
-        "Bitcoin",
-        "量子",
-        "BIP",
-        "安全"
+        "政治",
+        "Tether",
+        "監管",
+        "穩定幣"
       ],
-      "date": "2026-04-15",
+      "date": "2026-04-16",
+      "added_date": "2026-04-17",
+      "last_updated": "2026-04-17",
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/04/15/crypto-s-new-usd11-million-pac-booked-millions-in-ads-with-firm-started-by-tether-us-ceo",
+          "title": "加密圈新 PAC 募到 1,100 萬，廣告費流向 Tether 美國執行長創辦的公司",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-15/cantor-fitzgerald-gives-10-million-to-tether-led-crypto-pac",
+          "title": "Cantor Fitzgerald 捐 1,000 萬給 Tether 主導的加密 PAC",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/397655/former-lutnick-run-cantor-fitzgerald-donates-10-million-to-crypto-pac-led-by-tether-exec",
+          "title": "Lutnick 舊公司 Cantor Fitzgerald 捐 1,000 萬給 Tether 高管領導的加密 PAC",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Citation Needed（Molly White）",
+          "url": "https://www.citationneeded.news/commerce-secretary-howard-lutnicks-old-firm-pumps-10-million-into-super-pac-led-by-tether-executive/",
+          "title": "商務部長 Lutnick 的舊公司注入 1,000 萬到 Tether 高管領軍的 super PAC",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/crypto-pac-fellowship-discloses-11m-from-cantor-fitzgerald-and-anchorage-digital",
+          "title": "Fellowship PAC 揭露 Cantor Fitzgerald 和 Anchorage Digital 的 1,100 萬金援",
+          "added_date": "2026-04-17"
+        },
+        {
+          "name": "CoinDesk（首筆廣告）",
+          "url": "https://www.coindesk.com/policy/2026/04/10/super-pac-tied-to-tether-makes-first-ad-buy-from-firm-founded-by-tether-s-u-s-ceo",
+          "title": "與 Tether 有關的 super PAC 從 Tether 美國執行長創辦的公司首次買廣告",
+          "added_date": "2026-04-17"
+        }
+      ],
       "source_count": 6,
       "discussion_count": 4,
+      "importance_score": 16,
+      "summary": "<p>FEC 4 月 15 日公布的申報文件揭露，Fellowship PAC 拿到 Cantor Fitzgerald 的 1,000 萬美元和加密銀行 Anchorage Digital 的 100 萬美元。這個 PAC 的主席是 Tether 政府事務負責人 Jesse Spiro，去年九月成立時號稱握有 1 億美元承諾。Cantor Fitzgerald 是商務部長 Howard Lutnick 轉手給兩個兒子的公司，同時也持有 Tether 股份、託管其儲備——Lutnick 本人甚至曾公開替 Tether 的儲備品質背書。</p><p>PAC 至今把 450 萬美元廣告費付給 NXUM Group，這家公司的共同創辦人是 Bo Hines——前白宮加密顧問委員會主任、現任 Tether US 執行長。等於金流從 Cantor（Tether 的託管方與股東）流進 PAC、再從 PAC 流回 Tether 高管的口袋。Molly White 在 Citation Needed 指出，Lutnick 把公司「賣給家人」的做法和 Trump 如出一轍：名義上利益迴避，實質上利益不變。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-title'>Fellowship PAC 金流地圖</div><div style='background:#f8f4ee;border-radius:10px;padding:16px;border:1px solid #e8e0d4;margin-bottom:14px'><div style='text-align:center;font-size:13px;color:#555;line-height:2'><span style='background:#fff3e0;padding:4px 10px;border-radius:6px'>Cantor Fitzgerald（$1,000 萬）</span> + <span style='background:#e3f2fd;padding:4px 10px;border-radius:6px'>Anchorage Digital（$100 萬）</span><br>↓<br><span style='background:#e8f5e9;padding:4px 10px;border-radius:6px'>Fellowship PAC（主席：Tether 政府事務長 Jesse Spiro）</span><br>↓ $450 萬廣告費<br><span style='background:#fce4ec;padding:4px 10px;border-radius:6px'>NXUM Group（共同創辦人：Tether US 執行長 Bo Hines）</span></div></div><div class='chart-row'><span class='chart-row-label'>Cantor 與 Tether 的關係</span><span class='chart-row-value'>持有股份 + 託管儲備</span></div><div class='chart-row'><span class='chart-row-label'>Bo Hines 前職</span><span class='chart-row-value'>白宮加密顧問委員會主任</span></div><div class='chart-row'><span class='chart-row-label'>Lutnick 現職</span><span class='chart-row-value'>美國商務部長</span></div><div class='chart-row'><span class='chart-row-label'>PAC 已投放選舉</span><span class='chart-row-value'>GA-14、KY 參議院、NE 參議院</span></div><div class='chart-source'>資料來源：FEC 申報 / Bloomberg / CoinDesk / Citation Needed / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>調查報導</span><a href='https://www.citationneeded.news/commerce-secretary-howard-lutnicks-old-firm-pumps-10-million-into-super-pac-led-by-tether-executive/' target='_blank' rel='noopener'>Molly White</a>（Citation Needed）：「Lutnick 把 Cantor 賣給家人，理論上是為了消除利益衝突，實際上是創造了新的利益衝突。」她指出這筆交易可能由 Tether 貸款融資。</li><li><span class='discuss-tag'>產業觀點</span><a href='https://www.coindesk.com/policy/2026/04/15/crypto-s-new-usd11-million-pac-booked-millions-in-ads-with-firm-started-by-tether-us-ceo' target='_blank' rel='noopener'>CoinDesk</a>（加密媒體）：「PAC 的 450 萬廣告費全數流向 Tether US 執行長共同創辦的 NXUM Group——金主、PAC 主席、廣告承包商全是同一圈人。」</li><li><span class='discuss-tag'>分析師</span><a href='https://www.bloomberg.com/news/articles/2026-04-15/cantor-fitzgerald-gives-10-million-to-tether-led-crypto-pac' target='_blank' rel='noopener'>Bloomberg</a>：「Fellowship PAC 把全部支持集中在共和黨候選人身上，目標是在 2026 中期選舉確保國會對加密友善的多數席。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://www.theblock.co/post/397655/former-lutnick-run-cantor-fitzgerald-donates-10-million-to-crypto-pac-led-by-tether-exec' target='_blank' rel='noopener'>The Block</a>：「Cantor Fitzgerald 既是 Tether 儲備託管方、又是股東，現在還捐 1,000 萬給 Tether 高管主導的 PAC。這種利益重疊在傳統金融界會被嚴格審查。」</li></ol></div>",
+      "image": ""
+    },
+    {
+      "id": "2026-04-20-Bitmine-101627-ETH-Tom-Lee-crypto-winter",
+      "title": "「以太坊版 Saylor」Bitmine 一週掃 10 萬顆 ETH：Tom Lee 稱加密寒冬即將結束，持有量逼近全網 5%",
+      "url": "https://www.coindesk.com/business/2026/04/20/bitmine-buys-101-627-ether-worth-over-usd230-million-its-largest-weekly-haul-of-2026",
+      "tags": [
+        "Ethereum",
+        "機構"
+      ],
+      "date": "2026-04-21",
+      "source_count": 8,
+      "discussion_count": 0,
       "importance_score": 16,
       "sources": [
         {
           "name": "CoinDesk",
-          "url": "https://www.coindesk.com/tech/2026/04/15/bitcoin-developer-proposal-could-freeze-quantum-related-coins",
-          "title": "比特幣開發者提案以量子防禦為名，可凍結量子相關比特幣"
+          "url": "https://www.coindesk.com/business/2026/04/20/bitmine-buys-101-627-ether-worth-over-usd230-million-its-largest-weekly-haul-of-2026",
+          "title": "Bitmine 買入 10 萬顆以太幣，價值逾 2.3 億美元，2026 年最大單週買入",
+          "added_date": "2026-04-21"
         },
         {
-          "name": "Decrypt",
-          "url": "https://decrypt.co/364450/new-bitcoin-proposal-would-freeze-coins-to-counter-quantum-threat",
-          "title": "比特幣新提案為對抗量子威脅，將凍結未遷移的幣"
-        },
-        {
-          "name": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/bitcoin-devs-and-researchers-propose-freezing-quantum-vulnerable-coins-bip-361",
-          "title": "比特幣 BIP-361 直指量子安全威脅"
-        },
-        {
-          "name": "CoinDesk (interview)",
-          "url": "https://www.coindesk.com/business/2026/04/15/bitcoin-developer-jameson-lopp-says-it-s-better-to-freeze-5-6-million-btc-than-let-hackers-have-them",
-          "title": "Jameson Lopp：與其讓駭客拿走 560 萬顆 BTC，不如凍結它們"
-        },
-        {
-          "name": "News.Bitcoin.com",
-          "url": "https://news.bitcoin.com/bitcoin-developers-propose-freezing-coins-that-skip-quantum-safe-migration-under-bip-361/",
-          "title": "BIP-361：未完成量子安全遷移的幣將被凍結"
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/398096/tom-lee-says-crypto-winter-is-much-closer-to-ending-as-bitmine-buys-another-101627-eth",
+          "title": "Tom Lee 稱加密寒冬即將結束，Bitmine 再買 101,627 顆 ETH",
+          "added_date": "2026-04-21"
         },
         {
           "name": "Unchained",
-          "url": "https://github.com/bitcoin/bips/blob/master/bip-0361.mediawiki",
-          "title": "BIP-361 正式草案：三階段凍結量子脆弱幣"
+          "url": "https://unchainedcrypto.com/bitmine-buys-101627-eth-largest-weekly-purchase-2026/",
+          "title": "Bitmine 買入 101,627 顆 ETH，2026 年最大單週買入",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/364887/tom-lee-bitmine-nears-milestone-largest-ethereum-buy-this-year",
+          "title": "Tom Lee 的 Bitmine 完成今年最大以太坊買入，逼近重要里程碑",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "CryptoBriefing",
+          "url": "https://cryptobriefing.com/bitmine-buys-101627-eth-for-230m-as-hedge-against-us-iran-conflict/",
+          "title": "Bitmine 斥資 2.3 億美元買 ETH 對沖美伊衝突",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Benzinga",
+          "url": "https://www.benzinga.com/crypto/cryptocurrency/26/04/51915274/bitmine-buys-101627-eth-as-bmnr-tests-breakout-near-23",
+          "title": "Bitmine 買入 101,627 顆 ETH，BMNR 股價測試 23 美元突破",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/tom-lee-says-mini-crypto-winter-over-sees-ether-above-60k",
+          "title": "Tom Lee 稱迷你加密寒冬結束，看好 ETH 突破 6 萬美元",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Bankless",
+          "url": "https://bankless.ghost.io/defi-bank-run-kelp-dao-rseth-exploit/",
+          "title": "市場快照：Bitmine 上週增持 101,627 顆 ETH",
+          "added_date": "2026-04-21"
         }
       ],
-      "summary": "<p>比特幣從第一天起就建立在一個承諾上：沒有你的私鑰，沒人能碰你的幣，政府、銀行、任何人都不行。四月十五日，Jameson Lopp 帶領五位密碼學家正式提交 BIP-361「後量子遷移與舊簽章日落」提案，第一次由開發者社群自己把這個承諾端上檯面討論。Google 剛釋出的報告把量子攻擊比特幣的算力門檻下修，外界估算 2029 年就可能到期。</p><p>提案分三階段：第一階段強制新錢包不得再把幣送進舊地址，第二階段兩年後讓所有舊簽章在共識層失效，沒遷移的幣就此無法動用。全網目前約 34% 的比特幣公鑰已經暴露在鏈上，包括中本聰手中約 170 萬顆 BTC，帳面超過 740 億美元。社群反應兩極：Bitcoin Magazine 編輯 Brian Trollz 直接反對，TFTC 創辦人 Marty Bent 說「可笑」，Metaplanet 的 Phil Geiger 嗆「為了不讓錢被偷而先偷走人家的錢」。連作者 Lopp 自己都說：「我不喜歡這個提案，但更不喜歡另一個選項。」</p>",
-      "chart": "<div class='chart-wrap'><div class='chart-title'>BIP-361 三階段時程</div><div class='chart-timeline'><div class='timeline-item'><div class='timeline-date'>Phase A</div><div class='timeline-label'>BIP-360 啟用後約 3 年</div><div class='timeline-desc'>錢包禁止再送幣到舊地址，開始強制遷移</div></div><div class='timeline-item'><div class='timeline-date'>Phase B</div><div class='timeline-label'>Phase A 後 2 年</div><div class='timeline-desc'>舊簽章於共識層失效，未遷移幣永久凍結</div></div><div class='timeline-item'><div class='timeline-date'>Phase C</div><div class='timeline-label'>研究中</div><div class='timeline-desc'>用 BIP-39 種子詞產生零知識證明，讓原主贖回</div></div></div><div class='chart-note'>涉及資產：約 170 萬顆 BTC、估值逾 740 億美元，含中本聰地址</div></div>",
-      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>產業觀點</span><a href='https://github.com/bitcoin/bips/blob/master/bip-0361.mediawiki' target='_blank' rel='noopener'>Jameson Lopp</a>（Casa CTO、提案共同作者）：「我自己也不喜歡這個提案，我寫它是因為我更不喜歡另一個選項。此刻我不認為這件事非做不可，但我們必須對抗性地思考未來的威脅。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://cointelegraph.com/news/bitcoin-devs-and-researchers-propose-freezing-quantum-vulnerable-coins-bip-361' target='_blank' rel='noopener'>Phil Geiger</a>（Metaplanet 業務主管）：「所以邏輯是：為了不讓錢被偷，我們要先把錢偷走？」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://cointelegraph.com/news/bitcoin-devs-and-researchers-propose-freezing-quantum-vulnerable-coins-bip-361' target='_blank' rel='noopener'>Marty Bent</a>（TFTC 創辦人）：「這個提案本身就很可笑，根本不該被認真討論。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://www.coindesk.com/tech/2026/04/15/bitcoin-developer-proposal-could-freeze-quantum-related-coins' target='_blank' rel='noopener'>Leo Fan</a>（Cysic 創辦人、前 Algorand 量子韌性負責人）：「這等於推翻了『有私鑰就有控制權』這件事，有鑰匙不再等於花得出去。」</li></ol></div>"
+      "summary": "<p>Bitmine（NYSE: BMNR）上週買入 101,627 顆 ETH，斥資超過 2.3 億美元，是 2026 年最大單週買入。總持有量來到 497.6 萬顆，佔以太坊流通量 4.12%，距離公司宣示的「控制全網 5% 供給」目標只差一步。主席 Tom Lee 把 ETH 定位成「戰時價值儲存」，稱其同時受機構代幣化和 AI 代理人對中立公鏈的需求推動。</p><p>Lee 判斷加密寒冬「比多數人以為的更接近尾聲」，理由是過去每次加密大幅回調都伴隨美股跌超過 20%，但 2026 年美股只跌了 8%。Bitmine 已質押 333 萬顆 ETH（佔持有量 67%），年化質押收入約 2.21 億美元。這是繼 Strategy 在比特幣上複製的 ETH 版本：用上市公司資產負債表大量囤幣，再用質押收益抵銷資金成本。</p>",
+      "chart": "<div class='chart-wrap'><div class='chart-title'>Bitmine vs Strategy：兩種公開市場囤幣策略</div><div style='display:flex;gap:10px;margin-bottom:18px'><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:20px;font-weight:700;color:#627eea;line-height:1.2'>497.6 萬</div><div style='font-size:11px;color:#888;margin-top:4px'>Bitmine ETH 持有量</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:20px;font-weight:700;color:#f7931a;line-height:1.2'>815,061</div><div style='font-size:11px;color:#888;margin-top:4px'>Strategy BTC 持有量</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:20px;font-weight:700;color:#627eea;line-height:1.2'>4.12%</div><div style='font-size:11px;color:#888;margin-top:4px'>佔 ETH 流通量</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:20px;font-weight:700;color:#f7931a;line-height:1.2'>3.88%</div><div style='font-size:11px;color:#888;margin-top:4px'>佔 BTC 總量</div></div></div><div style='margin-top:12px'><div style='font-size:13px;font-weight:600;color:#1a1a1a;margin-bottom:8px'>Bitmine 2026 年 ETH 增持節奏</div><div class='chart-bar-group'><div class='chart-bar-label'>1 月</div><div class='chart-bar-track'><div class='chart-bar-fill' style='width:40%;background:linear-gradient(90deg,#627eea,#9bb0f0)'>48,200</div></div></div><div class='chart-bar-group'><div class='chart-bar-label'>2 月</div><div class='chart-bar-track'><div class='chart-bar-fill' style='width:55%;background:linear-gradient(90deg,#627eea,#9bb0f0)'>65,300</div></div></div><div class='chart-bar-group'><div class='chart-bar-label'>3 月</div><div class='chart-bar-track'><div class='chart-bar-fill' style='width:60%;background:linear-gradient(90deg,#627eea,#9bb0f0)'>71,524</div></div></div><div class='chart-bar-group'><div class='chart-bar-label' style='color:#627eea;font-weight:600'>4/13-19</div><div class='chart-bar-track'><div class='chart-bar-fill' style='width:85%;background:linear-gradient(90deg,#627eea,#9bb0f0)'>101,627</div></div></div></div><div class='chart-source'>資料來源：CoinDesk、The Block / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://www.prnewswire.com/apac/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-976-million-tokens-and-total-crypto-and-total-cash-holdings-of-12-9-billion-302746970.html' target='_blank' rel='noopener'>Bitmine</a>（官方新聞稿）：「ETH 持有量達 497.6 萬顆，加密貨幣和現金總持有達 129 億美元。我們看到迷你加密寒冬接近尾聲的訊號。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://www.coindesk.com/markets/2026/04/13/bitmine-s-tom-lee-calls-ether-the-wartime-store-of-value-as-holdings-hit-4-87-million-eth' target='_blank' rel='noopener'>Tom Lee</a>（Bitmine 主席）：「以太坊是戰時的價值儲存——它同時受惠於機構代幣化浪潮和 AI 代理人對中立公鏈的需求。過去每次加密大回調都伴隨美股跌超過 20%，這次只跌 8%。」</li><li><span class='discuss-tag'>分析師</span><a href='https://www.theblock.co/post/398096/tom-lee-says-crypto-winter-is-much-closer-to-ending-as-bitmine-buys-another-101627-eth' target='_blank' rel='noopener'>The Block</a>（加密媒體）：「Bitmine 已質押 333 萬顆 ETH，年化收入約 2.21 億美元。一旦全部透過 MAVAN 驗證者網路質押完畢，年收入可望達 3.3 億美元。」</li></ol></div>",
+      "added_date": "2026-04-21",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/1e317956eae4ebfe2722405225dce7dc0b806dbe-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "_image_source": "og"
     },
     {
       "id": "2026-04-14-CoW-Swap-DNS-hijack-frontend-drain",
@@ -1936,79 +3181,183 @@ window.FEED_DATA = {
       "_image_source": "og"
     },
     {
-      "id": "2026-04-14-Goldman-Sachs-Bitcoin-Premium-Income-ETF",
-      "title": "高盛送件當天 BTC ETF 湧入 $4.11 億：BlackRock IBIT 吃下 $2.14 億、BTC 重返 $76,000、全年流入首次轉正",
-      "url": "https://www.coindesk.com/business/2026/04/14/goldman-sachs-files-for-bitcoin-income-etf-in-crypto-push",
+      "id": "2026-04-21-Kraken-Payward-acquires-Bitnomial-550M",
+      "title": "Kraken 母公司砸 5.5 億買下 Bitnomial：一次拿齊三張 CFTC 牌照，估值 200 億",
+      "url": "https://www.coindesk.com/business/2026/04/17/kraken-s-parent-company-payward-to-acquire-derivatives-exchange-bitnomial-for-usd550-million-in-cash-and-stock",
       "tags": [
-        "ETF",
-        "比特幣",
-        "機構"
+        "交易所",
+        "監管",
+        "衍生品"
       ],
-      "date": "2026-04-14",
-      "source_count": 9,
-      "discussion_count": 6,
-      "importance_score": 24,
+      "date": "2026-04-21",
       "sources": [
         {
+          "name": "Kraken Blog",
+          "url": "https://blog.kraken.com/news/payward-acquires-bitnomial",
+          "title": "Payward 收購 Bitnomial，打造完整 CFTC 授權衍生品平台",
+          "added_date": "2026-04-21"
+        },
+        {
           "name": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/04/14/goldman-sachs-files-for-bitcoin-income-etf-in-crypto-push",
-          "title": "高盛申請比特幣收益型 ETF，跨入加密資產發行戰場",
-          "added_date": "2026-04-15"
+          "url": "https://www.coindesk.com/business/2026/04/17/kraken-s-parent-company-payward-to-acquire-derivatives-exchange-bitnomial-for-usd550-million-in-cash-and-stock",
+          "title": "Kraken 母公司 Payward 以 5.5 億美元現金加股票收購衍生品交易所 Bitnomial",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/kraken-owner-payward-to-acquire-bitnomial",
+          "title": "Kraken 母公司 Payward 收購 Bitnomial，取得完整 CFTC 授權美國加密衍生品堆疊",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Benzinga",
+          "url": "https://www.benzinga.com/markets/private-markets/26/04/51888619/kraken-parent-payward-strikes-550m-deal-for-bitnomial-expanding-us-derivatives-reach",
+          "title": "Kraken 母公司 Payward 敲定 5.5 億 Bitnomial 交易，擴大美國衍生品版圖",
+          "added_date": "2026-04-21"
         },
         {
           "name": "Unchained",
-          "url": "https://unchainedcrypto.com/goldman-sachs-files-preliminary-prospectus-for-bitcoin-premium-income-etf-unchained/",
-          "title": "高盛送交比特幣保險費收益型 ETF 初步公開說明書",
-          "added_date": "2026-04-15"
+          "url": "https://unchainedcrypto.com/layerzero-links-292-million-kelp-dao-bridge-exploit-to-north-koreas-lazarus-group/",
+          "title": "Kraken 母公司 Payward 以最高 5.5 億收購 Bitnomial，取得三張 CFTC 牌照",
+          "added_date": "2026-04-21"
         },
         {
-          "name": "The Defiant",
-          "url": "https://thedefiant.io/news/tradfi-and-fintech/goldman-sachs-files-for-its-first-bitcoin-linked-etf",
-          "title": "高盛申請首檔比特幣連動型 ETF",
-          "added_date": "2026-04-15"
+          "name": "News.Bitcoin.com",
+          "url": "https://news.bitcoin.com/kraken-parent-payward-enters-550m-deal-to-acquire-bitnomial-accelerating-regulated-us-crypto-derivatives-push/",
+          "title": "Kraken 母公司敲定 5.5 億收購 Bitnomial，加速合規美國加密衍生品布局",
+          "added_date": "2026-04-21"
         },
         {
-          "name": "FXStreet",
-          "url": "https://www.fxstreet.com/cryptocurrencies/news/goldman-sachs-seeks-sec-approval-for-bitcoin-premium-income-etf-202604142321",
-          "title": "高盛向 SEC 申請比特幣保險費收益型 ETF",
-          "added_date": "2026-04-15"
-        },
+          "name": "Finance Magnates",
+          "url": "https://www.financemagnates.com/cryptocurrency/exchange/kraken-acquires-bitnomial-for-up-to-550m-securing-a-full-us-derivatives-stack/",
+          "title": "Kraken 收購 Bitnomial，以 5.5 億取得完整美國衍生品堆疊",
+          "added_date": "2026-04-21"
+        }
+      ],
+      "source_count": 7,
+      "discussion_count": 0,
+      "importance_score": 14,
+      "summary": "<p>Kraken 母公司 Payward 宣布以最高 5.5 億美元（現金加股票）收購加密衍生品交易所 Bitnomial，一口氣取得經紀商、清算所、交易所三張 CFTC 牌照。Bitnomial 是美國第一家同時持有這三張牌的加密原生公司，這筆交易等於讓 Payward 跳過了其他交易所可能花數年才能拿齊的監管門檻。交易隱含 Payward 估值 200 億美元，預計 2026 上半年完成。</p><p>Payward 旗下除了 Kraken 交易所還有期貨經紀商 NinjaTrader，收購後的衍生品堆疊會透過單一 API 對外開放，讓銀行、金融科技公司和券商接入合規的美國加密衍生品。這步棋的背景是 CLARITY Act 正在國會推進、CFTC 對加密衍生品的監管態度逐漸明朗化——誰先拿齊牌照誰就能搶到第一波合規需求。Coinbase 同期正在跟 Bybit 談代幣化美股的合作，兩大交易所都在用不同路徑搶同一個制高點：合規的加密金融基礎設施。</p>",
+      "chart": "<div class=\"chart-wrap\"><div class=\"chart-title\">美國加密衍生品牌照競賽</div><div style=\"font-size:12px;color:#888;margin-bottom:16px\">Bitnomial 是唯一同時持有三張 CFTC 牌照的加密原生公司</div><div style=\"display:flex;gap:10px;margin-bottom:18px\"><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#1a1a1a;line-height:1.2\">$5.5 億</div><div style=\"font-size:11px;color:#888;margin-top:4px\">收購金額</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#1a1a1a;line-height:1.2\">$200 億</div><div style=\"font-size:11px;color:#888;margin-top:4px\">Payward 隱含估值</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">3 張</div><div style=\"font-size:11px;color:#888;margin-top:4px\">CFTC 牌照</div></div></div><div style=\"background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin-bottom:12px\"><div style=\"font-size:13px;font-weight:600;color:#1a1a1a;margin-bottom:10px\">Bitnomial 持有的三張 CFTC 牌照</div><div style=\"display:flex;gap:8px\"><div style=\"flex:1;background:#e8f5e9;border-radius:6px;padding:10px;text-align:center\"><div style=\"font-size:12px;font-weight:600;color:#2e7d32\">DCM</div><div style=\"font-size:10px;color:#666;margin-top:4px\">指定合約市場（交易所）</div></div><div style=\"flex:1;background:#e3f2fd;border-radius:6px;padding:10px;text-align:center\"><div style=\"font-size:12px;font-weight:600;color:#1565c0\">DCO</div><div style=\"font-size:10px;color:#666;margin-top:4px\">衍生品清算組織（清算所）</div></div><div style=\"flex:1;background:#fff3e0;border-radius:6px;padding:10px;text-align:center\"><div style=\"font-size:12px;font-weight:600;color:#e65100\">FCM</div><div style=\"font-size:10px;color:#666;margin-top:4px\">期貨佣金商（經紀商）</div></div></div></div><div class=\"chart-source\">資料來源：Kraken Blog、CoinDesk / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明 / Kraken</span><a href='https://blog.kraken.com/news/payward-acquires-bitnomial' target='_blank' rel='noopener'>Kraken</a>：「Bitnomial 是我們見過最優雅的監管架構——三張牌照、一個團隊，而且是從加密原生的角度建起來的，不是銀行改裝。」</li><li><span class='discuss-tag'>產業觀點 / Parameter</span><a href='https://parameter.io/krakens-550m-bitnomial-acquisition-a-game-changer-for-u-s-crypto-derivatives/' target='_blank' rel='noopener'>Parameter</a>（加密研究）：「這筆交易改變了美國加密衍生品的遊戲規則——過去交易所只能靠海外實體處理衍生品，現在 Kraken 可以在美國本土提供完整的期貨和選擇權產品。」</li><li><span class='discuss-tag'>分析師 / Benzinga</span><a href='https://www.benzinga.com/markets/private-markets/26/04/51888619/kraken-parent-payward-strikes-550m-deal-for-bitnomial-expanding-us-derivatives-reach' target='_blank' rel='noopener'>Benzinga</a>：「200 億估值讓 Payward 成為全球估值最高的加密交易所之一，僅次於 Coinbase 的公開市值。」</li></ol></div>",
+      "added_date": "2026-04-21",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/b5ae4fb4478c42b7ccde14b1283bce493cf7f8de-3324x1870.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "_image_source": "og"
+    },
+    {
+      "id": "2026-04-21-Vercel-breach-crypto-frontends",
+      "title": "Vercel 被駭、駭客叫價 200 萬美元：數百個加密專案前端曝險，Orca 帶頭輪換金鑰",
+      "url": "https://www.coindesk.com/tech/2026/04/20/hack-at-vercel-sends-crypto-developers-scrambling-to-lock-down-api-keys",
+      "tags": [
+        "安全",
+        "基礎設施"
+      ],
+      "date": "2026-04-21",
+      "sources": [
         {
-          "name": "CryptoBriefing",
-          "url": "https://cryptobriefing.com/goldman-sachs-doubles-down-bitcoin-exposure-premium-income-etf/",
-          "title": "高盛加碼比特幣曝險，推出保險費收益型 ETF",
-          "added_date": "2026-04-15"
-        },
-        {
-          "name": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/bitcoin-etfs-inflows-412-million-goldman-sachs-filing",
-          "title": "比特幣現貨 ETF 週二吸金 $4.12 億，高盛申請自家 BTC ETF",
-          "added_date": "2026-04-16"
-        },
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-15/goldman-s-bitcoin-etf-push-signals-wall-street-taming-of-crypto",
-          "title": "高盛申請比特幣 ETF，華爾街馴化加密訊號",
-          "added_date": "2026-04-16"
-        },
-        {
-          "name": "FinanceFeeds",
-          "url": "https://financefeeds.com/bitcoin-reclaims-76000-level-as-etf-inflows-hit-411-million-dollars/",
-          "title": "ETF 流入 $4.11 億當天 BTC 重返 $76,000",
-          "added_date": "2026-04-16"
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/04/20/hack-at-vercel-sends-crypto-developers-scrambling-to-lock-down-api-keys",
+          "title": "Vercel 遭駭讓加密開發者急忙鎖定 API 金鑰",
+          "added_date": "2026-04-21"
         },
         {
           "name": "Decrypt",
-          "url": "https://decrypt.co/364423/bitcoin-etfs-draw-411m-after-btc-hits-75k-but-analysts-urge-caution",
-          "title": "比特幣站 $75K 後，現貨 ETF 單日吸金 $4.11 億；分析師提醒謹慎",
-          "added_date": "2026-04-16"
+          "url": "https://decrypt.co/364869/highly-sophisticated-ai-powered-hackers-behind-vercel-breach-ceo",
+          "title": "「高度精密」AI 驅動駭客入侵 Vercel：CEO 說明",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/vercel-confirms-security-breach-as-hacker-demands-2-million-and-claims-to-sell-internal-access/",
+          "title": "Vercel 確認安全漏洞：駭客索要 200 萬美元並聲稱出售內部存取權",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/04/20/app-host-vercel-confirms-security-incident-says-customer-data-was-stolen-via-breach-at-context-ai/",
+          "title": "應用託管商 Vercel 確認安全事件，客戶資料經 Context.ai 漏洞被竊",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "rekt.news",
+          "url": "https://rekt.news/kelp-dao-hyperbridge-rhea/",
+          "title": "區塊鏈安全簡報：Hyperbridge 攻擊、KYC 亂象、Rhea 駭客",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+          "title": "Vercel 確認遭駭，駭客聲稱正在出售被竊資料",
+          "added_date": "2026-04-21"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/next-js-creator-vercel-hacked/",
+          "title": "Next.js 開發商 Vercel 遭駭",
+          "added_date": "2026-04-21"
         }
       ],
-      "summary": "<p>高盛目前管理 $3.5 兆美元資產，旗下已有兩檔「保險費收益」系列 ETF：GPIX 追蹤 S&P 500、GPIQ 追蹤 Nasdaq-100，做法是賣出投資組合 25% 到 75% 的價值作為 call option，用收到的保險費配出月配息。這個套路做股票做了好幾年，這次第一次套在比特幣上。不過值得注意的是，高盛自己並不直接買 BTC，而是透過其他發行商的現貨比特幣 ETP 建立曝險，再在上面賣 call。</p><p>這檔「Goldman Sachs Bitcoin Premium Income ETF」4 月 14 日向 SEC 送件，由 Goldman Sachs ETF Trust 發行，覆蓋率訂在 40% 到 100% 之間。最快生效日落在 6 月底或 7 月初。高盛到 2026 年初就已經透過貝萊德 IBIT 累積 $11 億美元以上的比特幣部位，這次是第一次把自己的名字掛到產品封面上，跟進 BlackRock 先前申請的類似收益型比特幣 ETF。</p><p>這則故事的重點不在高盛送件本身，而在送件當天的 ETF 流入資料。4/14 週二收盤前，美國現貨 BTC ETF 吸入 $4.115 億美元——BlackRock 的 IBIT 獨吞 $2.14 億、所有主要發行商通通翻紅，把 2026 全年累計流入首次從赤字拉回 $2.45 億。總管理資產跳上 $965 億。BTC 當日重返 $76,000 關口，是四月單日第二大的 ETF 吸金。高盛自己透過 IBIT 到年初已累積 $11 億以上的 BTC 曝險，這次是第一次把自家商標掛到比特幣產品封面。有趣的是市場情緒指標同一週還卡在極度恐慌（指數 8），ETF 流入和零售情緒之間出現明顯背離。</p>",
-      "chart": "<div class='chart-wrap'><div class='chart-compare'><div class='chart-item'><div class='chart-label'>GPIX（S&P 500）</div><div class='chart-value'>2022 推出</div><div class='chart-sub'>賣指數 call 養息</div></div><div class='chart-item'><div class='chart-label'>GPIQ（Nasdaq-100）</div><div class='chart-value'>2023 推出</div><div class='chart-sub'>同樣覆蓋式賣權</div></div><div class='chart-item chart-highlight'><div class='chart-label'>Bitcoin Premium Income</div><div class='chart-value'>2026-04-14</div><div class='chart-sub'>首次套用在比特幣</div></div></div></div>",
-      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>分析師</span><a href='https://x.com/EricBalchunas' target='_blank' rel='noopener'>Eric Balchunas</a>（Bloomberg ETF 分析師）：「高盛把他們的收益型 ETF 劇本套到比特幣上了，這是他們第一次真正推自己的加密產品。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://unchainedcrypto.com/goldman-sachs-files-preliminary-prospectus-for-bitcoin-premium-income-etf-unchained/' target='_blank' rel='noopener'>Unchained 編輯部</a>：「高盛繞過直接持有 BTC，改用別家的現貨 ETP 做底層，這種結構就是把自己定位成策略層，不碰託管。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://cryptobriefing.com/goldman-sachs-doubles-down-bitcoin-exposure-premium-income-etf/' target='_blank' rel='noopener'>CryptoBriefing 分析</a>：「覆蓋式賣權在 BTC 這種高波動資產上，月配能衝很高，但多頭行情時會吃掉很多上漲空間。」</li><li><span class='discuss-tag'>市場分析</span><a href='https://financefeeds.com/bitcoin-reclaims-76000-level-as-etf-inflows-hit-411-million-dollars/' target='_blank' rel='noopener'>FinanceFeeds</a>：「高盛送件當天，美股收盤前現貨 BTC ETF 已吸入 $4.115 億——其中 BlackRock IBIT 獨吞 $2.14 億——讓 2026 全年累計流入首次由負轉正，落在 $2.45 億。」</li><li><span class='discuss-tag'>分析師</span><a href='https://decrypt.co/364423/bitcoin-etfs-draw-411m-after-btc-hits-75k-but-analysts-urge-caution' target='_blank' rel='noopener'>Decrypt</a>：「這是四月單日第二大的流入；所有主流發行商都看到正流入，不是集中在一兩檔。但分析師提醒，BTC 衝 $76K 的同時，恐慌指數還在 8，兩者訊號不一致。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://cointelegraph.com/news/bitcoin-etfs-inflows-412-million-goldman-sachs-filing' target='_blank' rel='noopener'>Cointelegraph</a>：「高盛自己年初已透過 IBIT 累積超過 $11 億 BTC 曝險，這次送件是第一次把自家商標掛到比特幣產品封面。管 $3.5 兆的銀行下場做 BTC ETF 品牌，是標的第一次擠進主流資產配置選單。」</li></ol></div>",
-      "last_updated": "2026-04-16",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/66903c353099b75a87c51fc314ab63a82507b979-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "source_count": 7,
+      "discussion_count": 0,
+      "importance_score": 14,
+      "summary": "<p>雲端部署平台 Vercel 4 月 19 日揭露安全事件：攻擊者先入侵員工使用的第三方 AI 工具 Context.ai，透過其 Google Workspace OAuth 權限橫向滲透進 Vercel 內部環境。駭客隨後在暗網論壇 BreachForums 叫價 200 萬美元出售竊取的存取金鑰、原始碼和部署憑證，疑似為知名駭客組織 ShinyHunters 所為。CEO Guillermo Rauch 稱攻擊「高度精密」，可能有 AI 輔助。</p><p>Vercel 是數百個加密專案的前端託管商，從錢包介面到 DApp 儀表板都跑在上面。Solana 上的 Orca 交易所率先宣布已輪換所有部署憑證，多個 Web3 團隊在公告後數小時內緊急稽核曝險範圍。這起事件暴露了 AI 工具供應鏈的新型攻擊面——員工安裝一個 AI 助手，就等於幫攻擊者開了一條直通內部系統的捷徑。在 Kelp DAO 2.92 億攻擊的同一個週末發生，兩起事件疊加讓加密圈的安全焦慮達到年度高點。</p>",
+      "chart": "<div class=\"chart-wrap\"><div class=\"chart-title\">Vercel 攻擊路徑：AI 工具變成入侵跳板</div><div style=\"background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\"><div class=\"chart-timeline\"><div class=\"chart-timeline-item\"><div class=\"chart-timeline-date\">第一步</div><div class=\"chart-timeline-text\">攻擊者入侵第三方 AI 工具 Context.ai</div></div><div class=\"chart-timeline-item\"><div class=\"chart-timeline-date\">第二步</div><div class=\"chart-timeline-text\">透過 Context.ai 的 Google Workspace OAuth 權限，橫向滲透進 Vercel 內部環境</div></div><div class=\"chart-timeline-item highlight\"><div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">第三步</div><div class=\"chart-timeline-text\" style=\"color:#333\">竊取存取金鑰、原始碼、NPM tokens、GitHub tokens、部署憑證</div></div><div class=\"chart-timeline-item\"><div class=\"chart-timeline-date\">第四步</div><div class=\"chart-timeline-text\">駭客在 BreachForums 叫價 200 萬美元出售資料</div></div></div></div><div style=\"display:flex;gap:10px;margin-top:16px\"><div style=\"flex:1;background:#fbe9e7;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffccbc\"><div style=\"font-size:20px;font-weight:700;color:#ef5350;line-height:1.2\">$200 萬</div><div style=\"font-size:11px;color:#888;margin-top:4px\">駭客索價</div></div><div style=\"flex:1;background:#fff3e0;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffe0b2\"><div style=\"font-size:20px;font-weight:700;color:#e65100;line-height:1.2\">數百個</div><div style=\"font-size:11px;color:#888;margin-top:4px\">受影響加密專案</div></div><div style=\"flex:1;background:#e8f5e9;border-radius:10px;padding:12px;text-align:center;border:1px solid #c8e6c9\"><div style=\"font-size:20px;font-weight:700;color:#2e7d32;line-height:1.2\">數小時</div><div style=\"font-size:11px;color:#888;margin-top:4px\">Web3 團隊反應時間</div></div></div><div class=\"chart-source\">資料來源：CoinDesk、Vercel KB、TechCrunch / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明 / Vercel</span><a href='https://vercel.com/kb/bulletin/vercel-april-2026-security-incident' target='_blank' rel='noopener'>Vercel</a>：「我們偵測到未經授權的存取，來源是一個第三方 AI 工具。標記為『敏感』的環境變數以加密方式儲存，目前沒有證據顯示這些變數被讀取。」</li><li><span class='discuss-tag'>產業觀點 / Orca</span><a href='https://decrypt.co/364869/highly-sophisticated-ai-powered-hackers-behind-vercel-breach-ceo' target='_blank' rel='noopener'>Orca</a>（Solana 交易所）：「我們已預防性輪換所有部署憑證。鏈上協議和使用者資金不受影響。」</li><li><span class='discuss-tag'>分析師 / GitGuardian</span><a href='https://blog.gitguardian.com/vercel-april-2026-incident-non-sensitive-environment-variables-need-investigation-too/' target='_blank' rel='noopener'>GitGuardian</a>：「就算 Vercel 說『敏感』變數沒被讀取，非敏感環境變數裡也經常藏著 API 金鑰、資料庫連線字串，這些都需要調查。」</li></ol></div>",
+      "added_date": "2026-04-21",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/19279f188fd985541125b59d44d4ad2fbf6af84d-7008x4672.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "_image_source": "og"
+    },
+    {
+      "id": "2026-04-18-RAVE-token-pump-dump-ZachXBT-probe",
+      "title": "三個錢包控制 90% 籌碼、一週暴漲 4,500%：RAVE 崩盤 95% 蒸發 $57 億市值",
+      "url": "https://www.coindesk.com/business/2026/04/18/binance-and-biget-to-probe-rave-s-4-500-token-surge-as-claims-of-insider-orchestrated-rally-grow",
+      "tags": [
+        "市場操縱",
+        "交易所",
+        "ZachXBT"
+      ],
+      "date": "2026-04-20",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/fbd1652657bfb9351a33da786859d3bebdd22a69-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/04/18/binance-and-biget-to-probe-rave-s-4-500-token-surge-as-claims-of-insider-orchestrated-rally-grow",
+          "title": "Binance 與 Bitget 調查 RAVE 暴漲 4,500%，內線操控指控升溫",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/04/19/ravedao-s-rave-token-collapses-90-in-a-day-as-exchange-probes-widen",
+          "title": "交易所調查擴大，RaveDAO RAVE 一天崩盤 90%",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "News.Bitcoin.com",
+          "url": "https://news.bitcoin.com/rave-crashes-68-as-binance-and-bitget-investigate-manipulation-claims/",
+          "title": "Binance 與 Bitget 啟動調查，RAVE 崩跌 68%",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "Coinpedia",
+          "url": "https://coinpedia.org/news/ravedao-price-crashes-95-as-binance-and-bitget-launch-investigations-after-manipulation-allegations/",
+          "title": "RaveDAO 價格崩跌 95%，兩大交易所啟動調查",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "Yellow.com",
+          "url": "https://yellow.com/news/rave-pump-and-dump-insider-manipulation",
+          "title": "ZachXBT 標記 RAVE 內線操控拉盤倒貨，代幣暴跌 61%",
+          "added_date": "2026-04-20"
+        }
+      ],
+      "source_count": 5,
+      "discussion_count": 4,
+      "importance_score": 14,
+      "summary": "<p>RaveDAO 的 RAVE 代幣從不到 $0.50 在一週內飆到 $27.94，市值一度衝破 $60 億。鏈上偵探 ZachXBT 揭發三個關聯錢包控制了 90% 的流通量，其中與部署者相關的錢包在拉盤前把 1,858 萬顆 RAVE 轉入 Bitget，十小時後漲勢啟動。當時 Binance 上 74% 的交易者持有空單，內線撤走交易所上的賣壓，觸發史詩級空頭軋壓，$4,400 萬美元空單爆倉。</p><p>ZachXBT 點名後 Binance 執行長 Richard Teng 和 Bitget 執行長 Gracy Chen 都公開表示啟動調查。RAVE 隨後一天內崩跌 95%，蒸發約 $57 億市值。ZachXBT 自掏 $10,000 懸賞內線證據，社群加碼到 $25,000。RaveDAO 團隊否認操控，但承認計畫「在適當時機」出售解鎖代幣，未承諾任何鎖倉機制。</p>",
+      "chart": "<div class=\"chart-wrap\"><div class=\"chart-title\">RAVE 拉盤倒貨的教科書流程</div><div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\"><div class=\"chart-timeline-item\"><div class=\"chart-timeline-date\">步驟 1</div><div class=\"chart-timeline-text\">部署者關聯錢包將 1,858 萬顆 RAVE 轉入 Bitget，當時幣價低於 $0.50</div></div><div class=\"chart-timeline-item\"><div class=\"chart-timeline-date\">步驟 2</div><div class=\"chart-timeline-text\">10 小時後漲勢啟動。Binance 上 74% 交易者持有空單，成為軋空燃料</div></div><div class=\"chart-timeline-item highlight\"><div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">步驟 3</div><div class=\"chart-timeline-text\" style=\"color:#333\">內線從 Bitget 撤回 2,978 萬顆代幣，抽乾交易所賣壓。一週內 $0.27 到 $27.94（+5,500%）</div></div><div class=\"chart-timeline-item highlight\"><div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">步驟 4</div><div class=\"chart-timeline-text\" style=\"color:#333\">ZachXBT 公開揭發。兩大交易所宣布調查。一天內崩跌 95%，$57 億市值蒸發</div></div></div><div style=\"display:flex;gap:10px;margin-top:16px\"><div style=\"flex:1;background:#fbe9e7;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffccbc\"><div style=\"font-size:20px;font-weight:700;color:#ef5350;line-height:1.2\">90%</div><div style=\"font-size:11px;color:#888;margin-top:4px\">三個錢包控制的流通量</div></div><div style=\"flex:1;background:#fbe9e7;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffccbc\"><div style=\"font-size:20px;font-weight:700;color:#ef5350;line-height:1.2\">$4,400 萬</div><div style=\"font-size:11px;color:#888;margin-top:4px\">空單爆倉金額</div></div><div style=\"flex:1;background:#fbe9e7;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffccbc\"><div style=\"font-size:20px;font-weight:700;color:#ef5350;line-height:1.2\">$57 億</div><div style=\"font-size:11px;color:#888;margin-top:4px\">崩盤蒸發市值</div></div></div><div class=\"chart-source\">資料來源：ZachXBT、CoinDesk / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>首位發現者</span><a href='https://x.com/zachxbt' target='_blank' rel='noopener'>ZachXBT</a>（鏈上偵探）：公開指出 RAVE 的拉盤倒貨活動源自 Bitget、Binance 和 Gate，內線控制超過 90% 的供應量。他自掏 $10,000 懸賞內線證據，社群加碼到 $25,000。</li><li><span class='discuss-tag'>官方聲明</span><a href='https://coinpedia.org/news/bitget-investigates-after-zachxbt-exposes-rave-token-insider-manipulation/' target='_blank' rel='noopener'>Gracy Chen</a>（Bitget 執行長）：「感謝提報！我們已經開始調查 RAVE。」</li><li><span class='discuss-tag'>官方聲明</span><a href='https://www.coindesk.com/business/2026/04/18/binance-and-biget-to-probe-rave-s-4-500-token-surge-as-claims-of-insider-orchestrated-rally-grow' target='_blank' rel='noopener'>Richard Teng</a>（Binance 執行長）：「感謝 ZachXBT 通報，我們正在調查此事。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://yellow.com/news/rave-pump-and-dump-insider-manipulation' target='_blank' rel='noopener'>RaveDAO 團隊</a>：否認參與操控價格，但承認團隊計畫「在適當時機出售解鎖代幣」以支應營運和行銷，未承諾任何鎖倉機制或時程。</li></ol></div>",
+      "added_date": "2026-04-20",
+      "last_updated": "2026-04-20",
       "_image_source": "og"
     },
     {
@@ -2111,6 +3460,58 @@ window.FEED_DATA = {
       "image": "https://cdn.sanity.io/images/s3y3vcno/production/01b078cd684ca9805f71cae842b6ed11cbf91ed4-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
       "_image_source": "og",
       "added_date": "2026-04-04"
+    },
+    {
+      "id": "2026-04-17-Mitsui-Progmat-Japan-private-to-public-chain",
+      "title": "日本金融機構首次叛逃私鏈：三井物産上 OP Mainnet、Progmat 搬 4,396 億日圓上 Avalanche",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/mitsui-and-co-s-crypto-arm-brings-tokenized-metals-asset-zipangcoin-to-op-mainnet",
+      "tags": [
+        "RWA",
+        "日本",
+        "機構"
+      ],
+      "date": "2026-04-20",
+      "image": "",
+      "sources": [
+        {
+          "name": "Optimism Blog",
+          "url": "https://optimism.mirror.xyz/zipangcoin-op-mainnet",
+          "title": "Zipangcoin 系列在 OP Mainnet 上線：日本首個機構級代幣化貴金屬登陸公鏈",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "The Defiant",
+          "url": "https://thedefiant.io/news/tradfi-and-fintech/mitsui-and-co-s-crypto-arm-brings-tokenized-metals-asset-zipangcoin-to-op-mainnet",
+          "title": "三井物産子公司將代幣化貴金屬 Zipangcoin 帶上 OP Mainnet",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "Crypto Economy",
+          "url": "https://crypto-economy.com/mitsui-moves-zipangcoin-metals-tokens-to-op/",
+          "title": "三井物産將 Zipangcoin 貴金屬代幣遷移至 OP Mainnet",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "BingX News",
+          "url": "https://bingx.com/en/news/post/progmat-to-shift-over-billion-in-tokenised-assets-to-avalanche-by-june",
+          "title": "Progmat 計畫在六月前將超過 20 億美元代幣化資產遷移至 Avalanche",
+          "added_date": "2026-04-20"
+        },
+        {
+          "name": "Fintech Observer",
+          "url": "https://www.fintechobserver.com/mitsui-co-digital-commodities-to-expand-zipangcoin-series-to-public-blockchains-via-new-multi-chain-infrastructure/",
+          "title": "三井物産數位商品透過新跨鏈基礎設施擴展 Zipangcoin 至公鏈",
+          "added_date": "2026-04-20"
+        }
+      ],
+      "source_count": 5,
+      "discussion_count": 3,
+      "importance_score": 13,
+      "summary": "<p>市值逾千億美元的三井物産與佔日本證券型代幣發行量 63% 的 Progmat（三菱 UFJ 旗下），幾乎同時宣布從私有鏈搬到公鏈。日本金融機構過去堅持「合規等於私有鏈」，這是第一次有這個量級的機構打破慣例。三井物産子公司 4 月 17 日將追蹤黃金、白銀、白金價格的 Zipangcoin 系列部署到 OP Mainnet，過去四年關在 bitFlyer 私鏈上。GMO Coin 4/20 上架交易。</p><p>Progmat 則計畫六月前把 4,396 億日圓（約 $29 億）的代幣化不動產與公司債從 R3 Corda 搬到 Avalanche L1，並推出跨鏈結算的 Project Keystone。2025 年全球鏈上代幣化 RWA 規模已達 $186 億，三年內預估到 $2 兆。三井物産最大股東是持股逾 10% 的 Berkshire Hathaway，巴菲特旗下公司間接成了公鏈生態的利害關係人。</p>",
+      "chart": "<div class=\"chart-wrap\"><div class=\"chart-title\">日本金融機構的公鏈遷徙</div><div style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\"><div class=\"chart-row\"><span class=\"chart-row-label\">三井物産</span><span class=\"chart-row-value\">bitFlyer 私鏈 → OP Mainnet（4/17 已上線）</span></div><div class=\"chart-row\"><span class=\"chart-row-label\">Progmat（三菱 UFJ）</span><span class=\"chart-row-value\">R3 Corda → Avalanche L1（6 月前完成）</span></div><div class=\"chart-row\"><span class=\"chart-row-label\">Progmat 遷移規模</span><span class=\"chart-row-value\">4,396 億日圓（約 $29 億）代幣化不動產與公司債</span></div><div class=\"chart-row\"><span class=\"chart-row-label\">Progmat 日本市佔</span><span class=\"chart-row-value\">63% 證券型代幣發行量</span></div></div><div style=\"display:flex;gap:10px;margin-top:16px\"><div style=\"flex:1;background:#f0f4ff;border-radius:10px;padding:12px;text-align:center;border:1px solid #d0d8f0\"><div style=\"font-size:20px;font-weight:700;color:#42a5f5;line-height:1.2\">$186 億</div><div style=\"font-size:11px;color:#888;margin-top:4px\">2025 全球鏈上 RWA 規模</div></div><div style=\"flex:1;background:#f0f4ff;border-radius:10px;padding:12px;text-align:center;border:1px solid #d0d8f0\"><div style=\"font-size:20px;font-weight:700;color:#66bb6a;line-height:1.2\">$2 兆</div><div style=\"font-size:11px;color:#888;margin-top:4px\">2028 預估規模</div></div></div><div class=\"chart-source\">資料來源：The Defiant、BingX News / 區塊勢整理</div></div>",
+      "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://thedefiant.io/news/tradfi-and-fintech/mitsui-and-co-s-crypto-arm-brings-tokenized-metals-asset-zipangcoin-to-op-mainnet' target='_blank' rel='noopener'>Mitsui & Co. Digital Commodities</a>（三井物産子公司）：「Zipangcoin 系列在 OP Mainnet 上的部署，是我們多鏈基礎設施擴展的第一步。我們選擇 OP Stack 是因為它的擴展性和 Ethereum 生態的互通性。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://bingx.com/en/news/post/progmat-to-shift-over-billion-in-tokenised-assets-to-avalanche-by-june' target='_blank' rel='noopener'>Progmat</a>（三菱 UFJ 旗下）：Progmat 的 Project Keystone 計畫六月前把 4,396 億日圓資產從 Corda 搬到 Avalanche，並建立跨鏈結算機制。這是日本最大的代幣化平台第一次擁抱公鏈。</li><li><span class='discuss-tag'>不同角度</span><a href='https://crypto-economy.com/mitsui-moves-zipangcoin-metals-tokens-to-op/' target='_blank' rel='noopener'>Crypto Economy 分析</a>：「三井物産最大股東是持股逾 10% 的 Berkshire Hathaway，巴菲特旗下公司間接成了公鏈生態的利害關係人。」</li></ol></div>",
+      "added_date": "2026-04-20",
+      "last_updated": "2026-04-20"
     },
     {
       "id": "2026-04-10-Hong-Kong-stablecoin-licenses-HSBC-Anchorpoint",
@@ -5424,5 +6825,5 @@ window.FEED_DATA = {
       "added_date": "2026-03-21"
     }
   ],
-  "last_scan_date": "2026-04-16"
+  "last_scan_date": "2026-04-19"
 };
