@@ -11,7 +11,7 @@ window.FEED_DATA = {
         "Ethereum"
       ],
       "date": "2026-04-25",
-      "source_count": 54,
+      "source_count": 33,
       "discussion_count": 8,
       "importance_score": 74,
       "sources": [
@@ -388,7 +388,7 @@ window.FEED_DATA = {
       "summary": "<p>比特幣這個月跟美伊局勢綁在一起動。4 月 7 日 Trump 宣布兩週停火後 BTC 衝上 72,700，6 億美元空單爆倉；12 日和談破裂、海峽封鎖讓 BTC 跌回 71,000；17 日伊朗宣布海峽開放、BTC 突破 76,000。21 日 Trump 宣布停火無限期延長，22 日 BTC 衝上 78,400 創 11 週新高，同天 Strategy 砸 25.4 億美元買入 34,164 顆 BTC。</p><p>不過五角大廈機密簡報告訴國會：荷莫茲海峽清雷至少需要六個月，WTI 原油回到 95 美元、10 年期公債殖利率升至 4.32%。Reuters 報導詐騙集團冒充伊朗當局向卡在海峽的船公司索要 BTC 或 USDT「過路費」，至少一艘付款後遭伊朗砲艇開火。BTC 期貨資金費率連續 47 天為負（FTX 崩盤以來最長），現貨 ETF 倒是連續八天淨流入。Vance 的伊斯蘭堡行程因伊朗拒絕派代表而取消，短期外交前景轉暗。</p>",
       "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">從停火到封鎖：五天內的劇烈反轉</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/7</div>\n<div class=\"chart-timeline-text\">Trump 宣布兩週停火，BTC 衝上 $72,700，6 億美元空單爆倉</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/8</div>\n<div class=\"chart-timeline-text\">伊朗開始向過境油輪收取比特幣過路費，每桶 $1、滿載油輪 $200 萬</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">4/11</div>\n<div class=\"chart-timeline-text\">巴基斯坦面對面和談展開，Vance 率團與伊朗談判 21 小時</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">4/12</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">和談破裂：伊朗拒絕放棄濃縮鈾、拒絕交出海峽控制權。Trump 宣布立即封鎖荷莫茲海峽</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">4/12-13</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">油價漲 8% 至 $102，BTC 跌破 $71,000 回吐停火漲幅，加密市場整體下跌約 2%</div>\n</div>\n</div>\n<div style=\"display:flex;gap:10px;margin-top:16px\">\n<div style=\"flex:1;background:#e8f5e9;border-radius:10px;padding:12px;text-align:center;border:1px solid #c8e6c9\">\n<div style=\"font-size:20px;font-weight:700;color:#66bb6a;line-height:1.2\">$72,700</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">停火後高點</div>\n</div>\n<div style=\"flex:1;background:#fbe9e7;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffccbc\">\n<div style=\"font-size:20px;font-weight:700;color:#ef5350;line-height:1.2\">&lt;$71,000</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">封鎖後回落</div>\n</div>\n<div style=\"flex:1;background:#fff3e0;border-radius:10px;padding:12px;text-align:center;border:1px solid #ffe0b2\">\n<div style=\"font-size:20px;font-weight:700;color:#e65100;line-height:1.2\">$102</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">油價重返三位數</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：CoinDesk、Bloomberg / 區塊勢整理</div>\n</div>",
       "discussions": "<div class='story-discuss'><ol>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/IranIntl_En/status/2043318134094864417\" target=\"_blank\" rel=\"noopener\">Iran International</a>（媒體）：「Trump 在 Truth Social 發文：美國海軍將立即開始封鎖任何試圖進入或離開荷莫茲海峽的船隻。任何向我們或向和平船隻開火的伊朗人，都將被炸上天。」</li>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/CNBCTV18News/status/2043329102292140340\" target=\"_blank\" rel=\"noopener\">CNBC-TV18</a>：「Trump 宣布海軍封鎖荷莫茲海峽，指控伊朗拒絕放棄核武野心。他稱此為『全球勒索』，並警告美國已『裝彈上膛』。」</li>\n<li><span class='discuss-tag'>分析師</span><a href=\"https://x.com/RayDalio/status/2041531182018367773\" target=\"_blank\" rel=\"noopener\">Ray Dalio</a>（Bridgewater 創辦人）：「市場嚴重低估了當前的地緣政治環境。多數人以為這只是一場孤立的美伊衝突，但這其實是一場早期世界大戰的一部分。我估計五年內至少發生一場重大新軍事衝突的機率超過 50%，其中美中在台灣問題上的對抗風險在 2028 年前後達到高峰。」</li>\n<li><span class='discuss-tag'>市場分析</span><a href=\"https://x.com/Darkfost_Coc/status/2041780360199942600\" target=\"_blank\" rel=\"noopener\">Darkfost</a>（鏈上分析師）：「停火消息後 Binance 衍生品市場出現 27 億美元 BTC 買單。」（然後封鎖消息讓這些多單全部承壓。）</li>\n<li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/simplykashif/status/2042281739566137386\" target=\"_blank\" rel=\"noopener\">Kashif Raza</a>（加密分析師）：「伊朗要求每艘船付 200 萬美元的比特幣過路費。但如果美軍封鎖了海峽，這些收費也不可能繼續。這是 BTC 被用在主權對抗中的第一次實戰——結果可能跟它的支持者期望的不一樣。」</li>\n<li><span class='discuss-tag'>不同角度</span>停火前 Fear and Greed 指數跌至 8（2022 年 FTX 崩盤以來最低），停火後快速回升。封鎖消息再度打回恐懼區間——五天內完成一個從極度恐懼到貪婪再回到恐懼的完整週期。</li>\n</ol></div>",
-      "source_count": 28,
+      "source_count": 25,
       "discussion_count": 6,
       "importance_score": 56,
       "added_date": "2026-04-09",
@@ -404,7 +404,7 @@ window.FEED_DATA = {
         "監管"
       ],
       "date": "2026-04-24",
-      "source_count": 29,
+      "source_count": 23,
       "discussion_count": 6,
       "importance_score": 52,
       "sources": [
@@ -680,7 +680,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 19,
+      "source_count": 18,
       "discussion_count": 12,
       "importance_score": 48,
       "_image_source": "gemini",
@@ -697,7 +697,7 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-25",
       "image": "",
-      "source_count": 25,
+      "source_count": 20,
       "discussion_count": 6,
       "importance_score": 46,
       "sources": [
@@ -949,7 +949,7 @@ window.FEED_DATA = {
       "summary": "<p>Drift 4 月 1 日遭北韓駭客掏走 2.85 億美元後，Circle 拒絕凍結被盜的 USDC 引發幣圈怒火，ZachXBT 算出四年來超過 4.2 億美元贓款透過 USDC 流出。Circle 執行長 Jeremy Allaire 4 月 13 日在首爾公開捍衛凍結政策，稱 USDC 是受監管金融商品、不能單方面凍結，但社群不買帳。</p><p>Tether 4 月 16 日趁勢出手：承諾提供 1.275 億美元（夥伴再加 2,000 萬），以收入連動結構逐步償還約 2.95 億美元的使用者損失。交換條件是 Drift 把結算貨幣從 USDC 換成 USDT，等於讓 Tether 一口氣撬開 Circle 在 Solana DeFi 的根據地。Drift 還會發行獨立的復原代幣，讓受損使用者持有對復原池的請求權。DRIFT 代幣消息公布後跳漲 20%。DL News 形容這是「Tether 丟救命繩，但要的回報不少」。</p>",
       "chart": "<div class='chart-wrap'><div class='chart-title'>Drift 攻擊到復原：關鍵數字</div><div style='display:flex;gap:10px;margin-bottom:18px'><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#ef5350'>$2.85 億</div><div style='font-size:11px;color:#888;margin-top:4px'>被盜金額</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#66bb6a'>$1.475 億</div><div style='font-size:11px;color:#888;margin-top:4px'>Tether + 夥伴救援金</div></div><div style='flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4'><div style='font-size:24px;font-weight:700;color:#42a5f5'>+20%</div><div style='font-size:11px;color:#888;margin-top:4px'>DRIFT 代幣反彈</div></div></div><div class='chart-compare'><div class='chart-compare-box'><div class='chart-compare-label'>舊結算貨幣</div><div class='chart-compare-value'>USDC (Circle)</div><div class='chart-compare-note'>拒絕凍結被盜資金</div></div><div class='chart-compare-box'><div class='chart-compare-label'>新結算貨幣</div><div class='chart-compare-value'>USDT (Tether)</div><div class='chart-compare-note'>提供救援 + 流動性</div></div></div><div style='margin-top:14px'><div class='chart-row'><span class='chart-row-label'>使用者待償損失</span><span class='chart-row-value'>~$2.95 億</span></div><div class='chart-row'><span class='chart-row-label'>償還機制</span><span class='chart-row-value'>收入連動 + 復原代幣</span></div><div class='chart-row'><span class='chart-row-label'>USDC 四年贓款流出</span><span class='chart-row-value'>$4.2 億（ZachXBT）</span></div></div><div class='chart-source'>資料來源：CoinDesk / The Block / DL News / Protos / 區塊勢整理</div></div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href='https://tether.io' target='_blank' rel='noopener'>Tether</a>（USDT 發行商）：「這項合作將為 Drift 使用者提供復原路徑，同時透過 USDT 結算和流動性支持強化 Solana 的 DeFi 基礎設施。」</li><li><span class='discuss-tag'>產業觀點</span><a href='https://protos.com/tether-challenges-usdc-solana-hegemony-with-127-5m-drift-bailout/' target='_blank' rel='noopener'>Protos</a>（加密媒體）：「Tether 這招是用 1.275 億美元買下 Solana DeFi 的結算地盤——Circle 在 Solana 的霸權第一次被正面挑戰。」</li><li><span class='discuss-tag'>分析師</span><a href='https://www.dlnews.com/articles/defi/tether-steps-in-to-help-hacked-drift-protocol/' target='_blank' rel='noopener'>DL News</a>（調查媒體）：「Tether 丟出 1.28 億美元救命繩，但交換條件是整個平台的結算貨幣。這不是慈善，是戰略併購的變體。」</li><li><span class='discuss-tag'>質疑聲音</span><a href='https://www.coindesk.com/business/2026/04/16/drift-gets-usd148-million-funding-from-tether-and-partners-as-it-replaces-circle-stablecoin-with-usdt-after-massive-exploit' target='_blank' rel='noopener'>CoinDesk</a>：「復原金是收入連動結構，意味著如果 Drift 重啟後交易量不如預期，使用者拿回錢的速度會大幅放慢。」</li><li><span class='discuss-tag'>社群反應</span><a href='https://invezz.com/news/2026/04/16/drift-protocol-jumps-20-as-tether-backs-127-5m-recovery-plan/' target='_blank' rel='noopener'>Invezz</a>（財經媒體）：「DRIFT 代幣消息公布後跳漲 20%，市場解讀是 Tether 的背書比 Circle 的沉默更有說服力。」</li><li><span class='discuss-tag'>不同角度</span><a href='https://www.theblock.co/post/397735/drift-127-million-tether-recovery-pivots-circle-usdc-usdt-280-million-exploit' target='_blank' rel='noopener'>The Block</a>：「Drift 會發行獨立的復原代幣，每枚代表對復原池的請求權，且可轉讓——這等於把受害者的損失證券化。」</li></ol></div>",
-      "source_count": 20,
+      "source_count": 19,
       "discussion_count": 6,
       "importance_score": 44,
       "_image_source": "gemini",
@@ -1053,7 +1053,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-20"
         }
       ],
-      "source_count": 16,
+      "source_count": 14,
       "discussion_count": 6,
       "importance_score": 34,
       "summary": "<p>Anthropic 4 月 7 日揭露 Claude Mythos Preview，這個模型能自主挖出數千個零日漏洞（含一個塵封 17 年的 FreeBSD 遠端執行漏洞），不對外開放，僅透過 Project Glasswing 限定分享給 AWS、Google、JPMorgan 等約 40 家合作方。加密交易所不在初始名單上，Coinbase 與 Binance 正在爭取授權。2022-2023 年間被駭的智能合約有 91.96% 在出事前已通過審計，鏈上被駭總額 2025 年飆到 $34 億。</p><p>4 月 19 日 Axios 獨家揭露 NSA 已在使用 Mythos，DoD 內部也廣泛部署，儘管五角大廈二月才把 Anthropic 列為「供應鏈風險」。這等於美國軍方一邊在法庭上告 Anthropic，一邊讓網路安全部門用它的模型。同日 Anthropic 執行長 Dario Amodei 進白宮與幕僚長 Susie Wiles、財政部長 Bessent 會面討論政府使用 Mythos 的規範。FT 報導 Anthropic 因近期服務中斷，暫緩對外大規模發布。</p>",
@@ -1262,7 +1262,7 @@ window.FEED_DATA = {
         "Gmail",
         "Web"
       ],
-      "source_count": 18,
+      "source_count": 13,
       "discussion_count": 4,
       "importance_score": 30,
       "_image_source": "og",
@@ -1345,7 +1345,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 14,
+      "source_count": 10,
       "discussion_count": 4,
       "importance_score": 24,
       "_image_source": "gemini",
@@ -1363,7 +1363,7 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-14",
       "image": "images/2026-04-06-Chaos-Labs-Aave-DeFi-81fa41d5.png",
-      "source_count": 11,
+      "source_count": 9,
       "discussion_count": 5,
       "importance_score": 23,
       "sources": [
@@ -1443,7 +1443,7 @@ window.FEED_DATA = {
         "安全"
       ],
       "date": "2026-04-15",
-      "source_count": 10,
+      "source_count": 8,
       "discussion_count": 6,
       "importance_score": 22,
       "sources": [
@@ -1559,7 +1559,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-09"
         }
       ],
-      "source_count": 9,
+      "source_count": 8,
       "discussion_count": 6,
       "importance_score": 22,
       "summary": "<p>全球約三分之一的原油經過荷莫茲海峽。4 月 7 日美伊宣布兩週停火後，伊朗公布通行條件：過境船舶須先申報貨物，核准後在「幾秒內」將過路費匯入伊朗的比特幣錢包。費率每桶 1 美元，滿載超級油輪一趟約 200 萬美元。</p><p>伊朗官員說選比特幣是因為「無法被追蹤或因制裁而沒收」。這是主權國家首次把比特幣用於國際航運的強制收費。停火消息公布後比特幣一度突破 72,500 美元。</p>",
@@ -1578,7 +1578,7 @@ window.FEED_DATA = {
         "Oracle"
       ],
       "date": "2026-04-24",
-      "source_count": 12,
+      "source_count": 8,
       "discussion_count": 4,
       "importance_score": 20,
       "sources": [
@@ -1691,7 +1691,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-09"
         }
       ],
-      "source_count": 8,
+      "source_count": 7,
       "discussion_count": 6,
       "importance_score": 20,
       "summary": "<p>《紐約時報》刊出《乘血之怒》作者 John Carreyrou 的調查，指名 Blockstream 執行長 Adam Back 就是中本聰。他蒐集三份密碼龐克郵件清單數千封信件，用三種寫作分析交叉比對，每種都把 Back 排首位。</p><p>「文字指紋」包括句號後雙空格、英式拼法、在 e-mail 和 email 間切換。Back 在 X 上否認。這是繼 Dorian Nakamoto、Craig Wright 之後，主流媒體第三次「揭曉」中本聰。</p>",
@@ -1827,7 +1827,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-22"
         }
       ],
-      "source_count": 15,
+      "source_count": 7,
       "discussion_count": 5,
       "importance_score": 19,
       "summary": "<p>Strategy 4 月 13 至 19 日買入 34,164 顆比特幣，均價 74,395 美元，總支出 25.4 億美元，是 2024 年 11 月以來最大單週買入。資金 86% 來自 STRC 優先股，不稀釋 MSTR 普通股。總持有量來到 815,061 顆 BTC，首度超越 BlackRock iShares Bitcoin Trust（IBIT）的 802,823 顆，成為全球最大的機構比特幣持有者。Strategy 現在控制了所有將被挖出的比特幣中的 3.88%。</p><p>這個里程碑出現在 BTC 從去年 10 月歷史高點回落超過 50% 的熊市中。Strategy 2026 年已累計增持近 80,000 顆 BTC，平均買入成本遠低於 2024 年的平均水位。CoinShares 資料顯示上週加密投資產品流入 14 億美元，比特幣基金佔 11.2 億，是 1 月以來最強單週。市場正在測試一個矛盾：散戶完全退場，但機構買盤創紀錄。</p>",
@@ -1846,7 +1846,7 @@ window.FEED_DATA = {
         "機構"
       ],
       "date": "2026-04-20",
-      "source_count": 11,
+      "source_count": 6,
       "discussion_count": 6,
       "importance_score": 18,
       "sources": [
@@ -1943,7 +1943,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-10"
         }
       ],
-      "source_count": 9,
+      "source_count": 6,
       "discussion_count": 3,
       "importance_score": 15,
       "summary": "<p>管理 8 兆美元客戶資產的 Morgan Stanley，4 月 8 日在 NYSE Arca 上市自家的現貨比特幣 ETF「MSBT」。這是美國第一檔由大型商業銀行直接發行（而非代銷）的 BTC ETF，年費 0.14%，比 BlackRock 的 IBIT（0.25%）低了 44%。上市首日吸金 3,400 萬美元、成交超過 160 萬股，Bloomberg 分析師 Eric Balchunas 將其列入 ETF 首日表現前 1%。</p><p>低費率是策略性虧損定價：Morgan Stanley 的目標是透過旗下 16,000 名理財顧問，把客戶導入更高利潤的數位資產產品線。該行還有 Ethereum 和 Solana 信託的 S-1 文件待審，年底前計劃在 E-Trade 開放散戶加密貨幣交易。以建議的 0%–4% 配置範圍估算，即使只有 2% 客戶資產流入，也代表 1,600 億美元潛在需求。</p>",
@@ -1961,7 +1961,7 @@ window.FEED_DATA = {
         "DeFi"
       ],
       "date": "2026-04-14",
-      "source_count": 7,
+      "source_count": 5,
       "discussion_count": 5,
       "importance_score": 15,
       "sources": [
@@ -2009,7 +2009,7 @@ window.FEED_DATA = {
         "交易所"
       ],
       "date": "2026-04-14",
-      "source_count": 7,
+      "source_count": 5,
       "discussion_count": 5,
       "importance_score": 15,
       "sources": [
@@ -2093,7 +2093,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-16"
         }
       ],
-      "source_count": 6,
+      "source_count": 5,
       "discussion_count": 5,
       "importance_score": 15,
       "summary": "<p>EtherFi 是以太坊上最大的流動性再質押協議，旗下的 Cash 產品把自托管錢包和 Visa 簽帳卡綁在一起：使用者既可以直接用 ETH/USDC 抵押借出 USD1 穩定幣、也能刷卡消費、把再質押部位當成類信用卡的底層。這套產品原本部署在 L2 新秀 Scroll 上，2026 年初 EtherFi 宣布要搬家到 Optimism 的 OP Mainnet，三個月後正式完工。</p><p>這次搬過去的規模是 70,000 張活卡、30 萬個帳戶、$2.2 億 TVL，過程三天內搬完、零當機。OP Mainnet 官方聲明這是該網路史上最大的單次 TVL 轉入事件。EtherFi 給的理由是手續費中位數壓到 $0.00001、Flashblocks 讓敲定時間不到 250 毫秒、再加上 OP Enterprise 合作夥伴計畫。對 Scroll 則是明確的失血：根據 DeFiLlama 的資料，EtherFi 走之後 Scroll 年化手續費掉掉 $1,300 萬、TVL 剩下 $2,300 萬，相較 2024 年 10 月的巔峰 $5.85 億已經跌 96%。上週 Scroll 才被抓到偷灌 L1 data posting 費用 1,280 倍、超收使用者 $5 萬美元，兩件事湊在一起等於「最大收費來源離開、治理支出還要縮」的連鎖反應。</p>",
@@ -2112,7 +2112,7 @@ window.FEED_DATA = {
         "衍生品"
       ],
       "date": "2026-04-25",
-      "source_count": 9,
+      "source_count": 5,
       "discussion_count": 4,
       "importance_score": 14,
       "sources": [
@@ -2162,7 +2162,7 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-25",
       "image": "",
-      "source_count": 8,
+      "source_count": 7,
       "discussion_count": 0,
       "importance_score": 14,
       "sources": [
@@ -2279,7 +2279,7 @@ window.FEED_DATA = {
         "合規"
       ],
       "date": "2026-04-13",
-      "source_count": 9,
+      "source_count": 5,
       "discussion_count": 3,
       "importance_score": 13,
       "sources": [
@@ -2359,7 +2359,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-17"
         }
       ],
-      "source_count": 7,
+      "source_count": 4,
       "discussion_count": 5,
       "importance_score": 13,
       "summary": "<p>eToro 是全球 4,000 萬名使用者的交易平台，去年在那斯達克上市後加密交易佔佣金收入六成，Q1 交易量年增近四倍。但平台只提供託管式交易，使用者買了幣卻不能自己保管私鑰，也無法直接使用 DeFi 協議。</p><p>4 月 15 日 eToro 執行長 Yoni Assia 在巴黎區塊鏈週宣布以約 $7,000 萬美元現金收購以色列自託管錢包 Zengo，這是上市以來第一筆收購。Zengo 2018 年成立，用多方運算（MPC）加密取代傳統助記詞，超過 200 萬名使用者遍佈 180 個國家，先前共募資 $2,400 萬（投資者包括 Insight Partners 和 Tether）。收購完成後 eToro 計畫把產品線延伸到預測市場、永續合約和收益型產品。</p>",
@@ -2376,7 +2376,7 @@ window.FEED_DATA = {
         "市場"
       ],
       "date": "2026-04-10",
-      "source_count": 8,
+      "source_count": 5,
       "discussion_count": 3,
       "importance_score": 13,
       "sources": [
@@ -2429,7 +2429,7 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-25",
       "image": "https://cdn.sanity.io/images/s3y3vcno/production/6e0794b53fab4b04d9e3fdbc0f3d1a70cdf36125-1920x1283.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-      "source_count": 6,
+      "source_count": 5,
       "discussion_count": 3,
       "importance_score": 13,
       "sources": [
@@ -2503,7 +2503,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-17"
         }
       ],
-      "source_count": 7,
+      "source_count": 4,
       "discussion_count": 4,
       "importance_score": 12,
       "summary": "<p>管理 11.9 兆美元客戶資產的嘉信理財（Charles Schwab）正式公布現貨加密交易的上線細節。產品名稱是 Schwab Crypto，由旗下 Charles Schwab Premier Bank 營運，Q2 起分批上線：先讓員工和預約名單試跑，再開放給全體客戶。首波只開放 BTC 和 ETH，定價每筆 75 個基點，託管、撮合和清算全部由持有聯邦銀行執照的 Paxos 提供。</p><p>嘉信理財過去只讓客戶透過 ETF 和衍生品間接碰加密資產，這次直接開放現貨，等於把 3,900 萬個既有帳戶變成潛在的加密入口。不過上線初期不能從外部錢包存入或提領加密資產，紐約州和路易斯安那州也暫時排除在外。對照 Robinhood 和 Webull 等已經同時提供股票和幣的混合券商，嘉信理財的加入代表「傳統大型券商」這一層正式到齊。</p>",
@@ -2520,7 +2520,7 @@ window.FEED_DATA = {
         "meme coin"
       ],
       "date": "2026-04-24",
-      "source_count": 8,
+      "source_count": 6,
       "discussion_count": 0,
       "importance_score": 12,
       "sources": [
@@ -2608,7 +2608,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-17"
         }
       ],
-      "source_count": 6,
+      "source_count": 4,
       "discussion_count": 4,
       "importance_score": 12,
       "summary": "<p>FEC 4 月 15 日公布的申報文件揭露，Fellowship PAC 拿到 Cantor Fitzgerald 的 1,000 萬美元和加密銀行 Anchorage Digital 的 100 萬美元。這個 PAC 的主席是 Tether 政府事務負責人 Jesse Spiro，去年九月成立時號稱握有 1 億美元承諾。Cantor Fitzgerald 是商務部長 Howard Lutnick 轉手給兩個兒子的公司，同時也持有 Tether 股份、託管其儲備——Lutnick 本人甚至曾公開替 Tether 的儲備品質背書。</p><p>PAC 至今把 450 萬美元廣告費付給 NXUM Group，這家公司的共同創辦人是 Bo Hines——前白宮加密顧問委員會主任、現任 Tether US 執行長。等於金流從 Cantor（Tether 的託管方與股東）流進 PAC、再從 PAC 流回 Tether 高管的口袋。Molly White 在 Citation Needed 指出，Lutnick 把公司「賣給家人」的做法和 Trump 如出一轍：名義上利益迴避，實質上利益不變。</p>",
@@ -2625,7 +2625,7 @@ window.FEED_DATA = {
         "合規"
       ],
       "date": "2026-04-24",
-      "source_count": 10,
+      "source_count": 4,
       "discussion_count": 3,
       "importance_score": 11,
       "sources": [
@@ -2692,7 +2692,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-16"
         }
       ],
-      "source_count": 6,
+      "source_count": 3,
       "discussion_count": 5,
       "importance_score": 11,
       "summary": "<p>2001 年 NASDAQ 泡沫炸開後，FINRA 定下那條知名的 PDT 規則：只要五個交易日內做滿四筆當沖，戶頭就必須維持 $25,000 以上的權益，否則卡死。25 年下來，這條規則一直是美國散戶進階到主動交易的一道物理門檻。4 月 14 日，SEC 正式核准 FINRA 把 Rule 4210 改寫，刪除「Pattern Day Trader」這個定義、也拿掉 $25,000 最低門檻。SEC 副秘書長 Sherry Haywood 寫的批准令裡提到，公眾意見「壓倒性地支持」這項改動。</p><p>取代的做法是「即時保證金」：系統會隨著部位曝險動態計算擔保金額，而不是數交易筆數。連續五個交易日沒補足的戶頭，會被凍結 90 天、不能再新開或擴大空單和融資部位，不過 5% 或 $1,000 以下的小額缺口直接豁免。消息公布當天，Robinhood 盤中漲 7.8%、Webull 漲 8.9%。完整落地要 2026 中到 2028 年之間各家券商逐步改系統。這些券商同時都是加密交易的主要入口，散戶想在盤中快速切換股票和幣，等於一起鬆綁。</p>",
@@ -2711,7 +2711,7 @@ window.FEED_DATA = {
         "DNS 攻擊"
       ],
       "date": "2026-04-14",
-      "source_count": 6,
+      "source_count": 4,
       "discussion_count": 3,
       "importance_score": 11,
       "sources": [
@@ -2750,7 +2750,7 @@ window.FEED_DATA = {
         "監管"
       ],
       "date": "2026-04-14",
-      "source_count": 6,
+      "source_count": 4,
       "discussion_count": 3,
       "importance_score": 11,
       "sources": [
@@ -2791,7 +2791,7 @@ window.FEED_DATA = {
         "SEC"
       ],
       "date": "2026-04-13",
-      "source_count": 5,
+      "source_count": 4,
       "discussion_count": 3,
       "importance_score": 11,
       "sources": [
@@ -2863,7 +2863,7 @@ window.FEED_DATA = {
       "summary": "<p>OCC 有條件核准 Coinbase 設立「Coinbase National Trust Company」，總部設在紐約。這是美國第五家拿到類似核准的數位資產公司，前四家包括 Ripple 和 Circle。Coinbase 強調不會做存款或放貸業務，只專注於託管和信託服務。</p><p>美國獨立社區銀行協會（ICBA）隨即發出反對信，主席 Rebeca Romero Rainey 稱這是「嚴重的錯誤」。Brian Armstrong 則回應這不是變成銀行，而是把加密基礎設施納入聯邦監管。Coinbase 還需要通過合規審查、建立反洗錢系統並聘僱關鍵人員，才能拿到最終核准。</p>",
       "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">Coinbase 獲 OCC 信託牌照：美國第五家數位資產託管商</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">第 5 家</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">美國 OCC 信託</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">紐約</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">總部地點</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">託管服務</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">主要業務</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">4 月 4 日</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">獲得核准</div>\n</div>\n</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2020 年代</div>\n<div class=\"chart-timeline-text\">前四家數位資產信託牌照獲批（包括 Ripple、Circle）</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">2026 年 4 月 4 日</div>\n<div class=\"chart-timeline-text\" style=\"color:#333\">OCC 有條件核准 Coinbase National Trust Company</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">後續</div>\n<div class=\"chart-timeline-text\">Coinbase 需通過合規審查、建立 AML 系統、聘僱關鍵人員</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">最終</div>\n<div class=\"chart-timeline-text\">取得完整核准後正式營運</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：OCC、Coinbase、ICBA / 區塊勢整理</div>\n</div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span> Brian Armstrong 表示 Coinbase 不是要變成銀行，而是信託公司，目的是把加密基礎設施納入聯邦監管 — <a href='https://x.com/brian_armstrong/status/2040015642897825970'>@brian_armstrong</a></li><li><span class='discuss-tag'>質疑聲音</span> ICBA 主席 Rebeca Romero Rainey 發信反對，稱 OCC 核准加密公司信託牌照是「嚴重的錯誤」，將損害銀行體系穩定 — <a href='https://www.americanbanker.com/news/coinbase-receives-conditional-approval-for-occ-trust-charter'>American Banker</a></li><li><span class='discuss-tag'>產業觀點</span> Coin Bureau 指出這讓 Coinbase 能以聯邦監管的合格託管人身份運作，可在全美 50 州提供數位資產託管服務 — <a href='https://x.com/coinbureau/status/2040016853554483456'>@coinbureau</a></li></ol></div>",
-      "source_count": 5,
+      "source_count": 4,
       "discussion_count": 3,
       "importance_score": 11,
       "image": "https://cdn.sanity.io/images/s3y3vcno/production/01b078cd684ca9805f71cae842b6ed11cbf91ed4-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
@@ -3042,7 +3042,7 @@ window.FEED_DATA = {
         "香港"
       ],
       "date": "2026-04-13",
-      "source_count": 8,
+      "source_count": 4,
       "discussion_count": 2,
       "importance_score": 10,
       "sources": [
@@ -3086,7 +3086,7 @@ window.FEED_DATA = {
         "機構"
       ],
       "date": "2026-04-21",
-      "source_count": 8,
+      "source_count": 5,
       "discussion_count": 0,
       "importance_score": 10,
       "sources": [
@@ -3165,7 +3165,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-11"
         }
       ],
-      "source_count": 5,
+      "source_count": 4,
       "discussion_count": 2,
       "importance_score": 10,
       "summary": "<p>香港金管局從 2025 年 8 月《穩定幣條例》生效、36 家機構排隊申請到現在，第一批牌照終於發下來——只有兩張。一張給 HSBC（香港匯豐銀行），另一張給 Anchorpoint Financial，後者是由 Standard Chartered 領軍、並有 Animoca Brands 加入的合資企業。這兩家也是目前香港三家發鈔銀行中的兩家，等於把穩定幣發行權收進了既有的發鈔體系。</p><p>金管局表示持牌發行人預計在 2026 下半年正式推出港元掛鉤穩定幣，剩下的 34 家申請人還沒拿到答案，今年會不會再發照將決定香港穩定幣市場是變成寡占還是競爭市場。美國 GENIUS Act 還在國會卡關、歐盟 MiCA 的穩定幣規定也才上路，香港這一步讓亞洲時區的機構級港元穩定幣首度有了明確的監管出口。</p>",
@@ -3224,7 +3224,7 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-08",
       "image": "images/2026-04-07-SEC-6b9bfee6.png",
-      "source_count": 4,
+      "source_count": 3,
       "discussion_count": 3,
       "importance_score": 9,
       "sources": [
@@ -3265,7 +3265,7 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-07",
       "image": "https://cdn.sanity.io/images/s3y3vcno/production/13b253224c7ce4121651315a03a8d2dba3ee1ac8-5000x3333.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-      "source_count": 4,
+      "source_count": 3,
       "discussion_count": 3,
       "importance_score": 9,
       "sources": [
@@ -3771,7 +3771,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-21"
         }
       ],
-      "source_count": 7,
+      "source_count": 4,
       "discussion_count": 0,
       "importance_score": 8,
       "summary": "<p>Kraken 母公司 Payward 宣布以最高 5.5 億美元（現金加股票）收購加密衍生品交易所 Bitnomial，一口氣取得經紀商、清算所、交易所三張 CFTC 牌照。Bitnomial 是美國第一家同時持有這三張牌的加密原生公司，這筆交易等於讓 Payward 跳過了其他交易所可能花數年才能拿齊的監管門檻。交易隱含 Payward 估值 200 億美元，預計 2026 上半年完成。</p><p>Payward 旗下除了 Kraken 交易所還有期貨經紀商 NinjaTrader，收購後的衍生品堆疊會透過單一 API 對外開放，讓銀行、金融科技公司和券商接入合規的美國加密衍生品。這步棋的背景是 CLARITY Act 正在國會推進、CFTC 對加密衍生品的監管態度逐漸明朗化——誰先拿齊牌照誰就能搶到第一波合規需求。Coinbase 同期正在跟 Bybit 談代幣化美股的合作，兩大交易所都在用不同路徑搶同一個制高點：合規的加密金融基礎設施。</p>",
@@ -3806,7 +3806,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-20"
         }
       ],
-      "source_count": 5,
+      "source_count": 2,
       "discussion_count": 4,
       "importance_score": 8,
       "summary": "<p>RaveDAO 的 RAVE 代幣從不到 $0.50 在一週內飆到 $27.94，市值一度衝破 $60 億。鏈上偵探 ZachXBT 揭發三個關聯錢包控制了 90% 的流通量，其中與部署者相關的錢包在拉盤前把 1,858 萬顆 RAVE 轉入 Bitget，十小時後漲勢啟動。當時 Binance 上 74% 的交易者持有空單，內線撤走交易所上的賣壓，觸發史詩級空頭軋壓，$4,400 萬美元空單爆倉。</p><p>ZachXBT 點名後 Binance 執行長 Richard Teng 和 Bitget 執行長 Gracy Chen 都公開表示啟動調查。RAVE 隨後一天內崩跌 95%，蒸發約 $57 億市值。ZachXBT 自掏 $10,000 懸賞內線證據，社群加碼到 $25,000。RaveDAO 團隊否認操控，但承認計畫「在適當時機」出售解鎖代幣，未承諾任何鎖倉機制。</p>",
@@ -3847,7 +3847,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-08"
         }
       ],
-      "source_count": 5,
+      "source_count": 3,
       "discussion_count": 2,
       "importance_score": 8,
       "summary": "<p>USDe 是目前市值最大的合成美元穩定幣，過去主要靠加密貨幣永續合約的基差交易賺取收益。Ethena Labs 宣布全面改造 USDe 的儲備結構，永續合約部位從核心引擎降到只佔 11%，其餘由穩定幣儲備和 DeFi 借貸部位組成。</p><p>新策略加入四大支柱：透過 Anchorage Digital、Maple 和 Coinbase Asset Management 進行超額抵押的機構借貸；CLO 和投資等級債券等實體資產；股票和商品基差交易；以及對交易公司的主經紀借貸。每筆貸款都設有最低超額抵押率、集中度上限和自動清算門檻。ENA 代幣聞訊上漲約 7%。</p>",
@@ -3867,7 +3867,7 @@ window.FEED_DATA = {
         "Anthropic"
       ],
       "date": "2026-04-03",
-      "source_count": 6,
+      "source_count": 4,
       "discussion_count": 0,
       "importance_score": 8,
       "sources": [
@@ -3912,7 +3912,7 @@ window.FEED_DATA = {
         "跨鏈橋"
       ],
       "date": "2026-04-13",
-      "source_count": 4,
+      "source_count": 3,
       "discussion_count": 2,
       "importance_score": 8,
       "sources": [
@@ -3950,7 +3950,7 @@ window.FEED_DATA = {
         "監管"
       ],
       "date": "2026-04-10",
-      "source_count": 4,
+      "source_count": 3,
       "discussion_count": 2,
       "importance_score": 8,
       "sources": [
@@ -4005,7 +4005,7 @@ window.FEED_DATA = {
       "summary": "<p>Polymarket 一度是預測市場代名詞，2024 美國大選把月交易量推到 97 億美元。Kalshi 走 CFTC 合規路線，過去被認為份額難以過半。Bank of America 4 月 9 日報告卻顯示，Kalshi 已吃下美國市場 89%，Polymarket 只剩 7%。</p><p>Kalshi 3 月交易量 130 億美元（月增 25%），Polymarket 106 億（月增 33%）。沒想到合規跑最快的同時，司法壓力也追上來：Arizona 檢察長 3 月 17 日提出 20 項輕罪指控，是聯邦註冊業者首次遭刑事起訴。聯邦法院 4 月 9 日駁回 Kalshi 中止州訴請求，CFTC 同週反告 Arizona、Connecticut、Illinois 三州越權。</p>",
       "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">美國預測市場份額（Bank of America 4 月 9 日報告）</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">89%</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Kalshi 市佔</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">7%</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Polymarket</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">4%</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Crypto.com</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">$130 億</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Kalshi 3 月量</div>\n</div>\n</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2025 年底</div>\n<div class=\"chart-timeline-text\">Kalshi 市佔約 52.6%，與 Polymarket 勢均力敵</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年 3 月 17 日</div>\n<div class=\"chart-timeline-text\">Arizona 檢察長提出 20 項輕罪指控，聯邦註冊業者首次遭刑事起訴</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">2026 年 4 月 2 日</div>\n<div class=\"chart-timeline-text\">CFTC 反告 Arizona、Connecticut、Illinois 三州越權</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">2026 年 4 月 9 日</div>\n<div class=\"chart-timeline-text\">Bank of America 報告公布 89% 市佔，同日聯邦法院駁回 Kalshi 中止州訴請求</div>\n</div>\n</div>\n</div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>產業觀點</span><a href=\"https://www.coindesk.com/markets/2026/04/09/kalshi-now-controls-89-of-the-u-s-prediction-market-as-regulated-trading-takes-over\" target=\"_blank\" rel=\"noopener\">Bank of America 報告</a>點出機構保證金交易上線是本季成長的轉折點，讓 Kalshi 把散戶用戶之外的法人流動性一次吃下。</li><li><span class='discuss-tag'>法律觀點</span><a href=\"https://www.morganlewis.com/pubs/2026/03/arizona-files-first-criminal-charges-against-a-prediction-market\" target=\"_blank\" rel=\"noopener\">Morgan Lewis 分析</a>指出 Arizona 這 20 項指控把事件合約同時主張為「賭博」和「未取得州牌照」，兩條攻擊路線都必須由 Kalshi 一次擋下。</li><li><span class='discuss-tag'>質疑聲音</span><a href=\"https://www.npr.org/2026/04/02/nx-s1-5771635/trump-cftc-kalshi-polymarket-lawsuits\" target=\"_blank\" rel=\"noopener\">NPR 報導</a>引用 Arizona 檢察長 Kris Mayes 的回應，主張州層級賭博執法不受 CFTC 先佔原則約束，這是聯邦監管權力的原則之爭。</li><li><span class='discuss-tag'>競爭動態</span>Polymarket 3 月量成長 33% 快於 Kalshi 的 25%，但絕對量只有對手八成。業內認為 Polymarket 如果無法盡快取得美國合規地位，份額差距會繼續拉開。</li></ol></div>",
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 4,
       "importance_score": 8,
       "_image_source": "gemini",
@@ -4040,7 +4040,7 @@ window.FEED_DATA = {
       "summary": "<p>過去一年想接 AI 代理的支付業者都在賭同一件事：誰的協議會變成標準。OpenAI、Google、Stripe/Tempo 和 Visa 各自推出自家版本互不相讓。</p><p>Visa 4 月 8 日公布 Intelligent Commerce Connect，做出預期外的讓步：平台不只讓 AI 代理刷 Visa 卡，也支援其他卡組織 API，同時相容上述四種協議。其實這更像從卡組織競爭切到收單層壟斷——消費者刷哪家卡都行，付款流程得走 Visa。6 月全面推出。</p>",
       "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">Visa Intelligent Commerce Connect 支援的四大代理協議</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:16px;font-weight:700;color:#ef5350;line-height:1.3\">Visa<br>Trusted Agent</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">自家協議</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:16px;font-weight:700;color:#ffa726;line-height:1.3\">OpenAI<br>ACP</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Agentic Commerce Protocol</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:16px;font-weight:700;color:#42a5f5;line-height:1.3\">Google<br>UCP</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Universal Commerce Protocol</div>\n</div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n<div style=\"font-size:16px;font-weight:700;color:#66bb6a;line-height:1.3\">Stripe/Tempo<br>MPP</div>\n<div style=\"font-size:11px;color:#888;margin-top:4px\">Machine Payments Protocol</div>\n</div>\n</div>\n<div class=\"chart-timeline\" style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">關鍵特性</div>\n<div class=\"chart-timeline-text\">單一整合接 Visa 與非 Visa 卡組織 API，代理可同時刷多家卡</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">商家端</div>\n<div class=\"chart-timeline-text\">商品目錄可直接被 AI 代理發現，跳過傳統結帳流程</div>\n</div>\n<div class=\"chart-timeline-item\">\n<div class=\"chart-timeline-date\">安全層</div>\n<div class=\"chart-timeline-text\">代幣化、支出限制與身分驗證由 Visa Acceptance Platform 處理</div>\n</div>\n<div class=\"chart-timeline-item highlight\">\n<div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">2026 年 6 月</div>\n<div class=\"chart-timeline-text\">Intelligent Commerce Connect 預計全面推出，首批試用 AWS、Aldar、Firmly、Nekuda</div>\n</div>\n</div>\n</div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span><a href=\"https://corporate.visa.com/en/sites/visa-perspectives/newsroom/visa-intelligent-commerce-connect-ai-shopping-for-businesses.html\" target=\"_blank\" rel=\"noopener\">Visa 新聞稿</a>強調商家用「單一整合」就能接觸所有代理協議，明示這是想把自己做成代理商務的預設收單層。</li><li><span class='discuss-tag'>產業觀點</span><a href=\"https://www.axios.com/2026/04/08/visa-ai-agent-payments-platform\" target=\"_blank\" rel=\"noopener\">Axios 報導</a>指出這是 Visa 首次公開承認自家協議不會是唯一選擇，走向「協議中立、收單層主導」的防守姿態。</li><li><span class='discuss-tag'>競爭動態</span><a href=\"https://www.banklesstimes.com/articles/2026/04/09/visa-unveils-intelligent-commerce-connect-to-power-ai-agent-payments/\" target=\"_blank\" rel=\"noopener\">BanklessTimes</a>點出 Mastercard、American Express 目前尚未公布對等產品，Visa 搶先推出等於把這一輪談判的主場擺在自己這邊。</li><li><span class='discuss-tag'>質疑聲音</span>有分析師懷疑 Visa 會對非 Visa 交易收取較高「網關費」，讓「相容」變成另一種變相排他。目前費率結構尚未公布。</li></ol></div>",
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 4,
       "importance_score": 8,
       "_image_source": "gemini",
@@ -4057,7 +4057,7 @@ window.FEED_DATA = {
         "監管"
       ],
       "date": "2026-04-25",
-      "source_count": 10,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "sources": [
@@ -4105,7 +4105,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-20"
         }
       ],
-      "source_count": 5,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "summary": "<p>市值逾千億美元的三井物産與佔日本證券型代幣發行量 63% 的 Progmat（三菱 UFJ 旗下），幾乎同時宣布從私有鏈搬到公鏈。日本金融機構過去堅持「合規等於私有鏈」，這是第一次有這個量級的機構打破慣例。三井物産子公司 4 月 17 日將追蹤黃金、白銀、白金價格的 Zipangcoin 系列部署到 OP Mainnet，過去四年關在 bitFlyer 私鏈上。GMO Coin 4/20 上架交易。</p><p>Progmat 則計畫六月前把 4,396 億日圓（約 $29 億）的代幣化不動產與公司債從 R3 Corda 搬到 Avalanche L1，並推出跨鏈結算的 Project Keystone。2025 年全球鏈上代幣化 RWA 規模已達 $186 億，三年內預估到 $2 兆。三井物産最大股東是持股逾 10% 的 Berkshire Hathaway，巴菲特旗下公司間接成了公鏈生態的利害關係人。</p>",
@@ -4123,7 +4123,7 @@ window.FEED_DATA = {
         "監管"
       ],
       "date": "2026-04-13",
-      "source_count": 4,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "sources": [
@@ -4171,7 +4171,7 @@ window.FEED_DATA = {
       "summary": "<p>IMF 發布研究報告，由貨幣與資本市場部門主管 Tobias Adrian 主筆，認為代幣化不只是技術升級，而是金融架構的「結構性轉變」。報告指出 2025 年代幣化實體資產（RWA）的總值翻了 3 倍，產業預測 2026 年底可能突破 1,000 億美元，全球前 20 大資產管理公司過半預計年底前推出 RWA 代幣。</p><p>不過 IMF 也點出四大風險：市場碎片化、金融穩定衝擊、法律空白、新興市場不穩定。報告特別提到穩定幣是整個體系最脆弱的環節——智能合約漏洞或預言機故障可能在無人反應之前就觸發連鎖清算。IMF 提出五大政策支柱，包括將結算錨定在安全貨幣、建立跨活動的一致監管。</p>",
       "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">IMF 報告：代幣化是金融「結構性轉變」</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">結構性</div><div style=\"font-size:11px;color:#888;margin-top:4px\">金融轉變</div></div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">穩定幣</div><div style=\"font-size:11px;color:#888;margin-top:4px\">最脆弱環節</div></div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">監管</div><div style=\"font-size:11px;color:#888;margin-top:4px\">需加強</div></div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">未來</div><div style=\"font-size:11px;color:#888;margin-top:4px\">高速成長</div></div>\n</div>\n<div style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div style=\"margin-bottom:14px\"><strong style=\"font-size:14px\">代幣化的三大風險</strong></div>\n<div style=\"font-size:11px;color:#666;line-height:1.8\">\n<div style=\"margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #eee\">\n<strong style=\"color:#ef5350\">穩定幣風險：</strong>儲備不足、發行者破產\n</div>\n<div style=\"margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #eee\">\n<strong style=\"color:#ffa726\">流動性風險：</strong>鏈上市場深度不夠\n</div>\n<div>\n<strong style=\"color:#42a5f5\">監管風險：</strong>跨域管轄不明\n</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：IMF 金融穩定報告 / 區塊勢整理</div>\n</div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span> IMF 官方帳號表示代幣化正在重塑受監管的金融體系，將資產移至可程式化帳本上，帶來效率提升但需要強力的政策錨點 — <a href='https://x.com/IMFNews'>@IMFNews</a></li><li><span class='discuss-tag'>產業觀點</span> CryptoPotato 分析指出 IMF 最擔心的是代幣化消除了傳統金融的緩衝機制——當清算即時發生，沒有時間讓人為介入 — <a href='https://cryptopotato.com/imf-highlights-hidden-risks-as-tokenization-eliminates-traditional-financial-buffers/'>CryptoPotato</a></li><li><span class='discuss-tag'>不同角度</span> AMBCrypto 指出 IMF 在肯定代幣化效率的同時也警告它可能動搖全球市場穩定，立場比以往更謹慎 — <a href='https://ambcrypto.com/imf-warns-tokenized-finance-could-reshape-and-destabilize-global-markets/'>AMBCrypto</a></li></ol></div>",
-      "source_count": 4,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "added_date": "2026-04-04",
@@ -4204,7 +4204,7 @@ window.FEED_DATA = {
       "summary": "<p>比特幣的 Q1 一向極端：2021 年漲 103%，2024 年漲 69%——但 2026 年卻跌了 22%，是 2018 年以來最差的開年，史上第三慘的第一季。伊朗戰事、通膨黏著、Fed 謹慎，讓風險資產全面受壓。</p><p>BTC 從年初 8.75 萬美元跌至季末 6.82 萬美元，現貨 ETF 淨流出 4.97 億美元。持幣 100 至 10,000 枚的鯨魚和鯊魚，Q1 日均實現虧損 3.37 億美元，累計鎖定虧損 309 億美元。分析師認為這是週期修正，不是結構崩壞，潛在底部估計在 4 至 5 萬美元區間。</p>",
       "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">Bitcoin Q1 2026：最慘一季，巨鯨日均止損 3.37 億美元</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">-22%</div><div style=\"font-size:11px;color:#888;margin-top:4px\">BTC 跌幅</div></div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ffa726;line-height:1.2\">$3.37 億</div><div style=\"font-size:11px;color:#888;margin-top:4px\">日均止損</div></div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#42a5f5;line-height:1.2\">2018 年來</div><div style=\"font-size:11px;color:#888;margin-top:4px\">最慘 Q1</div></div>\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#66bb6a;line-height:1.2\">3 個月</div><div style=\"font-size:11px;color:#888;margin-top:4px\">下跌期間</div></div>\n</div>\n<div style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div style=\"margin-bottom:14px\"><strong style=\"font-size:14px\">Q1 2026 關鍵數據</strong></div>\n<div style=\"display:grid;grid-template-columns:1fr 1fr;gap:12px\">\n<div style=\"background:#ffebee;border-radius:8px;padding:12px\">\n<div style=\"font-size:20px;font-weight:700;color:#ef5350\">-22%</div>\n<div style=\"font-size:11px;color:#666;margin-top:4px\">BTC 季度跌幅</div>\n</div>\n<div style=\"background:#e3f2fd;border-radius:8px;padding:12px\">\n<div style=\"font-size:16px;font-weight:700;color:#42a5f5\">$3.37 億</div>\n<div style=\"font-size:11px;color:#666;margin-top:4px\">巨鯨日均止損</div>\n</div>\n</div>\n</div>\n<div class=\"chart-source\">資料來源：鏈上分析、市場數據 / 區塊勢整理</div>\n</div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>分析師</span> VanEck 的 Matthew Sigel 指出機構投資者已尋求第 99 百分位的衍生品保護，顯示下行風險仍未完全定價 — The Block</li><li><span class='discuss-tag'>社群反應</span> Michael Saylor 在 X 上稱「四年週期已死」，認為比特幣的波動率將持續下降而不是等待下一個減半 — Decrypt</li><li><span class='discuss-tag'>不同角度</span> 機構分析師普遍認為這是週期性修正而非結構崩壞，潛在底部落在 4 至 5 萬美元區間，支撐來自長期持有者的成本基礎 — NewsBTC</li></ol></div>",
-      "source_count": 4,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "added_date": "2026-04-02",
@@ -4240,7 +4240,7 @@ window.FEED_DATA = {
       "summary": "<p>華為即將量產的 Ascend 950PR 是目前中國最先進的 AI 訓練晶片，在美國出口管制持續收緊的背景下，這款晶片成了中國 AI 產業能否自主運算的關鍵。DeepSeek 已確認下一代 V4 模型將全面採用華為晶片運行。</p><p>Alibaba、ByteDance、Tencent 等中國科技巨頭已向華為下了數十萬顆晶片的批量訂單，準備為 DeepSeek V4 提供算力。這批訂單讓 Ascend 950PR 的價格上漲了 20%。對華為來說，這是制裁壓力下的里程碑——中國 AI 供應鏈正在繞開 NVIDIA 自成一圈。</p>",
       "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">華為 Ascend 950PR 晶片量產在即，DeepSeek V4 確認全面採用中國自製 AI 晶片</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ef5350;line-height:1.2\">20%</div><div style=\"font-size:11px;color:#888;margin-top:4px\">關鍵指標 1</div></div>\n</div>\n<div style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div style=\"font-size:13px;color:#666;line-height:1.6\">\n<p><strong>核心要點：</strong></p>\n<p> 華為即將量產的 Ascend 950PR 是目前中國最先進的 AI 訓練晶片，在美國出口管制持續收緊的背景下，這款晶片成了中國 AI 產業能否自主運算的關鍵。DeepSeek 已確認下一代 V4 模型將全面採用華為晶片運行。  Alibaba、ByteDance、Tencent 等中國科技巨頭已向華為下了數十萬顆晶片的批量訂單，準備為 DeepSeek V4 提供算力。這批訂單讓 Ascend 950PR 的價格上漲了 20%。對華為來說，這是制裁壓力下的里程碑——中國 AI 供應鏈正在繞開 NVIDIA 自成一圈。 </p>\n<p style=\"font-size:12px;color:#999;margin-top:12px\">詳細分析請見完整文章。</p>\n</div>\n</div>\n<div class=\"chart-source\">區塊勢整理</div>\n</div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>產業觀點</span> DeepSeek V4 將在華為晶片上運行。Alibaba、ByteDance、Tencent 等巨頭已大量下單，為 V4 上線備貨數十萬顆晶片 — <a href='https://x.com/rohanpaul_ai/status/2040067801164226719'>@rohanpaul_ai</a></li><li><span class='discuss-tag'>分析師</span> 這是華為在制裁壓力下的重大勝利。中國科技巨頭正搶購華為即將量產的 Ascend 950PR 晶片 — <a href='https://x.com/pstAsiatech/status/2040055459193774260'>@pstAsiatech</a></li><li><span class='discuss-tag'>官方聲明</span> DeepSeek 確認 V4 模型將完全在中國自製晶片上運行，因應美國出口管制 — <a href='https://x.com/Cointelegraph/status/2040102245149069694'>@Cointelegraph</a></li></ol></div>",
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "added_date": "2026-04-04",
@@ -4278,7 +4278,7 @@ window.FEED_DATA = {
         "Gmail",
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "added_date": "2026-04-03",
@@ -4314,7 +4314,7 @@ window.FEED_DATA = {
         "X",
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "added_date": "2026-04-03",
@@ -4349,7 +4349,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "added_date": "2026-04-03"
@@ -4383,7 +4383,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "added_date": "2026-04-02"
@@ -4417,7 +4417,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "added_date": "2026-04-02"
@@ -4449,7 +4449,7 @@ window.FEED_DATA = {
       "summary": "<p>Coinbase 推出的 x402 讓 AI 代理執行任務時能直接用穩定幣支付，無需 API 金鑰或人工審批。設計是把「Payment Required」嵌入 HTTP 回應，讓支付和資料請求在同一層完成，而不是外掛在上面的系統。</p><p>4 月 2 日，Coinbase 把 x402 捐給 Linux Foundation，成立非營利 x402 Foundation。23 家聯創成員包括 Visa、Mastercard、Google、AWS、Microsoft、Stripe、Cloudflare、Shopify、Circle。平台已累積超過 1 億筆交易，平均金額從 1.6 美元升至 34.5 美元。Kubernetes 和 Node.js 也都是 Linux Foundation 旗下，這個歸屬讓企業採用有了信任背書。</p>",
       "chart": "<div class=\"chart-wrap\">\n<div class=\"chart-title\">AI 代理居然會幫你付帳：x402 加入 Linux Foundation，Visa、Google、Stripe 等 23 家聯署</div>\n<div style=\"display:flex;gap:10px;margin-bottom:18px\">\n<div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\">\n      <div style=\"font-size:16px;font-weight:700;color:#42a5f5\">重大</div>\n      <div style=\"font-size:11px;color:#888;margin-top:4px\">產業進展</div></div>\n</div>\n<div style=\"background:#ffffff;border:1px solid #e0e0e0;border-radius:8px;padding:16px\">\n<div style=\"font-size:13px;color:#666;line-height:1.6\">\n<p><strong>核心要點：</strong></p>\n<p> Coinbase 推出的 x402 讓 AI 代理執行任務時能直接用穩定幣支付，無需 API 金鑰或人工審批。設計是把「Payment Required」嵌入 HTTP 回應，讓支付和資料請求在同一層完成，而不是外掛在上面的系統。  4 月 2 日，Coinbase 把 x402 捐給 Linux Foundation，成立非營利 x402 Foundation。23 家聯創成員包括 Visa、Mastercard、Google、AWS、Microsoft、Stripe、Cloudflare、Shopify、Circle。平台已累積超過 1 億筆交易，平均金額從 1.6 美元升至 34.5 </p>\n<p style=\"font-size:12px;color:#999;margin-top:12px\">詳細分析請見完整文章。</p>\n</div>\n</div>\n<div class=\"chart-source\">區塊勢整理</div>\n</div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>官方聲明</span> Coinbase 宣布把 x402 捐給 Linux Foundation，讓協議成為開放標準而非 Coinbase 專屬產品 — <a href='https://x.com/coinbase'>@coinbase</a></li><li><span class='discuss-tag'>社群反應</span> 鏈上 AI 代理追蹤帳號 @aixbt_agent 指出平台累積超過 1 億筆交易，平均交易金額在 30 天內從 1.6 美元飆升至 34.5 美元，顯示高價值場景在增加</li><li><span class='discuss-tag'>產業觀點</span> 分析師指出 x402 對應的是 HTTP 402「Payment Required」這個幾十年來從未被正式實作的狀態碼，AI 代理的出現讓這個設計終於找到了使用場景</li></ol></div>",
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "image": "https://cdn.sanity.io/images/s3y3vcno/production/b11b57bbdb9c1bbd647131e9f1fa00f76d6c0418-4096x3080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
@@ -4486,7 +4486,7 @@ window.FEED_DATA = {
         "Gmail",
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "added_date": "2026-04-01"
@@ -4520,7 +4520,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "added_date": "2026-04-01"
@@ -4553,7 +4553,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 3,
       "importance_score": 7,
       "added_date": "2026-03-31"
@@ -5215,7 +5215,7 @@ window.FEED_DATA = {
         "合規"
       ],
       "date": "2026-04-13",
-      "source_count": 7,
+      "source_count": 1,
       "discussion_count": 3,
       "importance_score": 5,
       "sources": [
@@ -5256,7 +5256,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 1,
       "discussion_count": 3,
       "importance_score": 5,
       "added_date": "2026-04-03"
@@ -5285,7 +5285,7 @@ window.FEED_DATA = {
         "X",
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 1,
       "discussion_count": 3,
       "importance_score": 5,
       "added_date": "2026-04-03"
@@ -5314,7 +5314,7 @@ window.FEED_DATA = {
         "X",
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 1,
       "discussion_count": 3,
       "importance_score": 5,
       "added_date": "2026-04-03"
@@ -5343,7 +5343,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 1,
       "discussion_count": 3,
       "importance_score": 5,
       "added_date": "2026-04-03"
@@ -5372,7 +5372,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 1,
       "discussion_count": 3,
       "importance_score": 5,
       "added_date": "2026-04-02"
@@ -5399,7 +5399,7 @@ window.FEED_DATA = {
       "summary": "<p>美國目前只管制最先進的 EUV 光刻設備出口中國，DUV 設備則不在禁令範圍內。新法案打算堵上這個缺口，連 DUV 一併禁止。DUV 是中國目前用來量產成熟製程晶片的核心設備，一旦斷供，影響範圍遠比 EUV 禁令更大。</p><p>中國對晶片製造設備的進口從 2016 年的 107 億美元，暴增到約 511 億美元。這個 5 倍的成長數字，正是國會議員推動更嚴格禁令的理由——現有管制沒擋住中國的晶片產能擴張。</p>",
       "chart": "<div class='chart-wrap'><div style='background:#ffffff;padding:20px;border-radius:12px;font-family:system-ui,-apple-system,sans-serif;color:#1a1a1a;max-width:520px'><div style='font-size:14px;color:#666;margin-bottom:16px'>中國晶片製造設備進口額（億美元）</div><div style='display:flex;align-items:flex-end;gap:8px;height:200px;padding-bottom:4px'><div style='display:flex;flex-direction:column;align-items:center;flex:1'><div style='font-size:11px;color:#666;margin-bottom:4px'>107</div><div style='width:100%;background:#90caf9;border-radius:4px 4px 0 0;height:42px'></div><div style='font-size:11px;color:#666;margin-top:4px'>2016</div></div><div style='display:flex;flex-direction:column;align-items:center;flex:1'><div style='font-size:11px;color:#666;margin-bottom:4px'>156</div><div style='width:100%;background:#90caf9;border-radius:4px 4px 0 0;height:61px'></div><div style='font-size:11px;color:#666;margin-top:4px'>2018</div></div><div style='display:flex;flex-direction:column;align-items:center;flex:1'><div style='font-size:11px;color:#666;margin-bottom:4px'>213</div><div style='width:100%;background:#90caf9;border-radius:4px 4px 0 0;height:83px'></div><div style='font-size:11px;color:#666;margin-top:4px'>2020</div></div><div style='display:flex;flex-direction:column;align-items:center;flex:1'><div style='font-size:11px;color:#666;margin-bottom:4px'>347</div><div style='width:100%;background:#64b5f6;border-radius:4px 4px 0 0;height:136px'></div><div style='font-size:11px;color:#666;margin-top:4px'>2022</div></div><div style='display:flex;flex-direction:column;align-items:center;flex:1'><div style='font-size:11px;color:#666;margin-bottom:4px'>~511</div><div style='width:100%;background:#f44336;border-radius:4px 4px 0 0;height:200px'></div><div style='font-size:11px;color:#666;margin-top:4px'>2025</div></div></div><div style='font-size:11px;color:#999;margin-top:12px;text-align:right'>來源：NBC News 引用產業資料</div></div></div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>產業觀點</span> 美國正在考慮將出口管制從 EUV 擴大到 DUV 光刻設備。中國的晶片設備進口額從 2016 年的 107 億美元增至約 511 億美元 — <a href='https://www.techmeme.com/'>Techmeme</a></li><li><span class='discuss-tag'>不同角度</span> 中國科技巨頭已大量採購華為 Ascend 950PR 晶片來跑 DeepSeek V4，顯示即使管制升級，中國 AI 供應鏈已開始自主化 — <a href='https://x.com/pstAsiatech/status/2040055459193774260'>@pstAsiatech</a></li><li><span class='discuss-tag'>社群反應</span> DUV 禁令若通過，影響的不只是先進製程，而是中國整個成熟製程的產能擴張，波及汽車、家電等消費電子產業 — <a href='https://www.techmeme.com/'>Techmeme 討論串</a></li></ol></div>",
-      "source_count": 2,
+      "source_count": 1,
       "discussion_count": 3,
       "importance_score": 5,
       "added_date": "2026-04-04",
@@ -5430,7 +5430,7 @@ window.FEED_DATA = {
         "X",
         "Web"
       ],
-      "source_count": 2,
+      "source_count": 1,
       "discussion_count": 3,
       "importance_score": 5,
       "added_date": "2026-04-03",
@@ -5474,7 +5474,7 @@ window.FEED_DATA = {
         "機構採用"
       ],
       "date": "2026-04-03",
-      "source_count": 6,
+      "source_count": 2,
       "discussion_count": 0,
       "importance_score": 4,
       "sources": [
@@ -5508,7 +5508,7 @@ window.FEED_DATA = {
         "ADI Chain"
       ],
       "date": "2026-04-02",
-      "source_count": 5,
+      "source_count": 2,
       "discussion_count": 0,
       "importance_score": 4,
       "sources": [
@@ -5553,7 +5553,7 @@ window.FEED_DATA = {
       "summary": "<p>Scroll 團隊透過多簽錢包，在 4 月 4 日至 8 日間對 L1 手續費乘數做了 6 次手動調高，複合效果把費率推到基線的 1,280 倍。13.9 萬筆交易受影響，原本只要 $280 的總成本被灌到超過 5 萬美元。Succinct 工程師 fakedev9999 實測：單筆手續費從 $0.002 跳到 $20 以上。</p><p>其中 66%（約 3.5 萬美元）落在 ether.fi 的遷移機器人上——ether.fi 正從 Scroll 搬到 OP Mainnet，時間點高度重疊。4 月 9 日 Scroll 把乘數降了 160 倍，但仍是基線的 8 倍。Scroll 團隊至今未公開回應。</p>",
       "chart": "<div class='chart-wrap'><div style='background:#ffffff;padding:20px;border-radius:12px;font-family:system-ui,-apple-system,sans-serif;color:#1a1a1a;max-width:520px'><div style='font-size:14px;color:#666;margin-bottom:16px'>主要 L2 每筆交易中位費用（2026 年 4 月）</div><div style='position:relative'><div style='display:flex;align-items:center;margin-bottom:10px'><div style='width:120px;font-size:12px;color:#666;flex-shrink:0'>Arbitrum One</div><div style='flex:1;background:#f5f5f5;border-radius:4px;height:24px;position:relative'><div style='background:#42a5f5;border-radius:4px;height:24px;width:8%'></div></div><div style='width:60px;text-align:right;font-size:12px;color:#666'>$0.003</div></div><div style='display:flex;align-items:center;margin-bottom:10px'><div style='width:120px;font-size:12px;color:#666;flex-shrink:0'>Base</div><div style='flex:1;background:#f5f5f5;border-radius:4px;height:24px;position:relative'><div style='background:#42a5f5;border-radius:4px;height:24px;width:5%'></div></div><div style='width:60px;text-align:right;font-size:12px;color:#666'>$0.002</div></div><div style='display:flex;align-items:center;margin-bottom:10px'><div style='width:120px;font-size:12px;color:#666;flex-shrink:0'>OP Mainnet</div><div style='flex:1;background:#f5f5f5;border-radius:4px;height:24px;position:relative'><div style='background:#42a5f5;border-radius:4px;height:24px;width:10%'></div></div><div style='width:60px;text-align:right;font-size:12px;color:#666'>$0.004</div></div><div style='display:flex;align-items:center;margin-bottom:10px'><div style='width:120px;font-size:12px;color:#666;flex-shrink:0'>Scroll（正常）</div><div style='flex:1;background:#f5f5f5;border-radius:4px;height:24px;position:relative'><div style='background:#66bb6a;border-radius:4px;height:24px;width:5%'></div></div><div style='width:60px;text-align:right;font-size:12px;color:#666'>$0.002</div></div><div style='display:flex;align-items:center;margin-bottom:10px'><div style='width:120px;font-size:12px;color:#ef5350;flex-shrink:0;font-weight:600'>Scroll（灌高後）</div><div style='flex:1;background:#f5f5f5;border-radius:4px;height:24px;position:relative'><div style='background:#ef5350;border-radius:4px;height:24px;width:100%'></div></div><div style='width:60px;text-align:right;font-size:12px;color:#ef5350;font-weight:600'>$20+</div></div></div><div style='font-size:11px;color:#999;margin-top:12px'>資料來源：L2BEAT、fakedev9999 實測 / 區塊勢整理</div></div></div>",
       "discussions": "<div class='story-discuss'><ol><li><span class='discuss-tag'>鏈上分析</span> L2BEAT 拆解 Scroll 的 6 次手動調高過程，指出複合乘數達到基線的 1,280 倍，13.9 萬筆交易受影響 — <a href='https://x.com/l2beat/status/2042663064038756785' target='_blank' rel='noopener'>@l2beat</a></li><li><span class='discuss-tag'>開發者實測</span> Succinct 工程師 fakedev9999 最早公開揭露，實測單筆手續費從 $0.002 暴漲到 $20 以上 — <a href='https://x.com/fakedev9999/status/2041716419893850379' target='_blank' rel='noopener'>@fakedev9999</a></li></ol></div>",
-      "source_count": 3,
+      "source_count": 1,
       "discussion_count": 2,
       "importance_score": 4,
       "added_date": "2026-04-12"
@@ -5588,7 +5588,7 @@ window.FEED_DATA = {
         "Gmail",
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 0,
       "importance_score": 4,
       "added_date": "2026-03-30"
@@ -5622,7 +5622,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 0,
       "importance_score": 4,
       "added_date": "2026-03-30"
@@ -5656,7 +5656,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 0,
       "importance_score": 4,
       "added_date": "2026-03-29"
@@ -5690,7 +5690,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "discussion_count": 0,
       "importance_score": 4,
       "added_date": "2026-03-28"
@@ -5889,7 +5889,7 @@ window.FEED_DATA = {
         "Gmail",
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 1,
       "discussion_count": 0,
       "importance_score": 2,
       "added_date": "2026-03-30"
@@ -5917,7 +5917,7 @@ window.FEED_DATA = {
       "fetchedFrom": [
         "Web"
       ],
-      "source_count": 3,
+      "source_count": 1,
       "discussion_count": 0,
       "importance_score": 2,
       "added_date": "2026-03-26"
