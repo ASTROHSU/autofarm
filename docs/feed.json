@@ -1646,8 +1646,8 @@
       "date": "2026-04-26",
       "image": "",
       "source_count": 6,
-      "discussion_count": 0,
-      "importance_score": 12,
+      "discussion_count": 5,
+      "importance_score": 17,
       "sources": [
         {
           "name": "CNN",
@@ -1682,7 +1682,7 @@
       ],
       "summary": "<p>美國財政部長 Bessent 宣布「經濟怒火」行動，OFAC 聯手 Tether 凍結兩個 Tron 鏈上錢包共 $3.44 億 USDT，追溯到伊朗央行、革命衛隊聖城旅與真主黨。這是穩定幣史上金額最大的合規凍結，也是第一次直接鎖定一國央行的鏈上資產。</p><p>TRM Labs 分析顯示，這兩個錢包自 2021 年起透過約 1,000 筆交易累積 $3.7 億，幾乎只進不出，模式接近主權儲備而非日常操作。伊朗 2025 年加密貨幣持有量達 $78 億，革命衛隊佔約一半。Tether 的「一鍵凍結」能力再度引發去中心化社群對穩定幣審查風險的討論。</p>",
       "chart": "<div class='chart-wrap'><div class='chart-title'>OFAC 歷年加密貨幣制裁凍結規模</div><div class='chart-bar'><div style='display:flex;align-items:end;gap:12px;height:180px;padding:16px 0'><div style='flex:1;text-align:center'><div style='background:#e8e0d4;height:18px;border-radius:4px 4px 0 0'></div><div style='font-size:11px;color:#888;margin-top:6px'>2022</div><div style='font-size:12px;font-weight:600;color:#1a1a1a'>$3,000萬</div></div><div style='flex:1;text-align:center'><div style='background:#e8e0d4;height:36px;border-radius:4px 4px 0 0'></div><div style='font-size:11px;color:#888;margin-top:6px'>2023</div><div style='font-size:12px;font-weight:600;color:#1a1a1a'>$7,300萬</div></div><div style='flex:1;text-align:center'><div style='background:#e8e0d4;height:54px;border-radius:4px 4px 0 0'></div><div style='font-size:11px;color:#888;margin-top:6px'>2024</div><div style='font-size:12px;font-weight:600;color:#1a1a1a'>$1.05億</div></div><div style='flex:1;text-align:center'><div style='background:#ef5350;height:160px;border-radius:4px 4px 0 0'></div><div style='font-size:11px;color:#888;margin-top:6px'>2026.4</div><div style='font-size:14px;font-weight:700;color:#ef5350'>$3.44億</div><div style='font-size:10px;color:#888'>單筆最高</div></div></div></div><div class='chart-source'>資料來源：TRM Labs / OFAC / 區塊勢整理</div></div>",
-      "discussions": "",
+      "discussions": "<div class='discussions'><div class='discussion-item'><a href='https://x.com/0xSweep/status/2048011211350970841' target='_blank'>@0xSweep</a>：Tether 累計凍結 $33 億、7,268 個錢包，這次又加了 $3.44 億。一鍵凍結的規模已經超越多數國家的資產扣押能力。</div><div class='discussion-item'><a href='https://x.com/CoinDesk/status/2047299295213158559' target='_blank'>@CoinDesk</a>：Tether 史上最大單筆凍結，與 OFAC 及美國執法機構協調執行。</div><div class='discussion-item'><a href='https://x.com/Cointelegraph/status/2047721325163106565' target='_blank'>@Cointelegraph</a>：$3.44 億 USDT 凍結與伊朗有關，CNN 率先報導。</div><div class='discussion-item'><a href='https://x.com/BullTheoryio/status/2047728009009086488' target='_blank'>@BullTheory</a>：川普政府確認錢包直接關聯伊朗交易所與伊朗央行。</div><div class='discussion-item'><a href='https://x.com/JamesDula82/status/2040413694065267006' target='_blank'>@Iso Ledger</a>：USDT、USDC、RLUSD 都有內建凍結功能，不需要法院命令。穩定幣本質上就是可被控制的。</div></div>",
       "added_date": "2026-04-26",
       "last_updated": "2026-04-26"
     },
