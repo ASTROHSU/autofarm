@@ -3387,8 +3387,8 @@
       ],
       "date": "2026-04-21",
       "source_count": 3,
-      "discussion_count": 1,
-      "importance_score": 7,
+      "discussion_count": 4,
+      "importance_score": 10,
       "sources": [
         {
           "name": "Unchained（Arbitrum 凍結）",
@@ -3409,7 +3409,7 @@
           "added_date": "2026-04-21"
         }
       ],
-      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/arbitrum/status/2046435443680346189\" target=\"_blank\" rel=\"noopener\">Arbitrum</a>（L2 網路）：「Arbitrum 安全委員會已採取緊急行動，凍結 Arbitrum One 上與 KelpDAO 攻擊相關地址中的 30,766 顆 ETH。委員會根據執法機關提供的攻擊者身分資訊採取行動。」</li>\n</ul></div>",
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/arbitrum/status/2046435443680346189\" target=\"_blank\" rel=\"noopener\">Arbitrum</a>（L2 網路）：「安全委員會已採取緊急行動，凍結 Arbitrum One 上與 KelpDAO 攻擊相關的 30,766 顆 ETH。委員會根據執法機關提供的攻擊者身分資訊採取行動。」</li>\n<li><span class='discuss-tag'>核心決策者</span><a href=\"https://x.com/griffgreen/status/2046446942494802274\" target=\"_blank\" rel=\"noopener\">Griff Green</a>（Security Council 成員）：「我是安全委員會成員，我可以說這個決定不是輕率做出的。我們經歷了無數小時的辯論，涵蓋技術、實務、倫理和政治層面。但邪惡得逞只需要好人袖手旁觀，所以今天我們決定行動。」</li>\n<li><span class='discuss-tag'>不同角度</span><a href=\"https://x.com/mert/status/2046522965802594336\" target=\"_blank\" rel=\"noopener\">mert</a>（Helius CEO）：「對此的批評很奇怪。Arbitrum 是 stage-1 rollup 這件事眾所周知。有控制能力卻假裝不用，只為了道德作秀、姑息恐怖分子，才是更糟糕、更不光彩的結果。」</li>\n<li><span class='discuss-tag'>質疑聲音</span><a href=\"https://x.com/monerify/status/2046448050478993858\" target=\"_blank\" rel=\"noopener\">monerify</a>（社群）：「如果我理解正確，一旦 Arbitrum 安全委員會被攻破，他們就能對鏈上所有資金為所欲為？」</li>\n</ul></div>",
       "summary": "<p>Arbitrum DAO 緊急投票通過凍結鏈上部分被盜資產。支持者認為這是必要止血，但批評者指出此舉等於承認 L2 有「逃生艙」可以回溯交易，與去中心化理念矛盾。</p>",
       "chart": "",
       "added_date": "2026-04-26",
