@@ -1,16 +1,15 @@
 {
-  "last_updated": "2026-04-25T13:00:00Z",
+  "last_updated": "2026-04-08T18:00:00+08:00",
   "sources": {
     "CoinDesk Daily": {
       "tier": "core",
       "sender": "newsletters@coindesk.com",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-25",
-      "total_hits": 19,
-      "total_scans": 22,
-      "consecutive_misses": 0,
-      "status": "active",
-      "scan_count": 14
+      "last_hit_date": "2026-04-08",
+      "total_hits": 2,
+      "total_scans": 3,
+      "consecutive_misses": 1,
+      "status": "active"
     },
     "CoinDesk State of Crypto": {
       "tier": "core",
@@ -18,157 +17,139 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 7,
-      "consecutive_misses": 7,
-      "status": "flagged",
-      "scan_count": 7
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "CoinDesk The Protocol": {
       "tier": "core",
       "sender": "theprotocol@coindesk.com",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-16",
-      "total_hits": 1,
-      "total_scans": 8,
-      "consecutive_misses": 3,
-      "status": "active",
-      "scan_count": 8
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "The Block": {
       "tier": "core",
       "sender": "@theblock.pro",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-25",
-      "total_hits": 11,
-      "total_scans": 16,
-      "consecutive_misses": 0,
-      "status": "active",
-      "scan_count": 13
+      "last_hit_date": "2026-04-07",
+      "total_hits": 2,
+      "total_scans": 3,
+      "consecutive_misses": 1,
+      "status": "active"
     },
     "Decrypt Daily Dispatch": {
       "tier": "core",
       "sender": "hi@mail-daily.decrypt.co",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-25",
-      "total_hits": 16,
-      "total_scans": 24,
-      "consecutive_misses": 0,
-      "status": "active",
-      "scan_count": 17
+      "last_hit_date": "2026-04-08",
+      "total_hits": 3,
+      "total_scans": 6,
+      "consecutive_misses": 1,
+      "status": "active"
     },
     "Cointelegraph": {
       "tier": "core",
       "sender": "drop@cointelegraph.com",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-25",
-      "total_hits": 10,
-      "total_scans": 25,
-      "consecutive_misses": 0,
-      "status": "removed",
-      "scan_count": 19,
-      "removal_reason": "non-original content - B/D class filter"
+      "last_hit_date": "2026-04-05",
+      "total_hits": 1,
+      "total_scans": 6,
+      "consecutive_misses": 5,
+      "status": "active"
     },
     "Blockworks": {
       "tier": "core",
       "sender": "newsletter@blockworks.com",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-24",
-      "total_hits": 2,
-      "total_scans": 20,
-      "consecutive_misses": 1,
-      "status": "removed",
-      "scan_count": 16,
-      "removal_reason": "non-original content - B/D class filter"
+      "last_hit_date": "2026-04-06",
+      "total_hits": 1,
+      "total_scans": 6,
+      "consecutive_misses": 4,
+      "status": "active"
     },
     "Bankless": {
       "tier": "core",
       "sender": "team@bankless.com",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-25",
-      "total_hits": 17,
-      "total_scans": 25,
-      "consecutive_misses": 0,
-      "status": "active",
-      "scan_count": 18
+      "last_hit_date": "2026-04-08",
+      "total_hits": 5,
+      "total_scans": 6,
+      "consecutive_misses": 1,
+      "status": "active"
     },
     "The Defiant": {
       "tier": "core",
       "sender": "no-reply@mail.thedefiant.io",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-24",
-      "total_hits": 16,
-      "total_scans": 24,
-      "consecutive_misses": 2,
-      "status": "active",
-      "scan_count": 18
+      "last_hit_date": "2026-04-08",
+      "total_hits": 4,
+      "total_scans": 6,
+      "consecutive_misses": 1,
+      "status": "active"
     },
     "Milk Road": {
       "tier": "core",
       "sender": "newsletter@mail.milkroad.com",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-24",
-      "total_hits": 5,
-      "total_scans": 30,
-      "consecutive_misses": 2,
-      "status": "removed",
-      "scan_count": 22,
-      "removal_reason": "non-original content - B/D class filter"
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 8,
+      "consecutive_misses": 8,
+      "status": "active"
     },
     "Unchained": {
       "tier": "core",
       "sender": "unchainedcrypto@mail.beehiiv.com",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-25",
-      "total_hits": 19,
-      "total_scans": 27,
+      "last_hit_date": "2026-04-08",
+      "total_hits": 4,
+      "total_scans": 6,
       "consecutive_misses": 0,
-      "status": "active",
-      "scan_count": 19
+      "status": "active"
     },
     "DL News": {
       "tier": "core",
       "sender": "@mail.beehiiv.com",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-21",
-      "total_hits": 6,
-      "total_scans": 16,
-      "consecutive_misses": 3,
-      "status": "active",
-      "scan_count": 14
+      "last_hit_date": "2026-04-08",
+      "total_hits": 1,
+      "total_scans": 3,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "ChainFeeds": {
       "tier": "core",
       "sender": "chainfeeds+daily@substack.com",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-24",
-      "total_hits": 3,
-      "total_scans": 20,
-      "consecutive_misses": 1,
-      "status": "removed",
-      "scan_count": 15,
-      "removal_reason": "non-original content - B/D class filter"
+      "last_hit_date": "2026-04-04",
+      "total_hits": 1,
+      "total_scans": 4,
+      "consecutive_misses": 3,
+      "status": "active"
     },
     "Techmeme Daily": {
       "tier": "supplementary",
       "sender": "newsletter@techmeme.com",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-13",
-      "total_hits": 4,
-      "total_scans": 20,
-      "consecutive_misses": 10,
-      "status": "flagged",
-      "scan_count": 14
+      "last_hit_date": "2026-04-06",
+      "total_hits": 1,
+      "total_scans": 5,
+      "consecutive_misses": 4,
+      "status": "active"
     },
     "Stratechery": {
       "tier": "supplementary",
       "sender": "email@stratechery.com",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-11",
-      "total_hits": 1,
-      "total_scans": 18,
-      "consecutive_misses": 12,
-      "status": "flagged",
-      "scan_count": 13
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 4,
+      "consecutive_misses": 4,
+      "status": "active"
     },
     "Big Technology": {
       "tier": "supplementary",
@@ -176,10 +157,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 11,
-      "consecutive_misses": 11,
-      "status": "retired",
-      "scan_count": 10
+      "total_scans": 4,
+      "consecutive_misses": 4,
+      "status": "active"
     },
     "a16z": {
       "tier": "supplementary",
@@ -187,21 +167,19 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 12,
-      "consecutive_misses": 12,
-      "status": "flagged",
-      "scan_count": 8
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "Exponential View": {
       "tier": "supplementary",
       "sender": "exponentialview@substack.com",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-11",
-      "total_hits": 1,
-      "total_scans": 17,
-      "consecutive_misses": 10,
-      "status": "flagged",
-      "scan_count": 14
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 5,
+      "consecutive_misses": 5,
+      "status": "active"
     },
     "Platformer": {
       "tier": "supplementary",
@@ -209,10 +187,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 8,
-      "consecutive_misses": 8,
-      "status": "flagged",
-      "scan_count": 6
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "The Pomp Letter": {
       "tier": "supplementary",
@@ -220,10 +197,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 12,
-      "consecutive_misses": 12,
-      "status": "retired",
-      "scan_count": 10
+      "total_scans": 3,
+      "consecutive_misses": 3,
+      "status": "active"
     },
     "Bits + Bips": {
       "tier": "supplementary",
@@ -231,10 +207,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 6,
-      "consecutive_misses": 6,
-      "status": "flagged",
-      "scan_count": 6
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "Not Boring": {
       "tier": "supplementary",
@@ -242,10 +217,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 8,
-      "consecutive_misses": 8,
-      "status": "flagged",
-      "scan_count": 7
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "Fintech Brainfood": {
       "tier": "supplementary",
@@ -253,10 +227,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 10,
-      "consecutive_misses": 10,
-      "status": "retired",
-      "scan_count": 10
+      "total_scans": 3,
+      "consecutive_misses": 3,
+      "status": "active"
     },
     "Galaxy Research": {
       "tier": "supplementary",
@@ -264,10 +237,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 7,
-      "consecutive_misses": 7,
-      "status": "flagged",
-      "scan_count": 6
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "Ethereal News": {
       "tier": "supplementary",
@@ -275,10 +247,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 8,
-      "consecutive_misses": 8,
-      "status": "flagged",
-      "scan_count": 7
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "ethdevnews": {
       "tier": "supplementary",
@@ -286,10 +257,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 7,
-      "consecutive_misses": 7,
-      "status": "flagged",
-      "scan_count": 6
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "Kiwi Weekly": {
       "tier": "supplementary",
@@ -297,22 +267,19 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 6,
-      "consecutive_misses": 6,
-      "status": "flagged",
-      "scan_count": 6
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "Citation Needed": {
       "tier": "supplementary",
       "sender": "newsletter@citationneeded.news",
       "first_tracked": "2026-04-04",
-      "last_hit_date": "2026-04-17",
-      "total_hits": 2,
-      "total_scans": 9,
-      "consecutive_misses": 2,
-      "status": "removed",
-      "scan_count": 7,
-      "removal_reason": "non-original content - B/D class filter"
+      "last_hit_date": null,
+      "total_hits": 0,
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "DHK 郵報": {
       "tier": "supplementary",
@@ -320,10 +287,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 7,
-      "consecutive_misses": 7,
-      "status": "flagged",
-      "scan_count": 7
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "BlockThreat": {
       "tier": "supplementary",
@@ -331,11 +297,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 12,
-      "consecutive_misses": 12,
-      "status": "removed",
-      "scan_count": 9,
-      "removal_reason": "non-original content - B/D class filter"
+      "total_scans": 3,
+      "consecutive_misses": 3,
+      "status": "active"
     },
     "Crypto Venture Weekly": {
       "tier": "supplementary",
@@ -343,10 +307,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 6,
-      "consecutive_misses": 6,
-      "status": "flagged",
-      "scan_count": 6
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "Macro Notes": {
       "tier": "supplementary",
@@ -354,10 +317,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 8,
-      "consecutive_misses": 8,
-      "status": "flagged",
-      "scan_count": 8
+      "total_scans": 2,
+      "consecutive_misses": 2,
+      "status": "active"
     },
     "Opening Bell Daily": {
       "tier": "supplementary",
@@ -365,10 +327,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 10,
-      "consecutive_misses": 10,
-      "status": "flagged",
-      "scan_count": 8
+      "total_scans": 2,
+      "consecutive_misses": 2,
+      "status": "active"
     },
     "DeFi Education": {
       "tier": "supplementary",
@@ -376,10 +337,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 7,
-      "consecutive_misses": 7,
-      "status": "flagged",
-      "scan_count": 6
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "Castle Labs": {
       "tier": "supplementary",
@@ -387,10 +347,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 8,
-      "consecutive_misses": 8,
-      "status": "flagged",
-      "scan_count": 6
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     },
     "LikeCoin": {
       "tier": "supplementary",
@@ -398,42 +357,9 @@
       "first_tracked": "2026-04-04",
       "last_hit_date": null,
       "total_hits": 0,
-      "total_scans": 6,
-      "consecutive_misses": 6,
-      "status": "flagged",
-      "scan_count": 6
-    },
-    "CoinDesk Daybook": {
-      "tier": "core",
-      "sender": "newsletters@coindesk.com",
-      "first_tracked": "2026-04-14",
-      "last_hit_date": "2026-04-14",
-      "total_hits": 1,
-      "total_scans": 5,
-      "consecutive_misses": 4,
-      "status": "active",
-      "scan_count": 5
-    },
-    "Blockworks / The Breakdown": {
-      "tier": "core",
-      "first_tracked": "2026-04-17",
-      "last_hit_date": "2026-04-17",
-      "total_hits": 1,
-      "total_scans": 3,
-      "consecutive_misses": 2,
-      "status": "active",
-      "scan_count": 2
-    },
-    "Wu Blockchain": {
-      "tier": "core",
-      "sender": "telegram",
-      "first_tracked": "2026-04-24",
-      "last_hit_date": "2026-04-24",
-      "total_hits": 2,
-      "total_scans": 3,
-      "consecutive_misses": 1,
-      "status": "active",
-      "scan_count": 2
+      "total_scans": 0,
+      "consecutive_misses": 0,
+      "status": "active"
     }
   }
 }
