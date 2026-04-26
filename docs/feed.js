@@ -3,60 +3,84 @@ window.FEED_DATA = {
   "items": [
     {
       "id": "2026-04-21-NY-AG-sues-Coinbase-Gemini-prediction-markets",
-      "title": "Kalshi、Polymarket 搶推永續合約，模糊預測與衍生品界線",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-21/kalshi-to-expand-crypto-wagers-with-perpetual-futures-push",
+      "title": "美國軍人靠機密情報在 Polymarket 下注獲利 $41 萬，DOJ 與 CFTC 聯手首度起訴預測市場內線交易",
+      "url": "https://www.justice.gov/opa/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets",
       "tags": [
         "監管",
         "預測市場",
         "DeFi"
       ],
-      "date": "2026-04-22",
+      "date": "2026-04-23",
       "image": "",
-      "source_count": 6,
-      "discussion_count": 0,
-      "importance_score": 69,
+      "source_count": 10,
+      "discussion_count": 8,
+      "importance_score": 100,
       "sources": [
         {
-          "name": "Bloomberg（Kalshi 永續合約）",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-21/kalshi-to-expand-crypto-wagers-with-perpetual-futures-push",
-          "title": "Kalshi 計畫推出加密貨幣永續合約，擴大衍生品版圖",
-          "added_date": "2026-04-22"
+          "name": "美國司法部（DOJ）",
+          "url": "https://www.justice.gov/opa/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets",
+          "title": "美國軍人因利用機密資訊從預測市場下注獲利被起訴",
+          "added_date": "2026-04-26"
         },
         {
-          "name": "CNBC（Polymarket 永續合約）",
-          "url": "https://www.cnbc.com/2026/04/21/polymarket-launches-trading-of-heavily-leveraged-perps-contracts.html",
-          "title": "Polymarket 推出高槓桿永續合約交易",
-          "added_date": "2026-04-22"
+          "name": "美國商品期貨交易委員會（CFTC）",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9217-26",
+          "title": "CFTC 以內線交易罪名起訴美國現役軍人",
+          "added_date": "2026-04-26"
         },
         {
-          "name": "CoinDesk（Kalshi vs Coinbase）",
-          "url": "https://www.coindesk.com/markets/2026/04/21/kalshi-takes-on-coinbase-robinhood-with-new-plan-to-offer-crypto-perpetual-futures-the-information",
-          "title": "Kalshi 挑戰 Coinbase、Robinhood，計畫提供加密永續合約",
-          "added_date": "2026-04-22"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/04/23/doj-soldier-polymarket-bets-venezuela-maduro.html",
+          "title": "美國軍人因在 Polymarket 下注逮捕 Maduro 行動被捕",
+          "added_date": "2026-04-26"
         },
         {
-          "name": "Bitcoin Magazine",
-          "url": "https://bitcoinmagazine.com/news/kalshi-and-polymarket-enter-the-crypto",
-          "title": "Kalshi 與 Polymarket 進軍加密貨幣，同時推出永續合約",
-          "added_date": "2026-04-22"
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/04/23/u-s-arrests-soldier-for-polymarket-bets-on-nicolas-maduro-raid-he-participated-in",
+          "title": "美國逮捕在自己參與的 Maduro 突襲行動上下注的軍人",
+          "added_date": "2026-04-26"
         },
         {
-          "name": "Unchained",
-          "url": "https://unchainedcrypto.com/kalshi-and-polymarket-race-to-launch-crypto-perpetual-futures-challenging-coinbase-and-robinhood/",
-          "title": "Kalshi 與 Polymarket 競相推出永續合約，挑戰 Coinbase 和 Robinhood",
-          "added_date": "2026-04-22"
+          "name": "DL News",
+          "url": "https://www.dlnews.com/articles/regulation/doj-charges-soldier-with-polymarket-betting-on-classified-information-of-maduro-capture/",
+          "title": "DOJ 起訴利用機密資訊在 Polymarket 下注的軍人",
+          "added_date": "2026-04-26"
         },
         {
-          "name": "Wu Blockchain",
-          "url": "https://wublockchain.xyz/news/kalshi-launches-crypto-perpetual-futures-trading-18821",
-          "title": "Kalshi 計畫推出加密貨幣永續合約交易",
-          "added_date": "2026-04-22"
+          "name": "Decrypt",
+          "url": "https://decrypt.co/365397/us-soldier-charged-400k-polymarket-insider-trading-maduro-removal",
+          "title": "美國軍人因 $40 萬 Polymarket 內線交易被起訴",
+          "added_date": "2026-04-26"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/04/23/nx-s1-5797957/maduro-raid-charges-polymarket-insider",
+          "title": "美國軍人因 Maduro 行動的預測市場內線交易被起訴",
+          "added_date": "2026-04-26"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/polymarket-regulators-insider-trading-rcna341928",
+          "title": "Polymarket 強調在 Van Dyke 逮捕案中的配合角色",
+          "added_date": "2026-04-26"
+        },
+        {
+          "name": "Time",
+          "url": "https://time.com/article/2026/04/24/soldier-charged-insider-trading-polymarket-van-dyke-maduro-capture-trump/",
+          "title": "軍人因在 Polymarket 內線交易被起訴",
+          "added_date": "2026-04-26"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/04/24/politics/polymarket-soldier-insider-trading-trump",
+          "title": "Trump 對被控在 Polymarket 內線交易的軍人表態",
+          "added_date": "2026-04-26"
         }
       ],
-      "summary": "<p>Kalshi 和 Polymarket 同日宣布推出永續合約產品，讓使用者可以長期持有預測部位。批評者認為這本質上是衍生品交易，進一步模糊了預測市場與金融商品的界線。</p>",
-      "chart": "",
-      "discussions": "",
-      "last_updated": "2026-04-22",
+      "summary": "<p>美國司法部首度對預測市場的內線交易提起刑事訴訟。被告 Gannon Ken Van Dyke 是陸軍特種部隊通訊士官長，隸屬聯合特種作戰司令部，因職務接觸到「絕對決心行動」（逮捕委內瑞拉總統 Maduro）的機密計畫。他在行動前 8 天於 Polymarket 開戶，以化名「Burdensome-Mix」下注 $33,934，獲利約 $409,881（報酬率約 1,200%）。</p><p>Polymarket 偵測到異常交易後主動通報，DOJ 與 CFTC 聯手以商品詐欺、電信詐欺、竊取政府資訊等罪名起訴。CFTC 首次動用「Eddie Murphy 條款」（商品交易法 4c(a)(4)）處理預測市場案件。Van Dyke 曾先在 Kalshi 開戶但因 KYC 被擋，轉往 Polymarket 才得手。Trump 評論此案稱「整個世界不幸變成了某種賭場」。</p>",
+      "chart": "<div class=\"chart-wrap\"><div class=\"chart-title\">Van Dyke 內線交易案時間軸</div><div class=\"chart-timeline\"><div class=\"chart-timeline-item\"><div class=\"chart-timeline-date\">12/8</div><div class=\"chart-timeline-text\">開始參與「絕對決心行動」規劃，接觸機密情報</div></div><div class=\"chart-timeline-item\"><div class=\"chart-timeline-date\">12/24</div><div class=\"chart-timeline-text\">向 Kalshi 申請開戶，因 KYC 審核未通過</div></div><div class=\"chart-timeline-item\" style=\"border-left-color:#ef5350\"><div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">12/26</div><div class=\"chart-timeline-text\" style=\"color:#333\">轉在 Polymarket 開戶，開始下注 Maduro 相關市場</div></div><div class=\"chart-timeline-item\" style=\"border-left-color:#ef5350\"><div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">12/27–1/2</div><div class=\"chart-timeline-text\" style=\"color:#333\">以帳號「Burdensome-Mix」共下注 13 次，投入 $33,934</div></div><div class=\"chart-timeline-item highlight\"><div class=\"chart-timeline-date\" style=\"color:#e65100;font-weight:600\">1/3</div><div class=\"chart-timeline-text\" style=\"color:#333\">美軍執行行動逮捕 Maduro，下注全數獲利 $409,881</div></div><div class=\"chart-timeline-item\"><div class=\"chart-timeline-date\">1/6</div><div class=\"chart-timeline-text\">要求 Polymarket 刪除帳號，謊稱遺失信箱存取權</div></div><div class=\"chart-timeline-item\"><div class=\"chart-timeline-date\">4/23</div><div class=\"chart-timeline-text\">DOJ 與 CFTC 聯手起訴，Polymarket 確認曾主動通報</div></div></div><div style=\"display:flex;gap:10px;margin-top:14px\"><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ef5350\">1,200%</div><div style=\"font-size:11px;color:#888;margin-top:4px\">報酬率</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#42a5f5\">$33,934</div><div style=\"font-size:11px;color:#888;margin-top:4px\">下注金額</div></div><div style=\"flex:1;background:#f8f4ee;border-radius:10px;padding:12px;text-align:center;border:1px solid #e8e0d4\"><div style=\"font-size:24px;font-weight:700;color:#ffa726\">$409,881</div><div style=\"font-size:11px;color:#888;margin-top:4px\">獲利金額</div></div></div><div class=\"chart-source\">資料來源：DOJ 起訴書 / CFTC / 區塊勢整理</div></div>",
+      "discussions": "<ul><li><strong style=\"color:#1a1a1a\">平台回應</strong>：<a href=\"https://www.nbcnews.com/business/markets/polymarket-regulators-insider-trading-rcna341928\" style=\"color:var(--link);text-decoration:none\" target=\"_blank\" rel=\"noopener\">Polymarket</a> 在 X 發文強調，公司在偵測到異常交易後主動向 DOJ 通報並全程配合調查，稱「內線交易在 Polymarket 沒有容身之處，今天的逮捕證明這套機制有效」。</li><li><strong style=\"color:#1a1a1a\">監管機關</strong>：<a href=\"https://www.cftc.gov/PressRoom/PressReleases/9217-26\" style=\"color:var(--link);text-decoration:none\" target=\"_blank\" rel=\"noopener\">CFTC 執法主任 David Miller</a> 在 NYU 法學院演講中指出，這是該機構首次動用「Eddie Murphy 條款」處理預測市場案件，並將預測市場內線交易列為五大執法優先事項之一。</li><li><strong style=\"color:#1a1a1a\">白宮反應</strong>：<a href=\"https://www.cnn.com/2026/04/24/politics/polymarket-soldier-insider-trading-trump\" style=\"color:var(--link);text-decoration:none\" target=\"_blank\" rel=\"noopener\">CNN</a> 報導 Trump 在橢圓形辦公室被問及此案時回應「這就像 Pete Rose 賭自己的球隊」，補充說「整個世界不幸變成了某種賭場」，並表示他從未支持預測市場。</li><li><strong style=\"color:#1a1a1a\">競爭對手</strong>：<a href=\"https://www.cnbc.com/2026/04/24/special-forces-van-dyke-polymarket-bets-maduro-raid-kalshi.html\" style=\"color:var(--link);text-decoration:none\" target=\"_blank\" rel=\"noopener\">CNBC</a> 報導 Kalshi 證實 Van Dyke 曾在 12 月 24 日申請開戶但因 KYC 流程被擋，暗示受監管平台的身份驗證機制比 Polymarket 的匿名模式更能防堵此類行為。</li><li><strong style=\"color:#1a1a1a\">法律分析</strong>：<a href=\"https://www.skadden.com/insights/publications/2026/04/cftc-enforcement-director-discusses-top-priorities\" style=\"color:var(--link);text-decoration:none\" target=\"_blank\" rel=\"noopener\">Skadden 律師事務所</a> 分析指出，雖然「Eddie Murphy 條款」過去從未在事件合約上被測試過，但 CFTC 此舉清楚表明其意圖將傳統商品市場的內線交易框架延伸到預測市場。</li><li><strong style=\"color:#1a1a1a\">國會動態</strong>：<a href=\"https://thehill.com/policy/technology/5848166-prediction-markets-polymarket-soldier-arrest-maduro-raid/\" style=\"color:var(--link);text-decoration:none\" target=\"_blank\" rel=\"noopener\">The Hill</a> 報導自 1 月以來國會已提出超過 10 項針對預測市場的法案，光是 3 月就有 6 項，Van Dyke 案進一步強化了立法者限制預測市場的理由。</li><li><strong style=\"color:#1a1a1a\">國防觀點</strong>：<a href=\"https://defensescoop.com/2026/04/24/special-forces-soldier-polymarket-bets-maduro-raid-released-on-bond/\" style=\"color:var(--link);text-decoration:none\" target=\"_blank\" rel=\"noopener\">DefenseScoop</a> 報導 Van Dyke 以 $25 萬保釋金獲釋，指出此案凸顯軍方需要針對預測市場制定新的行為準則，因為現有的利益衝突規範並未涵蓋事件合約。</li><li><strong style=\"color:#1a1a1a\">產業評論</strong>：<a href=\"https://fortune.com/2026/04/24/special-forces-officer-charged-maduro-insider-trading-polymarket-gannon-ken-van-dyke/\" style=\"color:var(--link);text-decoration:none\" target=\"_blank\" rel=\"noopener\">Fortune</a> 指出 Polymarket 執行長 Shayne Coplan 去年上「60 Minutes」時曾說「有人帶著資訊優勢進入市場是好事」，但此案讓這句話顯得格外尷尬，凸顯了資訊優勢與內線交易之間的灰色地帶。</li></ul>",
+      "last_updated": "2026-04-26",
       "parent_id": null,
       "cluster_split_version": 1,
       "cluster_split_at": "2026-04-26T03:51:42.726995"
@@ -1018,8 +1042,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-22",
       "source_count": 9,
-      "discussion_count": 3,
-      "importance_score": 21,
+      "discussion_count": 2,
+      "importance_score": 20,
       "sources": [
         {
           "name": "CoinDesk",
@@ -1076,41 +1100,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-22"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/DefiLlama/status/2026042201",
-          "author": "@DefiLlama",
-          "content": "Aave TVL dropped from $26.4B to under $20B in 24 hours. DeFi-wide TVL fell $13B in 48 hours following the Kelp exploit.",
-          "metrics": {
-            "replies": 520,
-            "reposts": 1800,
-            "likes": 5100
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/StaniKulechov/status/2026042202",
-          "author": "@StaniKulechov (Aave founder)",
-          "content": "Aave contracts were NOT compromised. The exploit was external — Kelp's bridge was the vulnerability. We've frozen rsETH markets on V3 and V4.",
-          "metrics": {
-            "replies": 890,
-            "reposts": 2300,
-            "likes": 6200
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/haabordeaux/status/2026042203",
-          "author": "@haabordeaux",
-          "content": "Whales pulled $6B from Aave, pushing ETH/USDT/USDC pools to 100% utilization. Remaining depositors are effectively trapped. This is a textbook bank run.",
-          "metrics": {
-            "replies": 410,
-            "reposts": 1500,
-            "likes": 4800
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/aave/status/2045593585966252377\" target=\"_blank\" rel=\"noopener\">Aave</a>（官方）：「rsETH 市場已在 Aave V3 和 V4 凍結，Aave 合約本身未被攻擊，這是 Kelp DAO rsETH 橋接的漏��。凍結後無法新增存款或借貸。」</li>\n<li><span class='discuss-tag'>市場分析</span><a href=\"https://x.com/lookonchain/status/2045829961655984335\" target=\"_blank\" rel=\"noopener\">Lookonchain</a>（鏈上分析）：「攻擊者用 rsETH 在 Aave 借走超過 82,600 顆 ETH（$1.95 億），產生壞帳。大量鯨魚撤資，Aave TVL 從 $264 億跌至 $201 億，蒸發 $62.8 億。」</li>\n</ul></div>",
       "summary": "<p>rsETH 脫錨後，Aave 上的 rsETH 抵押品觸發連環清算。使用者恐慌擠兌，Aave TVL 從 $280 億驟降至 $210 億，DeFi 借貸協議出現系統性信任危機。</p>",
       "chart": "",
       "added_date": "2026-04-26",
@@ -1363,41 +1353,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-16"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/BSCNews/status/2042324671270465561",
-          "author": "@BSCNews",
-          "content": "WORLD LIBERTY FINANCIAL BORROWED $75M AGAINST ITS OWN TOKEN ON INSIDER-ADVISED PROTOCOL. On-chain data shows WLFI deposited 5 billion tokens as collateral on Dolomite.",
-          "metrics": {
-            "replies": 680,
-            "reposts": 2100,
-            "likes": 5400
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/EthanDeFi_/status/2041905559033569435",
-          "author": "@EthanDeFi_",
-          "content": "WLFI deposited 5% of total supply on Dolomite and borrowed $75M in stablecoins. 5% of WLFI's token supply is worth roughly $500M.",
-          "metrics": {
-            "replies": 420,
-            "reposts": 1500,
-            "likes": 4800
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/chaoslabs/status/2043381288640409825",
-          "author": "@chaoslabs (Chaos Labs)",
-          "content": "WLFI: Collateral Loop Breakdown — WLFI accounts for 82.7% of total TVL supplied to Dolomite and 85.3% of total assets borrowed. Activity is highly concentrated.",
-          "metrics": {
-            "replies": 380,
-            "reposts": 1200,
-            "likes": 3900
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>首位發現者</span><a href=\"https://x.com/BSCNews/status/2042324671270465561\" target=\"_blank\" rel=\"noopener\">BSC News</a>（媒體）：「WLFI 在內部顧問推薦的協議 Dolomite 上，以自家代幣抵押借走 $7,500 萬穩定幣。鏈上資料顯示存入 50 億顆 WLFI。」</li>\n<li><span class='discuss-tag'>社群反應</span><a href=\"https://x.com/EthanDeFi_/status/2041905559033569435\" target=\"_blank\" rel=\"noopener\">Ethan DeFi</a>（DeFi 觀察者）：「Trump 家族的加密專案存了 5% 的 WLFI 總供應量到 Dolomite，借走 $7,500 萬穩定幣。5% 的代幣市值約 $5 億。」</li>\n<li><span class='discuss-tag'>分析師</span><a href=\"https://x.com/chaoslabs/status/2043381288640409825\" target=\"_blank\" rel=\"noopener\">Chaos Labs</a>（風控機構）：「WLFI 佔 Dolomite 總 TVL 供應的 82.7%，總借款的 85.3%。單一錢包以 30 億顆 WLFI 抵押借了約 $4,070 萬穩定幣。」</li>\n</ul></div>",
       "summary": "<p>鏈上分析師揭露 WLFI 內部人利用 Dolomite 借貸協議，以 WLFI 代幣為抵押借出 $7,500 萬等值資產。社群質疑這是變相內部人套現。</p>",
       "chart": "",
       "added_date": "2026-04-26",
@@ -1659,8 +1615,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-22",
       "source_count": 6,
-      "discussion_count": 3,
-      "importance_score": 15,
+      "discussion_count": 2,
+      "importance_score": 14,
       "sources": [
         {
           "name": "CoinDesk",
@@ -1699,41 +1655,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-22"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/sentdefender/status/2026042201",
-          "author": "@sentdefender",
-          "content": "BREAKING: U.S. has imposed sanctions on China's Hengli Petrochemical and 40 tankers involved in shipping Iranian oil. This is the most aggressive secondary sanctions action yet.",
-          "metrics": {
-            "replies": 890,
-            "reposts": 3200,
-            "likes": 8100
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/LOABORDEAUX/status/2026042202",
-          "author": "@LOABORDEAUX (CNBC)",
-          "content": "Bessent's Treasury sent letters to banks in China, HK, UAE, Oman threatening secondary sanctions for doing business with Iran. This goes well beyond the executive order.",
-          "metrics": {
-            "replies": 340,
-            "reposts": 1100,
-            "likes": 3200
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/zabordeaux/status/2026042203",
-          "author": "@zabordeaux (Reuters)",
-          "content": "Hengli Dalian refinery processes ~400K bpd. This sanction alone could remove 5-8% of China's independent refining capacity from Iranian crude.",
-          "metrics": {
-            "replies": 290,
-            "reposts": 780,
-            "likes": 2100
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/IranIntl_En/status/2043318134094864417\" target=\"_blank\" rel=\"noopener\">Iran International</a>（媒體）：「Trump 在 Truth Social 發文：美國海軍將立即開始封鎖任何試圖進入或離開荷莫茲海峽的船隻，並攔截向伊朗繳納通行費的船舶。」</li>\n<li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/thehill/status/2043370057099600120\" target=\"_blank\" rel=\"noopener\">The Hill</a>（媒體）：「Trump 在美伊和談破裂後宣布海軍封鎖荷莫茲海峽。封鎖在 4 月 13 日生效，超過一萬名美軍、十多艘軍艦和數十架飛機參與執行。」</li>\n</ul></div>",
       "summary": "<p>美國總統 Trump 簽署行政令全面封鎖伊朗石油出口，同時制裁協助伊朗出口石油的第三方實體。此舉被視為停火談判的最大變數。</p>",
       "chart": "",
       "added_date": "2026-04-26",
@@ -1752,8 +1674,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-14",
       "source_count": 6,
-      "discussion_count": 3,
-      "importance_score": 15,
+      "discussion_count": 0,
+      "importance_score": 12,
       "sources": [
         {
           "name": "White House CEA",
@@ -1792,41 +1714,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-13"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/WhiteHouseCEA/status/2026041401",
-          "author": "@WhiteHouseCEA",
-          "content": "New report: Banning stablecoin yield payments would only increase total bank lending by $2.1B — 0.02% of outstanding loans. The consumer harm far outweighs any deposit stability benefit.",
-          "metrics": {
-            "replies": 420,
-            "reposts": 1500,
-            "likes": 4800
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/ABA/status/2026041402",
-          "author": "@ABA (American Bankers Association)",
-          "content": "The CEA is asking the wrong question. They should study the consequences of allowing yield, not the effects of a prohibition. Yield-paying stablecoins scaling quickly would drain deposits.",
-          "metrics": {
-            "replies": 380,
-            "reposts": 890,
-            "likes": 2100
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/jabordeaux/status/2026041403",
-          "author": "@jabordeaux (DL News)",
-          "content": "White House economists say stablecoin yields are fine. Banks are having none of it. The $317B stablecoin market is the real battleground of the CLARITY Act.",
-          "metrics": {
-            "replies": 290,
-            "reposts": 780,
-            "likes": 2800
-          }
-        }
-      ],
+      "discussions": "",
       "summary": "",
       "chart": "",
       "added_date": "2026-04-03",
@@ -2121,8 +2009,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-21",
       "source_count": 5,
-      "discussion_count": 3,
-      "importance_score": 13,
+      "discussion_count": 2,
+      "importance_score": 12,
       "sources": [
         {
           "name": "DL News",
@@ -2155,41 +2043,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-21"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/DefiLlama/status/2026042101",
-          "author": "@DefiLlama",
-          "content": "$13B wiped from DeFi TVL in two days. Protocols with zero rsETH exposure saw massive withdrawals — this is pure fear contagion.",
-          "metrics": {
-            "replies": 380,
-            "reposts": 1200,
-            "likes": 3900
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/PendleFinance/status/2026042102",
-          "author": "@PendleFinance",
-          "content": "Pendle pools with rsETH exposure have been paused. We're working with the team to assess the full impact on PT/YT holders.",
-          "metrics": {
-            "replies": 290,
-            "reposts": 810,
-            "likes": 2400
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/EtherFi/status/2026042103",
-          "author": "@EtherFi",
-          "content": "EtherFi Liquid vaults are unaffected by the Kelp rsETH incident. Our eETH has no dependency on Kelp's bridge infrastructure.",
-          "metrics": {
-            "replies": 210,
-            "reposts": 680,
-            "likes": 2100
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>市場分析</span><a href=\"https://x.com/todayindefi/status/2046513590216347662\" target=\"_blank\" rel=\"noopener\">Today in DeFi</a>（媒體）：「KelpDAO 攻擊後一週 DeFi 重點：$2.92 億 rsETH 被盜、Aave 面臨約 $1.77 億壞帳、$54 億撤出 Aave、超過 20 個協議暫停 LayerZero 橋接。」</li>\n<li><span class='discuss-tag'>社群反應</span><a href=\"https://x.com/CryptoPatel/status/2045706200768233816\" target=\"_blank\" rel=\"noopener\">Crypto Patel</a>（KOL）：「Kelp DAO 的 rsETH 橋接透過 LayerZero 被攻破，116,500 顆 rsETH 在幾分鐘內被抽乾，佔 rsETH 流通量 18%。主要透過 lzReceive 函式發動攻擊。」</li>\n</ul></div>",
       "summary": "<p>rsETH 脫錨效應擴散到整個 LRT 生態系。Pendle 的 rsETH 池出現大量贖回，EtherFi 和 Renzo 等協議的 TVL 也同步下降，市場對再質押代幣的信心降到低點。</p>",
       "chart": "",
       "added_date": "2026-04-26",
@@ -2208,8 +2062,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-14",
       "source_count": 5,
-      "discussion_count": 3,
-      "importance_score": 13,
+      "discussion_count": 0,
+      "importance_score": 10,
       "sources": [
         {
           "name": "CoinDesk",
@@ -2242,41 +2096,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-14"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/AJEnglish/status/2026041401",
-          "author": "@AJEnglish",
-          "content": "Iran's top security official arrives in Oman for indirect talks with the US. Oman FM says peace 'within reach' after Iran agrees no nuclear material stockpile.",
-          "metrics": {
-            "replies": 420,
-            "reposts": 1500,
-            "likes": 4200
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/PBSNewshour/status/2026041402",
-          "author": "@PBSNewshour",
-          "content": "Iran and U.S. conclude 4th round of talks in Oman. Both sides describe 'useful and original ideas reflecting a shared wish to reach an honorable agreement.'",
-          "metrics": {
-            "replies": 310,
-            "reposts": 890,
-            "likes": 2800
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/realDonaldTrump/status/2026042103",
-          "author": "@realDonaldTrump",
-          "content": "Agreed to extend the ceasefire until Iran submits a proposal. Extension remains until discussions are concluded, one way or another.",
-          "metrics": {
-            "replies": 8900,
-            "reposts": 12000,
-            "likes": 45000
-          }
-        }
-      ],
+      "discussions": "",
       "summary": "<p>在阿曼居中斡旋下，美伊間接談判重啟。雙方透過歐盟特使傳話，核心分歧仍在伊朗濃縮鈾上限和制裁解除的時序。BTC 受談判消息帶動回升。</p>",
       "chart": "",
       "added_date": "2026-04-26",
@@ -2295,8 +2115,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-16",
       "source_count": 5,
-      "discussion_count": 3,
-      "importance_score": 13,
+      "discussion_count": 1,
+      "importance_score": 11,
       "sources": [
         {
           "name": "Elliptic",
@@ -2329,41 +2149,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-04"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/DriftProtocol/status/2026041601",
-          "author": "@DriftProtocol",
-          "content": "Security update: The April 1 exploit was the result of a sophisticated 6-month social engineering campaign. Attackers posed as contributors, deposited $1M+ and built trust at industry conferences.",
-          "metrics": {
-            "replies": 1200,
-            "reposts": 3200,
-            "likes": 7800
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/Mandiant/status/2026041602",
-          "author": "@Mandiant",
-          "content": "We've attributed elements of the Drift attack to UNC4736 (AppleJeus / Citrine Sleet), a DPRK-linked threat actor. This is the most sophisticated DeFi social engineering operation we've documented.",
-          "metrics": {
-            "replies": 890,
-            "reposts": 2800,
-            "likes": 9200
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/taabordeaux2/status/2026041603",
-          "author": "@taabordeaux (Chainalysis)",
-          "content": "From initial contact at conferences to $285M theft — six months of relationship-building. They even onboarded a vault and deposited real capital. Lessons from the Drift hack.",
-          "metrics": {
-            "replies": 520,
-            "reposts": 1800,
-            "likes": 5100
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>社群反應</span><a href=\"https://x.com/outsource_/status/2040872033014403120\" target=\"_blank\" rel=\"noopener\">Eric</a>（加密觀察者）：「北韓 Lazarus 駭客組織對 Drift 進行了長達六個月的社交工程攻擊：偽裝成量化交易公司、在多場會議上親自接觸核心團隊、建立真實關係並存入 $100 萬以上資金。」</li>\n</ul></div>",
       "summary": "",
       "chart": "",
       "added_date": "2026-04-04",
@@ -2381,8 +2167,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-14",
       "source_count": 5,
-      "discussion_count": 3,
-      "importance_score": 13,
+      "discussion_count": 1,
+      "importance_score": 11,
       "sources": [
         {
           "name": "The Block",
@@ -2415,41 +2201,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-08"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/ChaosLabs/status/2026041401",
-          "author": "@ChaosLabs",
-          "content": "After 3 years with Aave, we've decided to step down from our risk management role. V4's expanded scope requires at least $8M annually — the protocol offered $5M. The gap is unsustainable.",
-          "metrics": {
-            "replies": 890,
-            "reposts": 2800,
-            "likes": 7200
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/StaniKulechov2/status/2026041402",
-          "author": "@StaniKulechov (Aave founder)",
-          "content": "We declined sole-provider status for Chaos Labs. Resilience comes from multiple risk contributors, not concentration. Aave will continue with LlamaRisk and others.",
-          "metrics": {
-            "replies": 680,
-            "reposts": 1800,
-            "likes": 5100
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/OmerGoldberg/status/2026041403",
-          "author": "@OmerGoldberg (Chaos Labs CEO)",
-          "content": "This isn't just about money. V4 introduces new architecture that fundamentally changes risk management scope. We flagged this months ago. Three contributor exits in a row isn't coincidence.",
-          "metrics": {
-            "replies": 520,
-            "reposts": 1500,
-            "likes": 4800
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/omeragoldberg/status/2041185313163276302\" target=\"_blank\" rel=\"noopener\">Omer Goldberg</a>（Chaos Labs 創辦人）：「Chaos Labs 將離開 Aave。自 2022 年 11 月起，我們為 Aave 定價每一筆貸款，管理所有 V2 和 V3 市場的風控，期間零重大壞帳。Aave TVL 從 $52 億成長到超過 $260 億。」</li>\n</ul></div>",
       "summary": "",
       "chart": "",
       "added_date": "2026-04-06",
@@ -2808,8 +2560,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-16",
       "source_count": 4,
-      "discussion_count": 3,
-      "importance_score": 11,
+      "discussion_count": 0,
+      "importance_score": 8,
       "sources": [
         {
           "name": "Bankless",
@@ -2836,41 +2588,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-21"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/jerallaire/status/2026041601",
-          "author": "@jerallaire (Circle CEO)",
-          "content": "When Circle freezes USDC, it is because the law requires us to act. We don't unilaterally or arbitrarily decide to take assets. Any intervention must be authorized by legal authorities.",
-          "metrics": {
-            "replies": 1800,
-            "reposts": 3500,
-            "likes": 8100
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/adamscochran/status/2026041602",
-          "author": "@adamscochran",
-          "content": "Nine days before Drift, Circle froze 16 wallets in a civil matter. But for a $280M exploit with clear on-chain evidence? Radio silence. The inconsistency is damning.",
-          "metrics": {
-            "replies": 890,
-            "reposts": 2800,
-            "likes": 11000
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/GibbsMura/status/2026041603",
-          "author": "@GibbsMura (Gibbs Mura LLP)",
-          "content": "Class action filed: Circle knowingly permitted attackers to use CCTP to bridge stolen USDC from Solana to Ethereum, despite ability to freeze. Filing on behalf of affected Drift users.",
-          "metrics": {
-            "replies": 420,
-            "reposts": 1500,
-            "likes": 4200
-          }
-        }
-      ],
+      "discussions": "",
       "summary": "",
       "chart": "",
       "added_date": "2026-04-04",
@@ -2888,8 +2606,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-14",
       "source_count": 4,
-      "discussion_count": 3,
-      "importance_score": 11,
+      "discussion_count": 1,
+      "importance_score": 9,
       "sources": [
         {
           "name": "Unchained",
@@ -2916,41 +2634,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-15"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/c7five/status/2026041601",
-          "author": "@c7five (Nick Percoco, Kraken CSO)",
-          "content": "Our systems were never breached; funds were never at risk. We will not pay these criminals. We will not ever negotiate with bad actors. Period.",
-          "metrics": {
-            "replies": 1200,
-            "reposts": 3800,
-            "likes": 15000
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/kabordeaux/status/2026041602",
-          "author": "@kabordeaux (CoinDesk)",
-          "content": "Rogue employees viewed ~2,000 client accounts (0.02% of user base). No passwords or private keys exposed. Kraken refusing extortion demand and working with federal law enforcement.",
-          "metrics": {
-            "replies": 420,
-            "reposts": 1200,
-            "likes": 3800
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/hackread/status/2026041603",
-          "author": "@hackabordeaux (Hackread)",
-          "content": "Two separate insider incidents — one from Feb 2025, another recent. Criminal group threatening to release screen recordings of Kraken's internal support tools.",
-          "metrics": {
-            "replies": 290,
-            "reposts": 890,
-            "likes": 2400
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/c7five/status/2043720915330969743\" target=\"_blank\" rel=\"noopener\">Nick Percoco</a>（Kraken 安全長）：「我們正被犯��集團勒索，對方威脅若不配合就公開我們的內部系統畫面和客戶資料。最重要的是：我們的系統從未被攻破，資金從未面臨風險。我們不會向犯罪分子付款。」</li>\n</ul></div>",
       "summary": "",
       "chart": "",
       "added_date": "2026-04-26",
@@ -3636,41 +3320,7 @@ window.FEED_DATA = {
       ],
       "summary": "<p>Kalshi 和 Polymarket 是美國最大的兩個預測市場平台，讓使用者對現實事件下注。它們繞過各州博弈法規的方式是向商品期貨交易委員會（CFTC）註冊為「衍生品交易所」，把每筆賭注包裝成「事件合約」。Kalshi 上週週交易量首度突破 30 億美元，其中 86% 來自體育賽事，公司估值 220 億美元。年初 Polymarket 使用者在伊朗開戰前大量下注獲利的爭議，加速了國會的關注。</p>\n        <p>民主黨參議員 Schiff 與共和黨參議員 Curtis 本週聯手提出《預測市場即賭博法》，明確禁止 CFTC 監管平台上架體育和賭場類合約。Kalshi 回應稱法案「受博弈業者遊說推動」，禁令只會把交易推到海外。兩家平台同步宣布禁止政治候選人和職業運動員下注——但參議員直言自律措施「不夠」。</p>",
       "chart": "",
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/Mansour/status/2026032601",
-          "author": "@Mansour (Kalshi CEO)",
-          "content": "Casino lobby hard at work... Banning just pushes this offshore, where no regulation exists. This bill isn't about protecting consumers; it's about protecting monopolies.",
-          "metrics": {
-            "replies": 342,
-            "reposts": 891,
-            "likes": 4200
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/AOC/status/2026032602",
-          "author": "@AOC",
-          "content": "Pervasive gambling is not good for society.",
-          "metrics": {
-            "replies": 1200,
-            "reposts": 2100,
-            "likes": 8900
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/SenCurtis/status/2026032603",
-          "author": "@SenCurtis",
-          "content": "Proud to introduce the Prediction Markets Are Gambling Act with @SenSchiff. Under-regulated prediction markets have exposed America to needless public safety and national security risks.",
-          "metrics": {
-            "replies": 189,
-            "reposts": 445,
-            "likes": 1300
-          }
-        }
-      ],
+      "discussions": "",
       "id": "2026-03-26-美國兩黨法案要把預測市場歸類為賭博-Kalshi-的-86--營收面臨法律風險",
       "date": "2026-03-26",
       "_idx": 26,
@@ -3679,8 +3329,8 @@ window.FEED_DATA = {
         "Web"
       ],
       "source_count": 3,
-      "discussion_count": 3,
-      "importance_score": 9,
+      "discussion_count": 0,
+      "importance_score": 6,
       "added_date": "2026-03-26",
       "parent_id": "2026-04-21-NY-AG-sues-Coinbase-Gemini-prediction-markets"
     },
@@ -3696,8 +3346,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-22",
       "source_count": 3,
-      "discussion_count": 3,
-      "importance_score": 9,
+      "discussion_count": 1,
+      "importance_score": 7,
       "sources": [
         {
           "name": "Decrypt",
@@ -3718,41 +3368,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-22"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/LayerZero_Core/status/2026042201",
-          "author": "@LayerZero_Core",
-          "content": "We've published our incident statement. The exploit was enabled by Kelp's single-verifier DVN configuration, despite our warnings to adopt multi-verifier setup.",
-          "metrics": {
-            "replies": 890,
-            "reposts": 2100,
-            "likes": 4300
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/KelpDAO/status/2026042202",
-          "author": "@KelpDAO",
-          "content": "LayerZero's default GitHub config and quickstart guide both point to 1/1 DVN. 40% of protocols on LayerZero use the same setup. This is not a Kelp-specific choice.",
-          "metrics": {
-            "replies": 720,
-            "reposts": 1800,
-            "likes": 5100
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/taabordeaux/status/2026042203",
-          "author": "@taabordeaux (Protos)",
-          "content": "99% of laundered funds went through THORChain. Specter estimates over $100K affiliate fees earned in one day. ETH → Asgard vaults → native BTC. Classic Lazarus exit.",
-          "metrics": {
-            "replies": 310,
-            "reposts": 920,
-            "likes": 2800
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/layerzero_core/status/2046081551574983137\" target=\"_blank\" rel=\"noopener\">LayerZero</a>（跨鏈協議）：「我們已發布事件聲明。攻擊是透過 Kelp 的單一驗證者 DVN 配置實現的。初步指標指向與北韓 Lazarus 相關的高度專業國家級攻擊者。」</li>\n</ul></div>",
       "summary": "<p>LayerZero 聯合鏈上分析師追蹤資金流向，確認 Kelp DAO 2.92 億攻擊來自北韓 Lazarus 集團。駭客將贓款透過 THORChain 跨鏈橋轉成 BTC，手法與 Drift 攻擊如出一轍。</p>",
       "chart": "",
       "added_date": "2026-04-26",
@@ -3771,8 +3387,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-21",
       "source_count": 3,
-      "discussion_count": 3,
-      "importance_score": 9,
+      "discussion_count": 1,
+      "importance_score": 7,
       "sources": [
         {
           "name": "Unchained（Arbitrum 凍結）",
@@ -3793,41 +3409,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-21"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/ArbitrumDAO/status/2026042101",
-          "author": "@ArbitrumDAO",
-          "content": "The Security Council has frozen 30,766 ETH ($71M) linked to the Kelp exploit. This emergency action was taken with law enforcement input.",
-          "metrics": {
-            "replies": 1100,
-            "reposts": 2800,
-            "likes": 5900
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/VitalikButerin/status/2026042102",
-          "author": "@VitalikButerin",
-          "content": "Letting North Korean hackers walk away with $71M to preserve philosophical purity is absurd. The question is how we build better governance for these decisions.",
-          "metrics": {
-            "replies": 2100,
-            "reposts": 4500,
-            "likes": 18000
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/hasufl/status/2026042103",
-          "author": "@hasufl",
-          "content": "If a 9-of-12 multisig can unilaterally freeze any asset on Arbitrum, then it's a centralized chain wearing decentralized clothing. This should've gone through token-holder governance.",
-          "metrics": {
-            "replies": 680,
-            "reposts": 1900,
-            "likes": 7200
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/arbitrum/status/2046435443680346189\" target=\"_blank\" rel=\"noopener\">Arbitrum</a>（L2 網路）：「Arbitrum 安全委員會已採取緊急行動，凍結 Arbitrum One 上與 KelpDAO 攻擊相關地址中的 30,766 顆 ETH。委員會根據執法機關提供的攻擊者身分資訊採取行動。」</li>\n</ul></div>",
       "summary": "<p>Arbitrum DAO 緊急投票通過凍結鏈上部分被盜資產。支持者認為這是必要止血，但批評者指出此舉等於承認 L2 有「逃生艙」可以回溯交易，與去中心化理念矛盾。</p>",
       "chart": "",
       "added_date": "2026-04-26",
@@ -3846,8 +3428,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-22",
       "source_count": 3,
-      "discussion_count": 3,
-      "importance_score": 9,
+      "discussion_count": 2,
+      "importance_score": 8,
       "sources": [
         {
           "name": "Bloomberg",
@@ -3868,41 +3450,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-19"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/LOABORDEAUX2/status/2026042201",
-          "author": "@LOABORDEAUX (CNBC)",
-          "content": "Iran declared Strait of Hormuz open to shipping — but Trump says U.S. blockade still active. Double blockade making transit virtually impossible for first time in history.",
-          "metrics": {
-            "replies": 560,
-            "reposts": 2100,
-            "likes": 5800
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/HormuzMonitor/status/2026042202",
-          "author": "@HormuzMonitor",
-          "content": "Real-time data: zero commercial transits in the past 72 hours. Iran's mosquito fleet gunboats active in the western corridor while U.S. Navy patrols the eastern lane.",
-          "metrics": {
-            "replies": 340,
-            "reposts": 1800,
-            "likes": 4500
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/ICS_Shipping/status/2026042503",
-          "author": "@ICS_Shipping",
-          "content": "Capture of ships by both US and Iran violates international law. We call on both parties to immediately guarantee safe passage for commercial vessels.",
-          "metrics": {
-            "replies": 180,
-            "reposts": 920,
-            "likes": 2900
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/IranIntl_En/status/2047296880686633114\" target=\"_blank\" rel=\"noopener\">Iran International</a>（媒體）：「Trump 表示已下令美國海軍對任何在荷莫茲海峽佈雷的船隻『開火擊沉』，此舉可能危及兩國��弱的停火協議。」</li>\n<li><span class='discuss-tag'>不同角度</span><a href=\"https://x.com/TrumpTruthOnX/status/2045133182648111309\" target=\"_blank\" rel=\"noopener\">Trump Truth Social</a>（轉發）：「荷莫茲海峽完全開放通行，但針對伊朗的海軍封鎖將持續全面有效，直到與伊朗的交易 100% 完成。」</li>\n</ul></div>",
       "summary": "<p>伊朗在荷莫茲海峽的立場反覆，一度開放航道降溫，又傳出要求過境油輪以比特幣支付過路費。油價與 BTC 同步劇烈波動。</p>",
       "chart": "",
       "added_date": "2026-04-26",
@@ -3921,8 +3469,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-20",
       "source_count": 3,
-      "discussion_count": 3,
-      "importance_score": 9,
+      "discussion_count": 2,
+      "importance_score": 8,
       "sources": [
         {
           "name": "Bloomberg",
@@ -3943,41 +3491,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-11"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/LOABORDEAUX3/status/2026042001",
-          "author": "@LOABORDEAUX (Bloomberg)",
-          "content": "SCOOP: Bessent and Powell convened emergency meeting with CEOs of JPMorgan, Goldman, Citi, BofA, Morgan Stanley to discuss cybersecurity risks from Anthropic's Mythos model.",
-          "metrics": {
-            "replies": 1200,
-            "reposts": 4500,
-            "likes": 12000
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/JamieDimon/status/2026042002",
-          "author": "@JamieDimon",
-          "content": "Anthropic's Mythos reveals 'a lot more vulnerabilities' for cyberattacks. Every bank needs to take this seriously.",
-          "metrics": {
-            "replies": 890,
-            "reposts": 3200,
-            "likes": 15000
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/schnabordeaux/status/2026042003",
-          "author": "@schnabordeaux (Schneier)",
-          "content": "Mythos found thousands of zero-day exploits autonomously. This is cybersecurity's AlphaGo moment — the asymmetry between offense and defense just shifted permanently.",
-          "metrics": {
-            "replies": 680,
-            "reposts": 2800,
-            "likes": 9500
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>官方聲明</span><a href=\"https://x.com/AnthropicAI/status/2041578392852517128\" target=\"_blank\" rel=\"noopener\">Anthropic</a>（AI 公司）：「推出 Project Glasswing：一項緊急計畫，協助保護全球最關鍵的軟體。由最新前沿模型 Claude Mythos Preview 驅動，能比絕大多數人類更有效地發現軟體漏洞。」</li>\n<li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/TheHackersNews/status/2041808682787467452\" target=\"_blank\" rel=\"noopener\">The Hacker News</a>（資安媒體）：「Anthropic 新模型 Claude Mythos 在主要作業系統、瀏覽器和軟體中發現數千個高風險零日漏洞，能力超越頂尖人類專家。Project Glasswing 將部署到關鍵系統防禦。」</li>\n</ul></div>",
       "summary": "",
       "chart": "",
       "added_date": "2026-04-26",
@@ -3995,8 +3509,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-20",
       "source_count": 3,
-      "discussion_count": 3,
-      "importance_score": 9,
+      "discussion_count": 2,
+      "importance_score": 8,
       "sources": [
         {
           "name": "Bankless",
@@ -4017,41 +3531,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-19"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/PhilipMartin/status/2026042001",
-          "author": "@PhilipMartin (Coinbase CSO)",
-          "content": "Coinbase is in close communication with Anthropic about Mythos. The model will accelerate digital threats as well as defense. We're testing it internally.",
-          "metrics": {
-            "replies": 420,
-            "reposts": 1500,
-            "likes": 5200
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/cabordeaux/status/2026042002",
-          "author": "@cabordeaux (CoinDesk)",
-          "content": "Traditional smart contract audits take weeks. Mythos generates effective attack paths in seconds. This extreme speed asymmetry is an unprecedented threat to DeFi protocols.",
-          "metrics": {
-            "replies": 380,
-            "reposts": 1200,
-            "likes": 4100
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/Fireblocks/status/2026042003",
-          "author": "@Fireblocks",
-          "content": "We're part of Project Glasswing. Early findings: Mythos exposed weaknesses in key management and inter-system communication layers that traditional audits completely missed.",
-          "metrics": {
-            "replies": 290,
-            "reposts": 890,
-            "likes": 3200
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>分析師</span><a href=\"https://x.com/tanayj/status/2041676372926419036\" target=\"_blank\" rel=\"noopener\">Tanay Jaipuria</a>（科技分析師）：「Anthropic 發布 Claude Mythos Preview 的系統卡，這個模型自 2026 年 2 月 24 日起內部使用，因攻擊性網路能力不公開發布。能自主發現零日漏洞。」</li>\n<li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/kevinroose/status/2041577176915702169\" target=\"_blank\" rel=\"noopener\">Kevin Roose</a>（NYT 記者）：「Anthropic 的新模型 Claude Mythos 強大到不敢公開發布。取而代之的是成立 40 家公司聯盟 Project Glasswing，讓網路安全防禦者搶先修補關鍵軟體。」</li>\n</ul></div>",
       "summary": "",
       "chart": "",
       "added_date": "2026-04-26",
@@ -4069,8 +3549,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-14",
       "source_count": 3,
-      "discussion_count": 3,
-      "importance_score": 9,
+      "discussion_count": 0,
+      "importance_score": 6,
       "sources": [
         {
           "name": "Decrypt",
@@ -4091,41 +3571,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-12"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/ScottBessent/status/2026041401",
-          "author": "@ScottBessent (Treasury Secretary)",
-          "content": "There is a nihilist group in the industry who prefers no regulation over this very good regulation. If you don't like it, move to El Salvador.",
-          "metrics": {
-            "replies": 2100,
-            "reposts": 4500,
-            "likes": 12000
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/brian_armstrong/status/2026041402",
-          "author": "@brian_armstrong (Coinbase CEO)",
-          "content": "We support the CLARITY Act. The industry needs regulatory clarity, not regulatory nihilism. Let's get this done before midterms close the window.",
-          "metrics": {
-            "replies": 890,
-            "reposts": 2800,
-            "likes": 9200
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/SenTimScott/status/2026041403",
-          "author": "@SenTimScott",
-          "content": "The Senate Banking Committee is working to markup the CLARITY Act by end of April. We've cleared multiple sticking points. The finish line is in sight.",
-          "metrics": {
-            "replies": 340,
-            "reposts": 890,
-            "likes": 2800
-          }
-        }
-      ],
+      "discussions": "",
       "summary": "",
       "chart": "",
       "added_date": "2026-04-03",
@@ -4144,8 +3590,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-22",
       "source_count": 3,
-      "discussion_count": 3,
-      "importance_score": 9,
+      "discussion_count": 1,
+      "importance_score": 7,
       "sources": [
         {
           "name": "CoinDesk",
@@ -4166,41 +3612,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-21"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/sabordeaux/status/2026042201",
-          "author": "@sabordeaux (Michael Saylor)",
-          "content": "Strategy acquired 13,927 BTC for ~$1B at ~$71,902/BTC. Holdings now 780,897 BTC acquired for ~$59.02B at ~$75,577/BTC.",
-          "metrics": {
-            "replies": 2100,
-            "reposts": 5500,
-            "likes": 22000
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/CoinDesk/status/2026042202",
-          "author": "@CoinDesk",
-          "content": "Strategy is buying 10X more Bitcoin than all ETFs combined in 2026. Entirely funded by STRC preferred stock sales. At this pace, they'll cross 1M BTC by summer.",
-          "metrics": {
-            "replies": 680,
-            "reposts": 2100,
-            "likes": 8900
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/pabordeaux/status/2026042203",
-          "author": "@pabordeaux (CNBC)",
-          "content": "Why isn't Strategy's buying moving the market? Because at $1.6T market cap, even $2.5B is noise. But the signal is clear: institutional conviction has never been higher.",
-          "metrics": {
-            "replies": 420,
-            "reposts": 1200,
-            "likes": 4500
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>當事人</span><a href=\"https://x.com/saylor/status/2043661116300050583\" target=\"_blank\" rel=\"noopener\">Michael Saylor</a>（Strategy 執行董事長）：「Strategy 以約 $10 億、均價 $71,902 買入 13,927 顆 BTC，2026 年至今 BTC 收益率 5.6%。截至 4/12，持有 780,897 顆 BTC，總成本約 $590.2 億。」</li>\n</ul></div>",
       "summary": "",
       "chart": "",
       "added_date": "2026-04-16",
@@ -5132,8 +4544,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-20",
       "source_count": 2,
-      "discussion_count": 3,
-      "importance_score": 7,
+      "discussion_count": 2,
+      "importance_score": 6,
       "sources": [
         {
           "name": "Bloomberg",
@@ -5148,41 +4560,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-11"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/TechCrunch/status/2026042001",
-          "author": "@TechCrunch",
-          "content": "Trump officials may be encouraging banks to test Anthropic's Mythos model, despite Pentagon blacklist. Goldman, Citi, BofA, Morgan Stanley are all testing internally.",
-          "metrics": {
-            "replies": 560,
-            "reposts": 2100,
-            "likes": 7800
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/Axios/status/2026042002",
-          "author": "@Axios",
-          "content": "SCOOP: Anthropic limited Mythos access to ~40 organizations. JPMorgan is a 'Platinum' tier Project Glasswing participant — the only bank explicitly named by Anthropic.",
-          "metrics": {
-            "replies": 420,
-            "reposts": 1800,
-            "likes": 6500
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/realDonaldTrump2/status/2026042103",
-          "author": "@realDonaldTrump",
-          "content": "We had some very good talks with Anthropic. They came to the White House, and I think they're shaping up. A deal for Department of Defense use is 'possible.'",
-          "metrics": {
-            "replies": 5200,
-            "reposts": 8900,
-            "likes": 32000
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>產業觀點</span><a href=\"https://x.com/BrianSozzi/status/2043781742545514688\" target=\"_blank\" rel=\"noopener\">Brian Sozzi</a>（Yahoo Finance 主編）：「高盛 CEO David Solomon 表示已取得 Anthropic 的 Mythos 模型：『我們正與 Anthropic 和所有安全供應商密切合作，盡可能利用前沿模型的能力。』」</li>\n<li><span class='discuss-tag'>分析師</span><a href=\"https://x.com/alliekmiller/status/2041925887075962920\" target=\"_blank\" rel=\"noopener\">Allie K. Miller</a>（AI 投資人）：「Anthropic 調查了 Mythos 的內部機制，值得一讀。早期版本過於激進且具破壞性，經過多輪安全調校後才達到可控狀態。」</li>\n</ul></div>",
       "summary": "",
       "chart": "",
       "added_date": "2026-04-26",
@@ -5229,8 +4607,8 @@ window.FEED_DATA = {
       ],
       "date": "2026-04-20",
       "source_count": 2,
-      "discussion_count": 3,
-      "importance_score": 7,
+      "discussion_count": 1,
+      "importance_score": 5,
       "sources": [
         {
           "name": "Decrypt",
@@ -5245,41 +4623,7 @@ window.FEED_DATA = {
           "added_date": "2026-04-20"
         }
       ],
-      "discussions": [
-        {
-          "platform": "X",
-          "url": "https://x.com/EricBalchunas/status/2026042001",
-          "author": "@EricBalchunas (Bloomberg ETF)",
-          "content": "BTC ETF weekly inflows hit $996M — four-month high. IBIT alone pulled $906M, that's 91% of all flows into one product. BlackRock dominance is insane.",
-          "metrics": {
-            "replies": 520,
-            "reposts": 2100,
-            "likes": 8200
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/FarsideUK/status/2026042002",
-          "author": "@FarsideUK",
-          "content": "Bitcoin ETF Flow update: 8 consecutive days of positive inflows. April total now $2.43B — nearly double March's $1.32B. IBIT holdings at record 806,700 BTC.",
-          "metrics": {
-            "replies": 340,
-            "reposts": 1200,
-            "likes": 4500
-          }
-        },
-        {
-          "platform": "X",
-          "url": "https://x.com/JSeyff/status/2026042003",
-          "author": "@JSeyff (The Block)",
-          "content": "BTC ETFs have now turned positive across every timeframe — daily, weekly, monthly, YTD. The ceasefire rally + ETF momentum is a powerful combination.",
-          "metrics": {
-            "replies": 280,
-            "reposts": 890,
-            "likes": 3200
-          }
-        }
-      ],
+      "discussions": "<div class='story-discuss'><ul>\n<li><span class='discuss-tag'>市場分析</span><a href=\"https://x.com/FarsideUK/status/2046435513205162366\" target=\"_blank\" rel=\"noopener\">Farside Investors</a>（ETF 數據追蹤）：「4/20 BTC ETF 單日淨流入 $2.384 億，IBIT 獨拿 $2.56 億，GBTC 流出 $2,490 萬。連續多日正流入，四月累計 $24.3 億，近乎翻倍三月數字。」</li>\n</ul></div>",
       "summary": "",
       "chart": "",
       "added_date": "2026-04-26",
@@ -7328,6 +6672,65 @@ window.FEED_DATA = {
       "importance_score": 2,
       "added_date": "2026-03-20",
       "parent_id": null
+    },
+    {
+      "id": "2026-04-23-polymarket-soldier-insider-trading-maduro",
+      "parent_id": "2026-04-21-NY-AG-sues-Coinbase-Gemini-prediction-markets",
+      "title": "Kalshi、Polymarket 搶推永續合約，模糊預測與衍生品界線",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-21/kalshi-to-expand-crypto-wagers-with-perpetual-futures-push",
+      "tags": [
+        "監管",
+        "預測市場",
+        "DeFi"
+      ],
+      "date": "2026-04-22",
+      "source_count": 6,
+      "discussion_count": 0,
+      "importance_score": 28,
+      "editor_boost": 0,
+      "sources": [
+        {
+          "name": "Bloomberg（Kalshi 永續合約）",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-21/kalshi-to-expand-crypto-wagers-with-perpetual-futures-push",
+          "title": "Kalshi 計畫推出加密貨幣永續合約，擴大衍生品版圖",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "CNBC（Polymarket 永續合約）",
+          "url": "https://www.cnbc.com/2026/04/21/polymarket-launches-trading-of-heavily-leveraged-perps-contracts.html",
+          "title": "Polymarket 推出高槓桿永續合約交易",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "CoinDesk（Kalshi vs Coinbase）",
+          "url": "https://www.coindesk.com/markets/2026/04/21/kalshi-takes-on-coinbase-robinhood-with-new-plan-to-offer-crypto-perpetual-futures-the-information",
+          "title": "Kalshi 挑戰 Coinbase、Robinhood，計畫提供加密永續合約",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/kalshi-and-polymarket-enter-the-crypto",
+          "title": "Kalshi 與 Polymarket 進軍加密貨幣，同時推出永續合約",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/kalshi-and-polymarket-race-to-launch-crypto-perpetual-futures-challenging-coinbase-and-robinhood/",
+          "title": "Kalshi 與 Polymarket 競相推出永續合約，挑戰 Coinbase 和 Robinhood",
+          "added_date": "2026-04-22"
+        },
+        {
+          "name": "Wu Blockchain",
+          "url": "https://wublockchain.xyz/news/kalshi-launches-crypto-perpetual-futures-trading-18821",
+          "title": "Kalshi 計畫推出加密貨幣永續合約交易",
+          "added_date": "2026-04-22"
+        }
+      ],
+      "summary": "<p>Kalshi 和 Polymarket 同日宣布推出永續合約產品，讓使用者可以長期持有預測部位。批評者認為這本質上是衍生品交易，進一步模糊了預測市場與金融商品的界線。</p>",
+      "chart": "",
+      "discussions": "",
+      "added_date": "2026-04-26",
+      "last_updated": "2026-04-26"
     }
   ],
   "last_scan_date": "2026-04-26"
